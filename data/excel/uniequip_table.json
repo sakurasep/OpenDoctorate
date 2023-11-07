@@ -18289,7 +18289,7 @@
     },
     "uniequip_001_yato2": {
       "uniEquipId": "uniequip_001_yato2",
-      "uniEquipName": "麒麟X夜刀证章",
+      "uniEquipName": "麒麟R夜刀证章",
       "uniEquipIcon": "uniequip_001_yato2",
       "uniEquipDesc": "穿戴特制套装的干员夜刀擅长反复切入战场\n根据外勤部门决议\n在外勤任务中划分为特种干员，行使处决者职责\n特别颁发此证章\n以兹证明",
       "typeIcon": "original",
@@ -23734,6 +23734,2163 @@
       "type": "ADVANCED",
       "uniEquipGetTime": 1690862400,
       "charEquipOrder": 1
+    },
+    "uniequip_001_ncdeer": {
+      "uniEquipId": "uniequip_001_ncdeer",
+      "uniEquipName": "九色鹿证章",
+      "uniEquipIcon": "uniequip_001_ncdeer",
+      "uniEquipDesc": "九色鹿擅长为友军提供持续性保护\n根据外勤部门决议\n在外勤任务中划分为辅助干员，行使护佑者职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_4019_ncdeer",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_ncdeer": {
+      "uniEquipId": "uniequip_002_ncdeer",
+      "uniEquipName": "“仙药”",
+      "uniEquipIcon": "uniequip_002_ncdeer",
+      "uniEquipDesc": "一间小院里，年轻的农夫卸下农具，坐了下来。\n“嘿，这条腿真的是多谢您了！农具用不熟练，差点就瘸了，路都走不了。”\n医生收拾着药方和药草，仔细地嘱咐他注意着服药的时间和次数。\n农夫坐在地上，看向山下：“医生！我现在一日能垦出半亩地，但村子里有这么多人，要想把这座山都垦出来种粮食，让所有人都吃饱饭，我恐怕还要干百来年！\n“医生，要不您给我这样一种药，吃了就能长生不老，力大如驮兽！我们村子可就指望着我哪！”\n医生笑着皱了皱眉，在医书上多折出一个角：“我会试试看的。”\n \n医生走过很多地方，荒野中也多出几座坟茔，她又敲响小院的门。\n农夫坐在门槛上，他攥着根干瘪的麦穗，脸上爬上几根皱纹，拳头狠狠地叩着胸口喘气：“老驮兽走啦，老家伙还走到我前面去了。”\n医生看过，只说他并没有生病，但要注意不能太劳累，说着又开出几个方子。\n农夫把药草放在一旁：“我想把幺儿送到那什么移动城市去，那里能有好前程，可钱不够，怎么种地都不够。”\n他牵起新买的小驮兽，想了又想：“医生，再这样垦下去，我怕我活不了多久......怎么办？我要是没了，我的幺儿可怎么办？......有没有什么法子，让我能多活几年？”\n医生不知道还能说些什么，只能多拿出几丸药：“这些能补力气，或许可以让你......”\n \n当医生走过数个地块，踏入大大小小的村庄城镇，听过无数声祈求，她又想起那只嶙峋的驮兽，和牵着驮兽的农夫。\n小院里的人比平时要多，农夫躺在床上，他的手被儿女牵着，儿女身后又站着他们的儿女，几双眼睛望着她，似乎在问还有什么办法。\n医生走上前：“您之前说过，想要那种吃了能长生的药，我做出来了，您吃下这个，还能再......”\n老人沉默着，皱缩的面庞动了动：“不了，怎么会真的有这种药呢？......医生，您不会老，但这药就算我吃了，也没什么用吧......”\n医生顺着他的目光看向屋外，秧苗只种了一半，幺儿腿上还沾着泥。农夫叹了口气合上眼，幺儿低低地哭了起来。\n\n医生踏入山林。\n“老无可治吗？”无人应答，但山林树鸣，羽兽低语。\n野山莲开了口：“老无可治。钟鸣鼎食者方求长生。”\n“病无可治吗？”\n小兽开了口：“病可治。众生只求无病无灾。”\n医生回头，山莲花开，小兽饮水，并无应答。\n医生了然。“不为长生，只为无灾。黎民苦，我此后只治病。”",
+      "typeIcon": "bls-x",
+      "typeName1": "BLS",
+      "typeName2": "X",
+      "equipShiningColor": "blue",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_4019_ncdeer",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 50,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_ncdeer_1",
+        "uniequip_002_ncdeer_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30044",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 40000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31054",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 50000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30104",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 60000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_slent2": {
+      "uniEquipId": "uniequip_001_slent2",
+      "uniEquipName": "淬羽赫默证章",
+      "uniEquipIcon": "uniequip_001_slent2",
+      "uniEquipDesc": "干员淬羽赫默擅长为友军提供持续性保护\n根据外勤部门决议\n在外勤任务中划分为辅助干员，行使护佑者职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_1031_slent2",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_slent2": {
+      "uniEquipId": "uniequip_002_slent2",
+      "uniEquipName": "难得清醒",
+      "uniEquipIcon": "uniequip_002_slent2",
+      "uniEquipDesc": "前面就是她的新办公室了。\n两名防卫科成员提着她的行李站在她的身侧，这是护送重要人物的规格。\n对，现在，她也算是重要人物了。\n这里是总辖办公室的下面一层，各类行政办公室聚集在这里，她对这里并不陌生，但今天，她忽然感觉，空调开得有些冷，鞋子与地板碰撞的声音很响，别人的视线......很刺眼。\n她忍不住叹了口气。\n在身后的一名防卫科成员看来，她一上任就在为莱茵生命的未来而忧虑，他心中不禁对她多了几分尊敬。\n这时，他的终端响起，是一则通告，他低声回复了两句后挂断。\n“怎么了？”\n“啊，没什么，似乎有人使用了工程科的管线输送了什么东西，有同事正在追查，您不用担心。”\n办公室很快就到了。防卫科成员熟练地在门上进行了一些操作后，向她比了一个“请”的手势。\n“认证通过。欢迎您，总辖构件科执行顾问奥利维亚·赫默。”\n她打开门，走入办公室。\n防卫科成员将她的行李放在茶几上，在她点头示意后离开。\n她环视一周，一间标准的大型办公室，空旷到让伊芙利特来撒野大概都绰绰有余。\n还没来得及感慨，身后的门忽然开了又关上了。\n“还有什么——”她不得不把话咽了下去，因为来者不是人，而是......\n“咪波？！”是的，在她面前的，毫无疑问是梅尔的得意之作。\n咪波背上背着一只袋子，袋子里有一小袋咖啡豆、一只杯子，还附带了一封信。\n她拆开信，是梅尔的笔迹。\n“我一直在想，我应该送给你什么礼物，乔伊丝告诉我，她打算送你咖啡豆，我灵机一动，就把一只咪波改造了一下。\n“你走的时候我还在改造，原本我想寄给你的，结果总辖构件科的人说，寄给你的礼物已经堆积如山了，光是检查就要半个月，我可等不了，所以就稍微借用了一下工程科的管线。”\n敲门声响起。\n糟了，赫默想到，要是咪波被发现的话——\n她抬头看去，发现咪波跳上了她的新办公桌，在一连串复杂的变形后，变成了一台咖啡机。\n防卫科成员面带歉意地走了进来：“抱歉，赫默女士，经管线运输的货物似乎送到了这里，您的办公室里有什么，咦，这是——”\n赫默不假思索地回答道：“一台咖啡机而已。”\n“但......”\n“这是我朋友送我的升职礼物，有什么问题吗？”赫默说着，拿起咖啡豆装入咪波中试图熟练地为自己打一杯咖啡——呃，应该是这个按钮吧？哦，太好了，没弄错。\n“我明白了，您这边没有异常就好，打扰了。”\n防卫科成员没有再怀疑，转身离开了。\n她松了一口气。\n对了，信上还有一段。\n“虽然在欢送会的时候已经说过了，不过，还是再说一遍吧。恭喜升官，赫默！下次我回总部的时候来找你玩！”\n她感觉自己似乎轻松了一些。有些东西确实改变了，但是有些东西看来并不会改变。\n有这台咖啡机在，她想，她应该可以保持清醒。",
+      "typeIcon": "bls-x",
+      "typeName1": "BLS",
+      "typeName2": "X",
+      "equipShiningColor": "blue",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_1031_slent2",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 60,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_slent2_1",
+        "uniequip_002_slent2_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30135",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 60,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30125",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30145",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 120000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_tknogi": {
+      "uniEquipId": "uniequip_001_tknogi",
+      "uniEquipName": "月禾证章",
+      "uniEquipIcon": "uniequip_001_tknogi",
+      "uniEquipDesc": "干员月禾擅长为友军提供持续性保护\n根据外勤部门决议\n在外勤任务中划分为辅助干员，行使护佑者职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_343_tknogi",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_tknogi": {
+      "uniEquipId": "uniequip_002_tknogi",
+      "uniEquipName": "胧夜微明",
+      "uniEquipIcon": "uniequip_002_tknogi",
+      "uniEquipDesc": "山间的雾气还未散去，迷蒙的月轮就攀上了天宇。月华在雾色中青灰微茫，如一段轻纱将稀疏的枝叶纠缠，将这个不再宁静的夜晚拢入帐中。\n一只小虫儿吱吱呀呀地寻着路，围绕着石灯笼的光转了又转，不一会儿似是转累了，停落在一颗光溜的石头上。\n石头忽然皱了起来，随后一只手摸上来扇了扇，将那迷了路的虫儿驱走了。\n“这雾，何时是个头啊——”\n僧人靠坐在石灯笼旁，难掩疲惫的脸上挤出一丝苦笑。要知道，在天还未亮时，他便上山来采些野果和竹笋，却忽遇大雾，一时迷了方向。在蒙蒙雾气之中，他依稀看见一点微光，以为是山麓间的人迹，便循着找了上来，却发现只是一座粗糙、布满青苔的石灯笼。\n不觉间，雾更浓了。别说找见下山的路，就连伸出脚去，都看不清自己停落在何处。僧人只好暂且休憩在此间，伴着石灯笼等到了夜晚。\n忽然，一阵清脆的铃声传来，僧人揉了揉惺忪的眼睛，竟看见浓雾中又显现一点微光，与此前不同的是，那光芒正朝着自己飘摇而来。\n缓慢、坚实的脚步声渐渐迫近，紧接着几缕淡蓝素白的飘带拂过石灯笼的帽檐。衬着月色的轻薄与灯笼的微明，僧人才看清来者的面容。\n“你......你是山巅那座神社的......”\n“山中已过初春，值此时节，最易生云雾。看来你对此山并不了解。\n“是山下寺庙中新来的？”\n见来者这样问道，僧人一时不知该如何作答。\n“不必担忧。\n“我虽在山顶出任神职，但平日里，我并不愿常待在神社之中。\n“为山中失足之人提供救助，为雾里迷途之人指引方向，这更符合我对‘神职’一词的诠释。\n“至于你为何而来，又为何受困于此，我不会过问。”\n僧人还将信将疑，来者却已然挥起法杖，飘带卷着光点与水汽，又是一阵铃声过后，雾便散去了些许。深林间狭路渐渐显现，抬头望去，可以隐约看见通往山巅的路途上伫立的那一座羽栖。\n“走吧，这里离山下的寺庙还远。\n“先去山顶歇一夜，等天明雾散，我再送你下山。”",
+      "typeIcon": "bls-x",
+      "typeName1": "BLS",
+      "typeName2": "X",
+      "equipShiningColor": "blue",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_343_tknogi",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 50,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_tknogi_1",
+        "uniequip_002_tknogi_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30034",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 40000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30074",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 50000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31014",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 60000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_quercu": {
+      "uniEquipId": "uniequip_001_quercu",
+      "uniEquipName": "夏栎证章",
+      "uniEquipIcon": "uniequip_001_quercu",
+      "uniEquipDesc": "干员夏栎擅长为友军提供持续性保护\n根据外勤部门决议\n在外勤任务中划分为辅助干员，行使护佑者职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_492_quercu",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_quercu": {
+      "uniEquipId": "uniequip_002_quercu",
+      "uniEquipName": "锈枝",
+      "uniEquipIcon": "uniequip_002_quercu",
+      "uniEquipDesc": "3月20日\n经过本次行动，小队已成功与城外建立联络渠道。我们将继续停留在暴乱者的包围圈内，侦察情报，等待支援部队以及谈判结果。\n两名优秀的士兵在本次行动中牺牲，我申请为他们的家人发放体恤金，申请书随报告附上。\n（他们是队伍里最年轻的孩子。我为他们唱了送别的诗，愿他们在异乡的土地安眠。我认为对于我的队伍，这一仪式是必须的。）\n\n4月4日\n在仍未接到进一步指令的情况下，小队按照原计划释放了诱饵，由此锁定了几名敌方核心人员，资料已附上，小队已为斩首行动做好准备。\n由于作战时间较预期大幅延长，医疗物资消耗较大。我将派遣小队中的专业人员重新检查联络渠道，如果外围情况危急，或通讯线路出现故障，她能够为你们提供有效帮助。\n\n4月10日\n我为自己的莽撞道歉，事件结束后，我愿为本次作战失败领受处分。\n小队在我的指挥下实施了突破。我从若干情报判断，已有其他维多利亚军队抵达飞地，因此按照计划，我们需要为后续部队打开缺口，履行先遣部队的职责。另一方面，我们出现了物资短缺的情况，无法再按兵不动。\n从结果来看，我出现了重大判断失误。\n我将在此一一记录伤亡者的代号和家族姓氏。\n希望这份报告能顺利抵达，我们亦能收到下一步指令。\n\n4月15日\n我们成功与隶属赤铁近卫队的一支队伍接头，得知城内确实有其他友军存在，我们深受鼓舞。只是，他们也没能带来上一级的有效指令。\n抱歉纸页上有血渍，我忙于治疗我受伤的士兵。此处已无作战情况可报告，这只是......一封求援信。外面到底发生了什么？\n\n（无日期）\n我不会再写报告了。我已经没有队伍了。\n为什么没有回音？为什么作战目标是假的，情报也是假的？为什么他们不能死得其所？\n收到报告的人，你是谁，我不在乎。我不会回指挥部复命了。我背负着那些孩子的生命，我必须赎罪，你也是。",
+      "typeIcon": "bls-x",
+      "typeName1": "BLS",
+      "typeName2": "X",
+      "equipShiningColor": "blue",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_492_quercu",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 50,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_quercu_1",
+        "uniequip_002_quercu_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30054",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 40000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30034",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 50000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31024",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 60000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_almond": {
+      "uniEquipId": "uniequip_001_almond",
+      "uniEquipName": "杏仁证章",
+      "uniEquipIcon": "uniequip_001_almond",
+      "uniEquipDesc": "干员杏仁擅长将敌人拖拽至身边后进行攻击\n根据外勤部门决议\n在外勤任务中划分为特种干员，行使钩索师职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_4105_almond",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_almond": {
+      "uniEquipId": "uniequip_002_almond",
+      "uniEquipName": "“毕业设计”",
+      "uniEquipIcon": "uniequip_002_almond",
+      "uniEquipDesc": "“雷蛇，这儿怎么有个蛋糕？”\n“人事部送来给新人的。”\n“哦，你是说派来当随队工程专员的新人吧，好像是个刚毕业的学生？好久没来新人了，你不想逗逗她吗？啊哈，有了，我先把蛋糕藏到柜子里。”\n“芙兰卡，不许乱来，人已经到了——请进。”\n“抱歉，我先把东西放下来。这里是B.P.R.S.部门吗？”\n“......罗拉·阿里亚斯？”\n“是。”\n“罗拉，接下来会开始一场B.P.R.S.的面试，你清楚吧？”\n“芙兰卡——”\n“面试？好像没人告诉我......算了，没关系，请开始吧。”\n“听好啦，第一个问题，你带来的这个大家伙是什么？”\n“欸欸？要问这个......它叫‘牵引式远距离搬运原型机’，本来是我的毕业设计，不过......准备来黑钢以后，我做了一些使它适用于安保领域的改进。但继续研发需要经费，申请经费要更多试验数据，所以我申请到你们这儿......上手体验会直观一点，两位要试试吗？”\n“雷蛇，不如你......”\n“芙兰卡应该很想尝试，对吧？”\n“给，握住这个把手，注意安全。”\n“安保工作中经常会和敌人相隔较远的距离。经过改造后，这个设备能将远处的东西或者人直接扯过来。扣下扳机就好。”\n“欸~比一般的钩索要稳得多，但这功能很常见吧。”\n“是的，这是已经改好的基础功能，我目前在研究的是另一个方向。你们知道，在复杂的地形中普通的钩索很难起作用，而这个机械爪能抓住大部分物体......这个也试试吧，按这里就能切换模式。”\n“还挺方便的！啊，雷蛇，我可以把那个抓来......”\n“使用方法和刚刚的一样。要注意的是，由于还没调整好——”\n“咣当！”\n随着一声巨响，芙兰卡从原地消失，瞬间出现在了房间的另一边。柜子轰然倾倒，碎掉的蛋糕与奶油遍地都是。当然，最多的是在芙兰卡的脸上。\n“别对着不稳的物体发射，它会拉着你快速移动......”\n雷蛇强行控制住面部肌肉，转向面带歉意的罗拉。\n“看来没有迎新蛋糕可以吃了。面试结束......欢迎来到B.P.R.S.，罗拉，你的新生活开始了。”",
+      "typeIcon": "hok-x",
+      "typeName1": "HOK",
+      "typeName2": "X",
+      "equipShiningColor": "red",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_4105_almond",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 50,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_almond_1",
+        "uniequip_002_almond_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30064",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 40000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30034",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 50000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30024",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 60000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 1
+    },
+    "uniequip_003_chen": {
+      "uniEquipId": "uniequip_003_chen",
+      "uniEquipName": "往昔时光",
+      "uniEquipIcon": "uniequip_003_chen",
+      "uniEquipDesc": "大地的伤痕自天际线奔袭而来，精准地击中一片维多利亚式建筑群，楼宇如同遭遇旋风袭击的树林，围绕着同一个点以放射状倒塌。在这片帝国的废墟之中，两个身影正翻过一座倒下的石碑，试图寻找高点。\n“这里荒废多久了？”陈站在废墟上远眺，身后的石碑上那些曾经象征着荣誉的名字都被涂抹殆尽。\n“这片校舍自从战争爆发那会儿就弃用了，还没完成学业的学弟学妹们被分流到了新的校区，完成了剩下的课程......陈陈，前面是我们以前的老训练场，你还记得吗？”风笛的声音从低处传来。\n“我记得特别清楚，感觉自己当学生的时候总是错过一些好事。一到毕业路也修好了，训练场也修好了。”\n训练场被冲击波挤成了一片片翘起的地块，陈捡起了一块石头，丢进地块夹缝中冒出的灌木丛，躲在其中的羽兽尖叫着扑腾向远处。\n“那时候已经足够好啦。”风笛的声音自远而近，停留在了陈的耳畔。\n“也是。那可能是我最单纯的一段时间了，不用去思考一些麻烦的问题，只需要专心训练和学习。”\n“这就是当时的你每天疯狂训练，全常规科目拿A的动力？”风笛将双手搭在陈的肩上，轻轻地摇晃着。\n“回去以后，我发现有太多的事无法用刀剑解决，有些时候会觉得自己过于渺小，即便努力工作，也无法改变很多事——消灭敌人有的时候并不能解决问题。”陈摇了摇头，好像要把过去的庞杂思绪都从脑海中丢出去。\n两人走下高坡，记忆中的花圃还在原地。\n曾经高悬的近卫学校标志一半深深插入泥土，一半斜靠在断裂的石柱上。夕阳西下，阳光倾泻在已有斑驳锈迹的标志上，仅剩的金属光泽诉说着这里曾经的荣光。\n“一切都变了，维多利亚不也一样吗？”陈盯着校徽，喃喃自语道。\n“还是有人没有变的。知道你要来，我前几天特意去拜访了泰勒教官。当时你走得太匆忙，留在宿舍里的文件啥的都没带走——她这些年一直保管着你这些东西。这是你的学业通过证明。哦对了，还有这个！”\n风笛从随身的包里掏出了一叠证件，还有一把木剑。\n“这是你当年的训练用剑，按道理是要收回的，但是你的成绩太好了，教官本来打算给你个惊喜，想把这把剑送给你......”\n“代我向她表示感谢。那会儿我走得太快了......”\n“至少你现在回来了。这些年，我们很多同学再也没有回来。”\n两人沉默了一会儿。\n“十年后，你觉得你会在哪？”\n“谁知道呢，应该要回去吧，还有很多事要做。”陈向远方看去，那正是龙门的方向，“那时无论来这上学还是离开，都是他们安排好的。现在，我要自己走回去了。”",
+      "typeIcon": "swo-y",
+      "typeName1": "SWO",
+      "typeName2": "Y",
+      "equipShiningColor": "red",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_010_chen",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 60,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_003_chen_1",
+        "uniequip_003_chen_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 60,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30135",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30145",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 120000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 2
+    },
+    "uniequip_003_saga": {
+      "uniEquipId": "uniequip_003_saga",
+      "uniEquipName": "何处寻驮？",
+      "uniEquipIcon": "uniequip_003_saga",
+      "uniEquipDesc": "温热的气息拂过脸庞，熟悉的景象开始在视野边缘生长。回过神来，周遭的一切已然与回忆中别无二致，老樟树下还倚着师兄亲手雕的木驮兽，黑毛的小牙兽正抱在上面磨着长牙。\n斗笠边沿毛毛刺刺的棕丝刮过她的额头，挟来熟悉的棉霉气味。嵯峨心里一惊，从眼前踱过的老僧不是别人，正是住持爷爷。她赶忙打起精神，端正姿态，但僵硬的腰背却不允许她挺起身子。当初下山时，年少的嵯峨才刚及住持爷爷的肩高，而如今，她已被上百个春天的落雨和上百个秋天的落叶压得佝偻龙钟，又一次只及住持爷爷的肩高了。\n“住持爷爷，小僧......”\n老住持似乎对她要说的话不以为意，只撇了撇头，示意她挪挪脚，然后毫不客气地将拖把伸了过来。她只得拖着沉重的双腿，一面颤颤巍巍避着拖把，一面磕磕巴巴诉说困惑。这拖把杆子嵯峨是认得的——那是住持爷爷曾经与她过招时所用的栎木杆。只是不知为何，如今它被绑上布条，成了擦地的拖把。\n“小僧......愚僧惭愧，但愚僧还有疑惑要求问！\n“愚僧在外游历，至今也有百年之久了，可到头来，却好像越来越糊涂了。初下山时，愚僧以为事物总有分明的道理，诚然世间种种都令人感到不解，但也处处皆有答案可寻，因此在夕先生的画卷中盘桓十载，也只觉得妙趣横生。\n“可后来，愚僧自认的道理全都没了道理。见得越多，就越觉得世间的人和事全是同一副模样。人活在世间不过都是拿一面镜子，或照着自己，或照着别人，然后四处取些色彩，在镜子里的人形上涂涂抹抹、修修补补罢了。人将那镜子涂得满满当当、密不透光，便以为自己通善恶、知真假了。愚僧求学问道上百年，最后瞅瞅行囊，得来的全是脏兮兮的镜子。愚僧不明白，如果世道净是如此，还能在何处见道？”\n待嵯峨说完，老住持才停下手中活计，抬头答道：“若你是驮兽，便能见道了。”说罢，不等她再发问，老住持便抄起拖把，直朝她脸上打来。\n\n嵯峨从梦中惊醒时已是正午。定睛一瞧，原来是同行的驮兽等得不耐烦，正用粗大的舌头舔刷着她的脸。\n“好了，走了！”",
+      "typeIcon": "sol-x",
+      "typeName1": "SOL",
+      "typeName2": "X",
+      "equipShiningColor": "yellow",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_362_saga",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 60,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_003_saga_1",
+        "uniequip_003_saga_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30145",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 60,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30125",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 120000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1693886400,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_horn": {
+      "uniEquipId": "uniequip_001_horn",
+      "uniEquipName": "号角证章",
+      "uniEquipIcon": "uniequip_001_horn",
+      "uniEquipDesc": "干员号角擅长在维持战线之余提供远程火力支援\n根据外勤部门决议\n在外勤任务中划分为重装干员，行使要塞职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_4039_horn",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_horn": {
+      "uniEquipId": "uniequip_002_horn",
+      "uniEquipName": "“典范之人”",
+      "uniEquipIcon": "uniequip_002_horn",
+      "uniEquipDesc": "号角靠坐在一棵树下。树干上有一个炮弹打出来的窟窿。穿过来的风摩擦着坏死的木头，像某种粗糙的乐器，发出呜呜咽咽的声响。\n至少比交战现场要安静多了。号角准备休息一会，可她刚一闭眼，就有人靠了过来。“队长队长，你在这里啊！”风笛抱着她的胳膊，下巴压在她肩上。太重了，号角想把手抽回来，可瓦伊凡的力道太大，她一下没能挣开。“我找了你好久，”风笛眨巴着眼睛，语气变得可怜巴巴的，“好久好久。”\n大概是太累了，她不小心睡了过去。号角有些愧疚，身为风暴突击队的队长，她不该丢下队员独自休息。战斗进行得怎么样了？三角铁的侦察小组回来了吗？风笛受的伤还疼不疼？一大堆问题堵在她的喉咙口。身后传来脚步声和说笑声。双簧管大概又在说冷笑话，大提琴笑得比别人迟一点，但最大声，而且边笑边用力拍打双簧管的肩，拍得他一阵求饶。风笛终于放过了号角的胳膊，蹦起来，朝队友们用力挥手。\n号角想回头，很想很想，但她做不到。她心里很清楚，自己的身后只有一个窟窿。她不能回头，一回头，他们的声响就会消失。\n“做什么梦呢？”洛西莉还是惯常的调侃语气，“偶尔让我拿一次第一名也没什么吧？累得倒头就睡，可真不像你啊。”\n号角看到手边的书被合上了，里面夹着一枚细细的绿色的针。洛西莉最近喜欢做毛毡，说能很好地缓解期末压力。她声称手里的土黄色圆球是号角的脑袋。号角反复强调自己的发色是金白相间，但洛西莉不听。\n“你到底梦见什么了啊，又是战场吗？”洛西莉放下未完成的毛毡，指尖点了点下巴，充满好奇地说，“在你梦里，未来是什么样子的呢？我还在考虑毕业后做什么，管后勤有点太没意思了，要不还是当参谋吧。哎呀，也不知道第一次打仗会是什么样子。这样悠闲的日子，过一天少一天咯。”\n可惜时间并不会因为任何人的愿望而放慢脚步。半成品毛毡挂饰躺在地上，真的变成了和泥土一样的颜色。号角猜不出洛西莉会怎么制作自己的五官，也没机会知道了。她也记不清洛西莉的五官。好友总是喜欢坐在最亮的地方，她明艳的绿发，她骄傲的笑容，全都融化在了火一样的阳光里。\n一双粗糙的手落在号角脸上。号角记得，每次在院子里的槭树下睡午觉，奶奶都会过来，摇着扇子，给她遮挡阳光，顺便驱赶飞虫。这无疑还是在做梦，这一回号角很清醒，她不打算睁眼了。过去她总是缠着奶奶讲述军队里的往事，讲奶奶的爷爷，还有每一位白狼的功勋故事。她梦想着和祖辈一样，为维多利亚而战。现在战争真的发生了，她梦见的，却是奶奶摇扇子的声音。\n一下一下，稳定且有力的节奏，比睡眠本身更像是慰藉。号角睁开眼，费斯特冲她不好意思地笑了下，他并不希望手头的工作吵醒她。自己的盾也该检修了。号角低下头，有一阵风吹过来，细小的花朵从树上落下来，铺满了斑驳的盾牌。\n原来，身后的树并没有在炮火中彻底死去啊。",
+      "typeIcon": "for-x",
+      "typeName1": "FOR",
+      "typeName2": "X",
+      "equipShiningColor": "red",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_4039_horn",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 60,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_horn_1",
+        "uniequip_002_horn_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30135",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 60,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30145",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 120000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_firwhl": {
+      "uniEquipId": "uniequip_001_firwhl",
+      "uniEquipName": "火哨证章",
+      "uniEquipIcon": "uniequip_001_firwhl",
+      "uniEquipDesc": "干员火哨擅长在维持战线之余提供远程火力支援\n根据外勤部门决议\n在外勤任务中划分为重装干员，行使要塞职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_493_firwhl",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_firwhl": {
+      "uniEquipId": "uniequip_002_firwhl",
+      "uniEquipName": "“成长的足迹”",
+      "uniEquipIcon": "uniequip_002_firwhl",
+      "uniEquipDesc": "亲爱的阿格妮：\n这是你时隔多年第一次回家，听说你有了自己的事业，我和你父亲都很高兴。但你走得太匆忙，好多话来不及说。正好你临走之前不想多带行李，让我把你的旧物寄给你，我就把想说的话都写在物品单上了。\n【半盒火柴】\n那时你三岁，学着大人的样子用力把火柴擦燃，把火柴杆插进自己的指缝里。你父亲赶紧冲过去，你却咯咯笑着，对着父亲挥了挥胖嘟嘟的小拳头，火就灭了。\n【磨损的点火器】\n有一年暑假前你不知从谁那里要到了这东西，本来是坏的，开学时居然真的被你修好了。你父亲好几次想把那东西没收，可看到你把它放在指尖旋转时脸上兴奋的表情，总是狠不下心。\n【高档打火机】\n这是艾希在她第一次下矿井之前送你的。当时你正在准备去移动城市上高中，已经不太爱和家里人说话了，我们都以为你只是到了年龄。可直到那天，你回家过十八岁生日，知道艾希因为矿难去世之后，和父亲大吵了一架，我们才知道想简单了。\n这件事已经过去十多年了。一开始你父亲还觉得应该让你继承家里的产业，这样你就算不理解我们，也能按照自己的想法去经营，去处置......哪怕把产业卖了呢！和产业相比，我们更想要一个能和爸爸妈妈谈谈心的女儿啊。\n可这件事你们谈一次就吵一次，到你大学毕业前，你已经懒得和我们说话了。\n【便携式灭火器】\n这本该是你的十八岁生日礼物。选它的时候，我们抱着一种近乎投降的轻松感。你喜欢玩火，而且玩得很好，我们接受，只希望你能记得把火灭掉，现在看来，连这样的担心都是多余的。\n你这次回家，我们看得出你成长了很多，不再是那个有自己想法却不会表达的小姑娘了。可当我们问你生意如何，需不需要支援的时候......你只是笑了笑，说你一切都好。\n阿格妮，我们理解你的倔强和坚持，可......至少说说你遇到的困难，让我们出出主意——不，就算我们只是陪你一起叹息，一起落泪，也总好过现在，我们仍然不知道你遭遇了什么，你父亲只能在阳台上抽烟，而我在这里......写信。\n之所以把这件迟到的生日礼物也寄给你，是因为我想告诉你，我们会尊重你的看法和意志，希望你偶尔也能......对我们敞开心扉，好吗？\n给我们回封信吧，我和你父亲会非常非常高兴的，真的。\n爱你的母亲",
+      "typeIcon": "for-x",
+      "typeName1": "FOR",
+      "typeName2": "X",
+      "equipShiningColor": "red",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_493_firwhl",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 50,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_firwhl_1",
+        "uniequip_002_firwhl_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30094",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 40000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30024",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 50000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31024",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 60000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_ashlok": {
+      "uniEquipId": "uniequip_001_ashlok",
+      "uniEquipName": "灰毫证章",
+      "uniEquipIcon": "uniequip_001_ashlok",
+      "uniEquipDesc": "干员灰毫擅长在维持战线之余提供远程火力支援\n根据外勤部门决议\n在外勤任务中划分为重装干员，行使要塞职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_431_ashlok",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_ashlok": {
+      "uniEquipId": "uniequip_002_ashlok",
+      "uniEquipName": "出门必备套装",
+      "uniEquipIcon": "uniequip_002_ashlok",
+      "uniEquipDesc": "临近傍晚的时候，人潮从街道两端退去，露出被积雪洗过的路面，格蕾纳蒂迟疑片刻，最终迈出一步，踩在了上面。\n“滑，非常滑，很容易摔跤。”这是第一个冒出来的念头。\n“如果不摔跤，或许会很有趣。”紧接着，第二个念头出现了。\n透过墨镜，格蕾纳蒂谨慎地观察着四周的情况。街道很长，能有很长的助跑距离，街道很空，不会有人看见她。\n“......一、二、三！”后退几步，她顶着寒风向前奔跑，越跑越快，然后猛地刹住，让惯性推着自己向前滑行。\n停下后，她便重新起跑，复又奔向长街的另一端。一米、两米、三米......她奔跑与滑行的速度越来越快，每次尝试都比之前滑得更远，而她的心跳也随着跑动的节奏加速，心率的失常带来了失重感，她觉得身体愈发轻盈，几乎要浮出那条流淌的长河。\n时间的长河。\n“别害怕，试着更快些，我们会接住你的。”恍惚间，在耳边呼啸的风声中，她听到了一句熟悉的鼓励，相似的场景将它从尘封的童年记忆中唤醒，在路的尽头，一对夫妻展开笑颜，冲她张开双臂。\n于是这一次，她开始全力奔跑，却被脚下的一颗石子带回现实。\n在狠狠地一头扎进路边的积雪堆后，她没有着急坐起来，而是伸手盖在脸上。不知道是蹭破了眉头还是脸颊，她觉得眼睛周围湿漉漉的。\n“要拉你起来吗，小灰？”一个身影挡住了夕阳，向她伸出手。\n“你怎么会在这里？”她将自己的手搭上去。\n站起身后，她拍了拍身上的雪粒，捡起了散落在远处的墨镜与帽子。\n“你出去买个啤酒，这么晚都不回，我着急，所以出来看看情况嘛。”\n“咳咳，我没事。”\n“不要骗人哦，你的眼圈很红。”\n“是阳光太刺眼了。”\n“太阳已经落下去了哦。”\n“......谢谢你拉我起来。”她将帽子和墨镜重新戴好，遮住了通红的眼眶与泛红的双颊。\n“不客气。\n“哦，其实你现在不用武装得这么严实的，小灰。”\n“为什么？”\n“街边有家店的玻璃有些特殊，从外面看不到里面，但从里面可以清晰地看到外面。”\n“所以我刚刚......”\n“是的......那家店坐满了人，我还在里面看到了你的粉丝。”",
+      "typeIcon": "for-x",
+      "typeName1": "FOR",
+      "typeName2": "X",
+      "equipShiningColor": "red",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_431_ashlok",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 50,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_ashlok_1",
+        "uniequip_002_ashlok_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30104",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 40000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31044",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 50000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30034",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 60000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_delphn": {
+      "uniEquipId": "uniequip_001_delphn",
+      "uniEquipName": "戴菲恩证章",
+      "uniEquipIcon": "uniequip_001_delphn",
+      "uniEquipDesc": "干员戴菲恩常年与源石技艺为伴\n根据外勤部门决议\n在外勤任务中划分为术师干员，行使秘术师职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_4110_delphn",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_delphn": {
+      "uniEquipId": "uniequip_002_delphn",
+      "uniEquipName": "正义黯淡",
+      "uniEquipIcon": "uniequip_002_delphn",
+      "uniEquipDesc": "“今天已经是我外勤任务的第二百三十一天，周围的一切对我来说已经十分陌生......”\n黎明，戴菲恩借着尚未燃尽的篝火微光写下日记的第一句后便顿住了，她突然意识到，离伦蒂尼姆那场大战结束已经快一年了。当她以游侠的身份重新游历维多利亚的边陲时，她看到了太多未曾留意的不公，也渐渐习惯了用剑去执行自己心中的正义。\n所以当她得知附近还藏有一队萨卡兹游民正威胁当地人，并四处劫掠时，她就为自己定好了下一个目的地。“或许又是些还没来得及赶到伦蒂尼姆，就发现战争早已结束的倒霉蛋。”\n“救救我......”\n她循着声音转过头，一名幼小的菲林女孩自阴影中探出了头。\n女孩颤抖地指着远处的黑色地平线，戴菲恩才看到了四个提着刀慢慢靠近的人影。\n“他们都是魔族佬，你能送我回家吗？”女孩说。\n戴菲恩抽出了剑匣中本属于母亲的长剑，源石技艺在剑身上流转，光芒照亮了女孩恐惧的脸庞，数道浅浅的鞭痕和黑色的结晶清晰可见。\n远处的人影停下了，不消片刻便转身离开，消失在了地平线上的黑暗里。\n“你想我送你回家？”\n女孩犹豫了片刻，不敢直视戴菲恩凌厉的眼神，只是低垂着脑袋点了点头。\n可女孩回到营地时却被拒之门外，营地的头目警惕地防范着紧跟其后的戴菲恩。\n而戴菲恩一眼便看到了营地中的菲林感染者们藏着鞭子聚在一起，试图藏住四名战战兢兢的萨卡兹小孩。\n戴菲恩的怒火在燃烧：“你们靠着无辜孩子假装被追杀这套把戏骗人来营地，伤害了很多人。”\n“你回去吧。”戴菲恩放走了女孩，又指着头目，“你跟我走，那些被你们伤害的无辜的人需要一个交代。”\n“我在救我手下的人。”\n戴菲恩摇摇头，“这不是借口，你有想过这些孩子长大后会变成什么样吗？”\n她带着头目走了很远，远到营地中的目光再也无法触及。\n“我会联系罗德岛帮他们。现在，举起你的刀。”\n在出外勤任务的第二百三十一天，戴菲恩背着又多了一道痕迹的剑匣，朝着离维多利亚越来越远的方向前行。",
+      "typeIcon": "msc-y",
+      "typeName1": "MSC",
+      "typeName2": "Y",
+      "equipShiningColor": "red",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_4110_delphn",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 50,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_delphn_1",
+        "uniequip_002_delphn_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31014",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 40000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31044",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 50000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31054",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 60000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 2
+    },
+    "uniequip_001_vrdant": {
+      "uniEquipId": "uniequip_001_vrdant",
+      "uniEquipName": "维荻证章",
+      "uniEquipIcon": "uniequip_001_vrdant",
+      "uniEquipDesc": "干员维荻擅长于战场上同敌人反复周旋\n根据外勤部门决议\n在外勤任务中划分为特种干员，行使傀儡师职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_4107_vrdant",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_vrdant": {
+      "uniEquipId": "uniequip_002_vrdant",
+      "uniEquipName": "密林撷萃",
+      "uniEquipIcon": "uniequip_002_vrdant",
+      "uniEquipDesc": "维荻刚朝前迈出一步，灌木丛中就突然伸出一根比手臂还粗的藤蔓，直奔他的腰间。一旁的向导甩出投矛，藤蔓像是有意识一样缩回了灌木丛中。\n“怎么会这么粗？！”\n向导搔了搔头：“就这么粗呀。你不就冲着它来的吗，咋可能不知道？”\n“出发前老板可不是这么说的，”维荻叹了口气，“在他嘴里，这是阿卡胡拉密林深处活泼好动的食虫植物，养一盆就可以一劳永逸摆脱室内源石虫困扰，必将成为维多利亚上流人士的新宠......”\n向导听得半懂不懂，只好问道：“那你还要不要？”\n维荻双手抱头：“我再想想吧，采不到样品老板肯定大发雷霆，可我总得先想想怎么把命保住。”\n“啊？保命？出发前你不是说我们部族的勇士你一个人能打五个吗？这玩意儿五个人肯定对付得过来，要不然酋长咋可能只让我一个人跟你过来？”\n“这......你就当这是一种工作需要......”\n一根藤蔓在此时悄悄缠上向导的脚踝，要把他拖进灌木丛里。维荻赶忙拉住向导的手，但藤蔓的力气大得出奇，维荻甚至能感受到自己的鞋钉正在像犁一样翻开脚下的土地。\n维荻在心里暗骂了老板一声，单手给手锯换上液罐，对着向导的脚踝扣动扳机。药雾喷出，很快，从向导脚上的藤蔓开始，整个灌木丛都变得一片枯黄。\n向导一骨碌从地上爬起来：“哥们，多亏了你！现在怎么说，可以把那玩意儿摘回来了吧！”\n“别想了，我刚喷的是最强效的落叶剂，现在整株植物都保不住，采回去也没用了。”\n“没关系，还有下回！有你的神药，下回肯定能行！”\n“唔，嗯。”\n“我跟你说，我们部族最讨厌说大话的人了，刚才看你那样子，我还以为你也是个不靠谱的，可你一下就把那玩意儿干掉了！你说你能打五个，我信！”\n“那、那当然了。”\n“回了部族我得告诉所有人，你是——这个！”向导对维荻竖起大拇指，“到时候可能有人来找你摔跤，你肯定没问题！你那神药冲着人一喷，人肯定也软了，你这样的小个子也能轻松撂倒，哈哈哈哈！”\n向导突然打开了话匣子，维荻红着脸听着，想到自称提亚卡乌的人们轮番来找自己挑战的样子，不由得感到一阵恶寒。\n但和回去应付暴跳如雷的老板相比......他突然觉得这样也不坏。\n今晚就放下伪装，大吃大喝，然后做好被摔在地上几十遍的准备吧。",
+      "typeIcon": "pum-y",
+      "typeName1": "PUM",
+      "typeName2": "Y",
+      "equipShiningColor": "yellow",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_4107_vrdant",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 40,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_vrdant_1",
+        "uniequip_002_vrdant_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31033",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 20000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 15,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31023",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 25000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31053",
+            "count": 6,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 30000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 2
+    },
+    "uniequip_003_phenxi": {
+      "uniEquipId": "uniequip_003_phenxi",
+      "uniEquipName": "漫长的旅途",
+      "uniEquipIcon": "uniequip_003_phenxi",
+      "uniEquipDesc": "“别总是这么紧张嘛，菲亚梅塔。往好了想，下一次，你们的工作内容就可以向蕾缪安汇报了。”\n薇尔丽芙低着头批阅着文件，却仿佛猜到她在想什么一般开口。菲亚梅塔叹了口气，她就是讨厌薇尔丽芙这一点。萨科塔们可以通过共感了解同胞的情绪，她不是萨科塔，却总是感觉自己被薇尔丽芙看透了。\n薇尔丽芙忽然像是想起了什么一样抬起头，看着她。\n“说起来，菲亚梅塔，你现在有一个机会。”\n“什么？”\n“独立的机会。”\n“......”\n“你和莫斯提马的小队在编制上很特殊，几乎是为你们两个特别设立的，变动起来有些麻烦，而现在，因为蕾缪安的加入，编制上需要进行调整，正好是个机会。”\n薇尔丽芙十指交叉，撑住自己的下巴，笑眯眯地看着她。\n“这是谁的意思？她的？蕾缪安的？还是教宗阁下的，或者是你的？”\n“我可不想给自己找不自在。不过，关于这一点，我也不是完全没有想法。”她顿了顿，从手边的柜子里抽出一份文件，菲亚梅塔扫一眼就知道，是安多恩的情报。“在万国峰会那件事后，安多恩的危险性进一步提高了，如果有一个能够全心全意追捕他的猎手，我会安心一些。”\n“有的时候，我倒是希望其他拉特兰人也能像你一样关心拉特兰。”这句话倒不是假话，在工作层面，菲亚梅塔认为薇尔丽芙是值得敬佩的。\n“那么，你的回答呢？”\n“我拒绝。”\n“为什么？你应该知道，和莫斯提马一起行动，实际上并不是最有效率的追捕安多恩的方式。”\n“因为莫斯提马更麻烦。”\n“你的意思是说......安多恩永远都在那，但是，莫斯提马才是有一天会突然消失的那个人？”\n“不，从她接受教宗阁下的命令以来，我从来没有听她说过，她究竟是怎么想的。我不在乎好像只有我一个人像个傻子一样咬着安多恩不放，我不怪她和蕾缪安有其他想法。但是，”她把这个“但是”咬得很重，“无论她在那根杖里看到了什么，又在想什么，无论蕾缪安又原谅了安多恩的什么——她也好，蕾缪安也好，都必须亲口告诉我，这是她们欠我的。”\n“要是她们永远都不告诉你呢？”\n“我等得起。只要我还是她们的朋友，只要她们还是我的朋友。”\n“原来如此。看来，这会是一场漫长的旅途。”\n“我早就在路上了。”",
+      "typeIcon": "art-x",
+      "typeName1": "ART",
+      "typeName2": "X",
+      "equipShiningColor": "red",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_300_phenxi",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 60,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_003_phenxi_1",
+        "uniequip_003_phenxi_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30145",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 60,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30125",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30135",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 120000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 1
+    },
+    "uniequip_004_ebnhlz": {
+      "uniEquipId": "uniequip_004_ebnhlz",
+      "uniEquipName": "朽坏传承",
+      "uniEquipIcon": "uniequip_004_ebnhlz",
+      "uniEquipDesc": "“你对这地方就这么留恋？”\n阳光穿透窗户投射进来，玻璃把它的暖意过滤得干净，把它变得和自己一样冰冷又肮脏。\n“这间前厅和我印象里一样，不算很大，只不过现在这里的霉味比之前更加难闻，不是吗？”\n黑键走过空荡荡的前厅。厅中值钱的家具陈设，要么已经被逃离高塔的仆从们偷走变卖，要么因为实在太贵重而被弃置。黑键看出曾有人试图搬动那台大得夸张的钢琴，但不知为何最终作罢，他的尝试在地板上留下了明显的划痕。滑稽，可恨。墙上布满灰尘和霉斑，已经看不见底下的图案。唯一熟悉的是嵌在墙上的壁炉。柴薪的灰烬上覆盖着一层新的尘埃，仍然堆在炉中，就像黑键离开的时候那样。\n“在你走之后，炉火已经很久没有再燃起，所以浮尘和朽坏很轻松地占领了这个地方。这就是你走之后，这里发生的事情。”\n黑键走到了壁炉前，他好像还记得壁炉里曾经燃烧着的样子，这里曾经有火，曾经有温暖，但现在它是丑陋的巨口，吞吐的只有黑暗。黑键扬起手，拨开面前的浊气，为自己争取了短暂的清新。\n“这样有用吗？再过五秒、十秒，污浊的空气又会重新充满你的鼻腔。”\n黑键抽出法杖。源石骰子漂浮起来，飞旋形成稳定的轨道，散发出光和热。\n“你当然可以这么做。扬起一阵风、召来一团火对你来说都不算什么难事，它们能帮你吹散浮尘、烧却腐朽，你已经在试着这么做了，你已经取得了一些成效。”\n黑键沉默，他收起法杖，源石骰子落回手心。他俯身，壁炉中的黑暗凝视着他。\n“但它们还是会回来，不是吗？你可以抵抗，你可以拒绝，你可以拼尽全力让黑暗不能再靠近你，你已经和它们战斗了太长时间。你可以选择拨开浊气，你可以选择离开乌提卡，你可以选择躲得越远越好。你可以点起无数次微光，但永远无法把长夜变成白昼。”\n黑键伸手探进灰烬当中，他拾起一段未燃尽的枯枝。\n“衰朽正慢慢爬满这间前厅，直到攀上你的身体和精神，就像它们侵蚀你的父母，还有他们之前、这座高塔的每一个主人一样。”\n“不！”从大脑深处诞生的晕眩瞬间占据了所有的意识，黑键视野模糊，那个声音嘲笑得响亮。\n焦黑的枯枝抽出同样焦黑的新芽，它穿过黑键的手掌，绕过黑键的手腕，缠上黑键的手臂。它生出刺，刺穿皮肤，刺进黑键的骨髓。鲜血涌出，顺着枯枝淌下，跌进黑暗，渗入余烬。\n“乌提卡的血脉是黑暗中的枯枝，衰朽和枯萎终要到来。你挣脱不了。”\n黑键睁开双眼，枯枝不在手中，手臂上落了一层薄薄的灰，没有伤口，鲜血仍在皮肤之下流动。脉搏的鼓动似乎提示着刚才的一切都是幻象。幻象，不要再给我更多幻象。\n“不。”黑键终于不再沉默，“我知道衰朽和枯萎终将占据乌提卡的枝与叶，我知道只要你还借着我的身体阴魂不散，这噩梦就永远不会结束。\n“但这些腐朽，这些早该灭亡的陈词滥调已经流连了太久。”\n黑键凝视壁炉中的黑暗。那段焦黑的枯枝躺在面前的余烬上，它沾满鲜血，它浸润黑土壤。鲜血沁入干裂的缝隙，先是热，然后是火星，接着火花在干枯的枝头噼啪作响。顷刻之间，火花汇聚成了黑色的火苗，吞噬了整根枯枝。余烬重新开始燃烧。\n“它将如此终结。它将如此画上句号。”\n壁炉中燃起了比黑暗更深邃的黑色火焰，焦黑的枯枝发出的光芒蔓延在整个前厅。那个声音终于不再嘲弄，那个声音终于不再作答。\n“让我去会一会那所谓的无情权威。”",
+      "typeIcon": "msc-d",
+      "typeName1": "MSC",
+      "typeName2": "D",
+      "equipShiningColor": "red",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_4046_ebnhlz",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 60,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_004_ebnhlz_1",
+        "uniequip_004_ebnhlz_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 60,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30145",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30125",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 120000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1696737600,
+      "charEquipOrder": 3
+    },
+    "uniequip_001_mudrok": {
+      "uniEquipId": "uniequip_001_mudrok",
+      "uniEquipName": "泥岩证章",
+      "uniEquipIcon": "uniequip_001_mudrok",
+      "uniEquipDesc": "干员泥岩能以一人之力戍守防线\n根据外勤部门决议\n在外勤任务中划分为重装干员，行使不屈者职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_311_mudrok",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_mudrok": {
+      "uniEquipId": "uniequip_002_mudrok",
+      "uniEquipName": "土石的根系",
+      "uniEquipIcon": "uniequip_002_mudrok",
+      "uniEquipDesc": "卡兹戴尔，卡兹戴尔。\n在逃离莱塔尼亚的路上，小队的成员们围绕在泥岩身边，他们的话题总是离不开卡兹戴尔。要是我们在卡兹戴尔就好了，有同胞，有吃喝，最重要的是，有能够定居的地方。队伍里大都是在莱塔尼亚加入泥岩小队的本地人，还有少数从乌萨斯一路跟随泥岩至此的老队员。以前，他们大都是在家乡附近的几个定居地之间徘徊——打打零工或者在佣兵队里奔走接点生意。没有人去过卡兹戴尔，但所有人此时对卡兹戴尔的乡愁却无比真实。\n我们要在天黑之前翻越山脉，泥岩在早晨出发前这样告诉大家。他们走过一片多山的原野，潮湿的水汽弥漫在四周，将众人目力所及的连绵山峰变得模糊而臃肿。沉重的水珠凝结在山坡草甸的每一根翠绿的野草上，把它们映成近乎苔藓的颜色，也让它们尽显颓态。疲惫的队伍踩着疲惫的青草，而他们面对的是更加令人疲惫的未来。眼前的山岗后飘来一大片乌云，预示着暴雨的到来。浓厚的雾气从天顶迅速降落在山间，将山顶笼罩，只有点滴雪白在漂泊的迷雾中若隐若现。众人看向泥岩，用沉默向她发问：我们该怎么办？\n泥岩来到高耸的岩壁边，轻声呼唤此处从来不曾言语的朋友。像是在用和声回应一般，坚固的岩石在土石之子的请求下欢快地消解，然后重组，一处简陋却温馨的岩窟就这样出现在众人眼前。\n天黑的时候，躲避在洞穴里的人们发现雨水仍然没有停歇。希望那些追赶我们的人也被这场雨拖住，有个队员半开玩笑地说到，要是我们在卡兹戴尔就好了。我希望那里足够坚固、整洁，其实就像队长建的这个地方一样就好。其他的人也在压抑的氛围中聊起自己对卡兹戴尔的畅想，直至深夜。沉默不语的泥岩手掌轻触地面，感受着雨水敲打在土石上传来的轻微震动，是啊，如果像这个地方一样就好了。",
+      "typeIcon": "uny-x",
+      "typeName1": "UNY",
+      "typeName2": "X",
+      "equipShiningColor": "yellow",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_311_mudrok",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 60,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_mudrok_1",
+        "uniequip_002_mudrok_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30125",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 60,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30135",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30145",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 120000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_judge": {
+      "uniEquipId": "uniequip_001_judge",
+      "uniEquipName": "斥罪证章",
+      "uniEquipIcon": "uniequip_001_judge",
+      "uniEquipDesc": "干员斥罪能以一人之力戍守防线\n根据外勤部门决议\n在外勤任务中划分为重装干员，行使不屈者职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_4065_judge",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_judge": {
+      "uniEquipId": "uniequip_002_judge",
+      "uniEquipName": "通往未来的荆棘之路",
+      "uniEquipIcon": "uniequip_002_judge",
+      "uniEquipDesc": "直到一只断手从拉维妮娅的耳边飞过，她才回过神来。\n就在几小时前，她第一次完成了一场与家族有关的审判。\n从她决意踏上这条道路开始，她听闻并且经历了许多家族对司法的干预，甚至已经有一些身边的人消失了。\n但她坚持了下来，毕竟，她早就做好了心理准备，那些困难是无法击溃她的，甚至，这些事情越是发生，她越是认为这是自己需要去改变的现状。\n——直到她完成了今天的工作，踏入停着自己座驾的小巷。\n那时，她想，明天她应该去见一见那个支持她走上这条道路的人，告诉他自己没有辜负他的期望。她还想，这样或许会显得自己太软弱，说不定她应该更加硬气一些，对他说，未来如果他的家族惹上了官司，她也只会秉公办事。\n如果不是那只熟悉的手拉了她一把，她的头可能已经被弩箭贯穿了。\n她感觉自己的思考在某一时刻停止了，只能呆呆地看着那只手的主人——贝纳尔多拦在她的面前，将涌向她的身影一一解决。\n直到她回过神来，她终于意识到，那些听说的、想象的画面，和亲身经历的差距究竟在哪里。\n等到巷子里暂时安静下来，贝纳尔多向身后的手下点了点头，手下将一个有她身体一半大的盒子抱了上来。\n贝纳尔多打开了盒子，里面躺着的，是一只金属手套以及一个由锁链连接在上面的锤子，它们金色的光泽，在昏暗的路灯下有些刺眼，但这一套装备最惹眼的部分，是手套上蔓延出来的那一圈荆棘。\n“我不会一直保护你，拉维妮娅。”贝纳尔多这么说着，将手套拿了出来，递给她，“如果你想要在这条道路上生存下来，从今天开始，你要学会自己保护自己。”\n她沉默片刻，接过手套，不顾上面的尖刺划过皮肤带来的疼痛，戴上了它。然后，她走向小巷深处。\n她与贝纳尔多擦肩而过，她知道，尽管夜色依然浓重，但贝纳尔多不会和她同路，她必须独自走入那已经被血色染红的黑暗之中。\n贝纳尔多一生中送她的第一件，同时也是唯一一件礼物，在第一天就染上了血渍。",
+      "typeIcon": "uny-x",
+      "typeName1": "UNY",
+      "typeName2": "X",
+      "equipShiningColor": "yellow",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_4065_judge",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 60,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_judge_1",
+        "uniequip_002_judge_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30135",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 60,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30125",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 120000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_hpsts": {
+      "uniEquipId": "uniequip_001_hpsts",
+      "uniEquipName": "火神证章",
+      "uniEquipIcon": "uniequip_001_hpsts",
+      "uniEquipDesc": "干员火神能以一人之力戍守防线\n根据外勤部门决议\n在外勤任务中划分为重装干员，行使不屈者职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_163_hpsts",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_hpsts": {
+      "uniEquipId": "uniequip_002_hpsts",
+      "uniEquipName": "锻椎者",
+      "uniEquipIcon": "uniequip_002_hpsts",
+      "uniEquipDesc": "“想象这样一种事物：它没有起点，也没有终点；它不是虚无，却与虚无同在；它并非时间，却是时间之友。”清晨，火神拿起钳夹从火炉中夹起半截烧得通红的铁块放在锻椎者上，突然想起以前拉刻代蒙的祭司说的那些话。“那是灭亡，无可避免的灭亡。”\n她轻轻地甩了甩手腕，然后拿起手边的锤开始敲打。那个时候火神还在米诺斯生活，会在闲暇之余前往纪念历代英雄的宫殿。她在那里和朋友们一起消磨时光，她很少说话，大多数时候都在倾听其他人的宣讲和辩论。\n“所以我们追求永恒，我们在土地上疯了似的挖掘，希望能够从中找到些刻着只言片语的废墟，然后我们会将其视为某种永恒的碎片顶礼膜拜。哪怕只是得知‘永恒’这种概念确实存在，就足以让我们这些终将死去之人心感慰藉。”\n火神想起当时那所宫殿里雕塑前的蜡烛。那些被巡礼者供奉给先人的祭品先是安静地燃烧，它们好像和在场的人一样，被祭司的话语所震慑而沉默。后来，它们越是因为燃烧而虚弱，却越是不受控制地狂舞，那些沉默者的思绪也是这样。她用钳夹将略微塑形后的铁块放入水中，嘶啦暴响的声音突然出现，然后突然消失。她将铁块重新送至火炉中，继续重复之前的动作。\n火神很理解米诺斯人痴迷于这些庞大命题的情愫，米诺斯太古老，但也太年轻。它的历史接近不朽，却曾几乎死去。但她觉得那种对永恒的膜拜以及对消亡的恐惧并不有趣，进一步讲，她认为这是萨尔贡文化与米诺斯文化共同孕育出来的，某种不着边际的狂想。\n她将完成的作品放在铁砧上，这块不起眼的铁锭是米诺斯铁匠世代传承的每日功课。它在未来某天会变成另一种形态，或者是被重新熔炼成为某些装备已经破碎的“脊柱”。她将火炉关闭，取出顺手烤制好的蜜饼。我只关注眼前，她对自己这样说到。",
+      "typeIcon": "uny-x",
+      "typeName1": "UNY",
+      "typeName2": "X",
+      "equipShiningColor": "yellow",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_163_hpsts",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 50,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_hpsts_1",
+        "uniequip_002_hpsts_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31024",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 40000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30104",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 50000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30064",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 60000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_lessng": {
+      "uniEquipId": "uniequip_001_lessng",
+      "uniEquipName": "止颂证章",
+      "uniEquipIcon": "uniequip_001_lessng",
+      "uniEquipDesc": "干员止颂擅长挥舞巨剑切入战阵\n根据外勤部门决议\n在外勤任务中划分为近卫干员，行使无畏者职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_4011_lessng",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_lessng": {
+      "uniEquipId": "uniequip_002_lessng",
+      "uniEquipName": "沉锋之束",
+      "uniEquipIcon": "uniequip_002_lessng",
+      "uniEquipDesc": "青年把解下的束带重新缠上。\n厚重叠复的束带之后，隐匿着沉重的剑——其实又称不上隐匿，那把剑如此巨大，即使被严密包覆，也难免显出剑的轮廓。它的护手比好些人的臂膀都要宽阔，它的剑身比好些人的身体都要长。受束之剑没有显露出刀锋来，可能无法行使杀戮，作为武器，也足以使望见它的人胆寒——也许这就是目的，也许持剑的青年其实并不期待用这把剑夺去谁的生命，他只是希望有剑，只要有剑存在就能提醒对手，喋血与死亡已经近在咫尺，只要跨过这层单薄的束带——不要跨过这层单薄的束带。\n青年确实是这样想的。他故意为这把剑缠上束带，把锋芒藏起来，隐匿起来，隐在不可目睹的地方。锋刃需要忍耐，忍耐可以避免被消磨，忍耐可以避免喋血和死亡，大部分时候就算在忍耐，就算隐在不可目睹的地方，锋刃也能够发挥它原本的用途。青年如此对待这把剑，正如青年对待自己一样。\n他说我是剑，我是锋芒，但我要隐匿，我要隐藏。他过去一直如此践行，他把那些愤怒、磨难、痛苦，欢欣、激动、鼓舞都隐逸在厚重叠复的束带之后，他的身体和精神都同样紧绷。\n但是现在，现在似乎一切都不再如同以往。\n敌人从四面八方涌来——其实又称不上涌来，青年曾经想过他们沉在恩瓦德的深林里，在施彤领的雨云之下，在瓦瑟领的大湖与河流之中，盘踞在厄登赫尔的泥和石头之上，他们的身影在高塔之间往来，出入宫殿、学院和府邸。这些对他来说并不意外，他只是没有料想到今日的处境。当他真正面对着要他撬动的事物时，他反而不再能够看清它们的面貌，它们在哪？敌人还没有靠近他，但他知道他们其实无处不在；他明明隐藏在厚重叠复的束带之后，但为什么如今却感到如此赤裸？他并非没有预想过、并非没有为今日做过准备，他知道这一天总会到来。弗莱蒙特早已经警告过他：这是你自己选择的战斗。\n是我自己选择的战斗。青年如此想着，剑已经重新束好。",
+      "typeIcon": "dre-x",
+      "typeName1": "DRE",
+      "typeName2": "X",
+      "equipShiningColor": "red",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_4011_lessng",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 60,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_lessng_1",
+        "uniequip_002_lessng_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30145",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 60,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30135",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 120000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 1
+    },
+    "uniequip_001_baslin": {
+      "uniEquipId": "uniequip_001_baslin",
+      "uniEquipName": "深律证章",
+      "uniEquipIcon": "uniequip_001_baslin",
+      "uniEquipDesc": "干员深律在维持战线的同时为友军提供医疗支援\n根据外勤部门决议\n在外勤任务中划分为重装干员，行使守护者职责\n特别颁发此证章\n以兹证明",
+      "typeIcon": "original",
+      "typeName1": "ORIGINAL",
+      "typeName2": null,
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_0",
+      "charId": "char_4109_baslin",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 0,
+      "unlockFavorPoint": 0,
+      "missionList": [],
+      "itemCost": null,
+      "type": "INITIAL",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 0
+    },
+    "uniequip_002_baslin": {
+      "uniEquipId": "uniequip_002_baslin",
+      "uniEquipName": "受赐玩物",
+      "uniEquipIcon": "uniequip_002_baslin",
+      "uniEquipDesc": "米夏挥手掠过晶石状的夜灯，就像扬起清风扇灭蜡烛，夜灯随即熄灭，高塔的书房变得昏暗，唯一的光亮来自窗外的夕阳。\n崔林特尔梅天色将暮，几尺厚的塔墙之外传来雾霭般的乐音，厚重又朦胧，它仿佛不存在，但又让人看不穿。米夏辨认出了这首乐曲，巴赫第十二交响曲“晚霞”，第三乐章，福特冈爱乐乐团演奏，指挥风格像是利切卡尔，又像是罗尔兹曼伯爵——罗尔兹曼伯爵现在还能进入崔林特尔梅吗？赫琳玛特已经把他送去了黑色的府邸，就在十三个月之前，是米夏自己送去的文书......\n一声闷响在耳边荡漾开来，这声闷响他再熟悉不过，这是他的源石技艺。无声的音波自周身向外传播，推开了“晚霞”的声音，直到书房的每个角落都被纳入其中。房间隔绝了声响，米夏的思绪也隔绝了杂乱的念想。\n米夏拿起那一副响板，它比一般的响板要沉得多，制成它的木材更厚实，上面镶嵌——或者说曾经镶嵌着的金丝完全没有考虑声学构造，把响板原有的音色完全破坏了，更不要说那颗夸张的宝石。这副响板因为它们而显得华美、尊贵，已经不再能够发出本应发出的声音。它不再是一件合格的乐器，而是一件绝佳的赏赐、一件绝佳的玩物。\n自他受赐的那天起，米夏就没有真正爱惜过这件赏赐品，他不想要一件不再能够正常发声的乐器——他知道将这副响板赐给自己的那个人正是这个意思。米夏因此害怕这副响板，憎恨这副响板，这副响板似乎无时无刻不在刺痛着他。\n他不愿把它带在身边，他宁愿就把它当成一件玩物，一件孩童的玩物，任性处置，直到金丝脱落，直到原先光滑乌黑的表面布满划痕。他甚至曾经想过把它扔掉，扔到山野，扔到风中，扔回那一片凝固的晚霞里。\n“你得把它留在身边。一件玩具就能伤害你？你得把它留在身边，证明你和它不一样。这不是为了鲁珀坎，这是为了你自己。”那声音好像离他很近，但实际上又比任何声音都要遥远。米夏知道那声音就是留下它的理由。米夏还记得望向那座高塔的时候，它投下的黑影总能让他坚强。\n米夏望向窗外，唯独望见了金色的晚霞。",
+      "typeIcon": "gua-y",
+      "typeName1": "GUA",
+      "typeName2": "Y",
+      "equipShiningColor": "yellow",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_4109_baslin",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 50,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_002_baslin_1",
+        "uniequip_002_baslin_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31034",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 40000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31044",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 50000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31054",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 60000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 2
+    },
+    "uniequip_003_bpipe": {
+      "uniEquipId": "uniequip_003_bpipe",
+      "uniEquipName": "“棍棒与口袋”",
+      "uniEquipIcon": "uniequip_003_bpipe",
+      "uniEquipDesc": "“这都是啥？”\n当铺老板焦躁地拍着怀中连声咳嗽的孩子，甚至没抬头看一眼来客摊在柜台上的物件。\n有那么一瞬间，风笛讶异地发现自己答不上老板的问话。对呀，这两样她再熟悉不过的物件，是什么来着？\n是了，那是一根铁棍和一口布袋。\n开文郡的干草垛，一股好似发酵源石虫黏液的恶臭粗暴地钻进她的梦，饥肠辘辘的老裂兽不请自来，正对着她的脸直淌涎水。她下意识抄起枕边的铁棍，狠狠敲在裂兽的脑袋上，才逃过一劫。\n半岛郡的砾石路，守关士兵手劲儿大得惊人，从商队的货箱里拽她出来的时候几乎要把她的胳膊扯断。她急中生智把证件塞进布袋的夹层，伪装成行走荒地的流浪诗人，才蒙混过关。\n或者，那是一根撬棍和一支军号？\n康纳郡的烂泥塘，雇佣兵的法术差点把她头顶的树冠削平，破城矛的弹药箱却偏偏不合时宜地闹了别扭。要不是随身的撬棍恰好能结结实实地卡进箱子的把手，她只怕是要当场丢掉性命。\n开夏郡的白沙地，牺牲了的士兵说不出遗言，受了伤的长官吹不响军号，烈阳下的乱葬岗安静得可怕。多亏她手上的乐器还能发出够响亮的声音，他们才能为逝去的战友送上还算体面的道别。\n对啦，那其实是一根摇把和一支风笛。\n那可是全村最大的一台拖拉机，配备的摇把有她半条胳膊那么长。为了逞强，证明自己能比妈妈更利索地启动引擎，她把自己的胳膊摇脱了臼。但在坐着拖拉机去医院的路上，她的笑声把半个村子的驮兽都引了过来。\n还有那支用小瘤兽皮做的风笛，妈妈在上面缝了毛茸茸的花布。村里的人们都知道她有边转圈边吹风笛的绝活。当然，他们也没有忘记她小时候刚学风笛的时候，整个村子如何回荡着震耳欲聋的凄厉响声。\n只可惜如今，撬过箱子、砸过裂兽的摇把已经变了形，再也摇不动拖拉机的引擎；吹过哀乐、藏过证件的风笛也已经漏了气，再也吹不出成调子的声音。\n老板瘪了瘪眼，从柜台底下掏出两枚脏兮兮的硬币。走到今天，这就是家乡留给她的全部了。但至少，靠这两枚硬币，她的家乡还能再多送她一程。",
+      "typeIcon": "chg-y",
+      "typeName1": "CHG",
+      "typeName2": "Y",
+      "equipShiningColor": "red",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_222_bpipe",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 60,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_003_bpipe_1",
+        "uniequip_003_bpipe_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 60,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30125",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30135",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 120000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 2
+    },
+    "uniequip_003_nearl2": {
+      "uniEquipId": "uniequip_003_nearl2",
+      "uniEquipName": "“骑士家族”",
+      "uniEquipIcon": "uniequip_003_nearl2",
+      "uniEquipDesc": "我们都身在阴影中，一如既往。\n此刻是午夜，只有酒馆里不那么刺眼的光打亮了耀骑士的面庞。忆及最早初遇的时刻，她这样安宁、祥和的表情并不多见，而我和丽兹比谁都清楚。她的妹妹睡在她的膝上，偶尔说三两句梦话，而她尽量不弄出动静，只是静静地守着时隔多年未见的家人。鞭刃——佐菲娅——并没有打扰这对姐妹，她替临光梳理头发和尾巴。耀骑士的毛发上沾着血，血来自阴影，阴影中的回响被排斥在这片刻宁静的小酒吧外。\n丽兹有些困了，她不愿休息。我们都有很多话要和耀骑士说，和罗德岛的干员临光说，和玛嘉烈说。幸运又不幸的是，我熟悉全部的她，所以早知道这一天的来临，所以早就有那么一点不安和不舍。\n我知道我们不会真正分开。但我们各自要对抗的事物，确实相差万里。\n玛莉娅醒了，意识到自己在姐姐身边睡着之后，有些脸红。佐菲娅说着一些俏皮话，数落着姐妹俩不修边幅的造型。佐菲娅比临光矮一些，她看向临光的时候总会下意识地昂起头，看起来有些吃力。有些失礼，但我仍忍不住端详在耀骑士身边的鞭刃的表情。她会感到不服输吗？她会渴望和她并肩作战吗？她将理想和信念寄托在这个具体的骑士化身上吗？\n我又如何看待玛嘉烈呢？作为......使徒的同行者？我们分食苦难，毫无保留，我们......\n玛嘉烈拍了拍我的肩。她说，她也一直有些话想和我聊聊。她回家了，回到卡西米尔，她的起点。但我们的起点不在这里，在卡兹戴尔，在萨尔贡，在伦蒂尼姆......我们的罪恶和苦难不在这里。所以我很好奇，好奇那些因她的光的指引而起身的人们昂头看向黑夜的时候，会是什么景象。\n我忽然感到些遗憾——毕竟我向来憎恨我的血脉，我自身从未品尝过血缘的美好，家的意义，她理应拥有这些，理应被祝福被瞩目，而我理应不属于其中，我理应找到自己的道途。而后，她的光辉定然会短暂地离开她肉身的高塔，践行我们曾经在荒野上，在战场上，在罗德岛上许下的无数诺言。\n是啊，所以我放弃了多余的表达，只是沉默地还以微笑。\n赦罪师的罪孽原点不会是纯粹黑暗的，光已被预言。\n我们都身在阴影中。尽管我们阴影的神谕各不相同。\n玛嘉烈推开酒馆的门，她随口说道，骑士应正视自身，审视自身，规训那些被规训的，我们必须成为自己的光。当自身被点燃，任谁都会发现自己从未被阴影纠缠——\n\n——一如既往。",
+      "typeIcon": "dre-y",
+      "typeName1": "DRE",
+      "typeName2": "Y",
+      "equipShiningColor": "grey",
+      "showEvolvePhase": "PHASE_2",
+      "unlockEvolvePhase": "PHASE_2",
+      "charId": "char_1014_nearl2",
+      "tmplId": null,
+      "showLevel": 1,
+      "unlockLevel": 60,
+      "unlockFavorPoint": 10070,
+      "missionList": [
+        "uniequip_003_nearl2_1",
+        "uniequip_003_nearl2_2"
+      ],
+      "itemCost": {
+        "1": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30125",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ],
+        "2": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_1",
+            "count": 60,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30145",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ],
+        "3": [
+          {
+            "id": "mod_unlock_token",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "mod_update_token_2",
+            "count": 20,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 120000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "type": "ADVANCED",
+      "uniEquipGetTime": 1698811200,
+      "charEquipOrder": 2
     }
   },
   "missionList": {
@@ -28499,7 +30656,7 @@
     },
     "uniequip_002_yato2_1": {
       "template": "EquipmentDeployStage",
-      "desc": "完成5次战斗；每次战斗至少部署3次非助战的麒麟X夜刀",
+      "desc": "完成5次战斗；每次战斗至少部署3次非助战的麒麟R夜刀",
       "paramList": [
         "5",
         "3",
@@ -28513,7 +30670,7 @@
     },
     "uniequip_002_yato2_2": {
       "template": "EquipmentEventStageMore",
-      "desc": "3星通关主题曲3-7；必须编入非助战麒麟X夜刀并上场，且使用麒麟X夜刀歼灭至少2名炮手",
+      "desc": "3星通关主题曲3-7；必须编入非助战麒麟R夜刀并上场，且使用麒麟R夜刀歼灭至少2名炮手",
       "paramList": [
         "3",
         "main_03-07",
@@ -29934,6 +32091,587 @@
       "uniEquipMissionSort": 2,
       "uniEquipId": "uniequip_002_excu2",
       "jumpStageId": "main_07-12"
+    },
+    "uniequip_002_slent2_1": {
+      "template": "EquipmentSkillCast",
+      "desc": "战斗中非助战淬羽赫默累计使用无畏者协议8次",
+      "paramList": [
+        "char_1031_slent2",
+        "skchr_slent2_3",
+        "8",
+        "char_1031_slent2"
+      ],
+      "uniEquipMissionId": "uniequip_002_slent2_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_slent2",
+      "jumpStageId": null
+    },
+    "uniequip_002_slent2_2": {
+      "template": "EquipmentSquadNoAnyDead",
+      "desc": "3星通关主题曲6-3；必须编入非助战淬羽赫默并上场，且所有干员不被击倒",
+      "paramList": [
+        "3",
+        "main_06-03",
+        "char_1031_slent2"
+      ],
+      "uniEquipMissionId": "uniequip_002_slent2_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_slent2",
+      "jumpStageId": "main_06-03"
+    },
+    "uniequip_002_tknogi_1": {
+      "template": "EquipmentSkillCast",
+      "desc": "战斗中非助战月禾累计使用迹无8次",
+      "paramList": [
+        "char_343_tknogi",
+        "skchr_tknogi_1",
+        "8",
+        "char_343_tknogi"
+      ],
+      "uniEquipMissionId": "uniequip_002_tknogi_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_tknogi",
+      "jumpStageId": null
+    },
+    "uniequip_002_tknogi_2": {
+      "template": "EquipmentSquadNoAnyDead",
+      "desc": "3星通关主题曲S3-6；必须编入非助战月禾并上场，且所有干员不被击倒",
+      "paramList": [
+        "3",
+        "sub_03-3-1",
+        "char_343_tknogi"
+      ],
+      "uniEquipMissionId": "uniequip_002_tknogi_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_tknogi",
+      "jumpStageId": "sub_03-3-1"
+    },
+    "uniequip_002_ncdeer_1": {
+      "template": "EquipmentSkillCast",
+      "desc": "战斗中非助战九色鹿累计使用仙山去远8次",
+      "paramList": [
+        "char_4019_ncdeer",
+        "skchr_ncdeer_2",
+        "8",
+        "char_4019_ncdeer"
+      ],
+      "uniEquipMissionId": "uniequip_002_ncdeer_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_ncdeer",
+      "jumpStageId": null
+    },
+    "uniequip_002_ncdeer_2": {
+      "template": "EquipmentSquadProEx",
+      "desc": "3星通关别传IW-3；必须编入非助战九色鹿并上场，且不编入其他辅助干员",
+      "paramList": [
+        "3",
+        "act15side_03",
+        "char_4019_ncdeer",
+        "SUPPORT"
+      ],
+      "uniEquipMissionId": "uniequip_002_ncdeer_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_ncdeer",
+      "jumpStageId": "act15side_03"
+    },
+    "uniequip_002_quercu_1": {
+      "template": "EquipmentSkillCast",
+      "desc": "战斗中非助战夏栎累计使用生灵的回响8次",
+      "paramList": [
+        "char_492_quercu",
+        "skchr_quercu_2",
+        "8",
+        "char_492_quercu"
+      ],
+      "uniEquipMissionId": "uniequip_002_quercu_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_quercu",
+      "jumpStageId": null
+    },
+    "uniequip_002_quercu_2": {
+      "template": "EquipmentSquadProEx",
+      "desc": "3星通关主题曲9-2标准实战环境；必须编入非助战夏栎并上场，且不编入其他医疗干员",
+      "paramList": [
+        "3",
+        "main_09-01",
+        "char_492_quercu",
+        "MEDIC"
+      ],
+      "uniEquipMissionId": "uniequip_002_quercu_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_quercu",
+      "jumpStageId": "main_09-01"
+    },
+    "uniequip_003_chen_1": {
+      "template": "EquipmentDamageTotal",
+      "desc": "由非助战陈累计造成100000点伤害",
+      "paramList": [
+        "char_010_chen",
+        "100000"
+      ],
+      "uniEquipMissionId": "uniequip_003_chen_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_003_chen",
+      "jumpStageId": null
+    },
+    "uniequip_003_chen_2": {
+      "template": "EquipmentSquadNum",
+      "desc": "3星通关主题曲5-9；必须携带并部署非助战陈，其他成员仅可编入7名干员",
+      "paramList": [
+        "3",
+        "main_05-09",
+        "char_010_chen",
+        "7"
+      ],
+      "uniEquipMissionId": "uniequip_003_chen_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_003_chen",
+      "jumpStageId": "main_05-09"
+    },
+    "uniequip_003_saga_1": {
+      "template": "EquipmentDamageTotal",
+      "desc": "由非助战嵯峨累计造成80000点伤害",
+      "paramList": [
+        "char_362_saga",
+        "80000"
+      ],
+      "uniEquipMissionId": "uniequip_003_saga_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_003_saga",
+      "jumpStageId": null
+    },
+    "uniequip_003_saga_2": {
+      "template": "EquipmentDeployOneNoEvac",
+      "desc": "3星通关别传WR-3；必须编入非助战嵯峨，且第一位部署嵯峨、嵯峨全程不撤退或被击倒",
+      "paramList": [
+        "3",
+        "act16d5_03",
+        "char_362_saga",
+        "1"
+      ],
+      "uniEquipMissionId": "uniequip_003_saga_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_003_saga",
+      "jumpStageId": "act16d5_03"
+    },
+    "uniequip_002_almond_1": {
+      "template": "EquipmentSkillCast",
+      "desc": "战斗中非助战杏仁累计使用强力牵引10次",
+      "paramList": [
+        "char_4105_almond",
+        "skchr_almond_2",
+        "10",
+        "char_4105_almond"
+      ],
+      "uniEquipMissionId": "uniequip_002_almond_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_almond",
+      "jumpStageId": null
+    },
+    "uniequip_002_almond_2": {
+      "template": "EquipmentSkillCastStage",
+      "desc": "3星通关别传BI-2；必须编入非助战杏仁并上场，且至少使用2次强力牵引",
+      "paramList": [
+        "3",
+        "act14side_02",
+        "skchr_almond_2",
+        "2",
+        "char_4105_almond"
+      ],
+      "uniEquipMissionId": "uniequip_002_almond_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_almond",
+      "jumpStageId": "act14side_02"
+    },
+    "uniequip_002_horn_1": {
+      "template": "EquipmentSkillCast",
+      "desc": "战斗中非助战号角累计使用终极防线10次",
+      "paramList": [
+        "char_4039_horn",
+        "skchr_horn_3",
+        "10",
+        "char_4039_horn"
+      ],
+      "uniEquipMissionId": "uniequip_002_horn_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_horn",
+      "jumpStageId": null
+    },
+    "uniequip_002_horn_2": {
+      "template": "EquipmentCharKilledStage",
+      "desc": "3星通关主题曲7-15；必须编入非助战号角并上场，且使用号角至少歼灭10个敌人",
+      "paramList": [
+        "3",
+        "main_07-13",
+        "char_4039_horn",
+        "10",
+        "char_4039_horn"
+      ],
+      "uniEquipMissionId": "uniequip_002_horn_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_horn",
+      "jumpStageId": "main_07-13"
+    },
+    "uniequip_002_firwhl_1": {
+      "template": "EquipmentSkillCast",
+      "desc": "战斗中非助战火哨累计使用焦土8次",
+      "paramList": [
+        "char_493_firwhl",
+        "skchr_firwhl_2",
+        "8",
+        "char_493_firwhl"
+      ],
+      "uniEquipMissionId": "uniequip_002_firwhl_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_firwhl",
+      "jumpStageId": null
+    },
+    "uniequip_002_firwhl_2": {
+      "template": "EquipmentSquadPos",
+      "desc": "3星通关主题曲S4-6；必须携带并部署非助战火哨，其他成员仅可编入远程位干员",
+      "paramList": [
+        "3",
+        "sub_04-2-3",
+        "char_493_firwhl",
+        "13,RANGED"
+      ],
+      "uniEquipMissionId": "uniequip_002_firwhl_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_firwhl",
+      "jumpStageId": "sub_04-2-3"
+    },
+    "uniequip_002_ashlok_1": {
+      "template": "EquipmentDamageTotal",
+      "desc": "由非助战灰毫累计造成100000点伤害",
+      "paramList": [
+        "char_431_ashlok",
+        "100000"
+      ],
+      "uniEquipMissionId": "uniequip_002_ashlok_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_ashlok",
+      "jumpStageId": null
+    },
+    "uniequip_002_ashlok_2": {
+      "template": "EquipmentEventStageMore",
+      "desc": "3星通关主题曲7-9；必须编入非助战灰毫并上场，且使用灰毫歼灭至少2名游击队传令兵",
+      "paramList": [
+        "3",
+        "main_07-07",
+        "char_431_ashlok",
+        "DEATHDETAIL,char_431_ashlok,enemy_1080_sotidp",
+        "2"
+      ],
+      "uniEquipMissionId": "uniequip_002_ashlok_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_ashlok",
+      "jumpStageId": "main_07-07"
+    },
+    "uniequip_002_delphn_1": {
+      "template": "EquipmentCharKilled",
+      "desc": "由非助战戴菲恩累计造成30歼灭数",
+      "paramList": [
+        "char_4110_delphn",
+        "30",
+        "char_4110_delphn"
+      ],
+      "uniEquipMissionId": "uniequip_002_delphn_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_delphn",
+      "jumpStageId": null
+    },
+    "uniequip_002_delphn_2": {
+      "template": "EquipmentSkillCastStage",
+      "desc": "3星通关插曲WD-6；必须携带且部署非助战戴菲恩，且至少使用2次抢攻",
+      "paramList": [
+        "3",
+        "act18d0_06",
+        "skchr_delphn_2",
+        "2",
+        "char_4110_delphn"
+      ],
+      "uniEquipMissionId": "uniequip_002_delphn_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_delphn",
+      "jumpStageId": "act18d0_06"
+    },
+    "uniequip_002_vrdant_1": {
+      "template": "EquipmentDamageTotal",
+      "desc": "由非助战维荻累计造成60000点伤害",
+      "paramList": [
+        "char_4107_vrdant",
+        "60000"
+      ],
+      "uniEquipMissionId": "uniequip_002_vrdant_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_vrdant",
+      "jumpStageId": null
+    },
+    "uniequip_002_vrdant_2": {
+      "template": "EquipmentSkillCastStage",
+      "desc": "3星通关主题曲9-3标准实战环境；必须编入非助战维荻并上场，且至少使用2次双刃毒藤",
+      "paramList": [
+        "3",
+        "main_09-02",
+        "skchr_vrdant_2",
+        "2",
+        "char_4107_vrdant"
+      ],
+      "uniEquipMissionId": "uniequip_002_vrdant_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_vrdant",
+      "jumpStageId": "main_09-02"
+    },
+    "uniequip_003_phenxi_1": {
+      "template": "EquipmentBattleCharKilled",
+      "desc": "完成5次战斗；必须编入非助战菲亚梅塔并上场，且使用菲亚梅塔歼灭至少10个敌人",
+      "paramList": [
+        "5",
+        "char_300_phenxi",
+        "10"
+      ],
+      "uniEquipMissionId": "uniequip_003_phenxi_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_003_phenxi",
+      "jumpStageId": null
+    },
+    "uniequip_003_phenxi_2": {
+      "template": "EquipmentSquadProEx",
+      "desc": "3星通关别传GA-4；必须编入非助战菲亚梅塔并上场，且队伍中不能有其他狙击干员",
+      "paramList": [
+        "3",
+        "act16side_04",
+        "char_300_phenxi",
+        "SNIPER"
+      ],
+      "uniEquipMissionId": "uniequip_003_phenxi_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_003_phenxi",
+      "jumpStageId": "act16side_04"
+    },
+    "uniequip_004_ebnhlz_1": {
+      "template": "EquipmentSkillCast",
+      "desc": "战斗中非助战黑键累计使用寂静之声10次",
+      "paramList": [
+        "char_4046_ebnhlz",
+        "skchr_ebnhlz_3",
+        "10",
+        "char_4046_ebnhlz"
+      ],
+      "uniEquipMissionId": "uniequip_004_ebnhlz_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_004_ebnhlz",
+      "jumpStageId": null
+    },
+    "uniequip_004_ebnhlz_2": {
+      "template": "EquipmentEventStageMore",
+      "desc": "3星通关主题曲11-12标准实战环境；必须编入非助战黑键并上场，且使用黑键歼灭至少2名伦蒂尼姆城防自行炮",
+      "paramList": [
+        "3",
+        "main_11-10",
+        "char_4046_ebnhlz",
+        "DEATHDETAIL,char_4046_ebnhlz,enemy_1273_stmgun",
+        "2"
+      ],
+      "uniEquipMissionId": "uniequip_004_ebnhlz_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_004_ebnhlz",
+      "jumpStageId": "main_11-10"
+    },
+    "uniequip_002_mudrok_1": {
+      "template": "EquipmentSkillCast",
+      "desc": "战斗中非助战泥岩累计使用岩崩锤40次",
+      "paramList": [
+        "char_311_mudrok",
+        "skchr_mudrok_2",
+        "40",
+        "char_311_mudrok"
+      ],
+      "uniEquipMissionId": "uniequip_002_mudrok_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_mudrok",
+      "jumpStageId": null
+    },
+    "uniequip_002_mudrok_2": {
+      "template": "EquipmentSquadProEx",
+      "desc": "3星通关主题曲11-7标准实战环境；必须编入非助战泥岩并上场，且不编入其他重装干员",
+      "paramList": [
+        "3",
+        "main_11-06",
+        "char_311_mudrok",
+        "TANK"
+      ],
+      "uniEquipMissionId": "uniequip_002_mudrok_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_mudrok",
+      "jumpStageId": "main_11-06"
+    },
+    "uniequip_002_judge_1": {
+      "template": "EquipmentCharKilled",
+      "desc": "由非助战斥罪累计造成40歼灭数",
+      "paramList": [
+        "char_4065_judge",
+        "40",
+        "char_4065_judge"
+      ],
+      "uniEquipMissionId": "uniequip_002_judge_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_judge",
+      "jumpStageId": null
+    },
+    "uniequip_002_judge_2": {
+      "template": "EquipmentSquadNum",
+      "desc": "3星通关别传CB-4；必须携带并部署非助战斥罪，其他成员仅可编入4名干员",
+      "paramList": [
+        "3",
+        "act5d0_04",
+        "char_4065_judge",
+        "4"
+      ],
+      "uniEquipMissionId": "uniequip_002_judge_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_judge",
+      "jumpStageId": "act5d0_04"
+    },
+    "uniequip_002_hpsts_1": {
+      "template": "EquipmentCharKilled",
+      "desc": "由非助战火神累计造成30歼灭数",
+      "paramList": [
+        "char_163_hpsts",
+        "30",
+        "char_163_hpsts"
+      ],
+      "uniEquipMissionId": "uniequip_002_hpsts_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_hpsts",
+      "jumpStageId": null
+    },
+    "uniequip_002_hpsts_2": {
+      "template": "EquipmentCharKilledStage",
+      "desc": "3星通关主题曲S4-4；必须编入非助战火神并上场，且使用火神至少歼灭6个敌人",
+      "paramList": [
+        "3",
+        "sub_04-2-1",
+        "char_163_hpsts",
+        "6",
+        "char_163_hpsts"
+      ],
+      "uniEquipMissionId": "uniequip_002_hpsts_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_hpsts",
+      "jumpStageId": "sub_04-2-1"
+    },
+    "uniequip_002_lessng_1": {
+      "template": "EquipmentEventTotal",
+      "desc": "由非助战止颂累计歼灭10个精英或领袖敌人",
+      "paramList": [
+        "char_4011_lessng",
+        "DEATHDETAIL,char_4011_lessng,BOSS,ELITE",
+        "10"
+      ],
+      "uniEquipMissionId": "uniequip_002_lessng_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_lessng",
+      "jumpStageId": null
+    },
+    "uniequip_002_lessng_2": {
+      "template": "EquipmentEventStageMore",
+      "desc": "3星通关主题曲7-11；必须编入非助战止颂并上场，且使用止颂歼灭至少2名雇佣军萨卡兹战士",
+      "paramList": [
+        "3",
+        "main_07-09",
+        "char_4011_lessng",
+        "DEATHDETAIL,char_4011_lessng,enemy_1084_sotidm_3",
+        "2"
+      ],
+      "uniEquipMissionId": "uniequip_002_lessng_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_lessng",
+      "jumpStageId": "main_07-09"
+    },
+    "uniequip_002_baslin_1": {
+      "template": "EquipmentSkillCastBattle",
+      "desc": "完成5次战斗；必须编入非助战深律并上场，且每次战斗至少释放1次沉音宁神",
+      "paramList": [
+        "5",
+        "skchr_baslin_2",
+        "1",
+        "char_4109_baslin"
+      ],
+      "uniEquipMissionId": "uniequip_002_baslin_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_002_baslin",
+      "jumpStageId": null
+    },
+    "uniequip_002_baslin_2": {
+      "template": "EquipmentSquadNoAnyDead",
+      "desc": "3星通关别传LE-4；必须编入非助战深律并上场，且所有干员不被击倒",
+      "paramList": [
+        "3",
+        "act18side_04",
+        "char_4109_baslin"
+      ],
+      "uniEquipMissionId": "uniequip_002_baslin_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_002_baslin",
+      "jumpStageId": "act18side_04"
+    },
+    "uniequip_003_bpipe_1": {
+      "template": "EquipmentBattleCharKilled",
+      "desc": "完成5次战斗；必须编入非助战风笛并上场，且使用风笛歼灭至少3个敌人",
+      "paramList": [
+        "5",
+        "char_222_bpipe",
+        "3"
+      ],
+      "uniEquipMissionId": "uniequip_003_bpipe_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_003_bpipe",
+      "jumpStageId": null
+    },
+    "uniequip_003_bpipe_2": {
+      "template": "EquipmentCharKilledStage",
+      "desc": "3星通关主题曲9-5标准实战环境；必须编入非助战风笛并上场，且使用风笛至少歼灭8个敌人",
+      "paramList": [
+        "3",
+        "main_09-04",
+        "char_222_bpipe",
+        "8",
+        "char_222_bpipe"
+      ],
+      "uniEquipMissionId": "uniequip_003_bpipe_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_003_bpipe",
+      "jumpStageId": "main_09-04"
+    },
+    "uniequip_003_nearl2_1": {
+      "template": "EquipmentSkillCastBattle",
+      "desc": "完成5次战斗；必须编入非助战耀骑士临光并上场，且每次战斗至少释放1次耀阳颔首",
+      "paramList": [
+        "5",
+        "skchr_nearl2_3",
+        "1",
+        "char_1014_nearl2"
+      ],
+      "uniEquipMissionId": "uniequip_003_nearl2_1",
+      "uniEquipMissionSort": 1,
+      "uniEquipId": "uniequip_003_nearl2",
+      "jumpStageId": null
+    },
+    "uniequip_003_nearl2_2": {
+      "template": "EquipmentEventStageMore",
+      "desc": "3星通关别传NL-10；必须编入非助战耀骑士临光并上场，且使用耀骑士临光击败血骑士狄开俄波利斯",
+      "paramList": [
+        "3",
+        "act13side_10",
+        "char_1014_nearl2",
+        "DEATHDETAIL,char_1014_nearl2,enemy_1524_bldkgt",
+        "1"
+      ],
+      "uniEquipMissionId": "uniequip_003_nearl2_2",
+      "uniEquipMissionSort": 2,
+      "uniEquipId": "uniequip_003_nearl2",
+      "jumpStageId": "act13side_10"
     }
   },
   "subProfDict": {
@@ -30246,6 +32984,21 @@
       "subProfessionId": "ritualist",
       "subProfessionName": "巫役",
       "subProfessionCatagory": 62
+    },
+    "hunter": {
+      "subProfessionId": "hunter",
+      "subProfessionName": "猎手",
+      "subProfessionCatagory": 63
+    },
+    "primcaster": {
+      "subProfessionId": "primcaster",
+      "subProfessionName": "本源术师",
+      "subProfessionCatagory": 64
+    },
+    "loopshooter": {
+      "subProfessionId": "loopshooter",
+      "subProfessionName": "回环射手",
+      "subProfessionCatagory": 65
     }
   },
   "charEquip": {
@@ -30352,7 +33105,8 @@
     ],
     "char_010_chen": [
       "uniequip_001_chen",
-      "uniequip_002_chen"
+      "uniequip_002_chen",
+      "uniequip_003_chen"
     ],
     "char_459_tachak": [
       "uniequip_001_tachak",
@@ -30368,7 +33122,8 @@
     ],
     "char_222_bpipe": [
       "uniequip_001_bpipe",
-      "uniequip_002_bpipe"
+      "uniequip_002_bpipe",
+      "uniequip_003_bpipe"
     ],
     "char_220_grani": [
       "uniequip_001_grani",
@@ -30388,7 +33143,8 @@
     ],
     "char_1014_nearl2": [
       "uniequip_001_nearl2",
-      "uniequip_002_nearl2"
+      "uniequip_002_nearl2",
+      "uniequip_003_nearl2"
     ],
     "char_263_skadi": [
       "uniequip_001_skadi",
@@ -30434,7 +33190,8 @@
     ],
     "char_300_phenxi": [
       "uniequip_001_phenxi",
-      "uniequip_002_phenxi"
+      "uniequip_002_phenxi",
+      "uniequip_003_phenxi"
     ],
     "char_219_meteo": [
       "uniequip_001_meteo",
@@ -30561,7 +33318,8 @@
     "char_4046_ebnhlz": [
       "uniequip_001_ebnhlz",
       "uniequip_002_ebnhlz",
-      "uniequip_003_ebnhlz"
+      "uniequip_003_ebnhlz",
+      "uniequip_004_ebnhlz"
     ],
     "char_338_iris": [
       "uniequip_001_iris",
@@ -30766,7 +33524,8 @@
     ],
     "char_362_saga": [
       "uniequip_001_saga",
-      "uniequip_002_saga"
+      "uniequip_002_saga",
+      "uniequip_003_saga"
     ],
     "char_420_flamtl": [
       "uniequip_001_flamtl",
@@ -31062,6 +33821,66 @@
     "char_491_humus": [
       "uniequip_001_humus",
       "uniequip_002_humus"
+    ],
+    "char_4019_ncdeer": [
+      "uniequip_001_ncdeer",
+      "uniequip_002_ncdeer"
+    ],
+    "char_1031_slent2": [
+      "uniequip_001_slent2",
+      "uniequip_002_slent2"
+    ],
+    "char_343_tknogi": [
+      "uniequip_001_tknogi",
+      "uniequip_002_tknogi"
+    ],
+    "char_492_quercu": [
+      "uniequip_001_quercu",
+      "uniequip_002_quercu"
+    ],
+    "char_4105_almond": [
+      "uniequip_001_almond",
+      "uniequip_002_almond"
+    ],
+    "char_4039_horn": [
+      "uniequip_001_horn",
+      "uniequip_002_horn"
+    ],
+    "char_493_firwhl": [
+      "uniequip_001_firwhl",
+      "uniequip_002_firwhl"
+    ],
+    "char_431_ashlok": [
+      "uniequip_001_ashlok",
+      "uniequip_002_ashlok"
+    ],
+    "char_4110_delphn": [
+      "uniequip_001_delphn",
+      "uniequip_002_delphn"
+    ],
+    "char_4107_vrdant": [
+      "uniequip_001_vrdant",
+      "uniequip_002_vrdant"
+    ],
+    "char_311_mudrok": [
+      "uniequip_001_mudrok",
+      "uniequip_002_mudrok"
+    ],
+    "char_4065_judge": [
+      "uniequip_001_judge",
+      "uniequip_002_judge"
+    ],
+    "char_163_hpsts": [
+      "uniequip_001_hpsts",
+      "uniequip_002_hpsts"
+    ],
+    "char_4011_lessng": [
+      "uniequip_001_lessng",
+      "uniequip_002_lessng"
+    ],
+    "char_4109_baslin": [
+      "uniequip_001_baslin",
+      "uniequip_002_baslin"
     ]
   },
   "equipTrackDict": [
@@ -32857,6 +35676,165 @@
         {
           "charId": "char_491_humus",
           "equipId": "uniequip_002_humus"
+        }
+      ]
+    },
+    {
+      "timeStamp": 1693886400,
+      "trackList": [
+        {
+          "charId": "char_4019_ncdeer",
+          "equipId": "uniequip_001_ncdeer"
+        },
+        {
+          "charId": "char_4019_ncdeer",
+          "equipId": "uniequip_002_ncdeer"
+        },
+        {
+          "charId": "char_1031_slent2",
+          "equipId": "uniequip_001_slent2"
+        },
+        {
+          "charId": "char_1031_slent2",
+          "equipId": "uniequip_002_slent2"
+        },
+        {
+          "charId": "char_343_tknogi",
+          "equipId": "uniequip_001_tknogi"
+        },
+        {
+          "charId": "char_343_tknogi",
+          "equipId": "uniequip_002_tknogi"
+        },
+        {
+          "charId": "char_492_quercu",
+          "equipId": "uniequip_001_quercu"
+        },
+        {
+          "charId": "char_492_quercu",
+          "equipId": "uniequip_002_quercu"
+        },
+        {
+          "charId": "char_4105_almond",
+          "equipId": "uniequip_001_almond"
+        },
+        {
+          "charId": "char_4105_almond",
+          "equipId": "uniequip_002_almond"
+        },
+        {
+          "charId": "char_010_chen",
+          "equipId": "uniequip_003_chen"
+        },
+        {
+          "charId": "char_362_saga",
+          "equipId": "uniequip_003_saga"
+        }
+      ]
+    },
+    {
+      "timeStamp": 1696737600,
+      "trackList": [
+        {
+          "charId": "char_4039_horn",
+          "equipId": "uniequip_001_horn"
+        },
+        {
+          "charId": "char_4039_horn",
+          "equipId": "uniequip_002_horn"
+        },
+        {
+          "charId": "char_493_firwhl",
+          "equipId": "uniequip_001_firwhl"
+        },
+        {
+          "charId": "char_493_firwhl",
+          "equipId": "uniequip_002_firwhl"
+        },
+        {
+          "charId": "char_431_ashlok",
+          "equipId": "uniequip_001_ashlok"
+        },
+        {
+          "charId": "char_431_ashlok",
+          "equipId": "uniequip_002_ashlok"
+        },
+        {
+          "charId": "char_4110_delphn",
+          "equipId": "uniequip_001_delphn"
+        },
+        {
+          "charId": "char_4110_delphn",
+          "equipId": "uniequip_002_delphn"
+        },
+        {
+          "charId": "char_4107_vrdant",
+          "equipId": "uniequip_001_vrdant"
+        },
+        {
+          "charId": "char_4107_vrdant",
+          "equipId": "uniequip_002_vrdant"
+        },
+        {
+          "charId": "char_300_phenxi",
+          "equipId": "uniequip_003_phenxi"
+        },
+        {
+          "charId": "char_4046_ebnhlz",
+          "equipId": "uniequip_004_ebnhlz"
+        }
+      ]
+    },
+    {
+      "timeStamp": 1698811200,
+      "trackList": [
+        {
+          "charId": "char_311_mudrok",
+          "equipId": "uniequip_001_mudrok"
+        },
+        {
+          "charId": "char_311_mudrok",
+          "equipId": "uniequip_002_mudrok"
+        },
+        {
+          "charId": "char_4065_judge",
+          "equipId": "uniequip_001_judge"
+        },
+        {
+          "charId": "char_4065_judge",
+          "equipId": "uniequip_002_judge"
+        },
+        {
+          "charId": "char_163_hpsts",
+          "equipId": "uniequip_001_hpsts"
+        },
+        {
+          "charId": "char_163_hpsts",
+          "equipId": "uniequip_002_hpsts"
+        },
+        {
+          "charId": "char_4011_lessng",
+          "equipId": "uniequip_001_lessng"
+        },
+        {
+          "charId": "char_4011_lessng",
+          "equipId": "uniequip_002_lessng"
+        },
+        {
+          "charId": "char_4109_baslin",
+          "equipId": "uniequip_001_baslin"
+        },
+        {
+          "charId": "char_4109_baslin",
+          "equipId": "uniequip_002_baslin"
+        },
+        {
+          "charId": "char_222_bpipe",
+          "equipId": "uniequip_003_bpipe"
+        },
+        {
+          "charId": "char_1014_nearl2",
+          "equipId": "uniequip_003_nearl2"
         }
       ]
     }

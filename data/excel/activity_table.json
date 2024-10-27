@@ -1,5 +1,24 @@
 {
   "basicInfo": {
+    "act45sign": {
+      "id": "act45sign",
+      "type": "CHECKIN_ONLY",
+      "displayType": "NONE",
+      "name": "感谢庆典前瞻签到",
+      "startTime": 1729951200,
+      "endTime": 1730750399,
+      "rewardEndTime": 1730750399,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false
+    },
     "act37side": {
       "id": "act37side",
       "type": "TYPE_ACT9D0",
@@ -3887,6 +3906,13 @@
     }
   },
   "homeActConfig": {
+    "act45sign": {
+      "actId": "act45sign",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "653842",
+      "actTopBarText": "感谢庆典前瞻签到"
+    },
     "act44sign": {
       "actId": "act44sign",
       "isPopupAfterCheckin": false,
@@ -75108,6 +75134,146 @@
       }
     },
     "CHECKIN_ONLY": {
+      "act45sign": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "voucher_skill_specialLevelMax_5",
+                "count": 1,
+                "type": "VOUCHER_SKILL_SPECIALLEVELMAX_5"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 1,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 1,
+            "isDynItem": false
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "4002",
+                "count": 1,
+                "type": "DIAMOND"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 2,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "2": {
+            "itemList": [
+              {
+                "id": "4002",
+                "count": 1,
+                "type": "DIAMOND"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 3,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "nc_5d5_1",
+                "count": 1,
+                "type": "NAME_CARD_SKIN"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 4,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 2,
+            "isDynItem": false
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "4002",
+                "count": 1,
+                "type": "DIAMOND"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 5,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "5": {
+            "itemList": [
+              {
+                "id": "4002",
+                "count": 1,
+                "type": "DIAMOND"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 6,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "6": {
+            "itemList": [
+              {
+                "id": "4002",
+                "count": 1,
+                "type": "DIAMOND"
+              },
+              {
+                "id": "4002",
+                "count": 1,
+                "type": "DIAMOND"
+              }
+            ],
+            "order": 7,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          }
+        },
+        "apSupplyOutOfDateDict": {},
+        "dynCheckInData": null,
+        "extraCheckinList": null
+      },
       "act44sign": {
         "checkInList": {
           "0": {

@@ -1599,7 +1599,7 @@
       "char_4102_threye": {
         "charId": "char_4102_threye",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_threye",
         "recruitType": "FREE"
       },
       "char_215_mantic": {
@@ -1917,7 +1917,7 @@
       "char_245_cello": {
         "charId": "char_245_cello",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_cello",
         "recruitType": "FREE"
       },
       "char_250_phatom": {
@@ -2313,13 +2313,49 @@
       "char_487_bobb": {
         "charId": "char_487_bobb",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_bobb",
         "recruitType": "FREE"
       },
       "char_1019_siege2": {
         "charId": "char_1019_siege2",
         "canBeFree": true,
         "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4165_ctrail": {
+        "charId": "char_4165_ctrail",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4155_talr": {
+        "charId": "char_4155_talr",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_talr",
+        "recruitType": "FREE"
+      },
+      "char_4148_philae": {
+        "charId": "char_4148_philae",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_1038_whitw2": {
+        "charId": "char_1038_whitw2",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_whitw2",
+        "recruitType": "FREE"
+      },
+      "char_1502_crosly": {
+        "charId": "char_1502_crosly",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_crosly",
+        "recruitType": "FREE"
+      },
+      "char_4026_vulpis": {
+        "charId": "char_4026_vulpis",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_vulpis",
         "recruitType": "FREE"
       }
     }
@@ -135367,14 +135403,10 @@
           "displayUnlockMonth": 12,
           "acquireTitle": "可获取泥岩形象时装",
           "purchaseTitle": "泥岩形象时装",
-          "displayName": "神秘时装",
+          "displayName": "砾瓦",
           "displayDiscription": "敲开拦路桎梏。\n移走堆积障碍。\n即使褪下厚重铠甲。\n也没人能阻断土石之子的前路。",
           "bpLevelId": "bp_level_125",
-          "itemBundle": {
-            "id": "char_311_mudrok",
-            "count": 1,
-            "type": "CHAR"
-          },
+          "itemBundle": null,
           "detailAnnounceTime": "2024/12/1 4:00:00",
           "picIdAftrerUnlock": null
         },

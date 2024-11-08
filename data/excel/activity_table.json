@@ -1,5 +1,24 @@
 {
   "basicInfo": {
+    "act47sign": {
+      "id": "act47sign",
+      "type": "CHECKIN_ONLY",
+      "displayType": "NONE",
+      "name": "感谢庆典补给签到",
+      "startTime": 1731528000,
+      "endTime": 1732391999,
+      "rewardEndTime": 1732391999,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false
+    },
     "act46sign": {
       "id": "act46sign",
       "type": "CHECKIN_ONLY",
@@ -3982,6 +4001,13 @@
     }
   },
   "homeActConfig": {
+    "act47sign": {
+      "actId": "act47sign",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "a41836",
+      "actTopBarText": "感谢庆典补给签到"
+    },
     "act46sign": {
       "actId": "act46sign",
       "isPopupAfterCheckin": false,
@@ -76268,6 +76294,146 @@
       }
     },
     "CHECKIN_ONLY": {
+      "act47sign": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "classic_gacha",
+                "count": 1,
+                "type": "CLASSIC_TKT_GACHA"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 1,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "classic_gacha",
+                "count": 1,
+                "type": "CLASSIC_TKT_GACHA"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 2,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "2": {
+            "itemList": [
+              {
+                "id": "classic_gacha",
+                "count": 1,
+                "type": "CLASSIC_TKT_GACHA"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 3,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "classic_gacha",
+                "count": 1,
+                "type": "CLASSIC_TKT_GACHA"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 4,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "classic_gacha",
+                "count": 1,
+                "type": "CLASSIC_TKT_GACHA"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 5,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "5": {
+            "itemList": [
+              {
+                "id": "classic_gacha",
+                "count": 1,
+                "type": "CLASSIC_TKT_GACHA"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 6,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "6": {
+            "itemList": [
+              {
+                "id": "classic_gacha",
+                "count": 1,
+                "type": "CLASSIC_TKT_GACHA"
+              },
+              {
+                "id": "randomMaterial_5d5",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              }
+            ],
+            "order": 7,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          }
+        },
+        "apSupplyOutOfDateDict": {},
+        "dynCheckInData": null,
+        "extraCheckinList": null
+      },
       "act46sign": {
         "checkInList": {
           "0": {

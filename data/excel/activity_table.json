@@ -25,6 +25,25 @@
       "recType": "SPECIAL",
       "isPageEntry": true
     },
+    "act29sre": {
+      "id": "act29sre",
+      "type": "TYPE_ACT29SIDE",
+      "displayType": "NONE",
+      "name": "崔林特尔梅之金·复刻",
+      "startTime": 1732521600,
+      "endTime": 1733342399,
+      "rewardEndTime": 1733687999,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act29sre",
+      "medalGroupId": "medalGroupActivity29side",
+      "ungroupedMedalIds": null,
+      "isReplicate": true,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false
+    },
     "act47sign": {
       "id": "act47sign",
       "type": "CHECKIN_ONLY",
@@ -4785,6 +4804,9 @@
   },
   "zoneToActivity": {
     "act1vautochess_zone1": "act1vautochess",
+    "act29sre_zone1": "act29sre",
+    "act29sre_zone2": "act29sre",
+    "act29sre_zone3": "act29sre",
     "act38side_zone1": "act38side",
     "act38side_zone2": "act38side",
     "act38side_zone3": "act38side",
@@ -5571,6 +5593,1086 @@
           "type": "ACTIVITY_ITEM",
           "id": "act1vautochess_token_chess",
           "count": 250
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_1",
+      "sortId": 1,
+      "description": "通关ZT-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_2",
+      "sortId": 2,
+      "description": "通关ZT-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_magicAcademy_table_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_3",
+      "sortId": 3,
+      "description": "通关ZT-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_4",
+      "sortId": 4,
+      "description": "通关ZT-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_magicAcademy_chair_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_5",
+      "sortId": 5,
+      "description": "通关ZT-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_6",
+      "sortId": 6,
+      "description": "通关ZT-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_7",
+      "sortId": 7,
+      "description": "通关ZT-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_magicAcademy_ceilingLights_03",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_8",
+      "sortId": 8,
+      "description": "以3星评价完成ZT-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_07",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_9",
+      "sortId": 9,
+      "description": "通关ZT-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_magicAcademy_musicBox_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_10",
+      "sortId": 10,
+      "description": "以3星评价完成ZT-8，并且至少使用2次湮灭之相",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "3",
+        "act29side_08",
+        "trap_135_portlent",
+        "trap_135_portlent_spwan",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_magicAcademy_cabinet_02",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_11",
+      "sortId": 11,
+      "description": "通关ZT-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_09",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_magicAcademy_audio_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_12",
+      "sortId": 12,
+      "description": "以3星评价完成ZT-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_09",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_magicAcademy_amethyst_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_13",
+      "sortId": 13,
+      "description": "通关ZT-10，并且因身上有慵钝之印而被强制击退的干员不多于5名",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "11",
+      "param": [
+        "11",
+        "2",
+        "act29side_10",
+        "killed_by_deathMark",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 120
+        },
+        {
+          "type": "FURN",
+          "id": "furni_magicAcademy_stool_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_14",
+      "sortId": 14,
+      "description": "以3星评价完成ZT-10",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_10",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_15",
+      "sortId": 20,
+      "description": "通关ZT-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_ex01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_16",
+      "sortId": 21,
+      "description": "通关ZT-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_ex02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_17",
+      "sortId": 22,
+      "description": "通关ZT-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_ex03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_18",
+      "sortId": 23,
+      "description": "通关ZT-EX-4，且至少改变4次变奏",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "10",
+      "param": [
+        "10",
+        "2",
+        "act29side_ex04",
+        "audio_type_changed",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_19",
+      "sortId": 24,
+      "description": "通关ZT-EX-5，且在变奏时击败未因变奏触发共鸣能力的敌人至少6名",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "10",
+      "param": [
+        "10",
+        "2",
+        "act29side_ex05",
+        "killed_without_buffed",
+        "6"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_20",
+      "sortId": 25,
+      "description": "通关ZT-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_ex06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_21",
+      "sortId": 26,
+      "description": "通关ZT-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_ex07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_22",
+      "sortId": 27,
+      "description": "通关ZT-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_ex08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_23",
+      "sortId": 28,
+      "description": "通关ZT-EX-8突袭模式",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_ex08#f#",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terratimes_Leithanien_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_24",
+      "sortId": 29,
+      "description": "以3星评价完成ZT-S-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_s01",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_25",
+      "sortId": 30,
+      "description": "以3星评价完成ZT-S-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_s02",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_26",
+      "sortId": 31,
+      "description": "以3星评价完成ZT-S-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_s03",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_27",
+      "sortId": 32,
+      "description": "以3星评价完成ZT-S-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_s04",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_28",
+      "sortId": 33,
+      "description": "以3星评价完成ZT-S-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act29side_s05",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_29",
+      "sortId": 34,
+      "description": "通关活动关10次，不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act29side_01^act29side_02^act29side_03^act29side_04^act29side_05^act29side_06^act29side_07^act29side_08^act29side_09^act29side_10^act29side_ex01^act29side_ex01#f#^act29side_ex02^act29side_ex02#f#^act29side_ex03^act29side_ex03#f#^act29side_ex04^act29side_ex04#f#^act29side_ex05^act29side_ex05#f#^act29side_ex06^act29side_ex06#f#^act29side_ex07^act29side_ex07#f#^act29side_ex08^act29side_ex08#f#^act29side_s01^act29side_s01#f#^act29side_s02^act29side_s02#f#^act29side_s03^act29side_s03#f#^act29side_s04^act29side_s04#f#^act29side_s05^act29side_s05#f#",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_30",
+      "sortId": 35,
+      "description": "通关活动关25次，不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act29side_01^act29side_02^act29side_03^act29side_04^act29side_05^act29side_06^act29side_07^act29side_08^act29side_09^act29side_10^act29side_ex01^act29side_ex01#f#^act29side_ex02^act29side_ex02#f#^act29side_ex03^act29side_ex03#f#^act29side_ex04^act29side_ex04#f#^act29side_ex05^act29side_ex05#f#^act29side_ex06^act29side_ex06#f#^act29side_ex07^act29side_ex07#f#^act29side_ex08^act29side_ex08#f#^act29side_s01^act29side_s01#f#^act29side_s02^act29side_s02#f#^act29side_s03^act29side_s03#f#^act29side_s04^act29side_s04#f#^act29side_s05^act29side_s05#f#",
+        "25"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_31",
+      "sortId": 36,
+      "description": "通关活动关40次，不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act29side_01^act29side_02^act29side_03^act29side_04^act29side_05^act29side_06^act29side_07^act29side_08^act29side_09^act29side_10^act29side_ex01^act29side_ex01#f#^act29side_ex02^act29side_ex02#f#^act29side_ex03^act29side_ex03#f#^act29side_ex04^act29side_ex04#f#^act29side_ex05^act29side_ex05#f#^act29side_ex06^act29side_ex06#f#^act29side_ex07^act29side_ex07#f#^act29side_ex08^act29side_ex08#f#^act29side_s01^act29side_s01#f#^act29side_s02^act29side_s02#f#^act29side_s03^act29side_s03#f#^act29side_s04^act29side_s04#f#^act29side_s05^act29side_s05#f#",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act29side_token_erin_rep_1",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_32",
+      "sortId": 15,
+      "description": "完成3个例行查访",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "Act29SideCompleteDailyInvest",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "30104",
+          "count": 2
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_33",
+      "sortId": 16,
+      "description": "完成6个例行查访",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "Act29SideCompleteDailyInvest",
+      "templateType": "0",
+      "param": [
+        "0",
+        "6"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "30054",
+          "count": 2
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "29sreActivity_34",
+      "sortId": 17,
+      "description": "完成9个例行查访",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "Act29SideCompleteDailyInvest",
+      "templateType": "0",
+      "param": [
+        "0",
+        "9"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act29sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "31044",
+          "count": 2
         }
       ],
       "backImagePath": null,
@@ -73752,6 +74854,52 @@
       ],
       "startTs": 1731657600,
       "endTs": 1733083199
+    },
+    {
+      "id": "act29sre",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "29sreActivity_1",
+        "29sreActivity_2",
+        "29sreActivity_3",
+        "29sreActivity_4",
+        "29sreActivity_5",
+        "29sreActivity_6",
+        "29sreActivity_7",
+        "29sreActivity_8",
+        "29sreActivity_9",
+        "29sreActivity_10",
+        "29sreActivity_11",
+        "29sreActivity_12",
+        "29sreActivity_13",
+        "29sreActivity_14",
+        "29sreActivity_15",
+        "29sreActivity_16",
+        "29sreActivity_17",
+        "29sreActivity_18",
+        "29sreActivity_19",
+        "29sreActivity_20",
+        "29sreActivity_21",
+        "29sreActivity_22",
+        "29sreActivity_23",
+        "29sreActivity_24",
+        "29sreActivity_25",
+        "29sreActivity_26",
+        "29sreActivity_27",
+        "29sreActivity_28",
+        "29sreActivity_29",
+        "29sreActivity_30",
+        "29sreActivity_31",
+        "29sreActivity_32",
+        "29sreActivity_33",
+        "29sreActivity_34"
+      ],
+      "startTs": 1732521600,
+      "endTs": 1733687999
     },
     {
       "id": "act38side",
@@ -160787,6 +161935,2674 @@
       }
     },
     "TYPE_ACT29SIDE": {
+      "act29sre": {
+        "fragDataMap": {
+          "act29side_frag_1_rep_1": {
+            "fragId": "act29side_frag_1_rep_1",
+            "sortId": 1,
+            "fragName": "乐",
+            "fragIcon": "act29side_frag_1_notitem_show",
+            "fragStoreIcon": "act29side_frag_1_notitem_form"
+          },
+          "act29side_frag_2_rep_1": {
+            "fragId": "act29side_frag_2_rep_1",
+            "sortId": 2,
+            "fragName": "怒",
+            "fragIcon": "act29side_frag_2_notitem_show",
+            "fragStoreIcon": "act29side_frag_2_notitem_form"
+          },
+          "act29side_frag_3_rep_1": {
+            "fragId": "act29side_frag_3_rep_1",
+            "sortId": 3,
+            "fragName": "哀",
+            "fragIcon": "act29side_frag_3_notitem_show",
+            "fragStoreIcon": "act29side_frag_3_notitem_form"
+          },
+          "act29side_frag_4_rep_1": {
+            "fragId": "act29side_frag_4_rep_1",
+            "sortId": 4,
+            "fragName": "惧",
+            "fragIcon": "act29side_frag_4_notitem_show",
+            "fragStoreIcon": "act29side_frag_4_notitem_form"
+          }
+        },
+        "orcheDataMap": {
+          "orche_1": {
+            "id": "orche_1",
+            "name": "尘俗的欲望",
+            "desc": "尘世与实在之物",
+            "icon": "orche_1",
+            "sortId": 1,
+            "orcheType": "ORCHE_1"
+          },
+          "orche_2": {
+            "id": "orche_2",
+            "name": "权柄的欲望",
+            "desc": "权柄与高塔之影",
+            "icon": "orche_2",
+            "sortId": 2,
+            "orcheType": "ORCHE_2"
+          },
+          "orche_3": {
+            "id": "orche_3",
+            "name": "智识的欲望",
+            "desc": "智识与无形之光",
+            "icon": "orche_3",
+            "sortId": 3,
+            "orcheType": "ORCHE_3"
+          }
+        },
+        "productGroupDataMap": {
+          "productType_1": {
+            "groupId": "productType_1",
+            "groupName": "蔷薇颂",
+            "groupIcon": "productType_1_show",
+            "groupDesc": "那盛放的啊，足以使春天驻足， \n似不从大地中来，却漫出院墙，摇曳芬芳 \n蔷薇啊，你的笑靥倾倒芸芸众生\n各处的声响诱惑着大家奔走\n凭你的术法让匆忙脚步暂歇\n你的藤蔓将散落的诗句拾捡\n描摹为片片花瓣\n教众人摘下，纷落欢声笑语",
+            "defaultBgmSignal": "music_act29side_default_1",
+            "productList": [
+              "product_1",
+              "product_2",
+              "product_3",
+              "product_4",
+              "product_5",
+              "product_6",
+              "product_7",
+              "product_8",
+              "product_9",
+              "product_10",
+              "product_11",
+              "product_12",
+              "product_13",
+              "product_14",
+              "product_15",
+              "product_16",
+              "product_17",
+              "product_18",
+              "product_19",
+              "product_20"
+            ],
+            "groupEngName": "An die Rose",
+            "groupSmallName": "乐之章",
+            "groupTypeIcon": "productType_1_show",
+            "groupStoreIconId": "productType_1_store",
+            "groupTypeBasePic": "productTypeBasePic_1",
+            "groupTypeEyeIcon": "productTypeEye_1",
+            "groupSortId": 1,
+            "formList": [
+              "formula_1",
+              "formula_2",
+              "formula_3",
+              "formula_4",
+              "formula_5"
+            ],
+            "sheetId": "formula_1_sheet",
+            "sheetNum": 3,
+            "sheetRotateSpd": 85.0,
+            "productType": "PRODUCT_TYPE_1",
+            "productDescColor": "A47559FF",
+            "playTintColor": "52230EFF",
+            "confirmTintColor": "6B372375",
+            "confirmDescColor": "A47559FF",
+            "bagThemeColor": "C17456FF"
+          },
+          "productType_2": {
+            "groupId": "productType_2",
+            "groupName": "维杜尼亚制琴师",
+            "groupIcon": "productType_2_show",
+            "groupDesc": "残损的木芯不曾断折\n他们拿刻刀蹒跚耕锄\n维杜尼亚，我们雕刻你的棺椁\n我们拉紧命运的琴弦\n我们雕出黑金的琴键\n我们雕出陨落的旋律——\n我们雕刻！我们雕刻！",
+            "defaultBgmSignal": "music_act29side_default_2",
+            "productList": [
+              "product_21",
+              "product_22",
+              "product_23",
+              "product_24",
+              "product_25",
+              "product_26",
+              "product_27",
+              "product_28",
+              "product_29",
+              "product_30",
+              "product_31",
+              "product_32",
+              "product_33",
+              "product_34",
+              "product_35",
+              "product_36",
+              "product_37",
+              "product_38",
+              "product_39",
+              "product_40"
+            ],
+            "groupEngName": "Vedunien Geigenbauer",
+            "groupSmallName": "怒之章",
+            "groupTypeIcon": "productType_2_show",
+            "groupStoreIconId": "productType_2_store",
+            "groupTypeBasePic": "productTypeBasePic_2",
+            "groupTypeEyeIcon": "productTypeEye_2",
+            "groupSortId": 2,
+            "formList": [
+              "formula_6",
+              "formula_7",
+              "formula_8",
+              "formula_9",
+              "formula_10"
+            ],
+            "sheetId": "formula_2_sheet",
+            "sheetNum": 3,
+            "sheetRotateSpd": 81.0,
+            "productType": "PRODUCT_TYPE_2",
+            "productDescColor": "A92F2FFF",
+            "playTintColor": "4F1010FF",
+            "confirmTintColor": "670E0E75",
+            "confirmDescColor": "A92F2FFF",
+            "bagThemeColor": "A92F2FFF"
+          },
+          "productType_3": {
+            "groupId": "productType_3",
+            "groupName": "黯角者的夜歌",
+            "groupIcon": "productType_3_show",
+            "groupDesc": "众塔一片沉寂\n喷泉涌出红霞，了无生气\n拥挤的双角缄默在公园里\n且背过身去，你快要让泪止息",
+            "defaultBgmSignal": "music_act29side_default_3",
+            "productList": [
+              "product_41",
+              "product_42",
+              "product_43",
+              "product_44",
+              "product_45",
+              "product_46",
+              "product_47",
+              "product_48",
+              "product_49",
+              "product_50",
+              "product_51",
+              "product_52",
+              "product_53",
+              "product_54",
+              "product_55",
+              "product_56",
+              "product_57",
+              "product_58",
+              "product_59",
+              "product_60"
+            ],
+            "groupEngName": "Trauerhorns Nachtlied",
+            "groupSmallName": "哀之章",
+            "groupTypeIcon": "productType_3_show",
+            "groupStoreIconId": "productType_3_store",
+            "groupTypeBasePic": "productTypeBasePic_3",
+            "groupTypeEyeIcon": "productTypeEye_3",
+            "groupSortId": 3,
+            "formList": [
+              "formula_11",
+              "formula_12",
+              "formula_13",
+              "formula_14",
+              "formula_15"
+            ],
+            "sheetId": "formula_3_sheet",
+            "sheetNum": 3,
+            "sheetRotateSpd": 68.0,
+            "productType": "PRODUCT_TYPE_3",
+            "productDescColor": "4E8D9DFF",
+            "playTintColor": "0E353CFF",
+            "confirmTintColor": "1E4E5C75",
+            "confirmDescColor": "4E8D9DFF",
+            "bagThemeColor": "4E8D9DFF"
+          },
+          "productType_4": {
+            "groupId": "productType_4",
+            "groupName": "旋塔",
+            "groupIcon": "productType_4_show",
+            "groupDesc": "永恒的行宫。天幕之上\n你攀爬向那里，颤抖着\n匍匐于混沌的阶梯\n墙上旋转着始源的言语\n将你紧缚。那缝隙间的岩石\n维持着和夜一样的寿命\n安详宛如手臂上的脉路\n阶梯飞悬，在深渊的高处\n通往散尽雾气的塔\n听哪，那塔未曾与外议论尽头的风景",
+            "defaultBgmSignal": "music_act29side_default_4",
+            "productList": [
+              "product_61",
+              "product_62",
+              "product_63",
+              "product_64",
+              "product_65",
+              "product_66",
+              "product_67",
+              "product_68",
+              "product_69",
+              "product_70",
+              "product_71",
+              "product_72",
+              "product_73",
+              "product_74",
+              "product_75",
+              "product_76",
+              "product_77",
+              "product_78",
+              "product_79",
+              "product_80"
+            ],
+            "groupEngName": "Der verdrehte Turm",
+            "groupSmallName": "惧之章",
+            "groupTypeIcon": "productType_4_show",
+            "groupStoreIconId": "productType_4_store",
+            "groupTypeBasePic": "productTypeBasePic_4",
+            "groupTypeEyeIcon": "productTypeEye_4",
+            "groupSortId": 4,
+            "formList": [
+              "formula_16",
+              "formula_17",
+              "formula_18",
+              "formula_19",
+              "formula_20"
+            ],
+            "sheetId": "formula_4_sheet",
+            "sheetNum": 3,
+            "sheetRotateSpd": 108.0,
+            "productType": "PRODUCT_TYPE_4",
+            "productDescColor": "609984FF",
+            "playTintColor": "204234FF",
+            "confirmTintColor": "2C6A4275",
+            "confirmDescColor": "609984FF",
+            "bagThemeColor": "609984FF"
+          },
+          "productType_5": {
+            "groupId": "productType_5",
+            "groupName": "旅程",
+            "groupIcon": "productType_5_show",
+            "groupDesc": "如果，生命的脚印终有一天\n会被时间的尘埃掩埋......\n那我们就永远不能\n——停下脚步",
+            "defaultBgmSignal": "music_act29side_default_5",
+            "productList": [
+              "product_81"
+            ],
+            "groupEngName": "Die Reise",
+            "groupSmallName": "明日之章",
+            "groupTypeIcon": "productType_5_show",
+            "groupStoreIconId": "productType_5_store",
+            "groupTypeBasePic": "productTypeBasePic_5",
+            "groupTypeEyeIcon": "productTypeEye_5",
+            "groupSortId": 5,
+            "formList": [],
+            "sheetId": "formula_5_sheet",
+            "sheetNum": 3,
+            "sheetRotateSpd": 105.0,
+            "productType": "PRODUCT_TYPE_5",
+            "productDescColor": "FFFFFFFF",
+            "playTintColor": "363636FF",
+            "confirmTintColor": "58585875",
+            "confirmDescColor": "8B8B8BFF",
+            "bagThemeColor": "9E8C75FF"
+          }
+        },
+        "productDataMap": {
+          "product_1": {
+            "id": "product_1",
+            "orcheId": "orche_1",
+            "groupId": "productType_1",
+            "formId": "formula_1",
+            "musicId": "music_act29side_p1o1"
+          },
+          "product_2": {
+            "id": "product_2",
+            "orcheId": "orche_2",
+            "groupId": "productType_1",
+            "formId": "formula_1",
+            "musicId": "music_act29side_p1o2"
+          },
+          "product_3": {
+            "id": "product_3",
+            "orcheId": "orche_3",
+            "groupId": "productType_1",
+            "formId": "formula_1",
+            "musicId": "music_act29side_p1o3"
+          },
+          "product_4": {
+            "id": "product_4",
+            "orcheId": null,
+            "groupId": "productType_1",
+            "formId": "formula_1",
+            "musicId": "music_act29side_default_1"
+          },
+          "product_5": {
+            "id": "product_5",
+            "orcheId": "orche_1",
+            "groupId": "productType_1",
+            "formId": "formula_2",
+            "musicId": "music_act29side_p1o1"
+          },
+          "product_6": {
+            "id": "product_6",
+            "orcheId": "orche_2",
+            "groupId": "productType_1",
+            "formId": "formula_2",
+            "musicId": "music_act29side_p1o2"
+          },
+          "product_7": {
+            "id": "product_7",
+            "orcheId": "orche_3",
+            "groupId": "productType_1",
+            "formId": "formula_2",
+            "musicId": "music_act29side_p1o3"
+          },
+          "product_8": {
+            "id": "product_8",
+            "orcheId": null,
+            "groupId": "productType_1",
+            "formId": "formula_2",
+            "musicId": "music_act29side_default_1"
+          },
+          "product_9": {
+            "id": "product_9",
+            "orcheId": "orche_1",
+            "groupId": "productType_1",
+            "formId": "formula_3",
+            "musicId": "music_act29side_p1o1"
+          },
+          "product_10": {
+            "id": "product_10",
+            "orcheId": "orche_2",
+            "groupId": "productType_1",
+            "formId": "formula_3",
+            "musicId": "music_act29side_p1o2"
+          },
+          "product_11": {
+            "id": "product_11",
+            "orcheId": "orche_3",
+            "groupId": "productType_1",
+            "formId": "formula_3",
+            "musicId": "music_act29side_p1o3"
+          },
+          "product_12": {
+            "id": "product_12",
+            "orcheId": null,
+            "groupId": "productType_1",
+            "formId": "formula_3",
+            "musicId": "music_act29side_default_1"
+          },
+          "product_13": {
+            "id": "product_13",
+            "orcheId": "orche_1",
+            "groupId": "productType_1",
+            "formId": "formula_4",
+            "musicId": "music_act29side_p1o1"
+          },
+          "product_14": {
+            "id": "product_14",
+            "orcheId": "orche_2",
+            "groupId": "productType_1",
+            "formId": "formula_4",
+            "musicId": "music_act29side_p1o2"
+          },
+          "product_15": {
+            "id": "product_15",
+            "orcheId": "orche_3",
+            "groupId": "productType_1",
+            "formId": "formula_4",
+            "musicId": "music_act29side_p1o3"
+          },
+          "product_16": {
+            "id": "product_16",
+            "orcheId": null,
+            "groupId": "productType_1",
+            "formId": "formula_4",
+            "musicId": "music_act29side_default_1"
+          },
+          "product_17": {
+            "id": "product_17",
+            "orcheId": "orche_1",
+            "groupId": "productType_1",
+            "formId": "formula_5",
+            "musicId": "music_act29side_p1o1"
+          },
+          "product_18": {
+            "id": "product_18",
+            "orcheId": "orche_2",
+            "groupId": "productType_1",
+            "formId": "formula_5",
+            "musicId": "music_act29side_p1o2"
+          },
+          "product_19": {
+            "id": "product_19",
+            "orcheId": "orche_3",
+            "groupId": "productType_1",
+            "formId": "formula_5",
+            "musicId": "music_act29side_p1o3"
+          },
+          "product_20": {
+            "id": "product_20",
+            "orcheId": null,
+            "groupId": "productType_1",
+            "formId": "formula_5",
+            "musicId": "music_act29side_default_1"
+          },
+          "product_21": {
+            "id": "product_21",
+            "orcheId": "orche_1",
+            "groupId": "productType_2",
+            "formId": "formula_6",
+            "musicId": "music_act29side_p2o1"
+          },
+          "product_22": {
+            "id": "product_22",
+            "orcheId": "orche_2",
+            "groupId": "productType_2",
+            "formId": "formula_6",
+            "musicId": "music_act29side_p2o2"
+          },
+          "product_23": {
+            "id": "product_23",
+            "orcheId": "orche_3",
+            "groupId": "productType_2",
+            "formId": "formula_6",
+            "musicId": "music_act29side_p2o3"
+          },
+          "product_24": {
+            "id": "product_24",
+            "orcheId": null,
+            "groupId": "productType_2",
+            "formId": "formula_6",
+            "musicId": "music_act29side_default_2"
+          },
+          "product_25": {
+            "id": "product_25",
+            "orcheId": "orche_1",
+            "groupId": "productType_2",
+            "formId": "formula_7",
+            "musicId": "music_act29side_p2o1"
+          },
+          "product_26": {
+            "id": "product_26",
+            "orcheId": "orche_2",
+            "groupId": "productType_2",
+            "formId": "formula_7",
+            "musicId": "music_act29side_p2o2"
+          },
+          "product_27": {
+            "id": "product_27",
+            "orcheId": "orche_3",
+            "groupId": "productType_2",
+            "formId": "formula_7",
+            "musicId": "music_act29side_p2o3"
+          },
+          "product_28": {
+            "id": "product_28",
+            "orcheId": null,
+            "groupId": "productType_2",
+            "formId": "formula_7",
+            "musicId": "music_act29side_default_2"
+          },
+          "product_29": {
+            "id": "product_29",
+            "orcheId": "orche_1",
+            "groupId": "productType_2",
+            "formId": "formula_8",
+            "musicId": "music_act29side_p2o1"
+          },
+          "product_30": {
+            "id": "product_30",
+            "orcheId": "orche_2",
+            "groupId": "productType_2",
+            "formId": "formula_8",
+            "musicId": "music_act29side_p2o2"
+          },
+          "product_31": {
+            "id": "product_31",
+            "orcheId": "orche_3",
+            "groupId": "productType_2",
+            "formId": "formula_8",
+            "musicId": "music_act29side_p2o3"
+          },
+          "product_32": {
+            "id": "product_32",
+            "orcheId": null,
+            "groupId": "productType_2",
+            "formId": "formula_8",
+            "musicId": "music_act29side_default_2"
+          },
+          "product_33": {
+            "id": "product_33",
+            "orcheId": "orche_1",
+            "groupId": "productType_2",
+            "formId": "formula_9",
+            "musicId": "music_act29side_p2o1"
+          },
+          "product_34": {
+            "id": "product_34",
+            "orcheId": "orche_2",
+            "groupId": "productType_2",
+            "formId": "formula_9",
+            "musicId": "music_act29side_p2o2"
+          },
+          "product_35": {
+            "id": "product_35",
+            "orcheId": "orche_3",
+            "groupId": "productType_2",
+            "formId": "formula_9",
+            "musicId": "music_act29side_p2o3"
+          },
+          "product_36": {
+            "id": "product_36",
+            "orcheId": null,
+            "groupId": "productType_2",
+            "formId": "formula_9",
+            "musicId": "music_act29side_default_2"
+          },
+          "product_37": {
+            "id": "product_37",
+            "orcheId": "orche_1",
+            "groupId": "productType_2",
+            "formId": "formula_10",
+            "musicId": "music_act29side_p2o1"
+          },
+          "product_38": {
+            "id": "product_38",
+            "orcheId": "orche_2",
+            "groupId": "productType_2",
+            "formId": "formula_10",
+            "musicId": "music_act29side_p2o2"
+          },
+          "product_39": {
+            "id": "product_39",
+            "orcheId": "orche_3",
+            "groupId": "productType_2",
+            "formId": "formula_10",
+            "musicId": "music_act29side_p2o3"
+          },
+          "product_40": {
+            "id": "product_40",
+            "orcheId": null,
+            "groupId": "productType_2",
+            "formId": "formula_10",
+            "musicId": "music_act29side_default_2"
+          },
+          "product_41": {
+            "id": "product_41",
+            "orcheId": "orche_1",
+            "groupId": "productType_3",
+            "formId": "formula_11",
+            "musicId": "music_act29side_p3o1"
+          },
+          "product_42": {
+            "id": "product_42",
+            "orcheId": "orche_2",
+            "groupId": "productType_3",
+            "formId": "formula_11",
+            "musicId": "music_act29side_p3o2"
+          },
+          "product_43": {
+            "id": "product_43",
+            "orcheId": "orche_3",
+            "groupId": "productType_3",
+            "formId": "formula_11",
+            "musicId": "music_act29side_p3o3"
+          },
+          "product_44": {
+            "id": "product_44",
+            "orcheId": null,
+            "groupId": "productType_3",
+            "formId": "formula_11",
+            "musicId": "music_act29side_default_3"
+          },
+          "product_45": {
+            "id": "product_45",
+            "orcheId": "orche_1",
+            "groupId": "productType_3",
+            "formId": "formula_12",
+            "musicId": "music_act29side_p3o1"
+          },
+          "product_46": {
+            "id": "product_46",
+            "orcheId": "orche_2",
+            "groupId": "productType_3",
+            "formId": "formula_12",
+            "musicId": "music_act29side_p3o2"
+          },
+          "product_47": {
+            "id": "product_47",
+            "orcheId": "orche_3",
+            "groupId": "productType_3",
+            "formId": "formula_12",
+            "musicId": "music_act29side_p3o3"
+          },
+          "product_48": {
+            "id": "product_48",
+            "orcheId": null,
+            "groupId": "productType_3",
+            "formId": "formula_12",
+            "musicId": "music_act29side_default_3"
+          },
+          "product_49": {
+            "id": "product_49",
+            "orcheId": "orche_1",
+            "groupId": "productType_3",
+            "formId": "formula_13",
+            "musicId": "music_act29side_p3o1"
+          },
+          "product_50": {
+            "id": "product_50",
+            "orcheId": "orche_2",
+            "groupId": "productType_3",
+            "formId": "formula_13",
+            "musicId": "music_act29side_p3o2"
+          },
+          "product_51": {
+            "id": "product_51",
+            "orcheId": "orche_3",
+            "groupId": "productType_3",
+            "formId": "formula_13",
+            "musicId": "music_act29side_p3o3"
+          },
+          "product_52": {
+            "id": "product_52",
+            "orcheId": null,
+            "groupId": "productType_3",
+            "formId": "formula_13",
+            "musicId": "music_act29side_default_3"
+          },
+          "product_53": {
+            "id": "product_53",
+            "orcheId": "orche_1",
+            "groupId": "productType_3",
+            "formId": "formula_14",
+            "musicId": "music_act29side_p3o1"
+          },
+          "product_54": {
+            "id": "product_54",
+            "orcheId": "orche_2",
+            "groupId": "productType_3",
+            "formId": "formula_14",
+            "musicId": "music_act29side_p3o2"
+          },
+          "product_55": {
+            "id": "product_55",
+            "orcheId": "orche_3",
+            "groupId": "productType_3",
+            "formId": "formula_14",
+            "musicId": "music_act29side_p3o3"
+          },
+          "product_56": {
+            "id": "product_56",
+            "orcheId": null,
+            "groupId": "productType_3",
+            "formId": "formula_14",
+            "musicId": "music_act29side_default_3"
+          },
+          "product_57": {
+            "id": "product_57",
+            "orcheId": "orche_1",
+            "groupId": "productType_3",
+            "formId": "formula_15",
+            "musicId": "music_act29side_p3o1"
+          },
+          "product_58": {
+            "id": "product_58",
+            "orcheId": "orche_2",
+            "groupId": "productType_3",
+            "formId": "formula_15",
+            "musicId": "music_act29side_p3o2"
+          },
+          "product_59": {
+            "id": "product_59",
+            "orcheId": "orche_3",
+            "groupId": "productType_3",
+            "formId": "formula_15",
+            "musicId": "music_act29side_p3o3"
+          },
+          "product_60": {
+            "id": "product_60",
+            "orcheId": null,
+            "groupId": "productType_3",
+            "formId": "formula_15",
+            "musicId": "music_act29side_default_3"
+          },
+          "product_61": {
+            "id": "product_61",
+            "orcheId": "orche_1",
+            "groupId": "productType_4",
+            "formId": "formula_16",
+            "musicId": "music_act29side_p4o1"
+          },
+          "product_62": {
+            "id": "product_62",
+            "orcheId": "orche_2",
+            "groupId": "productType_4",
+            "formId": "formula_16",
+            "musicId": "music_act29side_p4o2"
+          },
+          "product_63": {
+            "id": "product_63",
+            "orcheId": "orche_3",
+            "groupId": "productType_4",
+            "formId": "formula_16",
+            "musicId": "music_act29side_p4o3"
+          },
+          "product_64": {
+            "id": "product_64",
+            "orcheId": null,
+            "groupId": "productType_4",
+            "formId": "formula_16",
+            "musicId": "music_act29side_default_4"
+          },
+          "product_65": {
+            "id": "product_65",
+            "orcheId": "orche_1",
+            "groupId": "productType_4",
+            "formId": "formula_17",
+            "musicId": "music_act29side_p4o1"
+          },
+          "product_66": {
+            "id": "product_66",
+            "orcheId": "orche_2",
+            "groupId": "productType_4",
+            "formId": "formula_17",
+            "musicId": "music_act29side_p4o2"
+          },
+          "product_67": {
+            "id": "product_67",
+            "orcheId": "orche_3",
+            "groupId": "productType_4",
+            "formId": "formula_17",
+            "musicId": "music_act29side_p4o3"
+          },
+          "product_68": {
+            "id": "product_68",
+            "orcheId": null,
+            "groupId": "productType_4",
+            "formId": "formula_17",
+            "musicId": "music_act29side_default_4"
+          },
+          "product_69": {
+            "id": "product_69",
+            "orcheId": "orche_1",
+            "groupId": "productType_4",
+            "formId": "formula_18",
+            "musicId": "music_act29side_p4o1"
+          },
+          "product_70": {
+            "id": "product_70",
+            "orcheId": "orche_2",
+            "groupId": "productType_4",
+            "formId": "formula_18",
+            "musicId": "music_act29side_p4o2"
+          },
+          "product_71": {
+            "id": "product_71",
+            "orcheId": "orche_3",
+            "groupId": "productType_4",
+            "formId": "formula_18",
+            "musicId": "music_act29side_p4o3"
+          },
+          "product_72": {
+            "id": "product_72",
+            "orcheId": null,
+            "groupId": "productType_4",
+            "formId": "formula_18",
+            "musicId": "music_act29side_default_4"
+          },
+          "product_73": {
+            "id": "product_73",
+            "orcheId": "orche_1",
+            "groupId": "productType_4",
+            "formId": "formula_19",
+            "musicId": "music_act29side_p4o1"
+          },
+          "product_74": {
+            "id": "product_74",
+            "orcheId": "orche_2",
+            "groupId": "productType_4",
+            "formId": "formula_19",
+            "musicId": "music_act29side_p4o2"
+          },
+          "product_75": {
+            "id": "product_75",
+            "orcheId": "orche_3",
+            "groupId": "productType_4",
+            "formId": "formula_19",
+            "musicId": "music_act29side_p4o3"
+          },
+          "product_76": {
+            "id": "product_76",
+            "orcheId": null,
+            "groupId": "productType_4",
+            "formId": "formula_19",
+            "musicId": "music_act29side_default_4"
+          },
+          "product_77": {
+            "id": "product_77",
+            "orcheId": "orche_1",
+            "groupId": "productType_4",
+            "formId": "formula_20",
+            "musicId": "music_act29side_p4o1"
+          },
+          "product_78": {
+            "id": "product_78",
+            "orcheId": "orche_2",
+            "groupId": "productType_4",
+            "formId": "formula_20",
+            "musicId": "music_act29side_p4o2"
+          },
+          "product_79": {
+            "id": "product_79",
+            "orcheId": "orche_3",
+            "groupId": "productType_4",
+            "formId": "formula_20",
+            "musicId": "music_act29side_p4o3"
+          },
+          "product_80": {
+            "id": "product_80",
+            "orcheId": null,
+            "groupId": "productType_4",
+            "formId": "formula_20",
+            "musicId": "music_act29side_default_4"
+          },
+          "product_81": {
+            "id": "product_81",
+            "orcheId": null,
+            "groupId": "productType_5",
+            "formId": null,
+            "musicId": "music_act29side_default_5"
+          }
+        },
+        "formDataMap": {
+          "formula_1": {
+            "formId": "formula_1",
+            "fragIdList": [
+              "act29side_frag_1_rep_1",
+              "act29side_frag_1_rep_1",
+              "act29side_frag_3_rep_1"
+            ],
+            "formDesc": "欣慰",
+            "productIdDict": {
+              "orche_1": "product_1",
+              "orche_2": "product_2",
+              "orche_3": "product_3"
+            },
+            "withoutOrcheProductId": "product_4",
+            "groupId": "productType_1",
+            "formSortId": 1
+          },
+          "formula_2": {
+            "formId": "formula_2",
+            "fragIdList": [
+              "act29side_frag_1_rep_1",
+              "act29side_frag_1_rep_1",
+              "act29side_frag_2_rep_1"
+            ],
+            "formDesc": "期冀",
+            "productIdDict": {
+              "orche_1": "product_5",
+              "orche_2": "product_6",
+              "orche_3": "product_7"
+            },
+            "withoutOrcheProductId": "product_8",
+            "groupId": "productType_1",
+            "formSortId": 2
+          },
+          "formula_3": {
+            "formId": "formula_3",
+            "fragIdList": [
+              "act29side_frag_1_rep_1",
+              "act29side_frag_1_rep_1",
+              "act29side_frag_4_rep_1"
+            ],
+            "formDesc": "紧张",
+            "productIdDict": {
+              "orche_1": "product_9",
+              "orche_2": "product_10",
+              "orche_3": "product_11"
+            },
+            "withoutOrcheProductId": "product_12",
+            "groupId": "productType_1",
+            "formSortId": 3
+          },
+          "formula_4": {
+            "formId": "formula_4",
+            "fragIdList": [
+              "act29side_frag_1_rep_1",
+              "act29side_frag_1_rep_1",
+              "act29side_frag_1_rep_1"
+            ],
+            "formDesc": "狂喜",
+            "productIdDict": {
+              "orche_1": "product_13",
+              "orche_2": "product_14",
+              "orche_3": "product_15"
+            },
+            "withoutOrcheProductId": "product_16",
+            "groupId": "productType_1",
+            "formSortId": 4
+          },
+          "formula_5": {
+            "formId": "formula_5",
+            "fragIdList": [
+              "act29side_frag_1_rep_1",
+              "act29side_frag_2_rep_1",
+              "act29side_frag_2_rep_1"
+            ],
+            "formDesc": "激动",
+            "productIdDict": {
+              "orche_1": "product_17",
+              "orche_2": "product_18",
+              "orche_3": "product_19"
+            },
+            "withoutOrcheProductId": "product_20",
+            "groupId": "productType_1",
+            "formSortId": 5
+          },
+          "formula_6": {
+            "formId": "formula_6",
+            "fragIdList": [
+              "act29side_frag_1_rep_1",
+              "act29side_frag_2_rep_1",
+              "act29side_frag_4_rep_1"
+            ],
+            "formDesc": "烦恼",
+            "productIdDict": {
+              "orche_1": "product_21",
+              "orche_2": "product_22",
+              "orche_3": "product_23"
+            },
+            "withoutOrcheProductId": "product_24",
+            "groupId": "productType_2",
+            "formSortId": 6
+          },
+          "formula_7": {
+            "formId": "formula_7",
+            "fragIdList": [
+              "act29side_frag_1_rep_1",
+              "act29side_frag_2_rep_1",
+              "act29side_frag_3_rep_1"
+            ],
+            "formDesc": "警惕",
+            "productIdDict": {
+              "orche_1": "product_25",
+              "orche_2": "product_26",
+              "orche_3": "product_27"
+            },
+            "withoutOrcheProductId": "product_28",
+            "groupId": "productType_2",
+            "formSortId": 7
+          },
+          "formula_8": {
+            "formId": "formula_8",
+            "fragIdList": [
+              "act29side_frag_2_rep_1",
+              "act29side_frag_2_rep_1",
+              "act29side_frag_4_rep_1"
+            ],
+            "formDesc": "无畏",
+            "productIdDict": {
+              "orche_1": "product_29",
+              "orche_2": "product_30",
+              "orche_3": "product_31"
+            },
+            "withoutOrcheProductId": "product_32",
+            "groupId": "productType_2",
+            "formSortId": 8
+          },
+          "formula_9": {
+            "formId": "formula_9",
+            "fragIdList": [
+              "act29side_frag_2_rep_1",
+              "act29side_frag_2_rep_1",
+              "act29side_frag_3_rep_1"
+            ],
+            "formDesc": "愤慨",
+            "productIdDict": {
+              "orche_1": "product_33",
+              "orche_2": "product_34",
+              "orche_3": "product_35"
+            },
+            "withoutOrcheProductId": "product_36",
+            "groupId": "productType_2",
+            "formSortId": 9
+          },
+          "formula_10": {
+            "formId": "formula_10",
+            "fragIdList": [
+              "act29side_frag_2_rep_1",
+              "act29side_frag_2_rep_1",
+              "act29side_frag_2_rep_1"
+            ],
+            "formDesc": "暴怒",
+            "productIdDict": {
+              "orche_1": "product_37",
+              "orche_2": "product_38",
+              "orche_3": "product_39"
+            },
+            "withoutOrcheProductId": "product_40",
+            "groupId": "productType_2",
+            "formSortId": 10
+          },
+          "formula_11": {
+            "formId": "formula_11",
+            "fragIdList": [
+              "act29side_frag_1_rep_1",
+              "act29side_frag_3_rep_1",
+              "act29side_frag_3_rep_1"
+            ],
+            "formDesc": "凄惋",
+            "productIdDict": {
+              "orche_1": "product_41",
+              "orche_2": "product_42",
+              "orche_3": "product_43"
+            },
+            "withoutOrcheProductId": "product_44",
+            "groupId": "productType_3",
+            "formSortId": 11
+          },
+          "formula_12": {
+            "formId": "formula_12",
+            "fragIdList": [
+              "act29side_frag_3_rep_1",
+              "act29side_frag_3_rep_1",
+              "act29side_frag_4_rep_1"
+            ],
+            "formDesc": "忧惧",
+            "productIdDict": {
+              "orche_1": "product_45",
+              "orche_2": "product_46",
+              "orche_3": "product_47"
+            },
+            "withoutOrcheProductId": "product_48",
+            "groupId": "productType_3",
+            "formSortId": 12
+          },
+          "formula_13": {
+            "formId": "formula_13",
+            "fragIdList": [
+              "act29side_frag_3_rep_1",
+              "act29side_frag_4_rep_1",
+              "act29side_frag_4_rep_1"
+            ],
+            "formDesc": "悔恨",
+            "productIdDict": {
+              "orche_1": "product_49",
+              "orche_2": "product_50",
+              "orche_3": "product_51"
+            },
+            "withoutOrcheProductId": "product_52",
+            "groupId": "productType_3",
+            "formSortId": 13
+          },
+          "formula_14": {
+            "formId": "formula_14",
+            "fragIdList": [
+              "act29side_frag_3_rep_1",
+              "act29side_frag_3_rep_1",
+              "act29side_frag_3_rep_1"
+            ],
+            "formDesc": "悲恸",
+            "productIdDict": {
+              "orche_1": "product_53",
+              "orche_2": "product_54",
+              "orche_3": "product_55"
+            },
+            "withoutOrcheProductId": "product_56",
+            "groupId": "productType_3",
+            "formSortId": 14
+          },
+          "formula_15": {
+            "formId": "formula_15",
+            "fragIdList": [
+              "act29side_frag_2_rep_1",
+              "act29side_frag_3_rep_1",
+              "act29side_frag_3_rep_1"
+            ],
+            "formDesc": "悲愤",
+            "productIdDict": {
+              "orche_1": "product_57",
+              "orche_2": "product_58",
+              "orche_3": "product_59"
+            },
+            "withoutOrcheProductId": "product_60",
+            "groupId": "productType_3",
+            "formSortId": 15
+          },
+          "formula_16": {
+            "formId": "formula_16",
+            "fragIdList": [
+              "act29side_frag_1_rep_1",
+              "act29side_frag_3_rep_1",
+              "act29side_frag_4_rep_1"
+            ],
+            "formDesc": "顾虑",
+            "productIdDict": {
+              "orche_1": "product_61",
+              "orche_2": "product_62",
+              "orche_3": "product_63"
+            },
+            "withoutOrcheProductId": "product_64",
+            "groupId": "productType_4",
+            "formSortId": 16
+          },
+          "formula_17": {
+            "formId": "formula_17",
+            "fragIdList": [
+              "act29side_frag_2_rep_1",
+              "act29side_frag_4_rep_1",
+              "act29side_frag_4_rep_1"
+            ],
+            "formDesc": "畏缩",
+            "productIdDict": {
+              "orche_1": "product_65",
+              "orche_2": "product_66",
+              "orche_3": "product_67"
+            },
+            "withoutOrcheProductId": "product_68",
+            "groupId": "productType_4",
+            "formSortId": 17
+          },
+          "formula_18": {
+            "formId": "formula_18",
+            "fragIdList": [
+              "act29side_frag_4_rep_1",
+              "act29side_frag_4_rep_1",
+              "act29side_frag_4_rep_1"
+            ],
+            "formDesc": "惊恐",
+            "productIdDict": {
+              "orche_1": "product_69",
+              "orche_2": "product_70",
+              "orche_3": "product_71"
+            },
+            "withoutOrcheProductId": "product_72",
+            "groupId": "productType_4",
+            "formSortId": 18
+          },
+          "formula_19": {
+            "formId": "formula_19",
+            "fragIdList": [
+              "act29side_frag_1_rep_1",
+              "act29side_frag_4_rep_1",
+              "act29side_frag_4_rep_1"
+            ],
+            "formDesc": "敬畏",
+            "productIdDict": {
+              "orche_1": "product_73",
+              "orche_2": "product_74",
+              "orche_3": "product_75"
+            },
+            "withoutOrcheProductId": "product_76",
+            "groupId": "productType_4",
+            "formSortId": 19
+          },
+          "formula_20": {
+            "formId": "formula_20",
+            "fragIdList": [
+              "act29side_frag_2_rep_1",
+              "act29side_frag_3_rep_1",
+              "act29side_frag_4_rep_1"
+            ],
+            "formDesc": "懊恼",
+            "productIdDict": {
+              "orche_1": "product_77",
+              "orche_2": "product_78",
+              "orche_3": "product_79"
+            },
+            "withoutOrcheProductId": "product_80",
+            "groupId": "productType_4",
+            "formSortId": 20
+          }
+        },
+        "investResultDataMap": {
+          "result_pass": {
+            "resultId": "result_pass",
+            "resultTitle": "心绪相符",
+            "resultDesc1": "对方的心绪已被触动，回忆涌现",
+            "resultDesc2": "Memory Revived"
+          },
+          "result_fail": {
+            "resultId": "result_fail",
+            "resultTitle": "心绪不符",
+            "resultDesc1": "心扉之乐已收回集谱",
+            "resultDesc2": "Memory Denied"
+          },
+          "result_failButHidden": {
+            "resultId": "result_failButHidden",
+            "resultTitle": "突发事态！",
+            "resultDesc1": "心扉之乐已收回集谱，等等......一阵脚步声响起",
+            "resultDesc2": "Unexpected Encounter"
+          }
+        },
+        "investDataMap": {
+          "act29side_majorInvest_1": {
+            "investId": "act29side_majorInvest_1",
+            "investType": "MAJOR",
+            "investNpcName": "陌生男子",
+            "storyId": "Activities/act29side/chat_22",
+            "investNpcPic": "majorInvest_1",
+            "investNpcAvatarPic": "majorInvest_1_avatar",
+            "majorNpcPic": "majorInvest_1_body",
+            "majorNpcBlackPic": "majorInvest_1_body_darken",
+            "reward": {
+              "id": "char_4011_lessng",
+              "count": 1,
+              "type": "CHAR"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "act29side_majorInvest_2": {
+            "investId": "act29side_majorInvest_2",
+            "investType": "MAJOR",
+            "investNpcName": "大学学生",
+            "storyId": "Activities/act29side/chat_23",
+            "investNpcPic": "majorInvest_2",
+            "investNpcAvatarPic": "majorInvest_2_avatar",
+            "majorNpcPic": "majorInvest_2_body",
+            "majorNpcBlackPic": "majorInvest_2_body_darken",
+            "reward": {
+              "id": "p_char_4011_lessng",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "act29side_majorInvest_3": {
+            "investId": "act29side_majorInvest_3",
+            "investType": "MAJOR",
+            "investNpcName": "莱辛",
+            "storyId": "Activities/act29side/chat_24",
+            "investNpcPic": "majorInvest_2",
+            "investNpcAvatarPic": "majorInvest_2_avatar",
+            "majorNpcPic": "majorInvest_2_body",
+            "majorNpcBlackPic": "majorInvest_2_body_darken",
+            "reward": {
+              "id": "p_char_4011_lessng",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "act29side_majorInvest_4": {
+            "investId": "act29side_majorInvest_4",
+            "investType": "MAJOR",
+            "investNpcName": "密使",
+            "storyId": "Activities/act29side/chat_25",
+            "investNpcPic": "majorInvest_4",
+            "investNpcAvatarPic": "majorInvest_4_avatar",
+            "majorNpcPic": "majorInvest_4_body",
+            "majorNpcBlackPic": "majorInvest_4_body_darken",
+            "reward": {
+              "id": "p_char_4011_lessng",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "act29side_majorInvest_5": {
+            "investId": "act29side_majorInvest_5",
+            "investType": "MAJOR",
+            "investNpcName": "米夏",
+            "storyId": "Activities/act29side/chat_26",
+            "investNpcPic": "majorInvest_4",
+            "investNpcAvatarPic": "majorInvest_4_avatar",
+            "majorNpcPic": "majorInvest_4_body",
+            "majorNpcBlackPic": "majorInvest_4_body_darken",
+            "reward": {
+              "id": "p_char_4011_lessng",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "act29side_majorInvest_6": {
+            "investId": "act29side_majorInvest_6",
+            "investType": "MAJOR",
+            "investNpcName": "金律法卫",
+            "storyId": "Activities/act29side/chat_27",
+            "investNpcPic": "majorInvest_6",
+            "investNpcAvatarPic": "majorInvest_6_avatar",
+            "majorNpcPic": "majorInvest_6_body",
+            "majorNpcBlackPic": "majorInvest_6_body_darken",
+            "reward": {
+              "id": "p_char_4011_lessng",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "act29side_hiddenInvest_1": {
+            "investId": "act29side_hiddenInvest_1",
+            "investType": "RARE",
+            "investNpcName": "大帝",
+            "storyId": "Activities/act29side/chat_28",
+            "investNpcPic": "hiddenInvest_1",
+            "investNpcAvatarPic": "hiddenInvest_1_avatar",
+            "majorNpcPic": "hiddenInvest_1_body",
+            "majorNpcBlackPic": null,
+            "reward": null,
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": null
+          },
+          "invest_1": {
+            "investId": "invest_1",
+            "investType": "NORMAL",
+            "investNpcName": "学生梅丽",
+            "storyId": "Activities/act29side/chat_1",
+            "investNpcPic": "invest_1",
+            "investNpcAvatarPic": "invest_1_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_2": {
+            "investId": "invest_2",
+            "investType": "NORMAL",
+            "investNpcName": "香肠摊摊主",
+            "storyId": "Activities/act29side/chat_2",
+            "investNpcPic": "invest_2",
+            "investNpcAvatarPic": "invest_2_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_3": {
+            "investId": "invest_3",
+            "investType": "NORMAL",
+            "investNpcName": "香肠摊摊主",
+            "storyId": "Activities/act29side/chat_2",
+            "investNpcPic": "invest_2",
+            "investNpcAvatarPic": "invest_2_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_4": {
+            "investId": "invest_4",
+            "investType": "NORMAL",
+            "investNpcName": "咖啡店店长",
+            "storyId": "Activities/act29side/chat_4",
+            "investNpcPic": "invest_4",
+            "investNpcAvatarPic": "invest_4_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_5": {
+            "investId": "invest_5",
+            "investType": "NORMAL",
+            "investNpcName": "可疑的市民",
+            "storyId": "Activities/act29side/chat_5",
+            "investNpcPic": "invest_5",
+            "investNpcAvatarPic": "invest_5_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_6": {
+            "investId": "invest_6",
+            "investType": "NORMAL",
+            "investNpcName": "乐器行老板",
+            "storyId": "Activities/act29side/chat_6",
+            "investNpcPic": "invest_6",
+            "investNpcAvatarPic": "invest_6_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_7": {
+            "investId": "invest_7",
+            "investType": "NORMAL",
+            "investNpcName": "艺术杂志编辑",
+            "storyId": "Activities/act29side/chat_7",
+            "investNpcPic": "invest_7",
+            "investNpcAvatarPic": "invest_7_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_8": {
+            "investId": "invest_8",
+            "investType": "NORMAL",
+            "investNpcName": "神秘的术师",
+            "storyId": "Activities/act29side/chat_8",
+            "investNpcPic": "invest_8",
+            "investNpcAvatarPic": "invest_8_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_9": {
+            "investId": "invest_9",
+            "investType": "NORMAL",
+            "investNpcName": "学生霍内斯",
+            "storyId": "Activities/act29side/chat_9",
+            "investNpcPic": "invest_9",
+            "investNpcAvatarPic": "invest_9_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_10": {
+            "investId": "invest_10",
+            "investType": "NORMAL",
+            "investNpcName": "治安官菲施尔",
+            "storyId": "Activities/act29side/chat_10",
+            "investNpcPic": "invest_10",
+            "investNpcAvatarPic": "invest_10_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_11": {
+            "investId": "invest_11",
+            "investType": "NORMAL",
+            "investNpcName": "神秘的术师",
+            "storyId": "Activities/act29side/chat_8",
+            "investNpcPic": "invest_8",
+            "investNpcAvatarPic": "invest_8_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_12": {
+            "investId": "invest_12",
+            "investType": "NORMAL",
+            "investNpcName": "雕刻师",
+            "storyId": "Activities/act29side/chat_12",
+            "investNpcPic": "invest_2",
+            "investNpcAvatarPic": "invest_2_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_13": {
+            "investId": "invest_13",
+            "investType": "NORMAL",
+            "investNpcName": "卖花人",
+            "storyId": "Activities/act29side/chat_13",
+            "investNpcPic": "invest_3",
+            "investNpcAvatarPic": "invest_3_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_14": {
+            "investId": "invest_14",
+            "investType": "NORMAL",
+            "investNpcName": "雕刻师",
+            "storyId": "Activities/act29side/chat_12",
+            "investNpcPic": "invest_2",
+            "investNpcAvatarPic": "invest_2_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_15": {
+            "investId": "invest_15",
+            "investType": "NORMAL",
+            "investNpcName": "珠宝店老板",
+            "storyId": "Activities/act29side/chat_15",
+            "investNpcPic": "invest_6",
+            "investNpcAvatarPic": "invest_6_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_16": {
+            "investId": "invest_16",
+            "investType": "NORMAL",
+            "investNpcName": "音乐家舒曼",
+            "storyId": "Activities/act29side/chat_16",
+            "investNpcPic": "invest_6",
+            "investNpcAvatarPic": "invest_6_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_17": {
+            "investId": "invest_17",
+            "investType": "NORMAL",
+            "investNpcName": "朗格男爵",
+            "storyId": "Activities/act29side/chat_17",
+            "investNpcPic": "invest_7",
+            "investNpcAvatarPic": "invest_7_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_18": {
+            "investId": "invest_18",
+            "investType": "NORMAL",
+            "investNpcName": "有嫌疑的术师",
+            "storyId": "Activities/act29side/chat_18",
+            "investNpcPic": "invest_8",
+            "investNpcAvatarPic": "invest_8_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_19": {
+            "investId": "invest_19",
+            "investType": "NORMAL",
+            "investNpcName": "宪兵席美尔",
+            "storyId": "Activities/act29side/chat_19",
+            "investNpcPic": "invest_10",
+            "investNpcAvatarPic": "invest_10_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_20": {
+            "investId": "invest_20",
+            "investType": "NORMAL",
+            "investNpcName": "学生布赫纳",
+            "storyId": "Activities/act29side/chat_20",
+            "investNpcPic": "invest_12",
+            "investNpcAvatarPic": "invest_12_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_21": {
+            "investId": "invest_21",
+            "investType": "NORMAL",
+            "investNpcName": "珠宝店老板",
+            "storyId": "Activities/act29side/chat_15",
+            "investNpcPic": "invest_6",
+            "investNpcAvatarPic": "invest_6_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_22": {
+            "investId": "invest_22",
+            "investType": "NORMAL",
+            "investNpcName": "学生梅丽",
+            "storyId": "Activities/act29side/chat_1",
+            "investNpcPic": "invest_1",
+            "investNpcAvatarPic": "invest_1_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_23": {
+            "investId": "invest_23",
+            "investType": "NORMAL",
+            "investNpcName": "香肠摊摊主",
+            "storyId": "Activities/act29side/chat_2",
+            "investNpcPic": "invest_2",
+            "investNpcAvatarPic": "invest_2_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_24": {
+            "investId": "invest_24",
+            "investType": "NORMAL",
+            "investNpcName": "莱娜女士",
+            "storyId": "Activities/act29side/chat_3",
+            "investNpcPic": "invest_3",
+            "investNpcAvatarPic": "invest_3_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_25": {
+            "investId": "invest_25",
+            "investType": "NORMAL",
+            "investNpcName": "咖啡店店长",
+            "storyId": "Activities/act29side/chat_4",
+            "investNpcPic": "invest_4",
+            "investNpcAvatarPic": "invest_4_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_26": {
+            "investId": "invest_26",
+            "investType": "NORMAL",
+            "investNpcName": "可疑的市民",
+            "storyId": "Activities/act29side/chat_5",
+            "investNpcPic": "invest_5",
+            "investNpcAvatarPic": "invest_5_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_27": {
+            "investId": "invest_27",
+            "investType": "NORMAL",
+            "investNpcName": "乐器行老板",
+            "storyId": "Activities/act29side/chat_6",
+            "investNpcPic": "invest_6",
+            "investNpcAvatarPic": "invest_6_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_28": {
+            "investId": "invest_28",
+            "investType": "NORMAL",
+            "investNpcName": "艺术杂志编辑",
+            "storyId": "Activities/act29side/chat_7",
+            "investNpcPic": "invest_7",
+            "investNpcAvatarPic": "invest_7_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_29": {
+            "investId": "invest_29",
+            "investType": "NORMAL",
+            "investNpcName": "神秘的术师",
+            "storyId": "Activities/act29side/chat_8",
+            "investNpcPic": "invest_8",
+            "investNpcAvatarPic": "invest_8_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_30": {
+            "investId": "invest_30",
+            "investType": "NORMAL",
+            "investNpcName": "学生霍内斯",
+            "storyId": "Activities/act29side/chat_9",
+            "investNpcPic": "invest_9",
+            "investNpcAvatarPic": "invest_9_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_31": {
+            "investId": "invest_31",
+            "investType": "NORMAL",
+            "investNpcName": "治安官菲施尔",
+            "storyId": "Activities/act29side/chat_10",
+            "investNpcPic": "invest_10",
+            "investNpcAvatarPic": "invest_10_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_32": {
+            "investId": "invest_32",
+            "investType": "NORMAL",
+            "investNpcName": "小队长克斯汀",
+            "storyId": "Activities/act29side/chat_11",
+            "investNpcPic": "invest_11",
+            "investNpcAvatarPic": "invest_11_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_33": {
+            "investId": "invest_33",
+            "investType": "NORMAL",
+            "investNpcName": "雕刻师",
+            "storyId": "Activities/act29side/chat_12",
+            "investNpcPic": "invest_2",
+            "investNpcAvatarPic": "invest_2_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_34": {
+            "investId": "invest_34",
+            "investType": "NORMAL",
+            "investNpcName": "卖花人",
+            "storyId": "Activities/act29side/chat_13",
+            "investNpcPic": "invest_3",
+            "investNpcAvatarPic": "invest_3_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_35": {
+            "investId": "invest_35",
+            "investType": "NORMAL",
+            "investNpcName": "“长耳”哈曼",
+            "storyId": "Activities/act29side/chat_14",
+            "investNpcPic": "invest_4",
+            "investNpcAvatarPic": "invest_4_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_36": {
+            "investId": "invest_36",
+            "investType": "NORMAL",
+            "investNpcName": "珠宝店老板",
+            "storyId": "Activities/act29side/chat_15",
+            "investNpcPic": "invest_6",
+            "investNpcAvatarPic": "invest_6_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_37": {
+            "investId": "invest_37",
+            "investType": "NORMAL",
+            "investNpcName": "音乐家舒曼",
+            "storyId": "Activities/act29side/chat_16",
+            "investNpcPic": "invest_6",
+            "investNpcAvatarPic": "invest_6_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_38": {
+            "investId": "invest_38",
+            "investType": "NORMAL",
+            "investNpcName": "朗格男爵",
+            "storyId": "Activities/act29side/chat_17",
+            "investNpcPic": "invest_7",
+            "investNpcAvatarPic": "invest_7_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_39": {
+            "investId": "invest_39",
+            "investType": "NORMAL",
+            "investNpcName": "有嫌疑的术师",
+            "storyId": "Activities/act29side/chat_18",
+            "investNpcPic": "invest_8",
+            "investNpcAvatarPic": "invest_8_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_40": {
+            "investId": "invest_40",
+            "investType": "NORMAL",
+            "investNpcName": "宪兵席美尔",
+            "storyId": "Activities/act29side/chat_19",
+            "investNpcPic": "invest_10",
+            "investNpcAvatarPic": "invest_10_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_41": {
+            "investId": "invest_41",
+            "investType": "NORMAL",
+            "investNpcName": "学生布赫纳",
+            "storyId": "Activities/act29side/chat_20",
+            "investNpcPic": "invest_12",
+            "investNpcAvatarPic": "invest_12_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_42": {
+            "investId": "invest_42",
+            "investType": "NORMAL",
+            "investNpcName": "学生林德纳",
+            "storyId": "Activities/act29side/chat_21",
+            "investNpcPic": "invest_13",
+            "investNpcAvatarPic": "invest_13_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_43": {
+            "investId": "invest_43",
+            "investType": "NORMAL",
+            "investNpcName": "学生梅丽",
+            "storyId": "Activities/act29side/chat_1",
+            "investNpcPic": "invest_1",
+            "investNpcAvatarPic": "invest_1_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_44": {
+            "investId": "invest_44",
+            "investType": "NORMAL",
+            "investNpcName": "香肠摊摊主",
+            "storyId": "Activities/act29side/chat_2",
+            "investNpcPic": "invest_2",
+            "investNpcAvatarPic": "invest_2_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_45": {
+            "investId": "invest_45",
+            "investType": "NORMAL",
+            "investNpcName": "莱娜女士",
+            "storyId": "Activities/act29side/chat_3",
+            "investNpcPic": "invest_3",
+            "investNpcAvatarPic": "invest_3_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_46": {
+            "investId": "invest_46",
+            "investType": "NORMAL",
+            "investNpcName": "咖啡店店长",
+            "storyId": "Activities/act29side/chat_4",
+            "investNpcPic": "invest_4",
+            "investNpcAvatarPic": "invest_4_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_47": {
+            "investId": "invest_47",
+            "investType": "NORMAL",
+            "investNpcName": "可疑的市民",
+            "storyId": "Activities/act29side/chat_5",
+            "investNpcPic": "invest_5",
+            "investNpcAvatarPic": "invest_5_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_48": {
+            "investId": "invest_48",
+            "investType": "NORMAL",
+            "investNpcName": "乐器行老板",
+            "storyId": "Activities/act29side/chat_6",
+            "investNpcPic": "invest_6",
+            "investNpcAvatarPic": "invest_6_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_49": {
+            "investId": "invest_49",
+            "investType": "NORMAL",
+            "investNpcName": "艺术杂志编辑",
+            "storyId": "Activities/act29side/chat_7",
+            "investNpcPic": "invest_7",
+            "investNpcAvatarPic": "invest_7_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_50": {
+            "investId": "invest_50",
+            "investType": "NORMAL",
+            "investNpcName": "神秘的术师",
+            "storyId": "Activities/act29side/chat_8",
+            "investNpcPic": "invest_8",
+            "investNpcAvatarPic": "invest_8_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_51": {
+            "investId": "invest_51",
+            "investType": "NORMAL",
+            "investNpcName": "学生霍内斯",
+            "storyId": "Activities/act29side/chat_9",
+            "investNpcPic": "invest_9",
+            "investNpcAvatarPic": "invest_9_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_52": {
+            "investId": "invest_52",
+            "investType": "NORMAL",
+            "investNpcName": "治安官菲施尔",
+            "storyId": "Activities/act29side/chat_10",
+            "investNpcPic": "invest_10",
+            "investNpcAvatarPic": "invest_10_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_53": {
+            "investId": "invest_53",
+            "investType": "NORMAL",
+            "investNpcName": "小队长克斯汀",
+            "storyId": "Activities/act29side/chat_11",
+            "investNpcPic": "invest_11",
+            "investNpcAvatarPic": "invest_11_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_54": {
+            "investId": "invest_54",
+            "investType": "NORMAL",
+            "investNpcName": "雕刻师",
+            "storyId": "Activities/act29side/chat_12",
+            "investNpcPic": "invest_2",
+            "investNpcAvatarPic": "invest_2_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_55": {
+            "investId": "invest_55",
+            "investType": "NORMAL",
+            "investNpcName": "卖花人",
+            "storyId": "Activities/act29side/chat_13",
+            "investNpcPic": "invest_3",
+            "investNpcAvatarPic": "invest_3_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_56": {
+            "investId": "invest_56",
+            "investType": "NORMAL",
+            "investNpcName": "“长耳”哈曼",
+            "storyId": "Activities/act29side/chat_14",
+            "investNpcPic": "invest_4",
+            "investNpcAvatarPic": "invest_4_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_57": {
+            "investId": "invest_57",
+            "investType": "NORMAL",
+            "investNpcName": "珠宝店老板",
+            "storyId": "Activities/act29side/chat_15",
+            "investNpcPic": "invest_6",
+            "investNpcAvatarPic": "invest_6_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_58": {
+            "investId": "invest_58",
+            "investType": "NORMAL",
+            "investNpcName": "音乐家舒曼",
+            "storyId": "Activities/act29side/chat_16",
+            "investNpcPic": "invest_6",
+            "investNpcAvatarPic": "invest_6_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_59": {
+            "investId": "invest_59",
+            "investType": "NORMAL",
+            "investNpcName": "朗格男爵",
+            "storyId": "Activities/act29side/chat_17",
+            "investNpcPic": "invest_7",
+            "investNpcAvatarPic": "invest_7_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_60": {
+            "investId": "invest_60",
+            "investType": "NORMAL",
+            "investNpcName": "有嫌疑的术师",
+            "storyId": "Activities/act29side/chat_18",
+            "investNpcPic": "invest_8",
+            "investNpcAvatarPic": "invest_8_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_61": {
+            "investId": "invest_61",
+            "investType": "NORMAL",
+            "investNpcName": "宪兵席美尔",
+            "storyId": "Activities/act29side/chat_19",
+            "investNpcPic": "invest_10",
+            "investNpcAvatarPic": "invest_10_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_62": {
+            "investId": "invest_62",
+            "investType": "NORMAL",
+            "investNpcName": "学生布赫纳",
+            "storyId": "Activities/act29side/chat_20",
+            "investNpcPic": "invest_12",
+            "investNpcAvatarPic": "invest_12_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_63": {
+            "investId": "invest_63",
+            "investType": "NORMAL",
+            "investNpcName": "学生林德纳",
+            "storyId": "Activities/act29side/chat_21",
+            "investNpcPic": "invest_13",
+            "investNpcAvatarPic": "invest_13_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_64": {
+            "investId": "invest_64",
+            "investType": "NORMAL",
+            "investNpcName": "学生梅丽",
+            "storyId": "Activities/act29side/chat_1",
+            "investNpcPic": "invest_1",
+            "investNpcAvatarPic": "invest_1_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_65": {
+            "investId": "invest_65",
+            "investType": "NORMAL",
+            "investNpcName": "咖啡店店长",
+            "storyId": "Activities/act29side/chat_4",
+            "investNpcPic": "invest_4",
+            "investNpcAvatarPic": "invest_4_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          },
+          "invest_66": {
+            "investId": "invest_66",
+            "investType": "NORMAL",
+            "investNpcName": "艺术杂志编辑",
+            "storyId": "Activities/act29side/chat_7",
+            "investNpcPic": "invest_7",
+            "investNpcAvatarPic": "invest_7_avatar",
+            "majorNpcPic": null,
+            "majorNpcBlackPic": null,
+            "reward": {
+              "id": "randomMaterial_leith2",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            },
+            "investSucResultId": "result_pass",
+            "investFailResultId": "result_fail",
+            "investRareResultId": "result_failButHidden"
+          }
+        },
+        "majorInvestIdList": [
+          "act29side_majorInvest_1",
+          "act29side_majorInvest_2",
+          "act29side_majorInvest_3",
+          "act29side_majorInvest_4",
+          "act29side_majorInvest_5",
+          "act29side_majorInvest_6"
+        ],
+        "rareInvestIdList": [
+          "act29side_hiddenInvest_1"
+        ],
+        "constData": {
+          "majorInvestUnlockItemName": "授权密令",
+          "wrongTipsTriggerTime": 3,
+          "majorInvestCompleteImgId": "majorInvest_done",
+          "majorInvestUnknownAvatarId": "majorInvest_unknown_head",
+          "majorInvestDetailDesc1": "部分案件相关人员身份特殊，需持<@cc.miu>{0}</>以开启查访",
+          "majorInvestDetailDesc2": "<@cc.miu>{0}</>持有数量：<@cc.miu>{1}</>",
+          "majorInvestDetailDesc3": "消耗一枚<@cc.miu>{0}</>，可以开启一段密令查访",
+          "majorInvestDetailDesc4": "活动开放期间每天会自动获得一枚<@cc.miu>{0}</>，每日完成全部的三段例行查访也可额外获得一枚<@cc.miu>{0}</>",
+          "hiddenInvestImgId": "hiddenInvest_fake_body",
+          "hiddenInvestHeadImgId": "hiddenInvest_fake_avatar",
+          "hiddenInvestNpcName": "奇怪的路人",
+          "unlockLevelId": "act29side_01",
+          "investResultHint": "也许该试试<color value=#{0}>{1}</color>与<color value=#FFFFFF>{2}</color>的组合？",
+          "investUnlockText": "完成ZT-1后解锁",
+          "noOrcheDesc": "方舟启航",
+          "investTrackId": "act29sre_invest"
+        },
+        "zoneAdditionDataMap": {
+          "act29sre_zone1": {
+            "zoneId": "act29sre_zone1",
+            "unlockText": "尚未解锁"
+          },
+          "act29sre_zone2": {
+            "zoneId": "act29sre_zone2",
+            "unlockText": "完成「朝见双塔」后解锁"
+          },
+          "act29sre_zone3": {
+            "zoneId": "act29sre_zone3",
+            "unlockText": "完成「恩典永恒」后解锁"
+          }
+        },
+        "musicDataMap": [
+          {
+            "groupId": "productType_1",
+            "orcheId": "orche_1",
+            "musicId": "music_act29side_p1o1"
+          },
+          {
+            "groupId": "productType_1",
+            "orcheId": "orche_2",
+            "musicId": "music_act29side_p1o2"
+          },
+          {
+            "groupId": "productType_1",
+            "orcheId": "orche_3",
+            "musicId": "music_act29side_p1o3"
+          },
+          {
+            "groupId": "productType_1",
+            "orcheId": null,
+            "musicId": "music_act29side_default_1"
+          },
+          {
+            "groupId": "productType_2",
+            "orcheId": "orche_1",
+            "musicId": "music_act29side_p2o1"
+          },
+          {
+            "groupId": "productType_2",
+            "orcheId": "orche_2",
+            "musicId": "music_act29side_p2o2"
+          },
+          {
+            "groupId": "productType_2",
+            "orcheId": "orche_3",
+            "musicId": "music_act29side_p2o3"
+          },
+          {
+            "groupId": "productType_2",
+            "orcheId": null,
+            "musicId": "music_act29side_default_2"
+          },
+          {
+            "groupId": "productType_3",
+            "orcheId": "orche_1",
+            "musicId": "music_act29side_p3o1"
+          },
+          {
+            "groupId": "productType_3",
+            "orcheId": "orche_2",
+            "musicId": "music_act29side_p3o2"
+          },
+          {
+            "groupId": "productType_3",
+            "orcheId": "orche_3",
+            "musicId": "music_act29side_p3o3"
+          },
+          {
+            "groupId": "productType_3",
+            "orcheId": null,
+            "musicId": "music_act29side_default_3"
+          },
+          {
+            "groupId": "productType_4",
+            "orcheId": "orche_1",
+            "musicId": "music_act29side_p4o1"
+          },
+          {
+            "groupId": "productType_4",
+            "orcheId": "orche_2",
+            "musicId": "music_act29side_p4o2"
+          },
+          {
+            "groupId": "productType_4",
+            "orcheId": "orche_3",
+            "musicId": "music_act29side_p4o3"
+          },
+          {
+            "groupId": "productType_4",
+            "orcheId": null,
+            "musicId": "music_act29side_default_4"
+          },
+          {
+            "groupId": "productType_5",
+            "orcheId": null,
+            "musicId": "music_act29side_default_5"
+          }
+        ]
+      },
       "act29side": {
         "fragDataMap": {
           "act29side_frag_1": {
@@ -170008,7 +173824,7 @@
             "totalHp": 45,
             "initialEffectId": "aceffect_band_8",
             "charId": "char_509_acast",
-            "charName": "pith",
+            "charName": "Pith",
             "unlockDesc": "【原型协议】达到第7回合解锁"
           },
           "band_doberm": {
@@ -170032,7 +173848,7 @@
             "totalHp": 55,
             "initialEffectId": "aceffect_band_15",
             "charId": "char_508_aguard",
-            "charName": "sharp",
+            "charName": "Sharp",
             "unlockDesc": "通关【核心协议】解锁"
           },
           "band_logos": {
@@ -170068,7 +173884,7 @@
             "totalHp": 50,
             "initialEffectId": "aceffect_band_11",
             "charId": "char_511_asnipe",
-            "charName": "stormeye",
+            "charName": "Stormeye",
             "unlockDesc": "通关后当局内累计获取过7名狙击干员（不包含入门协议）"
           },
           "band_amiya": {
@@ -185238,6 +189054,13 @@
     "act1vautochess": [
       "act1vautochess_token_chess"
     ],
+    "act29sre": [
+      "act29side_token_erin_rep_1",
+      "act29side_frag_1_rep_1",
+      "act29side_frag_2_rep_1",
+      "act29side_frag_3_rep_1",
+      "act29side_frag_4_rep_1"
+    ],
     "act38side": [
       "act38side_token_ticket"
     ],
@@ -187364,6 +191187,244 @@
     }
   },
   "stageRewardsData": {
+    "act29sre": {
+      "stageRewardsDict": {
+        "act29side_01": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_1_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_2_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_3_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_4_rep_1",
+            "dropType": "CHARM_DROP"
+          }
+        ],
+        "act29side_02": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_1_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_2_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_3_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_4_rep_1",
+            "dropType": "CHARM_DROP"
+          }
+        ],
+        "act29side_03": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_1_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_2_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_3_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_4_rep_1",
+            "dropType": "CHARM_DROP"
+          }
+        ],
+        "act29side_04": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_1_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_2_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_3_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_4_rep_1",
+            "dropType": "CHARM_DROP"
+          }
+        ],
+        "act29side_05": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_1_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_2_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_3_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_4_rep_1",
+            "dropType": "CHARM_DROP"
+          }
+        ],
+        "act29side_06": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_1_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_2_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_3_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_4_rep_1",
+            "dropType": "CHARM_DROP"
+          }
+        ],
+        "act29side_07": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_1_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_2_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_3_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_4_rep_1",
+            "dropType": "CHARM_DROP"
+          }
+        ],
+        "act29side_08": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_1_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_2_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_3_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_4_rep_1",
+            "dropType": "CHARM_DROP"
+          }
+        ],
+        "act29side_09": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_1_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_2_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_3_rep_1",
+            "dropType": "CHARM_DROP"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act29side_frag_4_rep_1",
+            "dropType": "CHARM_DROP"
+          }
+        ]
+      }
+    },
     "act29side": {
       "stageRewardsDict": {
         "act29side_01": [
@@ -190919,6 +194980,21 @@
         }
       ],
       "startTs": 1731657600
+    },
+    {
+      "id": "dis_side_29_sre",
+      "type": "ACTIVITY",
+      "funcId": "act29sre",
+      "endTs": 1733342399,
+      "sortId": 97,
+      "itemId": "act29side_token_erin_rep_1",
+      "timeNodes": [
+        {
+          "title": "<崔林特尔梅之金·复刻>活动已开放",
+          "ts": 1732521600
+        }
+      ],
+      "startTs": 1732521600
     }
   ],
   "actFunData": {
@@ -217943,6 +222019,12 @@
     }
   },
   "stringRes": {
+    "act29sre": {
+      "TEXT_PROGRESS_FORMAT_CAN_CLAIM": "<color=#FFFFFF>{0}/{1}</color>",
+      "TEXT_PROGRESS_FORMAT_CANNOT_CLAIM": "<color=#4A4A49>{0}/{1}</color>",
+      "TEXT_DETAIL_COLOR_CAN_CLAIM": "<color=#FFFFFF>{0}</color>",
+      "TEXT_DETAIL_COLOR_CANNOT_CLAIM": "<color=#626262>{0}</color>"
+    },
     "act27sre": {
       "TEXT_PROGRESS_FORMAT_CAN_CLAIM": "<color=#EEE1CC>{0}/{1}</color>",
       "TEXT_PROGRESS_FORMAT_CANNOT_CLAIM": "<color=#1FA09E>{0}/{1}</color>",
@@ -218208,6 +222290,22 @@
       "coinType": "CUSTOM",
       "coinBackColor": null
     },
+    "act29sre": {
+      "bigRewardType": "PIC_REWARD",
+      "bigRewardParamList": [],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "9b816d"
+    },
     "act38side": {
       "bigRewardType": "ILLUST_CHAR_REWARD",
       "bigRewardParamList": [
@@ -218336,6 +222434,17 @@
     }
   },
   "activityCrossDayTrackTypeDataDict": {
+    "act29sre_cross_day_track_1": {
+      "type": "act29sre_cross_day_track_1",
+      "startTs": 1732521600,
+      "expireTs": 1733342399,
+      "dataDict": {
+        "act29sre_invest": {
+          "updateEndTs": 1733342399,
+          "id": "act29sre_invest"
+        }
+      }
+    },
     "act38side_cross_day_track_1": {
       "type": "act38side_cross_day_track_1",
       "startTs": 1730433600,
@@ -218353,6 +222462,9 @@
     }
   },
   "activityCrossDayTrackTypeMap": {
+    "act29sre": [
+      "act29sre_cross_day_track_1"
+    ],
     "act38side": [
       "act38side_cross_day_track_1"
     ]

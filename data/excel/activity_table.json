@@ -1,5 +1,24 @@
 {
   "basicInfo": {
+    "act39side": {
+      "id": "act39side",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "出苍白海",
+      "startTime": 1733371200,
+      "endTime": 1734551999,
+      "rewardEndTime": 1735156799,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act39side",
+      "medalGroupId": "medalGroupActivity39side",
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false
+    },
     "act1vautochess": {
       "id": "act1vautochess",
       "type": "AUTOCHESS_VERIFY1",
@@ -4803,6 +4822,8 @@
     }
   },
   "zoneToActivity": {
+    "act39side_zone1": "act39side",
+    "act39side_zone2": "act39side",
     "act1vautochess_zone1": "act1vautochess",
     "act29sre_zone1": "act29sre",
     "act29sre_zone2": "act29sre",
@@ -5001,6 +5022,751 @@
     "main_14": "act1mainss"
   },
   "missionData": [
+    {
+      "id": "39sideActivity_1",
+      "sortId": 1,
+      "description": "通关EP-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_2",
+      "sortId": 2,
+      "description": "通关EP-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_3",
+      "sortId": 3,
+      "description": "通关EP-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_4",
+      "sortId": 4,
+      "description": "通关EP-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 50
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4163_rosesa",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_5",
+      "sortId": 5,
+      "description": "通关EP-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_shelf_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_6",
+      "sortId": 6,
+      "description": "以3星评价完成EP-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_05",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_7",
+      "sortId": 7,
+      "description": "通关EP-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_table_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_8",
+      "sortId": 8,
+      "description": "以3星评价完成EP-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_canvas_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_9",
+      "sortId": 9,
+      "description": "通关EP-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_shipshelf_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_10",
+      "sortId": 10,
+      "description": "以3星评价完成EP-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_11",
+      "sortId": 11,
+      "description": "通关EP-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_12",
+      "sortId": 12,
+      "description": "以3星评价完成EP-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_13",
+      "sortId": 13,
+      "description": "通关EP-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_14",
+      "sortId": 14,
+      "description": "通关EP-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_15",
+      "sortId": 15,
+      "description": "通关EP-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_16",
+      "sortId": 16,
+      "description": "通关EP-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_17",
+      "sortId": 17,
+      "description": "通关EP-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_18",
+      "sortId": 18,
+      "description": "通关EP-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_19",
+      "sortId": 19,
+      "description": "通关EP-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_20",
+      "sortId": 20,
+      "description": "通关EP-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_21",
+      "sortId": 21,
+      "description": "通关EP-EX-8突袭模式",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_ex08#f#",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terracommericials_CondensedSuppressant_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_22",
+      "sortId": 22,
+      "description": "通关活动关卡15次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_01^act39side_02^act39side_03^act39side_04^act39side_05^act39side_06^act39side_07^act39side_08^act39side_ex01^act39side_ex01#f#^act39side_ex02^act39side_ex02#f#^act39side_ex03^act39side_ex03#f#^act39side_ex04^act39side_ex04#f#^act39side_ex05^act39side_ex05#f#^act39side_ex06^act39side_ex06#f#^act39side_ex07^act39side_ex07#f#^act39side_ex08^act39side_ex08#f#",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_23",
+      "sortId": 23,
+      "description": "通关活动关卡45次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_01^act39side_02^act39side_03^act39side_04^act39side_05^act39side_06^act39side_07^act39side_08^act39side_ex01^act39side_ex01#f#^act39side_ex02^act39side_ex02#f#^act39side_ex03^act39side_ex03#f#^act39side_ex04^act39side_ex04#f#^act39side_ex05^act39side_ex05#f#^act39side_ex06^act39side_ex06#f#^act39side_ex07^act39side_ex07#f#^act39side_ex08^act39side_ex08#f#",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "39sideActivity_24",
+      "sortId": 24,
+      "description": "通关活动关卡85次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_01^act39side_02^act39side_03^act39side_04^act39side_05^act39side_06^act39side_07^act39side_08^act39side_ex01^act39side_ex01#f#^act39side_ex02^act39side_ex02#f#^act39side_ex03^act39side_ex03#f#^act39side_ex04^act39side_ex04#f#^act39side_ex05^act39side_ex05#f#^act39side_ex06^act39side_ex06#f#^act39side_ex07^act39side_ex07#f#^act39side_ex08^act39side_ex08#f#",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
     {
       "id": "1vautochessActivity_1",
       "sortId": 1,
@@ -74825,6 +75591,42 @@
   ],
   "missionGroup": [
     {
+      "id": "act39side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "39sideActivity_1",
+        "39sideActivity_2",
+        "39sideActivity_3",
+        "39sideActivity_4",
+        "39sideActivity_5",
+        "39sideActivity_6",
+        "39sideActivity_7",
+        "39sideActivity_8",
+        "39sideActivity_9",
+        "39sideActivity_10",
+        "39sideActivity_11",
+        "39sideActivity_12",
+        "39sideActivity_13",
+        "39sideActivity_14",
+        "39sideActivity_15",
+        "39sideActivity_16",
+        "39sideActivity_17",
+        "39sideActivity_18",
+        "39sideActivity_19",
+        "39sideActivity_20",
+        "39sideActivity_21",
+        "39sideActivity_22",
+        "39sideActivity_23",
+        "39sideActivity_24"
+      ],
+      "startTs": 1733371200,
+      "endTs": 1735156799
+    },
+    {
       "id": "act1vautochess",
       "title": null,
       "type": "ACTIVITY",
@@ -99467,7 +100269,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 2,
@@ -99481,7 +100284,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 3,
@@ -99495,7 +100299,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 4,
@@ -99509,7 +100314,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 5,
@@ -99523,7 +100329,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 6,
@@ -99537,7 +100344,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 7,
@@ -99551,7 +100359,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 8,
@@ -99565,7 +100374,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 9,
@@ -99579,7 +100389,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 10,
@@ -99593,7 +100404,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 11,
@@ -99607,7 +100419,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 12,
@@ -99621,7 +100434,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 13,
@@ -99635,7 +100449,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": true,
-            "showIconBG": true
+            "showIconBG": true,
+            "isBonusShow": false
           },
           {
             "id": 14,
@@ -99649,7 +100464,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 15,
@@ -99663,7 +100479,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 16,
@@ -99677,7 +100494,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 17,
@@ -99691,7 +100509,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 18,
@@ -99705,7 +100524,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 19,
@@ -99719,7 +100539,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 20,
@@ -99733,11 +100554,19 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           }
         ],
         "apSupplyOutOfDateDict": {
           "ap_supply_lt_120": 1725825599
+        },
+        "consts": {
+          "showJumpBtn": false,
+          "jumpBtnType": "NONE",
+          "jumpBtnParam1": null,
+          "jumpBtnParam2": null,
+          "dailyTaskStartTime": 0
         }
       },
       "act9d4": {
@@ -99754,7 +100583,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 2,
@@ -99768,7 +100598,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 3,
@@ -99782,7 +100613,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 4,
@@ -99796,7 +100628,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 5,
@@ -99810,7 +100643,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 6,
@@ -99824,7 +100658,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 7,
@@ -99838,7 +100673,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 8,
@@ -99852,7 +100688,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 9,
@@ -99866,7 +100703,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 10,
@@ -99880,7 +100718,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 11,
@@ -99894,7 +100733,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 12,
@@ -99908,7 +100748,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 13,
@@ -99922,7 +100763,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": true,
-            "showIconBG": true
+            "showIconBG": true,
+            "isBonusShow": false
           },
           {
             "id": 14,
@@ -99936,7 +100778,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 15,
@@ -99950,7 +100793,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 16,
@@ -99964,7 +100808,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 17,
@@ -99978,7 +100823,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 18,
@@ -99992,7 +100838,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 19,
@@ -100006,7 +100853,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 20,
@@ -100020,11 +100868,19 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           }
         ],
         "apSupplyOutOfDateDict": {
           "ap_supply_lt_100": 1591559999
+        },
+        "consts": {
+          "showJumpBtn": false,
+          "jumpBtnType": "NONE",
+          "jumpBtnParam1": null,
+          "jumpBtnParam2": null,
+          "dailyTaskStartTime": 0
         }
       },
       "act6d8": {
@@ -100041,7 +100897,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 2,
@@ -100055,7 +100912,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 3,
@@ -100069,7 +100927,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 4,
@@ -100083,7 +100942,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 5,
@@ -100097,7 +100957,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 6,
@@ -100111,7 +100972,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 7,
@@ -100125,7 +100987,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 8,
@@ -100139,7 +101002,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 9,
@@ -100153,7 +101017,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 10,
@@ -100167,7 +101032,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 11,
@@ -100181,7 +101047,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 12,
@@ -100195,7 +101062,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 13,
@@ -100209,7 +101077,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": true,
-            "showIconBG": true
+            "showIconBG": true,
+            "isBonusShow": false
           },
           {
             "id": 14,
@@ -100223,7 +101092,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 15,
@@ -100237,7 +101107,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 16,
@@ -100251,7 +101122,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 17,
@@ -100265,7 +101137,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": true
+            "showIconBG": true,
+            "isBonusShow": false
           },
           {
             "id": 18,
@@ -100279,7 +101152,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 19,
@@ -100293,7 +101167,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 20,
@@ -100307,11 +101182,19 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": true
+            "showIconBG": true,
+            "isBonusShow": false
           }
         ],
         "apSupplyOutOfDateDict": {
           "ap_supply_lt_100": 1583092799
+        },
+        "consts": {
+          "showJumpBtn": false,
+          "jumpBtnType": "NONE",
+          "jumpBtnParam1": null,
+          "jumpBtnParam2": null,
+          "dailyTaskStartTime": 0
         }
       },
       "act4d5": {
@@ -100328,7 +101211,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 2,
@@ -100342,7 +101226,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 3,
@@ -100356,7 +101241,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 4,
@@ -100370,7 +101256,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 5,
@@ -100384,7 +101271,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 6,
@@ -100398,7 +101286,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 7,
@@ -100412,7 +101301,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 8,
@@ -100426,7 +101316,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 9,
@@ -100440,7 +101331,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 10,
@@ -100454,7 +101346,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 11,
@@ -100468,7 +101361,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 12,
@@ -100482,7 +101376,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 13,
@@ -100496,7 +101391,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": true,
-            "showIconBG": true
+            "showIconBG": true,
+            "isBonusShow": false
           },
           {
             "id": 14,
@@ -100510,7 +101406,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 15,
@@ -100524,7 +101421,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 16,
@@ -100538,7 +101436,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 17,
@@ -100552,7 +101451,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 18,
@@ -100566,7 +101466,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 19,
@@ -100580,7 +101481,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 20,
@@ -100594,11 +101496,19 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": true
+            "showIconBG": true,
+            "isBonusShow": false
           }
         ],
         "apSupplyOutOfDateDict": {
           "ap_supply_lt_100": 1575230399
+        },
+        "consts": {
+          "showJumpBtn": false,
+          "jumpBtnType": "NONE",
+          "jumpBtnParam1": null,
+          "jumpBtnParam2": null,
+          "dailyTaskStartTime": 0
         }
       },
       "act3d5": {
@@ -100615,7 +101525,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 2,
@@ -100629,7 +101540,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 3,
@@ -100643,7 +101555,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 4,
@@ -100657,7 +101570,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": true
+            "showIconBG": true,
+            "isBonusShow": false
           },
           {
             "id": 5,
@@ -100671,7 +101585,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 6,
@@ -100685,7 +101600,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 7,
@@ -100699,7 +101615,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 8,
@@ -100713,7 +101630,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 9,
@@ -100727,7 +101645,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 10,
@@ -100741,7 +101660,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 11,
@@ -100755,7 +101675,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": true,
-            "showIconBG": true
+            "showIconBG": true,
+            "isBonusShow": false
           },
           {
             "id": 12,
@@ -100769,7 +101690,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 13,
@@ -100783,7 +101705,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 14,
@@ -100797,7 +101720,8 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": false
+            "showIconBG": false,
+            "isBonusShow": false
           },
           {
             "id": 15,
@@ -100811,15 +101735,49 @@
             "pngSort": 0,
             "isShow": false,
             "showInList": false,
-            "showIconBG": true
+            "showIconBG": true,
+            "isBonusShow": false
           }
         ],
         "apSupplyOutOfDateDict": {
           "ap_supply_lt_100": 1569787199
+        },
+        "consts": {
+          "showJumpBtn": false,
+          "jumpBtnType": "NONE",
+          "jumpBtnParam1": null,
+          "jumpBtnParam2": null,
+          "dailyTaskStartTime": 0
         }
       }
     },
     "TYPE_ACT9D0": {
+      "act39side": {
+        "tokenItemId": "act39side_token_garum",
+        "zoneDescList": {
+          "act39side_zone1": {
+            "zoneId": "act39side_zone1",
+            "unlockText": "尚未解锁",
+            "displayStartTime": 1733371200
+          },
+          "act39side_zone2": {
+            "zoneId": "act39side_zone2",
+            "unlockText": "完成「盐漠开航」后解锁",
+            "displayStartTime": 1733371200
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {},
+        "constData": {
+          "campaignEnemyCnt": 0,
+          "campaignStageId": null
+        }
+      },
       "act37side": {
         "tokenItemId": "act37side_token_nay",
         "zoneDescList": {
@@ -134385,6 +135343,10 @@
         "rewardsTitle": {
           "act2switch_reward_50W": "50",
           "act2switch_reward_200W": "200"
+        },
+        "sortIdDict": {
+          "act2switch_reward_50W": 0,
+          "act2switch_reward_200W": 1
         }
       },
       "act2switch": {
@@ -134432,6 +135394,10 @@
         "rewardsTitle": {
           "act2switch_reward_50W": "50",
           "act2switch_reward_200W": "200"
+        },
+        "sortIdDict": {
+          "act2switch_reward_50W": 0,
+          "act2switch_reward_200W": 1
         }
       },
       "act1switch": {
@@ -134479,6 +135445,10 @@
         "rewardsTitle": {
           "act1switch_reward_50W": "50",
           "act1switch_reward_200W": "200"
+        },
+        "sortIdDict": {
+          "act1switch_reward_50W": 0,
+          "act1switch_reward_200W": 1
         }
       }
     },
@@ -189030,7 +190000,8 @@
           }
         }
       }
-    }
+    },
+    "ARCADE": {}
   },
   "extraData": {
     "MAINLINE_BP": {
@@ -189051,6 +190022,9 @@
     }
   },
   "activityItems": {
+    "act39side": [
+      "act39side_token_garum"
+    ],
     "act1vautochess": [
       "act1vautochess_token_chess"
     ],
@@ -189438,6 +190412,10 @@
     "act11d7": [
       1597132800,
       1597953599
+    ],
+    "act39side": [
+      1733371200,
+      1734551999
     ],
     "act37side": [
       1728446400,
@@ -194995,6 +195973,25 @@
         }
       ],
       "startTs": 1732521600
+    },
+    {
+      "id": "dis_side_39",
+      "type": "ACTIVITY",
+      "funcId": "act39side",
+      "endTs": 1734551999,
+      "sortId": 98,
+      "itemId": "act39side_token_garum",
+      "timeNodes": [
+        {
+          "title": "<出苍白海>活动已开放",
+          "ts": 1733371200
+        },
+        {
+          "title": "\"穿越骸礁\"内关卡已开放",
+          "ts": 1733990400
+        }
+      ],
+      "startTs": 1733371200
     }
   ],
   "actFunData": {
@@ -222274,6 +223271,27 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act39side": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4163_rosesa",
+        "通关EP-4后可招募此干员",
+        "3550b8",
+        "100,-10"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "1526f1"
+    },
     "act1vautochess": {
       "bigRewardType": "PIC_REWARD",
       "bigRewardParamList": [],

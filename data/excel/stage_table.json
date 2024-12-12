@@ -87563,6 +87563,1422 @@
       "extraCondition": null,
       "extraInfo": null
     },
+    "act39side_ex01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act39side_st03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act39side_ex01",
+      "levelId": "Activities/act39side/level_act39side_ex01",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-1",
+      "name": "雅隆旧址",
+      "description": "偶尔，海盗们会趁夜色摸进雅隆镇之下的废墟，寻找黄金时代的工艺品——那是镇民弃置于此的“不洁之物”。\\n<@lv.item><盐漠></>经过的敌人移动速度降低，停留一段时间后会摔落至远处直接被击倒",
+      "hardStagedId": "act39side_ex01#f#",
+      "dangerLevel": "精英1 LV.50",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_canyon",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 9,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act39side_ex01",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act39side_ex01#f#",
+      "levelId": "Activities/act39side/level_act39side_ex01",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-1",
+      "name": "雅隆旧址",
+      "description": "<@lv.fs>附加条件：</>\\n历险水手获得隐匿",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_canyon",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 9,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act39side_ex01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act39side_ex02",
+      "levelId": "Activities/act39side/level_act39side_ex02",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-2",
+      "name": "陆港遗迹",
+      "description": "雅隆的镇民从不离开雅隆，所以他们看不见，自己脚下的山体中还嵌着曾经伊比利亚最繁华的陆上商港的残骸。\\n<@lv.item><盐漠></>经过的敌人移动速度降低，停留一段时间后会摔落至远处直接被击倒\\n<@lv.item><盐坨子炮></>周期性发射炮弹造成物理溅射伤害，可以将周围1名重量小于等于3的地面敌人传送至爆炸中心",
+      "hardStagedId": "act39side_ex02#f#",
+      "dangerLevel": "精英1 LV.60",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_canyon",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 9,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act39side_ex02",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act39side_ex02#f#",
+      "levelId": "Activities/act39side/level_act39side_ex02",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-2",
+      "name": "陆港遗迹",
+      "description": "<@lv.fs>附加条件：</>\\n盐坨子炮攻击力大幅提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_canyon",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 9,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act39side_ex02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act39side_ex03",
+      "levelId": "Activities/act39side/level_act39side_ex03",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-3",
+      "name": "盐花田地",
+      "description": "西尔弗带领镇民开拓过的田地之一，如今结满了玫色的盐晶。帕斯卡拉后来发现，这种盐晶在国外能卖出天价。\\n<@lv.item><盐漠></>经过的敌人移动速度降低，停留一段时间后会摔落至远处直接被击倒",
+      "hardStagedId": "act39side_ex03#f#",
+      "dangerLevel": "精英2 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_saltFlat",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act39side_ex03",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act39side_ex03#f#",
+      "levelId": "Activities/act39side/level_act39side_ex03",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-3",
+      "name": "盐花田地",
+      "description": "<@lv.fs>附加条件：</>\\n所有敌人生命值大幅提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_saltFlat",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act39side_ex03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act39side_ex04",
+      "levelId": "Activities/act39side/level_act39side_ex04",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-4",
+      "name": "鸣鳞原野",
+      "description": "看似空无一物的盐地上，总有微小的盐鳞发出尖锐的鸣叫。常有船员扯开嗓子，想与盐鳞一较歌喉。\\n<@lv.item><盐漠></>经过的敌人移动速度降低，停留一段时间后会摔落至远处直接被击倒\\n<@lv.item><盐坨子炮></>周期性发射炮弹造成物理溅射伤害，可以将周围1名重量小于等于3的地面敌人传送至爆炸中心",
+      "hardStagedId": "act39side_ex04#f#",
+      "dangerLevel": "精英2 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_saltFlat",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act39side_ex04",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act39side_ex04#f#",
+      "levelId": "Activities/act39side/level_act39side_ex04",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-4",
+      "name": "鸣鳞原野",
+      "description": "<@lv.fs>附加条件：</>\\n场上额外出现2个恐怖厨子",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_saltFlat",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act39side_ex04",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act39side_ex05",
+      "levelId": "Activities/act39side/level_act39side_ex05",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-5",
+      "name": "星河水镜",
+      "description": "当盐漠极为罕见地下起雨，就会短暂地积起一摊摊倒映星空的水镜。胡安娜说，海便是“整个星空都涌向大地”。\\n<@lv.item><盐漠></>经过的敌人移动速度降低，停留一段时间后会摔落至远处直接被击倒\\n<@lv.item><盐坨子炮></>周期性发射炮弹造成物理溅射伤害，可以将周围1名重量小于等于3的地面敌人传送至爆炸中心",
+      "hardStagedId": "act39side_ex05#f#",
+      "dangerLevel": "精英2 LV.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_canyon",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex05#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act39side_ex05",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act39side_ex05#f#",
+      "levelId": "Activities/act39side/level_act39side_ex05",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-5",
+      "name": "星河水镜",
+      "description": "<@lv.fs>附加条件：</>\\n恐怖厨子减少物理与法术伤害的比例提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_canyon",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act39side_ex05",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act39side_ex06",
+      "levelId": "Activities/act39side/level_act39side_ex06",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-6",
+      "name": "盐鳞坟场",
+      "description": "似乎知晓盐漠的养分正在枯竭，濒死的盐鳞总会竭力游回骸礁峡谷，让残躯化为盐漠生态的源泉。\\n<@lv.item><盐漠></>经过的敌人移动速度降低，停留一段时间后会摔落至远处直接被击倒\\n<@lv.item><盐坨子炮></>周期性发射炮弹造成物理溅射伤害，可以将周围1名重量小于等于3的地面敌人传送至爆炸中心",
+      "hardStagedId": "act39side_ex06#f#",
+      "dangerLevel": "精英2 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_canyon",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex06#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act39side_ex06",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act39side_ex06#f#",
+      "levelId": "Activities/act39side/level_act39side_ex06",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-6",
+      "name": "盐鳞坟场",
+      "description": "<@lv.fs>附加条件：</>\\n禁止部署重装和特种干员",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_canyon",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act39side_ex06",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act39side_ex07",
+      "levelId": "Activities/act39side/level_act39side_ex07",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-7",
+      "name": "盐船残骸",
+      "description": "如今的盐船脆弱、迟缓，却更适合长久的盐漠生活。而胡安娜原先那些更激进的设计，都沉寂在了骸礁峡谷深处。\\n<@lv.item><盐漠></>经过的敌人移动速度降低，停留一段时间后会摔落至远处直接被击倒\\n<@lv.item><盐坨子炮></>周期性发射炮弹造成物理溅射伤害，可以将周围1名重量小于等于3的地面敌人传送至爆炸中心",
+      "hardStagedId": "act39side_ex07#f#",
+      "dangerLevel": "精英2 LV.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_saltFlat",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 19,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 19,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex07#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act39side_ex07",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act39side_ex07#f#",
+      "levelId": "Activities/act39side/level_act39side_ex07",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-7",
+      "name": "盐船残骸",
+      "description": "<@lv.fs>附加条件：</>\\n场上三个位置不可部署",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_saltFlat",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 19,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 19,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act39side_ex07",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act39side_ex08",
+      "levelId": "Activities/act39side/level_act39side_ex08",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-8",
+      "name": "盐海尽头",
+      "description": "许多年轻的船员甚至没有注意到自己是何时来到了海边。他们惊讶地发现，陆与海之间并没有断崖或高墙相隔。\\n<@lv.item><盐漠></>经过的敌人移动速度降低，停留一段时间后会摔落至远处直接被击倒\\n<@lv.item><盐坨子炮></>周期性发射炮弹造成物理溅射伤害，可以将周围1名重量小于等于3的地面敌人传送至爆炸中心",
+      "hardStagedId": "act39side_ex08#f#",
+      "dangerLevel": "精英2 LV.40",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_saltFlat",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 19,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 19,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act39side_token_garum",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
+    "act39side_ex08#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act39side_ex08",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act39side_ex08#f#",
+      "levelId": "Activities/act39side/level_act39side_ex08",
+      "zoneId": "act39side_zone2",
+      "code": "EP-EX-8",
+      "name": "盐海尽头",
+      "description": "<@lv.fs>附加条件：</>\\n美声水手长召唤历险水手的间隔缩短",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_EP_saltFlat",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 19,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 19,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act39side_ex01",
+      "extraCondition": null,
+      "extraInfo": null
+    },
     "act1vautochess_m01": {
       "stageType": "ACTIVITY",
       "difficulty": "NORMAL",
@@ -123227,7 +124643,7 @@
       ],
       "stageId": "act30side_st01",
       "levelId": null,
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-ST-1",
       "name": "候车大厅",
       "description": "旅途的开始，计划的起始。",
@@ -123308,7 +124724,7 @@
       ],
       "stageId": "act30side_tr01",
       "levelId": "Activities/act30side/level_act30side_tr01",
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-TR-1",
       "name": "安全线内",
       "description": "安全线指引着人们站在安全的区域有序候车，但它只存在于月台。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果",
@@ -123389,7 +124805,7 @@
       ],
       "stageId": "act30side_01",
       "levelId": "Activities/act30side/level_act30side_01",
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-1",
       "name": "注意事项",
       "description": "要想乘坐独一无二的长距离轨道载具，就得遵守独一无二的规矩。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果",
@@ -123432,12 +124848,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -123480,13 +124896,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -123558,7 +124974,7 @@
       ],
       "stageId": "act30side_02",
       "levelId": "Activities/act30side/level_act30side_02",
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-2",
       "name": "同车异图",
       "description": "相同的车次，不同的意图。即便大家使用着相同的话术，真正地理解彼此也是极其艰难的。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果",
@@ -123601,12 +125017,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -123649,13 +125065,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -123727,7 +125143,7 @@
       ],
       "stageId": "act30side_03",
       "levelId": "Activities/act30side/level_act30side_03",
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-3",
       "name": "临时停车",
       "description": "旅途中总会出现种种巧合导致的意外，临时停车似乎是最常见的那一种。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果",
@@ -123770,12 +125186,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -123818,13 +125234,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -123896,7 +125312,7 @@
       ],
       "stageId": "act30side_04",
       "levelId": "Activities/act30side/level_act30side_04",
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-4",
       "name": "重回正轨",
       "description": "没有人想把事情推向最糟糕的方向，如果终能重归于好，那一定很美妙。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果",
@@ -123939,12 +125355,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -123967,13 +125383,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -124021,7 +125437,7 @@
       ],
       "stageId": "act30side_st02",
       "levelId": null,
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-ST-2",
       "name": "登山铁道",
       "description": "直面问题意味着要切实解决意料之外的问题，就如同向上延伸的坡道，艰难又曲折。",
@@ -124102,7 +125518,7 @@
       ],
       "stageId": "act30side_05",
       "levelId": "Activities/act30side/level_act30side_05",
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-5",
       "name": "逃票？",
       "description": "人总要为自己的行为买单。有人为过去，有人为当下。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果\\n<@lv.item><点火石></>可以立刻点燃一个“紧急供暖器”",
@@ -124145,12 +125561,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -124173,13 +125589,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -124227,7 +125643,7 @@
       ],
       "stageId": "act30side_06",
       "levelId": "Activities/act30side/level_act30side_06",
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-6",
       "name": "补票！",
       "description": "一切的侥幸都将被偿还，所有的行为都会被记录。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果\\n<@lv.item><点火石></>可以立刻点燃一个“紧急供暖器”",
@@ -124270,12 +125686,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -124293,13 +125709,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -124341,7 +125757,7 @@
       ],
       "stageId": "act30side_07",
       "levelId": "Activities/act30side/level_act30side_07",
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-7",
       "name": "制动失灵",
       "description": "保护系统的安全阀门开始失灵。系统性的错误，有的时候是由最不起眼的个别问题所导致。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果\\n<@lv.item><点火石></>可以立刻点燃一个“紧急供暖器”",
@@ -124384,12 +125800,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -124407,13 +125823,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -124455,7 +125871,7 @@
       ],
       "stageId": "act30side_08",
       "levelId": "Activities/act30side/level_act30side_08",
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-8",
       "name": "极限时速",
       "description": "我是谢拉格人，面对我。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果\\n<@lv.item><点火石></>可以立刻点燃一个“紧急供暖器”",
@@ -124498,12 +125914,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -124521,13 +125937,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -124569,7 +125985,7 @@
       ],
       "stageId": "act30side_st03",
       "levelId": null,
-      "zoneId": "act30side_zone1",
+      "zoneId": "act30sre_zone1",
       "code": "RS-ST-3",
       "name": "终点站",
       "description": "列车安全地到达了终点站，满载着对过往的释然，还有对明天的憧憬。",
@@ -124650,7 +126066,7 @@
       ],
       "stageId": "act30side_ex01",
       "levelId": "Activities/act30side/level_act30side_ex01",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-1",
       "name": "枕木",
       "description": "普通枕木是轨道的基础，理解战术是生存的前提。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果",
@@ -124693,7 +126109,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -124706,7 +126122,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -124746,7 +126162,7 @@
       ],
       "stageId": "act30side_ex01#f#",
       "levelId": "Activities/act30side/level_act30side_ex01",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-1",
       "name": "枕木",
       "description": "<@lv.fs>附加条件：</>\\n敌人移动速度大幅提升",
@@ -124757,7 +126173,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 10,
-      "apFailReturn": 5,
+      "apFailReturn": 9,
       "etItemId": null,
       "etCost": -1,
       "etFailReturn": -1,
@@ -124770,7 +126186,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 5,
+      "passFavor": 9,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -124827,7 +126243,7 @@
       ],
       "stageId": "act30side_ex02",
       "levelId": "Activities/act30side/level_act30side_ex02",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-2",
       "name": "信号灯",
       "description": "信号是轨道交通的生命线，也是战斗的增幅器。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果",
@@ -124870,7 +126286,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -124883,7 +126299,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -124923,7 +126339,7 @@
       ],
       "stageId": "act30side_ex02#f#",
       "levelId": "Activities/act30side/level_act30side_ex02",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-2",
       "name": "信号灯",
       "description": "<@lv.fs>附加条件：</>\\n近卫、重装、特种干员阻挡数-1",
@@ -124934,7 +126350,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 10,
-      "apFailReturn": 5,
+      "apFailReturn": 9,
       "etItemId": null,
       "etCost": -1,
       "etFailReturn": -1,
@@ -124947,7 +126363,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 5,
+      "passFavor": 9,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -125004,7 +126420,7 @@
       ],
       "stageId": "act30side_ex03",
       "levelId": "Activities/act30side/level_act30side_ex03",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-3",
       "name": "待避",
       "description": "相向而行的列车会有特殊的方法巧妙避让。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果",
@@ -125047,7 +126463,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125060,7 +126476,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125100,7 +126516,7 @@
       ],
       "stageId": "act30side_ex03#f#",
       "levelId": "Activities/act30side/level_act30side_ex03",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-3",
       "name": "待避",
       "description": "<@lv.fs>附加条件：</>\\n“访问团持盾长”最大特性层数提升",
@@ -125111,7 +126527,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 7,
+      "apFailReturn": 14,
       "etItemId": null,
       "etCost": -1,
       "etFailReturn": -1,
@@ -125124,7 +126540,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 7,
+      "passFavor": 14,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -125181,7 +126597,7 @@
       ],
       "stageId": "act30side_ex04",
       "levelId": "Activities/act30side/level_act30side_ex04",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-4",
       "name": "挡车器",
       "description": "挡住那些试图冲出轨道的家伙，不然一切都会泡汤。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果\\n<@lv.item><点火石></>可以立刻点燃一个“紧急供暖器”",
@@ -125224,7 +126640,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125237,7 +126653,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125277,7 +126693,7 @@
       ],
       "stageId": "act30side_ex04#f#",
       "levelId": "Activities/act30side/level_act30side_ex04",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-4",
       "name": "挡车器",
       "description": "<@lv.fs>附加条件：</>\\n先锋、近卫、重装部署费用提升至2倍",
@@ -125288,7 +126704,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 7,
+      "apFailReturn": 14,
       "etItemId": null,
       "etCost": -1,
       "etFailReturn": -1,
@@ -125301,7 +126717,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 7,
+      "passFavor": 14,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -125358,7 +126774,7 @@
       ],
       "stageId": "act30side_ex05",
       "levelId": "Activities/act30side/level_act30side_ex05",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-5",
       "name": "展线",
       "description": "向上爬行，总有风雪相迎。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果",
@@ -125401,7 +126817,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125414,7 +126830,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125454,7 +126870,7 @@
       ],
       "stageId": "act30side_ex05#f#",
       "levelId": "Activities/act30side/level_act30side_ex05",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-5",
       "name": "展线",
       "description": "<@lv.fs>附加条件：</>\\n场上初始出现额外敌人",
@@ -125465,7 +126881,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 7,
+      "apFailReturn": 14,
       "etItemId": null,
       "etCost": -1,
       "etFailReturn": -1,
@@ -125478,7 +126894,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 7,
+      "passFavor": 14,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -125535,7 +126951,7 @@
       ],
       "stageId": "act30side_ex06",
       "levelId": "Activities/act30side/level_act30side_ex06",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-6",
       "name": "道口",
       "description": "无人管理的道口潜伏着意料之外的危险。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果\\n<@lv.item><点火石></>可以立刻点燃一个“紧急供暖器”",
@@ -125578,7 +126994,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125591,7 +127007,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125631,7 +127047,7 @@
       ],
       "stageId": "act30side_ex06#f#",
       "levelId": "Activities/act30side/level_act30side_ex06",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-6",
       "name": "道口",
       "description": "<@lv.fs>附加条件：</>\\n“沉眠高山驮兽”初始位置改变",
@@ -125642,7 +127058,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 7,
+      "apFailReturn": 14,
       "etItemId": null,
       "etCost": -1,
       "etFailReturn": -1,
@@ -125655,7 +127071,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 7,
+      "passFavor": 14,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -125712,7 +127128,7 @@
       ],
       "stageId": "act30side_ex07",
       "levelId": "Activities/act30side/level_act30side_ex07",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-7",
       "name": "道岔",
       "description": "该向何处去？\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果\\n<@lv.item><点火石></>可以立刻点燃一个“紧急供暖器”",
@@ -125755,7 +127171,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125768,7 +127184,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125808,7 +127224,7 @@
       ],
       "stageId": "act30side_ex07#f#",
       "levelId": "Activities/act30side/level_act30side_ex07",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-7",
       "name": "道岔",
       "description": "<@lv.fs>附加条件：</>\\n场上有6个位置无法部署",
@@ -125819,7 +127235,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 10,
+      "apFailReturn": 19,
       "etItemId": null,
       "etCost": -1,
       "etFailReturn": -1,
@@ -125832,7 +127248,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 10,
+      "passFavor": 19,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -125889,7 +127305,7 @@
       ],
       "stageId": "act30side_ex08",
       "levelId": "Activities/act30side/level_act30side_ex08",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-8",
       "name": "环形回车道",
       "description": "新的境遇，老的对手。列车只需要经过环形回车道，便可反向而行。\\n<@lv.item><紧急供暖器></>可以使周围部署的干员免疫环境“封冻”效果\\n<@lv.item><点火石></>可以立刻点燃一个“紧急供暖器”",
@@ -125932,7 +127348,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125945,7 +127361,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act30side_token_box",
+            "id": "act30side_token_box_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -125985,7 +127401,7 @@
       ],
       "stageId": "act30side_ex08#f#",
       "levelId": "Activities/act30side/level_act30side_ex08",
-      "zoneId": "act30side_zone2",
+      "zoneId": "act30sre_zone2",
       "code": "RS-EX-8",
       "name": "环形回车道",
       "description": "<@lv.fs>附加条件：</>\\n<@lv.item><点火石></>费用增加至20",
@@ -125996,7 +127412,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 10,
+      "apFailReturn": 19,
       "etItemId": null,
       "etCost": -1,
       "etFailReturn": -1,
@@ -126009,7 +127425,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 10,
+      "passFavor": 19,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -440197,6 +441613,70 @@
       "startTs": 1733371200,
       "endTs": 1734551999
     },
+    "act39side_ex01": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex01#f#": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex02": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex02#f#": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex03": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex03#f#": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex04": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex04#f#": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex05": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex05#f#": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex06": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex06#f#": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex07": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex07#f#": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex08": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
+    "act39side_ex08#f#": {
+      "startTs": 1733990400,
+      "endTs": 1734551999
+    },
     "act1vautochess_m01": {
       "startTs": 1731657600,
       "endTs": 1732823999
@@ -441646,116 +443126,116 @@
       "endTs": 1705348799
     },
     "act30side_st01": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_tr01": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_01": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_02": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_03": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_04": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_st02": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_05": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_06": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_07": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_08": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_st03": {
-      "startTs": 1701748800,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex01": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex01#f#": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex02": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex02#f#": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex03": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex03#f#": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex04": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex04#f#": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex05": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex05#f#": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex06": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex06#f#": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex07": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex07#f#": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex08": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act30side_ex08#f#": {
-      "startTs": 1702368000,
-      "endTs": 1702929599
+      "startTs": 1734595200,
+      "endTs": 1735415999
     },
     "act29side_st01": {
       "startTs": 1732521600,

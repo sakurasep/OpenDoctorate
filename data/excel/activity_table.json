@@ -1,5 +1,43 @@
 {
   "basicInfo": {
+    "act30sre": {
+      "id": "act30sre",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "银心湖列车·复刻",
+      "startTime": 1734595200,
+      "endTime": 1735415999,
+      "rewardEndTime": 1735761599,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act30sre",
+      "medalGroupId": "medalGroupActivity30side",
+      "ungroupedMedalIds": null,
+      "isReplicate": true,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false
+    },
+    "act1video": {
+      "id": "act1video",
+      "type": "CHECKIN_VIDEO",
+      "displayType": "NONE",
+      "name": "留影烁今登录活动",
+      "startTime": 1733990400,
+      "endTime": 1734811199,
+      "rewardEndTime": 1734811199,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false
+    },
     "act39side": {
       "id": "act39side",
       "type": "TYPE_ACT9D0",
@@ -4064,6 +4102,13 @@
     }
   },
   "homeActConfig": {
+    "act1video": {
+      "actId": "act1video",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "5f4e43",
+      "actTopBarText": "留影烁今签到活动"
+    },
     "act47sign": {
       "actId": "act47sign",
       "isPopupAfterCheckin": false,
@@ -4822,6 +4867,8 @@
     }
   },
   "zoneToActivity": {
+    "act30sre_zone1": "act30sre",
+    "act30sre_zone2": "act30sre",
     "act39side_zone1": "act39side",
     "act39side_zone2": "act39side",
     "act1vautochess_zone1": "act1vautochess",
@@ -5022,6 +5069,787 @@
     "main_14": "act1mainss"
   },
   "missionData": [
+    {
+      "id": "30sreActivity_1",
+      "sortId": 1,
+      "description": "通关RS-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 50
+        },
+        {
+          "type": "FURN",
+          "id": "furni_postOffice_scale_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_2",
+      "sortId": 2,
+      "description": "通关RS-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 50
+        },
+        {
+          "type": "FURN",
+          "id": "furni_postOffice_stove_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_3",
+      "sortId": 3,
+      "description": "通关RS-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 50
+        },
+        {
+          "type": "FURN",
+          "id": "furni_postOffice_hangSheet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_4",
+      "sortId": 4,
+      "description": "通关RS-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 70
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4114_harold",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_5",
+      "sortId": 5,
+      "description": "通关RS-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 70
+        },
+        {
+          "type": "FURN",
+          "id": "furni_postOffice_carpet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_6",
+      "sortId": 6,
+      "description": "以3星评价完成RS-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_05",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_7",
+      "sortId": 7,
+      "description": "通关RS-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_postOffice_bag_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_8",
+      "sortId": 8,
+      "description": "以3星评价完成RS-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_06",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_postOffice_chair_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_9",
+      "sortId": 9,
+      "description": "通关RS-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_postOffice_cabinet_04",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_10",
+      "sortId": 10,
+      "description": "以3星评价完成RS-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_07",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_postOffice_cabinet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_11",
+      "sortId": 11,
+      "description": "通关RS-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_postOffice_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_12",
+      "sortId": 12,
+      "description": "以3星评价完成RS-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_08",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_13",
+      "sortId": 13,
+      "description": "通关RS-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_ex01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_14",
+      "sortId": 14,
+      "description": "通关RS-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_ex02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_15",
+      "sortId": 15,
+      "description": "通关RS-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_ex03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_16",
+      "sortId": 16,
+      "description": "通关RS-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_ex04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_17",
+      "sortId": 17,
+      "description": "通关RS-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_ex05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_18",
+      "sortId": 18,
+      "description": "通关RS-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_ex06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_19",
+      "sortId": 19,
+      "description": "通关RS-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_ex07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_20",
+      "sortId": 20,
+      "description": "通关RS-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_ex08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_21",
+      "sortId": 21,
+      "description": "通关RS-EX-8突袭模式",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act30side_ex08#f#",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terratimes_Kjerag_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_22",
+      "sortId": 22,
+      "description": "通关活动关卡10次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act30side_01^act30side_02^act30side_03^act30side_04^act30side_05^act30side_06^act30side_07^act30side_08^act30side_ex01^act30side_ex01#f#^act30side_ex02^act30side_ex02#f#^act30side_ex03^act30side_ex03#f#^act30side_ex04^act30side_ex04#f#^act30side_ex05^act30side_ex05#f#^act30side_ex06^act30side_ex06#f#^act30side_ex07^act30side_ex07#f#^act30side_ex08^act30side_ex08#f#",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_23",
+      "sortId": 23,
+      "description": "通关活动关卡25次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act30side_01^act30side_02^act30side_03^act30side_04^act30side_05^act30side_06^act30side_07^act30side_08^act30side_ex01^act30side_ex01#f#^act30side_ex02^act30side_ex02#f#^act30side_ex03^act30side_ex03#f#^act30side_ex04^act30side_ex04#f#^act30side_ex05^act30side_ex05#f#^act30side_ex06^act30side_ex06#f#^act30side_ex07^act30side_ex07#f#^act30side_ex08^act30side_ex08#f#",
+        "25"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "30sreActivity_24",
+      "sortId": 24,
+      "description": "通关活动关卡40次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act30side_01^act30side_02^act30side_03^act30side_04^act30side_05^act30side_06^act30side_07^act30side_08^act30side_ex01^act30side_ex01#f#^act30side_ex02^act30side_ex02#f#^act30side_ex03^act30side_ex03#f#^act30side_ex04^act30side_ex04#f#^act30side_ex05^act30side_ex05#f#^act30side_ex06^act30side_ex06#f#^act30side_ex07^act30side_ex07#f#^act30side_ex08^act30side_ex08#f#",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act30sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act30side_token_box_rep_1",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
     {
       "id": "39sideActivity_1",
       "sortId": 1,
@@ -75591,6 +76419,42 @@
   ],
   "missionGroup": [
     {
+      "id": "act30sre",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "30sreActivity_1",
+        "30sreActivity_2",
+        "30sreActivity_3",
+        "30sreActivity_4",
+        "30sreActivity_5",
+        "30sreActivity_6",
+        "30sreActivity_7",
+        "30sreActivity_8",
+        "30sreActivity_9",
+        "30sreActivity_10",
+        "30sreActivity_11",
+        "30sreActivity_12",
+        "30sreActivity_13",
+        "30sreActivity_14",
+        "30sreActivity_15",
+        "30sreActivity_16",
+        "30sreActivity_17",
+        "30sreActivity_18",
+        "30sreActivity_19",
+        "30sreActivity_20",
+        "30sreActivity_21",
+        "30sreActivity_22",
+        "30sreActivity_23",
+        "30sreActivity_24"
+      ],
+      "startTs": 1734595200,
+      "endTs": 1735761599
+    },
+    {
       "id": "act39side",
       "title": null,
       "type": "ACTIVITY",
@@ -101752,6 +102616,32 @@
       }
     },
     "TYPE_ACT9D0": {
+      "act30sre": {
+        "tokenItemId": "act30side_token_box_rep_1",
+        "zoneDescList": {
+          "act30sre_zone1": {
+            "zoneId": "act30sre_zone1",
+            "unlockText": "尚未解锁",
+            "displayStartTime": 1734595200
+          },
+          "act30sre_zone2": {
+            "zoneId": "act30sre_zone2",
+            "unlockText": "完成「三号站台」后解锁",
+            "displayStartTime": 1734595200
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {},
+        "constData": {
+          "campaignEnemyCnt": 0,
+          "campaignStageId": null
+        }
+      },
       "act39side": {
         "tokenItemId": "act39side_token_garum",
         "zoneDescList": {
@@ -190022,6 +190912,9 @@
     }
   },
   "activityItems": {
+    "act30sre": [
+      "act30side_token_box_rep_1"
+    ],
     "act39side": [
       "act39side_token_garum"
     ],
@@ -190412,6 +191305,10 @@
     "act11d7": [
       1597132800,
       1597953599
+    ],
+    "act30sre": [
+      1734595200,
+      1735415999
     ],
     "act39side": [
       1733371200,
@@ -192162,6 +193059,97 @@
           "type": "AP_SUPPLY"
         }
       ]
+    },
+    "act1video": {
+      "apSupplyOutOfDateDict": {
+        "ap_supply_lt_120": 1735502399
+      },
+      "checkInList": {
+        "0": {
+          "introImgList": [
+            "act1video_bg_1",
+            "act1video_title_1",
+            "act1video_name",
+            "act1video_logo"
+          ],
+          "itemList": [
+            {
+              "count": 1,
+              "id": "ap_supply_lt_120",
+              "type": "AP_SUPPLY"
+            },
+            {
+              "count": 30000,
+              "id": "4001",
+              "type": "GOLD"
+            }
+          ],
+          "order": 1,
+          "shareImgList": [
+            "act1video_sharebg_1",
+            "act1video_playertitle",
+            "act1video_sharename",
+            "act1video_logo"
+          ],
+          "videoId": "cfa_1"
+        },
+        "1": {
+          "introImgList": [
+            "act1video_bg_2",
+            "act1video_title_2",
+            "act1video_name",
+            "act1video_logo"
+          ],
+          "itemList": [
+            {
+              "count": 1,
+              "id": "mod_unlock_token",
+              "type": "MATERIAL"
+            },
+            {
+              "count": 300,
+              "id": "3401",
+              "type": "MATERIAL"
+            }
+          ],
+          "order": 2,
+          "shareImgList": [
+            "act1video_sharebg_2",
+            "act1video_playertitle",
+            "act1video_sharename",
+            "act1video_logo"
+          ],
+          "videoId": "cfa_2"
+        },
+        "2": {
+          "introImgList": [
+            "act1video_bg_3",
+            "act1video_title_3",
+            "act1video_name",
+            "act1video_logo"
+          ],
+          "itemList": [
+            {
+              "count": 200,
+              "id": "4003",
+              "type": "DIAMOND_SHD"
+            },
+            {
+              "count": 20,
+              "id": "2003",
+              "type": "CARD_EXP"
+            }
+          ],
+          "order": 3,
+          "shareImgList": [
+            "act1video_sharebg_3",
+            "act1video_playertitle",
+            "act1video_sharename",
+            "act1video_logo"
+          ],
+          "videoId": "cfa_3"
+        }
+      }
     }
   },
   "stageRewardsData": {
@@ -195992,6 +196980,21 @@
         }
       ],
       "startTs": 1733371200
+    },
+    {
+      "id": "dis_side_30_sre",
+      "type": "ACTIVITY",
+      "funcId": "act30sre",
+      "endTs": 1735415999,
+      "sortId": 99,
+      "itemId": "act30side_token_box_rep_1",
+      "timeNodes": [
+        {
+          "title": "<银心湖列车·复刻>活动已开放",
+          "ts": 1734595200
+        }
+      ],
+      "startTs": 1734595200
     }
   ],
   "actFunData": {
@@ -223271,6 +224274,26 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act30sre": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4114_harold",
+        "通关RS-4后可招募此干员",
+        "46637d"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": "46637d",
+      "isMissionItemCompleteUseMainColor": true,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": "46637d",
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "46637d"
+    },
     "act39side": {
       "bigRewardType": "ILLUST_CHAR_REWARD",
       "bigRewardParamList": [

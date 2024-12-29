@@ -134755,6 +134755,11 @@
           "updateId": "rogue_4_update_6",
           "topicUpdateTime": 1732996800,
           "topicEndTime": 1735675200
+        },
+        {
+          "updateId": "rogue_4_update_7",
+          "topicUpdateTime": 1735675200,
+          "topicEndTime": 1738353600
         }
       ],
       "enrolls": {
@@ -136136,9 +136141,174 @@
           "id": "bp_level_125",
           "level": 125,
           "tokenNum": 43000,
-          "nextTokenNum": -1,
+          "nextTokenNum": 43400,
           "itemID": "char_311_mudrok@wild#10",
           "itemType": "CHAR_SKIN",
+          "itemCount": 1,
+          "isGoodPrize": false,
+          "isGrandPrize": true
+        },
+        {
+          "id": "bp_level_126",
+          "level": 126,
+          "tokenNum": 43400,
+          "nextTokenNum": 43800,
+          "itemID": "4001",
+          "itemType": "GOLD",
+          "itemCount": 50000,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_127",
+          "level": 127,
+          "tokenNum": 43800,
+          "nextTokenNum": 44200,
+          "itemID": "2004",
+          "itemType": "CARD_EXP",
+          "itemCount": 20,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_128",
+          "level": 128,
+          "tokenNum": 44200,
+          "nextTokenNum": 44600,
+          "itemID": "30034",
+          "itemType": "MATERIAL",
+          "itemCount": 3,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_129",
+          "level": 129,
+          "tokenNum": 44600,
+          "nextTokenNum": 45000,
+          "itemID": "3301",
+          "itemType": "MATERIAL",
+          "itemCount": 30,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_130",
+          "level": 130,
+          "tokenNum": 45000,
+          "nextTokenNum": 45400,
+          "itemID": "30155",
+          "itemType": "MATERIAL",
+          "itemCount": 1,
+          "isGoodPrize": true,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_131",
+          "level": 131,
+          "tokenNum": 45400,
+          "nextTokenNum": 45800,
+          "itemID": "4001",
+          "itemType": "GOLD",
+          "itemCount": 50000,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_132",
+          "level": 132,
+          "tokenNum": 45800,
+          "nextTokenNum": 46200,
+          "itemID": "2004",
+          "itemType": "CARD_EXP",
+          "itemCount": 20,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_133",
+          "level": 133,
+          "tokenNum": 46200,
+          "nextTokenNum": 46600,
+          "itemID": "30084",
+          "itemType": "MATERIAL",
+          "itemCount": 3,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_134",
+          "level": 134,
+          "tokenNum": 46600,
+          "nextTokenNum": 47000,
+          "itemID": "3302",
+          "itemType": "MATERIAL",
+          "itemCount": 10,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_135",
+          "level": 135,
+          "tokenNum": 47000,
+          "nextTokenNum": 47400,
+          "itemID": "31064",
+          "itemType": "MATERIAL",
+          "itemCount": 3,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_136",
+          "level": 136,
+          "tokenNum": 47400,
+          "nextTokenNum": 47800,
+          "itemID": "4001",
+          "itemType": "GOLD",
+          "itemCount": 50000,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_137",
+          "level": 137,
+          "tokenNum": 47800,
+          "nextTokenNum": 48200,
+          "itemID": "2004",
+          "itemType": "CARD_EXP",
+          "itemCount": 20,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_138",
+          "level": 138,
+          "tokenNum": 48200,
+          "nextTokenNum": 48600,
+          "itemID": "30135",
+          "itemType": "MATERIAL",
+          "itemCount": 1,
+          "isGoodPrize": true,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_139",
+          "level": 139,
+          "tokenNum": 48600,
+          "nextTokenNum": 49000,
+          "itemID": "3303",
+          "itemType": "MATERIAL",
+          "itemCount": 3,
+          "isGoodPrize": false,
+          "isGrandPrize": false
+        },
+        {
+          "id": "bp_level_140",
+          "level": 140,
+          "tokenNum": 49000,
+          "nextTokenNum": -1,
+          "itemID": "bg_rogue_4",
+          "itemType": "HOME_BACKGROUND",
           "itemCount": 1,
           "isGoodPrize": false,
           "isGrandPrize": true
@@ -136186,6 +136356,13 @@
           "maxBpLevel": 125,
           "maxBpCount": 43000,
           "maxDisplayBpCount": 43000
+        },
+        {
+          "updateTime": 1735675200,
+          "endTime": 1738353600,
+          "maxBpLevel": 140,
+          "maxBpCount": 49000,
+          "maxDisplayBpCount": 49000
         }
       ],
       "grandPrizes": [
@@ -136343,7 +136520,7 @@
           "bpLevelId": "bp_level_140",
           "itemBundle": null,
           "detailAnnounceTime": "2025/1/1 4:00:00",
-          "picIdAftrerUnlock": null
+          "picIdAftrerUnlock": "grand_10_2"
         },
         {
           "grandPrizeDisplayId": "grand_11",
@@ -137008,6 +137185,56 @@
           "startTime": 1732996800,
           "endTime": 1735675200,
           "taskDes": "累计开启10次逻各斯的延异视阈"
+        },
+        "month_team_7": {
+          "id": "month_team_7",
+          "teamName": "弯路的终点",
+          "teamSubName": null,
+          "teamFlavorDesc": "the end of the wrong path",
+          "teamDes": "通往故乡的步伐，也是远离故乡的步伐。远离故乡的步伐，也是通往故乡的步伐。",
+          "teamColor": "cf4242",
+          "teamMonth": "01",
+          "teamYear": "2025",
+          "teamIndex": "7",
+          "teamChars": [
+            {
+              "teamCharId": "char_350_surtr",
+              "teamTmplId": null
+            }
+          ],
+          "zoneId": null,
+          "chatId": "month_chat_rogue_4_7",
+          "tokenRewardNum": 1000,
+          "items": [
+            {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "32001",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "3272",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "2004",
+              "count": 15,
+              "type": "CARD_EXP"
+            },
+            {
+              "id": "4001",
+              "count": 30000,
+              "type": "GOLD"
+            }
+          ],
+          "startTime": 1735675200,
+          "endTime": 1738353600,
+          "taskDes": "累计部署10次史尔特尔"
         }
       },
       "challenges": {},
@@ -139743,6 +139970,27 @@
                   "chatStoryId": "Obt/Rogue/rogue_4/MonthRecord/month_record_rogue_4_6_3"
                 }
               ]
+            },
+            "month_chat_rogue_4_7": {
+              "sortId": 7,
+              "numChat": 3,
+              "clientChatItemData": [
+                {
+                  "chatFloor": 1,
+                  "chatDesc": "需要想象力才能到达的起点",
+                  "chatStoryId": "Obt/Rogue/rogue_4/MonthRecord/month_record_rogue_4_7_1"
+                },
+                {
+                  "chatFloor": 3,
+                  "chatDesc": "徘徊的过往",
+                  "chatStoryId": "Obt/Rogue/rogue_4/MonthRecord/month_record_rogue_4_7_2"
+                },
+                {
+                  "chatFloor": 5,
+                  "chatDesc": "没有终点，只有未来",
+                  "chatStoryId": "Obt/Rogue/rogue_4/MonthRecord/month_record_rogue_4_7_3"
+                }
+              ]
             }
           }
         },
@@ -142033,6 +142281,32 @@
           ],
           "initialRecruitGroup": [
             "recruit_group_m6"
+          ],
+          "initialHp": 8,
+          "initialPopulation": 6,
+          "initialGold": 6,
+          "initialSquadCapacity": 6,
+          "initialShield": 0,
+          "initialMaxHp": 8,
+          "initialKey": 0
+        },
+        {
+          "modeId": "MONTH_TEAM",
+          "modeGrade": 0,
+          "predefinedId": "month_team_7",
+          "predefinedStyle": "rogue_4_style_default",
+          "initialBandRelic": [
+            "rogue_4_band_1",
+            "rogue_4_band_2",
+            "rogue_4_band_3",
+            "rogue_4_band_4",
+            "rogue_4_band_9",
+            "rogue_4_band_11",
+            "rogue_4_band_12",
+            "rogue_4_band_13"
+          ],
+          "initialRecruitGroup": [
+            "recruit_group_m7"
           ],
           "initialHp": 8,
           "initialPopulation": 6,

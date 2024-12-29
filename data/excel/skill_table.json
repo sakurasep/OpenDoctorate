@@ -293667,5 +293667,324 @@
         "blackboard": []
       }
     ]
+  },
+  "sktok_arcexpd": {
+    "skillId": "sktok_arcexpd",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "帮个小忙",
+        "rangeId": null,
+        "description": "部署后增加一个部署位",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_arcexpd",
+        "duration": 5.0,
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_arcgacha": {
+    "skillId": "sktok_arcgacha",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "扭动机关",
+        "rangeId": null,
+        "description": "得分额外回复技力；技能开启后，随机抽取一个额外道具\\n<@ba.rem>可充能3次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 3,
+          "spCost": 30,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_arcgacha",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "scale",
+            "value": 5000.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_arcgrg": {
+    "skillId": "sktok_arcgrg",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "启航！",
+        "rangeId": null,
+        "description": "消耗<@ba.vup>{cost}</>点部署费用，向自身部署方向发射一辆“两栖号”船车",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 24,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_arcgrg",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 3.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_archook": {
+    "skillId": "sktok_archook",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "发射",
+        "rangeId": null,
+        "description": "技能开启后，向当前方向发射一个钩子，将钩子碰到的第一个敌人拉到面前",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_archook",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "projectile_range",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_speed",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "min_cnt",
+            "value": 15.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_cnt",
+            "value": 165.0,
+            "valueStr": null
+          },
+          {
+            "key": "cw",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "angle",
+            "value": 43.0,
+            "valueStr": null
+          },
+          {
+            "key": "move_speed",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "force",
+            "value": 11.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_arcsoda": {
+    "skillId": "sktok_arcsoda",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "充分摇匀",
+        "rangeId": "x-5",
+        "description": "被击破时在周围产生纯白水汽",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_arcsoda",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_arcsum1": {
+    "skillId": "sktok_arcsum1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "叮铃铃！",
+        "rangeId": null,
+        "description": "部署后随机召唤一批普通敌人",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_arcsum1",
+        "duration": 5.0,
+        "blackboard": [
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "extra_enemy_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_arcsum2": {
+    "skillId": "sktok_arcsum2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "叮铃铃！",
+        "rangeId": null,
+        "description": "部署后随机召唤一批精英敌人",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_arcsum2",
+        "duration": 5.0,
+        "blackboard": [
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "extra_enemy_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_arcsum3": {
+    "skillId": "sktok_arcsum3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "叮铃铃！",
+        "rangeId": null,
+        "description": "部署后随机召唤一批特殊敌人",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_arcsum3",
+        "duration": 5.0,
+        "blackboard": [
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "extra_enemy_3"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_arctoll": {
+    "skillId": "sktok_arctoll",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "记分",
+        "rangeId": null,
+        "description": "技能开启后，根据场上的纯白水汽数量进行计分；记分过程中，每个水汽所得分数会随着水汽的数量递增\\n<@ba.rem>可充能2次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 2,
+          "spCost": 25,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_arctoll",
+        "duration": 5.0,
+        "blackboard": [
+          {
+            "key": "cnt",
+            "value": 100.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 100.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
   }
 }

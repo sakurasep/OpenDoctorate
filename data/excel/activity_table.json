@@ -1,5 +1,85 @@
 {
   "basicInfo": {
+    "act2blessing": {
+      "id": "act2blessing",
+      "type": "BLESS_ONLY",
+      "displayType": "NONE",
+      "name": "2025罗德岛新春签到",
+      "startTime": 1738008000,
+      "endTime": 1739217599,
+      "rewardEndTime": 1739217599,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false
+    },
+    "act23login": {
+      "id": "act23login",
+      "type": "LOGIN_ONLY",
+      "displayType": "NONE",
+      "name": "登录领取奖励",
+      "startTime": 1737518400,
+      "endTime": 1738699199,
+      "rewardEndTime": 1738699199,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false
+    },
+    "act10pray": {
+      "id": "act10pray",
+      "type": "PRAY_ONLY",
+      "displayType": "NONE",
+      "name": "幸运墙登录活动",
+      "startTime": 1737518400,
+      "endTime": 1738699199,
+      "rewardEndTime": 1738699199,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CANNOT_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false
+    },
+    "act40side": {
+      "id": "act40side",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "相见欢",
+      "startTime": 1737518400,
+      "endTime": 1739303999,
+      "rewardEndTime": 1739908799,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act40side",
+      "medalGroupId": "medalGroupActivity40side",
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false
+    },
     "act2collection": {
       "id": "act2collection",
       "type": "COLLECTION",
@@ -17,7 +97,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1arcade": {
       "id": "act1arcade",
@@ -39,7 +120,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": true
+      "isPageEntry": true,
+      "isMagnify": false
     },
     "act48sign": {
       "id": "act48sign",
@@ -58,7 +140,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act4switch": {
       "id": "act4switch",
@@ -77,7 +160,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act30sre": {
       "id": "act30sre",
@@ -96,7 +180,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1video": {
       "id": "act1video",
@@ -115,7 +200,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act39side": {
       "id": "act39side",
@@ -134,7 +220,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1vautochess": {
       "id": "act1vautochess",
@@ -159,7 +246,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": true
+      "isPageEntry": true,
+      "isMagnify": false
     },
     "act29sre": {
       "id": "act29sre",
@@ -178,7 +266,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act47sign": {
       "id": "act47sign",
@@ -197,7 +286,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act46sign": {
       "id": "act46sign",
@@ -216,7 +306,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act38side": {
       "id": "act38side",
@@ -235,7 +326,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act22login": {
       "id": "act22login",
@@ -254,7 +346,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act9pray": {
       "id": "act9pray",
@@ -273,7 +366,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act45sign": {
       "id": "act45sign",
@@ -292,7 +386,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act37side": {
       "id": "act37side",
@@ -311,7 +406,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act44sign": {
       "id": "act44sign",
@@ -330,7 +426,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1vecb": {
       "id": "act1vecb",
@@ -355,7 +452,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act28sre": {
       "id": "act28sre",
@@ -374,7 +472,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act43sign": {
       "id": "act43sign",
@@ -393,7 +492,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act36side": {
       "id": "act36side",
@@ -415,7 +515,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act42sign": {
       "id": "act42sign",
@@ -434,7 +535,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1collection": {
       "id": "act1collection",
@@ -453,7 +555,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act27sre": {
       "id": "act27sre",
@@ -472,7 +575,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act35side": {
       "id": "act35side",
@@ -491,7 +595,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act21login": {
       "id": "act21login",
@@ -510,7 +615,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act41sign": {
       "id": "act41sign",
@@ -529,7 +635,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act8pray": {
       "id": "act8pray",
@@ -548,7 +655,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act17mini": {
       "id": "act17mini",
@@ -570,7 +678,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act40sign": {
       "id": "act40sign",
@@ -589,7 +698,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act26sre": {
       "id": "act26sre",
@@ -608,7 +718,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act3switch": {
       "id": "act3switch",
@@ -627,7 +738,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act2signvs": {
       "id": "act2signvs",
@@ -646,7 +758,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act34side": {
       "id": "act34side",
@@ -665,7 +778,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act25sre": {
       "id": "act25sre",
@@ -684,7 +798,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act2vmulti": {
       "id": "act2vmulti",
@@ -709,7 +824,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": true
+      "isPageEntry": true,
+      "isMagnify": false
     },
     "act39sign": {
       "id": "act39sign",
@@ -728,7 +844,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act5mine": {
       "id": "act5mine",
@@ -747,7 +864,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1mainss": {
       "id": "act1mainss",
@@ -766,7 +884,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1access": {
       "id": "act1access",
@@ -785,7 +904,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act33side": {
       "id": "act33side",
@@ -804,7 +924,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act5fun": {
       "id": "act5fun",
@@ -823,7 +944,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act32side": {
       "id": "act32side",
@@ -845,7 +967,8 @@
       "needFixedSync": false,
       "trapDomainId": "act32side",
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act38sign": {
       "id": "act38sign",
@@ -864,7 +987,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1r6sre": {
       "id": "act1r6sre",
@@ -883,7 +1007,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act20login": {
       "id": "act20login",
@@ -902,7 +1027,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act4bossrush": {
       "id": "act4bossrush",
@@ -924,7 +1050,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1blessing": {
       "id": "act1blessing",
@@ -943,7 +1070,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act31side": {
       "id": "act31side",
@@ -962,7 +1090,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act7pray": {
       "id": "act7pray",
@@ -981,7 +1110,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act19login": {
       "id": "act19login",
@@ -1000,7 +1130,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act23sre": {
       "id": "act23sre",
@@ -1019,7 +1150,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act16mini": {
       "id": "act16mini",
@@ -1041,7 +1173,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act22sre": {
       "id": "act22sre",
@@ -1060,7 +1193,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act37sign": {
       "id": "act37sign",
@@ -1079,7 +1213,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act30side": {
       "id": "act30side",
@@ -1098,7 +1233,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act29side": {
       "id": "act29side",
@@ -1117,7 +1253,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act2float": {
       "id": "act2float",
@@ -1136,7 +1273,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act36sign": {
       "id": "act36sign",
@@ -1155,7 +1293,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act18login": {
       "id": "act18login",
@@ -1174,7 +1313,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act21sre": {
       "id": "act21sre",
@@ -1193,7 +1333,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act17login": {
       "id": "act17login",
@@ -1212,7 +1353,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act42d0": {
       "id": "act42d0",
@@ -1237,7 +1379,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act35sign": {
       "id": "act35sign",
@@ -1256,7 +1399,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1mainlinebp": {
       "id": "act1mainlinebp",
@@ -1275,7 +1419,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1unique": {
       "id": "act1unique",
@@ -1294,7 +1439,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act2switch": {
       "id": "act2switch",
@@ -1313,7 +1459,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act28side": {
       "id": "act28side",
@@ -1332,7 +1479,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act20sre": {
       "id": "act20sre",
@@ -1351,7 +1499,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act3bossrush": {
       "id": "act3bossrush",
@@ -1373,7 +1522,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act27side": {
       "id": "act27side",
@@ -1392,7 +1542,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act16login": {
       "id": "act16login",
@@ -1411,7 +1562,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act34sign": {
       "id": "act34sign",
@@ -1430,7 +1582,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act6pray": {
       "id": "act6pray",
@@ -1449,7 +1602,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act19sre": {
       "id": "act19sre",
@@ -1468,7 +1622,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act15mini": {
       "id": "act15mini",
@@ -1490,7 +1645,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act26side": {
       "id": "act26side",
@@ -1509,7 +1665,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1signvs": {
       "id": "act1signvs",
@@ -1528,7 +1685,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1switch": {
       "id": "act1switch",
@@ -1547,7 +1705,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act18sre": {
       "id": "act18sre",
@@ -1566,7 +1725,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act38d1": {
       "id": "act38d1",
@@ -1591,7 +1751,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act25side": {
       "id": "act25side",
@@ -1610,7 +1771,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1checkin": {
       "id": "act1checkin",
@@ -1629,7 +1791,8 @@
       "needFixedSync": true,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act15login": {
       "id": "act15login",
@@ -1648,7 +1811,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act4mine": {
       "id": "act4mine",
@@ -1667,7 +1831,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act17sre": {
       "id": "act17sre",
@@ -1686,7 +1851,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act4fun": {
       "id": "act4fun",
@@ -1705,7 +1871,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act24side": {
       "id": "act24side",
@@ -1727,7 +1894,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1flip": {
       "id": "act1flip",
@@ -1746,7 +1914,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1mainbuff": {
       "id": "act1mainbuff",
@@ -1765,7 +1934,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act14login": {
       "id": "act14login",
@@ -1784,7 +1954,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1sandbox": {
       "id": "act1sandbox",
@@ -1808,7 +1979,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act16sre": {
       "id": "act16sre",
@@ -1827,7 +1999,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act14mini": {
       "id": "act14mini",
@@ -1849,7 +2022,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act33sign": {
       "id": "act33sign",
@@ -1868,7 +2042,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act5pray": {
       "id": "act5pray",
@@ -1887,7 +2062,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act13login": {
       "id": "act13login",
@@ -1906,7 +2082,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act23side": {
       "id": "act23side",
@@ -1925,7 +2102,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act15sre": {
       "id": "act15sre",
@@ -1944,7 +2122,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act32sign": {
       "id": "act32sign",
@@ -1963,7 +2142,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act22side": {
       "id": "act22side",
@@ -1982,7 +2162,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act2bossrush": {
       "id": "act2bossrush",
@@ -2004,7 +2185,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act21side": {
       "id": "act21side",
@@ -2023,7 +2205,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1float": {
       "id": "act1float",
@@ -2042,7 +2225,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act12login": {
       "id": "act12login",
@@ -2061,7 +2245,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act14sre": {
       "id": "act14sre",
@@ -2080,7 +2265,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act31sign": {
       "id": "act31sign",
@@ -2099,7 +2285,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act30sign": {
       "id": "act30sign",
@@ -2118,7 +2305,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act11login": {
       "id": "act11login",
@@ -2137,7 +2325,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act29sign": {
       "id": "act29sign",
@@ -2156,7 +2345,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act13sre": {
       "id": "act13sre",
@@ -2175,7 +2365,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act13mini": {
       "id": "act13mini",
@@ -2197,7 +2388,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act12mini": {
       "id": "act12mini",
@@ -2219,7 +2411,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act20side": {
       "id": "act20side",
@@ -2238,7 +2431,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1bossrush": {
       "id": "act1bossrush",
@@ -2260,7 +2454,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act10login": {
       "id": "act10login",
@@ -2279,7 +2474,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act28sign": {
       "id": "act28sign",
@@ -2298,7 +2494,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act4pray": {
       "id": "act4pray",
@@ -2317,7 +2514,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act12sre": {
       "id": "act12sre",
@@ -2336,7 +2534,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act11mini": {
       "id": "act11mini",
@@ -2358,7 +2557,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act19side": {
       "id": "act19side",
@@ -2377,7 +2577,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act18side": {
       "id": "act18side",
@@ -2396,7 +2597,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act27sign": {
       "id": "act27sign",
@@ -2415,7 +2617,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act11sre": {
       "id": "act11sre",
@@ -2434,7 +2637,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act9login": {
       "id": "act9login",
@@ -2453,7 +2657,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act17side": {
       "id": "act17side",
@@ -2472,7 +2677,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act26sign": {
       "id": "act26sign",
@@ -2491,7 +2697,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act3mine": {
       "id": "act3mine",
@@ -2510,7 +2717,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act3fun": {
       "id": "act3fun",
@@ -2529,7 +2737,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act10sre": {
       "id": "act10sre",
@@ -2548,7 +2757,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act16side": {
       "id": "act16side",
@@ -2567,7 +2777,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act10mini": {
       "id": "act10mini",
@@ -2589,7 +2800,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act25sign": {
       "id": "act25sign",
@@ -2608,7 +2820,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act15side": {
       "id": "act15side",
@@ -2627,7 +2840,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act8login": {
       "id": "act8login",
@@ -2646,7 +2860,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act3pray": {
       "id": "act3pray",
@@ -2665,7 +2880,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act24sign": {
       "id": "act24sign",
@@ -2684,7 +2900,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act9sre": {
       "id": "act9sre",
@@ -2703,7 +2920,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act23sign": {
       "id": "act23sign",
@@ -2722,7 +2940,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act14side": {
       "id": "act14side",
@@ -2741,7 +2960,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act8sre": {
       "id": "act8sre",
@@ -2760,7 +2980,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act22sign": {
       "id": "act22sign",
@@ -2779,7 +3000,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act7login": {
       "id": "act7login",
@@ -2798,7 +3020,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act2mine": {
       "id": "act2mine",
@@ -2817,7 +3040,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act13side": {
       "id": "act13side",
@@ -2836,7 +3060,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act9mini": {
       "id": "act9mini",
@@ -2858,7 +3083,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act7sre": {
       "id": "act7sre",
@@ -2877,7 +3103,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act21sign": {
       "id": "act21sign",
@@ -2896,7 +3123,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act20sign": {
       "id": "act20sign",
@@ -2915,7 +3143,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act12side": {
       "id": "act12side",
@@ -2934,7 +3163,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act19sign": {
       "id": "act19sign",
@@ -2953,7 +3183,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act2pray": {
       "id": "act2pray",
@@ -2972,7 +3203,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act6login": {
       "id": "act6login",
@@ -2991,7 +3223,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act6sre": {
       "id": "act6sre",
@@ -3010,7 +3243,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act8mini": {
       "id": "act8mini",
@@ -3032,7 +3266,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1lock": {
       "id": "act1lock",
@@ -3053,7 +3288,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act5sre": {
       "id": "act5sre",
@@ -3072,7 +3308,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act18sign": {
       "id": "act18sign",
@@ -3091,7 +3328,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act7mini": {
       "id": "act7mini",
@@ -3113,7 +3351,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act18d3d3": {
       "id": "act18d3d3",
@@ -3132,7 +3371,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act18d3d2": {
       "id": "act18d3d2",
@@ -3151,7 +3391,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act18d3d1": {
       "id": "act18d3d1",
@@ -3170,7 +3411,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act18d3": {
       "id": "act18d3",
@@ -3189,7 +3431,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act18d0": {
       "id": "act18d0",
@@ -3208,7 +3451,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act17d7": {
       "id": "act17d7",
@@ -3227,7 +3471,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act17d5": {
       "id": "act17d5",
@@ -3246,7 +3491,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act17d1": {
       "id": "act17d1",
@@ -3265,7 +3511,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act17d0d2": {
       "id": "act17d0d2",
@@ -3284,7 +3531,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act17d0d1": {
       "id": "act17d0d1",
@@ -3303,7 +3551,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act17d0": {
       "id": "act17d0",
@@ -3322,7 +3571,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act16d6": {
       "id": "act16d6",
@@ -3341,7 +3591,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act16d5d2": {
       "id": "act16d5d2",
@@ -3360,7 +3611,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act16d5d1": {
       "id": "act16d5d1",
@@ -3379,7 +3631,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act16d5": {
       "id": "act16d5",
@@ -3398,7 +3651,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act15d5": {
       "id": "act15d5",
@@ -3417,7 +3671,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act15d1": {
       "id": "act15d1",
@@ -3436,7 +3691,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act15d0": {
       "id": "act15d0",
@@ -3455,7 +3711,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act14d7": {
       "id": "act14d7",
@@ -3474,7 +3731,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act14d0d2": {
       "id": "act14d0d2",
@@ -3493,7 +3751,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act14d0d1": {
       "id": "act14d0d1",
@@ -3512,7 +3771,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act13d5": {
       "id": "act13d5",
@@ -3531,7 +3791,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act13d2": {
       "id": "act13d2",
@@ -3550,7 +3811,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act13d2d2": {
       "id": "act13d2d2",
@@ -3569,7 +3831,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act13d2d1": {
       "id": "act13d2d1",
@@ -3588,7 +3851,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act13d0": {
       "id": "act13d0",
@@ -3607,7 +3871,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act12d6": {
       "id": "act12d6",
@@ -3626,7 +3891,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act12d0": {
       "id": "act12d0",
@@ -3645,7 +3911,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act11d7": {
       "id": "act11d7",
@@ -3664,7 +3931,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act11d0": {
       "id": "act11d0",
@@ -3683,7 +3951,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act10d6": {
       "id": "act10d6",
@@ -3702,7 +3971,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act10d5": {
       "id": "act10d5",
@@ -3721,7 +3991,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act9d4": {
       "id": "act9d4",
@@ -3740,7 +4011,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act9d1d2": {
       "id": "act9d1d2",
@@ -3759,7 +4031,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act9d1d1": {
       "id": "act9d1d1",
@@ -3778,7 +4051,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act9d0": {
       "id": "act9d0",
@@ -3797,7 +4071,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act8d2": {
       "id": "act8d2",
@@ -3816,7 +4091,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act7d1": {
       "id": "act7d1",
@@ -3835,7 +4111,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act7d5": {
       "id": "act7d5",
@@ -3854,7 +4131,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act6d8": {
       "id": "act6d8",
@@ -3873,7 +4151,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act6d7": {
       "id": "act6d7",
@@ -3892,7 +4171,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act6d5": {
       "id": "act6d5",
@@ -3911,7 +4191,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act6d0": {
       "id": "act6d0",
@@ -3930,7 +4211,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act5d1": {
       "id": "act5d1",
@@ -3949,7 +4231,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act5d0": {
       "id": "act5d0",
@@ -3968,7 +4251,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act4d5": {
       "id": "act4d5",
@@ -3987,7 +4271,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act4d2": {
       "id": "act4d2",
@@ -4006,7 +4291,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act4d0": {
       "id": "act4d0",
@@ -4025,7 +4311,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act3d7": {
       "id": "act3d7",
@@ -4044,7 +4331,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act3d5": {
       "id": "act3d5",
@@ -4063,7 +4351,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act3d0": {
       "id": "act3d0",
@@ -4082,7 +4371,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act2d8": {
       "id": "act2d8",
@@ -4101,7 +4391,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act2d5": {
       "id": "act2d5",
@@ -4120,7 +4411,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "act1d5": {
       "id": "act1d5",
@@ -4139,7 +4431,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CAN_COMPLETE",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "1stact": {
       "id": "1stact",
@@ -4158,7 +4451,8 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     },
     "0D5act": {
       "id": "0D5act",
@@ -4177,10 +4471,32 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "SPECIAL",
-      "isPageEntry": false
+      "isPageEntry": false,
+      "isMagnify": false
     }
   },
   "homeActConfig": {
+    "act2blessing": {
+      "actId": "act2blessing",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "581010",
+      "actTopBarText": "新春限时签到活动"
+    },
+    "act23login": {
+      "actId": "act23login",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "b52041",
+      "actTopBarText": "欢宴良宵登录活动"
+    },
+    "act10pray": {
+      "actId": "act10pray",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "e04831",
+      "actTopBarText": "幸运墙登录活动"
+    },
     "act2collection": {
       "actId": "act2collection",
       "isPopupAfterCheckin": false,
@@ -4967,6 +5283,9 @@
     }
   },
   "zoneToActivity": {
+    "act40side_zone1": "act40side",
+    "act40side_zone2": "act40side",
+    "act40side_zone3": "act40side",
     "zone_1": "act1arcade",
     "zone_2": "act1arcade",
     "zone_3": "act1arcade",
@@ -5173,6 +5492,946 @@
     "main_14": "act1mainss"
   },
   "missionData": [
+    {
+      "id": "40sideActivity_1",
+      "sortId": 1,
+      "description": "通关OR-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_2",
+      "sortId": 2,
+      "description": "通关OR-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 50
+        },
+        {
+          "type": "FURN",
+          "id": "furni_springfeast_sideshelf_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_3",
+      "sortId": 3,
+      "description": "通关OR-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 50
+        },
+        {
+          "type": "FURN",
+          "id": "furni_springfeast_chandelier_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_4",
+      "sortId": 4,
+      "description": "通关OR-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_springfeast_desserttable_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_5",
+      "sortId": 5,
+      "description": "通关OR-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 80
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4172_xingzh",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_6",
+      "sortId": 6,
+      "description": "通关OR-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_springfeast_bench_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_7",
+      "sortId": 7,
+      "description": "以3星评价完成OR6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_8",
+      "sortId": 8,
+      "description": "通关OR-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_springfeast_carpet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_9",
+      "sortId": 9,
+      "description": "以3星评价完成OR-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_springfeast_teastove_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_10",
+      "sortId": 10,
+      "description": "通关OR-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 120
+        },
+        {
+          "type": "FURN",
+          "id": "furni_springfeast_lotus_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_11",
+      "sortId": 11,
+      "description": "以3星评价完成OR-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_springfeast_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_12",
+      "sortId": 12,
+      "description": "通关OR-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_09",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 120
+        },
+        {
+          "type": "FURN",
+          "id": "furni_springfeast_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_13",
+      "sortId": 13,
+      "description": "以3星评价完成OR-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_09",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_14",
+      "sortId": 14,
+      "description": "通关OR-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_15",
+      "sortId": 15,
+      "description": "通关OR-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_16",
+      "sortId": 16,
+      "description": "通关OR-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_17",
+      "sortId": 17,
+      "description": "通关OR-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_18",
+      "sortId": 18,
+      "description": "通关OR-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_19",
+      "sortId": 19,
+      "description": "通关OR-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_20",
+      "sortId": 20,
+      "description": "通关OR-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_21",
+      "sortId": 21,
+      "description": "通关OR-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_22",
+      "sortId": 22,
+      "description": "通关OR-EX-8突袭模式",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_ex08#f#",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terracommericials_SpinachPack_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_23",
+      "sortId": 23,
+      "description": "以3星评价完成OR-S-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_s01",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_24",
+      "sortId": 24,
+      "description": "以3星评价完成OR-S-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_s02",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_25",
+      "sortId": 25,
+      "description": "以3星评价完成OR-S-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_s03",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_26",
+      "sortId": 26,
+      "description": "以3星评价完成OR-S-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_s04",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_27",
+      "sortId": 27,
+      "description": "以3星评价完成OR-MO-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_mo01",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_28",
+      "sortId": 28,
+      "description": "通关活动关卡15次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_01^act40side_02^act40side_03^act40side_04^act40side_05^act40side_06^act40side_07^act40side_08^act40side_09^act40side_ex01^act40side_ex01#f#^act40side_ex02^act40side_ex02#f#^act40side_ex03^act40side_ex03#f#^act40side_ex04^act40side_ex04#f#^act40side_ex05^act40side_ex05#f#^act40side_ex06^act40side_ex06#f#^act40side_ex07^act40side_ex07#f#^act40side_ex08^act40side_ex08#f#^act40side_s01^act40side_s01#f#^act40side_s02^act40side_s02#f#^act40side_s03^act40side_s03#f#^act40side_s04^act40side_s04#f#^act40side_mo01",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_29",
+      "sortId": 29,
+      "description": "通关活动关卡45次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_01^act40side_02^act40side_03^act40side_04^act40side_05^act40side_06^act40side_07^act40side_08^act40side_09^act40side_ex01^act40side_ex01#f#^act40side_ex02^act40side_ex02#f#^act40side_ex03^act40side_ex03#f#^act40side_ex04^act40side_ex04#f#^act40side_ex05^act40side_ex05#f#^act40side_ex06^act40side_ex06#f#^act40side_ex07^act40side_ex07#f#^act40side_ex08^act40side_ex08#f#^act40side_s01^act40side_s01#f#^act40side_s02^act40side_s02#f#^act40side_s03^act40side_s03#f#^act40side_s04^act40side_s04#f#^act40side_mo01",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "40sideActivity_30",
+      "sortId": 30,
+      "description": "通关活动关卡85次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act40side_01^act40side_02^act40side_03^act40side_04^act40side_05^act40side_06^act40side_07^act40side_08^act40side_09^act40side_ex01^act40side_ex01#f#^act40side_ex02^act40side_ex02#f#^act40side_ex03^act40side_ex03#f#^act40side_ex04^act40side_ex04#f#^act40side_ex05^act40side_ex05#f#^act40side_ex06^act40side_ex06#f#^act40side_ex07^act40side_ex07#f#^act40side_ex08^act40side_ex08#f#^act40side_s01^act40side_s01#f#^act40side_s02^act40side_s02#f#^act40side_s03^act40side_s03#f#^act40side_s04^act40side_s04#f#^act40side_mo01",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act40side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act40side_token_yumyum",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
     {
       "id": "30sreActivity_1",
       "sortId": 1,
@@ -77904,6 +79163,48 @@
   ],
   "missionGroup": [
     {
+      "id": "act40side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "40sideActivity_1",
+        "40sideActivity_2",
+        "40sideActivity_3",
+        "40sideActivity_4",
+        "40sideActivity_5",
+        "40sideActivity_6",
+        "40sideActivity_7",
+        "40sideActivity_8",
+        "40sideActivity_9",
+        "40sideActivity_10",
+        "40sideActivity_11",
+        "40sideActivity_12",
+        "40sideActivity_13",
+        "40sideActivity_14",
+        "40sideActivity_15",
+        "40sideActivity_16",
+        "40sideActivity_17",
+        "40sideActivity_18",
+        "40sideActivity_19",
+        "40sideActivity_20",
+        "40sideActivity_21",
+        "40sideActivity_22",
+        "40sideActivity_23",
+        "40sideActivity_24",
+        "40sideActivity_25",
+        "40sideActivity_26",
+        "40sideActivity_27",
+        "40sideActivity_28",
+        "40sideActivity_29",
+        "40sideActivity_30"
+      ],
+      "startTs": 1737518400,
+      "endTs": 1739908799
+    },
+    {
       "id": "act30sre",
       "title": null,
       "type": "ACTIVITY",
@@ -104614,6 +105915,37 @@
       }
     },
     "TYPE_ACT9D0": {
+      "act40side": {
+        "tokenItemId": "act40side_token_yumyum",
+        "zoneDescList": {
+          "act40side_zone1": {
+            "zoneId": "act40side_zone1",
+            "unlockText": "尚未解锁",
+            "displayStartTime": 1737518400
+          },
+          "act40side_zone2": {
+            "zoneId": "act40side_zone2",
+            "unlockText": "完成「识七味」后解锁",
+            "displayStartTime": 1737518400
+          },
+          "act40side_zone3": {
+            "zoneId": "act40side_zone3",
+            "unlockText": "完成「识七味」后解锁",
+            "displayStartTime": 1737518400
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {},
+        "constData": {
+          "campaignEnemyCnt": 200,
+          "campaignStageId": "act40side_mo01"
+        }
+      },
       "act30sre": {
         "tokenItemId": "act30side_token_box_rep_1",
         "zoneDescList": {
@@ -137912,6 +139244,17 @@
       }
     },
     "LOGIN_ONLY": {
+      "act23login": {
+        "description": "<color value=#bfbfbf>该物品过期时间</color>\n<color value=#bfbfbf>2025/02/05 03:59</color>",
+        "itemList": [
+          {
+            "id": "LIMITED_TKT_GACHA_10_5801",
+            "count": 1,
+            "type": "LIMITED_TKT_GACHA_10"
+          }
+        ],
+        "apSupplyOutOfDateDict": {}
+      },
       "act22login": {
         "description": "<color value=#ffffff>该物品过期时间</color>\n<color value=#ffffff>2024/11/15 03:59</color>",
         "itemList": [
@@ -194794,7 +196137,6 @@
           "rewardAvatarText": "点数等级达到{0}级领取",
           "badgeCollectionName": "秘籍打印卡",
           "collectionEntryRelatedBadge": "badge_ulti_1",
-          "zoneEntryUnlockText": "{0}日后开放",
           "zoneEntryUnlockToast": "项目当前暂未开放",
           "zoneEntryEndText": "活动已结束",
           "zoneEntryEndToast": "项目已关闭",
@@ -194833,6 +196175,9 @@
     }
   },
   "activityItems": {
+    "act40side": [
+      "act40side_token_yumyum"
+    ],
     "act2collection": [
       "act2collection_point_token"
     ],
@@ -195233,6 +196578,10 @@
       1597132800,
       1597953599
     ],
+    "act40side": [
+      1737518400,
+      1739303999
+    ],
     "act30sre": [
       1734595200,
       1735415999
@@ -195466,6 +196815,11 @@
     ]
   },
   "dynActs": {
+    "act10pray": {
+      "rule1": "用尽当日次数选取的所有幸运笺中，合成玉数量最多的1张幸运笺为当日最终奖励。",
+      "rule2": "当日幸运笺合成玉奖励不足400时，次日可选择3张幸运笺。",
+      "slotCount": 12
+    },
     "act9pray": {
       "rule1": "用尽当日次数选取的所有好运签中，合成玉数量最多的1张好运签为当日最终奖励。",
       "rule2": "当日好运签合成玉奖励不足400时，次日可选择3张好运签。",
@@ -196587,6 +197941,385 @@
             "type": "VOUCHER_MGACHA"
           },
           "sortId": 2
+        }
+      ]
+    },
+    "act2blessing": {
+      "apSupplyOutOfDateDict": {
+        "ap_supply_lt_120": 1740340799
+      },
+      "checkInInfos": {
+        "0": {
+          "itemList": [
+            {
+              "count": 1,
+              "id": "ap_supply_lt_120",
+              "type": "AP_SUPPLY"
+            },
+            {
+              "count": 30000,
+              "id": "4001",
+              "type": "GOLD"
+            }
+          ],
+          "keyItem": true,
+          "order": 1
+        },
+        "1": {
+          "itemList": [
+            {
+              "count": 20,
+              "id": "2003",
+              "type": "CARD_EXP"
+            },
+            {
+              "count": 5,
+              "id": "7001",
+              "type": "TKT_RECRUIT"
+            }
+          ],
+          "keyItem": false,
+          "order": 2
+        },
+        "2": {
+          "itemList": [
+            {
+              "count": 1,
+              "id": "32001",
+              "type": "MATERIAL"
+            },
+            {
+              "count": 20,
+              "id": "3302",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": true,
+          "order": 3
+        },
+        "3": {
+          "itemList": [
+            {
+              "count": 10,
+              "id": "2004",
+              "type": "CARD_EXP"
+            },
+            {
+              "count": 3,
+              "id": "30023",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": false,
+          "order": 4
+        },
+        "4": {
+          "itemList": [
+            {
+              "count": 30000,
+              "id": "4001",
+              "type": "GOLD"
+            },
+            {
+              "count": 5,
+              "id": "7002",
+              "type": "TKT_INST_FIN"
+            }
+          ],
+          "keyItem": false,
+          "order": 5
+        },
+        "5": {
+          "itemList": [
+            {
+              "count": 8,
+              "id": "3303",
+              "type": "MATERIAL"
+            },
+            {
+              "count": 3,
+              "id": "31033",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": false,
+          "order": 6
+        },
+        "6": {
+          "itemList": [
+            {
+              "count": 3,
+              "id": "mod_update_token_2",
+              "type": "MATERIAL"
+            },
+            {
+              "count": 20,
+              "id": "3003",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": false,
+          "order": 7
+        },
+        "7": {
+          "itemList": [
+            {
+              "count": 1,
+              "id": "furni_SF2025_sugarpaintStall_01",
+              "type": "FURN"
+            },
+            {
+              "count": 300,
+              "id": "3401",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": true,
+          "order": 8
+        },
+        "8": {
+          "itemList": [
+            {
+              "count": 10,
+              "id": "mod_update_token_1",
+              "type": "MATERIAL"
+            },
+            {
+              "count": 3,
+              "id": "30013",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": false,
+          "order": 9
+        },
+        "9": {
+          "itemList": [
+            {
+              "count": 1,
+              "id": "mod_unlock_token",
+              "type": "MATERIAL"
+            },
+            {
+              "count": 30,
+              "id": "3301",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": true,
+          "order": 10
+        }
+      },
+      "festivalCharInfos": {
+        "act1blessing_festival_1_1": {
+          "charBlessing": "哎，博士，你怎么跑厨房来了？我懂了，馋虫被勾起来了——\n你拿个碗来，我给你稍微盛点......好了，再忍一忍，这是最后一道菜，马上就好。\n今晚这桌菜，绝对让你大饱口福！",
+          "charId": "char_2026_yu",
+          "charName": "余",
+          "charSkinId": "char_2026_yu#1",
+          "festivalCharId": "act1blessing_festival_1_1",
+          "festivalId": "act1blessing_festival_1",
+          "sortId": 1
+        },
+        "act1blessing_festival_1_2": {
+          "charBlessing": "博士，你是来喊我参加新年晚会的吗？\n我会去的，放心，我还答应了几个孩子，给他们舞一段剑。\n只是现在，我要先等一等，你要是愿意，可以与我一起等。\n等什么？雪。瞧，下雪了。",
+          "charId": "char_4082_qiubai",
+          "charName": "仇白",
+          "charSkinId": "char_4082_qiubai#1",
+          "festivalCharId": "act1blessing_festival_1_2",
+          "festivalId": "act1blessing_festival_1",
+          "sortId": 2
+        },
+        "act1blessing_festival_1_3": {
+          "charBlessing": "老板，要买鳞兽吗？\n哦，是这样的，龙门的夜市过年不打烊。\n你想找个方便看烟花的地方？......等一下，老板，我把摊子收一下。\n我带你去吧，我知道江边有个好地方。",
+          "charId": "char_272_strong",
+          "charName": "孑",
+          "charSkinId": "char_272_strong#1",
+          "festivalCharId": "act1blessing_festival_1_3",
+          "festivalId": "act1blessing_festival_1",
+          "sortId": 3
+        },
+        "act1blessing_festival_2_1": {
+          "charBlessing": "又是新年伊始。\n都说新年新气象，但这新气象，又何尝不是旧的一年结下的果？\n博士，过去的一年过得满足吗？心愿达成了吗？有什么遗憾吗？\n......嗯？看来你有许多话想说，稍等，我去准备几个小菜，我们慢慢聊。",
+          "charId": "char_2025_shu",
+          "charName": "黍",
+          "charSkinId": "char_2025_shu#1",
+          "festivalCharId": "act1blessing_festival_2_1",
+          "festivalId": "act1blessing_festival_2",
+          "sortId": 1
+        },
+        "act1blessing_festival_2_2": {
+          "charBlessing": "老板，让我在你这待会儿。\n嗐，别提了，大清早吽和槐琥姐就抓着我去给街坊邻居拜年，我找机会溜出来了。\n啊？我的背后有字？\n“鲤氏侦探事务所祝博士新年快乐”......*龙门粗口*，他们算计我！",
+          "charId": "char_225_haak",
+          "charName": "阿",
+          "charSkinId": "char_225_haak#1",
+          "festivalCharId": "act1blessing_festival_2_2",
+          "festivalId": "act1blessing_festival_2",
+          "sortId": 2
+        },
+        "act1blessing_festival_2_3": {
+          "charBlessing": "恭喜发财，恭喜发财啊，博士！哎呀，人逢喜事精神爽嘛！\n你也听说了吧？年导要拍一部新片，我拿了个角色！\n嘿嘿，片酬不重要，我呀，果然还是喜欢那种在片场的感觉！\n不说了，拍摄快开始了，先走一步，欢迎来探班！",
+          "charId": "char_241_panda",
+          "charName": "食铁兽",
+          "charSkinId": "char_241_panda#1",
+          "festivalCharId": "act1blessing_festival_2_3",
+          "festivalId": "act1blessing_festival_2",
+          "sortId": 3
+        },
+        "act1blessing_festival_3_1": {
+          "charBlessing": "博士，您看，车上是天师府送给罗德岛的过年礼物，都是从收成里选的优质产品，保证好吃！\n那我就先回——欸？博士，您笑什么？\n那些箱子是......罗德岛给天师府的礼物？哈哈，看来我们想一块去了！\n那我一起捎回天师府吧！",
+          "charId": "char_4119_wanqin",
+          "charName": "万顷",
+          "charSkinId": "char_4119_wanqin#1",
+          "festivalCharId": "act1blessing_festival_3_1",
+          "festivalId": "act1blessing_festival_3",
+          "sortId": 1
+        },
+        "act1blessing_festival_3_2": {
+          "charBlessing": "在炎国，有过年的时候扫地能将晦气扫出门外的说法。\n我不信这些，只是，扫地既可锻炼身体，也可磨炼心性，做也就做了。\n博士，您这架势，难道是想和我过招？\n姿势不太对，扫把要像我这样拿......咳咳，我们还是扫地吧。",
+          "charId": "char_4121_zuole",
+          "charName": "左乐",
+          "charSkinId": "char_4121_zuole#1",
+          "festivalCharId": "act1blessing_festival_3_2",
+          "festivalId": "act1blessing_festival_3",
+          "sortId": 2
+        },
+        "act1blessing_festival_3_3": {
+          "charBlessing": "长官，我来了，哪里发生了险情？\n我立刻处理——咦，您要放烟花，希望我来指导如何安全用火？\n好的！请看我的动作，保持安全距离，在点燃后立刻后撤——\n咦？啊，是的，新年快乐，长官！",
+          "charId": "char_277_sqrrel",
+          "charName": "阿消",
+          "charSkinId": "char_277_sqrrel#1",
+          "festivalCharId": "act1blessing_festival_3_3",
+          "festivalId": "act1blessing_festival_3",
+          "sortId": 3
+        },
+        "act1blessing_festival_4_1": {
+          "charBlessing": "博士，请坐。您之前不是说，想尝尝炎国在过年时会吃的小吃吗？\n您可算问对人了。\n这桌上是我挑选的，最负盛名也最有年味的几道美食，动筷之前，我先来为您讲讲其中的典故，如何？\n这一道，据说是几百年前真龙微服私访时......",
+          "charId": "char_4172_xingzh",
+          "charName": "行箸",
+          "charSkinId": "char_4172_xingzh#1",
+          "festivalCharId": "act1blessing_festival_4_1",
+          "festivalId": "act1blessing_festival_4",
+          "sortId": 1
+        },
+        "act1blessing_festival_4_2": {
+          "charBlessing": "博士？对，我该出发了。\n还有许多乡亲的信等着我去送呢，我能在罗德岛上休息这么几天，沾沾年味，已经很幸运了。\n对了，博士，谢谢您教我那些拍摄视频的技巧，这一趟，我肯定能拍到更好看的风景，到时候给您瞧瞧！",
+          "charId": "char_4083_chimes",
+          "charName": "铎铃",
+          "charSkinId": "char_4083_chimes#1",
+          "festivalCharId": "act1blessing_festival_4_2",
+          "festivalId": "act1blessing_festival_4",
+          "sortId": 2
+        },
+        "act1blessing_festival_4_3": {
+          "charBlessing": "博士，您就别揶揄我了，什么拜松总裁，我要向您学习的地方还多着呢。呃，开工红包？原来您是冲着这个来的。\n嗯......虽然红包确实要发，但是，在罗德岛，我是您的下属，是不是您给我发才对？",
+          "charId": "char_325_bison",
+          "charName": "拜松",
+          "charSkinId": "char_325_bison#1",
+          "festivalCharId": "act1blessing_festival_4_3",
+          "festivalId": "act1blessing_festival_4",
+          "sortId": 3
+        }
+      },
+      "festivalInfoList": [
+        {
+          "absoluteTime": 1738008000,
+          "adTips": "除夕可领取",
+          "charList": [
+            "act1blessing_festival_1_1",
+            "act1blessing_festival_1_2",
+            "act1blessing_festival_1_3"
+          ],
+          "fesBlessingGroup": "img_bless_1",
+          "fesBlessingText1": "img_bless_text_1_1",
+          "fesBlessingText2": "img_bless_text_1_2",
+          "fesTitleText": "img_fes_text_1",
+          "festivalId": "act1blessing_festival_1",
+          "festivalTitle": "除夕",
+          "itemList": [
+            {
+              "count": 500,
+              "id": "4003",
+              "type": "DIAMOND_SHD"
+            }
+          ],
+          "order": 1,
+          "relativeDate": 1,
+          "rewardCnt": 500
+        },
+        {
+          "absoluteTime": 1738094400,
+          "adTips": "大年初一可领取",
+          "charList": [
+            "act1blessing_festival_2_1",
+            "act1blessing_festival_2_2",
+            "act1blessing_festival_2_3"
+          ],
+          "fesBlessingGroup": "img_bless_2",
+          "fesBlessingText1": "img_bless_text_2_1",
+          "fesBlessingText2": "img_bless_text_2_2",
+          "fesTitleText": "img_fes_text_2",
+          "festivalId": "act1blessing_festival_2",
+          "festivalTitle": "初一",
+          "itemList": [
+            {
+              "count": 500,
+              "id": "4003",
+              "type": "DIAMOND_SHD"
+            }
+          ],
+          "order": 2,
+          "relativeDate": 2,
+          "rewardCnt": 500
+        },
+        {
+          "absoluteTime": 1738440000,
+          "adTips": "大年初五可领取",
+          "charList": [
+            "act1blessing_festival_3_1",
+            "act1blessing_festival_3_2",
+            "act1blessing_festival_3_3"
+          ],
+          "fesBlessingGroup": "img_bless_3",
+          "fesBlessingText1": "img_bless_text_3_1",
+          "fesBlessingText2": "img_bless_text_3_2",
+          "fesTitleText": "img_fes_text_3",
+          "festivalId": "act1blessing_festival_3",
+          "festivalTitle": "初五",
+          "itemList": [
+            {
+              "count": 500,
+              "id": "4003",
+              "type": "DIAMOND_SHD"
+            }
+          ],
+          "order": 3,
+          "relativeDate": 6,
+          "rewardCnt": 500
+        },
+        {
+          "absoluteTime": 1738699200,
+          "adTips": "正月初八可领取",
+          "charList": [
+            "act1blessing_festival_4_1",
+            "act1blessing_festival_4_2",
+            "act1blessing_festival_4_3"
+          ],
+          "fesBlessingGroup": "img_bless_4",
+          "fesBlessingText1": "img_bless_text_4_1",
+          "fesBlessingText2": "img_bless_text_4_2",
+          "fesTitleText": "img_fes_text_4",
+          "festivalId": "act1blessing_festival_4",
+          "festivalTitle": "初八",
+          "itemList": [
+            {
+              "count": 500,
+              "id": "4003",
+              "type": "DIAMOND_SHD"
+            }
+          ],
+          "order": 4,
+          "relativeDate": 9,
+          "rewardCnt": 500
         }
       ]
     },
@@ -200956,6 +202689,29 @@
         }
       ],
       "startTs": 1736409600
+    },
+    {
+      "id": "dis_side_40",
+      "type": "ACTIVITY",
+      "funcId": "act40side",
+      "endTs": 1738828799,
+      "sortId": 102,
+      "itemId": "act40side_token_yumyum",
+      "timeNodes": [
+        {
+          "title": "<相见欢>活动已开放",
+          "ts": 1737518400
+        },
+        {
+          "title": "“阅世情”内关卡已开放",
+          "ts": 1738137600
+        },
+        {
+          "title": "“怅离别”内关卡已开放",
+          "ts": 1738742400
+        }
+      ],
+      "startTs": 1737518400
     }
   ],
   "actFunData": {
@@ -228235,6 +229991,27 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act40side": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4172_xingzh",
+        "通关OR-5后可招募此干员",
+        "8c2a2a",
+        "20,-60"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "8c2a2a"
+    },
     "act30sre": {
       "bigRewardType": "ILLUST_CHAR_REWARD",
       "bigRewardParamList": [

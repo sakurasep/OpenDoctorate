@@ -3629,6 +3629,24 @@
     },
     {
       "intro": null,
+      "loop": "Audio/Sound_Beta_2/Music/act1crisisv2_3/m_sys_ccs_v2_3_loop",
+      "volume": 1.0,
+      "crossfade": 1.0,
+      "delay": 0.0,
+      "fadeStyleId": null,
+      "name": "sys.ON_CRISIS_V2_SEASON_LOADED.crisis_v2_season_3_1"
+    },
+    {
+      "intro": null,
+      "loop": "Audio/Sound_Beta_2/Music/act1crisisv2_3/m_bat_ccs_v2_3_b1_loop",
+      "volume": 0.8,
+      "crossfade": 1.0,
+      "delay": 0.0,
+      "fadeStyleId": null,
+      "name": "battle.ON_GAME_READY.crisis_v2_season_3_1_main"
+    },
+    {
+      "intro": null,
       "loop": "Audio/Sound_Beta_2/Music/act40side/m_sys_act40side_loop",
       "volume": 1.0,
       "crossfade": 1.0,
@@ -185869,6 +185887,7 @@
     "battle.ON_GAME_READY.act30sre2": "battle.ON_GAME_READY.act30side2",
     "sys.ON_ACTIVITY_LOADED.act30sre": "sys.ON_ACTIVITY_LOADED.act30side",
     "sys.ON_RETRO_LOADED.permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": "sys.ON_ACTIVITY_LOADED.act30side",
-    "sys.ON_RETRO_LOADED.permanent_sidestory_25_Here_A_People_Sows": "sys.ON_ACTIVITY_LOADED.act31side"
+    "sys.ON_RETRO_LOADED.permanent_sidestory_25_Here_A_People_Sows": "sys.ON_ACTIVITY_LOADED.act31side",
+    "battle.ON_GAME_READY.crisis_v2_season_3_1_main_challenge": "battle.ON_GAME_READY.crisis_v2_season_3_1_main"
   }
 }

@@ -1,5 +1,25 @@
 {
   "basicInfo": {
+    "act41side": {
+      "id": "act41side",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "挽歌燃烧殆尽",
+      "startTime": 1741320000,
+      "endTime": 1742500799,
+      "rewardEndTime": 1743105599,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act41side",
+      "medalGroupId": "medalGroupActivity41side",
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false
+    },
     "act3collection": {
       "id": "act3collection",
       "type": "COLLECTION",
@@ -5353,6 +5373,8 @@
     }
   },
   "zoneToActivity": {
+    "act41side_zone1": "act41side",
+    "act41side_zone2": "act41side",
     "act40side_zone1": "act40side",
     "act40side_zone2": "act40side",
     "act40side_zone3": "act40side",
@@ -5566,6 +5588,766 @@
     "main_14": "act1mainss"
   },
   "missionData": [
+    {
+      "id": "41sideActivity_1",
+      "sortId": 1,
+      "description": "通关EA-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 40
+        },
+        {
+          "type": "FURN",
+          "id": "furni_tarahouse_candletray_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_2",
+      "sortId": 2,
+      "description": "通关EA-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 40
+        },
+        {
+          "type": "FURN",
+          "id": "furni_tarahouse_column_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_3",
+      "sortId": 3,
+      "description": "通关EA-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 70
+        },
+        {
+          "type": "FURN",
+          "id": "furni_tarahouse_table_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_4",
+      "sortId": 4,
+      "description": "通关EA-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 70
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4177_brigid",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_5",
+      "sortId": 5,
+      "description": "通关EA-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 70
+        },
+        {
+          "type": "FURN",
+          "id": "furni_tarahouse_chair_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_6",
+      "sortId": 6,
+      "description": "以3星评价完成EA-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_05",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_7",
+      "sortId": 7,
+      "description": "通关EA-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_tarahouse_chair_02",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_8",
+      "sortId": 8,
+      "description": "以3星评价完成EA-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_tarahouse_wallhanger_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_9",
+      "sortId": 9,
+      "description": "通关EA-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_tarahouse_carpet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_10",
+      "sortId": 10,
+      "description": "以3星评价完成EA-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_tarahouse_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_11",
+      "sortId": 11,
+      "description": "通关EA-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_tarahouse_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_12",
+      "sortId": 12,
+      "description": "以3星评价完成EA-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_13",
+      "sortId": 13,
+      "description": "通关EA-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_14",
+      "sortId": 14,
+      "description": "通关EA-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_15",
+      "sortId": 15,
+      "description": "通关EA-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_16",
+      "sortId": 16,
+      "description": "通关EA-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_17",
+      "sortId": 17,
+      "description": "通关EA-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_18",
+      "sortId": 18,
+      "description": "通关EA-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_19",
+      "sortId": 19,
+      "description": "通关EA-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_20",
+      "sortId": 20,
+      "description": "通关EA-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_21",
+      "sortId": 21,
+      "description": "通关EA-EX-8突袭模式",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_ex08#f#",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terracommericials_BarrensTequila_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_22",
+      "sortId": 22,
+      "description": "通关活动关卡15次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_01^act41side_02^act41side_03^act41side_04^act41side_05^act41side_06^act41side_07^act41side_08^act41side_ex01^act41side_ex01#f#^act41side_ex02^act41side_ex02#f#^act41side_ex03^act41side_ex03#f#^act41side_ex04^act41side_ex04#f#^act41side_ex05^act41side_ex05#f#^act41side_ex06^act41side_ex06#f#^act41side_ex07^act41side_ex07#f#^act41side_ex08^act41side_ex08#f#",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_23",
+      "sortId": 23,
+      "description": "通关活动关卡45次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_01^act41side_02^act41side_03^act41side_04^act41side_05^act41side_06^act41side_07^act41side_08^act41side_ex01^act41side_ex01#f#^act41side_ex02^act41side_ex02#f#^act41side_ex03^act41side_ex03#f#^act41side_ex04^act41side_ex04#f#^act41side_ex05^act41side_ex05#f#^act41side_ex06^act41side_ex06#f#^act41side_ex07^act41side_ex07#f#^act41side_ex08^act41side_ex08#f#",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "41sideActivity_24",
+      "sortId": 24,
+      "description": "通关活动关卡85次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act41side_01^act41side_02^act41side_03^act41side_04^act41side_05^act41side_06^act41side_07^act41side_08^act41side_ex01^act41side_ex01#f#^act41side_ex02^act41side_ex02#f#^act41side_ex03^act41side_ex03#f#^act41side_ex04^act41side_ex04#f#^act41side_ex05^act41side_ex05#f#^act41side_ex06^act41side_ex06#f#^act41side_ex07^act41side_ex07#f#^act41side_ex08^act41side_ex08#f#",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act41side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act41side_token_light",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
     {
       "id": "40sideActivity_1",
       "sortId": 1,
@@ -81353,6 +82135,42 @@
   ],
   "missionGroup": [
     {
+      "id": "act41side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "41sideActivity_1",
+        "41sideActivity_2",
+        "41sideActivity_3",
+        "41sideActivity_4",
+        "41sideActivity_5",
+        "41sideActivity_6",
+        "41sideActivity_7",
+        "41sideActivity_8",
+        "41sideActivity_9",
+        "41sideActivity_10",
+        "41sideActivity_11",
+        "41sideActivity_12",
+        "41sideActivity_13",
+        "41sideActivity_14",
+        "41sideActivity_15",
+        "41sideActivity_16",
+        "41sideActivity_17",
+        "41sideActivity_18",
+        "41sideActivity_19",
+        "41sideActivity_20",
+        "41sideActivity_21",
+        "41sideActivity_22",
+        "41sideActivity_23",
+        "41sideActivity_24"
+      ],
+      "startTs": 1741320000,
+      "endTs": 1743105599
+    },
+    {
       "id": "act40side",
       "title": null,
       "type": "ACTIVITY",
@@ -108390,6 +109208,32 @@
       }
     },
     "TYPE_ACT9D0": {
+      "act41side": {
+        "tokenItemId": "act41side_token_light",
+        "zoneDescList": {
+          "act41side_zone1": {
+            "zoneId": "act41side_zone1",
+            "unlockText": "尚未解锁",
+            "displayStartTime": 1741320000
+          },
+          "act41side_zone2": {
+            "zoneId": "act41side_zone2",
+            "unlockText": "完成「摇曳的影」后解锁",
+            "displayStartTime": 1741320000
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {},
+        "constData": {
+          "campaignEnemyCnt": 0,
+          "campaignStageId": null
+        }
+      },
       "act40side": {
         "tokenItemId": "act40side_token_yumyum",
         "zoneDescList": {
@@ -142746,2718 +143590,6 @@
       }
     },
     "ROGUELIKE": {},
-    "MULTIPLAY_VERIFY2": {
-      "act2vmulti": {
-        "selectStepDataList": [
-          {
-            "stepType": "ENTRANCE",
-            "sortId": 1,
-            "time": 30,
-            "hintTime": 0,
-            "title": "正在确认比赛项目",
-            "desc": null
-          },
-          {
-            "stepType": "CHAR_PICK",
-            "sortId": 2,
-            "time": 20,
-            "hintTime": 3,
-            "title": "高顺位干员协调",
-            "desc": "双方阵容中存在重复的高顺位干员，选择要保留的干员"
-          },
-          {
-            "stepType": "SQUAD_CHECK",
-            "sortId": 3,
-            "time": 60,
-            "hintTime": 5,
-            "title": "确认上场阵容",
-            "desc": "选择正式上场的干员，并确认干员的技能与模组配置"
-          }
-        ],
-        "identityDataList": [
-          {
-            "id": "group_3",
-            "sortId": 1,
-            "picId": "img_group_temporary",
-            "type": "TEMPORARY",
-            "maxNum": 2,
-            "color": null
-          },
-          {
-            "id": "group_1",
-            "sortId": 2,
-            "picId": "img_group_high",
-            "type": "HIGH",
-            "maxNum": 10,
-            "color": "#df0f3b"
-          },
-          {
-            "id": "group_2",
-            "sortId": 3,
-            "picId": "img_group_low",
-            "type": "LOW",
-            "maxNum": 20,
-            "color": "#41d2e5"
-          }
-        ],
-        "mapTypeDatas": {
-          "mode_normal_training": {
-            "type": "NORMAL",
-            "difficulty": "TRAINING",
-            "squadMax": 10,
-            "matchUnlockModeId": null,
-            "matchUnlockParam": 0,
-            "stageIdInModeList": [
-              "act2vmulti-tr01"
-            ],
-            "modeIconId": "normal"
-          },
-          "mode_football_training": {
-            "type": "FOOTBALL",
-            "difficulty": "TRAINING",
-            "squadMax": 10,
-            "matchUnlockModeId": "mode_normal_training",
-            "matchUnlockParam": 2,
-            "stageIdInModeList": [
-              "act2vmulti-tr02"
-            ],
-            "modeIconId": "football"
-          },
-          "mode_defence_training": {
-            "type": "DEFENCE",
-            "difficulty": "TRAINING",
-            "squadMax": 12,
-            "matchUnlockModeId": "mode_normal_training",
-            "matchUnlockParam": 2,
-            "stageIdInModeList": [
-              "act2vmulti-tr03"
-            ],
-            "modeIconId": "defence"
-          },
-          "mode_normal_ordinary": {
-            "type": "NORMAL",
-            "difficulty": "ORDINARY",
-            "squadMax": 10,
-            "matchUnlockModeId": "mode_normal_training",
-            "matchUnlockParam": 2,
-            "stageIdInModeList": [
-              "act2vmulti-01",
-              "act2vmulti-02",
-              "act2vmulti-03",
-              "act2vmulti-04",
-              "act2vmulti-05",
-              "act2vmulti-06",
-              "act2vmulti-07"
-            ],
-            "modeIconId": "normal"
-          },
-          "mode_football_ordinary": {
-            "type": "FOOTBALL",
-            "difficulty": "ORDINARY",
-            "squadMax": 10,
-            "matchUnlockModeId": "mode_football_training",
-            "matchUnlockParam": 1,
-            "stageIdInModeList": [
-              "act2vmulti-ft01"
-            ],
-            "modeIconId": "football"
-          },
-          "mode_defence_ordinary": {
-            "type": "DEFENCE",
-            "difficulty": "ORDINARY",
-            "squadMax": 12,
-            "matchUnlockModeId": "mode_defence_training",
-            "matchUnlockParam": 2,
-            "stageIdInModeList": [
-              "act2vmulti-de01"
-            ],
-            "modeIconId": "defence"
-          },
-          "mode_normal_difficulty": {
-            "type": "NORMAL",
-            "difficulty": "DIFFICULTY",
-            "squadMax": 10,
-            "matchUnlockModeId": "mode_normal_ordinary",
-            "matchUnlockParam": 9,
-            "stageIdInModeList": [
-              "act2vmulti-ex01",
-              "act2vmulti-ex02",
-              "act2vmulti-ex03",
-              "act2vmulti-ex04",
-              "act2vmulti-ex05",
-              "act2vmulti-ex06",
-              "act2vmulti-ex07"
-            ],
-            "modeIconId": "normal"
-          },
-          "mode_football_difficulty": {
-            "type": "FOOTBALL",
-            "difficulty": "DIFFICULTY",
-            "squadMax": 10,
-            "matchUnlockModeId": "mode_football_ordinary",
-            "matchUnlockParam": 4,
-            "stageIdInModeList": [
-              "act2vmulti-ft02"
-            ],
-            "modeIconId": "football"
-          },
-          "mode_defence_difficulty": {
-            "type": "DEFENCE",
-            "difficulty": "DIFFICULTY",
-            "squadMax": 12,
-            "matchUnlockModeId": "mode_defence_ordinary",
-            "matchUnlockParam": 7,
-            "stageIdInModeList": [
-              "act2vmulti-de02"
-            ],
-            "modeIconId": "defence"
-          }
-        },
-        "mapDatas": {
-          "act2vmulti-tr01": {
-            "stageId": "act2vmulti-tr01",
-            "modeId": "mode_normal_training",
-            "sortId": 1,
-            "missionIdList": [
-              "2vmultiMissionActivitytr_1",
-              "2vmultiMissionActivitytr_2",
-              "2vmultiMissionActivitytr_3"
-            ],
-            "stageSmallPreviewId": "",
-            "stageBigPreviewId": "",
-            "displayEnemyIdList": []
-          },
-          "act2vmulti-tr02": {
-            "stageId": "act2vmulti-tr02",
-            "modeId": "mode_football_training",
-            "sortId": 2,
-            "missionIdList": [
-              "2vmultiMissionActivitytr_1",
-              "2vmultiMissionActivitytr_2",
-              "2vmultiMissionActivitytr_3"
-            ],
-            "stageSmallPreviewId": "",
-            "stageBigPreviewId": "",
-            "displayEnemyIdList": []
-          },
-          "act2vmulti-tr03": {
-            "stageId": "act2vmulti-tr03",
-            "modeId": "mode_defence_training",
-            "sortId": 3,
-            "missionIdList": [
-              "2vmultiMissionActivitytr_1",
-              "2vmultiMissionActivitytr_2",
-              "2vmultiMissionActivitytr_3"
-            ],
-            "stageSmallPreviewId": "",
-            "stageBigPreviewId": "",
-            "displayEnemyIdList": []
-          },
-          "act2vmulti-01": {
-            "stageId": "act2vmulti-01",
-            "modeId": "mode_normal_ordinary",
-            "sortId": 1,
-            "missionIdList": [
-              "2vmultiMissionActivity1_1",
-              "2vmultiMissionActivity1_2",
-              "2vmultiMissionActivity1_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-01_small_preview",
-            "stageBigPreviewId": "act2vmulti-01_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1243_ltswar",
-              "enemy_1240_ltgint"
-            ]
-          },
-          "act2vmulti-02": {
-            "stageId": "act2vmulti-02",
-            "modeId": "mode_normal_ordinary",
-            "sortId": 2,
-            "missionIdList": [
-              "2vmultiMissionActivity2_1",
-              "2vmultiMissionActivity2_2",
-              "2vmultiMissionActivity2_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-02_small_preview",
-            "stageBigPreviewId": "act2vmulti-02_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1098_cchmpn",
-              "enemy_1095_ccripr"
-            ]
-          },
-          "act2vmulti-03": {
-            "stageId": "act2vmulti-03",
-            "modeId": "mode_normal_ordinary",
-            "sortId": 3,
-            "missionIdList": [
-              "2vmultiMissionActivity3_1",
-              "2vmultiMissionActivity3_2",
-              "2vmultiMissionActivity3_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-03_small_preview",
-            "stageBigPreviewId": "act2vmulti-03_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1363_spnshd",
-              "enemy_1092_mdgint"
-            ]
-          },
-          "act2vmulti-04": {
-            "stageId": "act2vmulti-04",
-            "modeId": "mode_normal_ordinary",
-            "sortId": 4,
-            "missionIdList": [
-              "2vmultiMissionActivity4_1",
-              "2vmultiMissionActivity4_2",
-              "2vmultiMissionActivity4_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-04_small_preview",
-            "stageBigPreviewId": "act2vmulti-04_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1107_uoffcr",
-              "enemy_1058_traink"
-            ]
-          },
-          "act2vmulti-05": {
-            "stageId": "act2vmulti-05",
-            "modeId": "mode_normal_ordinary",
-            "sortId": 5,
-            "missionIdList": [
-              "2vmultiMissionActivity5_1",
-              "2vmultiMissionActivity5_2",
-              "2vmultiMissionActivity5_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-05_small_preview",
-            "stageBigPreviewId": "act2vmulti-05_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1092_mdgint",
-              "enemy_1058_traink"
-            ]
-          },
-          "act2vmulti-06": {
-            "stageId": "act2vmulti-06",
-            "modeId": "mode_normal_ordinary",
-            "sortId": 6,
-            "missionIdList": [
-              "2vmultiMissionActivity6_1",
-              "2vmultiMissionActivity6_2",
-              "2vmultiMissionActivity6_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-06_small_preview",
-            "stageBigPreviewId": "act2vmulti-06_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1513_dekght",
-              "enemy_1524_bldkgt"
-            ]
-          },
-          "act2vmulti-07": {
-            "stageId": "act2vmulti-07",
-            "modeId": "mode_normal_ordinary",
-            "sortId": 7,
-            "missionIdList": [
-              "2vmultiMissionActivity7_1",
-              "2vmultiMissionActivity7_2",
-              "2vmultiMissionActivity7_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-07_small_preview",
-            "stageBigPreviewId": "act2vmulti-07_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1533_stmkgt",
-              "enemy_1525_blkswb"
-            ]
-          },
-          "act2vmulti-ft01": {
-            "stageId": "act2vmulti-ft01",
-            "modeId": "mode_football_ordinary",
-            "sortId": 8,
-            "missionIdList": [
-              "2vmultiMissionActivityft_1"
-            ],
-            "stageSmallPreviewId": "act2vmulti-ft01_small_preview",
-            "stageBigPreviewId": "act2vmulti-ft01_big_preview",
-            "displayEnemyIdList": [
-              "enemy_4012_mumssi",
-              "enemy_4013_mubufn"
-            ]
-          },
-          "act2vmulti-de01": {
-            "stageId": "act2vmulti-de01",
-            "modeId": "mode_defence_ordinary",
-            "sortId": 9,
-            "missionIdList": [
-              "2vmultiMissionActivityde_1"
-            ],
-            "stageSmallPreviewId": "act2vmulti-de01_small_preview",
-            "stageBigPreviewId": "act2vmulti-de01_big_preview",
-            "displayEnemyIdList": [
-              "enemy_4009_murgby",
-              "enemy_4010_mubsbl"
-            ]
-          },
-          "act2vmulti-ex01": {
-            "stageId": "act2vmulti-ex01",
-            "modeId": "mode_normal_difficulty",
-            "sortId": 1,
-            "missionIdList": [
-              "2vmultiMissionActivity1_1",
-              "2vmultiMissionActivity1_2",
-              "2vmultiMissionActivity1_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-01_small_preview",
-            "stageBigPreviewId": "act2vmulti-01_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1243_ltswar",
-              "enemy_1240_ltgint"
-            ]
-          },
-          "act2vmulti-ex02": {
-            "stageId": "act2vmulti-ex02",
-            "modeId": "mode_normal_difficulty",
-            "sortId": 2,
-            "missionIdList": [
-              "2vmultiMissionActivity2_1",
-              "2vmultiMissionActivity2_2",
-              "2vmultiMissionActivity2_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-02_small_preview",
-            "stageBigPreviewId": "act2vmulti-02_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1098_cchmpn",
-              "enemy_1095_ccripr"
-            ]
-          },
-          "act2vmulti-ex03": {
-            "stageId": "act2vmulti-ex03",
-            "modeId": "mode_normal_difficulty",
-            "sortId": 3,
-            "missionIdList": [
-              "2vmultiMissionActivity3_1",
-              "2vmultiMissionActivity3_2",
-              "2vmultiMissionActivity3_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-03_small_preview",
-            "stageBigPreviewId": "act2vmulti-03_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1363_spnshd",
-              "enemy_1092_mdgint"
-            ]
-          },
-          "act2vmulti-ex04": {
-            "stageId": "act2vmulti-ex04",
-            "modeId": "mode_normal_difficulty",
-            "sortId": 4,
-            "missionIdList": [
-              "2vmultiMissionActivity4_1",
-              "2vmultiMissionActivity4_2",
-              "2vmultiMissionActivity4_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-04_small_preview",
-            "stageBigPreviewId": "act2vmulti-04_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1107_uoffcr",
-              "enemy_1058_traink"
-            ]
-          },
-          "act2vmulti-ex05": {
-            "stageId": "act2vmulti-ex05",
-            "modeId": "mode_normal_difficulty",
-            "sortId": 5,
-            "missionIdList": [
-              "2vmultiMissionActivity5_1",
-              "2vmultiMissionActivity5_2",
-              "2vmultiMissionActivity5_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-05_small_preview",
-            "stageBigPreviewId": "act2vmulti-05_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1092_mdgint",
-              "enemy_1058_traink"
-            ]
-          },
-          "act2vmulti-ex06": {
-            "stageId": "act2vmulti-ex06",
-            "modeId": "mode_normal_difficulty",
-            "sortId": 6,
-            "missionIdList": [
-              "2vmultiMissionActivity6_1",
-              "2vmultiMissionActivity6_2",
-              "2vmultiMissionActivity6_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-06_small_preview",
-            "stageBigPreviewId": "act2vmulti-06_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1513_dekght",
-              "enemy_1524_bldkgt"
-            ]
-          },
-          "act2vmulti-ex07": {
-            "stageId": "act2vmulti-ex07",
-            "modeId": "mode_normal_difficulty",
-            "sortId": 7,
-            "missionIdList": [
-              "2vmultiMissionActivity7_1",
-              "2vmultiMissionActivity7_2",
-              "2vmultiMissionActivity7_3"
-            ],
-            "stageSmallPreviewId": "act2vmulti-07_small_preview",
-            "stageBigPreviewId": "act2vmulti-07_big_preview",
-            "displayEnemyIdList": [
-              "enemy_1533_stmkgt",
-              "enemy_1525_blkswb"
-            ]
-          },
-          "act2vmulti-ft02": {
-            "stageId": "act2vmulti-ft02",
-            "modeId": "mode_football_difficulty",
-            "sortId": 8,
-            "missionIdList": [
-              "2vmultiMissionActivityft_1"
-            ],
-            "stageSmallPreviewId": "act2vmulti-ft01_small_preview",
-            "stageBigPreviewId": "act2vmulti-ft01_big_preview",
-            "displayEnemyIdList": [
-              "enemy_4012_mumssi",
-              "enemy_4013_mubufn"
-            ]
-          },
-          "act2vmulti-de02": {
-            "stageId": "act2vmulti-de02",
-            "modeId": "mode_defence_difficulty",
-            "sortId": 9,
-            "missionIdList": [
-              "2vmultiMissionActivityde_1"
-            ],
-            "stageSmallPreviewId": "act2vmulti-de01_small_preview",
-            "stageBigPreviewId": "act2vmulti-de01_big_preview",
-            "displayEnemyIdList": [
-              "enemy_4009_murgby",
-              "enemy_4010_mubsbl"
-            ]
-          }
-        },
-        "targetMissionDatas": {
-          "2vmultiMissionActivity1_1": {
-            "id": "2vmultiMissionActivity1_1",
-            "sortId": 1,
-            "title": "生存",
-            "battleDesc": "坚持存活尽量久的时间",
-            "description": "阶段一：坚持存活120秒",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity1_2": {
-            "id": "2vmultiMissionActivity1_2",
-            "sortId": 2,
-            "title": "生存",
-            "battleDesc": "坚持存活尽量久的时间",
-            "description": "阶段二：坚持存活120秒",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity1_3": {
-            "id": "2vmultiMissionActivity1_3",
-            "sortId": 3,
-            "title": "生存",
-            "battleDesc": "坚持存活尽量久的时间",
-            "description": "阶段二：坚持存活180秒",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity2_1": {
-            "id": "2vmultiMissionActivity2_1",
-            "sortId": 1,
-            "title": "生存",
-            "battleDesc": "坚持存活尽量久的时间",
-            "description": "阶段一：坚持存活150秒",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity2_2": {
-            "id": "2vmultiMissionActivity2_2",
-            "sortId": 2,
-            "title": "生存",
-            "battleDesc": "坚持存活尽量久的时间",
-            "description": "阶段二：坚持存活120秒",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity2_3": {
-            "id": "2vmultiMissionActivity2_3",
-            "sortId": 3,
-            "title": "生存",
-            "battleDesc": "坚持存活尽量久的时间",
-            "description": "阶段二：坚持存活160秒",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity3_1": {
-            "id": "2vmultiMissionActivity3_1",
-            "sortId": 1,
-            "title": "护送",
-            "battleDesc": "推进反巫术变位炸弹",
-            "description": "阶段一：将反巫术变位炸弹推进22格",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity3_2": {
-            "id": "2vmultiMissionActivity3_2",
-            "sortId": 2,
-            "title": "占垒",
-            "battleDesc": "占领留声机",
-            "description": "阶段二：占领3座留声机",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity3_3": {
-            "id": "2vmultiMissionActivity3_3",
-            "sortId": 3,
-            "title": "占垒",
-            "battleDesc": "占领留声机",
-            "description": "阶段二：占领5座留声机",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity4_1": {
-            "id": "2vmultiMissionActivity4_1",
-            "sortId": 1,
-            "title": "生存",
-            "battleDesc": "坚持存活尽量久的时间",
-            "description": "阶段一：坚持存活150秒",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity4_2": {
-            "id": "2vmultiMissionActivity4_2",
-            "sortId": 2,
-            "title": "营救",
-            "battleDesc": "保护乌萨斯平民进入目标点",
-            "description": "阶段二：保护12位乌萨斯平民进入目标点",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity4_3": {
-            "id": "2vmultiMissionActivity4_3",
-            "sortId": 3,
-            "title": "营救",
-            "battleDesc": "保护乌萨斯平民进入目标点",
-            "description": "阶段二：保护18位乌萨斯平民进入目标点",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity5_1": {
-            "id": "2vmultiMissionActivity5_1",
-            "sortId": 1,
-            "title": "占垒",
-            "battleDesc": "占领留声机",
-            "description": "阶段一：占领1座留声机",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity5_2": {
-            "id": "2vmultiMissionActivity5_2",
-            "sortId": 2,
-            "title": "渗透",
-            "battleDesc": "击倒尽量多的欺凌者",
-            "description": "阶段二：击倒13个欺凌者",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity5_3": {
-            "id": "2vmultiMissionActivity5_3",
-            "sortId": 3,
-            "title": "渗透",
-            "battleDesc": "击倒尽量多的欺凌者",
-            "description": "阶段二：击倒25个欺凌者",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity6_1": {
-            "id": "2vmultiMissionActivity6_1",
-            "sortId": 1,
-            "title": "生存",
-            "battleDesc": "坚持存活尽量久的时间",
-            "description": "阶段一：坚持存活140秒",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity6_2": {
-            "id": "2vmultiMissionActivity6_2",
-            "sortId": 2,
-            "title": "突击",
-            "battleDesc": "尽量削减领袖敌人的生命值",
-            "description": "阶段二：削减所有领袖敌人75%的生命值",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity6_3": {
-            "id": "2vmultiMissionActivity6_3",
-            "sortId": 3,
-            "title": "突击",
-            "battleDesc": "尽量削减领袖敌人的生命值",
-            "description": "阶段二：击倒所有领袖敌人",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity7_1": {
-            "id": "2vmultiMissionActivity7_1",
-            "sortId": 1,
-            "title": "生存",
-            "battleDesc": "坚持存活尽量久的时间",
-            "description": "阶段一：坚持存活150秒",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity7_2": {
-            "id": "2vmultiMissionActivity7_2",
-            "sortId": 2,
-            "title": "突击",
-            "battleDesc": "尽量削减领袖敌人的生命值",
-            "description": "阶段二：削减所有领袖敌人50%的生命值",
-            "starNum": 1
-          },
-          "2vmultiMissionActivity7_3": {
-            "id": "2vmultiMissionActivity7_3",
-            "sortId": 3,
-            "title": "突击",
-            "battleDesc": "尽量削减领袖敌人的生命值",
-            "description": "阶段二：击倒所有领袖敌人",
-            "starNum": 1
-          },
-          "2vmultiMissionActivityft_1": {
-            "id": "2vmultiMissionActivityft_1",
-            "sortId": 1,
-            "title": "进球",
-            "battleDesc": "争取更多净胜球",
-            "description": "争取更多净胜球",
-            "starNum": 1
-          },
-          "2vmultiMissionActivityde_1": {
-            "id": "2vmultiMissionActivityde_1",
-            "sortId": 1,
-            "title": "防守",
-            "battleDesc": "防守更多波次",
-            "description": "防守更多波次",
-            "starNum": 1
-          },
-          "2vmultiMissionActivitytr_1": {
-            "id": "2vmultiMissionActivitytr_1",
-            "sortId": 1,
-            "title": "生存",
-            "battleDesc": "坚持存活尽量久的时间",
-            "description": "阶段一：坚持存活120秒",
-            "starNum": 1
-          },
-          "2vmultiMissionActivitytr_2": {
-            "id": "2vmultiMissionActivitytr_2",
-            "sortId": 2,
-            "title": "渗透",
-            "battleDesc": "击倒尽量多的拾荒者",
-            "description": "阶段二：击倒3个拾荒者",
-            "starNum": 1
-          },
-          "2vmultiMissionActivitytr_3": {
-            "id": "2vmultiMissionActivitytr_3",
-            "sortId": 3,
-            "title": "渗透",
-            "battleDesc": "击倒尽量多的拾荒者",
-            "description": "阶段二：击倒5个拾荒者",
-            "starNum": 1
-          }
-        },
-        "mileStoneList": [
-          {
-            "mileStoneId": "mileStone_1",
-            "mileStoneLvl": 1,
-            "needPointCnt": 40,
-            "rewardItem": {
-              "id": "30063",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_2",
-            "mileStoneLvl": 2,
-            "needPointCnt": 80,
-            "rewardItem": {
-              "id": "4001",
-              "count": 5000,
-              "type": "GOLD"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_3",
-            "mileStoneLvl": 3,
-            "needPointCnt": 120,
-            "rewardItem": {
-              "id": "2003",
-              "count": 5,
-              "type": "CARD_EXP"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_4",
-            "mileStoneLvl": 4,
-            "needPointCnt": 160,
-            "rewardItem": {
-              "id": "31073",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_5",
-            "mileStoneLvl": 5,
-            "needPointCnt": 200,
-            "rewardItem": {
-              "id": "3301",
-              "count": 10,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_6",
-            "mileStoneLvl": 6,
-            "needPointCnt": 250,
-            "rewardItem": {
-              "id": "30094",
-              "count": 1,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_7",
-            "mileStoneLvl": 7,
-            "needPointCnt": 300,
-            "rewardItem": {
-              "id": "31083",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_8",
-            "mileStoneLvl": 8,
-            "needPointCnt": 350,
-            "rewardItem": {
-              "id": "4001",
-              "count": 5000,
-              "type": "GOLD"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_9",
-            "mileStoneLvl": 9,
-            "needPointCnt": 400,
-            "rewardItem": {
-              "id": "3401",
-              "count": 100,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_10",
-            "mileStoneLvl": 10,
-            "needPointCnt": 450,
-            "rewardItem": {
-              "id": "30063",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_11",
-            "mileStoneLvl": 11,
-            "needPointCnt": 515,
-            "rewardItem": {
-              "id": "4001",
-              "count": 10000,
-              "type": "GOLD"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_12",
-            "mileStoneLvl": 12,
-            "needPointCnt": 580,
-            "rewardItem": {
-              "id": "2003",
-              "count": 10,
-              "type": "CARD_EXP"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_13",
-            "mileStoneLvl": 13,
-            "needPointCnt": 645,
-            "rewardItem": {
-              "id": "31073",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_14",
-            "mileStoneLvl": 14,
-            "needPointCnt": 710,
-            "rewardItem": {
-              "id": "3301",
-              "count": 10,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_15",
-            "mileStoneLvl": 15,
-            "needPointCnt": 775,
-            "rewardItem": {
-              "id": "7003",
-              "count": 1,
-              "type": "TKT_GACHA"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_16",
-            "mileStoneLvl": 16,
-            "needPointCnt": 860,
-            "rewardItem": {
-              "id": "31083",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_17",
-            "mileStoneLvl": 17,
-            "needPointCnt": 945,
-            "rewardItem": {
-              "id": "4001",
-              "count": 10000,
-              "type": "GOLD"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_18",
-            "mileStoneLvl": 18,
-            "needPointCnt": 1030,
-            "rewardItem": {
-              "id": "3401",
-              "count": 100,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_19",
-            "mileStoneLvl": 19,
-            "needPointCnt": 1115,
-            "rewardItem": {
-              "id": "30063",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_20",
-            "mileStoneLvl": 20,
-            "needPointCnt": 1200,
-            "rewardItem": {
-              "id": "mod_update_token_1",
-              "count": 15,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_21",
-            "mileStoneLvl": 21,
-            "needPointCnt": 1300,
-            "rewardItem": {
-              "id": "2003",
-              "count": 10,
-              "type": "CARD_EXP"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_22",
-            "mileStoneLvl": 22,
-            "needPointCnt": 1400,
-            "rewardItem": {
-              "id": "31073",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_23",
-            "mileStoneLvl": 23,
-            "needPointCnt": 1500,
-            "rewardItem": {
-              "id": "3302",
-              "count": 5,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_24",
-            "mileStoneLvl": 24,
-            "needPointCnt": 1600,
-            "rewardItem": {
-              "id": "31024",
-              "count": 1,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_25",
-            "mileStoneLvl": 25,
-            "needPointCnt": 1700,
-            "rewardItem": {
-              "id": "nc_sports_1",
-              "count": 1,
-              "type": "NAME_CARD_SKIN"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_26",
-            "mileStoneLvl": 26,
-            "needPointCnt": 1810,
-            "rewardItem": {
-              "id": "4001",
-              "count": 10000,
-              "type": "GOLD"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_27",
-            "mileStoneLvl": 27,
-            "needPointCnt": 1920,
-            "rewardItem": {
-              "id": "3401",
-              "count": 100,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_28",
-            "mileStoneLvl": 28,
-            "needPointCnt": 2030,
-            "rewardItem": {
-              "id": "31083",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_29",
-            "mileStoneLvl": 29,
-            "needPointCnt": 2140,
-            "rewardItem": {
-              "id": "mod_update_token_2",
-              "count": 5,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_30",
-            "mileStoneLvl": 30,
-            "needPointCnt": 2250,
-            "rewardItem": {
-              "id": "2003",
-              "count": 10,
-              "type": "CARD_EXP"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_31",
-            "mileStoneLvl": 31,
-            "needPointCnt": 2370,
-            "rewardItem": {
-              "id": "30155",
-              "count": 1,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_32",
-            "mileStoneLvl": 32,
-            "needPointCnt": 2490,
-            "rewardItem": {
-              "id": "3302",
-              "count": 5,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_33",
-            "mileStoneLvl": 33,
-            "needPointCnt": 2610,
-            "rewardItem": {
-              "id": "30094",
-              "count": 1,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_34",
-            "mileStoneLvl": 34,
-            "needPointCnt": 2730,
-            "rewardItem": {
-              "id": "30063",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_35",
-            "mileStoneLvl": 35,
-            "needPointCnt": 2850,
-            "rewardItem": {
-              "id": "char_376_therex@marthe#7",
-              "count": 1,
-              "type": "CHAR_SKIN"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_36",
-            "mileStoneLvl": 36,
-            "needPointCnt": 2970,
-            "rewardItem": {
-              "id": "3401",
-              "count": 100,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_37",
-            "mileStoneLvl": 37,
-            "needPointCnt": 3090,
-            "rewardItem": {
-              "id": "31073",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_38",
-            "mileStoneLvl": 38,
-            "needPointCnt": 3210,
-            "rewardItem": {
-              "id": "4001",
-              "count": 10000,
-              "type": "GOLD"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_39",
-            "mileStoneLvl": 39,
-            "needPointCnt": 3330,
-            "rewardItem": {
-              "id": "2004",
-              "count": 5,
-              "type": "CARD_EXP"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_40",
-            "mileStoneLvl": 40,
-            "needPointCnt": 3450,
-            "rewardItem": {
-              "id": "31083",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_41",
-            "mileStoneLvl": 41,
-            "needPointCnt": 3570,
-            "rewardItem": {
-              "id": "3303",
-              "count": 5,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_42",
-            "mileStoneLvl": 42,
-            "needPointCnt": 3690,
-            "rewardItem": {
-              "id": "31024",
-              "count": 1,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_43",
-            "mileStoneLvl": 43,
-            "needPointCnt": 3810,
-            "rewardItem": {
-              "id": "30063",
-              "count": 2,
-              "type": "MATERIAL"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_44",
-            "mileStoneLvl": 44,
-            "needPointCnt": 3930,
-            "rewardItem": {
-              "id": "4001",
-              "count": 10000,
-              "type": "GOLD"
-            }
-          },
-          {
-            "mileStoneId": "mileStone_45",
-            "mileStoneLvl": 45,
-            "needPointCnt": 4050,
-            "rewardItem": {
-              "id": "30155",
-              "count": 1,
-              "type": "MATERIAL"
-            }
-          }
-        ],
-        "stageStarRewardDatas": {
-          "act2vmulti-tr01": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 0,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 0
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 0,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 0
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 0,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 0
-              }
-            ]
-          },
-          "act2vmulti-01": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 20,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 20
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 40,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 40
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              }
-            ]
-          },
-          "act2vmulti-02": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 20,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 20
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 40,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 40
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              }
-            ]
-          },
-          "act2vmulti-03": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 20,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 20
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 40,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 40
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              }
-            ]
-          },
-          "act2vmulti-04": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 20,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 20
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 40,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 40
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              }
-            ]
-          },
-          "act2vmulti-05": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 20,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 20
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 40,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 40
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              }
-            ]
-          },
-          "act2vmulti-06": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 20,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 20
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 40,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 40
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              }
-            ]
-          },
-          "act2vmulti-07": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 20,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 20
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 40,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 40
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              }
-            ]
-          },
-          "act2vmulti-ex01": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 25,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 25
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 100,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 100
-              }
-            ]
-          },
-          "act2vmulti-ex02": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 25,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 25
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 100,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 100
-              }
-            ]
-          },
-          "act2vmulti-ex03": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 25,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 25
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 100,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 100
-              }
-            ]
-          },
-          "act2vmulti-ex04": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 25,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 25
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 100,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 100
-              }
-            ]
-          },
-          "act2vmulti-ex05": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 25,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 25
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 100,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 100
-              }
-            ]
-          },
-          "act2vmulti-ex06": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 25,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 25
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 100,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 100
-              }
-            ]
-          },
-          "act2vmulti-ex07": {
-            "starRewardDatas": [
-              {
-                "starNum": 1,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 25,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 25
-              },
-              {
-                "starNum": 2,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 60,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 60
-              },
-              {
-                "starNum": 3,
-                "rewards": [
-                  {
-                    "id": "act2vmulti_token_cap",
-                    "count": 100,
-                    "type": "ACTIVITY_ITEM"
-                  }
-                ],
-                "dailyMissionPoint": 100
-              }
-            ]
-          }
-        },
-        "emojiChatDatas": {
-          "room_1": {
-            "id": "room_1",
-            "type": "ROOM",
-            "sortId": 1,
-            "picId": "pic_1",
-            "desc": "你好！"
-          },
-          "room_2": {
-            "id": "room_2",
-            "type": "ROOM",
-            "sortId": 2,
-            "picId": "pic_2",
-            "desc": "合作愉快！"
-          },
-          "room_3": {
-            "id": "room_3",
-            "type": "ROOM",
-            "sortId": 3,
-            "picId": "pic_3",
-            "desc": "谢谢！"
-          },
-          "room_4": {
-            "id": "room_4",
-            "type": "ROOM",
-            "sortId": 4,
-            "picId": "pic_4",
-            "desc": "再见！"
-          },
-          "room_5": {
-            "id": "room_5",
-            "type": "ROOM",
-            "sortId": 5,
-            "picId": "pic_5",
-            "desc": "对不起！"
-          },
-          "room_6": {
-            "id": "room_6",
-            "type": "ROOM",
-            "sortId": 6,
-            "picId": "pic_6",
-            "desc": "换换项目！"
-          },
-          "room_7": {
-            "id": "room_7",
-            "type": "ROOM",
-            "sortId": 7,
-            "picId": "pic_7",
-            "desc": "换换目标点！"
-          },
-          "room_8": {
-            "id": "room_8",
-            "type": "ROOM",
-            "sortId": 8,
-            "picId": "pic_8",
-            "desc": "要上啦！"
-          },
-          "room_9": {
-            "id": "room_9",
-            "type": "ROOM",
-            "sortId": 9,
-            "picId": "pic_12",
-            "desc": "请快些！"
-          },
-          "room_10": {
-            "id": "room_10",
-            "type": "ROOM",
-            "sortId": 10,
-            "picId": "pic_13",
-            "desc": "很快就好！"
-          },
-          "pick_1": {
-            "id": "pick_1",
-            "type": "PICK",
-            "sortId": 1,
-            "picId": "pic_1",
-            "desc": "你好！"
-          },
-          "pick_2": {
-            "id": "pick_2",
-            "type": "PICK",
-            "sortId": 2,
-            "picId": "pic_2",
-            "desc": "合作愉快！"
-          },
-          "pick_3": {
-            "id": "pick_3",
-            "type": "PICK",
-            "sortId": 3,
-            "picId": "pic_3",
-            "desc": "谢谢！"
-          },
-          "pick_4": {
-            "id": "pick_4",
-            "type": "PICK",
-            "sortId": 4,
-            "picId": "pic_5",
-            "desc": "对不起！"
-          },
-          "pick_5": {
-            "id": "pick_5",
-            "type": "PICK",
-            "sortId": 5,
-            "picId": "pic_8",
-            "desc": "要上啦！"
-          },
-          "pick_6": {
-            "id": "pick_6",
-            "type": "PICK",
-            "sortId": 6,
-            "picId": "pic_9",
-            "desc": "？？？"
-          },
-          "pick_7": {
-            "id": "pick_7",
-            "type": "PICK",
-            "sortId": 7,
-            "picId": "pic_10",
-            "desc": "你请先选！"
-          },
-          "pick_8": {
-            "id": "pick_8",
-            "type": "PICK",
-            "sortId": 8,
-            "picId": "pic_11",
-            "desc": "我想先选！"
-          },
-          "pick_9": {
-            "id": "pick_9",
-            "type": "PICK",
-            "sortId": 9,
-            "picId": "pic_12",
-            "desc": "请快些！"
-          },
-          "pick_10": {
-            "id": "pick_10",
-            "type": "PICK",
-            "sortId": 10,
-            "picId": "pic_13",
-            "desc": "很快就好！"
-          }
-        },
-        "commentDatas": {
-          "Comment_Normal_1": {
-            "id": "Comment_Normal_1",
-            "type": "NORMAL",
-            "priorityId": 11,
-            "picId": "pic_1",
-            "txt": "快刀斩麻!",
-            "template": "act2vmultiCommentMelee",
-            "paramList": [
-              "NORMAL",
-              "100000"
-            ]
-          },
-          "Comment_Normal_2": {
-            "id": "Comment_Normal_2",
-            "type": "NORMAL",
-            "priorityId": 10,
-            "picId": "pic_2",
-            "txt": "箭无空发!",
-            "template": "act2vmultiCommentRanged",
-            "paramList": [
-              "NORMAL",
-              "100000"
-            ]
-          },
-          "Comment_Normal_3": {
-            "id": "Comment_Normal_3",
-            "type": "NORMAL",
-            "priorityId": 13,
-            "picId": "pic_3",
-            "txt": "坚如磐石!",
-            "template": "act2vmultiCommentGuard",
-            "paramList": [
-              "NORMAL",
-              "5000"
-            ]
-          },
-          "Comment_Normal_4": {
-            "id": "Comment_Normal_4",
-            "type": "NORMAL",
-            "priorityId": 12,
-            "picId": "pic_4",
-            "txt": "妙手回春!",
-            "template": "act2vmultiCommentTreat",
-            "paramList": [
-              "NORMAL",
-              "5000"
-            ]
-          },
-          "Comment_Normal_5": {
-            "id": "Comment_Normal_5",
-            "type": "NORMAL",
-            "priorityId": 9,
-            "picId": "pic_5",
-            "txt": "术有专攻-先锋",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "NORMAL",
-              "PIONEER",
-              "5"
-            ]
-          },
-          "Comment_Normal_6": {
-            "id": "Comment_Normal_6",
-            "type": "NORMAL",
-            "priorityId": 8,
-            "picId": "pic_6",
-            "txt": "术有专攻-辅助",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "NORMAL",
-              "SUPPORT",
-              "5"
-            ]
-          },
-          "Comment_Normal_7": {
-            "id": "Comment_Normal_7",
-            "type": "NORMAL",
-            "priorityId": 7,
-            "picId": "pic_7",
-            "txt": "术有专攻-医疗",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "NORMAL",
-              "MEDIC",
-              "5"
-            ]
-          },
-          "Comment_Normal_8": {
-            "id": "Comment_Normal_8",
-            "type": "NORMAL",
-            "priorityId": 6,
-            "picId": "pic_8",
-            "txt": "术有专攻-术师",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "NORMAL",
-              "CASTER",
-              "5"
-            ]
-          },
-          "Comment_Normal_9": {
-            "id": "Comment_Normal_9",
-            "type": "NORMAL",
-            "priorityId": 4,
-            "picId": "pic_9",
-            "txt": "兴兵动众!",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "NORMAL",
-              "NONE",
-              "10"
-            ]
-          },
-          "Comment_Normal_10": {
-            "id": "Comment_Normal_10",
-            "type": "NORMAL",
-            "priorityId": 3,
-            "picId": "pic_10",
-            "txt": "疾风骤雨!",
-            "template": "act2vmultiCommentSkill",
-            "paramList": [
-              "NORMAL",
-              "20"
-            ]
-          },
-          "Comment_Normal_11": {
-            "id": "Comment_Normal_11",
-            "type": "NORMAL",
-            "priorityId": 2,
-            "picId": "pic_11",
-            "txt": "乐善好施!",
-            "template": "act2vmultiCommentDeliveryCost",
-            "paramList": [
-              "NORMAL",
-              "30"
-            ]
-          },
-          "Comment_Normal_12": {
-            "id": "Comment_Normal_12",
-            "type": "NORMAL",
-            "priorityId": 1,
-            "picId": "pic_12",
-            "txt": "财源广进!",
-            "template": "act2vmultiCommentReplyCost",
-            "paramList": [
-              "NORMAL",
-              "99"
-            ]
-          },
-          "Comment_Normal_13": {
-            "id": "Comment_Normal_13",
-            "type": "FOOTBALL",
-            "priorityId": 5,
-            "picId": "pic_13",
-            "txt": "无懈可击!",
-            "template": "act2vmultiCommentNotHurt",
-            "paramList": [
-              "NORMAL",
-              "0"
-            ]
-          },
-          "Comment_Normal_14": {
-            "id": "Comment_Normal_14",
-            "type": "FOOTBALL",
-            "priorityId": 14,
-            "picId": "pic_14",
-            "txt": "力挽狂澜!",
-            "template": "act2vmultiCommentContribute",
-            "paramList": [
-              "NORMAL",
-              "2",
-              "7500"
-            ]
-          },
-          "Comment_FOOTBALL_1": {
-            "id": "Comment_FOOTBALL_1",
-            "type": "FOOTBALL",
-            "priorityId": 10,
-            "picId": "pic_1",
-            "txt": "快刀斩麻!",
-            "template": "act2vmultiCommentMelee",
-            "paramList": [
-              "FOOTBALL",
-              "100000"
-            ]
-          },
-          "Comment_FOOTBALL_2": {
-            "id": "Comment_FOOTBALL_2",
-            "type": "DEFENCE",
-            "priorityId": 9,
-            "picId": "pic_2",
-            "txt": "箭无空发!",
-            "template": "act2vmultiCommentRanged",
-            "paramList": [
-              "FOOTBALL",
-              "100000"
-            ]
-          },
-          "Comment_FOOTBALL_3": {
-            "id": "Comment_FOOTBALL_3",
-            "type": "DEFENCE",
-            "priorityId": 11,
-            "picId": "pic_4",
-            "txt": "妙手回春!",
-            "template": "act2vmultiCommentTreat",
-            "paramList": [
-              "FOOTBALL",
-              "5000"
-            ]
-          },
-          "Comment_FOOTBALL_4": {
-            "id": "Comment_FOOTBALL_4",
-            "type": "DEFENCE",
-            "priorityId": 8,
-            "picId": "pic_5",
-            "txt": "术有专攻-先锋",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "FOOTBALL",
-              "PIONEER",
-              "5"
-            ]
-          },
-          "Comment_FOOTBALL_5": {
-            "id": "Comment_FOOTBALL_5",
-            "type": "DEFENCE",
-            "priorityId": 7,
-            "picId": "pic_6",
-            "txt": "术有专攻-辅助",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "FOOTBALL",
-              "SUPPORT",
-              "5"
-            ]
-          },
-          "Comment_FOOTBALL_6": {
-            "id": "Comment_FOOTBALL_6",
-            "type": "DEFENCE",
-            "priorityId": 6,
-            "picId": "pic_7",
-            "txt": "术有专攻-医疗",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "FOOTBALL",
-              "MEDIC",
-              "5"
-            ]
-          },
-          "Comment_FOOTBALL_7": {
-            "id": "Comment_FOOTBALL_7",
-            "type": "DEFENCE",
-            "priorityId": 5,
-            "picId": "pic_8",
-            "txt": "术有专攻-术师",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "FOOTBALL",
-              "CASTER",
-              "5"
-            ]
-          },
-          "Comment_FOOTBALL_8": {
-            "id": "Comment_FOOTBALL_8",
-            "type": "DEFENCE",
-            "priorityId": 4,
-            "picId": "pic_9",
-            "txt": "兴兵动众!",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "FOOTBALL",
-              "NONE",
-              "10"
-            ]
-          },
-          "Comment_FOOTBALL_9": {
-            "id": "Comment_FOOTBALL_9",
-            "type": "DEFENCE",
-            "priorityId": 3,
-            "picId": "pic_10",
-            "txt": "疾风骤雨!",
-            "template": "act2vmultiCommentSkill",
-            "paramList": [
-              "FOOTBALL",
-              "20"
-            ]
-          },
-          "Comment_FOOTBALL_10": {
-            "id": "Comment_FOOTBALL_10",
-            "type": "DEFENCE",
-            "priorityId": 2,
-            "picId": "pic_11",
-            "txt": "乐善好施!",
-            "template": "act2vmultiCommentDeliveryCost",
-            "paramList": [
-              "FOOTBALL",
-              "30"
-            ]
-          },
-          "Comment_FOOTBALL_11": {
-            "id": "Comment_FOOTBALL_11",
-            "type": "DEFENCE",
-            "priorityId": 1,
-            "picId": "pic_12",
-            "txt": "财源广进!",
-            "template": "act2vmultiCommentReplyCost",
-            "paramList": [
-              "FOOTBALL",
-              "99"
-            ]
-          },
-          "Comment_FOOTBALL_12": {
-            "id": "Comment_FOOTBALL_12",
-            "type": "DEFENCE",
-            "priorityId": 13,
-            "picId": "pic_15",
-            "txt": "黄金射手!",
-            "template": "act2vmultiCommentGoal",
-            "paramList": [
-              "FOOTBALL",
-              "3"
-            ]
-          },
-          "Comment_FOOTBALL_13": {
-            "id": "Comment_FOOTBALL_13",
-            "type": "DEFENCE",
-            "priorityId": 12,
-            "picId": "pic_16",
-            "txt": "黄金门卫!",
-            "template": "act2vmultiCommentGateKeep",
-            "paramList": [
-              "FOOTBALL",
-              "3"
-            ]
-          },
-          "Comment_DEFENCE_1": {
-            "id": "Comment_DEFENCE_1",
-            "type": "DEFENCE",
-            "priorityId": 11,
-            "picId": "pic_1",
-            "txt": "快刀斩麻!",
-            "template": "act2vmultiCommentMelee",
-            "paramList": [
-              "DEFENCE",
-              "100000"
-            ]
-          },
-          "Comment_DEFENCE_2": {
-            "id": "Comment_DEFENCE_2",
-            "type": "DEFENCE",
-            "priorityId": 10,
-            "picId": "pic_2",
-            "txt": "箭无空发!",
-            "template": "act2vmultiCommentRanged",
-            "paramList": [
-              "DEFENCE",
-              "100000"
-            ]
-          },
-          "Comment_DEFENCE_3": {
-            "id": "Comment_DEFENCE_3",
-            "type": "DEFENCE",
-            "priorityId": 13,
-            "picId": "pic_3",
-            "txt": "坚如磐石!",
-            "template": "act2vmultiCommentGuard",
-            "paramList": [
-              "DEFENCE",
-              "5000"
-            ]
-          },
-          "Comment_DEFENCE_4": {
-            "id": "Comment_DEFENCE_4",
-            "type": "DEFENCE",
-            "priorityId": 12,
-            "picId": "pic_4",
-            "txt": "妙手回春!",
-            "template": "act2vmultiCommentTreat",
-            "paramList": [
-              "DEFENCE",
-              "5000"
-            ]
-          },
-          "Comment_DEFENCE_5": {
-            "id": "Comment_DEFENCE_5",
-            "type": "DEFENCE",
-            "priorityId": 9,
-            "picId": "pic_5",
-            "txt": "术有专攻-先锋",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "DEFENCE",
-              "PIONEER",
-              "5"
-            ]
-          },
-          "Comment_DEFENCE_6": {
-            "id": "Comment_DEFENCE_6",
-            "type": "DEFENCE",
-            "priorityId": 8,
-            "picId": "pic_6",
-            "txt": "术有专攻-辅助",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "DEFENCE",
-              "SUPPORT",
-              "5"
-            ]
-          },
-          "Comment_DEFENCE_7": {
-            "id": "Comment_DEFENCE_7",
-            "type": "DEFENCE",
-            "priorityId": 7,
-            "picId": "pic_7",
-            "txt": "术有专攻-医疗",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "DEFENCE",
-              "MEDIC",
-              "5"
-            ]
-          },
-          "Comment_DEFENCE_8": {
-            "id": "Comment_DEFENCE_8",
-            "type": "DEFENCE",
-            "priorityId": 6,
-            "picId": "pic_8",
-            "txt": "术有专攻-术师",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "DEFENCE",
-              "CASTER",
-              "5"
-            ]
-          },
-          "Comment_DEFENCE_9": {
-            "id": "Comment_DEFENCE_9",
-            "type": "DEFENCE",
-            "priorityId": 4,
-            "picId": "pic_9",
-            "txt": "兴兵动众!",
-            "template": "act2vmultiCommentDeploy",
-            "paramList": [
-              "DEFENCE",
-              "NONE",
-              "10"
-            ]
-          },
-          "Comment_DEFENCE_10": {
-            "id": "Comment_DEFENCE_10",
-            "type": "DEFENCE",
-            "priorityId": 3,
-            "picId": "pic_10",
-            "txt": "疾风骤雨!",
-            "template": "act2vmultiCommentSkill",
-            "paramList": [
-              "DEFENCE",
-              "20"
-            ]
-          },
-          "Comment_DEFENCE_11": {
-            "id": "Comment_DEFENCE_11",
-            "type": "DEFENCE",
-            "priorityId": 2,
-            "picId": "pic_11",
-            "txt": "乐善好施!",
-            "template": "act2vmultiCommentDeliveryCost",
-            "paramList": [
-              "DEFENCE",
-              "30"
-            ]
-          },
-          "Comment_DEFENCE_12": {
-            "id": "Comment_DEFENCE_12",
-            "type": "DEFENCE",
-            "priorityId": 1,
-            "picId": "pic_12",
-            "txt": "财源广进!",
-            "template": "act2vmultiCommentReplyCost",
-            "paramList": [
-              "DEFENCE",
-              "99"
-            ]
-          },
-          "Comment_DEFENCE_13": {
-            "id": "Comment_DEFENCE_13",
-            "type": "DEFENCE",
-            "priorityId": 5,
-            "picId": "pic_13",
-            "txt": "无懈可击!",
-            "template": "act2vmultiCommentNotHurt",
-            "paramList": [
-              "DEFENCE",
-              "0"
-            ]
-          },
-          "Comment_DEFENCE_14": {
-            "id": "Comment_DEFENCE_14",
-            "type": "DEFENCE",
-            "priorityId": 14,
-            "picId": "pic_14",
-            "txt": "力挽狂澜!",
-            "template": "act2vmultiCommentContribute",
-            "paramList": [
-              "DEFENCE",
-              "2",
-              "7500"
-            ]
-          }
-        },
-        "tipsDataList": [
-          {
-            "id": "tip_01",
-            "txt": "第一阶段结束后，场上的干员会撤退进入待部署区",
-            "weight": 100
-          },
-          {
-            "id": "tip_02",
-            "txt": "协作双方的关卡生命值相互独立，只有双方关卡生命值均为0时才会挑战失败",
-            "weight": 100
-          },
-          {
-            "id": "tip_03",
-            "txt": "敌人进入共用目标点时，会同时扣除协作双方的关卡生命值",
-            "weight": 100
-          },
-          {
-            "id": "tip_04",
-            "txt": "费用不足时，可以试试向协作者请求费用",
-            "weight": 75
-          },
-          {
-            "id": "tip_05",
-            "txt": "当双方都点击2倍速按键时，战斗将进入倍速状态运行",
-            "weight": 75
-          },
-          {
-            "id": "tip_06",
-            "txt": "可以拖拽发送标记至指定位置，来向协作者发送标记信号",
-            "weight": 75
-          },
-          {
-            "id": "tip_07",
-            "txt": "在第一阶段中关卡生命值归零的玩家，可以在休整时间重新上场",
-            "weight": 75
-          },
-          {
-            "id": "tip_08",
-            "txt": "堡垒守御项目中的<折叠设施>，需要部署<折叠设施维护员>进行维护才能生效",
-            "weight": 100
-          },
-          {
-            "id": "tip_09",
-            "txt": "堡垒守御项目中，只有休整时间才能部署<折叠设施维护员>",
-            "weight": 75
-          },
-          {
-            "id": "tip_10",
-            "txt": "阵地足球项目中，从不同方向攻击<足球>，可以改变运动方向",
-            "weight": 100
-          },
-          {
-            "id": "tip_11",
-            "txt": "阵地足球项目中，更重的<足球>需要累计更多的伤害才能推动",
-            "weight": 100
-          },
-          {
-            "id": "tip_12",
-            "txt": "部署在<守门位>的干员可以成为<守门员>，挡住敌方射门后可以在我方半场重新开球",
-            "weight": 100
-          },
-          {
-            "id": "tip_13",
-            "txt": "球门前的<阵地屏障>可以反弹足球，但每次挡住射门时都会损失生命值",
-            "weight": 75
-          },
-          {
-            "id": "tip_14",
-            "txt": "敌方的球员生命值归0时不会被击倒，但会暂时停止行动并逐渐恢复生命值",
-            "weight": 75
-          },
-          {
-            "id": "tip_15",
-            "txt": "医疗干员可以治疗协作者的干员，当协作者陷入危机时，请施以援手！",
-            "weight": 100
-          }
-        ],
-        "reportDataList": [
-          {
-            "id": "report_01",
-            "sortId": 1,
-            "txt": "消极游戏",
-            "desc": "挂机、不作为等消极行为"
-          },
-          {
-            "id": "report_02",
-            "sortId": 2,
-            "txt": "故意捣乱",
-            "desc": "阻碍其他玩家游戏"
-          },
-          {
-            "id": "report_03",
-            "sortId": 3,
-            "txt": "中途退出",
-            "desc": "游戏过程中离开"
-          },
-          {
-            "id": "report_04",
-            "sortId": 4,
-            "txt": "不当言论",
-            "desc": "使用了不恰当的名称或签名"
-          },
-          {
-            "id": "report_05",
-            "sortId": 5,
-            "txt": "骚扰",
-            "desc": "进行令人不快的行为"
-          },
-          {
-            "id": "report_06",
-            "sortId": 6,
-            "txt": "作弊",
-            "desc": "使用非常规手段进行游戏"
-          },
-          {
-            "id": "report_07",
-            "sortId": 7,
-            "txt": "脚本",
-            "desc": "利用第三方工具刷取奖励"
-          },
-          {
-            "id": "report_08",
-            "sortId": 8,
-            "txt": "其他",
-            "desc": "其他举报原因"
-          }
-        ],
-        "tempCharDataList": [
-          {
-            "charId": "char_508_aguard",
-            "level": 80,
-            "evolvePhase": "PHASE_2",
-            "mainSkillLevel": 7,
-            "specializeLevel": 3,
-            "potentialRank": 0,
-            "favorPoint": 25570,
-            "skinId": "char_508_aguard#1"
-          },
-          {
-            "charId": "char_511_asnipe",
-            "level": 80,
-            "evolvePhase": "PHASE_2",
-            "mainSkillLevel": 7,
-            "specializeLevel": 3,
-            "potentialRank": 0,
-            "favorPoint": 25570,
-            "skinId": "char_511_asnipe#1"
-          },
-          {
-            "charId": "char_509_acast",
-            "level": 80,
-            "evolvePhase": "PHASE_2",
-            "mainSkillLevel": 7,
-            "specializeLevel": 3,
-            "potentialRank": 0,
-            "favorPoint": 25570,
-            "skinId": "char_509_acast#1"
-          },
-          {
-            "charId": "char_510_amedic",
-            "level": 80,
-            "evolvePhase": "PHASE_2",
-            "mainSkillLevel": 7,
-            "specializeLevel": 3,
-            "potentialRank": 0,
-            "favorPoint": 25570,
-            "skinId": "char_510_amedic#1"
-          },
-          {
-            "charId": "char_513_apionr",
-            "level": 80,
-            "evolvePhase": "PHASE_2",
-            "mainSkillLevel": 7,
-            "specializeLevel": 3,
-            "potentialRank": 0,
-            "favorPoint": 25570,
-            "skinId": "char_513_apionr#1"
-          }
-        ],
-        "constData": {
-          "milestoneId": "act2vmulti_token_cap",
-          "maxUnlockNum": 20,
-          "roomNumCopyDesc": "房间编号{0},Dr.{1}#{2}邀请您加入赛事{3}:{4}{5}难度",
-          "noMapRoomNumCopyDesc": "房间编号{0},Dr.{1}#{2}邀请您加入赛事",
-          "randomMapRoomNumCopyDesc": "房间编号{0},Dr.{1}#{2}邀请您加入赛事随机项目{3}难度",
-          "targetCd": 1,
-          "squadMinNum": 6,
-          "squadMaxNum": 10,
-          "defenseTraMax": 3,
-          "defenseOrdMax": 7,
-          "defenseDifMax": 7,
-          "stageChooseAnimRandomStageIdList": [
-            "act2vmulti-01",
-            "act2vmulti-02",
-            "act2vmulti-03"
-          ],
-          "mapUnlockDesc1": "在任意模式中取得一定成绩，即可在组队模式中自选项目参赛",
-          "mapUnlockDesc2": "解锁特定项目自选权",
-          "mapUnlockDesc3": "对应项目获得<@map.normal>3</>枚嘉奖印章以解锁项目自选权",
-          "mapUnlockDesc4": "净胜球记录突破<@map.football>4</>球以解锁项目自选权",
-          "mapUnlockDesc5": "防守波次记录突破<@map.defence>7</>波以解锁项目自选权",
-          "mapUnlockDesc6": "解锁全部项目自选权",
-          "mapUnlockDesc7": "在任意难度的常规项目中总计获得<@map.normal>9</>枚嘉奖印章即可解锁对应难度下全部项目自选权",
-          "difUnlockCond": 9,
-          "ordRewardStageId": "act2vmulti-01",
-          "difRewardStageId": "act2vmulti-ex01",
-          "maxMatchTime": 120,
-          "tipsSwitchTime": 5.0,
-          "pingConds": [
-            {
-              "cond": 1,
-              "txt": "当前延迟<@ping.low>{0}</>ms"
-            },
-            {
-              "cond": 60,
-              "txt": "当前延迟<@ping.medium>{0}</>ms"
-            },
-            {
-              "cond": 200,
-              "txt": "当前延迟<@ping.high>{0}</>ms"
-            }
-          ],
-          "chatCd": 1,
-          "chatTime": 3,
-          "markCd": 3,
-          "markCond1": 5,
-          "markCond2": 2,
-          "dailyMissionParam": 150,
-          "dailyMissionName": "每日活跃",
-          "dailyMissionDesc": "每日活跃当前累计进度",
-          "dailyMissionRule": "通过以下方式累积获得【参赛纪念】x<@dm.award>150</>，即可在结算时领取【参赛纪念】x<@dm.award>200</>的额外奖励。（奖励每日一次，每天04:00重置）\n<@dm.condition>-匹配参赛</>:任意难度的【常规项目】\n<@dm.condition>-组队参赛</>:任意难度的【随机常规项目】",
-          "missionDesc": "跑出连库兰塔也不能及的速度？举起连丰蹄也不能举起的重量？你的心底肯定藏着什么狂野的小目标。机会难得，为什么不试试呢？",
-          "dailyMissionRewardItem": {
-            "id": "act2vmulti_token_cap",
-            "count": 200,
-            "type": "ACTIVITY_ITEM"
-          },
-          "normalGreatVoiceStar": 3,
-          "footballGreatVoiceNum": 4,
-          "defenceGreatVoiceWave": 7,
-          "reportMaxNum": 3,
-          "reportText": "请选择符合玩家违规的选项（最多三项）",
-          "rewardCardId": "nc_sports_1",
-          "rewardCardText": "*赛事热度等级达到<@milestone>{0}级</>领取",
-          "rewardSkinId": "char_376_therex@marthe#7",
-          "rewardSkinText": "*赛事热度等级达到<@milestone>{0}级</>领取",
-          "maxRetryTimeInTeamRoom": 180,
-          "maxRetryTimeInMatchRoom": 15,
-          "maxRetryTimeInBattle": 900,
-          "maxOperatorDelay": 0.3,
-          "maxPlaySpeed": 5,
-          "delayTimeNeedTip": 2,
-          "settleRetryTime": 90,
-          "modeNormalUnlockModeId": "mode_normal_training",
-          "modeNormalUnlockParam": 2,
-          "modeDefenceUnlockModeId": "mode_defence_training",
-          "modeDefenceUnlockParam": 2,
-          "modeFootballUnlockModeId": "mode_football_training",
-          "modeFootballUnlockParam": 1,
-          "tutorialEntryStoryId": "activities/act2vmulti/Guide/guide_act2vmulti_entry",
-          "tutorialSquadStoryId": "activities/act2vmulti/Guide/guide_act2vmulti_squad",
-          "teamUnlockStageId": "act2vmulti-tr01",
-          "teamUnlockParam": 2,
-          "trainPartnerCharId": "char_002_amiya",
-          "trainPartnerCharSkinId": "char_002_amiya#1",
-          "trainPartnerPlayerName": "阿米娅",
-          "trainPartnerPlayerLevel": 100,
-          "trainPartnerBuffId": "buff_1",
-          "trainPartnerAvatarGroupType": "ASSISTANT",
-          "trainPartnerAvatarId": "char_002_amiya#1"
-        },
-        "constToastData": {
-          "noRoom": "未找到可加入的赛事",
-          "fullRoom": "未找到可加入的赛事",
-          "roomIdFormatError": "房间编号格式有误，请检查后再试",
-          "roomIdCopySuccess": "房间编号复制成功，去邀请协作者吧",
-          "banned": "禁赛中，请稍后再试",
-          "serverOverload": "当前服务繁忙，请稍后再试",
-          "matchAliveFailed": "匹配失败，请稍后再试",
-          "createRoomAliveFailed": "创建房间失败，请稍后再试",
-          "joinRoomAliveFailed": "加入房间失败，请稍后再试",
-          "roomOwnerReviseTarget": "已更改目标点分配，等待协作者确认",
-          "roomCollaboratorReviseTarget": "目标点分配有变更，请确认后重新准备",
-          "roomOwnerReviseMap": "已更换项目，等待协作者确认",
-          "roomCollaboratorReviseMap": "项目内容有变更，请确认后重新准备",
-          "roomCollaboratorJoinRoom": "协作者已加入",
-          "roomCollaboratorExitRoom": "协作者已退出",
-          "continuousClicks": "操作过于频繁，请稍后再试",
-          "matchNoProject": "请选择至少一个项目",
-          "reportNoProject": "请选择至少一个举报内容",
-          "otherModeTrainingLock": "完成常规项目规则教学后解锁",
-          "teamLock": "完成常规项目规则教学后解锁",
-          "mentorLockTips": "常规项目解锁高级赛匹配资格且至少<@tutor>4</>关获得<@tutor>3</>枚嘉奖印章",
-          "unlockNewModeInMatch": "匹配比赛中解锁了新的项目",
-          "unlockNewStageInTeam": "组队参加中解锁了新的项目",
-          "unlockMentorInMatch": "匹配比赛中解锁了[兼任教练]资格",
-          "teamFullLow": "低顺位干员人数已达上限",
-          "teamFullHigh": "高顺位干员人数已达上限",
-          "difficultUnlock": "初级赛的常规项目获得<@map.normal>9</>枚嘉奖印章即可解锁"
-        },
-        "mapTypeNameDataList": [
-          {
-            "mapType": "NORMAL",
-            "typeName": "常规项目"
-          },
-          {
-            "mapType": "FOOTBALL",
-            "typeName": "阵地足球"
-          },
-          {
-            "mapType": "DEFENCE",
-            "typeName": "堡垒守御"
-          }
-        ],
-        "difficultyNameDataList": [
-          {
-            "difficulty": "TRAINING",
-            "difficultyName": "规则教学"
-          },
-          {
-            "difficulty": "ORDINARY",
-            "difficultyName": "初级赛"
-          },
-          {
-            "difficulty": "DIFFICULTY",
-            "difficultyName": "高级赛"
-          }
-        ],
-        "buffIconDatas": {
-          "buff_1": {
-            "buffId": "buff_1",
-            "iconId": "pic_1"
-          },
-          "buff_2": {
-            "buffId": "buff_2",
-            "iconId": "pic_2"
-          },
-          "buff_3": {
-            "buffId": "buff_3",
-            "iconId": "pic_3"
-          },
-          "buff_4": {
-            "buffId": "buff_4",
-            "iconId": "pic_4"
-          },
-          "buff_5": {
-            "buffId": "buff_5",
-            "iconId": "pic_5"
-          }
-        }
-      }
-    },
     "INTERLOCK": {
       "act1lock": {
         "stageAdditionInfoMap": {
@@ -198698,7 +196830,8 @@
           ]
         }
       }
-    }
+    },
+    "MULTIPLAY_V3": {}
   },
   "extraData": {
     "MAINLINE_BP": {
@@ -198719,6 +196852,9 @@
     }
   },
   "activityItems": {
+    "act41side": [
+      "act41side_token_light"
+    ],
     "act3collection": [
       "act3collection_point_token"
     ],
@@ -199130,6 +197266,10 @@
     "act11d7": [
       1597132800,
       1597953599
+    ],
+    "act41side": [
+      1741320000,
+      1742500799
     ],
     "act40side": [
       1737518400,
@@ -205345,6 +203485,40 @@
         }
       ],
       "startTs": 1740384000
+    },
+    {
+      "id": "dis_rogue_4_enroll_3",
+      "type": "ROGUELIKE",
+      "funcId": "rogue_4_entry_display_4",
+      "endTs": 1741896000,
+      "sortId": 107,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "集成战略<萨卡兹的无终奇语>深入探索模式已开启",
+          "ts": 1741320000
+        }
+      ],
+      "startTs": 1741320000
+    },
+    {
+      "id": "dis_side_41",
+      "type": "ACTIVITY",
+      "funcId": "act41side",
+      "endTs": 1742500799,
+      "sortId": 108,
+      "itemId": "act41side_token_light",
+      "timeNodes": [
+        {
+          "title": "<挽歌燃烧殆尽>活动已开放",
+          "ts": 1741320000
+        },
+        {
+          "title": "“将熄的火”内关卡已开放",
+          "ts": 1741939200
+        }
+      ],
+      "startTs": 1741320000
     }
   ],
   "actFunData": {
@@ -212557,6 +210731,18 @@
           "desc": "获胜10次！"
         }
       ]
+    },
+    "act6FunData": {
+      "stageAdditionMap": {},
+      "stageAchievementMap": {},
+      "achievementRewardList": {},
+      "constData": {
+        "defaultStage": null,
+        "achievementMaxNumber": 0,
+        "specialNumber": 0,
+        "characterTipToast": null,
+        "functionToastList": null
+      }
     }
   },
   "carData": {
@@ -232624,6 +230810,27 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act41side": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4177_brigid",
+        "通关EA-4后可招募此干员",
+        "6660c9",
+        "-18,39"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "9993ff"
+    },
     "act40side": {
       "bigRewardType": "ILLUST_CHAR_REWARD",
       "bigRewardParamList": [

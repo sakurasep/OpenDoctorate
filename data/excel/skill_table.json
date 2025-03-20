@@ -303951,6 +303951,372 @@
       }
     ]
   },
+  "sktok_muulwr_1": {
+    "skillId": "sktok_muulwr_1",
+    "iconId": "sktok_muulwr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "请穿上护具！",
+        "rangeId": null,
+        "description": "部署后<@ba.vup>{shield_duration}</>秒内，使双方在场干员获得<@ba.vup>{dynamic}</>点屏障",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_muulwr_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "dynamic",
+            "value": 6000.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_duration",
+            "value": 20.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_muulas_1": {
+    "skillId": "sktok_muulas_1",
+    "iconId": "sktok_muulas",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "看！烟花！",
+        "rangeId": null,
+        "description": "部署后对所有敌人造成<@ba.vup>{damage}</>点伤害，并将双方再部署中的干员<@ba.vup>再部署时间减少至0</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_muulas_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "damage",
+            "value": 3000.0,
+            "valueStr": null
+          },
+          {
+            "key": "remaining_respawn_time",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_muulrg_1": {
+    "skillId": "sktok_muulrg_1",
+    "iconId": "sktok_muulrg",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "咪嗷嗷嗷嗷！",
+        "rangeId": null,
+        "description": "部署后<@ba.vup>{buff_duration}</>秒内，使双方在场干员的防御力和法术抗性<@ba.vdown>降低至0</>，但攻击速度<@ba.vup>+{attack_speed}</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_muulrg_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "buff_duration",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "magic_resistance",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 120.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_muulcl_1": {
+    "skillId": "sktok_muulcl_1",
+    "iconId": "sktok_muulcl",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "都给我喝！",
+        "rangeId": null,
+        "description": "部署后持续向双方干员随机喷射汽水瓶，砸到的干员获得<@ba.vup>3</>点技力",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_muulcl_1",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "attack@sp",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_muulco_1": {
+    "skillId": "sktok_muulco_1",
+    "iconId": "sktok_muulco",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加油哦！",
+        "rangeId": null,
+        "description": "部署后<@ba.vup>{buff_duration}</>秒内，使双方所有在场干员攻击力提升攻击力<@ba.vup>+{atk:0%}</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_muulco_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "buff_duration",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_mufrprn_1": {
+    "skillId": "sktok_mufrprn_1",
+    "iconId": "sktok_mufrprn",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "救命啊！",
+        "rangeId": "x-2",
+        "description": "击杀周围看守的敌人时，可以解救被困的<@ba.vup>高级设施建筑工</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_mufrprn_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "taunt_level",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@token_key",
+            "value": 0.0,
+            "valueStr": "trap_202_muworkg"
+          },
+          {
+            "key": "attack@range_id",
+            "value": 0.0,
+            "valueStr": "x-2"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_mufrfm": {
+    "skillId": "sktok_mufrfm",
+    "iconId": "sktok_mufrtm",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建筑工具间",
+        "rangeId": null,
+        "description": "修建至1/2/3级时，使每个波次开始时获得的<@ba.vup>设施建筑工</>提升至1/2/3名",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 100,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_multi_upgrade",
+        "duration": 1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_mufrbk": {
+    "skillId": "sktok_mufrbk",
+    "iconId": "sktok_mufrbk",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "临时休息舱",
+        "rangeId": null,
+        "description": "修建至1/2/3级时，<@ba.vup>可部署数量</>增加至1/2/3\\n且3级时额外使干员再部署时间减少20%",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 100,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_multi_upgrade",
+        "duration": 1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_mufrwl": {
+    "skillId": "sktok_mufrwl",
+    "iconId": "sktok_mufrwl",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "液压式高台",
+        "rangeId": null,
+        "description": "修建完成后可部署远程干员并且改变敌人路线\\n升级提升生命值，且升至3级时使在此部署的干员攻击速度+50",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 100,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_multi_upgrade",
+        "duration": 1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_mufrst": {
+    "skillId": "sktok_mufrst",
+    "iconId": "sktok_mufrst",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "混凝土路障",
+        "rangeId": null,
+        "description": "修建完成后变为可以阻挡敌人的路障\\n升级提升生命值；且升至3级时，若被摧毁则会爆炸伤害周围敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 100,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_multi_upgrade",
+        "duration": 1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_mufrbs": {
+    "skillId": "sktok_mufrbs",
+    "iconId": "sktok_mufrbs",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "便携健身架",
+        "rangeId": null,
+        "description": "修建完成后使双方干员的<@ba.vup>最大生命值提升</>\\n升至2/3级时额外提升双方干员的攻击力/技力回复速度",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 100,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_multi_upgrade",
+        "duration": 1.0,
+        "blackboard": []
+      }
+    ]
+  },
   "sktok_cjgtow_1": {
     "skillId": "sktok_cjgtow_1",
     "iconId": null,

@@ -1,5 +1,25 @@
 {
   "basicInfo": {
+    "act6fun": {
+      "id": "act6fun",
+      "type": "APRIL_FOOL",
+      "displayType": "NONE",
+      "name": "愚人节活动",
+      "startTime": 1743494400,
+      "endTime": 1744055999,
+      "rewardEndTime": 1744055999,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false
+    },
     "act1multi": {
       "id": "act1multi",
       "type": "MULTIPLAY_V3",
@@ -4579,6 +4599,13 @@
     }
   },
   "homeActConfig": {
+    "act6fun": {
+      "actId": "act6fun",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": null,
+      "actTopBarText": null
+    },
     "act3collection": {
       "actId": "act3collection",
       "isPopupAfterCheckin": false,
@@ -5393,6 +5420,7 @@
     }
   },
   "zoneToActivity": {
+    "act6fun_zone1": "act6fun",
     "act1multi_zone1": "act1multi",
     "act41side_zone1": "act41side",
     "act41side_zone2": "act41side",
@@ -5569,7 +5597,7 @@
     "act18d3_zone2": "act18d3",
     "act18d0_zone1": "act18d0",
     "act18d0_zone2": "act18d0",
-    "act17d7_zone1": "act5fun",
+    "act17d7_zone1": "act6fun",
     "act17d5_zone1": "act17d5",
     "act17d5_zone2": "act17d5",
     "act17d5_zone3": "act17d5",
@@ -199898,21 +199926,21 @@
             "sortId": 1,
             "title": "护送",
             "battleDesc": "推进反巫术变位炸弹",
-            "description": "在一阶段将炸弹推进15格"
+            "description": "在一阶段将炸弹推进22格"
           },
           "act1multiMissionActivity3_2": {
             "id": "act1multiMissionActivity3_2",
             "sortId": 2,
             "title": "护送",
             "battleDesc": "推进反巫术变位炸弹",
-            "description": "在二阶段将炸弹推进15格"
+            "description": "在二阶段将炸弹推进16格"
           },
           "act1multiMissionActivity3_3": {
             "id": "act1multiMissionActivity3_3",
             "sortId": 3,
             "title": "护送",
             "battleDesc": "推进反巫术变位炸弹",
-            "description": "在二阶段将炸弹推进25格"
+            "description": "在二阶段将炸弹推进22格"
           },
           "act1multiMissionActivity4_1": {
             "id": "act1multiMissionActivity4_1",
@@ -200508,7 +200536,7 @@
             "stageIdInModeList": [
               "act1multi_ex-football"
             ],
-            "unlockHint": "【阵地足球·初级赛】单局净胜球数量达到6个后解锁"
+            "unlockHint": "【阵地足球·初级赛】单局净胜球数量达到4个后解锁"
           },
           "mode_defence_difficulty": {
             "modeId": "mode_defence_difficulty",
@@ -200551,7 +200579,7 @@
             "stageIdInModeList": [
               "act1multi_hard-football"
             ],
-            "unlockHint": "【阵地足球·高级赛】单局净胜球数量达到6个后解锁"
+            "unlockHint": "【阵地足球·高级赛】单局净胜球数量达到4个后解锁"
           },
           "mode_defence_extremely": {
             "modeId": "mode_defence_extremely",
@@ -201154,7 +201182,7 @@
               "act1multiMissionActivity_de3_3"
             ],
             "displayEnemyIdList": [
-              "enemy_4039_mufbse",
+              "enemy_4037_mufbsc",
               "enemy_4035_mufbsa"
             ],
             "previewIconId": "multi_v3_01-fortress-02_preview"
@@ -201199,7 +201227,7 @@
               "act1multiMissionActivity_de3_3"
             ],
             "displayEnemyIdList": [
-              "enemy_4039_mufbse",
+              "enemy_4037_mufbsc",
               "enemy_4035_mufbsa"
             ],
             "previewIconId": "multi_v3_01-fortress-02_preview"
@@ -209987,6 +210015,116 @@
             "type": "DIAMOND"
           }
         ]
+      },
+      "act6fun_01": {
+        "stageId": "act6fun_01",
+        "levelId": "Activities/act6fun/level_act6fun_01",
+        "code": "AK-1",
+        "name": "切尔诺伯格大撤退",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading1",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
+      },
+      "act6fun_02": {
+        "stageId": "act6fun_02",
+        "levelId": "Activities/act6fun/level_act6fun_02",
+        "code": "AK-2",
+        "name": "龙门渗透作战",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_LM_day",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
+      },
+      "act6fun_03": {
+        "stageId": "act6fun_03",
+        "levelId": "Activities/act6fun/level_act6fun_03",
+        "code": "AK-3",
+        "name": "荒野阻击战",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading3",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
+      },
+      "act6fun_04": {
+        "stageId": "act6fun_04",
+        "levelId": "Activities/act6fun/level_act6fun_04",
+        "code": "AK-4",
+        "name": "切尔诺伯格保卫战",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading1",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
+      },
+      "act6fun_05": {
+        "stageId": "act6fun_05",
+        "levelId": "Activities/act6fun/level_act6fun_05",
+        "code": "AK-5",
+        "name": "金库大逃亡",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_SKZ_RL",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
+      },
+      "act6fun_06": {
+        "stageId": "act6fun_06",
+        "levelId": "Activities/act6fun/level_act6fun_06",
+        "code": "AK-6",
+        "name": "扰乱贫民窟",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_BB_ScarMarket",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
+      },
+      "act6fun_07": {
+        "stageId": "act6fun_07",
+        "levelId": "Activities/act6fun/level_act6fun_07",
+        "code": "AK-7",
+        "name": "信任",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_iceforest_2",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
+      },
+      "act6fun_08": {
+        "stageId": "act6fun_08",
+        "levelId": "Activities/act6fun/level_act6fun_08",
+        "code": "AK-8",
+        "name": "伊莎玛拉？",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_PL_nest",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
+      },
+      "act6fun_s01": {
+        "stageId": "act6fun_s01",
+        "levelId": "Activities/act6fun/level_act6fun_sub-1-1",
+        "code": "AK-S-1",
+        "name": "罗德岛歼灭战",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading1",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
+      },
+      "act6fun_s02": {
+        "stageId": "act6fun_s02",
+        "levelId": "Activities/act6fun/level_act6fun_sub-2-1",
+        "code": "AK-S-2",
+        "name": "回应",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_iceforest_2",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
       }
     },
     "scoreDict": {
@@ -217050,15 +217188,289 @@
       ]
     },
     "act6FunData": {
-      "stageAdditionMap": {},
-      "stageAchievementMap": {},
-      "achievementRewardList": {},
+      "stageAdditionMap": {
+        "act6fun_01": {
+          "description": "可恶的罗德岛想要把整合运动堵在切尔诺伯格，让我们给这座城市陪葬，决不能让他们得逞！\\n<color=#ed5016><士兵></color>觉得博士的兜帽和自己的有点像，对博士很有亲近感。\\n<@lv.item><热泵通道></>每隔一段时间便会对其上的我军和敌军造成大量伤害",
+          "npcDialogText": "“你想知道整合运动是什么？那就看着吧，博士，我们会用行动告诉你的。”",
+          "previewCharPicId": "act6fun_char_01",
+          "feverCoinNum": 6,
+          "isHiddenStage": false
+        },
+        "act6fun_02": {
+          "description": "罗德岛控制了龙门总督，意图让龙门和切尔诺伯格相撞！必须阻止他们的疯狂计划。\\n<color=#ed5016><幽灵></color>在博士到来后，觉得自己的技能前所未有地有价值，如今斗志昂扬。",
+          "npcDialogText": "“博士，你说的是真的吗？打完这场仗，我也可以去学校，学习更先进的技术？哈——那我可要拼一把了！”",
+          "previewCharPicId": "act6fun_char_02",
+          "feverCoinNum": 5,
+          "isHiddenStage": false
+        },
+        "act6fun_03": {
+          "description": "我们挫败了罗德岛的邪恶计划，他们不会轻易放过我们，博士，带大家走出荒野吧！\\n<color=#ed5016><萨卡兹穿刺手></color>不信任博士，但是为了整合运动的未来，还是听从了博士的指挥。\\n<@lv.item><震撼装置></>可以被敌方开启，伤害并晕眩周围的我方单位\\n<@lv.item><障碍物></>可以阻挡我方单位的行进路线，可以通过攻击拆除",
+          "npcDialogText": "“哼，我会替塔露拉盯着你，如果你有什么奇怪的动作，我就把你从山上扔下去。”",
+          "previewCharPicId": "act6fun_char_03",
+          "feverCoinNum": 11,
+          "isHiddenStage": false
+        },
+        "act6fun_04": {
+          "description": "邪恶的罗德岛想要占领切尔诺伯格，为了切尔诺伯格的居民们，我们必须夺取切尔诺伯格的控制权！\\n<color=#ed5016><士兵></color>在博士的影响下最近正努力识字，想要有一天和博士一样运筹帷幄。\\n<@lv.item><障碍物></>可以阻挡我方单位的行进路线，可以通过攻击拆除",
+          "npcDialogText": "“你说的那些道理，我有些明白了，博士。我们拿起武器，不是为了杀人，是为了让感染者也能挺起胸膛活下去。”",
+          "previewCharPicId": "act6fun_char_01",
+          "feverCoinNum": 5,
+          "isHiddenStage": false
+        },
+        "act6fun_05": {
+          "description": "鸭爵从罗德岛的大本营——卡兹戴尔的金库中为整合运动带来了一份大礼，唯一的问题是——他该怎么出来？\\n<color=#ed5016><鸭爵></color>在目睹了博士的指挥后，他毅然决定投资整合运动。为了展现诚意，他打算送出一份大礼。",
+          "npcDialogText": "“博士，我很好奇，多少钱才能买下你的知识和眼界？”",
+          "previewCharPicId": "act6fun_char_05",
+          "feverCoinNum": 20,
+          "isHiddenStage": false
+        },
+        "act6fun_06": {
+          "description": "为了接应鸭爵，博士决定在卡兹戴尔的贫民窟制造混乱，而一名线人主动承担了这个任务——\\n<color=#ed5016><破烂拼凑者></color>卡兹戴尔居民，整合运动的线人，自愿为了整合运动的事业而战斗。",
+          "npcDialogText": "“我不能坐视卡兹戴尔沦为罗德岛的附庸，所以，告诉我，我该怎么做，博士？”",
+          "previewCharPicId": "act6fun_char_06",
+          "feverCoinNum": 6,
+          "isHiddenStage": false
+        },
+        "act6fun_07": {
+          "description": "罗德岛似乎在和乌萨斯密谋着什么，我们必须在层层守卫下窃取他们的计划书，博士，请下定决心。\\n<color=#ed5016><乌萨斯平民></color>乌萨斯平民，为了躲避纠察队而在荒野上游荡，十分胆小。\\n<@lv.item><活性源石></>经过的单位持续受到伤害，但攻击力和攻速大幅度提升",
+          "npcDialogText": "“博士，你救了我，该我报答你了。放心，我这么不起眼，他们不会怀疑我的——”",
+          "previewCharPicId": "act6fun_char_07",
+          "feverCoinNum": 5,
+          "isHiddenStage": false
+        },
+        "act6fun_08": {
+          "description": "突破罗德岛的封锁，抵达巢穴的最深处吧，那里......有什么在等你。\\n<color=#ed5016><钵海收割者></color>似乎是受到博士的吸引，从深海来到了陆地。\\n<@lv.item><活性源石></>经过的单位持续受到伤害，但攻击力和攻速大幅度提升\\n<@lv.rem>本关中，靠近红色进攻点可以召唤友方单位</>",
+          "npcDialogText": "（蠕动）（尖叫）（阴暗爬行）（试图带你进入大海）",
+          "previewCharPicId": "act6fun_char_08",
+          "feverCoinNum": 4,
+          "isHiddenStage": false
+        },
+        "act6fun_s01": {
+          "description": "一台无主的机甲从沉眠中醒来，他似乎打算将周围的一切都拆掉，呃，还是让罗德岛来享受这种福气吧！\\n<color=#ed5016><最后的蒸汽骑士></color>他的起床气看来不小，或许可以利用一下。\\n<@lv.item><障碍物></>可以阻挡我方单位的行进路线，可以通过攻击拆除",
+          "npcDialogText": "“维多......利亚。”",
+          "previewCharPicId": "act6fun_char_04",
+          "feverCoinNum": 15,
+          "isHiddenStage": true
+        },
+        "act6fun_s02": {
+          "description": "为了接应深入险境的平民，他向博士主动请缨。为了整合运动，他愿意付出一切。\\n<color=#ed5016><萨卡兹穿刺手></color>看着整合运动越来越好，开始信任博士，愿意为了博士开辟前路。\\n<@lv.item><源石流发生装置></>持续喷出气流。顺风/逆风移动的我方单位移速提升/降低。\\n<@lv.item><活性源石></>经过的单位持续受到伤害，但攻击力和攻速大幅度提升\\n<@lv.rem>本关中，罗德岛干员部署时获得大量技力</>",
+          "npcDialogText": "“我和塔露拉说过了，接下来我会跟着你走。别误会，我只是想看看，你能带我们走多远。”",
+          "previewCharPicId": "act6fun_char_03",
+          "feverCoinNum": 12,
+          "isHiddenStage": true
+        }
+      },
+      "stageAchievementMap": {
+        "act6fun_01": [
+          {
+            "achievementId": "act6fun_achv_0101",
+            "sortId": 1,
+            "achievementType": "NORMAL",
+            "description": "拾取至少6个罗德岛标志",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_0102",
+            "sortId": 2,
+            "achievementType": "NORMAL",
+            "description": "拾取全部9个罗德岛标志并通关",
+            "coverDesc": null
+          }
+        ],
+        "act6fun_02": [
+          {
+            "achievementId": "act6fun_achv_0201",
+            "sortId": 1,
+            "achievementType": "NORMAL",
+            "description": "拾取至少5个罗德岛标志",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_0202",
+            "sortId": 2,
+            "achievementType": "NORMAL",
+            "description": "与玛恩纳同处一个地块内至少5秒",
+            "coverDesc": null
+          }
+        ],
+        "act6fun_03": [
+          {
+            "achievementId": "act6fun_achv_0301",
+            "sortId": 1,
+            "achievementType": "NORMAL",
+            "description": "拾取至少11个罗德岛标志",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_0302",
+            "sortId": 2,
+            "achievementType": "NORMAL",
+            "description": "在有至少1名友方单位进入蓝色目标点后通关",
+            "coverDesc": null
+          }
+        ],
+        "act6fun_04": [
+          {
+            "achievementId": "act6fun_achv_0401",
+            "sortId": 1,
+            "achievementType": "NORMAL",
+            "description": "拾取至少5个罗德岛标志",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_0402",
+            "sortId": 2,
+            "achievementType": "NORMAL",
+            "description": "帮助“蒸汽骑士”进入蓝色目标点后通关",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_0403",
+            "sortId": 3,
+            "achievementType": "EX",
+            "description": "解救友好生物",
+            "coverDesc": null
+          }
+        ],
+        "act6fun_05": [
+          {
+            "achievementId": "act6fun_achv_0501",
+            "sortId": 1,
+            "achievementType": "NORMAL",
+            "description": "拾取至少20个罗德岛标志",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_0502",
+            "sortId": 2,
+            "achievementType": "NORMAL",
+            "description": "拾取全部28个罗德岛标志且在120秒内通关",
+            "coverDesc": null
+          }
+        ],
+        "act6fun_06": [
+          {
+            "achievementId": "act6fun_achv_0601",
+            "sortId": 1,
+            "achievementType": "NORMAL",
+            "description": "拾取至少6个罗德岛标志",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_0602",
+            "sortId": 2,
+            "achievementType": "NORMAL",
+            "description": "飞跃至少3名罗德岛干员的头顶",
+            "coverDesc": null
+          }
+        ],
+        "act6fun_07": [
+          {
+            "achievementId": "act6fun_achv_0701",
+            "sortId": 1,
+            "achievementType": "NORMAL",
+            "description": "拾取至少5个罗德岛标志",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_0702",
+            "sortId": 2,
+            "achievementType": "NORMAL",
+            "description": "进入蓝色目标点且不受到任何伤害",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_0703",
+            "sortId": 3,
+            "achievementType": "EX",
+            "description": "解救友好生物",
+            "coverDesc": null
+          }
+        ],
+        "act6fun_08": [
+          {
+            "achievementId": "act6fun_achv_0801",
+            "sortId": 1,
+            "achievementType": "NORMAL",
+            "description": "拾取至少4个罗德岛标志",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_0802",
+            "sortId": 2,
+            "achievementType": "NORMAL",
+            "description": "拾取不超过6个罗德岛标志并通关",
+            "coverDesc": null
+          }
+        ],
+        "act6fun_s01": [
+          {
+            "achievementId": "act6fun_achv_s0101",
+            "sortId": 1,
+            "achievementType": "NORMAL",
+            "description": "拾取至少15个罗德岛标志",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_s0102",
+            "sortId": 2,
+            "achievementType": "NORMAL",
+            "description": "击倒至少6名罗德岛干员并通关",
+            "coverDesc": null
+          }
+        ],
+        "act6fun_s02": [
+          {
+            "achievementId": "act6fun_achv_s0201",
+            "sortId": 1,
+            "achievementType": "NORMAL",
+            "description": "拾取至少12个罗德岛标志",
+            "coverDesc": null
+          },
+          {
+            "achievementId": "act6fun_achv_s0202",
+            "sortId": 2,
+            "achievementType": "NORMAL",
+            "description": "在50秒内抵达蓝色目标点",
+            "coverDesc": null
+          }
+        ]
+      },
+      "achievementRewardList": {
+        "1": {
+          "reward": {
+            "id": "4002",
+            "count": 1,
+            "type": "DIAMOND"
+          },
+          "sortId": 1,
+          "achievementCount": 5
+        },
+        "2": {
+          "reward": {
+            "id": "furni_foolsDay_redgate_01",
+            "count": 1,
+            "type": "FURN"
+          },
+          "sortId": 2,
+          "achievementCount": 10
+        }
+      },
       "constData": {
-        "defaultStage": null,
-        "achievementMaxNumber": 0,
-        "specialNumber": 0,
-        "characterTipToast": null,
-        "functionToastList": null
+        "defaultStage": "act6fun_01",
+        "achievementMaxNumber": 22,
+        "specialNumber": 22,
+        "characterTipToast": "不能替换角色",
+        "functionToastList": [
+          "敬请期待",
+          "正在整理档案",
+          "商队尚未到来",
+          "正在等待接洽人",
+          "尚无情报",
+          "计划制订中",
+          "营地搬迁中",
+          "仓库盘点中"
+        ]
       }
     }
   },

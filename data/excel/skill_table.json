@@ -298887,7 +298887,7 @@
       {
         "name": "罗德岛式协作",
         "rangeId": "1-1",
-        "description": "部署后，使前方一格的干员击杀敌人的调用凭证额外<@ba.vup>+4</>，并且在装置消失前，接力不会使该干员撤退而是获得对应的战术装备；受到该导能单元影响时，部署触发的战术装备在接力后不会生效",
+        "description": "部署后，使前方一格的干员击杀敌人的调用凭证额外<@ba.vup>+4</>，并且在装置消失前，接力不会使该干员撤退而是获得对应的战术装备；受到该导能单元影响时，部署时触发的战术装备在接力后不会生效",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -298912,7 +298912,7 @@
       {
         "name": "罗德岛式协作",
         "rangeId": "1-1",
-        "description": "部署后，使前方一格的干员击杀敌人的调用凭证额外<@ba.vup>+4</>，并且在装置消失前，接力不会使该干员撤退而是获得对应的战术装备；受到该导能单元影响时，部署触发的战术装备在接力后不会生效",
+        "description": "部署后，使前方一格的干员击杀敌人的调用凭证额外<@ba.vup>+4</>，并且在装置消失前，接力不会使该干员撤退而是获得对应的战术装备；受到该导能单元影响时，部署时触发的战术装备在接力后不会生效",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -299134,6 +299134,119 @@
         "prefabId": "sktok_bqmleeb",
         "duration": 0.0,
         "blackboard": []
+      }
+    ]
+  },
+  "sktok_supspt": {
+    "skillId": "sktok_supspt",
+    "iconId": "sktok_supspt",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天工夜行",
+        "rangeId": "0-1",
+        "description": "使用后立即获得<@ba.vup>10</>点部署费用并随机调用<@ba.vup>1</>名干员，若该干员职业为【特种】，则再次触发主动效果，待部署区拥挤时不会生效",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_supspt",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_supspta": {
+    "skillId": "sktok_supspta",
+    "iconId": "sktok_supspt",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天工夜行",
+        "rangeId": "0-1",
+        "description": "使用后立即获得<@ba.vup>10</>点部署费用并随机调用<@ba.vup>1</>名干员，若该干员职业为【特种】，则再次触发主动效果，待部署区拥挤时不会生效",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_supspta",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_supsptb": {
+    "skillId": "sktok_supsptb",
+    "iconId": "sktok_supspt",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天工夜行",
+        "rangeId": "0-1",
+        "description": "使用后立即获得<@ba.vup>30</>点部署费用并随机调用<@ba.vup>3</>名干员，若至少有1名干员职业为【特种】，则再次触发主动效果，待部署区拥挤时不会生效",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_supsptb",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 3.0,
+            "valueStr": null
+          }
+        ]
       }
     ]
   },

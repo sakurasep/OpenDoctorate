@@ -400245,5 +400245,227 @@
     "potentialRanks": [],
     "favorKeyFrames": null,
     "allSkillLvlup": []
+  },
+  "trap_213_dqore": {
+    "name": "源石祭坛",
+    "description": null,
+    "canUseGeneralPotentialItem": true,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": null,
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": null,
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": null,
+    "appellation": "Originium Shrine",
+    "position": "NONE",
+    "tagList": null,
+    "itemUsage": null,
+    "itemDesc": null,
+    "itemObtainApproach": null,
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 0,
+    "rarity": "TIER_1",
+    "profession": "TRAP",
+    "subProfessionId": "notchar2",
+    "trait": null,
+    "phases": [
+      {
+        "characterPrefabKey": "trap_213_dqore",
+        "rangeId": "x-1",
+        "maxLevel": 30,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 100,
+              "atk": 0,
+              "def": 0,
+              "magicResistance": 0.0,
+              "cost": 5,
+              "blockCnt": 0,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 5,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false
+            }
+          },
+          {
+            "level": 30,
+            "data": {
+              "maxHp": 100,
+              "atk": 0,
+              "def": 0,
+              "magicResistance": 0.0,
+              "cost": 5,
+              "blockCnt": 0,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 5,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      }
+    ],
+    "skills": [
+      {
+        "skillId": "sktok_dqore",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      }
+    ],
+    "displayTokenDict": null,
+    "talents": null,
+    "potentialRanks": [],
+    "favorKeyFrames": null,
+    "allSkillLvlup": []
+  },
+  "trap_214_dqballis": {
+    "name": "弩炮",
+    "description": null,
+    "canUseGeneralPotentialItem": true,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": null,
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": null,
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": null,
+    "appellation": "Ballista",
+    "position": "NONE",
+    "tagList": null,
+    "itemUsage": null,
+    "itemDesc": null,
+    "itemObtainApproach": null,
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 0,
+    "rarity": "TIER_1",
+    "profession": "TRAP",
+    "subProfessionId": "notchar2",
+    "trait": null,
+    "phases": [
+      {
+        "characterPrefabKey": "trap_214_dqballis",
+        "rangeId": null,
+        "maxLevel": 30,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 100,
+              "atk": 100,
+              "def": 0,
+              "magicResistance": 0.0,
+              "cost": 5,
+              "blockCnt": 3,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 5,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false
+            }
+          },
+          {
+            "level": 30,
+            "data": {
+              "maxHp": 100,
+              "atk": 3000,
+              "def": 0,
+              "magicResistance": 0.0,
+              "cost": 5,
+              "blockCnt": 3,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 5,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      }
+    ],
+    "skills": [
+      {
+        "skillId": "sktok_dqballis",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      }
+    ],
+    "displayTokenDict": null,
+    "talents": null,
+    "potentialRanks": [],
+    "favorKeyFrames": null,
+    "allSkillLvlup": []
   }
 }

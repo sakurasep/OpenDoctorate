@@ -90200,6 +90200,168 @@
       "advancedRuneIdList1": [],
       "advancedRuneIdList2": []
     },
+    "act1enemyduel_01a": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1enemyduel_01a",
+      "levelId": "Activities/act1enemyduel/level_act1enemyduel_01a",
+      "zoneId": "act1enemyduel_zone1",
+      "code": "VS-1",
+      "name": "争锋试炼！",
+      "description": null,
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_enemyduel",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": true,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1enemyduel_01a",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "act1enemyduel_02a": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1enemyduel_02a",
+      "levelId": "Activities/act1enemyduel/level_act1enemyduel_02a",
+      "zoneId": "act1enemyduel_zone1",
+      "code": "VS-2",
+      "name": "争锋对决！",
+      "description": null,
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_enemyduel",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": true,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1enemyduel_01a",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
     "st_15-01": {
       "stageType": "MAIN",
       "difficulty": "NORMAL",
@@ -288324,6 +288486,79 @@
       "dangerLevel": "-",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_ZT_street",
+      "canPractice": false,
+      "canBattleReplay": true,
+      "apCost": 25,
+      "apFailReturn": 0,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canContinuousBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "camp_r_28": {
+      "stageType": "CAMPAIGN",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "camp_r_28",
+      "levelId": "Obt/Campaign/level_camp_r_28",
+      "zoneId": "camp_zone_7",
+      "code": "萨尔贡",
+      "name": "大巴扎",
+      "description": "一群胆大包天的沙盗闯入了博物馆，他们误触机关，居然使得沉睡的展品们苏醒了过来。城里现在一片混乱，快让街道恢复原本的秩序吧！\\n<@lv.rem><特殊条件></>部署费用不会自然回复",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_AS_sgMuseum",
       "canPractice": false,
       "canBattleReplay": true,
       "apCost": 25,
@@ -493133,6 +493368,14 @@
       "startTs": 1715155200,
       "endTs": -1
     },
+    "act1enemyduel_01a": {
+      "startTs": 1745674200,
+      "endTs": 1746071999
+    },
+    "act1enemyduel_02a": {
+      "startTs": 1745674200,
+      "endTs": 1746071999
+    },
     "st_15-01": {
       "startTs": 1743998400,
       "endTs": 1745179199
@@ -501884,6 +502127,22 @@
   "specialBattleFinishStageData": {
     "main_08-15": {
       "stageId": "main_08-15",
+      "skipAccomplishPerform": true
+    },
+    "act1enemyduel_01a": {
+      "stageId": "act1enemyduel_01a",
+      "skipAccomplishPerform": true
+    },
+    "act1enemyduel_01b": {
+      "stageId": "act1enemyduel_01b",
+      "skipAccomplishPerform": true
+    },
+    "act1enemyduel_02a": {
+      "stageId": "act1enemyduel_02a",
+      "skipAccomplishPerform": true
+    },
+    "act1enemyduel_02b": {
+      "stageId": "act1enemyduel_02b",
       "skipAccomplishPerform": true
     }
   },

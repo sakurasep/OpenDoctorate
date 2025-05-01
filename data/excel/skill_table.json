@@ -67746,6 +67746,700 @@
       }
     ]
   },
+  "skchr_graceb_1": {
+    "skillId": "skchr_graceb_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "开颅挽歌",
+        "rangeId": null,
+        "description": "攻击变为二连击，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，攻击附带造成伤害<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "mode",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开颅挽歌",
+        "rangeId": null,
+        "description": "攻击变为二连击，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，攻击附带造成伤害<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 1,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.05,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "mode",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开颅挽歌",
+        "rangeId": null,
+        "description": "攻击变为二连击，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，攻击附带造成伤害<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 2,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "mode",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开颅挽歌",
+        "rangeId": null,
+        "description": "攻击变为二连击，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，攻击附带造成伤害<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 37,
+          "initSp": 4,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.15,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "mode",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开颅挽歌",
+        "rangeId": null,
+        "description": "攻击变为二连击，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，攻击附带造成伤害<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 37,
+          "initSp": 6,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "mode",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开颅挽歌",
+        "rangeId": null,
+        "description": "攻击变为二连击，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，攻击附带造成伤害<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 37,
+          "initSp": 8,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.25,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "mode",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开颅挽歌",
+        "rangeId": null,
+        "description": "攻击变为二连击，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，攻击附带造成伤害<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "mode",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开颅挽歌",
+        "rangeId": null,
+        "description": "攻击变为二连击，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，攻击附带造成伤害<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 33,
+          "initSp": 11,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.35,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "mode",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开颅挽歌",
+        "rangeId": null,
+        "description": "攻击变为二连击，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，攻击附带造成伤害<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 32,
+          "initSp": 12,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.4,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "mode",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开颅挽歌",
+        "rangeId": null,
+        "description": "攻击变为二连击，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，攻击附带造成伤害<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "mode",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_graceb_2": {
+    "skillId": "skchr_graceb_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "破膛弥撒",
+        "rangeId": "x-4",
+        "description": "立即对周围最多<@ba.vup>{max_target}</>名地面敌人造成三次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，若目标处于<$ba.dt.neural2>神经损伤</>爆发期间则改为造成元素伤害\\n<@ba.rem>可充能{ct}次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "ct",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "破膛弥撒",
+        "rangeId": "x-4",
+        "description": "立即对周围最多<@ba.vup>{max_target}</>名地面敌人造成三次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，若目标处于<$ba.dt.neural2>神经损伤</>爆发期间则改为造成元素伤害\\n<@ba.rem>可充能{ct}次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.85,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "ct",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "破膛弥撒",
+        "rangeId": "x-4",
+        "description": "立即对周围最多<@ba.vup>{max_target}</>名地面敌人造成三次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，若目标处于<$ba.dt.neural2>神经损伤</>爆发期间则改为造成元素伤害\\n<@ba.rem>可充能{ct}次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.9,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "ct",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "破膛弥撒",
+        "rangeId": "x-4",
+        "description": "立即对周围最多<@ba.vup>{max_target}</>名地面敌人造成三次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，若目标处于<$ba.dt.neural2>神经损伤</>爆发期间则改为造成元素伤害\\n<@ba.rem>可充能{ct}次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 19,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "ct",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "破膛弥撒",
+        "rangeId": "x-4",
+        "description": "立即对周围最多<@ba.vup>{max_target}</>名地面敌人造成三次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，若目标处于<$ba.dt.neural2>神经损伤</>爆发期间则改为造成元素伤害\\n<@ba.rem>可充能{ct}次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 19,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.05,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "ct",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "破膛弥撒",
+        "rangeId": "x-4",
+        "description": "立即对周围最多<@ba.vup>{max_target}</>名地面敌人造成三次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，若目标处于<$ba.dt.neural2>神经损伤</>爆发期间则改为造成元素伤害\\n<@ba.rem>可充能{ct}次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 19,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.1,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "ct",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "破膛弥撒",
+        "rangeId": "x-4",
+        "description": "立即对周围最多<@ba.vup>{max_target}</>名地面敌人造成三次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，若目标处于<$ba.dt.neural2>神经损伤</>爆发期间则改为造成元素伤害\\n<@ba.rem>可充能{ct}次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 2,
+          "spCost": 18,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.2,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "ct",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "破膛弥撒",
+        "rangeId": "x-4",
+        "description": "立即对周围最多<@ba.vup>{max_target}</>名地面敌人造成三次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，若目标处于<$ba.dt.neural2>神经损伤</>爆发期间则改为造成元素伤害\\n<@ba.rem>可充能{ct}次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 2,
+          "spCost": 17,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.3,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "ct",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "破膛弥撒",
+        "rangeId": "x-4",
+        "description": "立即对周围最多<@ba.vup>{max_target}</>名地面敌人造成三次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，若目标处于<$ba.dt.neural2>神经损伤</>爆发期间则改为造成元素伤害\\n<@ba.rem>可充能{ct}次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 2,
+          "spCost": 16,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.4,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "ct",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "破膛弥撒",
+        "rangeId": "x-4",
+        "description": "立即对周围最多<@ba.vup>{max_target}</>名地面敌人造成三次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，若目标处于<$ba.dt.neural2>神经损伤</>爆发期间则改为造成元素伤害\\n<@ba.rem>可充能{ct}次</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 2,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_graceb_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "ct",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
   "skchr_bluep_1": {
     "skillId": "skchr_bluep_1",
     "iconId": null,
@@ -157558,6 +158252,1597 @@
       }
     ]
   },
+  "skchr_lemuen_1": {
+    "skillId": "skchr_lemuen_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "重逢问候",
+        "rangeId": null,
+        "description": "攻击时攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>，额外攻击1名敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "重逢问候",
+        "rangeId": null,
+        "description": "攻击时攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>，额外攻击1名敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.55,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "重逢问候",
+        "rangeId": null,
+        "description": "攻击时攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>，额外攻击1名敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.6,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "重逢问候",
+        "rangeId": null,
+        "description": "攻击时攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>，额外攻击1名敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 11,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.65,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "重逢问候",
+        "rangeId": null,
+        "description": "攻击时攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>，额外攻击1名敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 11,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "重逢问候",
+        "rangeId": null,
+        "description": "攻击时攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>，额外攻击1名敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 11,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.75,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "重逢问候",
+        "rangeId": null,
+        "description": "攻击时攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>，额外攻击1名敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "重逢问候",
+        "rangeId": null,
+        "description": "攻击时攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>，额外攻击1名敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 9,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.9,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "重逢问候",
+        "rangeId": null,
+        "description": "攻击时攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>，额外攻击1名敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 9,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 6.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "重逢问候",
+        "rangeId": null,
+        "description": "攻击时攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>，额外攻击1名敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 6.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_lemuen_2": {
+    "skillId": "skchr_lemuen_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "归乡邀约",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 6,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_duration",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trig_cnt",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@interval",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ex_atk_scale",
+            "value": 0.175,
+            "valueStr": null
+          },
+          {
+            "key": "attack@main_atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@fin_atk_scale",
+            "value": 3.2,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "归乡邀约",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 39,
+          "initSp": 6,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 40.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_duration",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trig_cnt",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@interval",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ex_atk_scale",
+            "value": 0.175,
+            "valueStr": null
+          },
+          {
+            "key": "attack@main_atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@fin_atk_scale",
+            "value": 3.2,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "归乡邀约",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 38,
+          "initSp": 8,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 45.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_duration",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trig_cnt",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@interval",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ex_atk_scale",
+            "value": 0.175,
+            "valueStr": null
+          },
+          {
+            "key": "attack@main_atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@fin_atk_scale",
+            "value": 3.2,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "归乡邀约",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 37,
+          "initSp": 8,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_duration",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trig_cnt",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@interval",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ex_atk_scale",
+            "value": 0.175,
+            "valueStr": null
+          },
+          {
+            "key": "attack@main_atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@fin_atk_scale",
+            "value": 3.55,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "归乡邀约",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 36,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 55.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_duration",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trig_cnt",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@interval",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ex_atk_scale",
+            "value": 0.175,
+            "valueStr": null
+          },
+          {
+            "key": "attack@main_atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@fin_atk_scale",
+            "value": 3.55,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "归乡邀约",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_duration",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trig_cnt",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@interval",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ex_atk_scale",
+            "value": 0.175,
+            "valueStr": null
+          },
+          {
+            "key": "attack@main_atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@fin_atk_scale",
+            "value": 3.55,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "归乡邀约",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 34,
+          "initSp": 12,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 65.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_duration",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trig_cnt",
+            "value": 12.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@interval",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ex_atk_scale",
+            "value": 0.175,
+            "valueStr": null
+          },
+          {
+            "key": "attack@main_atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@fin_atk_scale",
+            "value": 3.9,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "归乡邀约",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 33,
+          "initSp": 13,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_duration",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trig_cnt",
+            "value": 12.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@interval",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ex_atk_scale",
+            "value": 0.175,
+            "valueStr": null
+          },
+          {
+            "key": "attack@main_atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@fin_atk_scale",
+            "value": 3.9,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "归乡邀约",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 32,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 75.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 7.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_duration",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trig_cnt",
+            "value": 12.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@interval",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ex_atk_scale",
+            "value": 0.175,
+            "valueStr": null
+          },
+          {
+            "key": "attack@main_atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@fin_atk_scale",
+            "value": 3.9,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "归乡邀约",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 7.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_duration",
+            "value": 3.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trig_cnt",
+            "value": 14.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@interval",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ex_atk_scale",
+            "value": 0.175,
+            "valueStr": null
+          },
+          {
+            "key": "attack@main_atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@fin_atk_scale",
+            "value": 4.25,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_lemuen_3": {
+    "skillId": "skchr_lemuen_3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "礼炮·强制追思",
+        "rangeId": null,
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 48,
+          "initSp": 23,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@emit_offset",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_1",
+            "value": 3.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_1",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_2",
+            "value": 2.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_2",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@limited_hit_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "礼炮·强制追思",
+        "rangeId": null,
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 47,
+          "initSp": 24,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@emit_offset",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_1",
+            "value": 3.4,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_1",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_2",
+            "value": 2.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_2",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@limited_hit_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "礼炮·强制追思",
+        "rangeId": null,
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 46,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@emit_offset",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_1",
+            "value": 3.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_1",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_2",
+            "value": 2.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_2",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@limited_hit_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "礼炮·强制追思",
+        "rangeId": null,
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 26,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@emit_offset",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_1",
+            "value": 3.6,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_1",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_2",
+            "value": 2.4,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_2",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@limited_hit_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "礼炮·强制追思",
+        "rangeId": null,
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 44,
+          "initSp": 27,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@emit_offset",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_1",
+            "value": 3.7,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_1",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_2",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_2",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@limited_hit_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "礼炮·强制追思",
+        "rangeId": null,
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 43,
+          "initSp": 28,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@emit_offset",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_1",
+            "value": 3.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_1",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_2",
+            "value": 2.6,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_2",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@limited_hit_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "礼炮·强制追思",
+        "rangeId": null,
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 42,
+          "initSp": 29,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@emit_offset",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_1",
+            "value": 3.9,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_1",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_2",
+            "value": 2.7,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_2",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@limited_hit_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "礼炮·强制追思",
+        "rangeId": null,
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 41,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@emit_offset",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_1",
+            "value": 4.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_1",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_2",
+            "value": 2.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_2",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@limited_hit_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "礼炮·强制追思",
+        "rangeId": null,
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 39,
+          "initSp": 31,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@emit_offset",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_1",
+            "value": 4.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_1",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_2",
+            "value": 2.9,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_2",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@limited_hit_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "礼炮·强制追思",
+        "rangeId": null,
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 38,
+          "initSp": 32,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_lemuen_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@trigger_time",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@aim_interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@emit_offset",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_1",
+            "value": 4.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_1",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@proj_atk_scale_2",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@dist_2",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@limited_hit_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
   "skchr_cqbw_1": {
     "skillId": "skchr_cqbw_1",
     "iconId": null,
@@ -227166,6 +229451,2108 @@
       }
     ]
   },
+  "skchr_angel2_1": {
+    "skillId": "skchr_angel2_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": "每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，优先攻击空中单位，主动关闭时发射剩余所有弹药攻击范围内的随机敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "3-3"
+          }
+        ]
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": "每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，优先攻击空中单位，主动关闭时发射剩余所有弹药攻击范围内的随机敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.6,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "3-3"
+          }
+        ]
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": "每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，优先攻击空中单位，主动关闭时发射剩余所有弹药攻击范围内的随机敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "3-3"
+          }
+        ]
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": "每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，优先攻击空中单位，主动关闭时发射剩余所有弹药攻击范围内的随机敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 3,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "3-3"
+          }
+        ]
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": "每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，优先攻击空中单位，主动关闭时发射剩余所有弹药攻击范围内的随机敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 3,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.9,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "3-3"
+          }
+        ]
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": "每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，优先攻击空中单位，主动关闭时发射剩余所有弹药攻击范围内的随机敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 3,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "3-3"
+          }
+        ]
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": "每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，优先攻击空中单位，主动关闭时发射剩余所有弹药攻击范围内的随机敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "3-3"
+          }
+        ]
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": "每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，优先攻击空中单位，主动关闭时发射剩余所有弹药攻击范围内的随机敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 6,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "3-3"
+          }
+        ]
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": "每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，优先攻击空中单位，主动关闭时发射剩余所有弹药攻击范围内的随机敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 7,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "3-3"
+          }
+        ]
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": "每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，优先攻击空中单位，主动关闭时发射剩余所有弹药攻击范围内的随机敌人\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "AUTO",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 8,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 8.0,
+            "valueStr": null
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "3-3"
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_angel2_2": {
+    "skillId": "skchr_angel2_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": "立即<$ba.steal>偷取</>攻击范围内<@ba.vup>1</>名友方干员<@ba.vup>{steal}</>点攻击速度（持续至技能结束或新约能天使离场），自身与其获得最大生命值<@ba.vup>{shield_max_hp_ratio:0%}</>的<$ba.barrier>屏障</>，该<$ba.barrier>屏障</>会持续衰减，攻击间隔降低，每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能），如果成功<$ba.steal>偷取</>攻击速度则额外获得5发弹药</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "addtional_ammo_each",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recover_each_cnt",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_hp_ratio",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_duration",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "steal",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": -0.7,
+            "valueStr": null
+          },
+          {
+            "key": "steal_max",
+            "value": 999.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": "立即<$ba.steal>偷取</>攻击范围内<@ba.vup>1</>名友方干员<@ba.vup>{steal}</>点攻击速度（持续至技能结束或新约能天使离场），自身与其获得最大生命值<@ba.vup>{shield_max_hp_ratio:0%}</>的<$ba.barrier>屏障</>，该<$ba.barrier>屏障</>会持续衰减，攻击间隔降低，每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能），如果成功<$ba.steal>偷取</>攻击速度则额外获得5发弹药</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "addtional_ammo_each",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recover_each_cnt",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_hp_ratio",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_duration",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "steal",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": -0.7,
+            "valueStr": null
+          },
+          {
+            "key": "steal_max",
+            "value": 999.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": "立即<$ba.steal>偷取</>攻击范围内<@ba.vup>1</>名友方干员<@ba.vup>{steal}</>点攻击速度（持续至技能结束或新约能天使离场），自身与其获得最大生命值<@ba.vup>{shield_max_hp_ratio:0%}</>的<$ba.barrier>屏障</>，该<$ba.barrier>屏障</>会持续衰减，攻击间隔降低，每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能），如果成功<$ba.steal>偷取</>攻击速度则额外获得5发弹药</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "addtional_ammo_each",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recover_each_cnt",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_hp_ratio",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_duration",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "steal",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": -0.7,
+            "valueStr": null
+          },
+          {
+            "key": "steal_max",
+            "value": 999.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": "立即<$ba.steal>偷取</>攻击范围内<@ba.vup>1</>名友方干员<@ba.vup>{steal}</>点攻击速度（持续至技能结束或新约能天使离场），自身与其获得最大生命值<@ba.vup>{shield_max_hp_ratio:0%}</>的<$ba.barrier>屏障</>，该<$ba.barrier>屏障</>会持续衰减，攻击间隔降低，每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能），如果成功<$ba.steal>偷取</>攻击速度则额外获得5发弹药</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 22,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "addtional_ammo_each",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recover_each_cnt",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_hp_ratio",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_duration",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "steal",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": -0.7,
+            "valueStr": null
+          },
+          {
+            "key": "steal_max",
+            "value": 999.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": "立即<$ba.steal>偷取</>攻击范围内<@ba.vup>1</>名友方干员<@ba.vup>{steal}</>点攻击速度（持续至技能结束或新约能天使离场），自身与其获得最大生命值<@ba.vup>{shield_max_hp_ratio:0%}</>的<$ba.barrier>屏障</>，该<$ba.barrier>屏障</>会持续衰减，攻击间隔降低，每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能），如果成功<$ba.steal>偷取</>攻击速度则额外获得5发弹药</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 22,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.4,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "addtional_ammo_each",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recover_each_cnt",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_hp_ratio",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_duration",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "steal",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": -0.7,
+            "valueStr": null
+          },
+          {
+            "key": "steal_max",
+            "value": 999.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": "立即<$ba.steal>偷取</>攻击范围内<@ba.vup>1</>名友方干员<@ba.vup>{steal}</>点攻击速度（持续至技能结束或新约能天使离场），自身与其获得最大生命值<@ba.vup>{shield_max_hp_ratio:0%}</>的<$ba.barrier>屏障</>，该<$ba.barrier>屏障</>会持续衰减，攻击间隔降低，每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能），如果成功<$ba.steal>偷取</>攻击速度则额外获得5发弹药</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 22,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "addtional_ammo_each",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recover_each_cnt",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_hp_ratio",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_duration",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "steal",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": -0.7,
+            "valueStr": null
+          },
+          {
+            "key": "steal_max",
+            "value": 999.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": "立即<$ba.steal>偷取</>攻击范围内<@ba.vup>1</>名友方干员<@ba.vup>{steal}</>点攻击速度（持续至技能结束或新约能天使离场），自身与其获得最大生命值<@ba.vup>{shield_max_hp_ratio:0%}</>的<$ba.barrier>屏障</>，该<$ba.barrier>屏障</>会持续衰减，攻击间隔降低，每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能），如果成功<$ba.steal>偷取</>攻击速度则额外获得5发弹药</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 23,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.7,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "addtional_ammo_each",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recover_each_cnt",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_hp_ratio",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_duration",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "steal",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": -0.7,
+            "valueStr": null
+          },
+          {
+            "key": "steal_max",
+            "value": 999.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": "立即<$ba.steal>偷取</>攻击范围内<@ba.vup>1</>名友方干员<@ba.vup>{steal}</>点攻击速度（持续至技能结束或新约能天使离场），自身与其获得最大生命值<@ba.vup>{shield_max_hp_ratio:0%}</>的<$ba.barrier>屏障</>，该<$ba.barrier>屏障</>会持续衰减，攻击间隔降低，每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能），如果成功<$ba.steal>偷取</>攻击速度则额外获得5发弹药</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 23,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "addtional_ammo_each",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recover_each_cnt",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_hp_ratio",
+            "value": 2.2,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_duration",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "steal",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": -0.7,
+            "valueStr": null
+          },
+          {
+            "key": "steal_max",
+            "value": 999.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": "立即<$ba.steal>偷取</>攻击范围内<@ba.vup>1</>名友方干员<@ba.vup>{steal}</>点攻击速度（持续至技能结束或新约能天使离场），自身与其获得最大生命值<@ba.vup>{shield_max_hp_ratio:0%}</>的<$ba.barrier>屏障</>，该<$ba.barrier>屏障</>会持续衰减，攻击间隔降低，每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能），如果成功<$ba.steal>偷取</>攻击速度则额外获得5发弹药</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 23,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.9,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "addtional_ammo_each",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recover_each_cnt",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_hp_ratio",
+            "value": 2.3,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_duration",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "steal",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": -0.7,
+            "valueStr": null
+          },
+          {
+            "key": "steal_max",
+            "value": 999.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": "立即<$ba.steal>偷取</>攻击范围内<@ba.vup>1</>名友方干员<@ba.vup>{steal}</>点攻击速度（持续至技能结束或新约能天使离场），自身与其获得最大生命值<@ba.vup>{shield_max_hp_ratio:0%}</>的<$ba.barrier>屏障</>，该<$ba.barrier>屏障</>会持续衰减，攻击间隔降低，每次攻击造成攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能），如果成功<$ba.steal>偷取</>攻击速度则额外获得5发弹药</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "addtional_ammo_each",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recover_each_cnt",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_hp_ratio",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "shield_max_duration",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "steal",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": -0.7,
+            "valueStr": null
+          },
+          {
+            "key": "steal_max",
+            "value": 999.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_angel2_3": {
+    "skillId": "skchr_angel2_3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@cannon_atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_deploy_character",
+            "value": 99.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sp",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@cannon_atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_deploy_character",
+            "value": 99.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@atk_scale",
+            "value": 1.05,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sp",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.12,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@cannon_atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_deploy_character",
+            "value": 99.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@atk_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sp",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.13,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 22,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@cannon_atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_deploy_character",
+            "value": 99.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@atk_scale",
+            "value": 1.15,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sp",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 22,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@cannon_atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_deploy_character",
+            "value": 99.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@atk_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sp",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.16,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 22,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@cannon_atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_deploy_character",
+            "value": 99.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@atk_scale",
+            "value": 1.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sp",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.18,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@cannon_atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_deploy_character",
+            "value": 99.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@atk_scale",
+            "value": 1.35,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sp",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.2,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 27,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@cannon_atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_deploy_character",
+            "value": 99.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@atk_scale",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sp",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.22,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 28,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@cannon_atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_deploy_character",
+            "value": 99.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@atk_scale",
+            "value": 1.55,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sp",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.25,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel2_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@cannon_atk_scale",
+            "value": 2.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_deploy_character",
+            "value": 99.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@atk_scale",
+            "value": 1.6,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sp",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_angel2_target_1": {
+    "skillId": "sktok_angel2_target_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "天空大扫除",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_1",
+        "duration": -1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_angel2_target_2": {
+    "skillId": "sktok_angel2_target_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_2",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_2",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_2",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_2",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_2",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_2",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_2",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_2",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_2",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "开火成瘾症",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_2",
+        "duration": -1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_angel2_target_3": {
+    "skillId": "sktok_angel2_target_3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "使命必达！",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_angel2_target_3",
+        "duration": -1.0,
+        "blackboard": []
+      }
+    ]
+  },
   "skchr_glady_1": {
     "skillId": "skchr_glady_1",
     "iconId": null,
@@ -259678,6 +264065,1247 @@
           {
             "key": "jesca2_s_3[def].def",
             "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_rmixer_1": {
+    "skillId": "skchr_rmixer_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "铳骑主考官",
+        "rangeId": null,
+        "description": "下次攻击变为<@ba.vup>三连击</>，每次造成相当于<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，并为自身周围另一名开启弹药类技能的【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{charge}</>发",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 7,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "charge",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "铳骑主考官",
+        "rangeId": null,
+        "description": "下次攻击变为<@ba.vup>三连击</>，每次造成相当于<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，并为自身周围另一名开启弹药类技能的【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{charge}</>发",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 7,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "charge",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "铳骑主考官",
+        "rangeId": null,
+        "description": "下次攻击变为<@ba.vup>三连击</>，每次造成相当于<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，并为自身周围另一名开启弹药类技能的【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{charge}</>发",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 7,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "charge",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "铳骑主考官",
+        "rangeId": null,
+        "description": "下次攻击变为<@ba.vup>三连击</>，每次造成相当于<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，并为自身周围另一名开启弹药类技能的【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{charge}</>发",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 6,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "charge",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "铳骑主考官",
+        "rangeId": null,
+        "description": "下次攻击变为<@ba.vup>三连击</>，每次造成相当于<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，并为自身周围另一名开启弹药类技能的【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{charge}</>发",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 6,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.4,
+            "valueStr": null
+          },
+          {
+            "key": "charge",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "铳骑主考官",
+        "rangeId": null,
+        "description": "下次攻击变为<@ba.vup>三连击</>，每次造成相当于<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，并为自身周围另一名开启弹药类技能的【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{charge}</>发",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 6,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "charge",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "铳骑主考官",
+        "rangeId": null,
+        "description": "下次攻击变为<@ba.vup>三连击</>，每次造成相当于<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，并为自身周围另一名开启弹药类技能的【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{charge}</>发",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.6,
+            "valueStr": null
+          },
+          {
+            "key": "charge",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "铳骑主考官",
+        "rangeId": null,
+        "description": "下次攻击变为<@ba.vup>三连击</>，每次造成相当于<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，并为自身周围另一名开启弹药类技能的【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{charge}</>发",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 1,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "charge",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "铳骑主考官",
+        "rangeId": null,
+        "description": "下次攻击变为<@ba.vup>三连击</>，每次造成相当于<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，并为自身周围另一名开启弹药类技能的【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{charge}</>发",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 2,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "charge",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "铳骑主考官",
+        "rangeId": null,
+        "description": "下次攻击变为<@ba.vup>三连击</>，每次造成相当于<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，并为自身周围另一名开启弹药类技能的【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{charge}</>发",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 4,
+          "initSp": 3,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.9,
+            "valueStr": null
+          },
+          {
+            "key": "charge",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_rmixer_2": {
+    "skillId": "skchr_rmixer_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "八臂电锯侠",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，技能期间若受到致命伤害，立即消耗<@ba.vup>{ammo_cost}</>发弹药抵挡这次伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 65,
+          "initSp": 27,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "ammo_cost",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 40.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "八臂电锯侠",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，技能期间若受到致命伤害，立即消耗<@ba.vup>{ammo_cost}</>发弹药抵挡这次伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 65,
+          "initSp": 27,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.65,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.55,
+            "valueStr": null
+          },
+          {
+            "key": "ammo_cost",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 40.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "八臂电锯侠",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，技能期间若受到致命伤害，立即消耗<@ba.vup>{ammo_cost}</>发弹药抵挡这次伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 65,
+          "initSp": 27,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "ammo_cost",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 40.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "八臂电锯侠",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，技能期间若受到致命伤害，立即消耗<@ba.vup>{ammo_cost}</>发弹药抵挡这次伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "ammo_cost",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 42.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "八臂电锯侠",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，技能期间若受到致命伤害，立即消耗<@ba.vup>{ammo_cost}</>发弹药抵挡这次伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.85,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.75,
+            "valueStr": null
+          },
+          {
+            "key": "ammo_cost",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 42.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "八臂电锯侠",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，技能期间若受到致命伤害，立即消耗<@ba.vup>{ammo_cost}</>发弹药抵挡这次伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.9,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "ammo_cost",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 42.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "八臂电锯侠",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，技能期间若受到致命伤害，立即消耗<@ba.vup>{ammo_cost}</>发弹药抵挡这次伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 33,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.05,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.9,
+            "valueStr": null
+          },
+          {
+            "key": "ammo_cost",
+            "value": 25.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 45.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "八臂电锯侠",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，技能期间若受到致命伤害，立即消耗<@ba.vup>{ammo_cost}</>发弹药抵挡这次伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 53,
+          "initSp": 34,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 1.05,
+            "valueStr": null
+          },
+          {
+            "key": "ammo_cost",
+            "value": 25.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 47.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "八臂电锯侠",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，技能期间若受到致命伤害，立即消耗<@ba.vup>{ammo_cost}</>发弹药抵挡这次伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 52,
+          "initSp": 34,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.35,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 1.15,
+            "valueStr": null
+          },
+          {
+            "key": "ammo_cost",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 47.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "八臂电锯侠",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，技能期间若受到致命伤害，立即消耗<@ba.vup>{ammo_cost}</>发弹药抵挡这次伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 35,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "ammo_cost",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_rmixer_3": {
+    "skillId": "skchr_rmixer_3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "退休前布道",
+        "rangeId": "3-13",
+        "description": "技能开启时为所有其他【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{ammo}</>发；攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，停止主动攻击敌人，受到攻击时立即向攻击范围内最多<@ba.vup>{attack@max_target}</>个敌人进行1次反击，反击最小间隔为实际攻击间隔的<@ba.vup>{base_attack_time:0%}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 18,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "ammo",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "退休前布道",
+        "rangeId": "3-13",
+        "description": "技能开启时为所有其他【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{ammo}</>发；攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，停止主动攻击敌人，受到攻击时立即向攻击范围内最多<@ba.vup>{attack@max_target}</>个敌人进行1次反击，反击最小间隔为实际攻击间隔的<@ba.vup>{base_attack_time:0%}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 18,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "ammo",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "退休前布道",
+        "rangeId": "3-13",
+        "description": "技能开启时为所有其他【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{ammo}</>发；攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，停止主动攻击敌人，受到攻击时立即向攻击范围内最多<@ba.vup>{attack@max_target}</>个敌人进行1次反击，反击最小间隔为实际攻击间隔的<@ba.vup>{base_attack_time:0%}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 18,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "ammo",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "退休前布道",
+        "rangeId": "3-13",
+        "description": "技能开启时为所有其他【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{ammo}</>发；攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，停止主动攻击敌人，受到攻击时立即向攻击范围内最多<@ba.vup>{attack@max_target}</>个敌人进行1次反击，反击最小间隔为实际攻击间隔的<@ba.vup>{base_attack_time:0%}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 43,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.4,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "ammo",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "退休前布道",
+        "rangeId": "3-13",
+        "description": "技能开启时为所有其他【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{ammo}</>发；攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，停止主动攻击敌人，受到攻击时立即向攻击范围内最多<@ba.vup>{attack@max_target}</>个敌人进行1次反击，反击最小间隔为实际攻击间隔的<@ba.vup>{base_attack_time:0%}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 43,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "ammo",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "退休前布道",
+        "rangeId": "3-13",
+        "description": "技能开启时为所有其他【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{ammo}</>发；攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，停止主动攻击敌人，受到攻击时立即向攻击范围内最多<@ba.vup>{attack@max_target}</>个敌人进行1次反击，反击最小间隔为实际攻击间隔的<@ba.vup>{base_attack_time:0%}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 43,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.6,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "ammo",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "退休前布道",
+        "rangeId": "3-13",
+        "description": "技能开启时为所有其他【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{ammo}</>发；攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，停止主动攻击敌人，受到攻击时立即向攻击范围内最多<@ba.vup>{attack@max_target}</>个敌人进行1次反击，反击最小间隔为实际攻击间隔的<@ba.vup>{base_attack_time:0%}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 41,
+          "initSp": 22,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.55,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.55,
+            "valueStr": null
+          },
+          {
+            "key": "ammo",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.3,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "退休前布道",
+        "rangeId": "3-13",
+        "description": "技能开启时为所有其他【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{ammo}</>发；攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，停止主动攻击敌人，受到攻击时立即向攻击范围内最多<@ba.vup>{attack@max_target}</>个敌人进行1次反击，反击最小间隔为实际攻击间隔的<@ba.vup>{base_attack_time:0%}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 39,
+          "initSp": 23,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.85,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "ammo",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.3,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "退休前布道",
+        "rangeId": "3-13",
+        "description": "技能开启时为所有其他【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{ammo}</>发；攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，停止主动攻击敌人，受到攻击时立即向攻击范围内最多<@ba.vup>{attack@max_target}</>个敌人进行1次反击，反击最小间隔为实际攻击间隔的<@ba.vup>{base_attack_time:0%}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 37,
+          "initSp": 24,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "ammo",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "退休前布道",
+        "rangeId": "3-13",
+        "description": "技能开启时为所有其他【拉特兰】干员<$ba.addbullet>补弹</><@ba.vup>{ammo}</>发；攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，停止主动攻击敌人，受到攻击时立即向攻击范围内最多<@ba.vup>{attack@max_target}</>个敌人进行1次反击，反击最小间隔为实际攻击间隔的<@ba.vup>{base_attack_time:0%}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_rmixer_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 2.2,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "ammo",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@trigger_time",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.1,
             "valueStr": null
           }
         ]
@@ -307584,6 +313212,119 @@
           {
             "key": "atk_scale",
             "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_dqcrsbow": {
+    "skillId": "sktok_dqcrsbow",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "清债程序",
+        "rangeId": "1-1",
+        "description": "向前方连续射出3颗子弹，每颗子弹对碰到的第一个单位造成物理伤害",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_crsbow",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_dqelec": {
+    "skillId": "sktok_dqelec",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "通电！",
+        "rangeId": "x-2",
+        "description": "激活：每<@ba.vup>{interval}</>秒激发电流对经过的敌人造成<@ba.vup>{attack@value}</>点法术伤害，并使其<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_dqelec",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "interval",
+            "value": 2.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@value",
+            "value": 250.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.5,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_hlnpcb_1": {
+    "skillId": "sktok_hlnpcb_1",
+    "iconId": "sktok_hlnpcb",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "苏醒",
+        "rangeId": "x-2",
+        "description": "为范围内友方单位持续恢复技力和<$ba.addbullet>补弹</>；为美梦中的友方单位快速恢复清醒度",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 60,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_hlnpcb_1",
+        "duration": 10.0,
+        "blackboard": [
+          {
+            "key": "attack@recover_count",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sp",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sleeper_sp",
+            "value": 2.0,
             "valueStr": null
           }
         ]

@@ -44,6 +44,28 @@
       "picGroup": [],
       "usePicGroup": false
     },
+    "act1break": {
+      "id": "act1break",
+      "type": "VEC_BREAK_V2",
+      "displayType": "NONE",
+      "name": "矢量突破：无机物",
+      "startTime": 1747296000,
+      "endTime": 1749067199,
+      "rewardEndTime": 1749326399,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": null,
+      "medalGroupId": "medalGroupActivityAct1break",
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": true,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act42side": {
       "id": "act42side",
       "type": "TYPE_ACT42SIDE",
@@ -6095,6 +6117,9 @@
     }
   },
   "zoneToActivity": {
+    "act1break_zone1": "act1break",
+    "act1break_zone2": "act1break",
+    "act1break_zone3": "act1break",
     "act42side_zone1": "act42side",
     "act42side_zone2": "act42side",
     "act42side_zone3": "act42side",
@@ -184953,7 +184978,1775 @@
         }
       }
     },
-    "VEC_BREAK_V2": {},
+    "VEC_BREAK_V2": {
+      "act1break": {
+        "offenseStageDict": {
+          "act1break_01": {
+            "stageId": "act1break_01",
+            "level": 1,
+            "levelLayout": "vecbv2_normal_1",
+            "storyDesc": "相传这是古时曾用于竞速的结晶跑道，虽然已经残破不堪，但仍吸引了一大批不守规则的狂奔爱好者。",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act1break_02": {
+            "stageId": "act1break_02",
+            "level": 2,
+            "levelLayout": "vecbv2_normal_2",
+            "storyDesc": "醉酒后横穿道路的行人，未报备的低空飞行员，为什么他们的速度都越来越快了？",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act1break_03": {
+            "stageId": "act1break_03",
+            "level": 3,
+            "levelLayout": "vecbv2_normal_3",
+            "storyDesc": "潮汐起落的节奏变得不再可靠，威胁在时间嘀嗒声中不断累积，任何行动都要分秒必争。",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act1break_04": {
+            "stageId": "act1break_04",
+            "level": 4,
+            "levelLayout": "vecbv2_boss_1",
+            "storyDesc": "“没人会要求你永不犯错，但我希望你在面对错误时，能快速找到最优的解决方案。”",
+            "particleType": "NONE",
+            "bossData": {
+              "enemyId": "enemy_8010_mcnist",
+              "name": "“Mechanist”，机械之心",
+              "desc": "【自我防御术式】周期性获得可以抵挡物理及法术伤害的护盾，护盾受到一定次数攻击后被击破\\n【聚焦算法】锁定一个目标进行数次轰炸，每次轰炸对目标及其周围的单位造成数次物理伤害\\n【生命链接方程】和<结构性原理>协同作战",
+              "level": 1,
+              "iconId": "vecbv2_offense_boss_mcnist",
+              "levelDecoFigureId": "enemy_8010_mcnist_deco_1",
+              "levelDecoSignId": "enemy_8010_mcnist_deco_2",
+              "decoId": null
+            }
+          },
+          "act1break_05": {
+            "stageId": "act1break_05",
+            "level": 5,
+            "levelLayout": "vecbv2_normal_4",
+            "storyDesc": "无尽之火，不熄之魂。一场无法停下的追逐。",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act1break_06": {
+            "stageId": "act1break_06",
+            "level": 6,
+            "levelLayout": "vecbv2_normal_5",
+            "storyDesc": "他山之“玉”，加以猛火，二次烧成，釉色赤霞，小心易碎。",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act1break_07": {
+            "stageId": "act1break_07",
+            "level": 7,
+            "levelLayout": "vecbv2_normal_6",
+            "storyDesc": "灶火和食材都准备妥当了，但还要解决掉眼前的不速之客——先喝杯果汁再说吧。",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act1break_08": {
+            "stageId": "act1break_08",
+            "level": 8,
+            "levelLayout": "vecbv2_boss_2",
+            "storyDesc": "“你曾经面对过比这更繁杂艰难的局面，你当时是如何应对的？你有将问题切分拆解再逐个击破吗？你有找到逆转局面的关键吗？”",
+            "particleType": "HARD",
+            "bossData": {
+              "enemyId": "enemy_8010_mcnist_2",
+              "name": "“Mechanist”，机械之心",
+              "desc": "【涅槃程序】重生阶段，期间每隔数秒锁定全场阻挡数最高的目标进行攻击并降低其阻挡数上限\\n【工程学流星雨】第二形态下，当<结构性原理>被阻挡时，锁定阻挡目标进行攻击，并降低其阻挡数上限",
+              "level": 2,
+              "iconId": "vecbv2_offense_boss_mcnist",
+              "levelDecoFigureId": "enemy_8010_mcnist_deco_1",
+              "levelDecoSignId": "enemy_8010_mcnist_deco_2",
+              "decoId": null
+            }
+          },
+          "act1break_09": {
+            "stageId": "act1break_09",
+            "level": 9,
+            "levelLayout": "vecbv2_normal_7",
+            "storyDesc": "加速涌来的潮水将沙堡淹没，建筑沙堡之人开始四处倾泄自己的怒火。",
+            "particleType": "HARD",
+            "bossData": null
+          },
+          "act1break_10": {
+            "stageId": "act1break_10",
+            "level": 10,
+            "levelLayout": "vecbv2_normal_8",
+            "storyDesc": "喷涌而出的并非礼花，打在身上还很烫，很痛。",
+            "particleType": "HARD",
+            "bossData": null
+          },
+          "act1break_11": {
+            "stageId": "act1break_11",
+            "level": 11,
+            "levelLayout": "vecbv2_normal_9",
+            "storyDesc": "身处火山之侧，也要警惕潮水袭来的方向。",
+            "particleType": "HARD",
+            "bossData": null
+          },
+          "act1break_12": {
+            "stageId": "act1break_12",
+            "level": 12,
+            "levelLayout": "vecbv2_boss_3",
+            "storyDesc": "“有时，你敢于不断地尝试是因为已经知晓必定有一种成功的解法。但如果去掉这个前提呢？你还会那样锲而不舍地尝试吗？在挑战我之前，先向自己证明那成功可能性的存在吧。这一步骤不可省略。”",
+            "particleType": "HARD",
+            "bossData": {
+              "enemyId": "enemy_8010_mcnist_3",
+              "name": "“Mechanist”，机械之心",
+              "desc": "第二形态下，生命值首次降至50%以下时再次启动【涅槃程序】",
+              "level": 3,
+              "iconId": "vecbv2_offense_boss_mcnist",
+              "levelDecoFigureId": "enemy_8010_mcnist_deco_1",
+              "levelDecoSignId": "enemy_8010_mcnist_deco_2",
+              "decoId": null
+            }
+          }
+        },
+        "hardStageDict": {},
+        "defenseBasicDict": {
+          "act1break_sp01": {
+            "stageId": "act1break_sp01",
+            "groupId": null,
+            "sortId": 1,
+            "startTs": 1747296000
+          },
+          "act1break_sp02": {
+            "stageId": "act1break_sp02",
+            "groupId": null,
+            "sortId": 2,
+            "startTs": 1747296000
+          },
+          "act1break_sp03": {
+            "stageId": "act1break_sp03",
+            "groupId": null,
+            "sortId": 3,
+            "startTs": 1747296000
+          },
+          "act1break_sp04": {
+            "stageId": "act1break_sp04",
+            "groupId": "spGroup01",
+            "sortId": 11,
+            "startTs": 1747296000
+          },
+          "act1break_sp05": {
+            "stageId": "act1break_sp05",
+            "groupId": "spGroup01",
+            "sortId": 12,
+            "startTs": 1747296000
+          },
+          "act1break_sp06": {
+            "stageId": "act1break_sp06",
+            "groupId": null,
+            "sortId": 4,
+            "startTs": 1747598400
+          },
+          "act1break_sp07": {
+            "stageId": "act1break_sp07",
+            "groupId": "spGroup02",
+            "sortId": 9,
+            "startTs": 1747598400
+          },
+          "act1break_sp08": {
+            "stageId": "act1break_sp08",
+            "groupId": "spGroup02",
+            "sortId": 10,
+            "startTs": 1747598400
+          },
+          "act1break_sp09": {
+            "stageId": "act1break_sp09",
+            "groupId": null,
+            "sortId": 5,
+            "startTs": 1747900800
+          },
+          "act1break_sp10": {
+            "stageId": "act1break_sp10",
+            "groupId": null,
+            "sortId": 6,
+            "startTs": 1747900800
+          },
+          "act1break_sp11": {
+            "stageId": "act1break_sp11",
+            "groupId": null,
+            "sortId": 7,
+            "startTs": 1747900800
+          },
+          "act1break_sp12": {
+            "stageId": "act1break_sp12",
+            "groupId": "spGroup03",
+            "sortId": 13,
+            "startTs": 1747900800
+          },
+          "act1break_sp13": {
+            "stageId": "act1break_sp13",
+            "groupId": "spGroup03",
+            "sortId": 14,
+            "startTs": 1747900800
+          },
+          "act1break_sp14": {
+            "stageId": "act1break_sp14",
+            "groupId": null,
+            "sortId": 8,
+            "startTs": 1748116800
+          },
+          "act1break_sp15": {
+            "stageId": "act1break_sp15",
+            "groupId": "spGroup04",
+            "sortId": 15,
+            "startTs": 1748116800
+          },
+          "act1break_sp16": {
+            "stageId": "act1break_sp16",
+            "groupId": "spGroup04",
+            "sortId": 16,
+            "startTs": 1748116800
+          }
+        },
+        "defenseDetailDict": {
+          "act1break_sp01": {
+            "stageId": "act1break_sp01",
+            "buffId": "act1break_rune01",
+            "defenseCharLimit": 1,
+            "bossIconId": "vec_break_defense_enemy_1"
+          },
+          "act1break_sp02": {
+            "stageId": "act1break_sp02",
+            "buffId": "act1break_rune11",
+            "defenseCharLimit": 1,
+            "bossIconId": "vec_break_defense_enemy_2"
+          },
+          "act1break_sp03": {
+            "stageId": "act1break_sp03",
+            "buffId": "act1break_rune09",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_break_defense_enemy_3"
+          },
+          "act1break_sp04": {
+            "stageId": "act1break_sp04",
+            "buffId": "act1break_rune04",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_break_defense_enemy_4"
+          },
+          "act1break_sp05": {
+            "stageId": "act1break_sp05",
+            "buffId": "act1break_rune05",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_break_defense_enemy_5"
+          },
+          "act1break_sp06": {
+            "stageId": "act1break_sp06",
+            "buffId": "act1break_rune03",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_break_defense_enemy_6"
+          },
+          "act1break_sp07": {
+            "stageId": "act1break_sp07",
+            "buffId": "act1break_rune07",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_break_defense_enemy_7"
+          },
+          "act1break_sp08": {
+            "stageId": "act1break_sp08",
+            "buffId": "act1break_rune08",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_break_defense_enemy_8"
+          }
+        },
+        "zoneDict": {
+          "act1break_zone1": {
+            "zoneId": "act1break_zone1",
+            "stageLockHint": null
+          },
+          "act1break_zone2": {
+            "zoneId": "act1break_zone2",
+            "stageLockHint": "完成核心突破后解锁"
+          },
+          "act1break_zone3": {
+            "zoneId": "act1break_zone3",
+            "stageLockHint": "突破第一层后解锁"
+          }
+        },
+        "defenseGroupDict": {
+          "spGroup01": {
+            "groupId": "spGroup01",
+            "sortId": 1,
+            "orderedStageList": [
+              "act1break_sp04",
+              "act1break_sp05"
+            ]
+          },
+          "spGroup02": {
+            "groupId": "spGroup02",
+            "sortId": 2,
+            "orderedStageList": [
+              "act1break_sp07",
+              "act1break_sp08"
+            ]
+          },
+          "spGroup03": {
+            "groupId": "spGroup03",
+            "sortId": 3,
+            "orderedStageList": [
+              "act1break_sp12",
+              "act1break_sp13"
+            ]
+          },
+          "spGroup04": {
+            "groupId": "spGroup04",
+            "sortId": 4,
+            "orderedStageList": [
+              "act1break_sp15",
+              "act1break_sp16"
+            ]
+          }
+        },
+        "battleBuffDict": {
+          "act1break_rune01": {
+            "buffId": "act1break_rune01",
+            "name": "气密装备",
+            "desc": "作战时额外获得1个“防水蚀镀膜装置”",
+            "iconId": "vec_break_v2_relic_01",
+            "runeData": {
+              "id": "vec_break_v2_relic_01",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "作战时额外获得1个“防水蚀镀膜装置”",
+              "runes": [
+                {
+                  "key": "insert_token_card",
+                  "selector": {
+                    "professionMask": "TRAP",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "token_key",
+                      "value": 0.0,
+                      "valueStr": "trap_046_oxygen"
+                    },
+                    {
+                      "key": "cnt",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act1break_rune03": {
+            "buffId": "act1break_rune03",
+            "name": "劣变程序",
+            "desc": "所有敌人防御力-20%",
+            "iconId": "vec_break_v2_relic_03",
+            "runeData": {
+              "id": "vec_break_v2_relic_03",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有敌人防御力-20%",
+              "runes": [
+                {
+                  "key": "enemy_attribute_mul",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 0.8,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act1break_rune04": {
+            "buffId": "act1break_rune04",
+            "name": "潜入装备",
+            "desc": "所有近卫、先锋干员部署费用-2且可在已涨潮的地块部署",
+            "iconId": "vec_break_v2_relic_04",
+            "runeData": {
+              "id": "vec_break_v2_relic_04",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有近卫、先锋干员部署费用-2且可在已涨潮的地块部署",
+              "runes": [
+                {
+                  "key": "card_buff_by_profession",
+                  "selector": {
+                    "professionMask": 513,
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "advanced_buildable_mask",
+                      "value": 4.0,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_cost_add",
+                  "selector": {
+                    "professionMask": 513,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": -2.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act1break_rune05": {
+            "buffId": "act1break_rune05",
+            "name": "深潜装备",
+            "desc": "所有重装、近卫、先锋、特种干员部署费用-2且可在已涨潮的地块部署（无法和普通补给同时携带）",
+            "iconId": "vec_break_v2_relic_05",
+            "runeData": {
+              "id": "vec_break_v2_relic_05",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有重装、近卫、先锋、特种干员部署费用-2且可在已涨潮的地块部署（无法和普通补给同时携带）",
+              "runes": [
+                {
+                  "key": "card_buff_by_profession",
+                  "selector": {
+                    "professionMask": 581,
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "advanced_buildable_mask",
+                      "value": 4.0,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_cost_add",
+                  "selector": {
+                    "professionMask": 581,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": -2.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act1break_rune07": {
+            "buffId": "act1break_rune07",
+            "name": "隔离装备",
+            "desc": "我方单位受到来自自然环境的伤害-50%，每秒回复1%最大生命",
+            "iconId": "vec_break_v2_relic_07",
+            "runeData": {
+              "id": "vec_break_v2_relic_07",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "我方单位受到来自自然环境的伤害-50%，每秒回复1%最大生命",
+              "runes": [
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "damage_resistance[env]"
+                    },
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.5,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "hp_recovery_per_sec_by_max_hp_ratio[add]"
+                    },
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.01,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act1break_rune08": {
+            "buffId": "act1break_rune08",
+            "name": "绝缘装备",
+            "desc": "我方单位受到来自自然环境的伤害-90%，每秒回复2%最大生命（无法和普通补给同时携带）",
+            "iconId": "vec_break_v2_relic_08",
+            "runeData": {
+              "id": "vec_break_v2_relic_08",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "我方单位受到来自自然环境的伤害-90%，每秒回复2%最大生命（无法和普通补给同时携带）",
+              "runes": [
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "damage_resistance[env]"
+                    },
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.9,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "hp_recovery_per_sec_by_max_hp_ratio[add]"
+                    },
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.02,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act1break_rune09": {
+            "buffId": "act1break_rune09",
+            "name": "卫御装备",
+            "desc": "我方单位部署时获得2层护盾",
+            "iconId": "vec_break_v2_relic_09",
+            "runeData": {
+              "id": "vec_break_v2_relic_09",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有单位部署时获得2层护盾",
+              "runes": [
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "damage_block[stack]"
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "damage_block[stack]"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act1break_rune11": {
+            "buffId": "act1break_rune11",
+            "name": "储能装备",
+            "desc": "初始部署费用+10",
+            "iconId": "vec_break_v2_relic_11",
+            "runeData": {
+              "id": "vec_break_v2_relic_11",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "初始部署费用+10",
+              "runes": [
+                {
+                  "key": "global_initial_cost_add",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 10.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "milestoneList": [
+          {
+            "milestoneId": "mileStone_1",
+            "orderId": 1,
+            "tokenNum": 40,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_2",
+            "orderId": 2,
+            "tokenNum": 80,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_3",
+            "orderId": 3,
+            "tokenNum": 120,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_4",
+            "orderId": 4,
+            "tokenNum": 160,
+            "reward": {
+              "id": "31053",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_5",
+            "orderId": 5,
+            "tokenNum": 200,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_6",
+            "orderId": 6,
+            "tokenNum": 245,
+            "reward": {
+              "id": "30044",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_7",
+            "orderId": 7,
+            "tokenNum": 290,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_8",
+            "orderId": 8,
+            "tokenNum": 335,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_9",
+            "orderId": 9,
+            "tokenNum": 380,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_10",
+            "orderId": 10,
+            "tokenNum": 425,
+            "reward": {
+              "id": "30145",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_11",
+            "orderId": 11,
+            "tokenNum": 475,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_12",
+            "orderId": 12,
+            "tokenNum": 525,
+            "reward": {
+              "id": "31053",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_13",
+            "orderId": 13,
+            "tokenNum": 575,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_14",
+            "orderId": 14,
+            "tokenNum": 625,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_15",
+            "orderId": 15,
+            "tokenNum": 675,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_16",
+            "orderId": 16,
+            "tokenNum": 730,
+            "reward": {
+              "id": "31053",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_17",
+            "orderId": 17,
+            "tokenNum": 785,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_18",
+            "orderId": 18,
+            "tokenNum": 840,
+            "reward": {
+              "id": "31044",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_19",
+            "orderId": 19,
+            "tokenNum": 895,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_20",
+            "orderId": 20,
+            "tokenNum": 950,
+            "reward": {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_21",
+            "orderId": 21,
+            "tokenNum": 1005,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_22",
+            "orderId": 22,
+            "tokenNum": 1060,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_23",
+            "orderId": 23,
+            "tokenNum": 1115,
+            "reward": {
+              "id": "31053",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_24",
+            "orderId": 24,
+            "tokenNum": 1170,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_25",
+            "orderId": 25,
+            "tokenNum": 1225,
+            "reward": {
+              "id": "31074",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_26",
+            "orderId": 26,
+            "tokenNum": 1280,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_27",
+            "orderId": 27,
+            "tokenNum": 1335,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_28",
+            "orderId": 28,
+            "tokenNum": 1390,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_29",
+            "orderId": 29,
+            "tokenNum": 1445,
+            "reward": {
+              "id": "31053",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_30",
+            "orderId": 30,
+            "tokenNum": 1500,
+            "reward": {
+              "id": "char_163_hpsts@boc#10",
+              "count": 1,
+              "type": "CHAR_SKIN"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_31",
+            "orderId": 31,
+            "tokenNum": 1560,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_32",
+            "orderId": 32,
+            "tokenNum": 1620,
+            "reward": {
+              "id": "30044",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_33",
+            "orderId": 33,
+            "tokenNum": 1680,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_34",
+            "orderId": 34,
+            "tokenNum": 1740,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_35",
+            "orderId": 35,
+            "tokenNum": 1800,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_36",
+            "orderId": 36,
+            "tokenNum": 1860,
+            "reward": {
+              "id": "31053",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_37",
+            "orderId": 37,
+            "tokenNum": 1920,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_38",
+            "orderId": 38,
+            "tokenNum": 1980,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_39",
+            "orderId": 39,
+            "tokenNum": 2040,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_40",
+            "orderId": 40,
+            "tokenNum": 2100,
+            "reward": {
+              "id": "30145",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747296000
+          },
+          {
+            "milestoneId": "mileStone_41",
+            "orderId": 41,
+            "tokenNum": 2150,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_42",
+            "orderId": 42,
+            "tokenNum": 2200,
+            "reward": {
+              "id": "31053",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_43",
+            "orderId": 43,
+            "tokenNum": 2250,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_44",
+            "orderId": 44,
+            "tokenNum": 2300,
+            "reward": {
+              "id": "31044",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_45",
+            "orderId": 45,
+            "tokenNum": 2350,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_46",
+            "orderId": 46,
+            "tokenNum": 2405,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_47",
+            "orderId": 47,
+            "tokenNum": 2460,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_48",
+            "orderId": 48,
+            "tokenNum": 2515,
+            "reward": {
+              "id": "31053",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_49",
+            "orderId": 49,
+            "tokenNum": 2570,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_50",
+            "orderId": 50,
+            "tokenNum": 2625,
+            "reward": {
+              "id": "furni_vector_s1_01",
+              "count": 1,
+              "type": "FURN"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_51",
+            "orderId": 51,
+            "tokenNum": 2685,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_52",
+            "orderId": 52,
+            "tokenNum": 2745,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_53",
+            "orderId": 53,
+            "tokenNum": 2805,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_54",
+            "orderId": 54,
+            "tokenNum": 2865,
+            "reward": {
+              "id": "31074",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_55",
+            "orderId": 55,
+            "tokenNum": 2925,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_56",
+            "orderId": 56,
+            "tokenNum": 2990,
+            "reward": {
+              "id": "31053",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_57",
+            "orderId": 57,
+            "tokenNum": 3055,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_58",
+            "orderId": 58,
+            "tokenNum": 3120,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_59",
+            "orderId": 59,
+            "tokenNum": 3185,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_60",
+            "orderId": 60,
+            "tokenNum": 3250,
+            "reward": {
+              "id": "30044",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_61",
+            "orderId": 61,
+            "tokenNum": 3320,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_62",
+            "orderId": 62,
+            "tokenNum": 3390,
+            "reward": {
+              "id": "31053",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_63",
+            "orderId": 63,
+            "tokenNum": 3460,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_64",
+            "orderId": 64,
+            "tokenNum": 3530,
+            "reward": {
+              "id": "31044",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1747900800
+          },
+          {
+            "milestoneId": "mileStone_65",
+            "orderId": 65,
+            "tokenNum": 3600,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1747900800
+          }
+        ],
+        "stageRewardDict": {
+          "act1break_01": {
+            "stageId": "act1break_01",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act1break_02": {
+            "stageId": "act1break_02",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act1break_03": {
+            "stageId": "act1break_03",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act1break_04": {
+            "stageId": "act1break_04",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act1break_05": {
+            "stageId": "act1break_05",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act1break_06": {
+            "stageId": "act1break_06",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act1break_07": {
+            "stageId": "act1break_07",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act1break_08": {
+            "stageId": "act1break_08",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act1break_09": {
+            "stageId": "act1break_09",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act1break_10": {
+            "stageId": "act1break_10",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act1break_11": {
+            "stageId": "act1break_11",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act1break_12": {
+            "stageId": "act1break_12",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act1break_sp01": {
+            "stageId": "act1break_sp01",
+            "completeRewardCnt": 25,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1747296000,
+              "endTs": 1747598399,
+              "rewardCnt": 25
+            }
+          },
+          "act1break_sp02": {
+            "stageId": "act1break_sp02",
+            "completeRewardCnt": 25,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1747296000,
+              "endTs": 1747598399,
+              "rewardCnt": 25
+            }
+          },
+          "act1break_sp03": {
+            "stageId": "act1break_sp03",
+            "completeRewardCnt": 25,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1747296000,
+              "endTs": 1747598399,
+              "rewardCnt": 25
+            }
+          },
+          "act1break_sp04": {
+            "stageId": "act1break_sp04",
+            "completeRewardCnt": 25,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1747296000,
+              "endTs": 1747598399,
+              "rewardCnt": 25
+            }
+          },
+          "act1break_sp05": {
+            "stageId": "act1break_sp05",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1747296000,
+              "endTs": 1747598399,
+              "rewardCnt": 35
+            }
+          },
+          "act1break_sp06": {
+            "stageId": "act1break_sp06",
+            "completeRewardCnt": 25,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1747598400,
+              "endTs": 1747900799,
+              "rewardCnt": 25
+            }
+          },
+          "act1break_sp07": {
+            "stageId": "act1break_sp07",
+            "completeRewardCnt": 25,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1747598400,
+              "endTs": 1747900799,
+              "rewardCnt": 25
+            }
+          },
+          "act1break_sp08": {
+            "stageId": "act1break_sp08",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1747598400,
+              "endTs": 1747900799,
+              "rewardCnt": 35
+            }
+          }
+        },
+        "constData": {
+          "defenseDesc": "同时可以激活四个补给",
+          "defenseOverviewName": null,
+          "milestoneName": "突破里程碑",
+          "milestoneItemId": "act1break_milestone_point",
+          "bossDescTitle": "考官强化",
+          "defenseUnlockRequireStageId": "act1break_sp01",
+          "offenseNavLockToastStageId": "act1break_01",
+          "offenseNavLockToastStr": "通关当前关卡后解锁",
+          "offenseHardUnlockToast": "全力以赴区域已解锁",
+          "hardUnlockStageId": "act1break_h01",
+          "defenseRetreatSingleText": "撤离驻防后，对应补给将无法激活。确认撤离吗？",
+          "defenseRetreatMultipleText": "撤离驻防后，对应高级补给“{0}”也将失效。确认撤离吗？",
+          "defenseReplaceText": "是否使用新阵容替换原驻防阵容？",
+          "defenseEquipBuffLimit": 4,
+          "displayMedalId": "medal_activity_act1break_01",
+          "defenseAddBuffToast": "补给已启用",
+          "defenseRemoveBuffToast": "补给已关闭",
+          "defenseReplaceBuffToast": "补给已替换",
+          "defenseBuffExceedToast": "补给启用数量已达上限，请调整",
+          "defendSameGroupHint": "同组关卡驻防中",
+          "defendOtherHint": "特别战线驻防中",
+          "defenseBuffLockToast": "请前往特别战线激活增益",
+          "offenseBuffSelectUnsaveHint": "当前页面有未保存的设置，确认返回吗？",
+          "defenceBattleFinishEquipText": "{0}已启用",
+          "defenceBattleFinishActivateText": "{0}已激活",
+          "defenceBattleFinishSquadText": "驻防阵容已更新",
+          "milestoneTrackId": "milestone_expand"
+        },
+        "squadBuffAvailStageList": [
+          "act1break_01",
+          "act1break_02",
+          "act1break_03",
+          "act1break_04",
+          "act1break_05",
+          "act1break_06",
+          "act1break_07",
+          "act1break_08",
+          "act1break_09",
+          "act1break_10",
+          "act1break_11",
+          "act1break_12",
+          "act1break_h01",
+          "act1break_h02",
+          "act1break_h03",
+          "act1break_h04"
+        ],
+        "scheduleBlockList": [
+          {
+            "startTs": 1747296000,
+            "endTs": 1747598399
+          },
+          {
+            "startTs": 1747598400,
+            "endTs": 1747900799
+          },
+          {
+            "startTs": 1747900800,
+            "endTs": 1748116799
+          },
+          {
+            "startTs": 1748116800,
+            "endTs": 1748462399
+          }
+        ],
+        "defenseZoneId": "act1break_zone3",
+        "offenseZoneId": "act1break_zone1",
+        "hardZoneId": "act1break_zone2",
+        "firstDefenseGroupId": "spGroup01"
+      }
+    },
     "TYPE_ACT36SIDE": {
       "act36side": {
         "zoneAdditionData": {
@@ -212841,6 +214634,9 @@
     }
   },
   "activityItems": {
+    "act1break": [
+      "act1break_milestone_point"
+    ],
     "act42side": [
       "act42side_token_pacifier"
     ],
@@ -219815,6 +221611,34 @@
       ],
       "picGroups": [],
       "startTs": 1746072000
+    },
+    {
+      "id": "dis_break_1",
+      "type": "ACTIVITY",
+      "funcId": "act1break",
+      "endTs": 1749067199,
+      "sortId": 114,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "<矢量突破#1 无机物>活动已开放",
+          "ts": 1747296000
+        },
+        {
+          "title": "开放\"特别战线\"新关卡",
+          "ts": 1747598400
+        },
+        {
+          "title": "开放“全力以赴”和\"特别战线\"新关卡",
+          "ts": 1747900800
+        },
+        {
+          "title": "开放\"特别战线\"新关卡",
+          "ts": 1748116800
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1747296000
     }
   ],
   "actFunData": {
@@ -247993,6 +249817,17 @@
     }
   },
   "activityCrossDayTrackTypeDataDict": {
+    "act1break_milestone_expand": {
+      "type": "act1break_milestone_expand",
+      "startTs": 1747900799,
+      "expireTs": 1749326399,
+      "dataDict": {
+        "milestone_expand": {
+          "updateEndTs": 1747943999,
+          "id": "milestone_expand"
+        }
+      }
+    },
     "act1enemyduel_milestone_day_track_1": {
       "type": "act1enemyduel_milestone_day_track_1",
       "startTs": 1746072000,
@@ -248204,6 +250039,9 @@
     }
   },
   "activityCrossDayTrackTypeMap": {
+    "act1break": [
+      "act1break_milestone_expand"
+    ],
     "act1enemyduel": [
       "act1enemyduel_milestone_day_track_1"
     ],

@@ -86569,6 +86569,850 @@
       }
     ]
   },
+  "skchr_christ_1": {
+    "skillId": "skchr_christ_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "自由用餐礼仪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，同时攻击<@ba.vup>2</>名敌人，攻击附带造成法术伤害<@ba.vup>{attack@ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ep_damage_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "自由用餐礼仪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，同时攻击<@ba.vup>2</>名敌人，攻击附带造成法术伤害<@ba.vup>{attack@ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 48,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ep_damage_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "自由用餐礼仪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，同时攻击<@ba.vup>2</>名敌人，攻击附带造成法术伤害<@ba.vup>{attack@ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 46,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ep_damage_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "自由用餐礼仪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，同时攻击<@ba.vup>2</>名敌人，攻击附带造成法术伤害<@ba.vup>{attack@ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 43,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ep_damage_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "自由用餐礼仪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，同时攻击<@ba.vup>2</>名敌人，攻击附带造成法术伤害<@ba.vup>{attack@ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 41,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ep_damage_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "自由用餐礼仪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，同时攻击<@ba.vup>2</>名敌人，攻击附带造成法术伤害<@ba.vup>{attack@ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 39,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ep_damage_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "自由用餐礼仪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，同时攻击<@ba.vup>2</>名敌人，攻击附带造成法术伤害<@ba.vup>{attack@ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 37,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ep_damage_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "自由用餐礼仪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，同时攻击<@ba.vup>2</>名敌人，攻击附带造成法术伤害<@ba.vup>{attack@ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 34,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ep_damage_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "自由用餐礼仪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，同时攻击<@ba.vup>2</>名敌人，攻击附带造成法术伤害<@ba.vup>{attack@ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 32,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ep_damage_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "自由用餐礼仪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，同时攻击<@ba.vup>2</>名敌人，攻击附带造成法术伤害<@ba.vup>{attack@ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@ep_damage_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_christ_2": {
+    "skillId": "skchr_christ_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "狂饮之宴",
+        "rangeId": null,
+        "description": "停止攻击，向目标所在的位置释放感知灵体，感知灵体每秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害且对处于<$ba.dt.neural2>神经损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>{atk_scale_ep:0%}</>的元素伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_2",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_delay_time",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_ep",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.65,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "狂饮之宴",
+        "rangeId": null,
+        "description": "停止攻击，向目标所在的位置释放感知灵体，感知灵体每秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害且对处于<$ba.dt.neural2>神经损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>{atk_scale_ep:0%}</>的元素伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 44,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_2",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_delay_time",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_ep",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.65,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "狂饮之宴",
+        "rangeId": null,
+        "description": "停止攻击，向目标所在的位置释放感知灵体，感知灵体每秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害且对处于<$ba.dt.neural2>神经损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>{atk_scale_ep:0%}</>的元素伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 43,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_2",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_delay_time",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_ep",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.65,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "狂饮之宴",
+        "rangeId": null,
+        "description": "停止攻击，向目标所在的位置释放感知灵体，感知灵体每秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害且对处于<$ba.dt.neural2>神经损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>{atk_scale_ep:0%}</>的元素伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 42,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_2",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_delay_time",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_ep",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.75,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "狂饮之宴",
+        "rangeId": null,
+        "description": "停止攻击，向目标所在的位置释放感知灵体，感知灵体每秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害且对处于<$ba.dt.neural2>神经损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>{atk_scale_ep:0%}</>的元素伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 41,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_2",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_delay_time",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_ep",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.75,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "狂饮之宴",
+        "rangeId": null,
+        "description": "停止攻击，向目标所在的位置释放感知灵体，感知灵体每秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害且对处于<$ba.dt.neural2>神经损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>{atk_scale_ep:0%}</>的元素伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_2",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_delay_time",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_ep",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.75,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "狂饮之宴",
+        "rangeId": null,
+        "description": "停止攻击，向目标所在的位置释放感知灵体，感知灵体每秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害且对处于<$ba.dt.neural2>神经损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>{atk_scale_ep:0%}</>的元素伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 39,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_2",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_delay_time",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_ep",
+            "value": 0.75,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.85,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "狂饮之宴",
+        "rangeId": null,
+        "description": "停止攻击，向目标所在的位置释放感知灵体，感知灵体每秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害且对处于<$ba.dt.neural2>神经损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>{atk_scale_ep:0%}</>的元素伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 37,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_2",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_delay_time",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_ep",
+            "value": 0.85,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.95,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "狂饮之宴",
+        "rangeId": null,
+        "description": "停止攻击，向目标所在的位置释放感知灵体，感知灵体每秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害且对处于<$ba.dt.neural2>神经损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>{atk_scale_ep:0%}</>的元素伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 36,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_2",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_delay_time",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_ep",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.05,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "狂饮之宴",
+        "rangeId": null,
+        "description": "停止攻击，向目标所在的位置释放感知灵体，感知灵体每秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害且对处于<$ba.dt.neural2>神经损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>{atk_scale_ep:0%}</>的元素伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_christ_2",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_delay_time",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_ep",
+            "value": 1.15,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.15,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
   "skchr_lionhd_2": {
     "skillId": "skchr_lionhd_2",
     "iconId": null,
@@ -150621,6 +151465,600 @@
       }
     ]
   },
+  "skchr_tippi_1": {
+    "skillId": "skchr_tippi_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "专业喷绘技巧",
+        "rangeId": "2-3",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "专业喷绘技巧",
+        "rangeId": "2-3",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "专业喷绘技巧",
+        "rangeId": "2-3",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "专业喷绘技巧",
+        "rangeId": "2-3",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 3,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_1",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.45,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "专业喷绘技巧",
+        "rangeId": "2-3",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 3,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_1",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "专业喷绘技巧",
+        "rangeId": "2-3",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 3,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_1",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.55,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "专业喷绘技巧",
+        "rangeId": "2-3",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 6,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_1",
+        "duration": 34.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "专业喷绘技巧",
+        "rangeId": "2-3",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 7,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_1",
+        "duration": 36.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.75,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "专业喷绘技巧",
+        "rangeId": "2-3",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 8,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_1",
+        "duration": 38.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.9,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "专业喷绘技巧",
+        "rangeId": "2-3",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_1",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_tippi_2": {
+    "skillId": "skchr_tippi_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "紧急赶场通知",
+        "rangeId": "y-1",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>3</>连射\\n<@ba.rem>受到攻击后触发，并闪避本次物理或法术伤害</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 19,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "紧急赶场通知",
+        "rangeId": "y-1",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>3</>连射\\n<@ba.rem>受到攻击后触发，并闪避本次物理或法术伤害</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 18,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.13,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "紧急赶场通知",
+        "rangeId": "y-1",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>3</>连射\\n<@ba.rem>受到攻击后触发，并闪避本次物理或法术伤害</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 17,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.16,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "紧急赶场通知",
+        "rangeId": "y-1",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>3</>连射\\n<@ba.rem>受到攻击后触发，并闪避本次物理或法术伤害</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 16,
+          "initSp": 1,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "紧急赶场通知",
+        "rangeId": "y-1",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>3</>连射\\n<@ba.rem>受到攻击后触发，并闪避本次物理或法术伤害</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 1,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.23,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "紧急赶场通知",
+        "rangeId": "y-1",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>3</>连射\\n<@ba.rem>受到攻击后触发，并闪避本次物理或法术伤害</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 14,
+          "initSp": 1,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.26,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "紧急赶场通知",
+        "rangeId": "y-1",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>3</>连射\\n<@ba.rem>受到攻击后触发，并闪避本次物理或法术伤害</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 13,
+          "initSp": 2,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "紧急赶场通知",
+        "rangeId": "y-1",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>3</>连射\\n<@ba.rem>受到攻击后触发，并闪避本次物理或法术伤害</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 3,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "紧急赶场通知",
+        "rangeId": "y-1",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>3</>连射\\n<@ba.rem>受到攻击后触发，并闪避本次物理或法术伤害</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 11,
+          "initSp": 4,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "紧急赶场通知",
+        "rangeId": "y-1",
+        "description": "立刻<$ba.liftoff>起飞</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>3</>连射\\n<@ba.rem>受到攻击后触发，并闪避本次物理或法术伤害</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tippi_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@height_offset",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
   "skchr_angel_1": {
     "skillId": "skchr_angel_1",
     "iconId": null,
@@ -158557,7 +159995,7 @@
       {
         "name": "归乡邀约",
         "rangeId": null,
-        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗子弹对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -158621,7 +160059,7 @@
       {
         "name": "归乡邀约",
         "rangeId": null,
-        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗子弹对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -158685,7 +160123,7 @@
       {
         "name": "归乡邀约",
         "rangeId": null,
-        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗子弹对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -158749,7 +160187,7 @@
       {
         "name": "归乡邀约",
         "rangeId": null,
-        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗子弹对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -158813,7 +160251,7 @@
       {
         "name": "归乡邀约",
         "rangeId": null,
-        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗子弹对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -158877,7 +160315,7 @@
       {
         "name": "归乡邀约",
         "rangeId": null,
-        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗子弹对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -158941,7 +160379,7 @@
       {
         "name": "归乡邀约",
         "rangeId": null,
-        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗子弹对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159005,7 +160443,7 @@
       {
         "name": "归乡邀约",
         "rangeId": null,
-        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗子弹对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159069,7 +160507,7 @@
       {
         "name": "归乡邀约",
         "rangeId": null,
-        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗子弹对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159133,7 +160571,7 @@
       {
         "name": "归乡邀约",
         "rangeId": null,
-        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗1发弹药对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，攻击力<@ba.vup>+{atk:0%}</>，场上有被通缉敌人时会消耗子弹对其瞄准最多<@ba.vup>{attack@aim_duration}</>秒后进行无视闪避的狙击（期间攻击力从<@ba.vup>{attack@main_atk_scale:0%}</>逐渐提升至<@ba.vup>{attack@fin_atk_scale:0%}</>，攻击力高于敌人剩余生命值和防御力之和时停止瞄准并立刻攻击）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159204,7 +160642,7 @@
       {
         "name": "礼炮·强制追思",
         "rangeId": null,
-        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发子弹依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159268,7 +160706,7 @@
       {
         "name": "礼炮·强制追思",
         "rangeId": null,
-        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发子弹依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159332,7 +160770,7 @@
       {
         "name": "礼炮·强制追思",
         "rangeId": null,
-        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发子弹依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159396,7 +160834,7 @@
       {
         "name": "礼炮·强制追思",
         "rangeId": null,
-        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发子弹依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159460,7 +160898,7 @@
       {
         "name": "礼炮·强制追思",
         "rangeId": null,
-        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发子弹依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159524,7 +160962,7 @@
       {
         "name": "礼炮·强制追思",
         "rangeId": null,
-        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发子弹依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159588,7 +161026,7 @@
       {
         "name": "礼炮·强制追思",
         "rangeId": null,
-        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发子弹依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159652,7 +161090,7 @@
       {
         "name": "礼炮·强制追思",
         "rangeId": null,
-        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发子弹依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159716,7 +161154,7 @@
       {
         "name": "礼炮·强制追思",
         "rangeId": null,
-        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发子弹依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -159780,7 +161218,7 @@
       {
         "name": "礼炮·强制追思",
         "rangeId": null,
-        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发弹药依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+        "description": "停止攻击，每<@ba.vup>{attack@aim_interval}</>秒消耗1发子弹依次锁定敌人，技能结束时对每名被锁定的敌人所在位置进行轰炸，轰炸造成攻击力<@ba.vup>{attack@proj_atk_scale_2:0%}</>的范围物理伤害（中心伤害提升至攻击力的<@ba.vup>{attack@proj_atk_scale_1:0%}</>）\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -217147,6 +218585,2331 @@
       }
     ]
   },
+  "skchr_phatm2_1": {
+    "skillId": "skchr_phatm2_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "暗夜回声",
+        "rangeId": null,
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 3,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 0.9,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "unmove",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "times",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "暗夜回声",
+        "rangeId": null,
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 3,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 0.95,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "unmove",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "times",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "暗夜回声",
+        "rangeId": null,
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 3,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "unmove",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "times",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "暗夜回声",
+        "rangeId": null,
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 3,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.05,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_scale",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "unmove",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "times",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "暗夜回声",
+        "rangeId": null,
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 3,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_scale",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "unmove",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "times",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "暗夜回声",
+        "rangeId": null,
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 3,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.15,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_scale",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "unmove",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "times",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "暗夜回声",
+        "rangeId": null,
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 3,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_scale",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "unmove",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "times",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "暗夜回声",
+        "rangeId": null,
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 3,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_scale",
+            "value": 1.6,
+            "valueStr": null
+          },
+          {
+            "key": "unmove",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "times",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "暗夜回声",
+        "rangeId": null,
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 3,
+          "initSp": 1,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.4,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_scale",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "unmove",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "times",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "暗夜回声",
+        "rangeId": null,
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 2,
+          "initSp": 2,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "unmove",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "times",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_phatm2_2": {
+    "skillId": "skchr_phatm2_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "群体性谵妄",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，第一天赋溅射范围<@ba.vup>扩大</>；期间可以使用一个本能的召唤，部署后<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先精英或领袖）<@ba.vup>10</>秒，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>持续时间无限，本能的召唤有独立再部署时间</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 36,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 0.85,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 15.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@range_radius",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 0.0,
+            "valueStr": "x-1"
+          }
+        ]
+      },
+      {
+        "name": "群体性谵妄",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，第一天赋溅射范围<@ba.vup>扩大</>；期间可以使用一个本能的召唤，部署后<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先精英或领袖）<@ba.vup>10</>秒，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>持续时间无限，本能的召唤有独立再部署时间</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 0.9,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 15.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@range_radius",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 0.0,
+            "valueStr": "x-1"
+          }
+        ]
+      },
+      {
+        "name": "群体性谵妄",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，第一天赋溅射范围<@ba.vup>扩大</>；期间可以使用一个本能的召唤，部署后<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先精英或领袖）<@ba.vup>10</>秒，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>持续时间无限，本能的召唤有独立再部署时间</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 34,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 0.95,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 15.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@range_radius",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 0.0,
+            "valueStr": "x-1"
+          }
+        ]
+      },
+      {
+        "name": "群体性谵妄",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，第一天赋溅射范围<@ba.vup>扩大</>；期间可以使用一个本能的召唤，部署后<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先精英或领袖）<@ba.vup>10</>秒，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>持续时间无限，本能的召唤有独立再部署时间</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 33,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@range_radius",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 0.0,
+            "valueStr": "x-1"
+          }
+        ]
+      },
+      {
+        "name": "群体性谵妄",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，第一天赋溅射范围<@ba.vup>扩大</>；期间可以使用一个本能的召唤，部署后<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先精英或领袖）<@ba.vup>10</>秒，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>持续时间无限，本能的召唤有独立再部署时间</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 32,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.05,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@range_radius",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 0.0,
+            "valueStr": "x-1"
+          }
+        ]
+      },
+      {
+        "name": "群体性谵妄",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，第一天赋溅射范围<@ba.vup>扩大</>；期间可以使用一个本能的召唤，部署后<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先精英或领袖）<@ba.vup>10</>秒，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>持续时间无限，本能的召唤有独立再部署时间</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 31,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@range_radius",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 0.0,
+            "valueStr": "x-1"
+          }
+        ]
+      },
+      {
+        "name": "群体性谵妄",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，第一天赋溅射范围<@ba.vup>扩大</>；期间可以使用一个本能的召唤，部署后<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先精英或领袖）<@ba.vup>10</>秒，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>持续时间无限，本能的召唤有独立再部署时间</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 25.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@range_radius",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 0.0,
+            "valueStr": "x-1"
+          }
+        ]
+      },
+      {
+        "name": "群体性谵妄",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，第一天赋溅射范围<@ba.vup>扩大</>；期间可以使用一个本能的召唤，部署后<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先精英或领袖）<@ba.vup>10</>秒，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>持续时间无限，本能的召唤有独立再部署时间</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 28,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@range_radius",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 0.0,
+            "valueStr": "x-1"
+          }
+        ]
+      },
+      {
+        "name": "群体性谵妄",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，第一天赋溅射范围<@ba.vup>扩大</>；期间可以使用一个本能的召唤，部署后<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先精英或领袖）<@ba.vup>10</>秒，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>持续时间无限，本能的召唤有独立再部署时间</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 27,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.4,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@range_radius",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 0.0,
+            "valueStr": "x-1"
+          }
+        ]
+      },
+      {
+        "name": "群体性谵妄",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，第一天赋溅射范围<@ba.vup>扩大</>；期间可以使用一个本能的召唤，部署后<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先精英或领袖）<@ba.vup>10</>秒，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>持续时间无限，本能的召唤有独立再部署时间</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@range_radius",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@projectile_range",
+            "value": 0.0,
+            "valueStr": "x-1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_phatm2_encdool_2": {
+    "skillId": "sktok_phatm2_encdool_2",
+    "iconId": "sktok_phatm2_encdool",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "本能的召唤",
+        "rangeId": null,
+        "description": "<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先选择精英或领袖）在<@ba.vup>10</>秒内走向其所在位置，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>10秒后自动撤退，拥有独立再部署时间</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_encdool_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 0.85,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "本能的召唤",
+        "rangeId": null,
+        "description": "<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先选择精英或领袖）在<@ba.vup>10</>秒内走向其所在位置，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>10秒后自动撤退，拥有独立再部署时间</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_encdool_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 0.9,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "本能的召唤",
+        "rangeId": null,
+        "description": "<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先选择精英或领袖）在<@ba.vup>10</>秒内走向其所在位置，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>10秒后自动撤退，拥有独立再部署时间</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_encdool_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 0.95,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "本能的召唤",
+        "rangeId": null,
+        "description": "<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先选择精英或领袖）在<@ba.vup>10</>秒内走向其所在位置，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>10秒后自动撤退，拥有独立再部署时间</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_encdool_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "本能的召唤",
+        "rangeId": null,
+        "description": "<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先选择精英或领袖）在<@ba.vup>10</>秒内走向其所在位置，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>10秒后自动撤退，拥有独立再部署时间</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_encdool_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.05,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "本能的召唤",
+        "rangeId": null,
+        "description": "<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先选择精英或领袖）在<@ba.vup>10</>秒内走向其所在位置，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>10秒后自动撤退，拥有独立再部署时间</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_encdool_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "本能的召唤",
+        "rangeId": null,
+        "description": "<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先选择精英或领袖）在<@ba.vup>10</>秒内走向其所在位置，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>10秒后自动撤退，拥有独立再部署时间</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_encdool_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "本能的召唤",
+        "rangeId": null,
+        "description": "<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先选择精英或领袖）在<@ba.vup>10</>秒内走向其所在位置，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>10秒后自动撤退，拥有独立再部署时间</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_encdool_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "本能的召唤",
+        "rangeId": null,
+        "description": "<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先选择精英或领袖）在<@ba.vup>10</>秒内走向其所在位置，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>10秒后自动撤退，拥有独立再部署时间</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_encdool_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.4,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "本能的召唤",
+        "rangeId": null,
+        "description": "<$ba.attract>诱导</>至多<@ba.vup>{max_target}</>名进入范围的可达敌人（优先选择精英或领袖）在<@ba.vup>10</>秒内走向其所在位置，首个目标到达后撤退并使周围所有敌人在<@ba.vup>{buff_time}</>秒内<$ba.sluggish>停顿</>、每<@ba.vup>{interval_damage}</>秒受到酒神攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和攻击力<@ba.vup>{ep_damage_ratio_token:0%}</>的<$ba.dt.neural2>神经损伤</>\\n<@ba.rem>10秒后自动撤退，拥有独立再部署时间</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_encdool_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio_token",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "buff_time",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval_damage",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_target",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_phatm2_3": {
+    "skillId": "skchr_phatm2_3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "空剧场",
+        "rangeId": "y-8",
+        "description": "攻击范围扩大，攻击力<@ba.vup>+{atk:0%}</>，优先攻击未处于损伤爆发期间的敌人，技能期间酒神造成过<$ba.dt.neural2>神经损伤</>的敌人每秒受到攻击力<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>直至爆发；范围内敌人<$ba.dt.neural2>神经损伤</>冷却恢复速度<@ba.vup>+{talent@ep_break_recover_speed:0%}</>，<$ba.dt.neural2>神经损伤</>爆发时在其地面位置生成/刷新一个迷狂牢笼",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "phatm2_s_3[token_cooldown].interval",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@ep_break_recover_speed",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "空剧场",
+        "rangeId": "y-8",
+        "description": "攻击范围扩大，攻击力<@ba.vup>+{atk:0%}</>，优先攻击未处于损伤爆发期间的敌人，技能期间酒神造成过<$ba.dt.neural2>神经损伤</>的敌人每秒受到攻击力<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>直至爆发；范围内敌人<$ba.dt.neural2>神经损伤</>冷却恢复速度<@ba.vup>+{talent@ep_break_recover_speed:0%}</>，<$ba.dt.neural2>神经损伤</>爆发时在其地面位置生成/刷新一个迷狂牢笼",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 3,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.65,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "phatm2_s_3[token_cooldown].interval",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@ep_break_recover_speed",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "空剧场",
+        "rangeId": "y-8",
+        "description": "攻击范围扩大，攻击力<@ba.vup>+{atk:0%}</>，优先攻击未处于损伤爆发期间的敌人，技能期间酒神造成过<$ba.dt.neural2>神经损伤</>的敌人每秒受到攻击力<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>直至爆发；范围内敌人<$ba.dt.neural2>神经损伤</>冷却恢复速度<@ba.vup>+{talent@ep_break_recover_speed:0%}</>，<$ba.dt.neural2>神经损伤</>爆发时在其地面位置生成/刷新一个迷狂牢笼",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 6,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "phatm2_s_3[token_cooldown].interval",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@ep_break_recover_speed",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "空剧场",
+        "rangeId": "y-8",
+        "description": "攻击范围扩大，攻击力<@ba.vup>+{atk:0%}</>，优先攻击未处于损伤爆发期间的敌人，技能期间酒神造成过<$ba.dt.neural2>神经损伤</>的敌人每秒受到攻击力<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>直至爆发；范围内敌人<$ba.dt.neural2>神经损伤</>冷却恢复速度<@ba.vup>+{talent@ep_break_recover_speed:0%}</>，<$ba.dt.neural2>神经损伤</>爆发时在其地面位置生成/刷新一个迷狂牢笼",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 9,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.75,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "phatm2_s_3[token_cooldown].interval",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@ep_break_recover_speed",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "空剧场",
+        "rangeId": "y-8",
+        "description": "攻击范围扩大，攻击力<@ba.vup>+{atk:0%}</>，优先攻击未处于损伤爆发期间的敌人，技能期间酒神造成过<$ba.dt.neural2>神经损伤</>的敌人每秒受到攻击力<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>直至爆发；范围内敌人<$ba.dt.neural2>神经损伤</>冷却恢复速度<@ba.vup>+{talent@ep_break_recover_speed:0%}</>，<$ba.dt.neural2>神经损伤</>爆发时在其地面位置生成/刷新一个迷狂牢笼",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 12,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "phatm2_s_3[token_cooldown].interval",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@ep_break_recover_speed",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "空剧场",
+        "rangeId": "y-8",
+        "description": "攻击范围扩大，攻击力<@ba.vup>+{atk:0%}</>，优先攻击未处于损伤爆发期间的敌人，技能期间酒神造成过<$ba.dt.neural2>神经损伤</>的敌人每秒受到攻击力<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>直至爆发；范围内敌人<$ba.dt.neural2>神经损伤</>冷却恢复速度<@ba.vup>+{talent@ep_break_recover_speed:0%}</>，<$ba.dt.neural2>神经损伤</>爆发时在其地面位置生成/刷新一个迷狂牢笼",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.85,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "phatm2_s_3[token_cooldown].interval",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@ep_break_recover_speed",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "空剧场",
+        "rangeId": "y-8",
+        "description": "攻击范围扩大，攻击力<@ba.vup>+{atk:0%}</>，优先攻击未处于损伤爆发期间的敌人，技能期间酒神造成过<$ba.dt.neural2>神经损伤</>的敌人每秒受到攻击力<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>直至爆发；范围内敌人<$ba.dt.neural2>神经损伤</>冷却恢复速度<@ba.vup>+{talent@ep_break_recover_speed:0%}</>，<$ba.dt.neural2>神经损伤</>爆发时在其地面位置生成/刷新一个迷狂牢笼",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 18,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.95,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "phatm2_s_3[token_cooldown].interval",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@ep_break_recover_speed",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "空剧场",
+        "rangeId": "y-8",
+        "description": "攻击范围扩大，攻击力<@ba.vup>+{atk:0%}</>，优先攻击未处于损伤爆发期间的敌人，技能期间酒神造成过<$ba.dt.neural2>神经损伤</>的敌人每秒受到攻击力<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>直至爆发；范围内敌人<$ba.dt.neural2>神经损伤</>冷却恢复速度<@ba.vup>+{talent@ep_break_recover_speed:0%}</>，<$ba.dt.neural2>神经损伤</>爆发时在其地面位置生成/刷新一个迷狂牢笼",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 22,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.05,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "phatm2_s_3[token_cooldown].interval",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@ep_break_recover_speed",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "空剧场",
+        "rangeId": "y-8",
+        "description": "攻击范围扩大，攻击力<@ba.vup>+{atk:0%}</>，优先攻击未处于损伤爆发期间的敌人，技能期间酒神造成过<$ba.dt.neural2>神经损伤</>的敌人每秒受到攻击力<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>直至爆发；范围内敌人<$ba.dt.neural2>神经损伤</>冷却恢复速度<@ba.vup>+{talent@ep_break_recover_speed:0%}</>，<$ba.dt.neural2>神经损伤</>爆发时在其地面位置生成/刷新一个迷狂牢笼",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 26,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.15,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "phatm2_s_3[token_cooldown].interval",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@ep_break_recover_speed",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "空剧场",
+        "rangeId": "y-8",
+        "description": "攻击范围扩大，攻击力<@ba.vup>+{atk:0%}</>，优先攻击未处于损伤爆发期间的敌人，技能期间酒神造成过<$ba.dt.neural2>神经损伤</>的敌人每秒受到攻击力<@ba.vup>{ep_damage_ratio:0%}</>的<$ba.dt.neural2>神经损伤</>直至爆发；范围内敌人<$ba.dt.neural2>神经损伤</>冷却恢复速度<@ba.vup>+{talent@ep_break_recover_speed:0%}</>，<$ba.dt.neural2>神经损伤</>爆发时在其地面位置生成/刷新一个迷狂牢笼",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_phatm2_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.25,
+            "valueStr": null
+          },
+          {
+            "key": "ep_damage_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "phatm2_s_3[token_cooldown].interval",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@ep_break_recover_speed",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_phatm2_mndclv_3": {
+    "skillId": "sktok_phatm2_mndclv_3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "迷狂牢笼",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_mndclv_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "迷狂牢笼",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_mndclv_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "迷狂牢笼",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_mndclv_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "迷狂牢笼",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_mndclv_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "迷狂牢笼",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_mndclv_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "迷狂牢笼",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_mndclv_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "迷狂牢笼",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_mndclv_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "迷狂牢笼",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_mndclv_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "迷狂牢笼",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_mndclv_3",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "迷狂牢笼",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_phatm2_mndclv_3",
+        "duration": -1.0,
+        "blackboard": []
+      }
+    ]
+  },
   "skchr_phatom_1": {
     "skillId": "skchr_phatom_1",
     "iconId": null,
@@ -230503,7 +234266,7 @@
       {
         "name": "使命必达！",
         "rangeId": null,
-        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立即对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -230552,7 +234315,7 @@
       {
         "name": "使命必达！",
         "rangeId": null,
-        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立即对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -230601,7 +234364,7 @@
       {
         "name": "使命必达！",
         "rangeId": null,
-        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立即对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -230650,7 +234413,7 @@
       {
         "name": "使命必达！",
         "rangeId": null,
-        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立即对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -230699,7 +234462,7 @@
       {
         "name": "使命必达！",
         "rangeId": null,
-        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立即对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -230748,7 +234511,7 @@
       {
         "name": "使命必达！",
         "rangeId": null,
-        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立即对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -230797,7 +234560,7 @@
       {
         "name": "使命必达！",
         "rangeId": null,
-        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立即对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -230846,7 +234609,7 @@
       {
         "name": "使命必达！",
         "rangeId": null,
-        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立即对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -230895,7 +234658,7 @@
       {
         "name": "使命必达！",
         "rangeId": null,
-        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立即对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {
@@ -230944,7 +234707,7 @@
       {
         "name": "使命必达！",
         "rangeId": null,
-        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立刻对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击变为相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的<@ba.vup>5</>连击，若存在投递坐标，立即对该处造成一次相当于攻击力<@ba.vup>{attack@cannon_atk_scale:0%}</>的物理溅射伤害并将一名再部署时间最长的地面干员部署至该处，使其获得<@ba.vup>{attack@sp}</>点技力\\n<@ba.rem>部署后获得投递坐标，攻击装有{attack@trigger_time}发弹药，每次攻击消耗5发，打完后结束（可随时停止技能）</>",
         "skillType": "MANUAL",
         "durationType": "AMMO",
         "spData": {

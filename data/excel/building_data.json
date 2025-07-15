@@ -14026,6 +14026,34 @@
         }
       ]
     },
+    "char_4195_radian": {
+      "charId": "char_4195_radian",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp_cost[013]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_dorm_rec_tag[001]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
     "char_4196_reckpr": {
       "charId": "char_4196_reckpr",
       "maxManpower": 8640000,
@@ -14609,6 +14637,21 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "control_mp_cost[013]": {
+      "buffId": "control_mp_cost[013]",
+      "buffName": "点滴关照",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_cost",
+      "sortId": 1113,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "进驻控制中枢时，控制中枢内所有干员的心情每小时恢复<@cc.vup>+0.05</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "control_mp_cost_double[000]": {
       "buffId": "control_mp_cost_double[000]",
       "buffName": "魔王传承",
@@ -15040,6 +15083,21 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "进驻控制中枢时，所有宿舍内所有干员的心情每小时恢复<@cc.vup>+0.05</>（同种效果取最高）",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_dorm_rec_tag[001]": {
+      "buffId": "control_dorm_rec_tag[001]",
+      "buffName": "无言的慈爱",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_d_r_tag",
+      "sortId": 1401,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "进驻控制中枢时，所有宿舍内<$cc.g.elite><@cc.kw>精英干员</></>的心情每小时恢复<@cc.vup>+0.1</>（同种效果取最高）",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []

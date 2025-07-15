@@ -211995,6 +211995,2028 @@
       }
     ]
   },
+  "skchr_radian_1": {
+    "skillId": "skchr_radian_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位\\n开启：自身和召唤物防御力<@ba.vup>+{def:0%}</>并获得<@ba.vup>{hp_ratio:0%}</>最大生命值的<$ba.barrier>屏障</>，持续至技能结束\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位\\n开启：自身和召唤物防御力<@ba.vup>+{def:0%}</>并获得<@ba.vup>{hp_ratio:0%}</>最大生命值的<$ba.barrier>屏障</>，持续至技能结束\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 37,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位\\n开启：自身和召唤物防御力<@ba.vup>+{def:0%}</>并获得<@ba.vup>{hp_ratio:0%}</>最大生命值的<$ba.barrier>屏障</>，持续至技能结束\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 36,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位\\n开启：自身和召唤物防御力<@ba.vup>+{def:0%}</>并获得<@ba.vup>{hp_ratio:0%}</>最大生命值的<$ba.barrier>屏障</>，持续至技能结束\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位\\n开启：自身和召唤物防御力<@ba.vup>+{def:0%}</>并获得<@ba.vup>{hp_ratio:0%}</>最大生命值的<$ba.barrier>屏障</>，持续至技能结束\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 34,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位\\n开启：自身和召唤物防御力<@ba.vup>+{def:0%}</>并获得<@ba.vup>{hp_ratio:0%}</>最大生命值的<$ba.barrier>屏障</>，持续至技能结束\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 32,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位\\n开启：自身和召唤物防御力<@ba.vup>+{def:0%}</>并获得<@ba.vup>{hp_ratio:0%}</>最大生命值的<$ba.barrier>屏障</>，持续至技能结束\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位\\n开启：自身和召唤物防御力<@ba.vup>+{def:0%}</>并获得<@ba.vup>{hp_ratio:0%}</>最大生命值的<$ba.barrier>屏障</>，持续至技能结束\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 29,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.65,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位\\n开启：自身和召唤物防御力<@ba.vup>+{def:0%}</>并获得<@ba.vup>{hp_ratio:0%}</>最大生命值的<$ba.barrier>屏障</>，持续至技能结束\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 27,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.9,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位\\n开启：自身和召唤物防御力<@ba.vup>+{def:0%}</>并获得<@ba.vup>{hp_ratio:0%}</>最大生命值的<$ba.barrier>屏障</>，持续至技能结束\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_1",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_radian_1": {
+    "skillId": "sktok_radian_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_1",
+        "duration": -1.0,
+        "blackboard": []
+      },
+      {
+        "name": "律动线",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_1",
+        "duration": -1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "skchr_radian_2": {
+    "skillId": "skchr_radian_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位，会持续向前方发射子弹\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，召唤物攻击额外创造出<@ba.vup>2</>颗子弹\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位，会持续向前方发射子弹\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，召唤物攻击额外创造出<@ba.vup>2</>颗子弹\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 2,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位，会持续向前方发射子弹\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，召唤物攻击额外创造出<@ba.vup>2</>颗子弹\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 4,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位，会持续向前方发射子弹\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，召唤物攻击额外创造出<@ba.vup>2</>颗子弹\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 6,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位，会持续向前方发射子弹\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，召唤物攻击额外创造出<@ba.vup>2</>颗子弹\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 8,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位，会持续向前方发射子弹\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，召唤物攻击额外创造出<@ba.vup>2</>颗子弹\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.45,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位，会持续向前方发射子弹\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，召唤物攻击额外创造出<@ba.vup>2</>颗子弹且子弹飞行距离<@ba.vup>+1</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位，会持续向前方发射子弹\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，召唤物攻击额外创造出<@ba.vup>2</>颗子弹且子弹飞行距离<@ba.vup>+1</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 28,
+          "initSp": 12,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位，会持续向前方发射子弹\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，召唤物攻击额外创造出<@ba.vup>2</>颗子弹且子弹飞行距离<@ba.vup>+2</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 27,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.65,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在近战位，会持续向前方发射子弹\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，召唤物攻击额外创造出<@ba.vup>2</>颗子弹且子弹飞行距离<@ba.vup>+2</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 16,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "base_attack_time",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_radian_2": {
+    "skillId": "sktok_radian_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@projectile_life_time",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@projectile_life_time",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@projectile_life_time",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@projectile_life_time",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@projectile_life_time",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@projectile_life_time",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@projectile_life_time",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": "4-1",
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@projectile_life_time",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": "5-1",
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@projectile_life_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "rangeId": "5-1",
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@projectile_life_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_radian_3": {
+    "skillId": "skchr_radian_3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在远程位，召唤物找不到攻击目标且可攻击时，可以与其自身范围内其他电弧的召唤物协同攻击\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，对敌人造成伤害时，使敌人受到<$ba.sluggish>停顿</>与<@ba.vup>10％</><$ba.magicfragile>法术脆弱</>效果，持续<@ba.vup>2</>秒\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 12,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "damage_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@damage_scale",
+            "value": 1.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在远程位，召唤物找不到攻击目标且可攻击时，可以与其自身范围内其他电弧的召唤物协同攻击\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，对敌人造成伤害时，使敌人受到<$ba.sluggish>停顿</>与<@ba.vup>10％</><$ba.magicfragile>法术脆弱</>效果，持续<@ba.vup>2</>秒\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "damage_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@damage_scale",
+            "value": 1.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在远程位，召唤物找不到攻击目标且可攻击时，可以与其自身范围内其他电弧的召唤物协同攻击\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，对敌人造成伤害时，使敌人受到<$ba.sluggish>停顿</>与<@ba.vup>10％</><$ba.magicfragile>法术脆弱</>效果，持续<@ba.vup>2</>秒\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 16,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "damage_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@damage_scale",
+            "value": 1.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在远程位，召唤物找不到攻击目标且可攻击时，可以与其自身范围内其他电弧的召唤物协同攻击\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，对敌人造成伤害时，使敌人受到<$ba.sluggish>停顿</>与<@ba.vup>10％</><$ba.magicfragile>法术脆弱</>效果，持续<@ba.vup>2</>秒\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 52,
+          "initSp": 18,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "damage_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@damage_scale",
+            "value": 1.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在远程位，召唤物找不到攻击目标且可攻击时，可以与其自身范围内其他电弧的召唤物协同攻击\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，对敌人造成伤害时，使敌人受到<$ba.sluggish>停顿</>与<@ba.vup>20％</><$ba.magicfragile>法术脆弱</>效果，持续<@ba.vup>2</>秒\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 52,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.9,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "damage_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@damage_scale",
+            "value": 1.2,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在远程位，召唤物找不到攻击目标且可攻击时，可以与其自身范围内其他电弧的召唤物协同攻击\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，对敌人造成伤害时，使敌人受到<$ba.sluggish>停顿</>与<@ba.vup>20％</><$ba.magicfragile>法术脆弱</>效果，持续<@ba.vup>2</>秒\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 52,
+          "initSp": 22,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "damage_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@damage_scale",
+            "value": 1.2,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在远程位，召唤物找不到攻击目标且可攻击时，可以与其自身范围内其他电弧的召唤物协同攻击\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，对敌人造成伤害时，使敌人受到<$ba.sluggish>停顿</>与<@ba.vup>20％</><$ba.magicfragile>法术脆弱</>效果，持续<@ba.vup>2</>秒\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 49,
+          "initSp": 24,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "damage_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@damage_scale",
+            "value": 1.2,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在远程位，召唤物找不到攻击目标且可攻击时，可以与其自身范围内其他电弧的召唤物协同攻击\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，对敌人造成伤害时，使敌人受到<$ba.sluggish>停顿</>与<@ba.vup>20％</><$ba.magicfragile>法术脆弱</>效果，持续<@ba.vup>2</>秒\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 46,
+          "initSp": 26,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "damage_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@damage_scale",
+            "value": 1.2,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在远程位，召唤物找不到攻击目标且可攻击时，可以与其自身范围内其他电弧的召唤物协同攻击\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，对敌人造成伤害时，使敌人受到<$ba.sluggish>停顿</>与<@ba.vup>25％</><$ba.magicfragile>法术脆弱</>效果，持续<@ba.vup>2</>秒\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 43,
+          "initSp": 28,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "damage_scale",
+            "value": 1.25,
+            "valueStr": null
+          },
+          {
+            "key": "attack@damage_scale",
+            "value": 1.25,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": "被动：召唤物可部署在远程位，召唤物找不到攻击目标且可攻击时，可以与其自身范围内其他电弧的召唤物协同攻击\\n开启：自身和召唤物攻击力<@ba.vup>+{atk:0%}</>，对敌人造成伤害时，使敌人受到<$ba.sluggish>停顿</>与<@ba.vup>35％</><$ba.magicfragile>法术脆弱</>效果，持续<@ba.vup>2</>秒\\n<@ba.rem>技能开启时获得1个召唤物</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_radian_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@weak[magic][limit]",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "damage_scale",
+            "value": 1.35,
+            "valueStr": null
+          },
+          {
+            "key": "attack@damage_scale",
+            "value": 1.35,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_radian_3": {
+    "skillId": "sktok_radian_3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@token_radian_tower3_s_3[normal_aoe].max_target",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@prism_max_target",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@token_radian_tower3_s_3[normal_aoe].max_target",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@prism_max_target",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@token_radian_tower3_s_3[normal_aoe].max_target",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@prism_max_target",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@token_radian_tower3_s_3[normal_aoe].max_target",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@prism_max_target",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@token_radian_tower3_s_3[normal_aoe].max_target",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@prism_max_target",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@token_radian_tower3_s_3[normal_aoe].max_target",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@prism_max_target",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@token_radian_tower3_s_3[normal_aoe].max_target",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@prism_max_target",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@token_radian_tower3_s_3[normal_aoe].max_target",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@prism_max_target",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@token_radian_tower3_s_3[normal_aoe].max_target",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@prism_max_target",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_radian_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@token_radian_tower3_s_3[normal_aoe].max_target",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@prism_max_target",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
   "skchr_skadi2_1": {
     "skillId": "skchr_skadi2_1",
     "iconId": null,
@@ -318926,6 +320948,353 @@
             "valueStr": null
           }
         ]
+      }
+    ]
+  },
+  "sktok_rgdysm_1": {
+    "skillId": "sktok_rgdysm_1",
+    "iconId": "sktok_rgdysm",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "雕伥",
+        "rangeId": null,
+        "description": "消耗20点部署费用，使雕伥把嘴闭上一段时间，并停止吐出敌人",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 1,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_rgdysm_1",
+        "duration": 150.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "stun",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_2101_dyspll"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_dynbox": {
+    "skillId": "sktok_dynbox",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "诱人珍宝",
+        "rangeId": null,
+        "description": "击破额外获得2源石锭",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": null,
+        "duration": -1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_dyrbox": {
+    "skillId": "sktok_dyrbox",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "刺人珍宝",
+        "rangeId": null,
+        "description": "反弹部分受到的伤害，击破额外获得5源石锭",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": null,
+        "duration": -1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_dysbox": {
+    "skillId": "sktok_dysbox",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "极诱人珍宝",
+        "rangeId": null,
+        "description": "击破额外获得10源石锭",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_dysbox",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_2106_dyremy"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_dydfst_1": {
+    "skillId": "sktok_dydfst_1",
+    "iconId": "sktok_dydfst",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "谤天",
+        "rangeId": null,
+        "description": "每隔一段时间，对明烛台上的干员劈下落雷，对目标及目标周围四格的我方单位造成1000点法术伤害。落雷每劈下一次，下一次造成的伤害会增加25％",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_dydfst_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "addition_scale",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_dydfst_2": {
+    "skillId": "sktok_dydfst_2",
+    "iconId": "sktok_dydfst",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "迎雷",
+        "rangeId": null,
+        "description": "每隔一段时间，对明烛台上的干员劈下落雷，对该干员造成其40％最大生命值的真实伤害",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_dydfst_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_dydfst_3": {
+    "skillId": "sktok_dydfst_3",
+    "iconId": "sktok_dydfst",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "蔑震",
+        "rangeId": null,
+        "description": "每隔一段时间，对明烛台上的干员劈下落雷，对该干员造成其100％攻击力的物理伤害",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_dydfst_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_ratio",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_dydfst_4": {
+    "skillId": "sktok_dydfst_4",
+    "iconId": "sktok_dydfst",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "赴陨",
+        "rangeId": null,
+        "description": "对明烛台上的干员造成600点法术伤害，每有4点源石锭，额外造成1次伤害",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_dydfst_4",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "damage_value",
+            "value": 600.0,
+            "valueStr": null
+          },
+          {
+            "key": "times",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "each_gold_time",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 0.4,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_dydfst_5": {
+    "skillId": "sktok_dydfst_5",
+    "iconId": "sktok_dydfst",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "斥洪",
+        "rangeId": null,
+        "description": "明烛台上的干员更容易受到攻击，且受到的物理和法术伤害增加50%",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_dydfst_5",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "damage_scale",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "taunt_level",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_dyldlz": {
+    "skillId": "sktok_dyldlz",
+    "iconId": "sktok_dyldlz",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "聚宝斋",
+        "rangeId": null,
+        "description": "部署后，会轮流吸取场上每位干员的部分随机属性（生命值，攻击力，防御力）并强制撤退；并使下一名部署在聚宝斋上的干员获得这些吸取的基础属性",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_dyldlz",
+        "duration": -1.0,
+        "blackboard": []
       }
     ]
   }

@@ -25,6 +25,28 @@
       "picGroup": [],
       "usePicGroup": false
     },
+    "act5collection": {
+      "id": "act5collection",
+      "type": "COLLECTION",
+      "displayType": "NONE",
+      "name": "御鼓吉音限时任务",
+      "startTime": 1753171200,
+      "endTime": 1754337599,
+      "rewardEndTime": 1754337599,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act5bossrush": {
       "id": "act5bossrush",
       "type": "BOSS_RUSH",
@@ -5413,6 +5435,13 @@
     }
   },
   "homeActConfig": {
+    "act5collection": {
+      "actId": "act5collection",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "ff407a",
+      "actTopBarText": "御鼓吉音限时任务"
+    },
     "act4collection": {
       "actId": "act4collection",
       "isPopupAfterCheckin": false,
@@ -82768,6 +82797,1067 @@
       "countEndTs": -1
     },
     {
+      "id": "5clloctionActivity_1",
+      "sortId": 1,
+      "description": "携带特勤干员电弧完成曲谱、资源收集、集成战略关卡共5次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "BattleFinishWithChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "char_4195_radian",
+        "5",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_2",
+      "sortId": 2,
+      "description": "在集成战略-岁的界园志异中，招募特勤干员电弧1次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "Rlv2RecruitSpecificChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "rogue_5",
+        "char_4195_radian",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_3",
+      "sortId": 3,
+      "description": "累计消耗600点理智",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CostAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "600"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_4",
+      "sortId": 4,
+      "description": "累计消耗1200点理智",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CostAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_5",
+      "sortId": 5,
+      "description": "累计消耗1800点理智",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CostAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1800"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_6",
+      "sortId": 6,
+      "description": "累计消耗2400点理智",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CostAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "2400"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_7",
+      "sortId": 7,
+      "description": "在信用商店中累计消费600点信用点",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "3",
+      "param": [
+        "3",
+        "600"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_8",
+      "sortId": 8,
+      "description": "在信用商店中累计消费1200点信用点",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "3",
+      "param": [
+        "3",
+        "1200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_9",
+      "sortId": 9,
+      "description": "在信用商店中累计消费1800点信用点",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "3",
+      "param": [
+        "3",
+        "1800"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_10",
+      "sortId": 10,
+      "description": "在信用商店中累计消费2400点信用点",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "3",
+      "param": [
+        "3",
+        "2400"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_11",
+      "sortId": 11,
+      "description": "向好友赠送6份线索",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "SendClue",
+      "templateType": "0",
+      "param": [
+        "0",
+        "6"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_12",
+      "sortId": 12,
+      "description": "向好友赠送12份线索",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "SendClue",
+      "templateType": "0",
+      "param": [
+        "0",
+        "12"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_13",
+      "sortId": 13,
+      "description": "通关任意关卡15次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAnyType",
+      "templateType": "0",
+      "param": [
+        "0",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_14",
+      "sortId": 14,
+      "description": "通关任意关卡30次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAnyType",
+      "templateType": "0",
+      "param": [
+        "0",
+        "30"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_15",
+      "sortId": 15,
+      "description": "通关任意关卡45次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAnyType",
+      "templateType": "0",
+      "param": [
+        "0",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_16",
+      "sortId": 16,
+      "description": "通关任意关卡60次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAnyType",
+      "templateType": "0",
+      "param": [
+        "0",
+        "60"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_17",
+      "sortId": 17,
+      "description": "累计歼灭任意500名敌兵",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "EnemyKillInAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "500",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_18",
+      "sortId": 18,
+      "description": "累计歼灭任意1000名敌兵",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "EnemyKillInAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1000",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_19",
+      "sortId": 19,
+      "description": "累计歼灭任意2000名敌兵",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "EnemyKillInAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "2000",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_20",
+      "sortId": 20,
+      "description": "累计公开招募10次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_21",
+      "sortId": 21,
+      "description": "累计公开招募20次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "20"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_22",
+      "sortId": 22,
+      "description": "累计公开招募30次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "30"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_23",
+      "sortId": 23,
+      "description": "让60名干员在宿舍中恢复心情",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "60"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_24",
+      "sortId": 24,
+      "description": "让120名干员在宿舍中恢复心情",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "120"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_25",
+      "sortId": 25,
+      "description": "让200名干员在宿舍中恢复心情",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_26",
+      "sortId": 26,
+      "description": "完成30笔订单",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "30"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_27",
+      "sortId": 27,
+      "description": "完成60笔订单",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "60"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_28",
+      "sortId": 28,
+      "description": "完成100笔订单",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "100"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_29",
+      "sortId": 29,
+      "description": "任务期间累积举行1次线索交流",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "StartInfoShare",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_30",
+      "sortId": 30,
+      "description": "任务期间累积举行3次线索交流",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "StartInfoShare",
+      "templateType": "1",
+      "param": [
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_31",
+      "sortId": 31,
+      "description": "在集成战略中，累计招募10次干员",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "Rlv2RecruitChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_32",
+      "sortId": 32,
+      "description": "在集成战略中，累计招募30次干员",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "Rlv2RecruitChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "30"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_33",
+      "sortId": 33,
+      "description": "在集成战略中，累计通过5层区域",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "Rlv2PassZone",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_34",
+      "sortId": 34,
+      "description": "在集成战略中，累计通过10层区域",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "Rlv2PassZone",
+      "templateType": "0",
+      "param": [
+        "0",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "5clloctionActivity_35",
+      "sortId": 35,
+      "description": "在集成战略中，累计获得过收藏品30次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "Rlv2GainItem",
+      "templateType": "0",
+      "param": [
+        "0",
+        "30",
+        "RELIC"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act5collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
       "id": "4clloctionActivity_1",
       "sortId": 1,
       "description": "累计消耗600点理智",
@@ -97006,6 +98096,53 @@
       ],
       "startTs": 1574150400,
       "endTs": 1575921599
+    },
+    {
+      "id": "act5collection",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [
+        "5clloctionActivity_1",
+        "5clloctionActivity_2",
+        "5clloctionActivity_3",
+        "5clloctionActivity_4",
+        "5clloctionActivity_5",
+        "5clloctionActivity_6",
+        "5clloctionActivity_7",
+        "5clloctionActivity_8",
+        "5clloctionActivity_9",
+        "5clloctionActivity_10",
+        "5clloctionActivity_11",
+        "5clloctionActivity_12",
+        "5clloctionActivity_13",
+        "5clloctionActivity_14",
+        "5clloctionActivity_15",
+        "5clloctionActivity_16",
+        "5clloctionActivity_17",
+        "5clloctionActivity_18",
+        "5clloctionActivity_19",
+        "5clloctionActivity_20",
+        "5clloctionActivity_21",
+        "5clloctionActivity_22",
+        "5clloctionActivity_23",
+        "5clloctionActivity_24",
+        "5clloctionActivity_25",
+        "5clloctionActivity_26",
+        "5clloctionActivity_27",
+        "5clloctionActivity_28",
+        "5clloctionActivity_29",
+        "5clloctionActivity_30",
+        "5clloctionActivity_31",
+        "5clloctionActivity_32",
+        "5clloctionActivity_33",
+        "5clloctionActivity_34",
+        "5clloctionActivity_35"
+      ],
+      "startTs": 1753171200,
+      "endTs": 1754337599
     },
     {
       "id": "act4collection",
@@ -119444,6 +120581,199 @@
     },
     "TYPE_ACT5D1": {},
     "COLLECTION": {
+      "act5collection": {
+        "collections": [
+          {
+            "id": 1,
+            "itemType": "CARD_EXP",
+            "itemId": "2003",
+            "itemCnt": 20,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 300,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 2,
+            "itemType": "MATERIAL",
+            "itemId": "3302",
+            "itemCnt": 10,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 600,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 3,
+            "itemType": "MATERIAL",
+            "itemId": "30043",
+            "itemCnt": 5,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 900,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 4,
+            "itemType": "FURN",
+            "itemId": "furni_act63d4_windChimes_01",
+            "itemCnt": 1,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 1200,
+            "isBonus": true,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 5,
+            "itemType": "TKT_RECRUIT",
+            "itemId": "7001",
+            "itemCnt": 5,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 1600,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 6,
+            "itemType": "MATERIAL",
+            "itemId": "31083",
+            "itemCnt": 5,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 2000,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 7,
+            "itemType": "GOLD",
+            "itemId": "4001",
+            "itemCnt": 30000,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 2400,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 8,
+            "itemType": "FURN",
+            "itemId": "furni_act63d4_festivalStall_01",
+            "itemCnt": 1,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 2800,
+            "isBonus": true,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 9,
+            "itemType": "MATERIAL",
+            "itemId": "30014",
+            "itemCnt": 2,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 3200,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 10,
+            "itemType": "MATERIAL",
+            "itemId": "3003",
+            "itemCnt": 20,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 3600,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 11,
+            "itemType": "MATERIAL",
+            "itemId": "31013",
+            "itemCnt": 5,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 4000,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 12,
+            "itemType": "MATERIAL",
+            "itemId": "30165",
+            "itemCnt": 1,
+            "pointId": "act5collection_point_token",
+            "pointCnt": 4500,
+            "isBonus": true,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          }
+        ],
+        "apSupplyOutOfDateDict": {},
+        "consts": {
+          "showJumpBtn": false,
+          "jumpBtnType": "NONE",
+          "jumpBtnParam1": null,
+          "jumpBtnParam2": null,
+          "dailyTaskStartTime": 1753214400,
+          "isSimpleMode": false
+        }
+      },
       "act4collection": {
         "collections": [
           {
@@ -223400,6 +224730,9 @@
   "activityItems": {
     "act19mini": [
       "act19mini_token_sweetie"
+    ],
+    "act5collection": [
+      "act5collection_point_token"
     ],
     "act5bossrush": [
       "act5bossrush_milestone_point",

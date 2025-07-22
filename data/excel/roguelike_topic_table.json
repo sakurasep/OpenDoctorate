@@ -199166,6 +199166,11 @@
           "updateId": "rogue_5_update_1",
           "topicUpdateTime": -62135625600,
           "topicEndTime": 1753992000
+        },
+        {
+          "updateId": "rogue_5_update_2",
+          "topicUpdateTime": 1753992000,
+          "topicEndTime": 1756670400
         }
       ],
       "enrolls": {},
@@ -199893,6 +199898,13 @@
           "maxBpLevel": 50,
           "maxBpCount": 13000,
           "maxDisplayBpCount": 13000
+        },
+        {
+          "updateTime": 1753992000,
+          "endTime": 1756670400,
+          "maxBpLevel": 65,
+          "maxBpCount": 19000,
+          "maxDisplayBpCount": 19000
         }
       ],
       "grandPrizes": [
@@ -200453,6 +200465,56 @@
           "startTime": 0,
           "endTime": 1753992000,
           "taskDes": "累计开启10次左乐的“佑序有炎”"
+        },
+        "month_team_2": {
+          "id": "month_team_2",
+          "teamName": "小玩意",
+          "teamSubName": null,
+          "teamFlavorDesc": "xiao wan yi",
+          "teamDes": "当年顺手送出的礼，竟换来了回礼。为“人”之道，还挺有意思。",
+          "teamColor": "16bb9f",
+          "teamMonth": "08",
+          "teamYear": "2025",
+          "teamIndex": "2",
+          "teamChars": [
+            {
+              "teamCharId": "char_2014_nian",
+              "teamTmplId": null
+            }
+          ],
+          "zoneId": null,
+          "chatId": "month_chat_rogue_5_2",
+          "tokenRewardNum": 1000,
+          "items": [
+            {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "32001",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "3222",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "2004",
+              "count": 15,
+              "type": "CARD_EXP"
+            },
+            {
+              "id": "4001",
+              "count": 30000,
+              "type": "GOLD"
+            }
+          ],
+          "startTime": 1753992000,
+          "endTime": 1756670400,
+          "taskDes": "累计部署10次年"
         }
       },
       "challenges": {},
@@ -202844,6 +202906,29 @@
                   "chatZoneId": "zone_5",
                   "chatDesc": "昔日之困苦，亦是今日之答案。",
                   "chatStoryId": "Obt/Rogue/rogue_5/MonthRecord/month_record_rogue_5_1_3"
+                }
+              ]
+            },
+            "month_chat_rogue_5_2": {
+              "sortId": 2,
+              "chatItemList": [
+                {
+                  "floor": 1,
+                  "chatZoneId": "zone_1",
+                  "chatDesc": "求人还是求己，有时并不是什么原则问题。",
+                  "chatStoryId": "Obt/Rogue/rogue_5/MonthRecord/month_record_rogue_5_2_1"
+                },
+                {
+                  "floor": 3,
+                  "chatZoneId": "zone_3",
+                  "chatDesc": "此等挑灯夜战，不足为外人道也。",
+                  "chatStoryId": "Obt/Rogue/rogue_5/MonthRecord/month_record_rogue_5_2_2"
+                },
+                {
+                  "floor": 5,
+                  "chatZoneId": "zone_5",
+                  "chatDesc": "仙人抚孰顶？",
+                  "chatStoryId": "Obt/Rogue/rogue_5/MonthRecord/month_record_rogue_5_2_3"
                 }
               ]
             }
@@ -205830,6 +205915,34 @@
           ],
           "initialRecruitGroup": [
             "recruit_group_m1"
+          ],
+          "initialHp": 8,
+          "initialPopulation": 6,
+          "initialGold": 8,
+          "initialSquadCapacity": 6,
+          "initialShield": 0,
+          "initialMaxHp": 8,
+          "initialKey": 0
+        },
+        {
+          "modeId": "MONTH_TEAM",
+          "modeGrade": 0,
+          "predefinedId": "month_team_2",
+          "predefinedStyle": "rogue_5_style_default",
+          "initialBandRelic": [
+            "rogue_5_band_1",
+            "rogue_5_band_5",
+            "rogue_5_band_10",
+            "rogue_5_band_11",
+            "rogue_5_band_15",
+            "rogue_5_band_16",
+            "rogue_5_band_17",
+            "rogue_5_band_18",
+            "rogue_5_band_19",
+            "rogue_5_band_20"
+          ],
+          "initialRecruitGroup": [
+            "recruit_group_m2"
           ],
           "initialHp": 8,
           "initialPopulation": 6,
@@ -219203,6 +219316,11 @@
                   "key": "sp",
                   "value": 1.0,
                   "valueStr": null
+                },
+                {
+                  "key": "selector.profession",
+                  "value": 0.0,
+                  "valueStr": "warrior|sniper|tank|medic|support|caster|special|pioneer"
                 }
               ]
             }
@@ -223732,6 +223850,26 @@
                 {
                   "key": "value",
                   "value": 1.0,
+                  "valueStr": null
+                }
+              ]
+            },
+            {
+              "key": "set_choice_dynamic_param",
+              "blackboard": [
+                {
+                  "key": "trig_type",
+                  "value": 0.0,
+                  "valueStr": "PUT_BACK"
+                },
+                {
+                  "key": "key",
+                  "value": 0.0,
+                  "valueStr": "ro5_rest_update_lv"
+                },
+                {
+                  "key": "value",
+                  "value": 0.0,
                   "valueStr": null
                 }
               ]
@@ -260506,7 +260644,7 @@
         "rogue_5_relic_legacy_140": {
           "id": "rogue_5_relic_legacy_140",
           "name": "荆与叶的织带",
-          "description": "于此环中，得受霜雪大地之青睐。",
+          "description": "于此环中，得受荆棘草叶之偏爱。",
           "usage": "每次战斗会从化境地块里随机1个可部署位置，该位置部署干员后，周围8格内的我方单位具有迷彩",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_relic_legacy_140",
@@ -260523,7 +260661,7 @@
         "rogue_5_relic_legacy_141": {
           "id": "rogue_5_relic_legacy_141",
           "name": "雪与土的织带",
-          "description": "于此环中，得受荆棘草叶之偏爱。",
+          "description": "于此环中，得受霜雪大地之青睐。",
           "usage": "每次战斗会在化境地块里随机1个可部署位置，该位置的我方干员开启攻击回复或受击回复技能时，使化境地块上的所有干员同时回复1点技力",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_relic_legacy_141",
@@ -260558,7 +260696,7 @@
           "id": "rogue_5_relic_legacy_143",
           "name": "《麻木与庸俗》",
           "description": "一件著名的艺术品，两百年前莱塔尼亚疯狂雕塑家的遗作。这位雕塑家以才华横溢与参与多起残忍的命案而为人所知。但是依据历史记载，他生前并没有多少人关注他的作品，而是因为自己秀美的长相而被人追捧。",
-          "usage": "所有我方单位法术抗性+5，+10%法术闪避",
+          "usage": "所有我方单位法术抗性+5，法术闪避+10%",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_relic_legacy_143",
           "itemIconGroupId": null,
@@ -267896,7 +268034,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_F_09_c": {
           "id": "rogue_5_copper_F_09_c",
@@ -267913,7 +268051,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_F_09_d": {
           "id": "rogue_5_copper_F_09_d",
@@ -267930,7 +268068,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_F_10_a": {
           "id": "rogue_5_copper_F_10_a",
@@ -267964,7 +268102,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_F_10_c": {
           "id": "rogue_5_copper_F_10_c",
@@ -267981,7 +268119,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_F_10_d": {
           "id": "rogue_5_copper_F_10_d",
@@ -267998,7 +268136,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_F_11_a": {
           "id": "rogue_5_copper_F_11_a",
@@ -268032,7 +268170,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_F_11_c": {
           "id": "rogue_5_copper_F_11_c",
@@ -268049,7 +268187,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_F_11_d": {
           "id": "rogue_5_copper_F_11_d",
@@ -268066,7 +268204,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_F_12_a": {
           "id": "rogue_5_copper_F_12_a",
@@ -268100,7 +268238,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_F_12_c": {
           "id": "rogue_5_copper_F_12_c",
@@ -268117,7 +268255,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_F_12_d": {
           "id": "rogue_5_copper_F_12_d",
@@ -268134,7 +268272,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_F_13_a": {
           "id": "rogue_5_copper_F_13_a",
@@ -268168,7 +268306,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_F_13_c": {
           "id": "rogue_5_copper_F_13_c",
@@ -268185,7 +268323,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_F_13_d": {
           "id": "rogue_5_copper_F_13_d",
@@ -268202,7 +268340,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_F_14_a": {
           "id": "rogue_5_copper_F_14_a",
@@ -268236,7 +268374,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_F_14_c": {
           "id": "rogue_5_copper_F_14_c",
@@ -268253,7 +268391,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_F_14_d": {
           "id": "rogue_5_copper_F_14_d",
@@ -268270,7 +268408,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_F_15_a": {
           "id": "rogue_5_copper_F_15_a",
@@ -268576,7 +268714,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_F_19_c": {
           "id": "rogue_5_copper_F_19_c",
@@ -268593,7 +268731,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_F_19_d": {
           "id": "rogue_5_copper_F_19_d",
@@ -268610,7 +268748,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_F_20_a": {
           "id": "rogue_5_copper_F_20_a",
@@ -269052,7 +269190,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_F_26_c": {
           "id": "rogue_5_copper_F_26_c",
@@ -269069,7 +269207,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_F_26_d": {
           "id": "rogue_5_copper_F_26_d",
@@ -269086,7 +269224,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_F_27_a": {
           "id": "rogue_5_copper_F_27_a",
@@ -269188,7 +269326,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_P_01_c": {
           "id": "rogue_5_copper_P_01_c",
@@ -269205,7 +269343,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_P_01_d": {
           "id": "rogue_5_copper_P_01_d",
@@ -269222,7 +269360,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_P_02_a": {
           "id": "rogue_5_copper_P_02_a",
@@ -269256,7 +269394,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_P_02_c": {
           "id": "rogue_5_copper_P_02_c",
@@ -269273,7 +269411,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_P_02_d": {
           "id": "rogue_5_copper_P_02_d",
@@ -269290,7 +269428,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_R_01_a": {
           "id": "rogue_5_copper_R_01_a",
@@ -269664,7 +269802,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_R_06_c": {
           "id": "rogue_5_copper_R_06_c",
@@ -269681,7 +269819,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_R_06_d": {
           "id": "rogue_5_copper_R_06_d",
@@ -269698,7 +269836,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_R_07_a": {
           "id": "rogue_5_copper_R_07_a",
@@ -269868,7 +270006,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_R_09_c": {
           "id": "rogue_5_copper_R_09_c",
@@ -269885,7 +270023,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_R_09_d": {
           "id": "rogue_5_copper_R_09_d",
@@ -269902,7 +270040,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_R_10_a": {
           "id": "rogue_5_copper_R_10_a",
@@ -270072,7 +270210,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_U_1_c": {
           "id": "rogue_5_copper_U_1_c",
@@ -270089,7 +270227,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_U_1_d": {
           "id": "rogue_5_copper_U_1_d",
@@ -270106,7 +270244,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_U_2_a": {
           "id": "rogue_5_copper_U_2_a",
@@ -270140,7 +270278,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_U_2_c": {
           "id": "rogue_5_copper_U_2_c",
@@ -270157,7 +270295,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_U_2_d": {
           "id": "rogue_5_copper_U_2_d",
@@ -270174,7 +270312,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_U_3_a": {
           "id": "rogue_5_copper_U_3_a",
@@ -270208,7 +270346,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_U_3_c": {
           "id": "rogue_5_copper_U_3_c",
@@ -270225,7 +270363,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_U_3_d": {
           "id": "rogue_5_copper_U_3_d",
@@ -270242,7 +270380,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_U_4_a": {
           "id": "rogue_5_copper_U_4_a",
@@ -270276,7 +270414,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_U_4_c": {
           "id": "rogue_5_copper_U_4_c",
@@ -270293,7 +270431,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_U_4_d": {
           "id": "rogue_5_copper_U_4_d",
@@ -270310,7 +270448,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_U_5_a": {
           "id": "rogue_5_copper_U_5_a",
@@ -270412,7 +270550,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_U_6_c": {
           "id": "rogue_5_copper_U_6_c",
@@ -270429,7 +270567,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_U_6_d": {
           "id": "rogue_5_copper_U_6_d",
@@ -270446,7 +270584,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_U_7_a": {
           "id": "rogue_5_copper_U_7_a",
@@ -270616,7 +270754,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_U_9_c": {
           "id": "rogue_5_copper_U_9_c",
@@ -270633,7 +270771,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_U_9_d": {
           "id": "rogue_5_copper_U_9_d",
@@ -270650,7 +270788,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_S_1_a": {
           "id": "rogue_5_copper_S_1_a",
@@ -270684,7 +270822,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_S_1_c": {
           "id": "rogue_5_copper_S_1_c",
@@ -270701,7 +270839,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_S_1_d": {
           "id": "rogue_5_copper_S_1_d",
@@ -270718,7 +270856,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_S_2_a": {
           "id": "rogue_5_copper_S_2_a",
@@ -270752,7 +270890,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_S_2_c": {
           "id": "rogue_5_copper_S_2_c",
@@ -270769,7 +270907,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_S_2_d": {
           "id": "rogue_5_copper_S_2_d",
@@ -270786,7 +270924,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_S_3_a": {
           "id": "rogue_5_copper_S_3_a",
@@ -270820,7 +270958,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_S_3_c": {
           "id": "rogue_5_copper_S_3_c",
@@ -270837,7 +270975,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_S_3_d": {
           "id": "rogue_5_copper_S_3_d",
@@ -270854,7 +270992,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_S_4_a": {
           "id": "rogue_5_copper_S_4_a",
@@ -270888,7 +271026,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_S_4_c": {
           "id": "rogue_5_copper_S_4_c",
@@ -270905,7 +271043,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_S_4_d": {
           "id": "rogue_5_copper_S_4_d",
@@ -270922,7 +271060,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_S_5_a": {
           "id": "rogue_5_copper_S_5_a",
@@ -270956,7 +271094,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_S_5_c": {
           "id": "rogue_5_copper_S_5_c",
@@ -270973,7 +271111,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_S_5_d": {
           "id": "rogue_5_copper_S_5_d",
@@ -270990,7 +271128,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_S_6_a": {
           "id": "rogue_5_copper_S_6_a",
@@ -271024,7 +271162,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_S_6_c": {
           "id": "rogue_5_copper_S_6_c",
@@ -271041,7 +271179,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_S_6_d": {
           "id": "rogue_5_copper_S_6_d",
@@ -271058,7 +271196,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_S_7_a": {
           "id": "rogue_5_copper_S_7_a",
@@ -273574,7 +273712,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_F_09_c": {
           "id": "rogue_5_change_copper_F_09_c",
@@ -273591,7 +273729,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_F_09_d": {
           "id": "rogue_5_change_copper_F_09_d",
@@ -273608,7 +273746,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，最左和最右一列化境地块上的干员攻击力+30%，攻击速度+30<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_F_10_a": {
           "id": "rogue_5_change_copper_F_10_a",
@@ -273642,7 +273780,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_F_10_c": {
           "id": "rogue_5_change_copper_F_10_c",
@@ -273659,7 +273797,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_F_10_d": {
           "id": "rogue_5_change_copper_F_10_d",
@@ -273676,7 +273814,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有我方单位的攻击力+20%，每额外投出一次，攻击力额外+20％（最多叠加两次）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_F_11_a": {
           "id": "rogue_5_change_copper_F_11_a",
@@ -273710,7 +273848,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_F_11_c": {
           "id": "rogue_5_change_copper_F_11_c",
@@ -273727,7 +273865,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_F_11_d": {
           "id": "rogue_5_change_copper_F_11_d",
@@ -273744,7 +273882,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有我方单位的生命值+25%，每额外投出一次，生命值额外+25％（最多叠加三次）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_F_12_a": {
           "id": "rogue_5_change_copper_F_12_a",
@@ -273778,7 +273916,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_F_12_c": {
           "id": "rogue_5_change_copper_F_12_c",
@@ -273795,7 +273933,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_F_12_d": {
           "id": "rogue_5_change_copper_F_12_d",
@@ -273812,7 +273950,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有我方干员的防御力+200，但部署后冻结5秒。每额外投出一次，防御力额外+100<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_F_13_a": {
           "id": "rogue_5_change_copper_F_13_a",
@@ -273846,7 +273984,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_F_13_c": {
           "id": "rogue_5_change_copper_F_13_c",
@@ -273863,7 +274001,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_F_13_d": {
           "id": "rogue_5_change_copper_F_13_d",
@@ -273880,7 +274018,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有我方单位的攻击速度+80，每额外投出一次，攻击速度加成效果-20（最多减少至0）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_F_14_a": {
           "id": "rogue_5_change_copper_F_14_a",
@@ -273914,7 +274052,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_F_14_c": {
           "id": "rogue_5_change_copper_F_14_c",
@@ -273931,7 +274069,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_F_14_d": {
           "id": "rogue_5_change_copper_F_14_d",
@@ -273948,7 +274086,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_F_15_a": {
           "id": "rogue_5_change_copper_F_15_a",
@@ -274254,7 +274392,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_F_19_c": {
           "id": "rogue_5_change_copper_F_19_c",
@@ -274271,7 +274409,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_F_19_d": {
           "id": "rogue_5_change_copper_F_19_d",
@@ -274288,7 +274426,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有敌人的最大生命值+50%，但受到阻挡时每秒受到5%当前生命值的法术伤害<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_F_20_a": {
           "id": "rogue_5_change_copper_F_20_a",
@@ -274730,7 +274868,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_F_26_c": {
           "id": "rogue_5_change_copper_F_26_c",
@@ -274747,7 +274885,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_F_26_d": {
           "id": "rogue_5_change_copper_F_26_d",
@@ -274764,7 +274902,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "在界园投出时，我方单位攻击速度-20；在岁兽残识投出时，我方单位攻击速度+60<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_F_27_a": {
           "id": "rogue_5_change_copper_F_27_a",
@@ -274866,7 +275004,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_P_01_c": {
           "id": "rogue_5_change_copper_P_01_c",
@@ -274883,7 +275021,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_P_01_d": {
           "id": "rogue_5_change_copper_P_01_d",
@@ -274900,7 +275038,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，除部署在化境上的我方单位外，所有其他我方单位和敌方单位每秒受到100点真实伤害<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_P_02_a": {
           "id": "rogue_5_change_copper_P_02_a",
@@ -274934,7 +275072,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_P_02_c": {
           "id": "rogue_5_change_copper_P_02_c",
@@ -274951,7 +275089,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_P_02_d": {
           "id": "rogue_5_change_copper_P_02_d",
@@ -274968,7 +275106,7 @@
           "canSacrifice": false,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，战斗中刮起随机方向的沙尘暴，沙尘暴中的我方单位攻击力降低60％。所有我方单位攻击速度+80<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_R_01_a": {
           "id": "rogue_5_change_copper_R_01_a",
@@ -275342,7 +275480,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_R_06_c": {
           "id": "rogue_5_change_copper_R_06_c",
@@ -275359,7 +275497,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_R_06_d": {
           "id": "rogue_5_change_copper_R_06_d",
@@ -275376,7 +275514,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "加入钱盒时，立即获得源石锭+10。投出时，诡意行商及易与节点更易出现稀有商品且商品售价降低<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_R_07_a": {
           "id": "rogue_5_change_copper_R_07_a",
@@ -275546,7 +275684,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_R_09_c": {
           "id": "rogue_5_change_copper_R_09_c",
@@ -275563,7 +275701,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_R_09_d": {
           "id": "rogue_5_change_copper_R_09_d",
@@ -275580,7 +275718,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "位于钱盒内时，指挥经验+30%；投出时，敌人的移动速度+30%，攻击力+30%，变化为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_R_10_a": {
           "id": "rogue_5_change_copper_R_10_a",
@@ -275750,7 +275888,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_U_1_c": {
           "id": "rogue_5_change_copper_U_1_c",
@@ -275767,7 +275905,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_U_1_d": {
           "id": "rogue_5_change_copper_U_1_d",
@@ -275784,7 +275922,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-100（最多叠加25次），可升级<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_U_2_a": {
           "id": "rogue_5_change_copper_U_2_a",
@@ -275818,7 +275956,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_U_2_c": {
           "id": "rogue_5_change_copper_U_2_c",
@@ -275835,7 +275973,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_U_2_d": {
           "id": "rogue_5_change_copper_U_2_d",
@@ -275852,7 +275990,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，所有敌方单位防御力+2000，受到伤害时防御力-150（最多叠加25次）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_U_3_a": {
           "id": "rogue_5_change_copper_U_3_a",
@@ -275886,7 +276024,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_U_3_c": {
           "id": "rogue_5_change_copper_U_3_c",
@@ -275903,7 +276041,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_U_3_d": {
           "id": "rogue_5_change_copper_U_3_d",
@@ -275920,7 +276058,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时随机一名干员生命、攻击、初始技力、部署费用+100%，可升级<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_U_4_a": {
           "id": "rogue_5_change_copper_U_4_a",
@@ -275954,7 +276092,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_U_4_c": {
           "id": "rogue_5_change_copper_U_4_c",
@@ -275971,7 +276109,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_U_4_d": {
           "id": "rogue_5_change_copper_U_4_d",
@@ -275988,7 +276126,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时随机两名干员生命、攻击、初始技力、部署费用+100%<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_U_5_a": {
           "id": "rogue_5_change_copper_U_5_a",
@@ -276090,7 +276228,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_U_6_c": {
           "id": "rogue_5_change_copper_U_6_c",
@@ -276107,7 +276245,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_U_6_d": {
           "id": "rogue_5_change_copper_U_6_d",
@@ -276124,7 +276262,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，下次进入岁兽残识随机点亮一个节点。在界园投出时，生效期间可刷新节点两次<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_U_7_a": {
           "id": "rogue_5_change_copper_U_7_a",
@@ -276294,7 +276432,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_U_9_c": {
           "id": "rogue_5_change_copper_U_9_c",
@@ -276311,7 +276449,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_U_9_d": {
           "id": "rogue_5_change_copper_U_9_d",
@@ -276328,7 +276466,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，战斗额外掉落1点目标生命值，经过非战斗节点时目标生命值上限+1<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_S_1_a": {
           "id": "rogue_5_change_copper_S_1_a",
@@ -276362,7 +276500,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_S_1_c": {
           "id": "rogue_5_change_copper_S_1_c",
@@ -276379,7 +276517,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_S_1_d": {
           "id": "rogue_5_change_copper_S_1_d",
@@ -276396,7 +276534,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时战斗中出现属性大幅提升的鸭爵、高普尼克、流泪小子或圆仔，变化为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_S_2_a": {
           "id": "rogue_5_change_copper_S_2_a",
@@ -276430,7 +276568,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_S_2_c": {
           "id": "rogue_5_change_copper_S_2_c",
@@ -276447,7 +276585,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_S_2_d": {
           "id": "rogue_5_change_copper_S_2_d",
@@ -276464,7 +276602,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "在界园投出获得4张票券，在岁兽残识投出时烛火+2，变化为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_S_3_a": {
           "id": "rogue_5_change_copper_S_3_a",
@@ -276498,7 +276636,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_S_3_c": {
           "id": "rogue_5_change_copper_S_3_c",
@@ -276515,7 +276653,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_S_3_d": {
           "id": "rogue_5_change_copper_S_3_d",
@@ -276532,7 +276670,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_S_4_a": {
           "id": "rogue_5_change_copper_S_4_a",
@@ -276566,7 +276704,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_S_4_c": {
           "id": "rogue_5_change_copper_S_4_c",
@@ -276583,7 +276721,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_S_4_d": {
           "id": "rogue_5_change_copper_S_4_d",
@@ -276600,7 +276738,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，战斗掉落的招募券变化为6星随机直升临时招募券，变化为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_S_5_a": {
           "id": "rogue_5_change_copper_S_5_a",
@@ -276634,7 +276772,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_S_5_c": {
           "id": "rogue_5_change_copper_S_5_c",
@@ -276651,7 +276789,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_S_5_d": {
           "id": "rogue_5_change_copper_S_5_d",
@@ -276668,7 +276806,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "加入钱盒时，票券+4。投出时，购买道具及在失与得交换收藏品时，希望+1，变化为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_S_6_a": {
           "id": "rogue_5_change_copper_S_6_a",
@@ -276702,7 +276840,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><已附魔：锈色></color>"
+          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_S_6_c": {
           "id": "rogue_5_change_copper_S_6_c",
@@ -276719,7 +276857,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><已附魔：存护></color>"
+          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_S_6_d": {
           "id": "rogue_5_change_copper_S_6_d",
@@ -276736,7 +276874,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><已附魔：入幻></color>"
+          "shortUsage": "投出时，战斗中对随机化境地块落雷，干员未被击倒则成为伺烛客<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_S_7_a": {
           "id": "rogue_5_change_copper_S_7_a",

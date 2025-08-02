@@ -2569,6 +2569,30 @@
         "canBeFree": true,
         "uniEquipId": "uniequip_002_leizi2",
         "recruitType": "FREE"
+      },
+      "char_1044_hsgma2": {
+        "charId": "char_1044_hsgma2",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4199_makiri": {
+        "charId": "char_4199_makiri",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4203_kichi": {
+        "charId": "char_4203_kichi",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_kichi",
+        "recruitType": "FREE"
+      },
+      "char_4202_haruka": {
+        "charId": "char_4202_haruka",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_haruka",
+        "recruitType": "FREE"
       }
     }
   },
@@ -220395,7 +220419,7 @@
           "id": "rogue_5_relic_speg_2",
           "buffs": [
             {
-              "key": "copper_draw_reward",
+              "key": "copper_draw_reward_lucky_level",
               "blackboard": [
                 {
                   "key": "id",
@@ -220408,9 +220432,9 @@
                   "valueStr": null
                 },
                 {
-                  "key": "result_type",
-                  "value": 0.0,
-                  "valueStr": "BAD"
+                  "key": "low_min",
+                  "value": 3.0,
+                  "valueStr": null
                 },
                 {
                   "key": "divine_type",
@@ -220420,7 +220444,7 @@
               ]
             },
             {
-              "key": "copper_draw_reward",
+              "key": "copper_draw_reward_lucky_level",
               "blackboard": [
                 {
                   "key": "id",
@@ -220433,9 +220457,9 @@
                   "valueStr": null
                 },
                 {
-                  "key": "result_type",
-                  "value": 0.0,
-                  "valueStr": "BAD"
+                  "key": "low_min",
+                  "value": 3.0,
+                  "valueStr": null
                 },
                 {
                   "key": "divine_type",
@@ -220450,7 +220474,7 @@
           "id": "rogue_5_relic_speg_3",
           "buffs": [
             {
-              "key": "copper_draw_reward",
+              "key": "copper_draw_reward_lucky_level",
               "blackboard": [
                 {
                   "key": "id",
@@ -220463,9 +220487,9 @@
                   "valueStr": null
                 },
                 {
-                  "key": "result_type",
-                  "value": 0.0,
-                  "valueStr": "GOOD"
+                  "key": "high_min",
+                  "value": 3.0,
+                  "valueStr": null
                 },
                 {
                   "key": "divine_type",
@@ -220475,7 +220499,7 @@
               ]
             },
             {
-              "key": "copper_draw_reward",
+              "key": "copper_draw_reward_lucky_level",
               "blackboard": [
                 {
                   "key": "id",
@@ -220488,9 +220512,9 @@
                   "valueStr": null
                 },
                 {
-                  "key": "result_type",
-                  "value": 0.0,
-                  "valueStr": "GOOD"
+                  "key": "high_min",
+                  "value": 3.0,
+                  "valueStr": null
                 },
                 {
                   "key": "divine_type",
@@ -220656,6 +220680,11 @@
                   "key": "duration",
                   "value": 999.0,
                   "valueStr": null
+                },
+                {
+                  "key": "selector.profession",
+                  "value": 0.0,
+                  "valueStr": "warrior|sniper|tank|medic|support|caster|special|pioneer"
                 }
               ]
             }
@@ -223571,6 +223600,11 @@
                   "key": "key",
                   "value": 0.0,
                   "valueStr": "AutoSkillTrigger"
+                },
+                {
+                  "key": "selector.profession",
+                  "value": 0.0,
+                  "valueStr": "warrior|sniper|tank|medic|support|caster|special|pioneer"
                 }
               ]
             }
@@ -261597,7 +261631,7 @@
           "id": "rogue_5_relic_richg_6",
           "name": "“小百灶”",
           "description": "战争、源石与血泪的结晶。",
-          "usage": "干员部署时，对全场所有敌人造成自身部署费用一定比例的真实伤害；若部署费用不小于30，还会造成5秒的眩晕",
+          "usage": "干员部署时，对全场所有敌人造成自身部署费用一定比例的真实伤害；若部署费用不小于30，还会造成5秒的晕眩",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_relic_richg_6",
           "itemIconGroupId": null,
@@ -261614,7 +261648,7 @@
           "id": "rogue_5_relic_richg_7",
           "name": "“苍桐”",
           "description": "麟青砚的配剑，出鞘不吟，藏巧守拙如木。若披覆苍霆，必是破风掠火，瞬息即至。",
-          "usage": "部署费用为99及以上时，每隔10秒对全场敌人造成一次3000点的法术伤害和2秒的眩晕",
+          "usage": "部署费用为99及以上时，每隔10秒对全场敌人造成一次3000点的法术伤害和2秒的晕眩",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_relic_richg_7",
           "itemIconGroupId": null,

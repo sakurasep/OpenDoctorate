@@ -41524,6 +41524,950 @@
       }
     ]
   },
+  "skchr_makiri_1": {
+    "skillId": "skchr_makiri_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "入场安排",
+        "rangeId": "1-1",
+        "description": "立即获得<@ba.vup>{cost}</>点部署费用，并使当前待部署区最右边的<@ba.vup>{cnt}</>名干员部署费用<@ba.vup>{value}</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": -4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "入场安排",
+        "rangeId": "1-1",
+        "description": "立即获得<@ba.vup>{cost}</>点部署费用，并使当前待部署区最右边的<@ba.vup>{cnt}</>名干员部署费用<@ba.vup>{value}</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 39,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": -4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "入场安排",
+        "rangeId": "1-1",
+        "description": "立即获得<@ba.vup>{cost}</>点部署费用，并使当前待部署区最右边的<@ba.vup>{cnt}</>名干员部署费用<@ba.vup>{value}</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 38,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": -4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "入场安排",
+        "rangeId": "1-1",
+        "description": "立即获得<@ba.vup>{cost}</>点部署费用，并使当前待部署区最右边的<@ba.vup>{cnt}</>名干员部署费用<@ba.vup>{value}</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 37,
+          "initSp": 12,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": -4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "入场安排",
+        "rangeId": "1-1",
+        "description": "立即获得<@ba.vup>{cost}</>点部署费用，并使当前待部署区最右边的<@ba.vup>{cnt}</>名干员部署费用<@ba.vup>{value}</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 36,
+          "initSp": 12,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": -4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "入场安排",
+        "rangeId": "1-1",
+        "description": "立即获得<@ba.vup>{cost}</>点部署费用，并使当前待部署区最右边的<@ba.vup>{cnt}</>名干员部署费用<@ba.vup>{value}</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 12,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": -4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "入场安排",
+        "rangeId": "1-1",
+        "description": "立即获得<@ba.vup>{cost}</>点部署费用，并使当前待部署区最右边的<@ba.vup>{cnt}</>名干员部署费用<@ba.vup>{value}</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 34,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": -4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "入场安排",
+        "rangeId": "1-1",
+        "description": "立即获得<@ba.vup>{cost}</>点部署费用，并使当前待部署区最右边的<@ba.vup>{cnt}</>名干员部署费用<@ba.vup>{value}</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 33,
+          "initSp": 16,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": -4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "入场安排",
+        "rangeId": "1-1",
+        "description": "立即获得<@ba.vup>{cost}</>点部署费用，并使当前待部署区最右边的<@ba.vup>{cnt}</>名干员部署费用<@ba.vup>{value}</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 32,
+          "initSp": 18,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": -4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "入场安排",
+        "rangeId": "1-1",
+        "description": "立即获得<@ba.vup>{cost}</>点部署费用，并使当前待部署区最右边的<@ba.vup>{cnt}</>名干员部署费用<@ba.vup>{value}</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": -4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_makiri_2": {
+    "skillId": "skchr_makiri_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "万手成局",
+        "rangeId": "1-1",
+        "description": "逐渐回复总共<@ba.vup>{value}</>点部署费用，攻击力<@ba.vup>+{makiri_s_2[passive].atk:0%}</>，每秒恢复<@ba.vup>{makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio:0%}</>的最大生命值；技能开启时立即使待部署区所有重装与辅助干员费用<@ba.vup>{cost_decrease}</>，并且最大生命值<@ba.vup>+{max_hp:0%}</>（生命加成最多叠加<@ba.vup>{max_stack_cnt}</>次，持续至下次撤退）",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio",
+            "value": 0.05,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].atk",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "cost_decrease",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "万手成局",
+        "rangeId": "1-1",
+        "description": "逐渐回复总共<@ba.vup>{value}</>点部署费用，攻击力<@ba.vup>+{makiri_s_2[passive].atk:0%}</>，每秒恢复<@ba.vup>{makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio:0%}</>的最大生命值；技能开启时立即使待部署区所有重装与辅助干员费用<@ba.vup>{cost_decrease}</>，并且最大生命值<@ba.vup>+{max_hp:0%}</>（生命加成最多叠加<@ba.vup>{max_stack_cnt}</>次，持续至下次撤退）",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 34,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio",
+            "value": 0.05,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "cost_decrease",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "万手成局",
+        "rangeId": "1-1",
+        "description": "逐渐回复总共<@ba.vup>{value}</>点部署费用，攻击力<@ba.vup>+{makiri_s_2[passive].atk:0%}</>，每秒恢复<@ba.vup>{makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio:0%}</>的最大生命值；技能开启时立即使待部署区所有重装与辅助干员费用<@ba.vup>{cost_decrease}</>，并且最大生命值<@ba.vup>+{max_hp:0%}</>（生命加成最多叠加<@ba.vup>{max_stack_cnt}</>次，持续至下次撤退）",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 33,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio",
+            "value": 0.05,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].atk",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "cost_decrease",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "万手成局",
+        "rangeId": "1-1",
+        "description": "逐渐回复总共<@ba.vup>{value}</>点部署费用，攻击力<@ba.vup>+{makiri_s_2[passive].atk:0%}</>，每秒恢复<@ba.vup>{makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio:0%}</>的最大生命值；技能开启时立即使待部署区所有重装与辅助干员费用<@ba.vup>{cost_decrease}</>，并且最大生命值<@ba.vup>+{max_hp:0%}</>（生命加成最多叠加<@ba.vup>{max_stack_cnt}</>次，持续至下次撤退）",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 32,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio",
+            "value": 0.06,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "cost_decrease",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "万手成局",
+        "rangeId": "1-1",
+        "description": "逐渐回复总共<@ba.vup>{value}</>点部署费用，攻击力<@ba.vup>+{makiri_s_2[passive].atk:0%}</>，每秒恢复<@ba.vup>{makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio:0%}</>的最大生命值；技能开启时立即使待部署区所有重装与辅助干员费用<@ba.vup>{cost_decrease}</>，并且最大生命值<@ba.vup>+{max_hp:0%}</>（生命加成最多叠加<@ba.vup>{max_stack_cnt}</>次，持续至下次撤退）",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 31,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio",
+            "value": 0.06,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].atk",
+            "value": 0.45,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "cost_decrease",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "万手成局",
+        "rangeId": "1-1",
+        "description": "逐渐回复总共<@ba.vup>{value}</>点部署费用，攻击力<@ba.vup>+{makiri_s_2[passive].atk:0%}</>，每秒恢复<@ba.vup>{makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio:0%}</>的最大生命值；技能开启时立即使待部署区所有重装与辅助干员费用<@ba.vup>{cost_decrease}</>，并且最大生命值<@ba.vup>+{max_hp:0%}</>（生命加成最多叠加<@ba.vup>{max_stack_cnt}</>次，持续至下次撤退）",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio",
+            "value": 0.06,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "cost_decrease",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "万手成局",
+        "rangeId": "1-1",
+        "description": "逐渐回复总共<@ba.vup>{value}</>点部署费用，攻击力<@ba.vup>+{makiri_s_2[passive].atk:0%}</>，每秒恢复<@ba.vup>{makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio:0%}</>的最大生命值；技能开启时立即使待部署区所有重装与辅助干员费用<@ba.vup>{cost_decrease}</>，并且最大生命值<@ba.vup>+{max_hp:0%}</>（生命加成最多叠加<@ba.vup>{max_stack_cnt}</>次，持续至下次撤退）",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 29,
+          "initSp": 12,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.12,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio",
+            "value": 0.08,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].atk",
+            "value": 0.55,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "cost_decrease",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "万手成局",
+        "rangeId": "1-1",
+        "description": "逐渐回复总共<@ba.vup>{value}</>点部署费用，攻击力<@ba.vup>+{makiri_s_2[passive].atk:0%}</>，每秒恢复<@ba.vup>{makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio:0%}</>的最大生命值；技能开启时立即使待部署区所有重装与辅助干员费用<@ba.vup>{cost_decrease}</>，并且最大生命值<@ba.vup>+{max_hp:0%}</>（生命加成最多叠加<@ba.vup>{max_stack_cnt}</>次，持续至下次撤退）",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 28,
+          "initSp": 13,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.13,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio",
+            "value": 0.08,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].atk",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "cost_decrease",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "万手成局",
+        "rangeId": "1-1",
+        "description": "逐渐回复总共<@ba.vup>{value}</>点部署费用，攻击力<@ba.vup>+{makiri_s_2[passive].atk:0%}</>，每秒恢复<@ba.vup>{makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio:0%}</>的最大生命值；技能开启时立即使待部署区所有重装与辅助干员费用<@ba.vup>{cost_decrease}</>，并且最大生命值<@ba.vup>+{max_hp:0%}</>（生命加成最多叠加<@ba.vup>{max_stack_cnt}</>次，持续至下次撤退）",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 27,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.14,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio",
+            "value": 0.08,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].atk",
+            "value": 0.65,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "cost_decrease",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "万手成局",
+        "rangeId": "1-1",
+        "description": "逐渐回复总共<@ba.vup>{value}</>点部署费用，攻击力<@ba.vup>+{makiri_s_2[passive].atk:0%}</>，每秒恢复<@ba.vup>{makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio:0%}</>的最大生命值；技能开启时立即使待部署区所有重装与辅助干员费用<@ba.vup>{cost_decrease}</>，并且最大生命值<@ba.vup>+{max_hp:0%}</>（生命加成最多叠加<@ba.vup>{max_stack_cnt}</>次，持续至下次撤退）",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_makiri_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].hp_recovery_per_sec_by_max_hp_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "makiri_s_2[passive].atk",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "cost_decrease",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
   "skchr_grani_2": {
     "skillId": "skchr_grani_2",
     "iconId": null,
@@ -74424,6 +75368,800 @@
           {
             "key": "talent_scale",
             "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_kichi_1": {
+    "skillId": "skchr_kichi_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "欢迎您来！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>略微增大</>，每次攻击后攻击力<@ba.vup>+{atk:0%}</>，最多叠加<@ba.vup>{max_stack_cnt}</>次",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "欢迎您来！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>略微增大</>，每次攻击后攻击力<@ba.vup>+{atk:0%}</>，最多叠加<@ba.vup>{max_stack_cnt}</>次",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 58,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.12,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "欢迎您来！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>略微增大</>，每次攻击后攻击力<@ba.vup>+{atk:0%}</>，最多叠加<@ba.vup>{max_stack_cnt}</>次",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 56,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_1",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.14,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "欢迎您来！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>略微增大</>，每次攻击后攻击力<@ba.vup>+{atk:0%}</>，最多叠加<@ba.vup>{max_stack_cnt}</>次",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_1",
+        "duration": 33.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "欢迎您来！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>略微增大</>，每次攻击后攻击力<@ba.vup>+{atk:0%}</>，最多叠加<@ba.vup>{max_stack_cnt}</>次",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 53,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_1",
+        "duration": 33.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.17,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "欢迎您来！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>略微增大</>，每次攻击后攻击力<@ba.vup>+{atk:0%}</>，最多叠加<@ba.vup>{max_stack_cnt}</>次",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 51,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_1",
+        "duration": 33.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.18,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "欢迎您来！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>略微增大</>，每次攻击后攻击力<@ba.vup>+{atk:0%}</>，最多叠加<@ba.vup>{max_stack_cnt}</>次",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_1",
+        "duration": 36.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "欢迎您来！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>略微增大</>，每次攻击后攻击力<@ba.vup>+{atk:0%}</>，最多叠加<@ba.vup>{max_stack_cnt}</>次",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 49,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_1",
+        "duration": 38.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.22,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "欢迎您来！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>略微增大</>，每次攻击后攻击力<@ba.vup>+{atk:0%}</>，最多叠加<@ba.vup>{max_stack_cnt}</>次",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 47,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_1",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.23,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "欢迎您来！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>略微增大</>，每次攻击后攻击力<@ba.vup>+{atk:0%}</>，最多叠加<@ba.vup>{max_stack_cnt}</>次",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_1",
+        "duration": 42.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "max_stack_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_kichi_2": {
+    "skillId": "skchr_kichi_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "吉星高照！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>；攻击时将依次并且循环对命中的目标施加不同效果：<$ba.sluggish>停顿</><@ba.vup>{attack@unmoveable}</>秒、<$ba.root>束缚</><@ba.vup>{attack@sluggish}</>秒、<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒；",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 16,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_2",
+        "duration": 24.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@unmoveable",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@stun",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "吉星高照！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>；攻击时将依次并且循环对命中的目标施加不同效果：<$ba.sluggish>停顿</><@ba.vup>{attack@unmoveable}</>秒、<$ba.root>束缚</><@ba.vup>{attack@sluggish}</>秒、<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒；",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 49,
+          "initSp": 17,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "attack@unmoveable",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@stun",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "吉星高照！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>；攻击时将依次并且循环对命中的目标施加不同效果：<$ba.sluggish>停顿</><@ba.vup>{attack@unmoveable}</>秒、<$ba.root>束缚</><@ba.vup>{attack@sluggish}</>秒、<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒；",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 48,
+          "initSp": 18,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_2",
+        "duration": 26.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "attack@unmoveable",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@stun",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "吉星高照！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>；攻击时将依次并且循环对命中的目标施加不同效果：<$ba.sluggish>停顿</><@ba.vup>{attack@unmoveable}</>秒、<$ba.root>束缚</><@ba.vup>{attack@sluggish}</>秒、<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒；",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 47,
+          "initSp": 19,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_2",
+        "duration": 27.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.45,
+            "valueStr": null
+          },
+          {
+            "key": "attack@unmoveable",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@stun",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "吉星高照！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>；攻击时将依次并且循环对命中的目标施加不同效果：<$ba.sluggish>停顿</><@ba.vup>{attack@unmoveable}</>秒、<$ba.root>束缚</><@ba.vup>{attack@sluggish}</>秒、<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒；",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 46,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_2",
+        "duration": 28.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@unmoveable",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@stun",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "吉星高照！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>；攻击时将依次并且循环对命中的目标施加不同效果：<$ba.sluggish>停顿</><@ba.vup>{attack@unmoveable}</>秒、<$ba.root>束缚</><@ba.vup>{attack@sluggish}</>秒、<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒；",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 21,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_2",
+        "duration": 29.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.55,
+            "valueStr": null
+          },
+          {
+            "key": "attack@unmoveable",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@stun",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "吉星高照！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>；攻击时将依次并且循环对命中的目标施加不同效果：<$ba.sluggish>停顿</><@ba.vup>{attack@unmoveable}</>秒、<$ba.root>束缚</><@ba.vup>{attack@sluggish}</>秒、<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒；",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 44,
+          "initSp": 22,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_2",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "attack@unmoveable",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@stun",
+            "value": 1.3,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "吉星高照！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>；攻击时将依次并且循环对命中的目标施加不同效果：<$ba.sluggish>停顿</><@ba.vup>{attack@unmoveable}</>秒、<$ba.root>束缚</><@ba.vup>{attack@sluggish}</>秒、<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒；",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 43,
+          "initSp": 23,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_2",
+        "duration": 31.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.65,
+            "valueStr": null
+          },
+          {
+            "key": "attack@unmoveable",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@stun",
+            "value": 1.3,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "吉星高照！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>；攻击时将依次并且循环对命中的目标施加不同效果：<$ba.sluggish>停顿</><@ba.vup>{attack@unmoveable}</>秒、<$ba.root>束缚</><@ba.vup>{attack@sluggish}</>秒、<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒；",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 42,
+          "initSp": 24,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_2",
+        "duration": 33.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "attack@unmoveable",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@stun",
+            "value": 1.3,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "吉星高照！",
+        "rangeId": null,
+        "description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>；攻击时将依次并且循环对命中的目标施加不同效果：<$ba.sluggish>停顿</><@ba.vup>{attack@unmoveable}</>秒、<$ba.root>束缚</><@ba.vup>{attack@sluggish}</>秒、<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒；",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_kichi_2",
+        "duration": 36.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@unmoveable",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@stun",
+            "value": 1.5,
             "valueStr": null
           }
         ]
@@ -218428,6 +220166,1297 @@
       }
     ]
   },
+  "skchr_haruka_1": {
+    "skillId": "skchr_haruka_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "夜啼彩羽",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，技能期间浮泡破碎时，立即使周围8格一名没有浮泡的友方单位获得浮泡",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 4,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_1",
+        "duration": 18.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夜啼彩羽",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，技能期间浮泡破碎时，立即使周围8格一名没有浮泡的友方单位获得浮泡",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_1",
+        "duration": 18.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 20.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夜啼彩羽",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，技能期间浮泡破碎时，立即使周围8格一名没有浮泡的友方单位获得浮泡",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 6,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_1",
+        "duration": 18.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 25.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夜啼彩羽",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，技能期间浮泡破碎时，立即使周围8格一名没有浮泡的友方单位获得浮泡",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 7,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_1",
+        "duration": 19.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 30.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夜啼彩羽",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，技能期间浮泡破碎时，立即使周围8格一名没有浮泡的友方单位获得浮泡",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 8,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_1",
+        "duration": 19.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 35.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夜啼彩羽",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，技能期间浮泡破碎时，立即使周围8格一名没有浮泡的友方单位获得浮泡",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 9,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_1",
+        "duration": 19.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 40.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夜啼彩羽",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，技能期间浮泡破碎时，立即使周围8格一名没有浮泡的友方单位获得浮泡",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_1",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 45.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夜啼彩羽",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，技能期间浮泡破碎时，立即使周围8格一名没有浮泡的友方单位获得浮泡",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 11,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_1",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夜啼彩羽",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，技能期间浮泡破碎时，立即使周围8格一名没有浮泡的友方单位获得浮泡",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 13,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_1",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 55.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夜啼彩羽",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+{attack_speed}</>，技能期间浮泡破碎时，立即使周围8格一名没有浮泡的友方单位获得浮泡",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_1",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "attack_speed",
+            "value": 60.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_haruka_2": {
+    "skillId": "skchr_haruka_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "幽隙栖萤",
+        "rangeId": null,
+        "description": "友方单位受到遥的治疗效果时，对周围<@ba.vup>{max_target_extra}</>名敌人造成相当于治疗量<@ba.vup>{atk_scale_extra:0%}</>的法术伤害\\n<@ba.rem>第二次及以后使用时攻击力<@ba.vup>+{atk:0%}</>，且持续时间无限</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 22,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_2",
+        "duration": 21.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "haruka_s_2[first].atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target_heal_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_shield_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_extra",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_extra",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "幽隙栖萤",
+        "rangeId": null,
+        "description": "友方单位受到遥的治疗效果时，对周围<@ba.vup>{max_target_extra}</>名敌人造成相当于治疗量<@ba.vup>{atk_scale_extra:0%}</>的法术伤害\\n<@ba.rem>第二次及以后使用时攻击力<@ba.vup>+{atk:0%}</>，且持续时间无限</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 22,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_2",
+        "duration": 21.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "haruka_s_2[first].atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target_heal_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_shield_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_extra",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_extra",
+            "value": 1.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "幽隙栖萤",
+        "rangeId": null,
+        "description": "友方单位受到遥的治疗效果时，对周围<@ba.vup>{max_target_extra}</>名敌人造成相当于治疗量<@ba.vup>{atk_scale_extra:0%}</>的法术伤害\\n<@ba.rem>第二次及以后使用时攻击力<@ba.vup>+{atk:0%}</>，且持续时间无限</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 22,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_2",
+        "duration": 21.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "haruka_s_2[first].atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target_heal_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_shield_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_extra",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_extra",
+            "value": 1.2,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "幽隙栖萤",
+        "rangeId": null,
+        "description": "友方单位受到遥的治疗效果时，对周围<@ba.vup>{max_target_extra}</>名敌人造成相当于治疗量<@ba.vup>{atk_scale_extra:0%}</>的法术伤害\\n<@ba.rem>第二次及以后使用时攻击力<@ba.vup>+{atk:0%}</>，且持续时间无限</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 21,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_2",
+        "duration": 22.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "haruka_s_2[first].atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target_heal_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_shield_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_extra",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_extra",
+            "value": 1.4,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "幽隙栖萤",
+        "rangeId": null,
+        "description": "友方单位受到遥的治疗效果时，对周围<@ba.vup>{max_target_extra}</>名敌人造成相当于治疗量<@ba.vup>{atk_scale_extra:0%}</>的法术伤害\\n<@ba.rem>第二次及以后使用时攻击力<@ba.vup>+{atk:0%}</>，且持续时间无限</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 21,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_2",
+        "duration": 22.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "haruka_s_2[first].atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target_heal_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_shield_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_extra",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_extra",
+            "value": 1.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "幽隙栖萤",
+        "rangeId": null,
+        "description": "友方单位受到遥的治疗效果时，对周围<@ba.vup>{max_target_extra}</>名敌人造成相当于治疗量<@ba.vup>{atk_scale_extra:0%}</>的法术伤害\\n<@ba.rem>第二次及以后使用时攻击力<@ba.vup>+{atk:0%}</>，且持续时间无限</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 21,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_2",
+        "duration": 22.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "haruka_s_2[first].atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target_heal_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_shield_add",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_extra",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_extra",
+            "value": 1.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "幽隙栖萤",
+        "rangeId": null,
+        "description": "治疗目标数<@ba.vup>+{attack@max_target_heal_add}</>，浮光泡影的目标数<@ba.vup>+{max_target_shield_add}</>；友方单位受到遥的治疗效果时，对周围<@ba.vup>{max_target_extra}</>名敌人造成相当于治疗量<@ba.vup>{atk_scale_extra:0%}</>的法术伤害\\n<@ba.rem>第二次及以后使用时攻击力<@ba.vup>+{atk:0%}</>，且持续时间无限</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_2",
+        "duration": 23.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "haruka_s_2[first].atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target_heal_add",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_shield_add",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_extra",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_extra",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "幽隙栖萤",
+        "rangeId": null,
+        "description": "治疗目标数<@ba.vup>+{attack@max_target_heal_add}</>，浮光泡影的目标数<@ba.vup>+{max_target_shield_add}</>；友方单位受到遥的治疗效果时，对周围<@ba.vup>{max_target_extra}</>名敌人造成相当于治疗量<@ba.vup>{atk_scale_extra:0%}</>的法术伤害\\n<@ba.rem>第二次及以后使用时攻击力<@ba.vup>+{atk:0%}</>，且持续时间无限</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 19,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_2",
+        "duration": 24.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "haruka_s_2[first].atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target_heal_add",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_shield_add",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_extra",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_extra",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "幽隙栖萤",
+        "rangeId": null,
+        "description": "治疗目标数<@ba.vup>+{attack@max_target_heal_add}</>，浮光泡影的目标数<@ba.vup>+{max_target_shield_add}</>；友方单位受到遥的治疗效果时，对周围<@ba.vup>{max_target_extra}</>名敌人造成相当于治疗量<@ba.vup>{atk_scale_extra:0%}</>的法术伤害\\n<@ba.rem>第二次及以后使用时攻击力<@ba.vup>+{atk:0%}</>，且持续时间无限</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 18,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_2",
+        "duration": 25.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "haruka_s_2[first].atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target_heal_add",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_shield_add",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_extra",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_extra",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "幽隙栖萤",
+        "rangeId": null,
+        "description": "治疗目标数<@ba.vup>+{attack@max_target_heal_add}</>，浮光泡影的目标数<@ba.vup>+{max_target_shield_add}</>；友方单位受到遥的治疗效果时，对周围<@ba.vup>{max_target_extra}</>名敌人造成相当于治疗量<@ba.vup>{atk_scale_extra:0%}</>的法术伤害\\n<@ba.rem>第二次及以后使用时攻击力<@ba.vup>+{atk:0%}</>，且持续时间无限</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 17,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_2",
+        "duration": 26.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "haruka_s_2[first].atk",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target_heal_add",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_shield_add",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "ability_range_radius",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "max_target_extra",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_extra",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_haruka_3": {
+    "skillId": "skchr_haruka_3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "夏末游鳞",
+        "rangeId": "y-8",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>小幅度缩短</>，技能期间浮泡提供的<$ba.protect>庇护</>提升至<@ba.vup>{damage_resistance_scale}</>倍；攻击我方浮泡的敌人将<$ba.levitate>浮空</><@ba.vup>{levitate_duration}</>秒，在此浮空期间每秒受到相当于遥攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 40,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_3",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": -0.2,
+            "valueStr": null
+          },
+          {
+            "key": "damage_resistance_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "levitate_duration",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夏末游鳞",
+        "rangeId": "y-8",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>小幅度缩短</>，技能期间浮泡提供的<$ba.protect>庇护</>提升至<@ba.vup>{damage_resistance_scale}</>倍；攻击我方浮泡的敌人将<$ba.levitate>浮空</><@ba.vup>{levitate_duration}</>秒，在此浮空期间每秒受到相当于遥攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 41,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_3",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": -0.2,
+            "valueStr": null
+          },
+          {
+            "key": "damage_resistance_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "levitate_duration",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夏末游鳞",
+        "rangeId": "y-8",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>小幅度缩短</>，技能期间浮泡提供的<$ba.protect>庇护</>提升至<@ba.vup>{damage_resistance_scale}</>倍；攻击我方浮泡的敌人将<$ba.levitate>浮空</><@ba.vup>{levitate_duration}</>秒，在此浮空期间每秒受到相当于遥攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 42,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_3",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": -0.2,
+            "valueStr": null
+          },
+          {
+            "key": "damage_resistance_scale",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "levitate_duration",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夏末游鳞",
+        "rangeId": "y-8",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>一定程度缩短</>，技能期间浮泡提供的<$ba.protect>庇护</>提升至<@ba.vup>{damage_resistance_scale}</>倍；攻击我方浮泡的敌人将<$ba.levitate>浮空</><@ba.vup>{levitate_duration}</>秒，在此浮空期间每秒受到相当于遥攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 43,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_3",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": -0.4,
+            "valueStr": null
+          },
+          {
+            "key": "damage_resistance_scale",
+            "value": 1.4,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "levitate_duration",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夏末游鳞",
+        "rangeId": "y-8",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>一定程度缩短</>，技能期间浮泡提供的<$ba.protect>庇护</>提升至<@ba.vup>{damage_resistance_scale}</>倍；攻击我方浮泡的敌人将<$ba.levitate>浮空</><@ba.vup>{levitate_duration}</>秒，在此浮空期间每秒受到相当于遥攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 44,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_3",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": -0.4,
+            "valueStr": null
+          },
+          {
+            "key": "damage_resistance_scale",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "levitate_duration",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夏末游鳞",
+        "rangeId": "y-8",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>一定程度缩短</>，技能期间浮泡提供的<$ba.protect>庇护</>提升至<@ba.vup>{damage_resistance_scale}</>倍；攻击我方浮泡的敌人将<$ba.levitate>浮空</><@ba.vup>{levitate_duration}</>秒，在此浮空期间每秒受到相当于遥攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 45,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_3",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": -0.4,
+            "valueStr": null
+          },
+          {
+            "key": "damage_resistance_scale",
+            "value": 1.6,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "levitate_duration",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夏末游鳞",
+        "rangeId": "y-8",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短</>，技能期间浮泡提供的<$ba.protect>庇护</>提升至<@ba.vup>{damage_resistance_scale}</>倍；攻击我方浮泡的敌人将<$ba.levitate>浮空</><@ba.vup>{levitate_duration}</>秒，在此浮空期间每秒受到相当于遥攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 46,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_3",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": -0.6,
+            "valueStr": null
+          },
+          {
+            "key": "damage_resistance_scale",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "levitate_duration",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.7,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夏末游鳞",
+        "rangeId": "y-8",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短</>，技能期间浮泡提供的<$ba.protect>庇护</>提升至<@ba.vup>{damage_resistance_scale}</>倍；攻击我方浮泡的敌人将<$ba.levitate>浮空</><@ba.vup>{levitate_duration}</>秒，在此浮空期间每秒受到相当于遥攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 48,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_3",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": -0.6,
+            "valueStr": null
+          },
+          {
+            "key": "damage_resistance_scale",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.45,
+            "valueStr": null
+          },
+          {
+            "key": "levitate_duration",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.7,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夏末游鳞",
+        "rangeId": "y-8",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短</>，技能期间浮泡提供的<$ba.protect>庇护</>提升至<@ba.vup>{damage_resistance_scale}</>倍；攻击我方浮泡的敌人将<$ba.levitate>浮空</><@ba.vup>{levitate_duration}</>秒，在此浮空期间每秒受到相当于遥攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 50,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_3",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": -0.6,
+            "valueStr": null
+          },
+          {
+            "key": "damage_resistance_scale",
+            "value": 1.9,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "levitate_duration",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.7,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "夏末游鳞",
+        "rangeId": "y-8",
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短</>，技能期间浮泡提供的<$ba.protect>庇护</>提升至<@ba.vup>{damage_resistance_scale}</>倍；攻击我方浮泡的敌人将<$ba.levitate>浮空</><@ba.vup>{levitate_duration}</>秒，在此浮空期间每秒受到相当于遥攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 53,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_haruka_3",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "base_attack_time",
+            "value": -0.6,
+            "valueStr": null
+          },
+          {
+            "key": "damage_resistance_scale",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.55,
+            "valueStr": null
+          },
+          {
+            "key": "levitate_duration",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
   "skchr_ironmn_1": {
     "skillId": "skchr_ironmn_1",
     "iconId": null,
@@ -221309,7 +224338,7 @@
       {
         "name": "暗夜回声",
         "rangeId": null,
-        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -221348,7 +224377,7 @@
       {
         "name": "暗夜回声",
         "rangeId": null,
-        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -221387,7 +224416,7 @@
       {
         "name": "暗夜回声",
         "rangeId": null,
-        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -221426,7 +224455,7 @@
       {
         "name": "暗夜回声",
         "rangeId": null,
-        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -221465,7 +224494,7 @@
       {
         "name": "暗夜回声",
         "rangeId": null,
-        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -221504,7 +224533,7 @@
       {
         "name": "暗夜回声",
         "rangeId": null,
-        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -221543,7 +224572,7 @@
       {
         "name": "暗夜回声",
         "rangeId": null,
-        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -221582,7 +224611,7 @@
       {
         "name": "暗夜回声",
         "rangeId": null,
-        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -221621,7 +224650,7 @@
       {
         "name": "暗夜回声",
         "rangeId": null,
-        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -221660,7 +224689,7 @@
       {
         "name": "暗夜回声",
         "rangeId": null,
-        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</><@ba.vup>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
+        "description": "下次攻击造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并使目标<$ba.root>束缚</><@ba.vup>{unmove}</>秒，该次<$ba.root>束缚</>期间目标受到的<$ba.dt.neural2>神经损伤</>提升至<@ba.vup>{ep_damage_scale}</>倍，优先攻击未处于爆发期间的敌人",
         "skillType": "AUTO",
         "durationType": "NONE",
         "spData": {
@@ -273032,6 +276061,1197 @@
       }
     ]
   },
+  "skchr_hsgma2_1": {
+    "skillId": "skchr_hsgma2_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "恶业苦果",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，每次受到攻击时对目标造成相当于斩业星熊攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>持续时间无限</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.25,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.7,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "恶业苦果",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，每次受到攻击时对目标造成相当于斩业星熊攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>持续时间无限</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.8,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "恶业苦果",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，每次受到攻击时对目标造成相当于斩业星熊攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>持续时间无限</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.35,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 0.9,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "恶业苦果",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，每次受到攻击时对目标造成相当于斩业星熊攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>持续时间无限</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "恶业苦果",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，每次受到攻击时对目标造成相当于斩业星熊攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>持续时间无限</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.45,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.45,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "恶业苦果",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，每次受到攻击时对目标造成相当于斩业星熊攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>持续时间无限</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.2,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "恶业苦果",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，每次受到攻击时对目标造成相当于斩业星熊攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>持续时间无限</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.55,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.55,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.3,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "恶业苦果",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，每次受到攻击时对目标造成相当于斩业星熊攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>持续时间无限</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.45,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "恶业苦果",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，每次受到攻击时对目标造成相当于斩业星熊攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>持续时间无限</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.65,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.65,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.6,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "恶业苦果",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，每次受到攻击时对目标造成相当于斩业星熊攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>持续时间无限</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale",
+            "value": 1.75,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_hsgma2_2": {
+    "skillId": "skchr_hsgma2_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "无始无明",
+        "rangeId": null,
+        "description": "投出盾牌并以攻击力<@ba.vup>{attack@atk_scale:0%}</>的三连击攻击所有阻挡的敌人，盾牌会环绕斩业星熊飞行<@ba.vup>一圈</>；盾牌碰到敌人时使目标<$ba.sluggish>停顿</>，每{interval}秒对其造成攻击力<@ba.vup>{shield_atk_scale:0%}</>的法术伤害，自身回复盾牌造成伤害<@ba.vup>{heal_ratio:0%}</>的生命",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "shield_atk_scale",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "heal_ratio",
+            "value": 0.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "无始无明",
+        "rangeId": null,
+        "description": "投出盾牌并以攻击力<@ba.vup>{attack@atk_scale:0%}</>的三连击攻击所有阻挡的敌人，盾牌会环绕斩业星熊飞行<@ba.vup>一圈</>；盾牌碰到敌人时使目标<$ba.sluggish>停顿</>，每{interval}秒对其造成攻击力<@ba.vup>{shield_atk_scale:0%}</>的法术伤害，自身回复盾牌造成伤害<@ba.vup>{heal_ratio:0%}</>的生命",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 0.45,
+            "valueStr": null
+          },
+          {
+            "key": "shield_atk_scale",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "heal_ratio",
+            "value": 0.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "无始无明",
+        "rangeId": null,
+        "description": "投出盾牌并以攻击力<@ba.vup>{attack@atk_scale:0%}</>的三连击攻击所有阻挡的敌人，盾牌会环绕斩业星熊飞行<@ba.vup>一圈</>；盾牌碰到敌人时使目标<$ba.sluggish>停顿</>，每{interval}秒对其造成攻击力<@ba.vup>{shield_atk_scale:0%}</>的法术伤害，自身回复盾牌造成伤害<@ba.vup>{heal_ratio:0%}</>的生命",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 9,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "shield_atk_scale",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "heal_ratio",
+            "value": 0.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "无始无明",
+        "rangeId": null,
+        "description": "投出盾牌并以攻击力<@ba.vup>{attack@atk_scale:0%}</>的三连击攻击所有阻挡的敌人，盾牌会环绕斩业星熊飞行<@ba.vup>一圈</>；盾牌碰到敌人时使目标<$ba.sluggish>停顿</>，每{interval}秒对其造成攻击力<@ba.vup>{shield_atk_scale:0%}</>的法术伤害，自身回复盾牌造成伤害<@ba.vup>{heal_ratio:0%}</>的生命",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 9,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 0.55,
+            "valueStr": null
+          },
+          {
+            "key": "shield_atk_scale",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "heal_ratio",
+            "value": 0.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "无始无明",
+        "rangeId": null,
+        "description": "投出盾牌并以攻击力<@ba.vup>{attack@atk_scale:0%}</>的三连击攻击所有阻挡的敌人，盾牌会环绕斩业星熊飞行<@ba.vup>一圈</>；盾牌碰到敌人时使目标<$ba.sluggish>停顿</>，每{interval}秒对其造成攻击力<@ba.vup>{shield_atk_scale:0%}</>的法术伤害，自身回复盾牌造成伤害<@ba.vup>{heal_ratio:0%}</>的生命",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "shield_atk_scale",
+            "value": 0.9,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "heal_ratio",
+            "value": 0.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "无始无明",
+        "rangeId": null,
+        "description": "投出盾牌并以攻击力<@ba.vup>{attack@atk_scale:0%}</>的三连击攻击所有阻挡的敌人，盾牌会环绕斩业星熊飞行<@ba.vup>一圈</>；盾牌碰到敌人时使目标<$ba.sluggish>停顿</>，每{interval}秒对其造成攻击力<@ba.vup>{shield_atk_scale:0%}</>的法术伤害，自身回复盾牌造成伤害<@ba.vup>{heal_ratio:0%}</>的生命",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 0.65,
+            "valueStr": null
+          },
+          {
+            "key": "shield_atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "heal_ratio",
+            "value": 0.1,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "无始无明",
+        "rangeId": null,
+        "description": "投出盾牌并以攻击力<@ba.vup>{attack@atk_scale:0%}</>的三连击攻击所有阻挡的敌人，盾牌会环绕斩业星熊飞行<@ba.vup>一圈</>；盾牌碰到敌人时使目标<$ba.sluggish>停顿</>，每{interval}秒对其造成攻击力<@ba.vup>{shield_atk_scale:0%}</>的法术伤害，自身回复盾牌造成伤害<@ba.vup>{heal_ratio:0%}</>的生命",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 7,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "shield_atk_scale",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "heal_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "无始无明",
+        "rangeId": null,
+        "description": "投出盾牌并以攻击力<@ba.vup>{attack@atk_scale:0%}</>的三连击攻击所有阻挡的敌人，盾牌会环绕斩业星熊飞行<@ba.vup>一圈</>；盾牌碰到敌人时使目标<$ba.sluggish>停顿</>，每{interval}秒对其造成攻击力<@ba.vup>{shield_atk_scale:0%}</>的法术伤害，自身回复盾牌造成伤害<@ba.vup>{heal_ratio:0%}</>的生命",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 7,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 0.75,
+            "valueStr": null
+          },
+          {
+            "key": "shield_atk_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "heal_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "无始无明",
+        "rangeId": null,
+        "description": "投出盾牌并以攻击力<@ba.vup>{attack@atk_scale:0%}</>的三连击攻击所有阻挡的敌人，盾牌会环绕斩业星熊飞行<@ba.vup>一圈</>；盾牌碰到敌人时使目标<$ba.sluggish>停顿</>，每{interval}秒对其造成攻击力<@ba.vup>{shield_atk_scale:0%}</>的法术伤害，自身回复盾牌造成伤害<@ba.vup>{heal_ratio:0%}</>的生命",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 6,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "shield_atk_scale",
+            "value": 1.25,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "heal_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "无始无明",
+        "rangeId": null,
+        "description": "投出盾牌并以攻击力<@ba.vup>{attack@atk_scale:0%}</>的三连击攻击所有阻挡的敌人，盾牌会环绕斩业星熊飞行<@ba.vup>一圈</>；盾牌碰到敌人时使目标<$ba.sluggish>停顿</>，每{interval}秒对其造成攻击力<@ba.vup>{shield_atk_scale:0%}</>的法术伤害，自身回复盾牌造成伤害<@ba.vup>{heal_ratio:0%}</>的生命",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_ATTACK",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 6,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 0.9,
+            "valueStr": null
+          },
+          {
+            "key": "shield_atk_scale",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "sluggish",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "heal_ratio",
+            "value": 0.15,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_hsgma2_3": {
+    "skillId": "skchr_hsgma2_3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "地狱变相",
+        "rangeId": "x-2",
+        "description": "攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，以二连击攻击最多<@ba.vup>{attack@max_target}</>名敌人；主动关闭技能后<@ba.vup>{before_dead_duration}</>秒内保留技能加成且不会被击倒，攻击变为四连击，承担攻击范围内我方干员受到的致命伤害，<@ba.vup>{before_dead_duration}</>秒后强制退出战场\\n<@ba.rem>可主动关闭（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_3",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 0.4,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "before_dead_duration",
+            "value": 11.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "地狱变相",
+        "rangeId": "x-2",
+        "description": "攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，以二连击攻击最多<@ba.vup>{attack@max_target}</>名敌人；主动关闭技能后<@ba.vup>{before_dead_duration}</>秒内保留技能加成且不会被击倒，攻击变为四连击，承担攻击范围内我方干员受到的致命伤害，<@ba.vup>{before_dead_duration}</>秒后强制退出战场\\n<@ba.rem>可主动关闭（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 26,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_3",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 0.45,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "before_dead_duration",
+            "value": 11.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "地狱变相",
+        "rangeId": "x-2",
+        "description": "攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，以二连击攻击最多<@ba.vup>{attack@max_target}</>名敌人；主动关闭技能后<@ba.vup>{before_dead_duration}</>秒内保留技能加成且不会被击倒，攻击变为四连击，承担攻击范围内我方干员受到的致命伤害，<@ba.vup>{before_dead_duration}</>秒后强制退出战场\\n<@ba.rem>可主动关闭（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 27,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_3",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 1.4,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "before_dead_duration",
+            "value": 11.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "地狱变相",
+        "rangeId": "x-2",
+        "description": "攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，以二连击攻击最多<@ba.vup>{attack@max_target}</>名敌人；主动关闭技能后<@ba.vup>{before_dead_duration}</>秒内保留技能加成且不会被击倒，攻击变为四连击，承担攻击范围内我方干员受到的致命伤害，<@ba.vup>{before_dead_duration}</>秒后强制退出战场\\n<@ba.rem>可主动关闭（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 28,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_3",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 0.55,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "before_dead_duration",
+            "value": 11.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "地狱变相",
+        "rangeId": "x-2",
+        "description": "攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，以二连击攻击最多<@ba.vup>{attack@max_target}</>名敌人；主动关闭技能后<@ba.vup>{before_dead_duration}</>秒内保留技能加成且不会被击倒，攻击变为四连击，承担攻击范围内我方干员受到的致命伤害，<@ba.vup>{before_dead_duration}</>秒后强制退出战场\\n<@ba.rem>可主动关闭（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 29,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_3",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 0.6,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 1.6,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "before_dead_duration",
+            "value": 11.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "地狱变相",
+        "rangeId": "x-2",
+        "description": "攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，以二连击攻击最多<@ba.vup>{attack@max_target}</>名敌人；主动关闭技能后<@ba.vup>{before_dead_duration}</>秒内保留技能加成且不会被击倒，攻击变为四连击，承担攻击范围内我方干员受到的致命伤害，<@ba.vup>{before_dead_duration}</>秒后强制退出战场\\n<@ba.rem>可主动关闭（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_3",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 0.65,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 1.7,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "before_dead_duration",
+            "value": 11.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "地狱变相",
+        "rangeId": "x-2",
+        "description": "攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，以二连击攻击最多<@ba.vup>{attack@max_target}</>名敌人；主动关闭技能后<@ba.vup>{before_dead_duration}</>秒内保留技能加成且不会被击倒，攻击变为四连击，承担攻击范围内我方干员受到的致命伤害，<@ba.vup>{before_dead_duration}</>秒后强制退出战场\\n<@ba.rem>可主动关闭（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 31,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_3",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 0.7,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 1.8,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "before_dead_duration",
+            "value": 11.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "地狱变相",
+        "rangeId": "x-2",
+        "description": "攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，以二连击攻击最多<@ba.vup>{attack@max_target}</>名敌人；主动关闭技能后<@ba.vup>{before_dead_duration}</>秒内保留技能加成且不会被击倒，攻击变为四连击，承担攻击范围内我方干员受到的致命伤害，<@ba.vup>{before_dead_duration}</>秒后强制退出战场\\n<@ba.rem>可主动关闭（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 48,
+          "initSp": 33,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_3",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 0.8,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 1.9,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "before_dead_duration",
+            "value": 11.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "地狱变相",
+        "rangeId": "x-2",
+        "description": "攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，以二连击攻击最多<@ba.vup>{attack@max_target}</>名敌人；主动关闭技能后<@ba.vup>{before_dead_duration}</>秒内保留技能加成且不会被击倒，攻击变为四连击，承担攻击范围内我方干员受到的致命伤害，<@ba.vup>{before_dead_duration}</>秒后强制退出战场\\n<@ba.rem>可主动关闭（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 47,
+          "initSp": 35,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_3",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 0.9,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 2.1,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "before_dead_duration",
+            "value": 11.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "地狱变相",
+        "rangeId": "x-2",
+        "description": "攻击范围<@ba.vup>扩大</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击力<@ba.vup>+{atk:0%}</>，以二连击攻击最多<@ba.vup>{attack@max_target}</>名敌人；主动关闭技能后<@ba.vup>{before_dead_duration}</>秒内保留技能加成且不会被击倒，攻击变为四连击，承担攻击范围内我方干员受到的致命伤害，<@ba.vup>{before_dead_duration}</>秒后强制退出战场\\n<@ba.rem>可主动关闭（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 37,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsgma2_3",
+        "duration": 32.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 2.3,
+            "valueStr": null
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "before_dead_duration",
+            "value": 11.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
   "skchr_skadi_2": {
     "skillId": "skchr_skadi_2",
     "iconId": null,
@@ -301921,7 +306141,7 @@
       {
         "name": "正霆摄威",
         "rangeId": null,
-        "description": "攻击范围<@ba.vup>沿近战地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
+        "description": "攻击范围<@ba.vup>沿地面地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
         "skillType": "MANUAL",
         "durationType": "NONE",
         "spData": {
@@ -301960,7 +306180,7 @@
       {
         "name": "正霆摄威",
         "rangeId": null,
-        "description": "攻击范围<@ba.vup>沿近战地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
+        "description": "攻击范围<@ba.vup>沿地面地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
         "skillType": "MANUAL",
         "durationType": "NONE",
         "spData": {
@@ -301999,7 +306219,7 @@
       {
         "name": "正霆摄威",
         "rangeId": null,
-        "description": "攻击范围<@ba.vup>沿近战地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
+        "description": "攻击范围<@ba.vup>沿地面地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
         "skillType": "MANUAL",
         "durationType": "NONE",
         "spData": {
@@ -302038,7 +306258,7 @@
       {
         "name": "正霆摄威",
         "rangeId": null,
-        "description": "攻击范围<@ba.vup>沿近战地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
+        "description": "攻击范围<@ba.vup>沿地面地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
         "skillType": "MANUAL",
         "durationType": "NONE",
         "spData": {
@@ -302077,7 +306297,7 @@
       {
         "name": "正霆摄威",
         "rangeId": null,
-        "description": "攻击范围<@ba.vup>沿近战地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
+        "description": "攻击范围<@ba.vup>沿地面地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
         "skillType": "MANUAL",
         "durationType": "NONE",
         "spData": {
@@ -302116,7 +306336,7 @@
       {
         "name": "正霆摄威",
         "rangeId": null,
-        "description": "攻击范围<@ba.vup>沿近战地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
+        "description": "攻击范围<@ba.vup>沿地面地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
         "skillType": "MANUAL",
         "durationType": "NONE",
         "spData": {
@@ -302155,7 +306375,7 @@
       {
         "name": "正霆摄威",
         "rangeId": null,
-        "description": "攻击范围<@ba.vup>沿近战地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
+        "description": "攻击范围<@ba.vup>沿地面地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
         "skillType": "MANUAL",
         "durationType": "NONE",
         "spData": {
@@ -302194,7 +306414,7 @@
       {
         "name": "正霆摄威",
         "rangeId": null,
-        "description": "攻击范围<@ba.vup>沿近战地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
+        "description": "攻击范围<@ba.vup>沿地面地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
         "skillType": "MANUAL",
         "durationType": "NONE",
         "spData": {
@@ -302233,7 +306453,7 @@
       {
         "name": "正霆摄威",
         "rangeId": null,
-        "description": "攻击范围<@ba.vup>沿近战地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
+        "description": "攻击范围<@ba.vup>沿地面地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
         "skillType": "MANUAL",
         "durationType": "NONE",
         "spData": {
@@ -302272,7 +306492,7 @@
       {
         "name": "正霆摄威",
         "rangeId": null,
-        "description": "攻击范围<@ba.vup>沿近战地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
+        "description": "攻击范围<@ba.vup>沿地面地块扩展至最远三格</>，攻击对<@ba.vup>{attack@max_target_s2}</>个目标造成相当于攻击力<@ba.vup>{attack@atk_scale_s2:0%}</>的物理伤害。技能期间每次落雷使攻击力<@ba.vup>+{thunder_atk:0%}</>（最多可叠加25次）",
         "skillType": "MANUAL",
         "durationType": "NONE",
         "spData": {
@@ -320857,7 +325077,7 @@
           "initSp": 0,
           "increment": 1.0
         },
-        "prefabId": "sktok_crsbow",
+        "prefabId": "sktok_dqcrsbow",
         "duration": 0.0,
         "blackboard": [
           {
@@ -321293,6 +325513,204 @@
           "increment": 1.0
         },
         "prefabId": "sktok_dyldlz",
+        "duration": -1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_pckstp": {
+    "skillId": "sktok_pckstp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天命来袭",
+        "rangeId": null,
+        "description": "开启时不断召唤“某种天命”",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_pckstp",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@summon_delay_normal",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack@summon_delay_rushtime",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_boxnma": {
+    "skillId": "sktok_boxnma",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天命迸发",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_boxnma",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "born_duration",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@hp_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "talent@force",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@up",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@down",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@left",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@right",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "boxnma_route"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_boxmac": {
+    "skillId": "sktok_boxmac",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天命迸发",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_boxmac",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "born_duration",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@hp_ratio",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "talent@force",
+            "value": 6.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@up",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@down",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@left",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@right",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "boxnma_route"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_pckzhn": {
+    "skillId": "sktok_pckzhn",
+    "iconId": "sktok_pckzhn",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "“斩”",
+        "rangeId": "x-7",
+        "description": "部署后对范围内所有单位造成物理伤害并斩断“某种天命”",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": null,
         "duration": -1.0,
         "blackboard": []
       }

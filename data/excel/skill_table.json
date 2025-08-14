@@ -316718,6 +316718,165 @@
       }
     ]
   },
+  "sktok_tnkspk": {
+    "skillId": "sktok_tnkspk",
+    "iconId": "sktok_tnkspk",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "反制装甲",
+        "rangeId": "0-1",
+        "description": "部署后，全体干员每秒回复自身最大生命值5%的生命值；每当部署重装干员时，获得8张调用凭证",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_tnkspk",
+        "duration": 60.0,
+        "blackboard": [
+          {
+            "key": "hp_recover_per_sec_by_max_hp_ratio",
+            "value": 0.05,
+            "valueStr": null
+          },
+          {
+            "key": "gold_cnt",
+            "value": 8.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_tnkspka": {
+    "skillId": "sktok_tnkspka",
+    "iconId": "sktok_tnkspk",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "微型尖刺",
+        "rangeId": "0-1",
+        "description": "部署后，全体干员每秒回复自身最大生命值5%的生命值；每当部署重装干员时，获得8张调用凭证",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_tnkspka",
+        "duration": 60.0,
+        "blackboard": [
+          {
+            "key": "hp_recover_per_sec_by_max_hp_ratio",
+            "value": 0.05,
+            "valueStr": null
+          },
+          {
+            "key": "gold_cnt",
+            "value": 8.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_tnkspkb": {
+    "skillId": "sktok_tnkspkb",
+    "iconId": "sktok_tnkspk",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "维生监测",
+        "rangeId": "0-1",
+        "description": "部署后，全体干员每秒回复自身最大生命值5%的生命值，每2秒回复1点技力；每当部署重装干员时，获得12张调用凭证",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_tnkspkb",
+        "duration": 60.0,
+        "blackboard": [
+          {
+            "key": "hp_recover_per_sec_by_max_hp_ratio",
+            "value": 0.05,
+            "valueStr": null
+          },
+          {
+            "key": "gold_cnt",
+            "value": 12.0,
+            "valueStr": null
+          },
+          {
+            "key": "interval",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "sp",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_fxdtwr_1": {
+    "skillId": "sktok_fxdtwr_1",
+    "iconId": "sktok_fxdtwr_1",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "发射炮弹",
+        "rangeId": "5-1",
+        "description": "向前发射一颗造成溅射伤害的炮弹",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 6,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_fxdtwr_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          }
+        ]
+      }
+    ]
+  },
   "sktok_dhtl_1": {
     "skillId": "sktok_dhtl_1",
     "iconId": "sktok_dhtl",

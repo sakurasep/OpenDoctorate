@@ -1,5 +1,27 @@
 {
   "basicInfo": {
+    "act35sre": {
+      "id": "act35sre",
+      "type": "TYPE_ACT35SIDE",
+      "displayType": "NONE",
+      "name": "太阳甩在身后·复刻",
+      "startTime": 1756065600,
+      "endTime": 1756929599,
+      "rewardEndTime": 1757275199,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act35sre",
+      "medalGroupId": "medalGroupActivity35side",
+      "ungroupedMedalIds": null,
+      "isReplicate": true,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act50sign": {
       "id": "act50sign",
       "type": "CHECKIN_ONLY",
@@ -6436,6 +6458,9 @@
     }
   },
   "zoneToActivity": {
+    "act35sre_zone1": "act35sre",
+    "act35sre_zone2": "act35sre",
+    "act35sre_zone3": "act35sre",
     "act44side_zone1": "act44side",
     "act44side_zone2": "act44side",
     "act44side_zone3": "act44side",
@@ -6676,6 +6701,983 @@
     "act2access": 1745674200
   },
   "missionData": [
+    {
+      "id": "35sreActivity_1",
+      "sortId": 1,
+      "description": "通关AS-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_2",
+      "sortId": 2,
+      "description": "通关AS-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_3",
+      "sortId": 3,
+      "description": "通关AS-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_4",
+      "sortId": 4,
+      "description": "通关AS-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_5",
+      "sortId": 5,
+      "description": "通关AS-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 80
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4139_papyrs",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_6",
+      "sortId": 6,
+      "description": "通关AS-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_7",
+      "sortId": 7,
+      "description": "以3星评价完成AS-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_06",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_8",
+      "sortId": 8,
+      "description": "通关AS-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_citizengarden_tray_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_9",
+      "sortId": 9,
+      "description": "以3星评价完成AS-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_07",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_citizengarden_vaseshelf_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_10",
+      "sortId": 10,
+      "description": "通关AS-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 120
+        },
+        {
+          "type": "FURN",
+          "id": "furni_citizengarden_cutoff_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_11",
+      "sortId": 11,
+      "description": "以3星评价完成AS-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_08",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_citizengarden_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_12",
+      "sortId": 12,
+      "description": "通关AS-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_09",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 120
+        },
+        {
+          "type": "FURN",
+          "id": "furni_citizengarden_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_13",
+      "sortId": 13,
+      "description": "以3星评价完成AS-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_09",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_15",
+      "sortId": 15,
+      "description": "通关AS-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_ex01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_16",
+      "sortId": 16,
+      "description": "通关AS-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_ex02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_17",
+      "sortId": 17,
+      "description": "通关AS-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_ex03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_18",
+      "sortId": 18,
+      "description": "通关AS-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_ex04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_19",
+      "sortId": 19,
+      "description": "通关AS-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_ex05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_20",
+      "sortId": 20,
+      "description": "通关AS-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_ex06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_21",
+      "sortId": 21,
+      "description": "通关AS-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_ex07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_22",
+      "sortId": 22,
+      "description": "通关AS-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_ex08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_23",
+      "sortId": 23,
+      "description": "通关AS-EX-8突袭模式",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_ex08#f#",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terratimes_Sargon_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_24",
+      "sortId": 24,
+      "description": "以3星评价完成AS-S-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_s01",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_25",
+      "sortId": 25,
+      "description": "以3星评价完成AS-S-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_s02",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_26",
+      "sortId": 26,
+      "description": "以3星评价完成AS-S-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_s03",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_27",
+      "sortId": 27,
+      "description": "以3星评价完成AS-S-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_s04",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_28",
+      "sortId": 28,
+      "description": "以3星评价完成AS-MO-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act35side_mo01",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_29",
+      "sortId": 29,
+      "description": "通关活动关卡10次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act35side_01^act35side_02^act35side_03^act35side_04^act35side_05^act35side_06^act35side_07^act35side_08^act35side_09^act35side_ex01^act35side_ex01#f#^act35side_ex02^act35side_ex02#f#^act35side_ex03^act35side_ex03#f#^act35side_ex04^act35side_ex04#f#^act35side_ex05^act35side_ex05#f#^act35side_ex06^act35side_ex06#f#^act35side_ex07^act35side_ex07#f#^act35side_ex08^act35side_ex08#f#^act35side_s01^act35side_s01#f#^act35side_s02^act35side_s02#f#^act35side_s03^act35side_s03#f#^act35side_s04^act35side_s04#f#",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_30",
+      "sortId": 30,
+      "description": "通关活动关卡25次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act35side_01^act35side_02^act35side_03^act35side_04^act35side_05^act35side_06^act35side_07^act35side_08^act35side_09^act35side_ex01^act35side_ex01#f#^act35side_ex02^act35side_ex02#f#^act35side_ex03^act35side_ex03#f#^act35side_ex04^act35side_ex04#f#^act35side_ex05^act35side_ex05#f#^act35side_ex06^act35side_ex06#f#^act35side_ex07^act35side_ex07#f#^act35side_ex08^act35side_ex08#f#^act35side_s01^act35side_s02^act35side_s03^act35side_s04",
+        "25"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "35sreActivity_31",
+      "sortId": 31,
+      "description": "通关活动关卡40次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act35side_01^act35side_02^act35side_03^act35side_04^act35side_05^act35side_06^act35side_07^act35side_08^act35side_09^act35side_ex01^act35side_ex01#f#^act35side_ex02^act35side_ex02#f#^act35side_ex03^act35side_ex03#f#^act35side_ex04^act35side_ex04#f#^act35side_ex05^act35side_ex05#f#^act35side_ex06^act35side_ex06#f#^act35side_ex07^act35side_ex07#f#^act35side_ex08^act35side_ex08#f#^act35side_s01^act35side_s02^act35side_s03^act35side_s04",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act35sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act35side_token_dust_rep_1",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
     {
       "id": "44sideActivity_1",
       "sortId": 1,
@@ -95684,6 +96686,48 @@
     }
   ],
   "missionGroup": [
+    {
+      "id": "act35sre",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "35sreActivity_1",
+        "35sreActivity_2",
+        "35sreActivity_3",
+        "35sreActivity_4",
+        "35sreActivity_5",
+        "35sreActivity_6",
+        "35sreActivity_7",
+        "35sreActivity_8",
+        "35sreActivity_9",
+        "35sreActivity_10",
+        "35sreActivity_11",
+        "35sreActivity_12",
+        "35sreActivity_13",
+        "35sreActivity_15",
+        "35sreActivity_16",
+        "35sreActivity_17",
+        "35sreActivity_18",
+        "35sreActivity_19",
+        "35sreActivity_20",
+        "35sreActivity_21",
+        "35sreActivity_22",
+        "35sreActivity_23",
+        "35sreActivity_24",
+        "35sreActivity_25",
+        "35sreActivity_26",
+        "35sreActivity_27",
+        "35sreActivity_28",
+        "35sreActivity_29",
+        "35sreActivity_30",
+        "35sreActivity_31"
+      ],
+      "startTs": 1756065600,
+      "endTs": 1757275199
+    },
     {
       "id": "act44side",
       "title": null,
@@ -192460,6 +193504,3369 @@
       }
     },
     "TYPE_ACT35SIDE": {
+      "act35sre": {
+        "challengeDataMap": {
+          "challenge_1": {
+            "challengeId": "challenge_1",
+            "challengeName": "认识宝石铭刻",
+            "challengeDesc": "莎草提供了简易的宝石铭刻指南，一起来感受古老工艺的魅力吧。",
+            "sortId": 1,
+            "challengePicId": "prefab_carving_lesson_02",
+            "challengeIconId": "challengeIcon_0",
+            "openTime": 1756065600,
+            "preposedChallengeId": null,
+            "passRound": 2,
+            "passRoundScore": 100,
+            "roundIdList": [
+              "challenge_1_r1",
+              "challenge_1_r2"
+            ]
+          },
+          "challenge_3": {
+            "challengeId": "challenge_3",
+            "challengeName": "淬雕流派专修",
+            "challengeDesc": "我们会提供更多的火焰伊纳，运用淬雕工艺，获得更高的评分吧。",
+            "sortId": 2,
+            "challengePicId": "prefab_carving_lesson_03",
+            "challengeIconId": "challengeIcon_3",
+            "openTime": 1756065600,
+            "preposedChallengeId": "challenge_1",
+            "passRound": 5,
+            "passRoundScore": 100,
+            "roundIdList": [
+              "challenge_3_r1",
+              "challenge_3_r2",
+              "challenge_3_r3",
+              "challenge_3_r4",
+              "challenge_3_r5"
+            ]
+          },
+          "challenge_4": {
+            "challengeId": "challenge_4",
+            "challengeName": "滤纯流派专修",
+            "challengeDesc": "我们会提供更多的草叶伊纳，运用滤纯工艺，获得更高的评分吧。",
+            "sortId": 3,
+            "challengePicId": "prefab_carving_lesson_03",
+            "challengeIconId": "challengeIcon_4",
+            "openTime": 1756065600,
+            "preposedChallengeId": "challenge_3",
+            "passRound": 5,
+            "passRoundScore": 100,
+            "roundIdList": [
+              "challenge_4_r1",
+              "challenge_4_r2",
+              "challenge_4_r3",
+              "challenge_4_r4",
+              "challenge_4_r5"
+            ]
+          },
+          "challenge_5": {
+            "challengeId": "challenge_5",
+            "challengeName": "落晶流派专修",
+            "challengeDesc": "我们会提供更多的沙伊纳，运用落晶工艺，获得更高的评分吧。",
+            "sortId": 4,
+            "challengePicId": "prefab_carving_lesson_03",
+            "challengeIconId": "challengeIcon_5",
+            "openTime": 1756065600,
+            "preposedChallengeId": "challenge_4",
+            "passRound": 5,
+            "passRoundScore": 100,
+            "roundIdList": [
+              "challenge_5_r1",
+              "challenge_5_r2",
+              "challenge_5_r3",
+              "challenge_5_r4",
+              "challenge_5_r5"
+            ]
+          },
+          "challenge_6": {
+            "challengeId": "challenge_6",
+            "challengeName": "交糅流派专修",
+            "challengeDesc": "我们会提供更多的天空伊纳，运用交糅工艺，获得更高的评分吧。",
+            "sortId": 5,
+            "challengePicId": "prefab_carving_lesson_03",
+            "challengeIconId": "challengeIcon_6",
+            "openTime": 1756065600,
+            "preposedChallengeId": "challenge_5",
+            "passRound": 5,
+            "passRoundScore": 100,
+            "roundIdList": [
+              "challenge_6_r1",
+              "challenge_6_r2",
+              "challenge_6_r3",
+              "challenge_6_r4",
+              "challenge_6_r5"
+            ]
+          },
+          "challenge_7": {
+            "challengeId": "challenge_7",
+            "challengeName": "常规工艺体验",
+            "challengeDesc": "接触不同的宝石，运用不同的工艺，尽情展现你的奇思。",
+            "sortId": 6,
+            "challengePicId": "prefab_carving_lesson_03",
+            "challengeIconId": "challengeIcon_7",
+            "openTime": 1756065600,
+            "preposedChallengeId": "challenge_6",
+            "passRound": 12,
+            "passRoundScore": 100,
+            "roundIdList": [
+              "challenge_7_r1",
+              "challenge_7_r2",
+              "challenge_7_r3",
+              "challenge_7_r4",
+              "challenge_7_r5",
+              "challenge_7_r6",
+              "challenge_7_r7",
+              "challenge_7_r8",
+              "challenge_7_r9",
+              "challenge_7_r10",
+              "challenge_7_r11",
+              "challenge_7_r12",
+              "challenge_7_r13",
+              "challenge_7_r14",
+              "challenge_7_r15",
+              "challenge_7_r16",
+              "challenge_7_r17",
+              "challenge_7_r18",
+              "challenge_7_r19",
+              "challenge_7_r20",
+              "challenge_7_r21",
+              "challenge_7_r22",
+              "challenge_7_r23",
+              "challenge_7_r24",
+              "challenge_7_r25",
+              "challenge_7_r26",
+              "challenge_7_r27",
+              "challenge_7_r28",
+              "challenge_7_r29",
+              "challenge_7_r30",
+              "challenge_7_r31",
+              "challenge_7_r32",
+              "challenge_7_r33",
+              "challenge_7_r34",
+              "challenge_7_r35",
+              "challenge_7_r36",
+              "challenge_7_r37",
+              "challenge_7_r38",
+              "challenge_7_r39",
+              "challenge_7_r40"
+            ]
+          },
+          "challenge_9": {
+            "challengeId": "challenge_9",
+            "challengeName": "评价者很严格",
+            "challengeDesc": "评价者提高了难度——工艺使用一次后便会消耗，需要重新去周边部购买。先来试试看吧！",
+            "sortId": 7,
+            "challengePicId": "prefab_carving_lesson_04",
+            "challengeIconId": "challengeIcon_1",
+            "openTime": 1756065600,
+            "preposedChallengeId": "challenge_7",
+            "passRound": 5,
+            "passRoundScore": 100,
+            "roundIdList": [
+              "challenge_9_r1",
+              "challenge_9_r2",
+              "challenge_9_r3",
+              "challenge_9_r4",
+              "challenge_9_r5"
+            ]
+          },
+          "challenge_10": {
+            "challengeId": "challenge_10",
+            "challengeName": "评价者超严格",
+            "challengeDesc": "评价者提高了难度——工艺使用一次后便会消耗，需要重新去周边部购买。做好准备，接下来就是最难的挑战咯！",
+            "sortId": 8,
+            "challengePicId": "prefab_carving_lesson_04",
+            "challengeIconId": "challengeIcon_2",
+            "openTime": 1756065600,
+            "preposedChallengeId": "challenge_9",
+            "passRound": 12,
+            "passRoundScore": 100,
+            "roundIdList": [
+              "challenge_10_r1",
+              "challenge_10_r2",
+              "challenge_10_r3",
+              "challenge_10_r4",
+              "challenge_10_r5",
+              "challenge_10_r6",
+              "challenge_10_r7",
+              "challenge_10_r8",
+              "challenge_10_r9",
+              "challenge_10_r10",
+              "challenge_10_r11",
+              "challenge_10_r12",
+              "challenge_10_r13",
+              "challenge_10_r14",
+              "challenge_10_r15",
+              "challenge_10_r16",
+              "challenge_10_r17",
+              "challenge_10_r18",
+              "challenge_10_r19",
+              "challenge_10_r20",
+              "challenge_10_r21",
+              "challenge_10_r22",
+              "challenge_10_r23",
+              "challenge_10_r24",
+              "challenge_10_r25",
+              "challenge_10_r26",
+              "challenge_10_r27",
+              "challenge_10_r28",
+              "challenge_10_r29",
+              "challenge_10_r30",
+              "challenge_10_r31",
+              "challenge_10_r32",
+              "challenge_10_r33",
+              "challenge_10_r34",
+              "challenge_10_r35",
+              "challenge_10_r36",
+              "challenge_10_r37",
+              "challenge_10_r38",
+              "challenge_10_r39",
+              "challenge_10_r40"
+            ]
+          },
+          "challenge_8": {
+            "challengeId": "challenge_8",
+            "challengeName": "周边部很疯狂",
+            "challengeDesc": "周边部公告：我们将免费提供全部工艺。",
+            "sortId": 9,
+            "challengePicId": "prefab_carving_lesson_01",
+            "challengeIconId": "challengeIcon_8",
+            "openTime": 1756065600,
+            "preposedChallengeId": "challenge_9",
+            "passRound": 12,
+            "passRoundScore": 100,
+            "roundIdList": [
+              "challenge_8_r1",
+              "challenge_8_r2",
+              "challenge_8_r3",
+              "challenge_8_r4",
+              "challenge_8_r5",
+              "challenge_8_r6",
+              "challenge_8_r7",
+              "challenge_8_r8",
+              "challenge_8_r9",
+              "challenge_8_r10",
+              "challenge_8_r11",
+              "challenge_8_r12",
+              "challenge_8_r13",
+              "challenge_8_r14",
+              "challenge_8_r15",
+              "challenge_8_r16",
+              "challenge_8_r17",
+              "challenge_8_r18",
+              "challenge_8_r19",
+              "challenge_8_r20",
+              "challenge_8_r21",
+              "challenge_8_r22",
+              "challenge_8_r23",
+              "challenge_8_r24",
+              "challenge_8_r25",
+              "challenge_8_r26",
+              "challenge_8_r27",
+              "challenge_8_r28",
+              "challenge_8_r29",
+              "challenge_8_r30",
+              "challenge_8_r31",
+              "challenge_8_r32",
+              "challenge_8_r33",
+              "challenge_8_r34",
+              "challenge_8_r35",
+              "challenge_8_r36",
+              "challenge_8_r37",
+              "challenge_8_r38",
+              "challenge_8_r39",
+              "challenge_8_r40"
+            ]
+          }
+        },
+        "roundDataMap": {
+          "challenge_1_r1": {
+            "roundId": "challenge_1_r1",
+            "challengeId": "challenge_1",
+            "round": 1,
+            "roundPassRating": 900,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 100,
+              "material_leaf_1": 0,
+              "material_clst_1": 0,
+              "material_sand": 0
+            },
+            "passRoundCoin": 10
+          },
+          "challenge_1_r2": {
+            "roundId": "challenge_1_r2",
+            "challengeId": "challenge_1",
+            "round": 2,
+            "roundPassRating": 2000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 100,
+              "material_leaf_1": 0,
+              "material_clst_1": 0,
+              "material_sand": 0
+            },
+            "passRoundCoin": 0
+          },
+          "challenge_3_r1": {
+            "roundId": "challenge_3_r1",
+            "challengeId": "challenge_3",
+            "round": 1,
+            "roundPassRating": 1000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 100,
+              "material_leaf_1": 0,
+              "material_clst_1": 0,
+              "material_sand": 0
+            },
+            "passRoundCoin": 10
+          },
+          "challenge_3_r2": {
+            "roundId": "challenge_3_r2",
+            "challengeId": "challenge_3",
+            "round": 2,
+            "roundPassRating": 4000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 100,
+              "material_leaf_1": 0,
+              "material_clst_1": 0,
+              "material_sand": 0
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_3_r3": {
+            "roundId": "challenge_3_r3",
+            "challengeId": "challenge_3",
+            "round": 3,
+            "roundPassRating": 7000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 100,
+              "material_leaf_1": 0,
+              "material_clst_1": 0,
+              "material_sand": 0
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_3_r4": {
+            "roundId": "challenge_3_r4",
+            "challengeId": "challenge_3",
+            "round": 4,
+            "roundPassRating": 10000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 100,
+              "material_leaf_1": 0,
+              "material_clst_1": 0,
+              "material_sand": 0
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_3_r5": {
+            "roundId": "challenge_3_r5",
+            "challengeId": "challenge_3",
+            "round": 5,
+            "roundPassRating": 20000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 100,
+              "material_leaf_1": 0,
+              "material_clst_1": 0,
+              "material_sand": 0
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_4_r1": {
+            "roundId": "challenge_4_r1",
+            "challengeId": "challenge_4",
+            "round": 1,
+            "roundPassRating": 1000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 0,
+              "material_leaf_1": 100,
+              "material_clst_1": 0,
+              "material_sand": 0
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_4_r2": {
+            "roundId": "challenge_4_r2",
+            "challengeId": "challenge_4",
+            "round": 2,
+            "roundPassRating": 2500,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 0,
+              "material_leaf_1": 100,
+              "material_clst_1": 0,
+              "material_sand": 0
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_4_r3": {
+            "roundId": "challenge_4_r3",
+            "challengeId": "challenge_4",
+            "round": 3,
+            "roundPassRating": 4000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 18,
+              "material_leaf_1": 50,
+              "material_clst_1": 13,
+              "material_sand": 19
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_4_r4": {
+            "roundId": "challenge_4_r4",
+            "challengeId": "challenge_4",
+            "round": 4,
+            "roundPassRating": 6000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 14,
+              "material_leaf_1": 50,
+              "material_clst_1": 21,
+              "material_sand": 15
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_4_r5": {
+            "roundId": "challenge_4_r5",
+            "challengeId": "challenge_4",
+            "round": 5,
+            "roundPassRating": 10000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 20,
+              "material_leaf_1": 50,
+              "material_clst_1": 17,
+              "material_sand": 13
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_5_r1": {
+            "roundId": "challenge_5_r1",
+            "challengeId": "challenge_5",
+            "round": 1,
+            "roundPassRating": 500,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 0,
+              "material_leaf_1": 0,
+              "material_clst_1": 0,
+              "material_sand": 100
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_5_r2": {
+            "roundId": "challenge_5_r2",
+            "challengeId": "challenge_5",
+            "round": 2,
+            "roundPassRating": 800,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 0,
+              "material_leaf_1": 50,
+              "material_clst_1": 0,
+              "material_sand": 50
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_5_r3": {
+            "roundId": "challenge_5_r3",
+            "challengeId": "challenge_5",
+            "round": 3,
+            "roundPassRating": 2500,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 18,
+              "material_leaf_1": 13,
+              "material_clst_1": 19,
+              "material_sand": 50
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_5_r4": {
+            "roundId": "challenge_5_r4",
+            "challengeId": "challenge_5",
+            "round": 4,
+            "roundPassRating": 4000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 14,
+              "material_leaf_1": 21,
+              "material_clst_1": 15,
+              "material_sand": 50
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_5_r5": {
+            "roundId": "challenge_5_r5",
+            "challengeId": "challenge_5",
+            "round": 5,
+            "roundPassRating": 10000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 20,
+              "material_leaf_1": 17,
+              "material_clst_1": 13,
+              "material_sand": 50
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_6_r1": {
+            "roundId": "challenge_6_r1",
+            "challengeId": "challenge_6",
+            "round": 1,
+            "roundPassRating": 150,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 0,
+              "material_leaf_1": 0,
+              "material_clst_1": 50,
+              "material_sand": 50
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_6_r2": {
+            "roundId": "challenge_6_r2",
+            "challengeId": "challenge_6",
+            "round": 2,
+            "roundPassRating": 800,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 0,
+              "material_leaf_1": 70,
+              "material_clst_1": 30,
+              "material_sand": 0
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_6_r3": {
+            "roundId": "challenge_6_r3",
+            "challengeId": "challenge_6",
+            "round": 3,
+            "roundPassRating": 1500,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 18,
+              "material_leaf_1": 13,
+              "material_clst_1": 50,
+              "material_sand": 19
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_6_r4": {
+            "roundId": "challenge_6_r4",
+            "challengeId": "challenge_6",
+            "round": 4,
+            "roundPassRating": 2400,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 14,
+              "material_leaf_1": 21,
+              "material_clst_1": 50,
+              "material_sand": 15
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_6_r5": {
+            "roundId": "challenge_6_r5",
+            "challengeId": "challenge_6",
+            "round": 5,
+            "roundPassRating": 3500,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 20,
+              "material_leaf_1": 17,
+              "material_clst_1": 50,
+              "material_sand": 13
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_7_r1": {
+            "roundId": "challenge_7_r1",
+            "challengeId": "challenge_7",
+            "round": 1,
+            "roundPassRating": 125,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r2": {
+            "roundId": "challenge_7_r2",
+            "challengeId": "challenge_7",
+            "round": 2,
+            "roundPassRating": 275,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r3": {
+            "roundId": "challenge_7_r3",
+            "challengeId": "challenge_7",
+            "round": 3,
+            "roundPassRating": 550,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r4": {
+            "roundId": "challenge_7_r4",
+            "challengeId": "challenge_7",
+            "round": 4,
+            "roundPassRating": 900,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r5": {
+            "roundId": "challenge_7_r5",
+            "challengeId": "challenge_7",
+            "round": 5,
+            "roundPassRating": 1315,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r6": {
+            "roundId": "challenge_7_r6",
+            "challengeId": "challenge_7",
+            "round": 6,
+            "roundPassRating": 2115,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r7": {
+            "roundId": "challenge_7_r7",
+            "challengeId": "challenge_7",
+            "round": 7,
+            "roundPassRating": 3090,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r8": {
+            "roundId": "challenge_7_r8",
+            "challengeId": "challenge_7",
+            "round": 8,
+            "roundPassRating": 4240,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r9": {
+            "roundId": "challenge_7_r9",
+            "challengeId": "challenge_7",
+            "round": 9,
+            "roundPassRating": 5630,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r10": {
+            "roundId": "challenge_7_r10",
+            "challengeId": "challenge_7",
+            "round": 10,
+            "roundPassRating": 7855,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r11": {
+            "roundId": "challenge_7_r11",
+            "challengeId": "challenge_7",
+            "round": 11,
+            "roundPassRating": 10630,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r12": {
+            "roundId": "challenge_7_r12",
+            "challengeId": "challenge_7",
+            "round": 12,
+            "roundPassRating": 15380,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_7_r13": {
+            "roundId": "challenge_7_r13",
+            "challengeId": "challenge_7",
+            "round": 13,
+            "roundPassRating": 22235,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r14": {
+            "roundId": "challenge_7_r14",
+            "challengeId": "challenge_7",
+            "round": 14,
+            "roundPassRating": 31155,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r15": {
+            "roundId": "challenge_7_r15",
+            "challengeId": "challenge_7",
+            "round": 15,
+            "roundPassRating": 42035,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 70,
+              "material_leaf_1": 10,
+              "material_clst_1": 10,
+              "material_sand": 10
+            },
+            "passRoundCoin": 8
+          },
+          "challenge_7_r16": {
+            "roundId": "challenge_7_r16",
+            "challengeId": "challenge_7",
+            "round": 16,
+            "roundPassRating": 54565,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r17": {
+            "roundId": "challenge_7_r17",
+            "challengeId": "challenge_7",
+            "round": 17,
+            "roundPassRating": 79541,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r18": {
+            "roundId": "challenge_7_r18",
+            "challengeId": "challenge_7",
+            "round": 18,
+            "roundPassRating": 106590,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r19": {
+            "roundId": "challenge_7_r19",
+            "challengeId": "challenge_7",
+            "round": 19,
+            "roundPassRating": 135712,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 10,
+              "material_leaf_1": 70,
+              "material_clst_1": 10,
+              "material_sand": 10
+            },
+            "passRoundCoin": 8
+          },
+          "challenge_7_r20": {
+            "roundId": "challenge_7_r20",
+            "challengeId": "challenge_7",
+            "round": 20,
+            "roundPassRating": 166907,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r21": {
+            "roundId": "challenge_7_r21",
+            "challengeId": "challenge_7",
+            "round": 21,
+            "roundPassRating": 220075,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r22": {
+            "roundId": "challenge_7_r22",
+            "challengeId": "challenge_7",
+            "round": 22,
+            "roundPassRating": 297669,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r23": {
+            "roundId": "challenge_7_r23",
+            "challengeId": "challenge_7",
+            "round": 23,
+            "roundPassRating": 403308,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 10,
+              "material_leaf_1": 10,
+              "material_clst_1": 10,
+              "material_sand": 70
+            },
+            "passRoundCoin": 8
+          },
+          "challenge_7_r24": {
+            "roundId": "challenge_7_r24",
+            "challengeId": "challenge_7",
+            "round": 24,
+            "roundPassRating": 517863,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r25": {
+            "roundId": "challenge_7_r25",
+            "challengeId": "challenge_7",
+            "round": 25,
+            "roundPassRating": 641572,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r26": {
+            "roundId": "challenge_7_r26",
+            "challengeId": "challenge_7",
+            "round": 26,
+            "roundPassRating": 774667,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r27": {
+            "roundId": "challenge_7_r27",
+            "challengeId": "challenge_7",
+            "round": 27,
+            "roundPassRating": 917374,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 70,
+              "material_leaf_1": 10,
+              "material_clst_1": 10,
+              "material_sand": 10
+            },
+            "passRoundCoin": 8
+          },
+          "challenge_7_r28": {
+            "roundId": "challenge_7_r28",
+            "challengeId": "challenge_7",
+            "round": 28,
+            "roundPassRating": 1069914,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r29": {
+            "roundId": "challenge_7_r29",
+            "challengeId": "challenge_7",
+            "round": 29,
+            "roundPassRating": 1232503,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r30": {
+            "roundId": "challenge_7_r30",
+            "challengeId": "challenge_7",
+            "round": 30,
+            "roundPassRating": 1405353,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r31": {
+            "roundId": "challenge_7_r31",
+            "challengeId": "challenge_7",
+            "round": 31,
+            "roundPassRating": 1588670,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 10,
+              "material_leaf_1": 70,
+              "material_clst_1": 10,
+              "material_sand": 10
+            },
+            "passRoundCoin": 8
+          },
+          "challenge_7_r32": {
+            "roundId": "challenge_7_r32",
+            "challengeId": "challenge_7",
+            "round": 32,
+            "roundPassRating": 1782659,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r33": {
+            "roundId": "challenge_7_r33",
+            "challengeId": "challenge_7",
+            "round": 33,
+            "roundPassRating": 1987518,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r34": {
+            "roundId": "challenge_7_r34",
+            "challengeId": "challenge_7",
+            "round": 34,
+            "roundPassRating": 2203444,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r35": {
+            "roundId": "challenge_7_r35",
+            "challengeId": "challenge_7",
+            "round": 35,
+            "roundPassRating": 2430629,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 10,
+              "material_leaf_1": 10,
+              "material_clst_1": 10,
+              "material_sand": 70
+            },
+            "passRoundCoin": 8
+          },
+          "challenge_7_r36": {
+            "roundId": "challenge_7_r36",
+            "challengeId": "challenge_7",
+            "round": 36,
+            "roundPassRating": 2669263,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r37": {
+            "roundId": "challenge_7_r37",
+            "challengeId": "challenge_7",
+            "round": 37,
+            "roundPassRating": 2919531,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r38": {
+            "roundId": "challenge_7_r38",
+            "challengeId": "challenge_7",
+            "round": 38,
+            "roundPassRating": 3181617,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r39": {
+            "roundId": "challenge_7_r39",
+            "challengeId": "challenge_7",
+            "round": 39,
+            "roundPassRating": 3455701,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_7_r40": {
+            "roundId": "challenge_7_r40",
+            "challengeId": "challenge_7",
+            "round": 40,
+            "roundPassRating": 3741961,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 8
+          },
+          "challenge_8_r1": {
+            "roundId": "challenge_8_r1",
+            "challengeId": "challenge_8",
+            "round": 1,
+            "roundPassRating": 5000,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_8_r2": {
+            "roundId": "challenge_8_r2",
+            "challengeId": "challenge_8",
+            "round": 2,
+            "roundPassRating": 14430,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_8_r3": {
+            "roundId": "challenge_8_r3",
+            "challengeId": "challenge_8",
+            "round": 3,
+            "roundPassRating": 43860,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 70,
+              "material_leaf_1": 10,
+              "material_clst_1": 10,
+              "material_sand": 10
+            },
+            "passRoundCoin": 10
+          },
+          "challenge_8_r4": {
+            "roundId": "challenge_8_r4",
+            "challengeId": "challenge_8",
+            "round": 4,
+            "roundPassRating": 87223,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 10
+          },
+          "challenge_8_r5": {
+            "roundId": "challenge_8_r5",
+            "challengeId": "challenge_8",
+            "round": 5,
+            "roundPassRating": 134519,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 15
+          },
+          "challenge_8_r6": {
+            "roundId": "challenge_8_r6",
+            "challengeId": "challenge_8",
+            "round": 6,
+            "roundPassRating": 184194,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 10,
+              "material_leaf_1": 70,
+              "material_clst_1": 10,
+              "material_sand": 10
+            },
+            "passRoundCoin": 15
+          },
+          "challenge_8_r7": {
+            "roundId": "challenge_8_r7",
+            "challengeId": "challenge_8",
+            "round": 7,
+            "roundPassRating": 236852,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 15
+          },
+          "challenge_8_r8": {
+            "roundId": "challenge_8_r8",
+            "challengeId": "challenge_8",
+            "round": 8,
+            "roundPassRating": 290493,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 15
+          },
+          "challenge_8_r9": {
+            "roundId": "challenge_8_r9",
+            "challengeId": "challenge_8",
+            "round": 9,
+            "roundPassRating": 348117,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 10,
+              "material_leaf_1": 10,
+              "material_clst_1": 10,
+              "material_sand": 70
+            },
+            "passRoundCoin": 0
+          },
+          "challenge_8_r10": {
+            "roundId": "challenge_8_r10",
+            "challengeId": "challenge_8",
+            "round": 10,
+            "roundPassRating": 408334,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r11": {
+            "roundId": "challenge_8_r11",
+            "challengeId": "challenge_8",
+            "round": 11,
+            "roundPassRating": 473624,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r12": {
+            "roundId": "challenge_8_r12",
+            "challengeId": "challenge_8",
+            "round": 12,
+            "roundPassRating": 537987,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 10,
+              "material_leaf_1": 10,
+              "material_clst_1": 70,
+              "material_sand": 10
+            },
+            "passRoundCoin": 0
+          },
+          "challenge_8_r13": {
+            "roundId": "challenge_8_r13",
+            "challengeId": "challenge_8",
+            "round": 13,
+            "roundPassRating": 608423,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r14": {
+            "roundId": "challenge_8_r14",
+            "challengeId": "challenge_8",
+            "round": 14,
+            "roundPassRating": 676932,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r15": {
+            "roundId": "challenge_8_r15",
+            "challengeId": "challenge_8",
+            "round": 15,
+            "roundPassRating": 747514,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r16": {
+            "roundId": "challenge_8_r16",
+            "challengeId": "challenge_8",
+            "round": 16,
+            "roundPassRating": 885814,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r17": {
+            "roundId": "challenge_8_r17",
+            "challengeId": "challenge_8",
+            "round": 17,
+            "roundPassRating": 1024114,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r18": {
+            "roundId": "challenge_8_r18",
+            "challengeId": "challenge_8",
+            "round": 18,
+            "roundPassRating": 1162414,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r19": {
+            "roundId": "challenge_8_r19",
+            "challengeId": "challenge_8",
+            "round": 19,
+            "roundPassRating": 1300714,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r20": {
+            "roundId": "challenge_8_r20",
+            "challengeId": "challenge_8",
+            "round": 20,
+            "roundPassRating": 1439014,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r21": {
+            "roundId": "challenge_8_r21",
+            "challengeId": "challenge_8",
+            "round": 21,
+            "roundPassRating": 1575061,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r22": {
+            "roundId": "challenge_8_r22",
+            "challengeId": "challenge_8",
+            "round": 22,
+            "roundPassRating": 1713361,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r23": {
+            "roundId": "challenge_8_r23",
+            "challengeId": "challenge_8",
+            "round": 23,
+            "roundPassRating": 1851661,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r24": {
+            "roundId": "challenge_8_r24",
+            "challengeId": "challenge_8",
+            "round": 24,
+            "roundPassRating": 1989961,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r25": {
+            "roundId": "challenge_8_r25",
+            "challengeId": "challenge_8",
+            "round": 25,
+            "roundPassRating": 2128261,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r26": {
+            "roundId": "challenge_8_r26",
+            "challengeId": "challenge_8",
+            "round": 26,
+            "roundPassRating": 2266561,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r27": {
+            "roundId": "challenge_8_r27",
+            "challengeId": "challenge_8",
+            "round": 27,
+            "roundPassRating": 2404861,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r28": {
+            "roundId": "challenge_8_r28",
+            "challengeId": "challenge_8",
+            "round": 28,
+            "roundPassRating": 2543161,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r29": {
+            "roundId": "challenge_8_r29",
+            "challengeId": "challenge_8",
+            "round": 29,
+            "roundPassRating": 2681461,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r30": {
+            "roundId": "challenge_8_r30",
+            "challengeId": "challenge_8",
+            "round": 30,
+            "roundPassRating": 2819761,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r31": {
+            "roundId": "challenge_8_r31",
+            "challengeId": "challenge_8",
+            "round": 31,
+            "roundPassRating": 2958061,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r32": {
+            "roundId": "challenge_8_r32",
+            "challengeId": "challenge_8",
+            "round": 32,
+            "roundPassRating": 3096361,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r33": {
+            "roundId": "challenge_8_r33",
+            "challengeId": "challenge_8",
+            "round": 33,
+            "roundPassRating": 3234661,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r34": {
+            "roundId": "challenge_8_r34",
+            "challengeId": "challenge_8",
+            "round": 34,
+            "roundPassRating": 3372961,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r35": {
+            "roundId": "challenge_8_r35",
+            "challengeId": "challenge_8",
+            "round": 35,
+            "roundPassRating": 3511261,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r36": {
+            "roundId": "challenge_8_r36",
+            "challengeId": "challenge_8",
+            "round": 36,
+            "roundPassRating": 3649561,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r37": {
+            "roundId": "challenge_8_r37",
+            "challengeId": "challenge_8",
+            "round": 37,
+            "roundPassRating": 3787861,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r38": {
+            "roundId": "challenge_8_r38",
+            "challengeId": "challenge_8",
+            "round": 38,
+            "roundPassRating": 3926161,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r39": {
+            "roundId": "challenge_8_r39",
+            "challengeId": "challenge_8",
+            "round": 39,
+            "roundPassRating": 4064461,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_8_r40": {
+            "roundId": "challenge_8_r40",
+            "challengeId": "challenge_8",
+            "round": 40,
+            "roundPassRating": 4202761,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 0
+          },
+          "challenge_9_r1": {
+            "roundId": "challenge_9_r1",
+            "challengeId": "challenge_9",
+            "round": 1,
+            "roundPassRating": 500,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 50,
+              "material_leaf_1": 17,
+              "material_clst_1": 13,
+              "material_sand": 20
+            },
+            "passRoundCoin": 10
+          },
+          "challenge_9_r2": {
+            "roundId": "challenge_9_r2",
+            "challengeId": "challenge_9",
+            "round": 2,
+            "roundPassRating": 1500,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 50,
+              "material_leaf_1": 20,
+              "material_clst_1": 13,
+              "material_sand": 17
+            },
+            "passRoundCoin": 30
+          },
+          "challenge_9_r3": {
+            "roundId": "challenge_9_r3",
+            "challengeId": "challenge_9",
+            "round": 3,
+            "roundPassRating": 2500,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 30,
+              "material_leaf_1": 40,
+              "material_clst_1": 20,
+              "material_sand": 10
+            },
+            "passRoundCoin": 30
+          },
+          "challenge_9_r4": {
+            "roundId": "challenge_9_r4",
+            "challengeId": "challenge_9",
+            "round": 4,
+            "roundPassRating": 3500,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 30,
+              "material_leaf_1": 15,
+              "material_clst_1": 40,
+              "material_sand": 15
+            },
+            "passRoundCoin": 30
+          },
+          "challenge_9_r5": {
+            "roundId": "challenge_9_r5",
+            "challengeId": "challenge_9",
+            "round": 5,
+            "roundPassRating": 5000,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 30,
+              "material_leaf_1": 10,
+              "material_clst_1": 20,
+              "material_sand": 40
+            },
+            "passRoundCoin": 30
+          },
+          "challenge_10_r1": {
+            "roundId": "challenge_10_r1",
+            "challengeId": "challenge_10",
+            "round": 1,
+            "roundPassRating": 125,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 25,
+              "material_leaf_1": 25,
+              "material_clst_1": 25,
+              "material_sand": 25
+            },
+            "passRoundCoin": 30
+          },
+          "challenge_10_r2": {
+            "roundId": "challenge_10_r2",
+            "challengeId": "challenge_10",
+            "round": 2,
+            "roundPassRating": 300,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r3": {
+            "roundId": "challenge_10_r3",
+            "challengeId": "challenge_10",
+            "round": 3,
+            "roundPassRating": 475,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r4": {
+            "roundId": "challenge_10_r4",
+            "challengeId": "challenge_10",
+            "round": 4,
+            "roundPassRating": 1480,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 50,
+              "material_leaf_1": 20,
+              "material_clst_1": 10,
+              "material_sand": 20
+            },
+            "passRoundCoin": 30
+          },
+          "challenge_10_r5": {
+            "roundId": "challenge_10_r5",
+            "challengeId": "challenge_10",
+            "round": 5,
+            "roundPassRating": 2260,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r6": {
+            "roundId": "challenge_10_r6",
+            "challengeId": "challenge_10",
+            "round": 6,
+            "roundPassRating": 3080,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r7": {
+            "roundId": "challenge_10_r7",
+            "challengeId": "challenge_10",
+            "round": 7,
+            "roundPassRating": 5760,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 20,
+              "material_leaf_1": 50,
+              "material_clst_1": 10,
+              "material_sand": 20
+            },
+            "passRoundCoin": 30
+          },
+          "challenge_10_r8": {
+            "roundId": "challenge_10_r8",
+            "challengeId": "challenge_10",
+            "round": 8,
+            "roundPassRating": 7800,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r9": {
+            "roundId": "challenge_10_r9",
+            "challengeId": "challenge_10",
+            "round": 9,
+            "roundPassRating": 10000,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r10": {
+            "roundId": "challenge_10_r10",
+            "challengeId": "challenge_10",
+            "round": 10,
+            "roundPassRating": 18280,
+            "isMaterialRandom": false,
+            "fixedMaterialList": {
+              "material_fire_1": 20,
+              "material_leaf_1": 20,
+              "material_clst_1": 10,
+              "material_sand": 50
+            },
+            "passRoundCoin": 30
+          },
+          "challenge_10_r11": {
+            "roundId": "challenge_10_r11",
+            "challengeId": "challenge_10",
+            "round": 11,
+            "roundPassRating": 23350,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r12": {
+            "roundId": "challenge_10_r12",
+            "challengeId": "challenge_10",
+            "round": 12,
+            "roundPassRating": 29800,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r13": {
+            "roundId": "challenge_10_r13",
+            "challengeId": "challenge_10",
+            "round": 13,
+            "roundPassRating": 36830,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r14": {
+            "roundId": "challenge_10_r14",
+            "challengeId": "challenge_10",
+            "round": 14,
+            "roundPassRating": 43980,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r15": {
+            "roundId": "challenge_10_r15",
+            "challengeId": "challenge_10",
+            "round": 15,
+            "roundPassRating": 51960,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r16": {
+            "roundId": "challenge_10_r16",
+            "challengeId": "challenge_10",
+            "round": 16,
+            "roundPassRating": 60410,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r17": {
+            "roundId": "challenge_10_r17",
+            "challengeId": "challenge_10",
+            "round": 17,
+            "roundPassRating": 69370,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r18": {
+            "roundId": "challenge_10_r18",
+            "challengeId": "challenge_10",
+            "round": 18,
+            "roundPassRating": 80090,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r19": {
+            "roundId": "challenge_10_r19",
+            "challengeId": "challenge_10",
+            "round": 19,
+            "roundPassRating": 91072,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r20": {
+            "roundId": "challenge_10_r20",
+            "challengeId": "challenge_10",
+            "round": 20,
+            "roundPassRating": 123062,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r21": {
+            "roundId": "challenge_10_r21",
+            "challengeId": "challenge_10",
+            "round": 21,
+            "roundPassRating": 195978,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r22": {
+            "roundId": "challenge_10_r22",
+            "challengeId": "challenge_10",
+            "round": 22,
+            "roundPassRating": 233662,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r23": {
+            "roundId": "challenge_10_r23",
+            "challengeId": "challenge_10",
+            "round": 23,
+            "roundPassRating": 279698,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r24": {
+            "roundId": "challenge_10_r24",
+            "challengeId": "challenge_10",
+            "round": 24,
+            "roundPassRating": 334086,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r25": {
+            "roundId": "challenge_10_r25",
+            "challengeId": "challenge_10",
+            "round": 25,
+            "roundPassRating": 396826,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r26": {
+            "roundId": "challenge_10_r26",
+            "challengeId": "challenge_10",
+            "round": 26,
+            "roundPassRating": 472094,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r27": {
+            "roundId": "challenge_10_r27",
+            "challengeId": "challenge_10",
+            "round": 27,
+            "roundPassRating": 559890,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r28": {
+            "roundId": "challenge_10_r28",
+            "challengeId": "challenge_10",
+            "round": 28,
+            "roundPassRating": 660214,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r29": {
+            "roundId": "challenge_10_r29",
+            "challengeId": "challenge_10",
+            "round": 29,
+            "roundPassRating": 773066,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r30": {
+            "roundId": "challenge_10_r30",
+            "challengeId": "challenge_10",
+            "round": 30,
+            "roundPassRating": 898446,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r31": {
+            "roundId": "challenge_10_r31",
+            "challengeId": "challenge_10",
+            "round": 31,
+            "roundPassRating": 1040530,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r32": {
+            "roundId": "challenge_10_r32",
+            "challengeId": "challenge_10",
+            "round": 32,
+            "roundPassRating": 1199318,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r33": {
+            "roundId": "challenge_10_r33",
+            "challengeId": "challenge_10",
+            "round": 33,
+            "roundPassRating": 1374810,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r34": {
+            "roundId": "challenge_10_r34",
+            "challengeId": "challenge_10",
+            "round": 34,
+            "roundPassRating": 1567006,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r35": {
+            "roundId": "challenge_10_r35",
+            "challengeId": "challenge_10",
+            "round": 35,
+            "roundPassRating": 1775906,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r36": {
+            "roundId": "challenge_10_r36",
+            "challengeId": "challenge_10",
+            "round": 36,
+            "roundPassRating": 2005686,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r37": {
+            "roundId": "challenge_10_r37",
+            "challengeId": "challenge_10",
+            "round": 37,
+            "roundPassRating": 2256346,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r38": {
+            "roundId": "challenge_10_r38",
+            "challengeId": "challenge_10",
+            "round": 38,
+            "roundPassRating": 2527886,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r39": {
+            "roundId": "challenge_10_r39",
+            "challengeId": "challenge_10",
+            "round": 39,
+            "roundPassRating": 2820306,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          },
+          "challenge_10_r40": {
+            "roundId": "challenge_10_r40",
+            "challengeId": "challenge_10",
+            "round": 40,
+            "roundPassRating": 3133606,
+            "isMaterialRandom": true,
+            "fixedMaterialList": null,
+            "passRoundCoin": 30
+          }
+        },
+        "taskDataMap": {
+          "task_3_1": {
+            "taskId": "task_3_1",
+            "taskDesc": "第4轮结束前，铭刻<color=#43deae>{0}</color>个<color=#43deae>{1}</color>。",
+            "materialId": "material_fire_5",
+            "materialNum": 200,
+            "passTaskCoin": 5
+          },
+          "task_4_1": {
+            "taskId": "task_4_1",
+            "taskDesc": "第4轮结束前，铭刻<color=#43deae>{0}</color>个<color=#43deae>{1}</color>。",
+            "materialId": "material_leaf_4",
+            "materialNum": 20,
+            "passTaskCoin": 5
+          },
+          "task_5_1": {
+            "taskId": "task_5_1",
+            "taskDesc": "第4轮结束前，铭刻<color=#43deae>{0}</color>个<color=#43deae>{1}</color>。",
+            "materialId": "material_sand",
+            "materialNum": 1000,
+            "passTaskCoin": 5
+          },
+          "task_6_1": {
+            "taskId": "task_6_1",
+            "taskDesc": "第4轮结束前，铭刻<color=#43deae>{0}</color>个<color=#43deae>{1}</color>。",
+            "materialId": "material_clst_3",
+            "materialNum": 50,
+            "passTaskCoin": 5
+          },
+          "task_7_1": {
+            "taskId": "task_7_1",
+            "taskDesc": "第16轮结束前，铭刻<color=#43deae>{0}</color>个<color=#43deae>{1}</color>。",
+            "materialId": "material_fire_4",
+            "materialNum": 300,
+            "passTaskCoin": 20
+          },
+          "task_7_2": {
+            "taskId": "task_7_2",
+            "taskDesc": "第20轮结束前，铭刻<color=#43deae>{0}</color>个<color=#43deae>{1}</color>。",
+            "materialId": "material_leaf_4",
+            "materialNum": 30,
+            "passTaskCoin": 20
+          },
+          "task_7_3": {
+            "taskId": "task_7_3",
+            "taskDesc": "第24轮结束前，铭刻<color=#43deae>{0}</color>个<color=#43deae>{1}</color>。",
+            "materialId": "material_sand",
+            "materialNum": 30000,
+            "passTaskCoin": 20
+          }
+        },
+        "cardDataMap": {
+          "card_fire_1": {
+            "cardId": "card_fire_1",
+            "sortId": 1,
+            "rank": 1,
+            "cardFace": "icon_card_fire",
+            "cardPic": "icon_card_fire_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级淬雕 I",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 I></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_1",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_2",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级淬雕 I",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳 ></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 I></color>\n<color=#fce0ba>[先于其他工艺，在工艺区生效，无需占用操作台]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_1",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_2",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级淬雕 I",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 I></color>\n<color=#fce0ba>[先于其他工艺，在工艺区生效，无需占用操作台]</color>\n<color=#fce0ba>[产出<火焰伊纳 I>变为2倍]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_1",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_2",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "card_fire_2": {
+            "cardId": "card_fire_2",
+            "sortId": 2,
+            "rank": 2,
+            "cardFace": "icon_card_fire",
+            "cardPic": "icon_card_fire_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级淬雕 II",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳 I></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 II></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_2",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_3",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级淬雕 II",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳 I></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 II></color>\n<color=#fce0ba>[产出<火焰伊纳 II>变为2倍]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_2",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_3",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级淬雕 II",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳 I></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 II></color>\n<color=#fce0ba>[产出<火焰伊纳 II>变为2倍]</color>\n<color=#fce0ba>[先于其他工艺，在工艺区生效，无需占用操作台]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_2",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_3",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "card_fire_3": {
+            "cardId": "card_fire_3",
+            "sortId": 3,
+            "rank": 3,
+            "cardFace": "icon_card_fire",
+            "cardPic": "icon_card_fire_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级淬雕 III",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳 II></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 III></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_3",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_4",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级淬雕 III",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳 II></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 III></color>\n<color=#fce0ba>[产出<火焰伊纳 III>变为2.4倍]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_3",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_4",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级淬雕 III",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳 II></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 III></color>\n<color=#fce0ba>[产出<火焰伊纳 III>变为2.4倍]</color>\n<color=#fce0ba>[先于其他工艺，在工艺区生效，无需占用操作台]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_3",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_4",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "card_fire_4": {
+            "cardId": "card_fire_4",
+            "sortId": 4,
+            "rank": 4,
+            "cardFace": "icon_card_fire",
+            "cardPic": "icon_card_fire_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级淬雕 IV",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳 III></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 IV></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_4",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_5",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级淬雕 IV",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳 III></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 IV></color>\n<color=#fce0ba>[每有1个空置操作台，获得 1500 评价分数]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_4",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_5",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级淬雕 IV",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><火焰伊纳 III></color>刻印\n为<color=#43deae>1</color>份<color=#43deae><火焰伊纳 IV></color>\n<color=#fce0ba>[每有1个空置操作台，获得 5000 评价分数]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_fire_4",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_fire_5",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "card_leaf_1": {
+            "cardId": "card_leaf_1",
+            "sortId": 5,
+            "rank": 1,
+            "cardFace": "icon_card_leaf",
+            "cardPic": "icon_card_leaf_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级滤纯 I",
+                "cardDesc": "将<color=#43deae><草叶伊纳></color>按<color=#43deae> 1:1比例 </color>刻印\n为<color=#43deae><草叶伊纳 I></color> 和 <color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_leaf_1",
+                    "count": 10
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_leaf_2",
+                    "count": 5
+                  },
+                  {
+                    "materialId": "material_sand",
+                    "count": 5
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级滤纯 I",
+                "cardDesc": "将<color=#43deae><草叶伊纳></color>按<color=#43deae> 4:1比例 </color>刻印\n为<color=#43deae><草叶伊纳 I></color> 和 <color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_leaf_1",
+                    "count": 10
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_leaf_2",
+                    "count": 8
+                  },
+                  {
+                    "materialId": "material_sand",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级滤纯 I",
+                "cardDesc": "将<color=#43deae><草叶伊纳></color><color=#43deae> 全部 </color>刻印\n为<color=#43deae><草叶伊纳 I></color>\n<color=#fce0ba>[额外产出<沙伊纳>]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_leaf_1",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_leaf_2",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "card_leaf_2": {
+            "cardId": "card_leaf_2",
+            "sortId": 6,
+            "rank": 2,
+            "cardFace": "icon_card_leaf",
+            "cardPic": "icon_card_leaf_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级滤纯 II",
+                "cardDesc": "将<color=#43deae><草叶伊纳 I></color>按<color=#43deae> 2:3比例 </color>刻印\n为<color=#43deae><草叶伊纳 II></color> 和<color=#43deae> <沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_leaf_2",
+                    "count": 10
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_leaf_3",
+                    "count": 4
+                  },
+                  {
+                    "materialId": "material_sand",
+                    "count": 6
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级滤纯 II",
+                "cardDesc": "将<color=#43deae><草叶伊纳 I></color>按<color=#43deae> 3:2比例 </color>刻印\n为<color=#43deae><草叶伊纳 II> </color>和<color=#43deae> <沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_leaf_2",
+                    "count": 10
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_leaf_3",
+                    "count": 6
+                  },
+                  {
+                    "materialId": "material_sand",
+                    "count": 4
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级滤纯 II",
+                "cardDesc": "将<color=#43deae><草叶伊纳 I></color>按<color=#43deae> 4:1比例 </color>刻印\n为<color=#43deae><草叶伊纳 II></color>和 <color=#43deae><沙伊纳></color>\n<color=#fce0ba>[额外产出<沙伊纳>]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_leaf_2",
+                    "count": 10
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_leaf_3",
+                    "count": 8
+                  },
+                  {
+                    "materialId": "material_sand",
+                    "count": 2
+                  }
+                ]
+              }
+            ]
+          },
+          "card_leaf_3": {
+            "cardId": "card_leaf_3",
+            "sortId": 7,
+            "rank": 3,
+            "cardFace": "icon_card_leaf",
+            "cardPic": "icon_card_leaf_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级滤纯 III",
+                "cardDesc": "将<color=#43deae><草叶伊纳 II></color>按<color=#43deae> 3:7比例 </color>刻印\n为<color=#43deae><草叶伊纳 III></color> 和 <color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_leaf_3",
+                    "count": 10
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_leaf_4",
+                    "count": 3
+                  },
+                  {
+                    "materialId": "material_sand",
+                    "count": 7
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级滤纯 III",
+                "cardDesc": "将<color=#43deae><草叶伊纳 II></color>按<color=#43deae> 1:1比例 </color>刻印\n为<color=#43deae><草叶伊纳 III></color> 和 <color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_leaf_3",
+                    "count": 10
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_leaf_4",
+                    "count": 5
+                  },
+                  {
+                    "materialId": "material_sand",
+                    "count": 5
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级滤纯 III",
+                "cardDesc": "将<color=#43deae><草叶伊纳 II></color>按<color=#43deae> 7:3比例 </color>刻印\n为<color=#43deae><草叶伊纳 III></color>和 <color=#43deae><沙伊纳></color>\n<color=#fce0ba>[额外产出<沙伊纳>]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_leaf_3",
+                    "count": 10
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_leaf_4",
+                    "count": 7
+                  },
+                  {
+                    "materialId": "material_sand",
+                    "count": 3
+                  }
+                ]
+              }
+            ]
+          },
+          "card_clst_1": {
+            "cardId": "card_clst_1",
+            "sortId": 8,
+            "rank": 1,
+            "cardFace": "icon_card_clst",
+            "cardPic": "icon_card_clst_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级交糅 I",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><天空伊纳></color>和<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>\n刻印为<color=#43deae>1</color>份<color=#43deae><天空伊纳 I></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_clst_1",
+                    "count": 1
+                  },
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_clst_2",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级交糅 I",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><天空伊纳></color>和<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>刻印为<color=#43deae>1</color>份<color=#43deae><天空伊纳 I></color>\n<color=#fce0ba>[本工艺生效前，将已有<天空伊纳>和<沙伊纳>数量均分]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_clst_1",
+                    "count": 1
+                  },
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_clst_2",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级交糅 I",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><天空伊纳></color>和<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>刻印为<color=#43deae>1</color>份<color=#43deae><天空伊纳 I></color>\n<color=#fce0ba>[本工艺生效前，将已有<天空伊纳>和<沙伊纳>数量均分]</color>\n<color=#fce0ba>[<天空伊纳>系列宝石单个评价分数增加 5 分]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_clst_1",
+                    "count": 1
+                  },
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_clst_2",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "card_clst_2": {
+            "cardId": "card_clst_2",
+            "sortId": 9,
+            "rank": 2,
+            "cardFace": "icon_card_clst",
+            "cardPic": "icon_card_clst_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级交糅 II",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><天空伊纳 I></color>和<color=#43deae>1</color>份<color=#43deae><草叶伊纳 I></color>刻印为<color=#43deae>1</color>份<color=#43deae><天空伊纳 II></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_clst_2",
+                    "count": 1
+                  },
+                  {
+                    "materialId": "material_leaf_2",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_clst_3",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级交糅 II",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><天空伊纳 I></color>和<color=#43deae>1</color>份<color=#43deae><草叶伊纳 I></color>刻印为<color=#43deae>1</color>份<color=#43deae><天空伊纳 II></color>\n<color=#fce0ba>[<天空伊纳>系列宝石单个评价分数增加 15 分]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_clst_2",
+                    "count": 1
+                  },
+                  {
+                    "materialId": "material_leaf_2",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_clst_3",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级交糅 II",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><天空伊纳 I></color>和<color=#43deae>1</color>份<color=#43deae><草叶伊纳 I></color>刻印为<color=#43deae>1</color>份<color=#43deae><天空伊纳 II></color>\n<color=#fce0ba>[<天空伊纳>系列宝石单个评价分数增加 15 分]</color>\n<color=#fce0ba>[本工艺生效前，将已有<天空伊纳 I>和<草叶伊纳 I>数量均分]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_clst_2",
+                    "count": 1
+                  },
+                  {
+                    "materialId": "material_leaf_2",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_clst_3",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "card_clst_3": {
+            "cardId": "card_clst_3",
+            "sortId": 10,
+            "rank": 4,
+            "cardFace": "icon_card_clst",
+            "cardPic": "icon_card_clst_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级交糅 III",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><天空伊纳 II></color>和<color=#43deae>1</color>份<color=#43deae><火焰伊纳 III></color>刻印为<color=#43deae>1</color>份<color=#43deae><天空伊纳 III></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_clst_3",
+                    "count": 1
+                  },
+                  {
+                    "materialId": "material_fire_4",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_clst_4",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级交糅 III",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><天空伊纳 II></color>和<color=#43deae>1</color>份<color=#43deae><火焰伊纳 III></color>刻印为<color=#43deae>1</color>份<color=#43deae><天空伊纳 III></color>\n<color=#fce0ba>[本工艺生效前，将已有<天空伊纳 II>和<火焰伊纳 III>数量均分]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_clst_3",
+                    "count": 1
+                  },
+                  {
+                    "materialId": "material_fire_4",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_clst_4",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级交糅 III",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><天空伊纳 II></color>和<color=#43deae>1</color>份<color=#43deae><火焰伊纳 III></color>刻印为<color=#43deae>1</color>份<color=#43deae><天空伊纳 III></color>\n<color=#fce0ba>[本工艺生效前，将已有<天空伊纳 II>和<火焰伊纳 III>数量均分]</color>\n<color=#fce0ba>[若刻印产出只有1种宝石，额外获得<天空伊纳 III>数量100倍的评价分数]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_clst_3",
+                    "count": 1
+                  },
+                  {
+                    "materialId": "material_fire_4",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_clst_4",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "card_sand_1": {
+            "cardId": "card_sand_1",
+            "sortId": 11,
+            "rank": 1,
+            "cardFace": "icon_card_sand",
+            "cardPic": "icon_card_sandBasic_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级落晶 I",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>刻印为<color=#43deae>2</color>份<color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级落晶 I",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>刻印为<color=#43deae>3</color>份<color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 3
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级落晶 I",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>刻印为<color=#43deae>5</color>份<color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 5
+                  }
+                ]
+              }
+            ]
+          },
+          "card_sand_2": {
+            "cardId": "card_sand_2",
+            "sortId": 12,
+            "rank": 2,
+            "cardFace": "icon_card_sand",
+            "cardPic": "icon_card_sandMiddle_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级落晶 II",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>刻印为<color=#43deae>3</color>份<color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 3
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级落晶 II",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>刻印为<color=#43deae>5</color>份<color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 5
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级落晶 II",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>刻印为<color=#43deae>8</color>份<color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 8
+                  }
+                ]
+              }
+            ]
+          },
+          "card_sand_3": {
+            "cardId": "card_sand_3",
+            "sortId": 13,
+            "rank": 4,
+            "cardFace": "icon_card_sand",
+            "cardPic": "icon_card_sandPrime_bg",
+            "levelDataList": [
+              {
+                "cardLevel": 1,
+                "cardName": "初级落晶 III",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>刻印为<color=#43deae>5</color>份<color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 5
+                  }
+                ]
+              },
+              {
+                "cardLevel": 2,
+                "cardName": "中级落晶 III",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>刻印为<color=#43deae>9</color>份<color=#43deae><沙伊纳></color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 9
+                  }
+                ]
+              },
+              {
+                "cardLevel": 3,
+                "cardName": "高级落晶 III",
+                "cardDesc": "将<color=#43deae>1</color>份<color=#43deae><沙伊纳></color>刻印为<color=#43deae>9</color>份<color=#43deae><沙伊纳></color>\n<color=#fce0ba>[<沙伊纳>单个评价分数增加 1 分]</color>",
+                "inputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 1
+                  }
+                ],
+                "outputMaterialList": [
+                  {
+                    "materialId": "material_sand",
+                    "count": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "materialDataMap": {
+          "material_fire_1": {
+            "materialId": "material_fire_1",
+            "sortId": 1,
+            "materialIcon": "icon_material_fire_1",
+            "materialName": "火焰伊纳",
+            "materialRating": 1
+          },
+          "material_fire_2": {
+            "materialId": "material_fire_2",
+            "sortId": 2,
+            "materialIcon": "icon_material_fire_2",
+            "materialName": "火焰伊纳 I",
+            "materialRating": 2
+          },
+          "material_fire_3": {
+            "materialId": "material_fire_3",
+            "sortId": 3,
+            "materialIcon": "icon_material_fire_3",
+            "materialName": "火焰伊纳 II",
+            "materialRating": 10
+          },
+          "material_fire_4": {
+            "materialId": "material_fire_4",
+            "sortId": 4,
+            "materialIcon": "icon_material_fire_4",
+            "materialName": "火焰伊纳 III",
+            "materialRating": 35
+          },
+          "material_fire_5": {
+            "materialId": "material_fire_5",
+            "sortId": 5,
+            "materialIcon": "icon_material_fire_5",
+            "materialName": "火焰伊纳 IV",
+            "materialRating": 85
+          },
+          "material_clst_1": {
+            "materialId": "material_clst_1",
+            "sortId": 6,
+            "materialIcon": "icon_material_clst_1",
+            "materialName": "天空伊纳",
+            "materialRating": 1
+          },
+          "material_clst_2": {
+            "materialId": "material_clst_2",
+            "sortId": 7,
+            "materialIcon": "icon_material_clst_2",
+            "materialName": "天空伊纳 I",
+            "materialRating": 3
+          },
+          "material_clst_3": {
+            "materialId": "material_clst_3",
+            "sortId": 8,
+            "materialIcon": "icon_material_clst_3",
+            "materialName": "天空伊纳 II",
+            "materialRating": 22
+          },
+          "material_clst_4": {
+            "materialId": "material_clst_4",
+            "sortId": 9,
+            "materialIcon": "icon_material_clst_4",
+            "materialName": "天空伊纳 III",
+            "materialRating": 105
+          },
+          "material_leaf_1": {
+            "materialId": "material_leaf_1",
+            "sortId": 10,
+            "materialIcon": "icon_material_leaf_1",
+            "materialName": "草叶伊纳",
+            "materialRating": 1
+          },
+          "material_leaf_2": {
+            "materialId": "material_leaf_2",
+            "sortId": 11,
+            "materialIcon": "icon_material_leaf_2",
+            "materialName": "草叶伊纳 I",
+            "materialRating": 5
+          },
+          "material_leaf_3": {
+            "materialId": "material_leaf_3",
+            "sortId": 12,
+            "materialIcon": "icon_material_leaf_3",
+            "materialName": "草叶伊纳 II",
+            "materialRating": 50
+          },
+          "material_leaf_4": {
+            "materialId": "material_leaf_4",
+            "sortId": 13,
+            "materialIcon": "icon_material_leaf_4",
+            "materialName": "草叶伊纳 III",
+            "materialRating": 500
+          },
+          "material_sand": {
+            "materialId": "material_sand",
+            "sortId": 14,
+            "materialIcon": "icon_material_sand",
+            "materialName": "沙伊纳",
+            "materialRating": 1
+          }
+        },
+        "dialogueGroupDataMap": {
+          "ENTRY": {
+            "type": "ENTRY",
+            "dialogDataList": [
+              {
+                "sortId": 1,
+                "iconId": "papyrus_smile",
+                "name": "<color=1d1d1d>莎草</color>",
+                "content": "欢迎来到博物馆！",
+                "bgType": "GREEN"
+              },
+              {
+                "sortId": 2,
+                "iconId": "papyrus_think",
+                "name": "<color=1d1d1d>莎草</color>",
+                "content": "在漫灌节期间，我们会为游客朋友们提供宝石铭刻体验课程。",
+                "bgType": "GREEN"
+              },
+              {
+                "sortId": 3,
+                "iconId": "papyrus_smile",
+                "name": "<color=1d1d1d>莎草</color>",
+                "content": "这里有许多晶光闪闪的宝石，在等候着你的奇思妙想。",
+                "bgType": "GREEN"
+              },
+              {
+                "sortId": 4,
+                "iconId": "papyrus_think",
+                "name": "<color=1d1d1d>莎草</color>",
+                "content": "话不多说，一起来感受古老工艺的魅力吧！",
+                "bgType": "GREEN"
+              }
+            ]
+          },
+          "BONUS": {
+            "type": "BONUS",
+            "dialogDataList": [
+              {
+                "sortId": 1,
+                "iconId": "sandreckoner_idle",
+                "name": "<color=ffffff>衡沙</color>",
+                "content": "很不错，交糅工艺让两种本不相容的源石回路结合，实现了平衡，又相得益彰。",
+                "bgType": "BLUE"
+              },
+              {
+                "sortId": 2,
+                "iconId": "sandreckoner_smile",
+                "name": "<color=ffffff>衡沙</color>",
+                "content": "作为评价者，我必须给予你称赞。",
+                "bgType": "BLUE"
+              }
+            ]
+          }
+        },
+        "constData": {
+          "campaignStageId": "act35side_mo01",
+          "campaignEnemyCnt": 200,
+          "milestoneGrandRewardInfoList": [
+            {
+              "itemName": "“青春陪伴”",
+              "level": 15
+            },
+            {
+              "itemName": "宝石洗手池",
+              "level": 30
+            },
+            {
+              "itemName": "“凝视者”",
+              "level": 25
+            },
+            {
+              "itemName": "默言石凳",
+              "level": 10
+            }
+          ],
+          "unlockLevelId": "act35side_st01",
+          "birdSpineLowRate": 1.0,
+          "birdSpineHighRate": 1.4,
+          "cardMaxLevel": 3,
+          "maxSlotCnt": 6,
+          "cardRefreshNum": 3,
+          "initSlotCnt": 2,
+          "bonusMaterialId": "material_clst_4",
+          "introRoundIdList": [],
+          "challengeUnlockText": "新课程已解锁！",
+          "slotUnlockText": "新的操作台已解锁！",
+          "estimateRatio": 1000,
+          "carvingUnlockToastText": "<color=#43deae>宝石铭刻</color>玩法已解锁"
+        },
+        "mileStoneList": [
+          {
+            "mileStoneId": "mileStone_1",
+            "mileStoneLvl": 1,
+            "needPointCnt": 100,
+            "rewardItem": {
+              "id": "4001",
+              "count": 4000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_2",
+            "mileStoneLvl": 2,
+            "needPointCnt": 200,
+            "rewardItem": {
+              "id": "30103",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_3",
+            "mileStoneLvl": 3,
+            "needPointCnt": 300,
+            "rewardItem": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_4",
+            "mileStoneLvl": 4,
+            "needPointCnt": 400,
+            "rewardItem": {
+              "id": "31013",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_5",
+            "mileStoneLvl": 5,
+            "needPointCnt": 500,
+            "rewardItem": {
+              "id": "4001",
+              "count": 4000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_6",
+            "mileStoneLvl": 6,
+            "needPointCnt": 600,
+            "rewardItem": {
+              "id": "30013",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_7",
+            "mileStoneLvl": 7,
+            "needPointCnt": 700,
+            "rewardItem": {
+              "id": "3302",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_8",
+            "mileStoneLvl": 8,
+            "needPointCnt": 800,
+            "rewardItem": {
+              "id": "30053",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_9",
+            "mileStoneLvl": 9,
+            "needPointCnt": 900,
+            "rewardItem": {
+              "id": "4001",
+              "count": 4000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_10",
+            "mileStoneLvl": 10,
+            "needPointCnt": 1000,
+            "rewardItem": {
+              "id": "furni_citizengarden_bench_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_11",
+            "mileStoneLvl": 11,
+            "needPointCnt": 1100,
+            "rewardItem": {
+              "id": "30103",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12",
+            "mileStoneLvl": 12,
+            "needPointCnt": 1200,
+            "rewardItem": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_13",
+            "mileStoneLvl": 13,
+            "needPointCnt": 1300,
+            "rewardItem": {
+              "id": "31013",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_14",
+            "mileStoneLvl": 14,
+            "needPointCnt": 1400,
+            "rewardItem": {
+              "id": "3302",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_15",
+            "mileStoneLvl": 15,
+            "needPointCnt": 1500,
+            "rewardItem": {
+              "id": "furni_citizengarden_ceilingplant_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_16",
+            "mileStoneLvl": 16,
+            "needPointCnt": 1600,
+            "rewardItem": {
+              "id": "30013",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_17",
+            "mileStoneLvl": 17,
+            "needPointCnt": 1700,
+            "rewardItem": {
+              "id": "4001",
+              "count": 4000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_18",
+            "mileStoneLvl": 18,
+            "needPointCnt": 1800,
+            "rewardItem": {
+              "id": "30053",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_19",
+            "mileStoneLvl": 19,
+            "needPointCnt": 1900,
+            "rewardItem": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_20",
+            "mileStoneLvl": 20,
+            "needPointCnt": 2000,
+            "rewardItem": {
+              "id": "30103",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_21",
+            "mileStoneLvl": 21,
+            "needPointCnt": 2100,
+            "rewardItem": {
+              "id": "4001",
+              "count": 4000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_22",
+            "mileStoneLvl": 22,
+            "needPointCnt": 2200,
+            "rewardItem": {
+              "id": "3302",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_23",
+            "mileStoneLvl": 23,
+            "needPointCnt": 2300,
+            "rewardItem": {
+              "id": "31013",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_24",
+            "mileStoneLvl": 24,
+            "needPointCnt": 2400,
+            "rewardItem": {
+              "id": "4001",
+              "count": 4000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_25",
+            "mileStoneLvl": 25,
+            "needPointCnt": 2500,
+            "rewardItem": {
+              "id": "furni_citizengarden_jewelcat_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_26",
+            "mileStoneLvl": 26,
+            "needPointCnt": 2600,
+            "rewardItem": {
+              "id": "30013",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_27",
+            "mileStoneLvl": 27,
+            "needPointCnt": 2700,
+            "rewardItem": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_28",
+            "mileStoneLvl": 28,
+            "needPointCnt": 2800,
+            "rewardItem": {
+              "id": "30053",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_29",
+            "mileStoneLvl": 29,
+            "needPointCnt": 2900,
+            "rewardItem": {
+              "id": "3302",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_30",
+            "mileStoneLvl": 30,
+            "needPointCnt": 3000,
+            "rewardItem": {
+              "id": "furni_citizengarden_sink_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_31",
+            "mileStoneLvl": 31,
+            "needPointCnt": 3100,
+            "rewardItem": {
+              "id": "30103",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_32",
+            "mileStoneLvl": 32,
+            "needPointCnt": 3200,
+            "rewardItem": {
+              "id": "4001",
+              "count": 4000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_33",
+            "mileStoneLvl": 33,
+            "needPointCnt": 3300,
+            "rewardItem": {
+              "id": "31013",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_34",
+            "mileStoneLvl": 34,
+            "needPointCnt": 3400,
+            "rewardItem": {
+              "id": "2003",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_35",
+            "mileStoneLvl": 35,
+            "needPointCnt": 3500,
+            "rewardItem": {
+              "id": "30013",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_36",
+            "mileStoneLvl": 36,
+            "needPointCnt": 3600,
+            "rewardItem": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_37",
+            "mileStoneLvl": 37,
+            "needPointCnt": 3700,
+            "rewardItem": {
+              "id": "3302",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_38",
+            "mileStoneLvl": 38,
+            "needPointCnt": 3800,
+            "rewardItem": {
+              "id": "30053",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_39",
+            "mileStoneLvl": 39,
+            "needPointCnt": 3900,
+            "rewardItem": {
+              "id": "4001",
+              "count": 4000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_40",
+            "mileStoneLvl": 40,
+            "needPointCnt": 4000,
+            "rewardItem": {
+              "id": "3401",
+              "count": 50,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_41",
+            "mileStoneLvl": 41,
+            "needPointCnt": 4100,
+            "rewardItem": {
+              "id": "30103",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_42",
+            "mileStoneLvl": 42,
+            "needPointCnt": 4200,
+            "rewardItem": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_43",
+            "mileStoneLvl": 43,
+            "needPointCnt": 4300,
+            "rewardItem": {
+              "id": "31013",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_44",
+            "mileStoneLvl": 44,
+            "needPointCnt": 4400,
+            "rewardItem": {
+              "id": "4001",
+              "count": 4000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_45",
+            "mileStoneLvl": 45,
+            "needPointCnt": 4500,
+            "rewardItem": {
+              "id": "3302",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          }
+        ],
+        "zoneAdditionDataMap": {
+          "act35sre_zone1": {
+            "zoneId": "act35sre_zone1",
+            "unlockText": "尚未解锁"
+          },
+          "act35sre_zone2": {
+            "zoneId": "act35sre_zone2",
+            "unlockText": "完成「市民花园」后解锁"
+          },
+          "act35sre_zone3": {
+            "zoneId": "act35sre_zone3",
+            "unlockText": "完成「市民花园」后解锁"
+          }
+        }
+      },
       "act35side": {
         "challengeDataMap": {
           "challenge_1": {
@@ -227378,6 +231785,9 @@
     }
   },
   "activityItems": {
+    "act35sre": [
+      "act35side_token_dust_rep_1"
+    ],
     "act44side": [
       "act44side_token_ticket",
       "act44side_token_information",
@@ -234576,6 +238986,50 @@
       ],
       "picGroups": [],
       "startTs": 1754107200
+    },
+    {
+      "id": "dis_crisisc_v2_4",
+      "type": "CRISISV2",
+      "funcId": "crisis_v2_season_4_1",
+      "endTs": 1756324799,
+      "sortId": 122,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "危机合约<弧光作战>活动已开放",
+          "ts": 1755158400
+        },
+        {
+          "title": "开放新轮换测试地",
+          "ts": 1755460800
+        },
+        {
+          "title": "新增常驻可选指标与开放新轮换测试地",
+          "ts": 1755720000
+        },
+        {
+          "title": "开放新轮换测试地",
+          "ts": 1755979200
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1755158400
+    },
+    {
+      "id": "dis_side_35_sre",
+      "type": "ACTIVITY",
+      "funcId": "act35sre",
+      "endTs": 1756929599,
+      "sortId": 123,
+      "itemId": "act35side_token_dust_rep_1",
+      "timeNodes": [
+        {
+          "title": "<太阳甩在身后>活动已开放",
+          "ts": 1756065600
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1756065600
     }
   ],
   "actFunData": {
@@ -262546,6 +267000,27 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act35sre": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4139_papyrs",
+        "通关AS-5后可招募此干员",
+        "8f45d6",
+        "-85,52"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": "8f45d6",
+      "isMissionItemCompleteUseMainColor": true,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": "8f45d6",
+      "claimAllBtnTips": "当前有已完成待领取的任务",
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "8f45d6"
+    },
     "act44side": {
       "bigRewardType": "ILLUST_CHAR_REWARD",
       "bigRewardParamList": [

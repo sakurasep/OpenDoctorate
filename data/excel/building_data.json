@@ -97433,6 +97433,38 @@
         "enableRoomType": 4112,
         "quantity": 0
       },
+      "furni_contract2_s4_01": {
+        "id": "furni_contract2_s4_01",
+        "sortId": 12018,
+        "name": "弧光之旗",
+        "iconId": "furni_contract2_s4_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILING",
+        "subType": "CONTRACT_2",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 5,
+        "comfort": 120,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "描摹了某种苍穹破碎景象的旗帜。\n刺眼的光芒从云层中倾泻而下，人们仰望藏匿于巨大阴影背后的希望，描摹浩阔的图景以纪念。",
+        "obtainApproach": "危机合约赛季奖励",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 0
+      },
       "furni_annihilation_s2_01": {
         "id": "furni_annihilation_s2_01",
         "sortId": 13001,
@@ -126603,6 +126635,9 @@
         },
         {
           "skinId": "char_133_mm@summer#20"
+        },
+        {
+          "skinId": "char_366_acdrop@summer#21"
         }
       ]
     },
@@ -133862,6 +133897,32 @@
         "unlockType": "MainBG",
         "unlockParams": [
           "bg_rogue_4"
+        ]
+      },
+      "bgm_bg_volcano_day": {
+        "bgmId": "bgm_bg_volcano_day",
+        "bgmSortId": 24,
+        "bgmStartTime": 1755158400,
+        "bgmName": "泉湾-Misty Memory (Day Version)",
+        "gameMusicId": "music_bg_volcano_day",
+        "obtainApproach": "[采购中心]中购买梦港泉湾组合包获得",
+        "bgmDescUnlocked": "背景附赠音乐",
+        "unlockType": "MainBG",
+        "unlockParams": [
+          "bg_volcano_1"
+        ]
+      },
+      "bgm_bg_volcano_night": {
+        "bgmId": "bgm_bg_volcano_night",
+        "bgmSortId": 25,
+        "bgmStartTime": 1755158400,
+        "bgmName": "泉湾-Misty Memory (Night Version)",
+        "gameMusicId": "music_bg_volcano_night",
+        "obtainApproach": "[采购中心]中购买梦港泉湾组合包获得",
+        "bgmDescUnlocked": "背景附赠音乐",
+        "unlockType": "MainBG",
+        "unlockParams": [
+          "bg_volcano_1"
         ]
       }
     }

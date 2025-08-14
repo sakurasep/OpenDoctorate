@@ -94056,6 +94056,762 @@
       "advancedRuneIdList1": [],
       "advancedRuneIdList2": []
     },
+    "act44side_s01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act44side_st03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act44side_s01",
+      "levelId": "Activities/act44side/level_act44side_sub-1-1",
+      "zoneId": "act44side_zone3",
+      "code": "AT-S-1",
+      "name": "神签",
+      "description": "签落为尘，诸缘已定。\\n<@lv.item><天命来袭></>开启后不断召唤“某种天命”",
+      "hardStagedId": "act44side_s01#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_AT_street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act44side_token_ticket",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act44side_token_ticket",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act44side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "act44side_s01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act44side_s01",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act44side_s01#f#",
+      "levelId": "Activities/act44side/level_act44side_sub-1-1",
+      "zoneId": "act44side_zone3",
+      "code": "AT-S-1",
+      "name": "神签",
+      "description": "<@lv.fs>附加条件：</>\\n土遁宗师更早行动",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_AT_street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act44side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "act44side_s02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act44side_s01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act44side_s02",
+      "levelId": "Activities/act44side/level_act44side_sub-1-2",
+      "zoneId": "act44side_zone3",
+      "code": "AT-S-2",
+      "name": "祓雨",
+      "description": "清雨过身，心尘难祓。\\n<@lv.item><天命来袭></>开启后不断召唤“某种天命”",
+      "hardStagedId": "act44side_s02#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_AT_street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act44side_token_ticket",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act44side_token_ticket",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act44side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "act44side_s02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act44side_s02",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act44side_s02#f#",
+      "levelId": "Activities/act44side/level_act44side_sub-1-2",
+      "zoneId": "act44side_zone3",
+      "code": "AT-S-2",
+      "name": "祓雨",
+      "description": "<@lv.fs>附加条件：</>\\n雷遁宗师获得隐匿",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_AT_street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act44side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "act44side_s03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act44side_s02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act44side_s03",
+      "levelId": "Activities/act44side/level_act44side_sub-1-3",
+      "zoneId": "act44side_zone3",
+      "code": "AT-S-3",
+      "name": "逢魔",
+      "description": "昼夜交隙，百魅争途。\\n<@lv.item><天命来袭></>开启后不断召唤“某种天命”\\n<@lv.item><压力归零帮手></>反弹“某种天命”，一段时间后激活",
+      "hardStagedId": "act44side_s03#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_AT_street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act44side_token_ticket",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act44side_token_ticket",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act44side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "act44side_s03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act44side_s03",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act44side_s03#f#",
+      "levelId": "Activities/act44side/level_act44side_sub-1-3",
+      "zoneId": "act44side_zone3",
+      "code": "AT-S-3",
+      "name": "逢魔",
+      "description": "<@lv.fs>附加条件：</>\\n场上两个位置不可部署",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_AT_street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act44side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "act44side_s04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act44side_s03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act44side_s04",
+      "levelId": "Activities/act44side/level_act44side_sub-1-4",
+      "zoneId": "act44side_zone3",
+      "code": "AT-S-4",
+      "name": "罪业",
+      "description": "灯火既熄，业焰自明。\\n<@lv.item><天命来袭></>开启后不断召唤“某种天命”\\n<@lv.item><压力归零帮手></>反弹“某种天命”，一段时间后激活",
+      "hardStagedId": "act44side_s04#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_AT_town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act44side_token_ticket",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act44side_token_ticket",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act44side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "act44side_s04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act44side_s04",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act44side_s04#f#",
+      "levelId": "Activities/act44side/level_act44side_sub-1-4",
+      "zoneId": "act44side_zone3",
+      "code": "AT-S-4",
+      "name": "罪业",
+      "description": "<@lv.fs>附加条件：</>\\n三船光平更频繁的使用“握筹布画”",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_AT_town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act44side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
     "act44side_sp01": {
       "stageType": "ACTIVITY",
       "difficulty": "NORMAL",
@@ -143806,7 +144562,7 @@
       ],
       "stageId": "act35side_st01",
       "levelId": null,
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-ST-1",
       "name": "辉煌之城",
       "description": "辉煌的米纳特哈玛仪又迎来了看似平静的一日。",
@@ -143893,7 +144649,7 @@
       ],
       "stageId": "act35side_01",
       "levelId": "Activities/act35side/level_act35side_01",
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-1",
       "name": "节前热身",
       "description": "节日在即，博物馆中却发生了异变——当然，对于见惯了大场面的市民来说，这也是生活的一部分。",
@@ -143905,7 +144661,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -143919,7 +144675,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -143938,12 +144694,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -143986,13 +144742,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -144068,7 +144824,7 @@
       ],
       "stageId": "act35side_tr01",
       "levelId": "Activities/act35side/level_act35side_tr01",
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-TR-1",
       "name": "护卫队演练",
       "description": "城市护卫队的训练涉及许多关于结晶的基础知识。\\n<@lv.item><纯净结晶></>可连通周围的结晶区块",
@@ -144155,7 +144911,7 @@
       ],
       "stageId": "act35side_02",
       "levelId": "Activities/act35side/level_act35side_02",
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-2",
       "name": "馆中特别行动",
       "description": "许多人正在行动，他们或相向而行，或背道而驰。\\n<@lv.item><纯净结晶></>可连通周围的结晶区块",
@@ -144167,7 +144923,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -144181,7 +144937,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -144200,12 +144956,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -144248,13 +145004,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -144330,7 +145086,7 @@
       ],
       "stageId": "act35side_03",
       "levelId": "Activities/act35side/level_act35side_03",
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-3",
       "name": "相约大巴扎",
       "description": "我们有了一些新的伙伴，而他们有了一些古怪的诉求。\\n<@lv.item><纯净结晶></>可连通周围的结晶区块",
@@ -144342,7 +145098,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -144356,7 +145112,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -144375,12 +145131,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -144423,13 +145179,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -144505,7 +145261,7 @@
       ],
       "stageId": "act35side_04",
       "levelId": "Activities/act35side/level_act35side_04",
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-4",
       "name": "家传金拖鞋",
       "description": "恰到好处地进行展示，只为获取自己需要的那一部分。",
@@ -144517,7 +145273,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 12,
-      "apFailReturn": 11,
+      "apFailReturn": 12,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -144531,7 +145287,7 @@
       "goldGain": 120,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 11,
+      "passFavor": 12,
       "completeFavor": 12,
       "slProgress": 0,
       "displayMainItem": null,
@@ -144550,12 +145306,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -144578,13 +145334,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -144636,7 +145392,7 @@
       ],
       "stageId": "act35side_05",
       "levelId": "Activities/act35side/level_act35side_05",
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-5",
       "name": "文物也上班",
       "description": "活着的文物也得上班，所以它们能休假吗？\\n<@lv.item><结晶消除桩></>可消除一条直线上的所有结晶",
@@ -144648,7 +145404,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 12,
-      "apFailReturn": 11,
+      "apFailReturn": 12,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -144662,7 +145418,7 @@
       "goldGain": 120,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 11,
+      "passFavor": 12,
       "completeFavor": 12,
       "slProgress": 0,
       "displayMainItem": null,
@@ -144681,12 +145437,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -144709,13 +145465,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -144767,7 +145523,7 @@
       ],
       "stageId": "act35side_st02",
       "levelId": null,
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-ST-2",
       "name": "苏醒的城市",
       "description": "城市生活是鲜活的，但从没有人说过城市里的物件是可以突然活动的。",
@@ -144854,7 +145610,7 @@
       ],
       "stageId": "act35side_06",
       "levelId": "Activities/act35side/level_act35side_06",
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-6",
       "name": "过往云烟",
       "description": "哪怕是一时的遗憾，也有人愿意永远背负。\\n<@lv.item><结晶消除桩></>可消除一条直线上的所有结晶",
@@ -144866,7 +145622,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 12,
-      "apFailReturn": 11,
+      "apFailReturn": 12,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -144880,7 +145636,7 @@
       "goldGain": 120,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 11,
+      "passFavor": 12,
       "completeFavor": 12,
       "slProgress": 0,
       "displayMainItem": null,
@@ -144899,12 +145655,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -144927,13 +145683,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -144985,7 +145741,7 @@
       ],
       "stageId": "act35side_07",
       "levelId": "Activities/act35side/level_act35side_07",
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-7",
       "name": "谁是宠物？",
       "description": "你觉得你是宠物吗？",
@@ -144997,7 +145753,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -145011,7 +145767,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -145030,12 +145786,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -145053,13 +145809,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -145105,7 +145861,7 @@
       ],
       "stageId": "act35side_08",
       "levelId": "Activities/act35side/level_act35side_08",
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-8",
       "name": "黄沙尽头",
       "description": "再过千年、万年，血脉与精神依然不会磨灭，传承者仍需面对。",
@@ -145117,7 +145873,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -145131,7 +145887,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -145150,12 +145906,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -145173,13 +145929,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -145225,7 +145981,7 @@
       ],
       "stageId": "act35side_09",
       "levelId": "Activities/act35side/level_act35side_09",
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-9",
       "name": "向过去告别",
       "description": "梦寐以求的目标近在眼前，但她们选择跨过。\\n<@lv.item><纯净结晶></>可连通周围的结晶区块\\n<@lv.item><结晶消除桩></>可消除一条直线上的所有结晶",
@@ -145237,7 +145993,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -145251,7 +146007,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -145270,12 +146026,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -145293,13 +146049,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -145345,7 +146101,7 @@
       ],
       "stageId": "act35side_st03",
       "levelId": null,
-      "zoneId": "act35side_zone1",
+      "zoneId": "act35sre_zone1",
       "code": "AS-ST-3",
       "name": "十字路口，再出发",
       "description": "辉煌依旧，经历了巨变的人们则各自踏上了属于自己的路。",
@@ -145432,7 +146188,7 @@
       ],
       "stageId": "act35side_ex01",
       "levelId": "Activities/act35side/level_act35side_ex01",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-1",
       "name": "小偷与收款人",
       "description": "有两种人平民是不能惹的，一种是窃贼，一种是收款人。\\n<@lv.item><障碍物></>部署以后可以阻挡敌人的行进路线\\n<@lv.rem>本次行动中远程干员可部署于近战位</>",
@@ -145444,7 +146200,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -145458,7 +146214,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -145477,7 +146233,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -145490,7 +146246,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -145534,7 +146290,7 @@
       ],
       "stageId": "act35side_ex01#f#",
       "levelId": "Activities/act35side/level_act35side_ex01",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-1",
       "name": "小偷与收款人",
       "description": "<@lv.fs>附加条件：</>\\n持有的障碍物数量大幅减少",
@@ -145546,7 +146302,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -145560,7 +146316,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -145621,7 +146377,7 @@
       ],
       "stageId": "act35side_ex02",
       "levelId": "Activities/act35side/level_act35side_ex02",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-2",
       "name": "被吹碎的镜子",
       "description": "哦，河，不要让风撼动你。\\n<@lv.item><结晶消除桩></>可消除一条直线上的所有结晶",
@@ -145633,7 +146389,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -145647,7 +146403,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -145666,7 +146422,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -145679,7 +146435,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -145723,7 +146479,7 @@
       ],
       "stageId": "act35side_ex02#f#",
       "levelId": "Activities/act35side/level_act35side_ex02",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-2",
       "name": "被吹碎的镜子",
       "description": "<@lv.fs>附加条件：</>\\n净化结晶的效率大幅降低",
@@ -145735,7 +146491,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -145749,7 +146505,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -145810,7 +146566,7 @@
       ],
       "stageId": "act35side_ex03",
       "levelId": "Activities/act35side/level_act35side_ex03",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-3",
       "name": "一捧宝石",
       "description": "要求一切，就会失去一切。\\n<@lv.item><纯净结晶></>可连通周围的结晶区块",
@@ -145822,7 +146578,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -145836,7 +146592,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -145855,7 +146611,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -145868,7 +146624,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -145912,7 +146668,7 @@
       ],
       "stageId": "act35side_ex03#f#",
       "levelId": "Activities/act35side/level_act35side_ex03",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-3",
       "name": "一捧宝石",
       "description": "<@lv.fs>附加条件：</>\\n“弹跳独轮车”的攻击速度大幅增加",
@@ -145924,7 +146680,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -145938,7 +146694,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -145999,7 +146755,7 @@
       ],
       "stageId": "act35side_ex04",
       "levelId": "Activities/act35side/level_act35side_ex04",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-4",
       "name": "被盗的钱包",
       "description": "问问你的钱包，你应该买什么。\\n<@lv.item><纯净结晶></>可连通周围的结晶区块",
@@ -146011,7 +146767,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -146025,7 +146781,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -146044,7 +146800,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -146057,7 +146813,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -146101,7 +146857,7 @@
       ],
       "stageId": "act35side_ex04#f#",
       "levelId": "Activities/act35side/level_act35side_ex04",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-4",
       "name": "被盗的钱包",
       "description": "<@lv.fs>附加条件：</>\\n初始出现额外的“弹跳独轮车”",
@@ -146113,7 +146869,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -146127,7 +146883,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -146188,7 +146944,7 @@
       ],
       "stageId": "act35side_ex05",
       "levelId": "Activities/act35side/level_act35side_ex05",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-5",
       "name": "不幸的士兵",
       "description": "独处总比和坏人在一起好。",
@@ -146200,7 +146956,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -146214,7 +146970,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -146233,7 +146989,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -146246,7 +147002,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -146290,7 +147046,7 @@
       ],
       "stageId": "act35side_ex05#f#",
       "levelId": "Activities/act35side/level_act35side_ex05",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-5",
       "name": "不幸的士兵",
       "description": "<@lv.fs>附加条件：</>\\n出现额外的工蚁组长",
@@ -146302,7 +147058,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -146316,7 +147072,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -146377,7 +147133,7 @@
       ],
       "stageId": "act35side_ex06",
       "levelId": "Activities/act35side/level_act35side_ex06",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-6",
       "name": "假帕夏",
       "description": "谎言是一种疾病，而揭示真相是一种治疗方式。",
@@ -146389,7 +147145,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -146403,7 +147159,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -146422,7 +147178,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -146435,7 +147191,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -146479,7 +147235,7 @@
       ],
       "stageId": "act35side_ex06#f#",
       "levelId": "Activities/act35side/level_act35side_ex06",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-6",
       "name": "假帕夏",
       "description": "<@lv.fs>附加条件：</>\\n风情区大型车辇获得<隐匿>",
@@ -146491,7 +147247,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -146505,7 +147261,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -146566,7 +147322,7 @@
       ],
       "stageId": "act35side_ex07",
       "levelId": "Activities/act35side/level_act35side_ex07",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-7",
       "name": "疯狂的宠物",
       "description": "愤怒的开始是疯狂，结束是后悔。",
@@ -146578,7 +147334,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -146592,7 +147348,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -146611,7 +147367,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -146624,7 +147380,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -146668,7 +147424,7 @@
       ],
       "stageId": "act35side_ex07#f#",
       "levelId": "Activities/act35side/level_act35side_ex07",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-7",
       "name": "疯狂的宠物",
       "description": "<@lv.fs>附加条件：</>\\n净化结晶的效率大幅降低",
@@ -146680,7 +147436,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -146694,7 +147450,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -146755,7 +147511,7 @@
       ],
       "stageId": "act35side_ex08",
       "levelId": "Activities/act35side/level_act35side_ex08",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-8",
       "name": "无冕之王与朝圣者",
       "description": "风与船的愿景背道而驰。\\n<@lv.item><纯净结晶></>可连通周围的结晶区块\\n<@lv.item><结晶消除桩></>可消除一条直线上的所有结晶",
@@ -146767,7 +147523,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -146781,7 +147537,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -146800,7 +147556,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -146813,7 +147569,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -146857,7 +147613,7 @@
       ],
       "stageId": "act35side_ex08#f#",
       "levelId": "Activities/act35side/level_act35side_ex08",
-      "zoneId": "act35side_zone2",
+      "zoneId": "act35sre_zone2",
       "code": "AS-EX-8",
       "name": "无冕之王与朝圣者",
       "description": "<@lv.fs>附加条件：</>\\n禁止部署特种干员",
@@ -146869,7 +147625,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -146883,7 +147639,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -146944,7 +147700,7 @@
       ],
       "stageId": "act35side_s01",
       "levelId": "Activities/act35side/level_act35side_sub-1-1",
-      "zoneId": "act35side_zone3",
+      "zoneId": "act35sre_zone3",
       "code": "AS-S-1",
       "name": "哲理在新生中传唱",
       "description": "在萨尔贡诗人的传唱中，每一次故事的迭代都让哲理又新了一些。\\n<@lv.item><纯净结晶></>可连通周围的结晶区块\\n<@lv.rem>额外条件：</>无法自然回复部署费用，每消除一颗结晶获得3点费用",
@@ -146956,7 +147712,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -146970,7 +147726,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -146989,7 +147745,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -147002,7 +147758,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -147046,7 +147802,7 @@
       ],
       "stageId": "act35side_s01#f#",
       "levelId": "Activities/act35side/level_act35side_sub-1-1",
-      "zoneId": "act35side_zone3",
+      "zoneId": "act35sre_zone3",
       "code": "AS-S-1",
       "name": "哲理在新生中传唱",
       "description": "<@lv.fs>附加条件：</>\\n结晶为米奥，热烈的考验者提供的增益效果大幅增强，大型破碎器皿损失的生命值减少",
@@ -147058,7 +147814,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -147072,7 +147828,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -147133,7 +147889,7 @@
       ],
       "stageId": "act35side_s02",
       "levelId": "Activities/act35side/level_act35side_sub-1-2",
-      "zoneId": "act35side_zone3",
+      "zoneId": "act35sre_zone3",
       "code": "AS-S-2",
       "name": "精神在富饶中绽放",
       "description": "越是靠近辉煌之城的老城区，故事的版本就越是朴素。\\n<@lv.item><纯净结晶></>可连通周围的结晶区块\\n<@lv.rem>额外条件：</>无法自然回复部署费用，每消除一颗结晶获得3点费用",
@@ -147145,7 +147901,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -147159,7 +147915,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -147178,7 +147934,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -147191,7 +147947,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -147235,7 +147991,7 @@
       ],
       "stageId": "act35side_s02#f#",
       "levelId": "Activities/act35side/level_act35side_sub-1-2",
-      "zoneId": "act35side_zone3",
+      "zoneId": "act35sre_zone3",
       "code": "AS-S-2",
       "name": "精神在富饶中绽放",
       "description": "<@lv.fs>附加条件：</>\\n初始大型破碎器皿的行动路线有所不同，场上有2个位置无法部署",
@@ -147247,7 +148003,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -147261,7 +148017,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -147322,7 +148078,7 @@
       ],
       "stageId": "act35side_s03",
       "levelId": "Activities/act35side/level_act35side_sub-1-3",
-      "zoneId": "act35side_zone3",
+      "zoneId": "act35sre_zone3",
       "code": "AS-S-3",
       "name": "笔尖凝聚着愿景",
       "description": "萨尔贡人对未来充满期待，和那些忧心忡忡的核心圈国家的市民相比，完全是两种面貌。\\n<@lv.item><结晶消除桩></>可消除一条直线上的所有结晶\\n<@lv.rem>额外条件：</>无法自然回复部署费用，每消除一颗结晶获得3点费用\\n<@lv.rem>本次行动中远程干员可部署于近战位</>",
@@ -147334,7 +148090,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -147348,7 +148104,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -147367,7 +148123,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -147380,7 +148136,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -147424,7 +148180,7 @@
       ],
       "stageId": "act35side_s03#f#",
       "levelId": "Activities/act35side/level_act35side_sub-1-3",
-      "zoneId": "act35side_zone3",
+      "zoneId": "act35sre_zone3",
       "code": "AS-S-3",
       "name": "笔尖凝聚着愿景",
       "description": "<@lv.fs>附加条件：</>\\n“弹跳独轮车”获得<隐匿>，场上有1个位置无法部署",
@@ -147436,7 +148192,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -147450,7 +148206,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -147511,7 +148267,7 @@
       ],
       "stageId": "act35side_s04",
       "levelId": "Activities/act35side/level_act35side_sub-1-4",
-      "zoneId": "act35side_zone3",
+      "zoneId": "act35sre_zone3",
       "code": "AS-S-4",
       "name": "修辞流淌着期望",
       "description": "在许多关于萨尔贡历史的书籍中，即便是讲述战争的章节，作者也总会迫不及待地讲述战后恢复和发展的境况。\\n<@lv.item><纯净结晶></>可连通周围的结晶区块\\n<@lv.item><结晶消除桩></>可消除一条直线上的所有结晶\\n<@lv.rem>额外条件：</>无法自然回复部署费用，每消除一颗结晶获得3点费用",
@@ -147523,7 +148279,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -147537,7 +148293,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -147556,7 +148312,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -147569,7 +148325,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -147613,7 +148369,7 @@
       ],
       "stageId": "act35side_s04#f#",
       "levelId": "Activities/act35side/level_act35side_sub-1-4",
-      "zoneId": "act35side_zone3",
+      "zoneId": "act35sre_zone3",
       "code": "AS-S-4",
       "name": "修辞流淌着期望",
       "description": "<@lv.fs>附加条件：</>\\n部署在结晶上的单位攻击速度进一步降低",
@@ -147625,7 +148381,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -147639,7 +148395,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -147700,7 +148456,7 @@
       ],
       "stageId": "act35side_mo01",
       "levelId": "Activities/act35side/level_act35side_mo01",
-      "zoneId": "act35side_zone3",
+      "zoneId": "act35sre_zone3",
       "code": "AS-MO-1",
       "name": "愿我们寻得安详",
       "description": "历史终归是当下对过去的印象的集合体，而活在当下需要更具体的规划。\\n<@lv.item><结晶消除桩></>可消除一条直线上的所有结晶\\n<@lv.rem>额外条件：</>无法自然回复部署费用，每消除一颗结晶获得3点费用",
@@ -147745,7 +148501,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -147758,7 +148514,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act35side_token_dust",
+            "id": "act35side_token_dust_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -319619,6 +320375,834 @@
       "dangerLevel": "",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_TW_FT",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_01": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_01",
+      "levelId": "Obt/Legion/LT19/level_lt19_01",
+      "zoneId": "tower_n_19",
+      "code": "LT-1",
+      "name": "子弹烈酒",
+      "description": "<color=#FF4200>初始危险等级：0\\n</color>艺术馆的围墙被推倒，变成了烧烤店的吧台。想喝什么随便点，但如果有醉汉想翻过吧台闹事，别怪老板不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_02": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_02",
+      "levelId": "Obt/Legion/LT19/level_lt19_02",
+      "zoneId": "tower_n_19",
+      "code": "LT-2",
+      "name": "加工后厨",
+      "description": "<color=#FF4200>初始危险等级：1\\n</color>后厨的大门被喷漆涂得五颜六色，老板在里面切配好的食材也五花八门。想吃什么随便说，但如果有谁擦掉了门上的涂鸦，别怪老板不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_03": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_03",
+      "levelId": "Obt/Legion/LT19/level_lt19_03",
+      "zoneId": "tower_n_19",
+      "code": "LT-3",
+      "name": "控温锅炉",
+      "description": "<color=#FF4200>初始危险等级：2\\n</color>用军工钢材拼凑成的锅炉是街头艺术家们的得意之作。想要打卡留念的请自便，但如果有冷场者想调低空调温度，别怪食客们不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_04": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_04",
+      "levelId": "Obt/Legion/LT19/level_lt19_04",
+      "zoneId": "tower_n_19",
+      "code": "LT-4",
+      "name": "冷鲜货柜",
+      "description": "<color=#FF4200>初始危险等级：3\\n</color>生活于炎热之地的街头艺术家们用乌萨斯风格的造型诠释着自己对于“寒冷”的理解，老板也并不介意给自己的货柜换上一副花哨的外壳。如果有多嘴之人想挑起矛盾，别怪街头艺术家们不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_05": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_05",
+      "levelId": "Obt/Legion/LT19/level_lt19_05",
+      "zoneId": "tower_n_19",
+      "code": "LT-5",
+      "name": "滋滋烤架",
+      "description": "<color=#FF4200>初始危险等级：4\\n</color>大铁板能同时煎烤十几份肉排，老板在有烤肉派对时才会把它拿出来。如果有贪嘴之人想偷拿上面的烤肉，别怪四处飞溅的热油不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_06": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_06",
+      "levelId": "Obt/Legion/LT19/level_lt19_06",
+      "zoneId": "tower_n_19",
+      "code": "LT-6",
+      "name": "特别顾客",
+      "description": "<color=#FF4200>初始危险等级：5\\n</color>尽管用于传输指令的城际网络服务器早已毁坏，安保机器人依然能按照本地逻辑自主行动。如果有人敢在“绝对安保”试做型面前往艺术馆墙壁上涂鸦绘画，别怪它不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_01_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_01_ex",
+      "levelId": "Obt/Legion/LT19/level_lt19_01_ex",
+      "zoneId": "tower_n_19",
+      "code": "LT-1",
+      "name": "子弹烈酒",
+      "description": "<color=#FF4200>初始危险等级：2\\n</color>艺术馆的围墙被推倒，变成了烧烤店的吧台。想喝什么随便点，但如果有醉汉想翻过吧台闹事，别怪老板不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_02_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_02_ex",
+      "levelId": "Obt/Legion/LT19/level_lt19_02_ex",
+      "zoneId": "tower_n_19",
+      "code": "LT-2",
+      "name": "加工后厨",
+      "description": "<color=#FF4200>初始危险等级：3\\n</color>后厨的大门被喷漆涂得五颜六色，老板在里面切配好的食材也五花八门。想吃什么随便说，但如果有谁擦掉了门上的涂鸦，别怪老板不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_03_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_03_ex",
+      "levelId": "Obt/Legion/LT19/level_lt19_03_ex",
+      "zoneId": "tower_n_19",
+      "code": "LT-3",
+      "name": "控温锅炉",
+      "description": "<color=#FF4200>初始危险等级：4\\n</color>用军工钢材拼凑成的锅炉是街头艺术家们的得意之作。想要打卡留念的请自便，但如果有冷场者想调低空调温度，别怪食客们不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_04_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_04_ex",
+      "levelId": "Obt/Legion/LT19/level_lt19_04_ex",
+      "zoneId": "tower_n_19",
+      "code": "LT-4",
+      "name": "冷鲜货柜",
+      "description": "<color=#FF4200>初始危险等级：5\\n</color>生活于炎热之地的街头艺术家们用乌萨斯风格的造型诠释着自己对于“寒冷”的理解，老板也并不介意给自己的货柜换上一副花哨的外壳。如果有多嘴之人想挑起矛盾，别怪街头艺术家们不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_05_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_05_ex",
+      "levelId": "Obt/Legion/LT19/level_lt19_05_ex",
+      "zoneId": "tower_n_19",
+      "code": "LT-5",
+      "name": "滋滋烤架",
+      "description": "<color=#FF4200>初始危险等级：6\\n</color>大铁板能同时煎烤十几份肉排，老板在有烤肉派对时才会把它拿出来。如果有贪嘴之人想偷拿上面的烤肉，别怪四处飞溅的热油不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null,
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
+    "lt_19_06_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_19_06_ex",
+      "levelId": "Obt/Legion/LT19/level_lt19_06_ex",
+      "zoneId": "tower_n_19",
+      "code": "LT-6",
+      "name": "特别顾客",
+      "description": "<color=#FF4200>初始危险等级：7\\n</color>尽管用于传输指令的城际网络服务器早已毁坏，安保机器人依然能按照本地逻辑自主行动。如果有人敢在“绝对安保”试做型面前往艺术馆墙壁上涂鸦绘画，别怪它不客气。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SK",
       "canPractice": false,
       "canBattleReplay": false,
       "apCost": 0,
@@ -521616,6 +523200,38 @@
       "startTs": 1754726400,
       "endTs": 1755892799
     },
+    "act44side_s01": {
+      "startTs": 1755331200,
+      "endTs": 1755892799
+    },
+    "act44side_s01#f#": {
+      "startTs": 1755331200,
+      "endTs": 1755892799
+    },
+    "act44side_s02": {
+      "startTs": 1755331200,
+      "endTs": 1755892799
+    },
+    "act44side_s02#f#": {
+      "startTs": 1755331200,
+      "endTs": 1755892799
+    },
+    "act44side_s03": {
+      "startTs": 1755331200,
+      "endTs": 1755892799
+    },
+    "act44side_s03#f#": {
+      "startTs": 1755331200,
+      "endTs": 1755892799
+    },
+    "act44side_s04": {
+      "startTs": 1755331200,
+      "endTs": 1755892799
+    },
+    "act44side_s04#f#": {
+      "startTs": 1755331200,
+      "endTs": 1755892799
+    },
     "act44side_sp01": {
       "startTs": 1754107200,
       "endTs": 1755892799
@@ -523485,156 +525101,156 @@
       "endTs": 1726430399
     },
     "act35side_st01": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_01": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_tr01": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_02": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_03": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_04": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_05": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_st02": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_06": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_07": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_08": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_09": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_st03": {
-      "startTs": 1722484800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex01": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex01#f#": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex02": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex02#f#": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex03": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex03#f#": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex04": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex04#f#": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex05": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex05#f#": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex06": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex06#f#": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex07": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex07#f#": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex08": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_ex08#f#": {
-      "startTs": 1723104000,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_s01": {
-      "startTs": 1723708800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_s01#f#": {
-      "startTs": 1723708800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_s02": {
-      "startTs": 1723708800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_s02#f#": {
-      "startTs": 1723708800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_s03": {
-      "startTs": 1723708800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_s03#f#": {
-      "startTs": 1723708800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_s04": {
-      "startTs": 1723708800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_s04#f#": {
-      "startTs": 1723708800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act35side_mo01": {
-      "startTs": 1723708800,
-      "endTs": 1724270399
+      "startTs": 1756065600,
+      "endTs": 1756929599
     },
     "act17mini_01": {
       "startTs": 1720497600,
@@ -533823,8 +535439,8 @@
           "tag_14",
           "tag_12"
         ],
-        "reopenActivityId": null,
-        "retroActivityId": null,
+        "reopenActivityId": "act35sre",
+        "retroActivityId": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun",
         "isRecommended": false,
         "recommendHideStageId": null,
         "overrideStageList": null

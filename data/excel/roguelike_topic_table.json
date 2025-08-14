@@ -204501,17 +204501,17 @@
             "rogue_5_gild_1": {
               "gildTypeId": "rogue_5_gild_1",
               "gildName": "锈色",
-              "gildDesc": "投出后，每经过一个节点，获得2点源石锭"
+              "gildDesc": "投出时，每经过一个节点，获得源石锭+1"
             },
             "rogue_5_gild_2": {
               "gildTypeId": "rogue_5_gild_2",
               "gildName": "存护",
-              "gildDesc": "加入钱盒时，获得1点护盾"
+              "gildDesc": "加入钱盒时，获得护盾值+2"
             },
             "rogue_5_gild_3": {
               "gildTypeId": "rogue_5_gild_3",
               "gildName": "入幻",
-              "gildDesc": "投出后，每完成一场战斗，获得1点希望"
+              "gildDesc": "加入钱盒时，获得希望+1"
             }
           },
           "luckyLevels": {
@@ -218925,6 +218925,11 @@
                   "key": "max_stack_cnt",
                   "value": 5.0,
                   "valueStr": null
+                },
+                {
+                  "key": "selector.profession",
+                  "value": 0.0,
+                  "valueStr": "warrior|sniper|tank|medic|support|caster|special|pioneer"
                 }
               ]
             }
@@ -302797,7 +302802,7 @@
           },
           "rogue_5_outbuff_5": {
             "buffId": "rogue_5_outbuff_5",
-            "nodeType": "KEY",
+            "nodeType": "NORMAL",
             "frontNodeId": [
               "rogue_5_outbuff_2",
               "rogue_5_outbuff_3"

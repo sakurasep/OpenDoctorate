@@ -4132,6 +4132,24 @@
       "name": "sys.ON_ACTIVITY_LOADED.act44side.theme2"
     },
     {
+      "intro": null,
+      "loop": "Audio/Sound_Beta_2/Music/recalrune/m_sys_recalrune_reward1_loop",
+      "volume": 1.0,
+      "crossfade": 1.0,
+      "delay": 0.0,
+      "fadeStyleId": null,
+      "name": "sys.ON_MUSIC.bg_recalrune_1"
+    },
+    {
+      "intro": null,
+      "loop": "Audio/Sound_Beta_2/Music/recalrune/m_sys_recalrune_loop",
+      "volume": 1.0,
+      "crossfade": 1.0,
+      "delay": 0.0,
+      "fadeStyleId": null,
+      "name": "sys.ON_PAGE_EXISTED.recal_rune_page"
+    },
+    {
       "intro": "Audio/Sound_Beta_2/Music/act35side/m_sys_act35side_intro",
       "loop": "Audio/Sound_Beta_2/Music/act35side/m_sys_act35side_loop",
       "volume": 1.0,
@@ -222777,6 +222795,11 @@
       "bank": "sys.ON_ACTIVITY_LOADED.act31side"
     },
     {
+      "id": "music_bg_recalrune",
+      "name": "Operation Blade",
+      "bank": "sys.ON_MUSIC.bg_recalrune_1"
+    },
+    {
       "id": "music_bg_volcano_day",
       "name": "Misty Memory (Day Version)",
       "bank": "sys.ON_ACTIVITY_LOADED.act27side.day"
@@ -223985,6 +224008,7 @@
     "sys.ON_ROGUELIKE_SHOP.rogue_5": "sys.ON_ROGUELIKE_SHOP.rogue_1",
     "sys.ON_ROGUELIKE_LOADED.rogue_5": "sys.ON_ROGUELIKE_MAPLOW.rogue_5",
     "battle.ON_GAME_READY.crisis_v2_season_4_1_main_challenge": "battle.ON_GAME_READY.crisis_v2_season_4_1_main",
-    "battle.ON_GAME_READY.enemydue2": "battle.ON_GAME_READY.enemyduel"
+    "battle.ON_GAME_READY.enemydue2": "battle.ON_GAME_READY.enemyduel",
+    "sys.ON_ACTIVITY_LOADED.act2enemyduel": "sys.ON_ACTIVITY_LOADED.act1enemyduel"
   }
 }

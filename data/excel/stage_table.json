@@ -90918,6 +90918,88 @@
       "advancedRuneIdList1": [],
       "advancedRuneIdList2": []
     },
+    "act2enemyduel_01a": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act2enemyduel_01a",
+      "levelId": "Activities/act2enemyduel/level_act2enemyduel_01a",
+      "zoneId": "act2enemyduel_zone1",
+      "code": "VS-1",
+      "name": "争锋对决！",
+      "description": null,
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_enemyduel",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": true,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act2enemyduel_01a",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": []
+    },
     "act44side_st01": {
       "stageType": "ACTIVITY",
       "difficulty": "NORMAL",
@@ -523084,6 +523166,10 @@
       "startTs": 1715155200,
       "endTs": -1
     },
+    "act2enemyduel_01a": {
+      "startTs": 1756368000,
+      "endTs": 1756958399
+    },
     "act44side_st01": {
       "startTs": 1754107200,
       "endTs": 1755892799
@@ -532539,6 +532625,14 @@
   "specialBattleFinishStageData": {
     "main_08-15": {
       "stageId": "main_08-15",
+      "skipAccomplishPerform": true
+    },
+    "act2enemyduel_01a": {
+      "stageId": "act2enemyduel_01a",
+      "skipAccomplishPerform": true
+    },
+    "act2enemyduel_01b": {
+      "stageId": "act2enemyduel_01b",
       "skipAccomplishPerform": true
     },
     "act1enemyduel_01a": {

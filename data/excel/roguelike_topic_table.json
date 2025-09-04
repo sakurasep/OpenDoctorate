@@ -1271,13 +1271,13 @@
       "char_499_kaitou": {
         "charId": "char_499_kaitou",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_kaitou",
         "recruitType": "FREE"
       },
       "char_4081_warmy": {
         "charId": "char_4081_warmy",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_warmy",
         "recruitType": "FREE"
       },
       "char_242_otter": {
@@ -2303,7 +2303,7 @@
       "char_4146_nymph": {
         "charId": "char_4146_nymph",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_nymph",
         "recruitType": "FREE"
       },
       "char_4145_ulpia": {
@@ -2453,7 +2453,7 @@
       "char_1040_blaze2": {
         "charId": "char_1040_blaze2",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_blaze2",
         "recruitType": "FREE"
       },
       "char_2026_yu": {
@@ -2537,7 +2537,7 @@
       "char_4198_christ": {
         "charId": "char_4198_christ",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_christ",
         "recruitType": "FREE"
       },
       "char_4191_tippi": {
@@ -2592,6 +2592,36 @@
         "charId": "char_4202_haruka",
         "canBeFree": true,
         "uniEquipId": "uniequip_002_haruka",
+        "recruitType": "FREE"
+      },
+      "char_4185_amoris": {
+        "charId": "char_4185_amoris",
+        "canBeFree": false,
+        "uniEquipId": "uniequip_002_amoris",
+        "recruitType": "FREE"
+      },
+      "char_4184_dolris": {
+        "charId": "char_4184_dolris",
+        "canBeFree": false,
+        "uniEquipId": "uniequip_002_dolris",
+        "recruitType": "FREE"
+      },
+      "char_4186_tmoris": {
+        "charId": "char_4186_tmoris",
+        "canBeFree": false,
+        "uniEquipId": "uniequip_002_tmoris",
+        "recruitType": "FREE"
+      },
+      "char_4183_mortis": {
+        "charId": "char_4183_mortis",
+        "canBeFree": false,
+        "uniEquipId": "uniequip_002_mortis",
+        "recruitType": "FREE"
+      },
+      "char_4182_oblvns": {
+        "charId": "char_4182_oblvns",
+        "canBeFree": false,
+        "uniEquipId": "uniequip_002_oblvns",
         "recruitType": "FREE"
       }
     }
@@ -200180,14 +200210,10 @@
           "displayUnlockMonth": 10,
           "acquireTitle": "可获取炎狱炎熔形象时装",
           "purchaseTitle": "炎狱炎熔形象时装",
-          "displayName": "神秘时装",
+          "displayName": "镇邪焱",
           "displayDiscription": "仿佛只为表明自己的态度，炎熔向裁缝递上一张炎国侠士的参考图后，便不再过问作战服的设计细节。\n侠是一种风貌，一种境界——也是她的自我要求。",
           "bpLevelId": "bp_level_95",
-          "itemBundle": {
-            "id": "char_4151_tinman@sale#11",
-            "count": 1,
-            "type": "CHAR_SKIN"
-          },
+          "itemBundle": null,
           "detailAnnounceTime": "2025/10/1 4:00:00",
           "picIdAftrerUnlock": null
         },

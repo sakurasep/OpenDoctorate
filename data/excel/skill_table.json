@@ -330006,5 +330006,1226 @@
         ]
       }
     ]
+  },
+  "sktok_lharen": {
+    "skillId": "sktok_lharen",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "开打！",
+        "rangeId": "0-1",
+        "description": "开启技能后，随机生成<@ba.enemy>呼啸骑士团学徒</>，<@ba.enemy>无名独立骑士</>，<@ba.enemy>持盾独立骑士</>，<@ba.enemy>沸血骑士团学徒</>中的一位（根据击败的敌人获得<@ba.drop>精英进阶信物</>）。此敌人被击倒后使本【冲突围栏】上的干员攻击力提高3%",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lharen",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1099_nbkght|enemy_1101_plkght|enemy_1102_sdkght|enemy_1103_wdkght"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.25|0.25|0.25|0.25"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "atk",
+            "value": 0.03,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhbat": {
+    "skillId": "sktok_lhbat",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "血之遗赠",
+        "rangeId": "x-4",
+        "description": "技力不自然回复，攻击范围内有敌人倒下时获得1点技力；开启技能后，生成一只<@ba.enemy>大君之赐</>（击败后获得少量<@ba.drop>培训手册</>）或者获得一件<@ba.drop>低级战术插件</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhbat",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1220_dzoms"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "prob",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhblod": {
+    "skillId": "sktok_lhblod",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "血溃",
+        "rangeId": "x-4",
+        "description": "技力不自然回复，周期性对我方单位造成伤害，累计造成一定伤害后回复技力；开启技能时，在周围地面生成<@ba.enemy>血珀</>，掉落少量<@ba.drop>技巧手册</>，并销毁自身",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhblod",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1367_dseed"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-4"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_blod"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcamp": {
+    "skillId": "sktok_lhcamp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "技力不自然回复，敌人经过时回复技力；开启技能时，生成一个<@ba.enemy>拾荒者</>（击败后获得<@ba.drop>培训手册</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcamp",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1030_wteeth"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampa": {
+    "skillId": "sktok_lhcampa",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "技力不自然回复，敌人经过时回复技力；开启技能时，生成一个<@ba.enemy>狙击步兵</>（击败获得<@ba.drop>狙击进阶信物</>和<@ba.drop>特种进阶信物</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampa",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1047_sagent"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampb": {
+    "skillId": "sktok_lhcampb",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "技力不自然回复，敌人经过时回复技力；开启技能时，生成一个<@ba.enemy>重装防御者</>（击败获得<@ba.drop>重装进阶信物</>和<@ba.drop>医疗进阶信物</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampb",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1006_shield"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampc": {
+    "skillId": "sktok_lhcampc",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "技力不自然回复，敌人经过时回复技力；开启技能时，生成一只<@ba.enemy>苔生兽</>（击败获得<@ba.drop>近卫进阶信物</>和<@ba.drop>先锋进阶信物</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampc",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_7005_xbbull"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcol": {
+    "skillId": "sktok_lhcol",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "借阅登记",
+        "rangeId": "x-5",
+        "description": "技力不自然回复，获得生产模块时回复技力；开启技能时，在周围地面生成<@ba.enemy>高阶术师</>（击败获得<@ba.drop>术师进阶信物</>和<@ba.drop>辅助进阶信物</>），并掉落少量<@ba.drop>技巧手册</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcol",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1018_aoemag"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_col"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcolb": {
+    "skillId": "sktok_lhcolb",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "读书会",
+        "rangeId": "x-5",
+        "description": "技力不自然回复，获得生产模块时回复技力；开启技能时，在周围地面生成<@ba.enemy>护盾高阶术师</>（击败获得<@ba.drop>术师进阶信物</>和<@ba.drop>辅助进阶信物</>），掉落<@ba.drop>技巧手册</>并有概率掉落<@ba.drop>生产模块</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcolb",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1036_amraoe"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_col2"
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "lv_1"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhdoor": {
+    "skillId": "sktok_lhdoor",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "空间跳跃",
+        "rangeId": "0-1",
+        "description": "将自身所在格的一个敌人传送至最近的可达我方干员位置",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhdoor",
+        "duration": 2.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_lheqp": {
+    "skillId": "sktok_lheqp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "补给签收",
+        "rangeId": "0-1",
+        "description": "开启技能后，生成一个<@ba.enemy>不可阻挡也不会攻击的敌人</>，击败此敌人会掉落一件<@ba.drop>高级战术插件</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lheqp",
+        "duration": 1.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1285_sgwlf|enemy_7019_thief"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_3"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfac": {
+    "skillId": "sktok_lhfac",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "污染处理",
+        "rangeId": "x-1",
+        "description": "开启技能摧毁自身以及范围内的所有【源石晶簇】，使所在格变为【源石矿场】，并在周围四格生成数个<@ba.enemy>矿脉守卫</>（击败获得<@ba.drop>近卫进阶信物</>和<@ba.drop>先锋进阶信物</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfac",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_7002_veingd"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_fac"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfacp": {
+    "skillId": "sktok_lhfacp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "超负荷运转",
+        "rangeId": "x-5",
+        "description": "场上有感染生物倒下时回复技力。若感染生物倒下时位于自身攻击范围内，技力回复加倍。开启技能时，获得中量<@ba.drop>培训手册</>和少量<@ba.drop>封装矿核</>，且在周围生成数个<@ba.enemy>高能源石虫</>（击败后获得少量<@ba.drop>培训手册</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfacp",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1021_bslime"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "prob",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_facp"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfarm": {
+    "skillId": "sktok_lhfarm",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "回收利用",
+        "rangeId": "x-5",
+        "description": "场上有感染生物倒下时回复技力。若感染生物倒下时位于自身攻击范围内，技力回复加倍。开启技能时，获得少量<@ba.drop>培训手册</>和<@ba.drop>策略信标</>，且在周围生成数个<@ba.enemy>源石虫·β</>（击败后获得微量<@ba.drop>培训手册</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfarm",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1007_slime_3"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_farm"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhflwr": {
+    "skillId": "sktok_lhflwr",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "打人树",
+        "rangeId": null,
+        "description": "技力不自然回复，仅攻击生命值小于自身攻击力的非领袖敌人，击倒敌人时获得技力；开启技能销毁自身，并生成<@ba.enemy>树盾</>（击败获得<@ba.drop>重装进阶信物</>和<@ba.drop>医疗进阶信物</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhflwr",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_10069_ftlsj"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhhe": {
+    "skillId": "sktok_lhhe",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "灌溉",
+        "rangeId": "x-5",
+        "description": "仅可部署在地图边缘格或其他【河流】周围四格。周围其他【地形】的效果提高。周围四格有地面时，会灌溉土壤，形成【沃土】并在技能开启时生成<@ba.enemy>潜水员</>（击败获得<@ba.drop>狙击进阶信物</>和<@ba.drop>特种进阶信物</>）或<@ba.enemy>码头水手</>（击败获得<@ba.drop>近卫进阶信物</>和<@ba.drop>先锋进阶信物</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhhe",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1160_hvyslr|enemy_1158_divman"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhpad": {
+    "skillId": "sktok_lhpad",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "采摘",
+        "rangeId": null,
+        "description": "自然回复技力，敌人经过时扣除技力；开启技能时，获得少量<@ba.drop>培训手册</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhpad",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad"
+          },
+          {
+            "key": "extra_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhpad2": {
+    "skillId": "sktok_lhpad2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "丰收",
+        "rangeId": null,
+        "description": "自然回复技力，敌人经过时扣除技力；开启技能时，获得大量<@ba.drop>培训手册</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhpad2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad2"
+          },
+          {
+            "key": "extra_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhplt": {
+    "skillId": "sktok_lhplt",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "污染传播",
+        "rangeId": "x-5",
+        "description": "生成时，在周围生成<@ba.enemy>辐能源石虫</>；开启技能时，在周围的空闲地块生成<@ba.enemy>源石晶簇</>；生成的第二代<@ba.enemy>源石晶簇</>将不再生成新的<@ba.enemy>源石晶簇</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhplt",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "max_generation",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhport": {
+    "skillId": "sktok_lhport",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "长途运输",
+        "rangeId": "0-1",
+        "description": "场上有其他通过【河流】联通的【装卸机】时，生成运输汽艇，前往其他可以抵达的【装卸机】；运输汽艇抵达目的地时，根据距离获得所有类型的<@ba.drop>精英进阶信物</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhport",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_18001_lhship"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhrift": {
+    "skillId": "sktok_lhrift",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "技力不自然回复，敌人经过时回复技力；开启技能时，生成一个<@ba.enemy>吸气乱动机</>（击败获得随机类型的两种<@ba.drop>精英进阶信物</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhrift",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_18003_lhkarb"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhshop": {
+    "skillId": "sktok_lhshop",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "铸造",
+        "rangeId": null,
+        "description": "技力不自然回复，每当获得新战术插件时，获得技力；开启技能后，获得一件<@ba.drop>中级战术插件</>或<@ba.drop>高级战术插件</>，每开启技能两次后获得一个<@ba.drop>插件强化点</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhshop",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "count_gain_equip",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "count_trigger_gain_trap",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "count_gain_trap",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_2"
+          },
+          {
+            "key": "drop_trap_pool",
+            "value": 0.0,
+            "valueStr": "trap_lhshop"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhswer": {
+    "skillId": "sktok_lhswer",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "技力不自然回复，敌人经过时回复技力；开启技能时，生成一只<@ba.enemy>磐蟹</>（击败获得<@ba.drop>特种进阶信物</>和<@ba.drop>重装进阶信物</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhswer",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1016_diaman"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhtown": {
+    "skillId": "sktok_lhtown",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "安防巡逻",
+        "rangeId": null,
+        "description": "场上每个【先遣侦测器】或其他【侦测中心】使自身每5秒获得1点技力；开启技能后，生成一个<@ba.enemy>护障</>（击败获得<@ba.drop>狙击进阶信物</>和<@ba.drop>特种进阶信物</>）或者<@ba.enemy>赞助无人机</>（击败获得<@ba.drop>狙击进阶信物</>，<@ba.drop>特种进阶信物</>和一个<@ba.drop>插件补给点</>）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhtown",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "summon1.enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1355_mrfly"
+          },
+          {
+            "key": "summon2.enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1105_tyokai"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhupgd": {
+    "skillId": "sktok_lhupgd",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "强化验收",
+        "rangeId": "0-1",
+        "description": "开启技能后，生成<@ba.enemy>强力的敌人</>，击败此敌人会升级一件已穿戴的战术插件",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhupgd",
+        "duration": 1.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_6002_trswlf|enemy_1045_hammer"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhvlg": {
+    "skillId": "sktok_lhvlg",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "作战规划",
+        "rangeId": "x-4",
+        "description": "开启技能会使技能范围内一个随机敌人攻击力与最大生命值+50%，并在周围四格生成一个新的【先遣侦测器】；被标记的敌人被击倒后，掉落一件<@ba.drop>低级战术插件</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhvlg",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "key",
+            "value": 0.0,
+            "valueStr": "equip_1"
+          },
+          {
+            "key": "max_generation",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhbot": {
+    "skillId": "sktok_lhbot",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "探矿",
+        "rangeId": "1-1",
+        "description": "部署后可以攻击，造成法术伤害；部署在【富集矿区】上时，会在【富集矿区】进行钻探，技能结束后使其变为【源石矿场】",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 8,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhbot",
+        "duration": 10.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_lhside": {
+    "skillId": "sktok_lhside",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "信号增幅",
+        "rangeId": "x-1",
+        "description": "开启技能时，范围内除自身外每有一个生产模块，使范围内所有友方干员攻击力+2%，生命值+2%，持续30秒（不可叠加）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhside",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.02,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.02,
+            "valueStr": null
+          },
+          {
+            "key": "buff_duration",
+            "value": 30.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
   }
 }

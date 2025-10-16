@@ -334057,5 +334057,61 @@
         ]
       }
     ]
+  },
+  "sktok_rgcssm": {
+    "skillId": "sktok_rgcssm",
+    "iconId": "sktok_rgcssm",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "古雕伥",
+        "rangeId": null,
+        "description": "消耗20点部署费用，使古雕伥把嘴闭上一段时间，并停止吐出敌人",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 1,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_rgcssm",
+        "duration": 150.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "stun",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "talent@interval",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1303_mhshep_2"
+          },
+          {
+            "key": "attack@enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1303_mhshep_2"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -334113,5 +334113,152 @@
         ]
       }
     ]
+  },
+  "sktok_muulct": {
+    "skillId": "sktok_muulct",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "全都是虚像！",
+        "rangeId": null,
+        "description": "部署后<@ba.vup>40秒</>内，全场处于异常状态下的敌人受到的物理和法术伤害提升<@ba.vup>40%</>，且每隔10秒使攻击范围内的所有敌人<$ba.stun>晕眩</><@ba.vup>5</>秒",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_muulct",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "damage_scale",
+            "value": 1.4,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_murjet": {
+    "skillId": "sktok_murjet",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加力推进",
+        "rangeId": null,
+        "description": "根据受到的伤害<@ba.vup>推动</>漂流艇",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_murjet",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "fx_1",
+            "value": 200.0,
+            "valueStr": null
+          },
+          {
+            "key": "fx_2",
+            "value": 600.0,
+            "valueStr": null
+          },
+          {
+            "key": "fx_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_murbas": {
+    "skillId": "sktok_murbas",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "多向拼接",
+        "rangeId": null,
+        "description": "可以部署干员至上方",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_murmag": {
+    "skillId": "sktok_murmag",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "磁吸信标",
+        "rangeId": null,
+        "description": "可以部署干员至上方，会把<红宝石飞翼>、<蓝宝石飞翼>、<钻石飞翼>和<沉水物资箱><@ba.vup>较大力地</>拖拽至自身所在位置",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_murtre": {
+    "skillId": "sktok_murtre",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "浮动搭载",
+        "rangeId": null,
+        "description": "未被摧毁时，提供<@ba.vup>200</>点分数",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
   }
 }

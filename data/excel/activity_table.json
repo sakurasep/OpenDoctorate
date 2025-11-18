@@ -277779,6 +277779,7 @@
             "inactiveEnemyKey": [
               "enemy_1112_emppnt",
               "enemy_1321_wdarft",
+              "enemy_1207_sfji",
               "enemy_1275_dwlock",
               "enemy_1275_dwlock_2",
               "enemy_1234_dsubrl_2",
@@ -277839,6 +277840,15 @@
             ],
             "inactiveBondIdList": [],
             "inactiveEnemyKey": [
+              "enemy_1112_emppnt",
+              "enemy_1321_wdarft",
+              "enemy_1207_sfji",
+              "enemy_1275_dwlock",
+              "enemy_1275_dwlock_2",
+              "enemy_1234_dsubrl_2",
+              "enemy_1272_nhtank_2",
+              "enemy_9008_acbunn",
+              "enemy_1174_duholy_2",
               "enemy_1355_mrfly_2",
               "enemy_1197_sfshu_2",
               "enemy_10067_ftsjc",
@@ -277936,6 +277946,7 @@
             "inactiveEnemyKey": [
               "enemy_1112_emppnt",
               "enemy_1321_wdarft",
+              "enemy_1207_sfji",
               "enemy_1275_dwlock",
               "enemy_1275_dwlock_2",
               "enemy_1234_dsubrl_2",
@@ -277996,6 +278007,15 @@
             ],
             "inactiveBondIdList": [],
             "inactiveEnemyKey": [
+              "enemy_1112_emppnt",
+              "enemy_1321_wdarft",
+              "enemy_1207_sfji",
+              "enemy_1275_dwlock",
+              "enemy_1275_dwlock_2",
+              "enemy_1234_dsubrl_2",
+              "enemy_1272_nhtank_2",
+              "enemy_9008_acbunn",
+              "enemy_1174_duholy_2",
               "enemy_1355_mrfly_2",
               "enemy_1197_sfshu_2",
               "enemy_10067_ftsjc",
@@ -287291,17 +287311,15 @@
               "mode_single_hard",
               "mode_multi_hard"
             ],
-            "weight": 40
+            "weight": 60
           },
           "act1autochess_m07": {
             "stageId": "act1autochess_m07",
             "mode": [
-              "mode_single_normal",
-              "mode_multi_normal",
               "mode_single_hard",
               "mode_multi_hard"
             ],
-            "weight": 40
+            "weight": 5
           }
         },
         "battleDataDict": {
@@ -295812,7 +295830,7 @@
             "effectCounterType": "NONE",
             "continuedRound": -1,
             "effectName": "拟态物质",
-            "effectDesc": "装备时销毁，若已拥有至少2名该干员，则再获得1名该干员；否则随机获得1名同盟约干员",
+            "effectDesc": "装备时销毁，若已拥有至少2名该初始干员，则再获得1名该初始干员；否则随机获得1名同盟约初始干员",
             "effectDecoIconId": null,
             "enemyPrice": 0
           },
@@ -295822,7 +295840,7 @@
             "effectCounterType": "NONE",
             "continuedRound": -1,
             "effectName": "拟态物质",
-            "effectDesc": "装备时销毁，若已拥有至少2名该干员，则再获得1名该干员；否则随机获得1名同盟约干员",
+            "effectDesc": "装备时销毁，若已拥有至少2名该初始干员，则再获得1名该初始干员；否则随机获得1名同盟约初始干员",
             "effectDecoIconId": null,
             "enemyPrice": 0
           },
@@ -296813,6 +296831,26 @@
             "continuedRound": -1,
             "effectName": "攻坚装备",
             "effectDesc": "所有敌人攻击力<@ba.vup>+10%</>，最大生命值<@ba.vup>+20%</>",
+            "effectDecoIconId": "icon_team_buff",
+            "enemyPrice": 0
+          },
+          "aceffect_enemy_4": {
+            "effectId": "aceffect_enemy_4",
+            "effectType": "ENEMY",
+            "effectCounterType": "NONE",
+            "continuedRound": -1,
+            "effectName": "攻坚装备II",
+            "effectDesc": "所有敌人攻击力<@ba.vup>-20%</>，最大生命值<@ba.vup>-20%</>",
+            "effectDecoIconId": "icon_team_buff",
+            "enemyPrice": 0
+          },
+          "aceffect_enemy_5": {
+            "effectId": "aceffect_enemy_5",
+            "effectType": "ENEMY",
+            "effectCounterType": "NONE",
+            "continuedRound": -1,
+            "effectName": "攻坚装备III",
+            "effectDesc": "所有敌人攻击力<@ba.vup>-30%</>，最大生命值<@ba.vup>-25%</>",
             "effectDecoIconId": "icon_team_buff",
             "enemyPrice": 0
           },
@@ -303078,6 +303116,42 @@
               "countType": "NONE"
             }
           ],
+          "aceffect_enemy_4": [
+            {
+              "key": "enemy_attribute_mul",
+              "blackboard": [
+                {
+                  "key": "atk",
+                  "value": 0.8,
+                  "valueStr": null
+                },
+                {
+                  "key": "max_hp",
+                  "value": 0.8,
+                  "valueStr": null
+                }
+              ],
+              "countType": "NONE"
+            }
+          ],
+          "aceffect_enemy_5": [
+            {
+              "key": "enemy_attribute_mul",
+              "blackboard": [
+                {
+                  "key": "atk",
+                  "value": 0.7,
+                  "valueStr": null
+                },
+                {
+                  "key": "max_hp",
+                  "value": 0.75,
+                  "valueStr": null
+                }
+              ],
+              "countType": "NONE"
+            }
+          ],
           "aceffect_char_1": [
             {
               "key": "char_attribute_mul",
@@ -306164,81 +306238,81 @@
             "bossId": "boss_1",
             "sortId": 1,
             "weight": 6,
-            "bloodPoint": 330000,
-            "bloodPointNormal": 900000,
-            "bloodPointHard": 2000000,
+            "bloodPoint": 247500,
+            "bloodPointNormal": 675000,
+            "bloodPointHard": 1800000,
             "isHidingBoss": false
           },
           "boss_2": {
             "bossId": "boss_2",
             "sortId": 2,
-            "weight": 5,
-            "bloodPoint": 300000,
-            "bloodPointNormal": 600000,
-            "bloodPointHard": 960000,
+            "weight": 2,
+            "bloodPoint": 225000,
+            "bloodPointNormal": 450000,
+            "bloodPointHard": 870000,
             "isHidingBoss": false
           },
           "boss_3": {
             "bossId": "boss_3",
             "sortId": 3,
             "weight": 6,
-            "bloodPoint": 380000,
-            "bloodPointNormal": 945000,
-            "bloodPointHard": 2200000,
+            "bloodPoint": 285000,
+            "bloodPointNormal": 708750,
+            "bloodPointHard": 2000000,
             "isHidingBoss": false
           },
           "boss_4": {
             "bossId": "boss_4",
             "sortId": 4,
             "weight": 5,
-            "bloodPoint": 410000,
-            "bloodPointNormal": 945000,
-            "bloodPointHard": 2400000,
+            "bloodPoint": 307500,
+            "bloodPointNormal": 708750,
+            "bloodPointHard": 2100000,
             "isHidingBoss": false
           },
           "boss_6": {
             "bossId": "boss_6",
             "sortId": 6,
             "weight": 5,
-            "bloodPoint": 380000,
-            "bloodPointNormal": 940000,
-            "bloodPointHard": 2100000,
+            "bloodPoint": 285000,
+            "bloodPointNormal": 705000,
+            "bloodPointHard": 1990000,
             "isHidingBoss": false
           },
           "boss_7": {
             "bossId": "boss_7",
             "sortId": 7,
             "weight": 5,
-            "bloodPoint": 370000,
-            "bloodPointNormal": 1050000,
-            "bloodPointHard": 2000000,
+            "bloodPoint": 277500,
+            "bloodPointNormal": 787500,
+            "bloodPointHard": 1800000,
             "isHidingBoss": false
           },
           "boss_8": {
             "bossId": "boss_8",
             "sortId": 8,
             "weight": 50,
-            "bloodPoint": 1000000,
-            "bloodPointNormal": 1250000,
-            "bloodPointHard": 4000000,
+            "bloodPoint": 750000,
+            "bloodPointNormal": 937500,
+            "bloodPointHard": 3600000,
             "isHidingBoss": true
           },
           "boss_9": {
             "bossId": "boss_9",
             "sortId": 9,
             "weight": 50,
-            "bloodPoint": 900000,
-            "bloodPointNormal": 1200000,
-            "bloodPointHard": 3100000,
+            "bloodPoint": 675000,
+            "bloodPointNormal": 900000,
+            "bloodPointHard": 2800000,
             "isHidingBoss": true
           },
           "boss_10": {
             "bossId": "boss_10",
             "sortId": 10,
             "weight": 50,
-            "bloodPoint": 1100000,
-            "bloodPointNormal": 1350000,
-            "bloodPointHard": 4200000,
+            "bloodPoint": 825000,
+            "bloodPointNormal": 1012500,
+            "bloodPointHard": 3800000,
             "isHidingBoss": true
           }
         },
@@ -306330,7 +306404,7 @@
           "enemy_1321_wdarft": {
             "type": "FLY",
             "specialEnemyKey": "enemy_1321_wdarft",
-            "randomWeight": 10,
+            "randomWeight": 0,
             "isInFirstHalf": false,
             "attachedNormalEnemyKeys": [
               "enemy_1005_yokai"
@@ -306378,7 +306452,7 @@
           "enemy_1201_sfzhi": {
             "type": "TIMES",
             "specialEnemyKey": "enemy_1201_sfzhi",
-            "randomWeight": 10,
+            "randomWeight": 0,
             "isInFirstHalf": false,
             "attachedNormalEnemyKeys": [
               "enemy_1195_sfyin"
@@ -307803,7 +307877,7 @@
           }
         ],
         "modeFactorInfo": {
-          "SINGLE": 1.0,
+          "SINGLE": 1.25,
           "MULTI": 1.25
         },
         "difficultyFactorInfo": {
@@ -308009,7 +308083,7 @@
           "storeCntMax": 6,
           "costPlayerHpLimit": 10,
           "milestoneId": "act1autochess_token_chess",
-          "borrowCount": 8,
+          "borrowCount": 20,
           "dailyMissionParam": 200,
           "dailyMissionName": "每日防卫目标",
           "dailyMissionRule": "通过模拟累积获得【卫戍认证】x<@acdm.award>200</>，即可在结算时领取【卫戍认证】x<@acdm.award>300</>的额外奖励。\\n*奖励每日一次，每天04:00重置",

@@ -153439,7 +153439,7 @@
       ],
       "stageId": "act38side_st01",
       "levelId": null,
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-ST-1",
       "name": "《新都市管理法案》",
       "description": "“新沃尔西尼都市管理法即日施行。欢迎各位市民，进入叙拉古的新时代。”",
@@ -153527,7 +153527,7 @@
       ],
       "stageId": "act38side_tr01",
       "levelId": "Activities/act38side/level_act38side_tr01",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-TR-1",
       "name": "《烟花燃放须知》",
       "description": "狂欢节现场热闹，小心别把自己点着。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -153615,7 +153615,7 @@
       ],
       "stageId": "act38side_01",
       "levelId": "Activities/act38side/level_act38side_01",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-1",
       "name": "失途",
       "description": "在泥潭当中航行，小心迷失方向。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -153627,7 +153627,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -153641,7 +153641,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -153660,12 +153660,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -153708,13 +153708,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -153791,7 +153791,7 @@
       ],
       "stageId": "act38side_02",
       "levelId": "Activities/act38side/level_act38side_02",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-2",
       "name": "择路",
       "description": "何处可行，何人同行？叙拉古从未给予选择。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -153803,7 +153803,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -153817,7 +153817,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -153836,12 +153836,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -153884,13 +153884,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -153967,7 +153967,7 @@
       ],
       "stageId": "act38side_03",
       "levelId": "Activities/act38side/level_act38side_03",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-3",
       "name": "恶客盈门",
       "description": "“什么年头了还想混黑帮？我们都已经登记过了，现在是守法市民！”\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -153979,7 +153979,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -153993,7 +153993,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -154012,12 +154012,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154060,13 +154060,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154143,7 +154143,7 @@
       ],
       "stageId": "act38side_04",
       "levelId": "Activities/act38side/level_act38side_04",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-4",
       "name": "体面来宾",
       "description": "旧规范、老体面，总有人没把这些抛弃。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -154155,7 +154155,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 12,
-      "apFailReturn": 11,
+      "apFailReturn": 12,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -154169,7 +154169,7 @@
       "goldGain": 120,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 11,
+      "passFavor": 12,
       "completeFavor": 12,
       "slProgress": 0,
       "displayMainItem": null,
@@ -154188,12 +154188,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154216,13 +154216,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154275,7 +154275,7 @@
       ],
       "stageId": "act38side_st02",
       "levelId": null,
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-ST-2",
       "name": "《复仇禁制令》",
       "description": "挥刀斩向过往，恩仇一并断绝。",
@@ -154363,7 +154363,7 @@
       ],
       "stageId": "act38side_05",
       "levelId": "Activities/act38side/level_act38side_05",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-5",
       "name": "“致新生活”",
       "description": "我们的力量，我们的软肋——我们的生活。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -154375,7 +154375,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 12,
-      "apFailReturn": 11,
+      "apFailReturn": 12,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -154389,7 +154389,7 @@
       "goldGain": 120,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 11,
+      "passFavor": 12,
       "completeFavor": 12,
       "slProgress": 0,
       "displayMainItem": null,
@@ -154408,12 +154408,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154436,13 +154436,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154495,7 +154495,7 @@
       ],
       "stageId": "act38side_06",
       "levelId": "Activities/act38side/level_act38side_06",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-6",
       "name": "“复仇于我”",
       "description": "新生活坠入尘霾，旧仇敌意外归来。落难者的怒火再度点燃。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -154507,7 +154507,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -154521,7 +154521,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -154540,12 +154540,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154568,13 +154568,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154627,7 +154627,7 @@
       ],
       "stageId": "act38side_07",
       "levelId": "Activities/act38side/level_act38side_07",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-7",
       "name": "揭幕时刻",
       "description": "皮毛易改，恶念难除，仅是有待揭幕。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -154639,7 +154639,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -154653,7 +154653,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -154672,12 +154672,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154700,13 +154700,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154759,7 +154759,7 @@
       ],
       "stageId": "act38side_08",
       "levelId": "Activities/act38side/level_act38side_08",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-8",
       "name": "无私铁棘",
       "description": "审判务必迅速，裁决务必无情。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -154771,7 +154771,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -154785,7 +154785,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -154804,12 +154804,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154827,13 +154827,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -154880,7 +154880,7 @@
       ],
       "stageId": "act38side_st03",
       "levelId": null,
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-ST-3",
       "name": "《狂欢节章程》",
       "description": "“这就要结束了？你们可真是最不能狂欢的一群人！”",
@@ -154968,7 +154968,7 @@
       ],
       "stageId": "act38side_09",
       "levelId": "Activities/act38side/level_act38side_09",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-9",
       "name": "狼群与群狼",
       "description": "群狼之力是狼群，狼群之力是群狼。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -154980,7 +154980,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -154994,7 +154994,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -155013,12 +155013,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -155036,13 +155036,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -155089,7 +155089,7 @@
       ],
       "stageId": "act38side_10",
       "levelId": "Activities/act38side/level_act38side_10",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-10",
       "name": "铳响",
       "description": "这座城市仍在等待一声铳响。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -155101,7 +155101,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -155115,7 +155115,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -155134,12 +155134,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -155157,13 +155157,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -155210,7 +155210,7 @@
       ],
       "stageId": "act38side_st04",
       "levelId": null,
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-ST-4",
       "name": "《管理法修正案》",
       "description": "将血污和泥泞从身躯上剔除，我们如何知道要将什么填入？",
@@ -155298,7 +155298,7 @@
       ],
       "stageId": "act38side_sp01",
       "levelId": "Activities/act38side/level_act38side_sp01",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-SP-1",
       "name": "试演烟花秀",
       "description": "“喂喂喂，只是试演而已，要看的排好队，一个一个入场！”\\n<@lv.fs>胜利条件：</>\\n保护<烟花发射器>并击败所有敌人\\n<@lv.fs>附加条件：</>\\n<烟花发射器>的攻击力提升，生命值大幅度提升",
@@ -155343,7 +155343,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           }
         ],
@@ -155351,7 +155351,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           }
         ]
@@ -155386,7 +155386,7 @@
       ],
       "stageId": "act38side_sp02",
       "levelId": "Activities/act38side/level_act38side_sp02",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-SP-2",
       "name": "即兴烟花秀",
       "description": "“引线这么短，不符合安全——”“怕什么，我点火，咱们马上溜！”\\n<@lv.fs>胜利条件：</>\\n保护<烟花发射器>并击败所有敌人\\n<@lv.fs>附加条件：</>\\n<烟花发射器>的攻击力大幅度提升，生命值提升",
@@ -155431,7 +155431,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           }
         ],
@@ -155439,7 +155439,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           }
         ]
@@ -155474,7 +155474,7 @@
       ],
       "stageId": "act38side_sp03",
       "levelId": "Activities/act38side/level_act38side_sp03",
-      "zoneId": "act38side_zone1",
+      "zoneId": "act38sre_zone1",
       "code": "PV-SP-3",
       "name": "狂欢之夜烟花秀",
       "description": "“狂、欢、时、间、到！”\\n<@lv.fs>胜利条件：</>\\n保护<烟花发射器>并击败所有敌人\\n<@lv.fs>附加条件：</>\\n<烟花发射器>攻击力大幅度降低，生命值提升，引线火苗变弱",
@@ -155519,7 +155519,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           }
         ],
@@ -155527,7 +155527,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           }
         ]
@@ -155562,7 +155562,7 @@
       ],
       "stageId": "act38side_ex01",
       "levelId": "Activities/act38side/level_act38side_ex01",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-1",
       "name": "零食派送",
       "description": "“挑点零食，吃饱喝足，游行马上开始了，这一路可长着呢！”\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -155574,7 +155574,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -155588,7 +155588,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -155607,7 +155607,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -155620,7 +155620,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -155665,7 +155665,7 @@
       ],
       "stageId": "act38side_ex01#f#",
       "levelId": "Activities/act38side/level_act38side_ex01",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-1",
       "name": "零食派送",
       "description": "<@lv.fs>附加条件：</>\\n<烟花发射器>生命值大幅度降低",
@@ -155677,7 +155677,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -155691,7 +155691,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -155753,7 +155753,7 @@
       ],
       "stageId": "act38side_ex02",
       "levelId": "Activities/act38side/level_act38side_ex02",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-2",
       "name": "热烈游行",
       "description": "“他们燃起烈火要烧掉什么？是虚伪，还是真相？”\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -155765,7 +155765,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -155779,7 +155779,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -155798,7 +155798,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -155811,7 +155811,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -155856,7 +155856,7 @@
       ],
       "stageId": "act38side_ex02#f#",
       "levelId": "Activities/act38side/level_act38side_ex02",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-2",
       "name": "热烈游行",
       "description": "<@lv.fs>附加条件：</>\\n场上有3个位置无法部署",
@@ -155868,7 +155868,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -155882,7 +155882,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -155944,7 +155944,7 @@
       ],
       "stageId": "act38side_ex03",
       "levelId": "Activities/act38side/level_act38side_ex03",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-3",
       "name": "游乐集市",
       "description": "“游乐集市，孩子们玩耍的地方，真怀念啊——大多数叙拉古人在这里学会了使刀。”\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -155956,7 +155956,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -155970,7 +155970,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -155989,7 +155989,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -156002,7 +156002,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -156047,7 +156047,7 @@
       ],
       "stageId": "act38side_ex03#f#",
       "levelId": "Activities/act38side/level_act38side_ex03",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-3",
       "name": "游乐集市",
       "description": "<@lv.fs>附加条件：</>\\n<巡游零食车>攻击力大幅度提升",
@@ -156059,7 +156059,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -156073,7 +156073,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -156135,7 +156135,7 @@
       ],
       "stageId": "act38side_ex04",
       "levelId": "Activities/act38side/level_act38side_ex04",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-4",
       "name": "穷街陋巷",
       "description": "“看看这穷街陋巷，看看叙拉古‘秩序’诞生的地方！”\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -156147,7 +156147,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -156161,7 +156161,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -156180,7 +156180,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -156193,7 +156193,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -156238,7 +156238,7 @@
       ],
       "stageId": "act38side_ex04#f#",
       "levelId": "Activities/act38side/level_act38side_ex04",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-4",
       "name": "穷街陋巷",
       "description": "<@lv.fs>附加条件：</>\\n我方单位阻挡数-1",
@@ -156250,7 +156250,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -156264,7 +156264,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -156326,7 +156326,7 @@
       ],
       "stageId": "act38side_ex05",
       "levelId": "Activities/act38side/level_act38side_ex05",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-5",
       "name": "火花进行曲",
       "description": "“他们吹吹打打，歌颂的可不是和平友爱，凑近听——恶狼的嘶吼就在耳边！”\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -156338,7 +156338,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -156352,7 +156352,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -156371,7 +156371,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -156384,7 +156384,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -156429,7 +156429,7 @@
       ],
       "stageId": "act38side_ex05#f#",
       "levelId": "Activities/act38side/level_act38side_ex05",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-5",
       "name": "火花进行曲",
       "description": "<@lv.fs>附加条件：</>\\n初始场上出现<“美食速递”>",
@@ -156441,7 +156441,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -156455,7 +156455,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -156517,7 +156517,7 @@
       ],
       "stageId": "act38side_ex06",
       "levelId": "Activities/act38side/level_act38side_ex06",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-6",
       "name": "巡演大街",
       "description": "“欢迎来到狂欢节！欢迎来到罪恶的心脏！”\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -156529,7 +156529,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -156543,7 +156543,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -156562,7 +156562,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -156575,7 +156575,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -156620,7 +156620,7 @@
       ],
       "stageId": "act38side_ex06#f#",
       "levelId": "Activities/act38side/level_act38side_ex06",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-6",
       "name": "巡演大街",
       "description": "<@lv.fs>附加条件：</>\\n<烟花发射器>引线火苗变弱",
@@ -156632,7 +156632,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -156646,7 +156646,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -156708,7 +156708,7 @@
       ],
       "stageId": "act38side_ex07",
       "levelId": "Activities/act38side/level_act38side_ex07",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-7",
       "name": "烟火观景台",
       "description": "“怎么，你也怕了？你的正义感也要作壁上观了？”\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -156720,7 +156720,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -156734,7 +156734,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -156753,7 +156753,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -156766,7 +156766,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -156811,7 +156811,7 @@
       ],
       "stageId": "act38side_ex07#f#",
       "levelId": "Activities/act38side/level_act38side_ex07",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-7",
       "name": "烟火观景台",
       "description": "<@lv.fs>附加条件：</>\\n初始场上的<专业竞演者>路线改变",
@@ -156823,7 +156823,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -156837,7 +156837,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -156899,7 +156899,7 @@
       ],
       "stageId": "act38side_ex08",
       "levelId": "Activities/act38side/level_act38side_ex08",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-8",
       "name": "狂欢之主",
       "description": "“看吧，这就是叙拉古——狂欢之主邀你共赏！”\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害",
@@ -156911,7 +156911,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -156925,7 +156925,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -156944,7 +156944,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -156957,7 +156957,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -157002,7 +157002,7 @@
       ],
       "stageId": "act38side_ex08#f#",
       "levelId": "Activities/act38side/level_act38side_ex08",
-      "zoneId": "act38side_zone2",
+      "zoneId": "act38sre_zone2",
       "code": "PV-EX-8",
       "name": "狂欢之主",
       "description": "<@lv.fs>附加条件：</>\\n我方单位再部署时间延长",
@@ -157014,7 +157014,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -157028,7 +157028,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -157090,7 +157090,7 @@
       ],
       "stageId": "act38side_s01",
       "levelId": "Activities/act38side/level_act38side_sub-1-1",
-      "zoneId": "act38side_zone3",
+      "zoneId": "act38sre_zone3",
       "code": "PV-S-1",
       "name": "无尽玩笑",
       "description": "我与这片泥潭嬉闹，沉溺在无尽的玩笑。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害\\n<@lv.rem>额外条件：</>所有敌人重量提升一个等级",
@@ -157102,7 +157102,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -157116,7 +157116,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -157135,7 +157135,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -157148,7 +157148,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -157193,7 +157193,7 @@
       ],
       "stageId": "act38side_s01#f#",
       "levelId": "Activities/act38side/level_act38side_sub-1-1",
-      "zoneId": "act38side_zone3",
+      "zoneId": "act38sre_zone3",
       "code": "PV-S-1",
       "name": "无尽玩笑",
       "description": "<@lv.fs>附加条件：</>\\n所有<“美食速递”>替换为<“醉后狂欢”>，且我方单位阻挡数-1",
@@ -157205,7 +157205,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -157219,7 +157219,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -157281,7 +157281,7 @@
       ],
       "stageId": "act38side_s02",
       "levelId": "Activities/act38side/level_act38side_sub-1-2",
-      "zoneId": "act38side_zone3",
+      "zoneId": "act38sre_zone3",
       "code": "PV-S-2",
       "name": "荒唐共谋",
       "description": "我与家族起舞，他们是这片荒唐的共谋。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害\\n<@lv.rem>额外条件：</>所有敌人攻击力大幅度提升",
@@ -157293,7 +157293,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -157307,7 +157307,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -157326,7 +157326,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -157339,7 +157339,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -157384,7 +157384,7 @@
       ],
       "stageId": "act38side_s02#f#",
       "levelId": "Activities/act38side/level_act38side_sub-1-2",
-      "zoneId": "act38side_zone3",
+      "zoneId": "act38sre_zone3",
       "code": "PV-S-2",
       "name": "荒唐共谋",
       "description": "<@lv.fs>附加条件：</>\\n所有<巡游爵士乐手>替换为<“美食速递”>",
@@ -157396,7 +157396,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -157410,7 +157410,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -157472,7 +157472,7 @@
       ],
       "stageId": "act38side_s03",
       "levelId": "Activities/act38side/level_act38side_sub-1-3",
-      "zoneId": "act38side_zone3",
+      "zoneId": "act38sre_zone3",
       "code": "PV-S-3",
       "name": "仓皇步法",
       "description": "我与文明做戏，看他们的步法可笑仓皇。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害\\n<@lv.rem>额外条件：</>敌方基础属性提升",
@@ -157484,7 +157484,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -157498,7 +157498,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -157517,7 +157517,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -157530,7 +157530,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -157575,7 +157575,7 @@
       ],
       "stageId": "act38side_s03#f#",
       "levelId": "Activities/act38side/level_act38side_sub-1-3",
-      "zoneId": "act38side_zone3",
+      "zoneId": "act38sre_zone3",
       "code": "PV-S-3",
       "name": "仓皇步法",
       "description": "<@lv.fs>附加条件：</>\\n<烟花发射器>引线燃烧速度降低",
@@ -157587,7 +157587,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -157601,7 +157601,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -157663,7 +157663,7 @@
       ],
       "stageId": "act38side_s04",
       "levelId": "Activities/act38side/level_act38side_sub-1-4",
-      "zoneId": "act38side_zone3",
+      "zoneId": "act38sre_zone3",
       "code": "PV-S-4",
       "name": "游戏终结",
       "description": "我邀恶狼共舞，它们的无聊游戏是时候结束。\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害\\n<@lv.rem>额外条件：</>敌方基础属性提升",
@@ -157675,7 +157675,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -157689,7 +157689,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -157708,7 +157708,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -157721,7 +157721,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -157766,7 +157766,7 @@
       ],
       "stageId": "act38side_s04#f#",
       "levelId": "Activities/act38side/level_act38side_sub-1-4",
-      "zoneId": "act38side_zone3",
+      "zoneId": "act38sre_zone3",
       "code": "PV-S-4",
       "name": "游戏终结",
       "description": "<@lv.fs>附加条件：</>\\n场上出现额外的<巡游零食车>",
@@ -157778,7 +157778,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -157792,7 +157792,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -157854,7 +157854,7 @@
       ],
       "stageId": "act38side_s05",
       "levelId": "Activities/act38side/level_act38side_sub-1-5",
-      "zoneId": "act38side_zone3",
+      "zoneId": "act38sre_zone3",
       "code": "PV-S-5",
       "name": "荒芜谢幕",
       "description": "与我狂欢吧，叙拉古！这是我送给你们的礼物，这是我送给你们的谢幕！\\n<@lv.item><烟花发射器></>点燃后开启狂欢时刻，周期性对攻击范围内所有我方与敌方单位造成法术伤害\\n<@lv.rem>额外条件：</>敌方基础属性提升",
@@ -157866,7 +157866,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 25,
-      "apFailReturn": 24,
+      "apFailReturn": 25,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -157880,7 +157880,7 @@
       "goldGain": 250,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 24,
+      "passFavor": 25,
       "completeFavor": 25,
       "slProgress": 0,
       "displayMainItem": null,
@@ -157899,7 +157899,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -157912,7 +157912,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act38side_token_ticket",
+            "id": "act38side_token_ticket_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -157957,7 +157957,7 @@
       ],
       "stageId": "act38side_s05#f#",
       "levelId": "Activities/act38side/level_act38side_sub-1-5",
-      "zoneId": "act38side_zone3",
+      "zoneId": "act38sre_zone3",
       "code": "PV-S-5",
       "name": "荒芜谢幕",
       "description": "<@lv.fs>附加条件：</>\\n场上出现额外的<热烈舞团领舞者>，且所有<专业竞演者>替换为<巡游零食车>",
@@ -157969,7 +157969,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 25,
-      "apFailReturn": 24,
+      "apFailReturn": 25,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -157983,7 +157983,7 @@
       "goldGain": 250,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 24,
+      "passFavor": 25,
       "completeFavor": 25,
       "slProgress": 0,
       "displayMainItem": null,
@@ -557137,180 +557137,180 @@
       "endTs": 1732823999
     },
     "act38side_st01": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_tr01": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_01": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_02": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_03": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_04": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_st02": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_05": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_06": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_07": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_08": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_st03": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_09": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_10": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_st04": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_sp01": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_sp02": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_sp03": {
-      "startTs": 1730433600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex01": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex01#f#": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex02": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex02#f#": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex03": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex03#f#": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex04": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex04#f#": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex05": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex05#f#": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex06": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex06#f#": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex07": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex07#f#": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex08": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_ex08#f#": {
-      "startTs": 1731052800,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_s01": {
-      "startTs": 1731657600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_s01#f#": {
-      "startTs": 1731657600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_s02": {
-      "startTs": 1731657600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_s02#f#": {
-      "startTs": 1731657600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_s03": {
-      "startTs": 1731657600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_s03#f#": {
-      "startTs": 1731657600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_s04": {
-      "startTs": 1731657600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_s04#f#": {
-      "startTs": 1731657600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_s05": {
-      "startTs": 1731657600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act38side_s05#f#": {
-      "startTs": 1731657600,
-      "endTs": 1732219199
+      "startTs": 1764057600,
+      "endTs": 1764878399
     },
     "act37side_st01": {
       "startTs": 1758268800,
@@ -567235,8 +567235,8 @@
           "tag_16",
           "tag_15"
         ],
-        "reopenActivityId": null,
-        "retroActivityId": null,
+        "reopenActivityId": "act38sre",
+        "retroActivityId": "permanent_sidestory_28_i_portatori_dei_velluti",
         "isRecommended": false,
         "recommendHideStageId": null,
         "overrideStageList": null

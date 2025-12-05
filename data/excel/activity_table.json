@@ -1,5 +1,27 @@
 {
   "basicInfo": {
+    "act47side": {
+      "id": "act47side",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "未许之地",
+      "startTime": 1764889200,
+      "endTime": 1766087999,
+      "rewardEndTime": 1766692799,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act47side",
+      "medalGroupId": "medalGroupActivity47side",
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act1autochess": {
       "id": "act1autochess",
       "type": "AUTOCHESS_SEASON",
@@ -7156,6 +7178,8 @@
     }
   },
   "zoneToActivity": {
+    "act47side_zone1": "act47side",
+    "act47side_zone2": "act47side",
     "act1autochess_zone1": "act1autochess",
     "act38sre_zone1": "act38sre",
     "act38sre_zone2": "act38sre",
@@ -7414,6 +7438,790 @@
     "act2access": 1745674200
   },
   "missionData": [
+    {
+      "id": "47sideActivity_1",
+      "sortId": 1,
+      "description": "通关UR-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 40
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_shelf_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_2",
+      "sortId": 2,
+      "description": "通关UR-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 40
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_plant_02",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_3",
+      "sortId": 3,
+      "description": "通关UR-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 70
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_4",
+      "sortId": 4,
+      "description": "通关UR-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 70
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4213_skybx",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_5",
+      "sortId": 5,
+      "description": "通关UR-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 70
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_clock_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_6",
+      "sortId": 6,
+      "description": "以3星评价完成UR-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_05",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_7",
+      "sortId": 7,
+      "description": "通关UR-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_ceilingLight_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_8",
+      "sortId": 8,
+      "description": "以3星评价完成UR-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_carpet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_9",
+      "sortId": 9,
+      "description": "通关UR-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_bar_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_10",
+      "sortId": 10,
+      "description": "以3星评价完成UR-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_11",
+      "sortId": 11,
+      "description": "通关UR-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_table_02",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_12",
+      "sortId": 12,
+      "description": "以3星评价完成UR-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_13",
+      "sortId": 13,
+      "description": "通关UR-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_14",
+      "sortId": 14,
+      "description": "通关UR-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_15",
+      "sortId": 15,
+      "description": "通关UR-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_16",
+      "sortId": 16,
+      "description": "通关UR-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_17",
+      "sortId": 17,
+      "description": "通关UR-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_18",
+      "sortId": 18,
+      "description": "通关UR-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_19",
+      "sortId": 19,
+      "description": "通关UR-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_20",
+      "sortId": 20,
+      "description": "通关UR-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_21",
+      "sortId": 21,
+      "description": "通关UR-EX-8突袭模式",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex08#f#",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terracommericials_Braintet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_22",
+      "sortId": 22,
+      "description": "通关活动关卡15次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_01^act47side_02^act47side_03^act47side_04^act47side_05^act47side_06^act47side_07^act47side_08^act47side_ex01^act47side_ex01#f#^act47side_ex02^act47side_ex02#f#^act47side_ex03^act47side_ex03#f#^act47side_ex04^act47side_ex04#f#^act47side_ex05^act47side_ex05#f#^act47side_ex06^act47side_ex06#f#^act47side_ex07^act47side_ex07#f#^act47side_ex08^act47side_ex08#f#",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_23",
+      "sortId": 23,
+      "description": "通关活动关卡45次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_01^act47side_02^act47side_03^act47side_04^act47side_05^act47side_06^act47side_07^act47side_08^act47side_ex01^act47side_ex01#f#^act47side_ex02^act47side_ex02#f#^act47side_ex03^act47side_ex03#f#^act47side_ex04^act47side_ex04#f#^act47side_ex05^act47side_ex05#f#^act47side_ex06^act47side_ex06#f#^act47side_ex07^act47side_ex07#f#^act47side_ex08^act47side_ex08#f#",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_24",
+      "sortId": 24,
+      "description": "通关活动关卡85次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_01^act47side_02^act47side_03^act47side_04^act47side_05^act47side_06^act47side_07^act47side_08^act47side_ex01^act47side_ex01#f#^act47side_ex02^act47side_ex02#f#^act47side_ex03^act47side_ex03#f#^act47side_ex04^act47side_ex04#f#^act47side_ex05^act47side_ex05#f#^act47side_ex06^act47side_ex06#f#^act47side_ex07^act47side_ex07#f#^act47side_ex08^act47side_ex08#f#",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
     {
       "id": "1autochessActivity_1",
       "sortId": 1,
@@ -108729,6 +109537,42 @@
   ],
   "missionGroup": [
     {
+      "id": "act47side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "47sideActivity_1",
+        "47sideActivity_2",
+        "47sideActivity_3",
+        "47sideActivity_4",
+        "47sideActivity_5",
+        "47sideActivity_6",
+        "47sideActivity_7",
+        "47sideActivity_8",
+        "47sideActivity_9",
+        "47sideActivity_10",
+        "47sideActivity_11",
+        "47sideActivity_12",
+        "47sideActivity_13",
+        "47sideActivity_14",
+        "47sideActivity_15",
+        "47sideActivity_16",
+        "47sideActivity_17",
+        "47sideActivity_18",
+        "47sideActivity_19",
+        "47sideActivity_20",
+        "47sideActivity_21",
+        "47sideActivity_22",
+        "47sideActivity_23",
+        "47sideActivity_24"
+      ],
+      "startTs": 1764889200,
+      "endTs": 1766692799
+    },
+    {
       "id": "act1autochess",
       "title": null,
       "type": "ACTIVITY",
@@ -114186,7 +115030,7 @@
             "order": 1,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0,
+            "showItemOrder": 1,
             "isDynItem": false
           },
           "1": {
@@ -114262,7 +115106,7 @@
             "order": 5,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0,
+            "showItemOrder": 2,
             "isDynItem": false
           },
           "5": {
@@ -114319,7 +115163,7 @@
             "order": 8,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0,
+            "showItemOrder": 3,
             "isDynItem": false
           },
           "8": {
@@ -139586,6 +140430,32 @@
       }
     },
     "TYPE_ACT9D0": {
+      "act47side": {
+        "tokenItemId": "act47side_token_bottle",
+        "zoneDescList": {
+          "act47side_zone1": {
+            "zoneId": "act47side_zone1",
+            "unlockText": "尚未解锁",
+            "displayStartTime": 1764889200
+          },
+          "act47side_zone2": {
+            "zoneId": "act47side_zone2",
+            "unlockText": "完成「天空生活展会」后解锁",
+            "displayStartTime": 1764889200
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {},
+        "constData": {
+          "campaignEnemyCnt": 0,
+          "campaignStageId": null
+        }
+      },
       "act37sre": {
         "tokenItemId": "act37side_token_nay_rep_1",
         "zoneDescList": {
@@ -244327,7 +245197,7 @@
             "sortId": 34,
             "isBasePlot": false,
             "iconId": "plot_lhtwer",
-            "funcDesc": "自身所在格可以部署高台单位。部署于其上的干员，自身<@trap.debuff>不再自然回复技力</>；但每次攻击使自身攻击速度<@trap.number>+5</>（上限300）。\n\n衍生方式：<岗哨>周围<@trap.number>4</>格存在<先遣侦测器>/<侦测中心>时，将变为<警戒岗哨>。",
+            "funcDesc": "自身所在格可以部署高台单位。部署于其上的干员，自身<@trap.debuff>不再自然回复技力</>；但每次造成伤害使自身攻击速度<@trap.number>+5</>（上限300）。\n\n衍生方式：<岗哨>周围<@trap.number>4</>格存在<先遣侦测器>/<侦测中心>时，将变为<警戒岗哨>。",
             "flavorDesc": "接入了ZOOT侦测系统的岗哨，ZOOT按照计算出的作战策略对其火控系统进行了优化。",
             "enemyIds": [],
             "enemyDesc": null,
@@ -244362,7 +245232,7 @@
             "sortId": 35,
             "isBasePlot": false,
             "iconId": "plot_lhtwer",
-            "funcDesc": "自身所在格可以部署高台单位。部署于其上的干员，自身<@trap.debuff>不再自然回复技力</>；但每次攻击使自身攻击速度<@trap.number>+5</>（上限300）。\n\n衍生方式：<岗哨>周围<@trap.number>4</>格存在<先遣侦测器>/<侦测中心>时，将变为<警戒岗哨>。",
+            "funcDesc": "自身所在格可以部署高台单位。部署于其上的干员，自身<@trap.debuff>不再自然回复技力</>；但每次造成伤害使自身攻击速度<@trap.number>+5</>（上限300）。\n\n衍生方式：<岗哨>周围<@trap.number>4</>格存在<先遣侦测器>/<侦测中心>时，将变为<警戒岗哨>。",
             "flavorDesc": "接入了ZOOT侦测系统的岗哨，ZOOT按照计算出的作战策略对其火控系统进行了优化。",
             "enemyIds": [],
             "enemyDesc": null,
@@ -285098,11 +285968,11 @@
             "charId": "char_4139_papyrs",
             "tmplId": null,
             "defaultSkillIndex": 0,
-            "defaultUniEquipId": null,
+            "defaultUniEquipId": "uniequip_002_papyrs",
             "backupCharId": "char_4139_papyrs",
             "backupTmplId": null,
             "backupCharSkillIndex": 0,
-            "backupCharUniEquipId": null,
+            "backupCharUniEquipId": "uniequip_002_papyrs",
             "backupCharPotRank": 0,
             "isHidden": false
           },
@@ -289710,7 +290580,7 @@
           "yanShip": {
             "bondId": "yanShip",
             "name": "炎",
-            "desc": "【炎】干员<@ba.vup>攻击力</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>人>战斗开始时召唤可自主行动的<@ba.vup>“炎佑”</>，其攻击力生命值分别为开战时【炎】干员攻击力生命值总和的30%，“炎佑”可使用<@ba.vup>“祛恶之焰”</>，攻击时附带伤害一定比例的灼燃损伤且周围敌人受到一定比例的元素脆弱",
+            "desc": "【炎】干员<@ba.vup>攻击力</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【炎】干员>战斗开始时召唤可自主行动的<@ba.vup>“炎佑”</>，其攻击力生命值分别为开战时【炎】干员攻击力生命值总和的30%，“炎佑”可使用<@ba.vup>“祛恶之焰”</>，攻击时附带伤害一定比例的灼燃损伤且周围敌人受到一定比例的元素脆弱",
             "iconId": "icon_yanShip",
             "activeCount": 3,
             "effectId": "bondeffect_yan",
@@ -289751,7 +290621,7 @@
           "sargonShip": {
             "bondId": "sargonShip",
             "name": "萨尔贡",
-            "desc": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员<@ba.vup>攻击速度</>提升（有上限），持续一定时间<@autochess.gray>（受层数影响，每层持续时间独立计算）</>\n<在场<@autochess.dgreen>6</>人>开启技能还会为所有【萨尔贡】干员提供等持续时间的<@ba.vup>攻击力</>（有上限）",
+            "desc": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员<@ba.vup>攻击速度</>提升（有上限），持续一定时间<@autochess.gray>（受层数影响，每层持续时间独立计算）</>\n<在场<@autochess.dgreen>6</>名不同【萨尔贡】干员>开启技能还会为所有【萨尔贡】干员提供等持续时间的<@ba.vup>攻击力</>（有上限）",
             "iconId": "icon_sargonShip",
             "activeCount": 3,
             "effectId": "bondeffect_sargon",
@@ -289790,7 +290660,7 @@
           "victoriaShip": {
             "bondId": "victoriaShip",
             "name": "维多利亚",
-            "desc": "携带装备的【维多利亚】干员造成的<@ba.vup>伤害提升</><@autochess.gray>（受层数影响）</>\n<每叠加<@autochess.dgreen>25</>层>获得1件随机效果的<@ba.vup>维式重锤</>\n<在场<@autochess.dgreen>6</>人>携带装备的【维多利亚】干员<@ba.vup>攻击力</>提升",
+            "desc": "携带装备的【维多利亚】干员造成的<@ba.vup>伤害提升</><@autochess.gray>（受层数影响）</>\n<每叠加<@autochess.dgreen>25</>层>获得1件随机效果的<@ba.vup>维式重锤</>\n<在场<@autochess.dgreen>6</>名不同【维多利亚】干员>携带装备的【维多利亚】干员<@ba.vup>攻击力</>提升",
             "iconId": "icon_victoriaShip",
             "activeCount": 3,
             "effectId": "bondeffect_victoria",
@@ -289831,7 +290701,7 @@
           "kjeragShip": {
             "bondId": "kjeragShip",
             "name": "谢拉格",
-            "desc": "【谢拉格】干员造成的<@ba.vup>伤害提升</>，对<@ba.vup>寒冷、冻结</>敌人获得额外提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>人>战场上每25秒过一阵寒风使场上的敌人寒冷一定时间（受层数影响）",
+            "desc": "【谢拉格】干员造成的<@ba.vup>伤害提升</>，对<@ba.vup>寒冷、冻结</>敌人获得额外提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【谢拉格】干员>战场上每25秒过一阵寒风使场上的敌人寒冷一定时间（受层数影响）",
             "iconId": "icon_kjeragShip",
             "activeCount": 3,
             "effectId": "bondeffect_kjerag",
@@ -289874,7 +290744,7 @@
           "lateranoShip": {
             "bondId": "lateranoShip",
             "name": "拉特兰",
-            "desc": "【拉特兰】干员开启技能获得的<@ba.vup>弹药量</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>人>【拉特兰】干员每消耗1发弹药，所有【拉特兰】干员<@ba.vup>攻击力</>提升",
+            "desc": "【拉特兰】干员开启技能获得的<@ba.vup>弹药量</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【拉特兰】干员>【拉特兰】干员每消耗1发弹药，所有【拉特兰】干员<@ba.vup>攻击力</>提升",
             "iconId": "icon_lateranoShip",
             "activeCount": 3,
             "effectId": "bondeffect_laterano",
@@ -289940,7 +290810,7 @@
           "egirShip": {
             "bondId": "egirShip",
             "name": "阿戈尔",
-            "desc": "【阿戈尔】干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n战斗开始时，【阿戈尔】干员会<@ba.vup>吞噬</>身前一格干员对其造成<@ba.vdown>6000</>点物理伤害并获得其<@ba.vup>基础攻击力</>和<@ba.vup>阻挡数</>，使【阿戈尔】叠加等于被吞噬者等阶的<@ba.vup>盟约层数</>\n<在场<@autochess.dgreen>5</>人>前2名【阿戈尔】干员首次被击倒时立刻复活",
+            "desc": "【阿戈尔】干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n战斗开始时，【阿戈尔】干员会<@ba.vup>吞噬</>身前一格干员对其造成<@ba.vdown>6000</>点物理伤害并获得其<@ba.vup>基础攻击力</>和<@ba.vup>阻挡数</>，使【阿戈尔】叠加等于被吞噬者等阶的<@ba.vup>盟约层数</>\n<在场<@autochess.dgreen>5</>名不同【阿戈尔】干员>前2名【阿戈尔】干员首次被击倒时立刻复活",
             "iconId": "icon_egirShip",
             "activeCount": 3,
             "effectId": "bondeffect_egir",
@@ -290029,7 +290899,7 @@
           "preciShip": {
             "bondId": "preciShip",
             "name": "精准",
-            "desc": "高台干员<@ba.vup>攻击力</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>人>高台干员攻击无视一定的<@ba.vup>防御力</>和<@ba.vup>法术抗性</>，且攻击使目标失去特殊能力2秒",
+            "desc": "高台干员<@ba.vup>攻击力</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【精准】干员>高台干员攻击无视一定的<@ba.vup>防御力</>和<@ba.vup>法术抗性</>，且攻击使目标失去特殊能力2秒",
             "iconId": "icon_preciShip",
             "activeCount": 2,
             "effectId": "bondeffect_preci",
@@ -290072,7 +290942,7 @@
           "steadShip": {
             "bondId": "steadShip",
             "name": "坚守",
-            "desc": "所有干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>人>场上非【坚守】干员受到伤害时，所受伤害的<@ba.vup>40%</>由所有【坚守】干员<@ba.vup>平均承担</>",
+            "desc": "所有干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【坚守】干员>场上非【坚守】干员受到伤害时，所受伤害的<@ba.vup>40%</>由所有【坚守】干员<@ba.vup>平均承担</>",
             "iconId": "icon_steadShip",
             "activeCount": 2,
             "effectId": "bondeffect_stead",
@@ -290185,7 +291055,7 @@
           "indomShip": {
             "bondId": "indomShip",
             "name": "不屈",
-            "desc": "地面干员被击倒时，有概率立即<@ba.vup>重新部署</><@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>人>地面干员被击倒时使场上所有干员<@ba.vup>技力+5</>",
+            "desc": "地面干员被击倒时，有概率立即<@ba.vup>重新部署</><@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【不屈】干员>地面干员被击倒时使场上所有干员<@ba.vup>技力+5</>",
             "iconId": "icon_indomShip",
             "activeCount": 2,
             "effectId": "bondeffect_indom",
@@ -290263,7 +291133,7 @@
           "deputShip": {
             "bondId": "deputShip",
             "name": "助力",
-            "desc": "所有干员<@ba.vup>防御力</>提升<@autochess.gray>（受层数影响）</>，<@ba.vup>再部署时间</>减少\n休整期结束时，使当前所有已激活盟约层数<@ba.vup>+2</>\n<在场<@autochess.dgreen>3</>人>改为层数<@ba.vup>+4</>",
+            "desc": "所有干员<@ba.vup>防御力</>提升<@autochess.gray>（受层数影响）</>，<@ba.vup>再部署时间</>减少\n休整期结束时，使当前所有已激活盟约层数<@ba.vup>+2</>\n<在场<@autochess.dgreen>3</>名不同【助力】干员>改为层数<@ba.vup>+4</>",
             "iconId": "icon_deputShip",
             "activeCount": 2,
             "effectId": "bondeffect_deput",
@@ -309831,6 +310701,9 @@
     }
   },
   "activityItems": {
+    "act47side": [
+      "act47side_token_bottle"
+    ],
     "act1autochess": [
       "act1autochess_token_chess"
     ],
@@ -310340,6 +311213,10 @@
     "act11d7": [
       1597132800,
       1597953599
+    ],
+    "act47side": [
+      1764889200,
+      1766087999
     ],
     "act37sre": [
       1758268800,
@@ -317921,6 +318798,26 @@
       ],
       "picGroups": [],
       "startTs": 1764057600
+    },
+    {
+      "id": "dis_side_47",
+      "type": "ACTIVITY",
+      "funcId": "act47side",
+      "endTs": 1766087999,
+      "sortId": 134,
+      "itemId": "act47side_token_bottle",
+      "timeNodes": [
+        {
+          "title": "<未许之地>活动已开放",
+          "ts": 1764889200
+        },
+        {
+          "title": "\"逃离哥伦比亚\"内关卡已开放",
+          "ts": 1765526400
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1764889200
     }
   ],
   "actFunData": {
@@ -350499,6 +351396,27 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act47side": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4213_skybx",
+        "通关UR-4后可招募此干员",
+        "f1b431",
+        "-65,-23"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "dead43"
+    },
     "act1autochess": {
       "bigRewardType": "PIC_REWARD",
       "bigRewardParamList": [],

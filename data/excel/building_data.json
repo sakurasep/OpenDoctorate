@@ -14628,6 +14628,97 @@
           ]
         }
       ]
+    },
+    "char_4212_nasti": {
+      "charId": "char_4212_nasti",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd[011]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_formula_spd&cost_bd[100]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4214_cairn": {
+      "charId": "char_4214_cairn",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_all&lv[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            },
+            {
+              "buffId": "dorm_rec_all&lv[100]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "meet_spd&exchange[001]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4213_skybx": {
+      "charId": "char_4213_skybx",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_probability[1110]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "power_rec_spd[024]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -16017,6 +16108,21 @@
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd3",
       "sortId": 2302,
+      "buffColor": "#8fc31f",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "POWER",
+      "description": "进驻发电站时，无人机充能速度<@cc.vup>+20%</>",
+      "efficiency": 20,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "power_rec_spd[024]": {
+      "buffId": "power_rec_spd[024]",
+      "buffName": "合法窃电",
+      "buffIcon": "power",
+      "skillIcon": "bskill_pow_spd3",
+      "sortId": 2304,
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -18035,6 +18141,23 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "进驻制造站时，基建内（不包含副手及活动室使用者）每有1名<$cc.g.bs><@cc.kw>黑钢国际</></>干员（最多<@cc.kw>3</>名），<@cc.kw>贵金属</>类配方的生产力<@cc.vup>+2%</>，心情每小时消耗<@cc.vup>-0.15</>",
+      "efficiency": 0,
+      "targetGroupSortId": 1,
+      "targets": [
+        "F_GOLD"
+      ]
+    },
+    "manu_formula_spd&cost_bd[100]": {
+      "buffId": "manu_formula_spd&cost_bd[100]",
+      "buffName": "造价高昂",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_gold&rhine",
+      "sortId": 3705,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "进驻制造站时，基建内（不包含副手及活动室使用者）每有1名<$cc.g.rh><@cc.kw>莱茵生命</></>干员（最多<@cc.kw>5</>名），<@cc.kw>贵金属</>类配方的生产力<@cc.vup>+3%</>",
       "efficiency": 0,
       "targetGroupSortId": 1,
       "targets": [
@@ -20561,6 +20684,23 @@
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_evolve2",
       "sortId": 7529,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "进驻加工站加工<@cc.kw>精英材料</>时，副产品的产出概率提升<@cc.vup>75%</>",
+      "efficiency": 75,
+      "targetGroupSortId": 2,
+      "targets": [
+        "F_EVOLVE"
+      ]
+    },
+    "workshop_formula_probability[1110]": {
+      "buffId": "workshop_formula_probability[1110]",
+      "buffName": "过度发挥",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve3",
+      "sortId": 7531,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
@@ -23713,6 +23853,36 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "dorm_rec_all&lv[000]": {
+      "buffId": "dorm_rec_all&lv[000]",
+      "buffName": "睡前必听故事",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_rec_all&lvl1",
+      "sortId": 5415,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "进驻宿舍时，该宿舍内所有干员的心情每小时恢复<@cc.vup>+0.15</>（同种效果取最高）",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "dorm_rec_all&lv[100]": {
+      "buffId": "dorm_rec_all&lv[100]",
+      "buffName": "死前必做清单",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_rec_all&lv2",
+      "sortId": 5416,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "进驻宿舍时，该宿舍内所有干员的心情每小时恢复<@cc.vup>+0.15</>，同时当前宿舍每级为恢复效果额外<@cc.vup>+0.02</>（叠加后的最终值同种效果取最高）",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "dorm_rec_single&oneself[000]": {
       "buffId": "dorm_rec_single&oneself[000]",
       "buffName": "活泼",
@@ -25204,6 +25374,21 @@
       "buffIcon": "meeting",
       "skillIcon": "bskill_meet_exchange",
       "sortId": 6044,
+      "buffColor": "#dd653f",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "MEETING",
+      "description": "进驻会客室时，处于线索交流时线索搜集速度提升<@cc.vup>30%</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "meet_spd&exchange[001]": {
+      "buffId": "meet_spd&exchange[001]",
+      "buffName": "特殊渠道顾问",
+      "buffIcon": "meeting",
+      "skillIcon": "bskill_meet_exchange2",
+      "sortId": 6045,
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -93907,6 +94092,582 @@
         "enableRoomType": 4112,
         "quantity": 1
       },
+      "furni_cloudRestaurant_ceiling_01": {
+        "id": "furni_cloudRestaurant_ceiling_01",
+        "sortId": 2131,
+        "name": "“食神尊驾”",
+        "iconId": "furni_cloudRestaurant_ceiling_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILING",
+        "subType": "DEVICE_C",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_1",
+        "width": 4,
+        "depth": 3,
+        "height": 6,
+        "comfort": 135,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "没有搭载悬浮稳定器，也不具备防尘功能的食物运送装置，唯一的特点不过是拥有飞行气囊。\n连装载简单智能模块的小家伙都知道浮空是一种特权。如果想顺利获得食物，别把它跟“送餐的车”放在一起。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_shelf_01": {
+        "id": "furni_cloudRestaurant_shelf_01",
+        "sortId": 2132,
+        "name": "“飞天花生”",
+        "iconId": "furni_cloudRestaurant_shelf_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CABINET",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_4",
+        "width": 4,
+        "depth": 5,
+        "height": 9,
+        "comfort": 325,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "毫无疑问，“螺旋桨天堂”数量最多的设施是展示柜。\n原名是“沃尔沃特科钦斯基可互动单元式展示柜”——当然，自从费尔南发现它长得像一颗巨大的花生之后，就没人记得这个原名了。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_curtain_01": {
+        "id": "furni_cloudRestaurant_curtain_01",
+        "sortId": 2133,
+        "name": "抗/导辐射遮阳帘",
+        "iconId": "furni_cloudRestaurant_curtain_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLDECO",
+        "subType": "CURTAIN",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_4",
+        "width": 6,
+        "depth": 1,
+        "height": 10,
+        "comfort": 225,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "取决于销售的场合，号称能隔绝或者能传导来自星荚外的辐射的遮阳帘。\n有人坚信星荚外的辐射会引发矿石病，有人则认为它能够启迪智力。好在，对于商家而言，他们手里的金券没有区别。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_table_01": {
+        "id": "furni_cloudRestaurant_table_01",
+        "sortId": 2134,
+        "name": "“未来风向”边桌",
+        "iconId": "furni_cloudRestaurant_table_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_1",
+        "width": 3,
+        "depth": 3,
+        "height": 3,
+        "comfort": 165,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "造型迎合潮流、面积极小的木制边桌，乍一看并无特别之处。\n“你说，要是以后真的什么东西都能飞起来，我们还需要什么桌子？它存在一天，就代表人们离未来还远嘞！”",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_plant_01": {
+        "id": "furni_cloudRestaurant_plant_01",
+        "sortId": 2135,
+        "name": "待浮空种植单元",
+        "iconId": "furni_cloudRestaurant_plant_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "DEVICE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_1",
+        "width": 7,
+        "depth": 4,
+        "height": 10,
+        "comfort": 445,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "能监控湿度和土壤营养含量，自动调节光照的植物培育装置。\n“天空生活展会”后，“把树种到天上”成了风靡一时的口号。不过市面上的厂商只能用透明材料将花盆架离地面，做个样子，凑凑热闹。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_sofa_01": {
+        "id": "furni_cloudRestaurant_sofa_01",
+        "sortId": 2136,
+        "name": "无重力海绵沙发",
+        "iconId": "furni_cloudRestaurant_sofa_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "SOFA",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_1",
+        "width": 5,
+        "depth": 5,
+        "height": 4,
+        "comfort": 250,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "符合人体工学，用高级合成海绵填充制成的时尚沙发。\n闭上双眼，向后倾倒，享受飘浮于星荚之外的无重力体验。不用再担心贫乏与饥饿，战争和纷乱，甚至不用担心氧气的问题——嗯，不用。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_plant_02": {
+        "id": "furni_cloudRestaurant_plant_02",
+        "sortId": 2137,
+        "name": "精品果蔬矩阵",
+        "iconId": "furni_cloudRestaurant_plant_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CABINET",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_2",
+        "width": 4,
+        "depth": 2,
+        "height": 10,
+        "comfort": 225,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "搭载植物用紫外线灯，为保证食材鲜度精心设计的种植架。\n矩阵变形时会旋转种植盆，让蔬果更快成熟。注意，不要趁机用它来练习武术技巧，也请切记别拿错食材。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_ceilingLight_01": {
+        "id": "furni_cloudRestaurant_ceilingLight_01",
+        "sortId": 2138,
+        "name": "投影仪式望远镜",
+        "iconId": "furni_cloudRestaurant_ceilingLight_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILINGLAMP",
+        "subType": "NONE",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_3",
+        "width": 11,
+        "depth": 6,
+        "height": 4,
+        "comfort": 230,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "娜斯提研发的大型望远镜。不同于一般的望远镜，它无需使用者把眼睛凑到目镜上去，而是可以直接把天外的景象投影在地面上。\n每个在天上的人，都有些东西希望地上的人能看到，不是吗？",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_table_02": {
+        "id": "furni_cloudRestaurant_table_02",
+        "sortId": 2139,
+        "name": "飞空艇餐桌",
+        "iconId": "furni_cloudRestaurant_table_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_2",
+        "width": 12,
+        "depth": 5,
+        "height": 5,
+        "comfort": 535,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "从飞空艇结构得到启发，用飞行器材料制成的独特餐桌。它包容、创新、走在时代前沿，如一位真正的哥伦比亚人。\n这张桌子永远不知道自己身体里装的稀奇古怪的小玩意儿到底是什么，但它们值得存在。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_shelf_02": {
+        "id": "furni_cloudRestaurant_shelf_02",
+        "sortId": 2140,
+        "name": "打蛋器停机坪",
+        "iconId": "furni_cloudRestaurant_shelf_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLDECO",
+        "subType": "SHELF",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_3",
+        "width": 5,
+        "depth": 2,
+        "height": 3,
+        "comfort": 100,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "“蛋液飞旋”牌飞行打蛋器配套的停机坪。打蛋器完成工作后，会自动飞回来充电。\n费尔南上次讲解这款打蛋器时，它飞起来甩了游客一脸蛋液。她拼了命才让游客们相信那些蛋液同时也是保养精华。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_carpet_01": {
+        "id": "furni_cloudRestaurant_carpet_01",
+        "sortId": 2141,
+        "name": "“怪圈”",
+        "iconId": "furni_cloudRestaurant_carpet_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CARPET",
+        "subType": "NONE",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_2",
+        "width": 15,
+        "depth": 8,
+        "height": 1,
+        "comfort": 160,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "仿照汉特弗谢尔市郊荒野上一夜之间突然出现的巨型几何图案制成的硬质地毯。\n“无论荒野怪圈是不是人为的玩笑，我们都应该思考一个问题：如果真的存在泰拉外生物，它们对我们，是否有诉求？”",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_clock_01": {
+        "id": "furni_cloudRestaurant_clock_01",
+        "sortId": 2142,
+        "name": "“立体主义”吊钟",
+        "iconId": "furni_cloudRestaurant_clock_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILING",
+        "subType": "DECORATION_C",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_3",
+        "width": 2,
+        "depth": 3,
+        "height": 5,
+        "comfort": 75,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "六根长短各异的指针在球面上立体地旋转，没人知道它们是怎么指示时间的。\n当天空也被踩在脚下，人类的疆域从此变得立体，此谓新时代的“立体主义”。至于指示时间？它不是只需指向未来就够了吗？",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_bar_01": {
+        "id": "furni_cloudRestaurant_bar_01",
+        "sortId": 2143,
+        "name": "朴素备餐吧台",
+        "iconId": "furni_cloudRestaurant_bar_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_2",
+        "width": 9,
+        "depth": 2,
+        "height": 4,
+        "comfort": 230,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "摆放着番茄汤冻干、转子胡椒罐以及流体悬浮杯的备餐吧台。\n厨具和食物都变得无比陌生，但无论未来会变成什么样子，人们依旧重视进食的乐趣。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_shelf_03": {
+        "id": "furni_cloudRestaurant_shelf_03",
+        "sortId": 2144,
+        "name": "“各退一步”",
+        "iconId": "furni_cloudRestaurant_shelf_03",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CABINET",
+        "subType": "NONE",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_3",
+        "width": 4,
+        "depth": 2,
+        "height": 6,
+        "comfort": 130,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "存放着精美餐具的墙架，高登每次与人商谈重要的合作事宜，才会用到这上面的餐具。\n为了对高登表示最基本的尊重，娜斯提会把压缩饼干放在高登精美的超轻陶瓷餐盘上吃。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_diners_01": {
+        "id": "furni_cloudRestaurant_diners_01",
+        "sortId": 2145,
+        "name": "“送餐的车”",
+        "iconId": "furni_cloudRestaurant_diners_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "CATERING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_3",
+        "width": 3,
+        "depth": 3,
+        "height": 6,
+        "comfort": 175,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "具有低摩擦万向轮、液压悬挂系统，以及自适应防尘遮罩的送餐车，能有效防止食物在运送过程中翻倒或染污。\n谁在乎呢？只要它的姊妹型号还有飞行功能，它在人们的印象里就注定只配是“送餐的车”。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_stool_01": {
+        "id": "furni_cloudRestaurant_stool_01",
+        "sortId": 2146,
+        "name": "行星转椅",
+        "iconId": "furni_cloudRestaurant_stool_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_2",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 85,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "毫不尊重使用者意愿，只能遵照固定转速旋转的高脚椅。\n“既能自转，又能公转，一把椅子竟能如此完美地模仿行星运行的状态，你还想要什么呢！什么，你想让它停下来？”",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 2,
+        "enableRoomType": 4112,
+        "quantity": 2
+      },
+      "furni_cloudRestaurant_wallpaper_01": {
+        "id": "furni_cloudRestaurant_wallpaper_01",
+        "sortId": 2147,
+        "name": "“真的天空”",
+        "iconId": "furni_cloudRestaurant_wallpaper_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLPAPER",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "WALL",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_4",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "由极度复杂的玻璃透镜组构成的墙壁，如同潜望镜一般，真的能映出天上的景象。\n什么“壁纸”，什么“全景显示屏”？高登拒绝用这些方式来模拟云间的景观：“好像虚假的天空我们还没看够似的。”",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_cloudRestaurant_floor_01": {
+        "id": "furni_cloudRestaurant_floor_01",
+        "sortId": 2148,
+        "name": "你还看地板？",
+        "iconId": "furni_cloudRestaurant_floor_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "FLOOR",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "FLOOR",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_cloudRestaurant",
+        "groupId": "furni_set_cloudRestaurant_4",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "这块地板存在的唯一意义是免得有人从高空掉下去。\n“拜托，这里可是‘螺旋桨天堂’，真的有人低头往地上看，还在乎地板是什么花纹吗？”",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
       "furni_oct1st_deckChair_01": {
         "id": "furni_oct1st_deckChair_01",
         "sortId": 9998,
@@ -101257,6 +102018,38 @@
         "comfort": 75,
         "usage": "能够用来装扮宿舍、活动室与会客室，可提高前两者的氛围",
         "description": "可以帮你收藏所有人迹罕至的景色，只等你出发。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4144,
+        "quantity": 0
+      },
+      "furni_terracommericials_Braintet_01": {
+        "id": "furni_terracommericials_Braintet_01",
+        "sortId": 11106,
+        "name": "饰牌《清爽》",
+        "iconId": "furni_terracommericials_Braintet_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLDECO",
+        "subType": "PLAQUE",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "能够用来装扮宿舍、活动室与会客室，可提高前两者的氛围",
+        "description": "除了脑子以外，它什么也没有。",
         "obtainApproach": "活动获得",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -121234,7 +122027,7 @@
         "enableRoomType": 4112,
         "sortId": 103,
         "name": "“宝宝摇篮”号船舱",
-        "themeType": "EVNET",
+        "themeType": "EVENT",
         "desc": "根据棘刺的描述复现的“宝宝摇篮”号船舱内景。盐漠虽然一片苍白了无生机，但船舱内的生活总是多彩有趣的。",
         "quickSetup": [
           {
@@ -121377,7 +122170,7 @@
         "enableRoomType": 4112,
         "sortId": 104,
         "name": "鼎丰楼茶室",
-        "themeType": "EVNET",
+        "themeType": "EVENT",
         "desc": "根据煌的描述复现的百灶鼎丰楼茶室。百灶酒楼里有专供饮茶的区域，令煌干员印象深刻。“坐在里面喝一口茶，感觉能喝出六七八种滋味来。”",
         "quickSetup": [
           {
@@ -124077,6 +124870,156 @@
           "furni_winterHouse_carpet_02",
           "furni_winterHouse_wallpaper_01",
           "furni_winterHouse_floor_01"
+        ]
+      },
+      "furni_set_cloudRestaurant": {
+        "id": "furni_set_cloudRestaurant",
+        "enableRoomType": 4112,
+        "sortId": 121,
+        "name": "天空生活体验舱",
+        "themeType": "EVENT",
+        "desc": "根据哥伦比亚“螺旋桨天堂”浮空实验舱复刻的房间。最尖端的装置往往拥有别出心裁的外形，请不要擅自揣测它们的用途。参观者务必仔细阅读门口派发的说明手册，若因操作不当造成安全事故，请自行——或让您的保险公司负责。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_cloudRestaurant_ceiling_01",
+            "pos0": 6,
+            "pos1": 5,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_shelf_01",
+            "pos0": 0,
+            "pos1": 1,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_curtain_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_table_01",
+            "pos0": 7,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_plant_01",
+            "pos0": 7,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_sofa_01",
+            "pos0": 10,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_plant_02",
+            "pos0": 15,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_ceilingLight_01",
+            "pos0": 15,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_table_02",
+            "pos0": 16,
+            "pos1": 2,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_shelf_02",
+            "pos0": 25,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_carpet_01",
+            "pos0": 15,
+            "pos1": 1,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_clock_01",
+            "pos0": 28,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_bar_01",
+            "pos0": 25,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_shelf_03",
+            "pos0": 30,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_diners_01",
+            "pos0": 31,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_stool_01",
+            "pos0": 21,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_stool_01",
+            "pos0": 25,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_cloudRestaurant_floor_01",
+            "pos0": 0,
+            "pos1": 10,
+            "dir": 0
+          }
+        ],
+        "groups": [
+          "furni_set_cloudRestaurant_1",
+          "furni_set_cloudRestaurant_2",
+          "furni_set_cloudRestaurant_3",
+          "furni_set_cloudRestaurant_4"
+        ],
+        "furnitures": [
+          "furni_cloudRestaurant_ceiling_01",
+          "furni_cloudRestaurant_shelf_01",
+          "furni_cloudRestaurant_curtain_01",
+          "furni_cloudRestaurant_table_01",
+          "furni_cloudRestaurant_plant_01",
+          "furni_cloudRestaurant_sofa_01",
+          "furni_cloudRestaurant_plant_02",
+          "furni_cloudRestaurant_ceilingLight_01",
+          "furni_cloudRestaurant_table_02",
+          "furni_cloudRestaurant_shelf_02",
+          "furni_cloudRestaurant_carpet_01",
+          "furni_cloudRestaurant_clock_01",
+          "furni_cloudRestaurant_bar_01",
+          "furni_cloudRestaurant_shelf_03",
+          "furni_cloudRestaurant_diners_01",
+          "furni_cloudRestaurant_stool_01",
+          "furni_cloudRestaurant_wallpaper_01",
+          "furni_cloudRestaurant_floor_01"
         ]
       },
       "furniM_set_basicRoom": {
@@ -131430,6 +132373,64 @@
           "furni_winterHouse_stair_01",
           "furni_winterHouse_carpet_02"
         ]
+      },
+      "furni_set_cloudRestaurant_1": {
+        "id": "furni_set_cloudRestaurant_1",
+        "sortId": 1,
+        "name": "浮空生活区",
+        "themeId": "furni_set_cloudRestaurant",
+        "comfort": 240,
+        "count": 4,
+        "furniture": [
+          "furni_cloudRestaurant_ceiling_01",
+          "furni_cloudRestaurant_table_01",
+          "furni_cloudRestaurant_plant_01",
+          "furni_cloudRestaurant_sofa_01"
+        ]
+      },
+      "furni_set_cloudRestaurant_2": {
+        "id": "furni_set_cloudRestaurant_2",
+        "sortId": 2,
+        "name": "未来餐饮区",
+        "themeId": "furni_set_cloudRestaurant",
+        "comfort": 330,
+        "count": 5,
+        "furniture": [
+          "furni_cloudRestaurant_plant_02",
+          "furni_cloudRestaurant_table_02",
+          "furni_cloudRestaurant_carpet_01",
+          "furni_cloudRestaurant_bar_01",
+          "furni_cloudRestaurant_stool_01"
+        ]
+      },
+      "furni_set_cloudRestaurant_3": {
+        "id": "furni_set_cloudRestaurant_3",
+        "sortId": 3,
+        "name": "先驱会客区",
+        "themeId": "furni_set_cloudRestaurant",
+        "comfort": 160,
+        "count": 5,
+        "furniture": [
+          "furni_cloudRestaurant_ceilingLight_01",
+          "furni_cloudRestaurant_shelf_02",
+          "furni_cloudRestaurant_clock_01",
+          "furni_cloudRestaurant_shelf_03",
+          "furni_cloudRestaurant_diners_01"
+        ]
+      },
+      "furni_set_cloudRestaurant_4": {
+        "id": "furni_set_cloudRestaurant_4",
+        "sortId": 4,
+        "name": "展览体验区",
+        "themeId": "furni_set_cloudRestaurant",
+        "comfort": 215,
+        "count": 4,
+        "furniture": [
+          "furni_cloudRestaurant_shelf_01",
+          "furni_cloudRestaurant_curtain_01",
+          "furni_cloudRestaurant_wallpaper_01",
+          "furni_cloudRestaurant_floor_01"
+        ]
       }
     },
     "types": {
@@ -131535,7 +132536,7 @@
         "type": "SEATING",
         "sortId": 2,
         "countLimit": -1,
-        "enableRoomType": 4112
+        "enableRoomType": 4144
       },
       "BARSTOOL": {
         "subType": "BARSTOOL",
@@ -131719,7 +132720,7 @@
         "type": "DECORATION",
         "sortId": 9,
         "countLimit": -1,
-        "enableRoomType": 4112
+        "enableRoomType": 4144
       },
       "BOARD_D": {
         "subType": "BOARD_D",
@@ -131775,7 +132776,7 @@
         "type": "DECORATION",
         "sortId": 16,
         "countLimit": -1,
-        "enableRoomType": 4112
+        "enableRoomType": 4144
       },
       "DECORATION_C": {
         "subType": "DECORATION_C",

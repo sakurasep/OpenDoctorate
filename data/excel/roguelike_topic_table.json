@@ -1379,7 +1379,7 @@
       "char_4071_peper": {
         "charId": "char_4071_peper",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_peper",
         "recruitType": "FREE"
       },
       "char_148_nearl": {
@@ -2327,7 +2327,7 @@
       "char_4139_papyrs": {
         "charId": "char_4139_papyrs",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_papyrs",
         "recruitType": "FREE"
       },
       "char_4138_narant": {
@@ -2507,7 +2507,7 @@
       "char_4179_monstr": {
         "charId": "char_4179_monstr",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_monstr",
         "recruitType": "FREE"
       },
       "char_1041_angel2": {
@@ -2682,6 +2682,24 @@
         "charId": "char_1045_svash2",
         "canBeFree": true,
         "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4213_skybx": {
+        "charId": "char_4213_skybx",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4214_cairn": {
+        "charId": "char_4214_cairn",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4212_nasti": {
+        "charId": "char_4212_nasti",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_nasti",
         "recruitType": "FREE"
       }
     }
@@ -200894,7 +200912,7 @@
           "displayUnlockMonth": 1,
           "acquireTitle": "可获取主题场景",
           "purchaseTitle": "主题场景",
-          "displayName": "主题场景",
+          "displayName": "游园",
           "displayDiscription": "池平树古，不见描碑之人。桐间露落，方觉两别之怀。",
           "bpLevelId": "bp_level_140",
           "itemBundle": null,
@@ -201023,7 +201041,7 @@
           "paramList": [
             "10"
           ],
-          "desc": "累计在诡意行商或岁陵行商处购买过10件商品",
+          "desc": "累计在诡意行商或易与处购买过10件商品",
           "tokenRewardNum": 125
         },
         {
@@ -221943,14 +221961,14 @@
               "key": "char_attribute_add",
               "blackboard": [
                 {
-                  "key": "cost",
-                  "value": -10.0,
-                  "valueStr": null
-                },
-                {
                   "key": "selector.profession",
                   "value": 0.0,
                   "valueStr": "token"
+                },
+                {
+                  "key": "cost",
+                  "value": -10.0,
+                  "valueStr": null
                 }
               ]
             }
@@ -257622,7 +257640,7 @@
         "choice_ro5_end3_1": {
           "id": "choice_ro5_end3_1",
           "title": "将其他人送出岁陵",
-          "description": "我们去去就回\r\n<@ro5.lose>遁入长卷的干员将暂时离开，仅有遁入长卷的干员可以参与明灭顶的最终战斗</>",
+          "description": "我们去去就回\r\n<@ro5.lose>未遁入长卷的干员将暂时离开，仅有遁入长卷的干员可以参与明灭顶的最终战斗</>",
           "lockedCoverDesc": "",
           "type": "EXPEDITION_RETURN_ALL",
           "leftDecoType": "NONE",
@@ -272968,7 +272986,7 @@
           "id": "rogue_5_relic_fight_5",
           "name": "赏善郎",
           "description": "天师府学徒自主研制的考校辅助器。答对问题时什么也得不到。答错时......还是别尝试了吧。",
-          "usage": "干员触发闪避或抵挡后，下次攻击造成的伤害+100%",
+          "usage": "我方单位触发闪避或抵挡后，下次攻击造成的伤害+100%",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_relic_fight_5",
           "itemIconGroupId": null,
@@ -273019,7 +273037,7 @@
           "id": "rogue_5_relic_fight_8",
           "name": "“萤灯映牍”",
           "description": "校舍窗边，家乡盆景渐枯，而书生不忍丢弃。终有一日，盆中草不见踪影，而盆上萤火萦绕，替他照亮了书页。",
-          "usage": "敌方单位被击倒时，使周围的我方干员和召唤物回复300点生命值",
+          "usage": "敌方单位被击倒时，使周围的我方单位回复300点生命值",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_relic_fight_8",
           "itemIconGroupId": null,

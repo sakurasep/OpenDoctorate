@@ -91648,6 +91648,1469 @@
       "advancedRuneIdList2": [],
       "useSpecialSizeMapPreview": false
     },
+    "act47side_st01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_01-10",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_st01",
+      "levelId": null,
+      "zoneId": "act47side_zone1",
+      "code": "UR-ST-1",
+      "name": "倒映河水之中",
+      "description": "失踪的故人，离家的女妖。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act47side_01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act47side_st01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_01",
+      "levelId": "Activities/act47side/level_act47side_01",
+      "zoneId": "act47side_zone1",
+      "code": "UR-1",
+      "name": "嘈杂的天空",
+      "description": "在最靠近星荚的地方占个位置吧，小心，别被那些花里胡哨的广告牌砸到。\\n<@lv.item><“可浮空区块”></>存在浮力时可浮空，置于其中的单位可以在浮空时阻挡空中敌人",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "USUAL",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act47side_tr01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act47side_01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_tr01",
+      "levelId": "Activities/act47side/level_act47side_tr01",
+      "zoneId": "act47side_zone1",
+      "code": "UR-TR-1",
+      "name": "高空适应症",
+      "description": "一瓶汽水，一本宣传手册，还有一颗躁动着想长出翅膀的心。\\n<@lv.item><“可浮空区块”></>存在浮力时可浮空，置于其中的单位可以在浮空时阻挡空中敌人",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": true,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "TRAINING",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act47side_02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act47side_tr01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_02",
+      "levelId": "Activities/act47side/level_act47side_02",
+      "zoneId": "act47side_zone1",
+      "code": "UR-2",
+      "name": "擅闯者",
+      "description": "“螺旋桨天堂”愿意接受一切“意外”，只要它们能带来丰硕的科研成果，只要它们来自哥伦比亚。\\n<@lv.item><“可浮空区块”></>存在浮力时可浮空，置于其中的单位可以在浮空时阻挡空中敌人",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "LV.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "USUAL",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act47side_03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act47side_02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_03",
+      "levelId": "Activities/act47side/level_act47side_03",
+      "zoneId": "act47side_zone1",
+      "code": "UR-3",
+      "name": "跌落保护",
+      "description": "最新型的飞行器总是不好操控？多摔它几次。生产商会解决您的问题，或者被问题解决。\\n<@lv.item><“可浮空区块”></>存在浮力时可浮空，置于其中的单位可以在浮空时阻挡空中敌人",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "精英1 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act47side_04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act47side_03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_04",
+      "levelId": "Activities/act47side/level_act47side_04",
+      "zoneId": "act47side_zone1",
+      "code": "UR-4",
+      "name": "晴空湍流",
+      "description": "睁开眼睛，忍住眩晕和恶心，颠簸的是我们而非天空，没理由讨厌它。\\n<@lv.item><“可浮空区块”></>存在浮力时可浮空，置于其中的单位可以在浮空时阻挡空中敌人",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "精英1 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "USUAL",
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act47side_st02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act47side_04",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_st02",
+      "levelId": null,
+      "zoneId": "act47side_zone1",
+      "code": "UR-ST-2",
+      "name": "试飞日",
+      "description": "一颗种子，来自动荡的生活，抽枝于天际。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act47side_05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act47side_st02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_05",
+      "levelId": "Activities/act47side/level_act47side_05",
+      "zoneId": "act47side_zone1",
+      "code": "UR-5",
+      "name": "注目礼",
+      "description": "该看向哪里，空中飘浮着的幻想还是眼前面色不善的指挥者？\\n<@lv.item><“可浮空区块”></>存在浮力时可浮空，置于其中的单位可以在浮空时阻挡空中敌人",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "精英1 LV.30",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "USUAL",
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act47side_06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act47side_05",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_06",
+      "levelId": "Activities/act47side/level_act47side_06",
+      "zoneId": "act47side_zone1",
+      "code": "UR-6",
+      "name": "交叉航线",
+      "description": "擦肩而过时，它们对视了一眼，尚不知对方为何启程，还能飞行多久......\\n<@lv.item><“可浮空区块”></>存在浮力时可浮空，置于其中的单位可以在浮空时阻挡空中敌人",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "精英1 LV.50",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30033",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALMOST",
+            "type": "MATERIAL",
+            "id": "30033",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act47side_07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act47side_06",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_07",
+      "levelId": "Activities/act47side/level_act47side_07",
+      "zoneId": "act47side_zone1",
+      "code": "UR-7",
+      "name": "停机坪",
+      "description": "而终点只有一个，这是规则。\\n<@lv.item><“可浮空区块”></>存在浮力时可浮空，置于其中的单位可以在浮空时阻挡空中敌人",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "精英1 LV.60",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "31023",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALMOST",
+            "type": "MATERIAL",
+            "id": "31023",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act47side_08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act47side_07",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_08",
+      "levelId": "Activities/act47side/level_act47side_08",
+      "zoneId": "act47side_zone1",
+      "code": "UR-8",
+      "name": "栖脚地",
+      "description": "一只羽兽在枝头磨喙，它侧头看这片大地，大地上似乎也有人在看它。\\n<@lv.item><“可浮空区块”></>存在浮力时可浮空，置于其中的单位可以在浮空时阻挡空中敌人",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "精英2 LV.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "31033",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act47side_token_bottle",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALMOST",
+            "type": "MATERIAL",
+            "id": "31033",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act47side_st03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act47side_08",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act47side_st03",
+      "levelId": null,
+      "zoneId": "act47side_zone1",
+      "code": "UR-ST-3",
+      "name": "复航",
+      "description": "几把空椅子，一场讨论会。",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_UR_platform",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act47side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
     "act1autochess_m01": {
       "stageType": "ACTIVITY",
       "difficulty": "NORMAL",
@@ -346936,6 +348399,18 @@
       "name": "幸运宝座",
       "description": "置于其中的干员可以吸收“某种天命”",
       "isFunctional": true
+    },
+    "tile_balloon": {
+      "tileKey": "tile_balloon",
+      "name": "“可浮空区块”",
+      "description": "浮空时置于其中的我方单位可以阻挡空中敌人",
+      "isFunctional": true
+    },
+    "tile_balloon_fbd": {
+      "tileKey": "tile_balloon_fbd",
+      "name": "“可浮空区块”",
+      "description": "浮空时置于其中的我方单位可以阻挡空中敌人",
+      "isFunctional": true
     }
   },
   "forceOpenTable": {
@@ -554860,6 +556335,54 @@
       "startTs": 1715155200,
       "endTs": -1
     },
+    "act47side_st01": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
+    "act47side_01": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
+    "act47side_tr01": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
+    "act47side_02": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
+    "act47side_03": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
+    "act47side_04": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
+    "act47side_st02": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
+    "act47side_05": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
+    "act47side_06": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
+    "act47side_07": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
+    "act47side_08": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
+    "act47side_st03": {
+      "startTs": 1764889200,
+      "endTs": 1766087999
+    },
     "act1autochess_m01": {
       "startTs": 1763107200,
       "endTs": 1765483199
@@ -565961,6 +567484,16 @@
           "unlockStageId": "main_01-10",
           "relevantStorySetId": "setId_ssLine_act25side",
           "mainlineSplitData": null
+        },
+        "ssLine_act47side": {
+          "locationId": "ssLine_act47side",
+          "locationType": "STORY_SET",
+          "sortId": 7040,
+          "startTime": 0,
+          "presentStageId": "main_01-10",
+          "unlockStageId": "main_01-10",
+          "relevantStorySetId": "setId_ssLine_act47side",
+          "mainlineSplitData": null
         }
       }
     },
@@ -567642,6 +569175,37 @@
         ],
         "reopenActivityId": "act25sre",
         "retroActivityId": "permanent_sub_5_Lone_Trail",
+        "isRecommended": false,
+        "recommendHideStageId": null,
+        "overrideStageList": null
+      },
+      "collectData": null
+    },
+    "setId_ssLine_act47side": {
+      "storySetId": "setId_ssLine_act47side",
+      "storySetType": "SS",
+      "sortByYear": 7,
+      "sortWithinYear": 6,
+      "kvImageId": "kv_unrealized_realities",
+      "titleImageId": "title_unrealized_realities",
+      "haveVideoToPlay": false,
+      "backgroundId": null,
+      "gameMusicId": "music_3in1bg_act47side",
+      "coreRewardType": "CHAR",
+      "coreRewardId": "char_4213_skybx",
+      "relevantActivityId": "act47side",
+      "mainlineData": null,
+      "ssData": {
+        "name": "未许之地",
+        "desc": "一座园区，两层结构，数百家企业，上千个项目，\n首届“天空生活展会”即将在“螺旋桨天堂”拉开帷幕，\n哥伦比亚的下一场大拓荒，直指天空。\n但在《晚安，克丽斯腾》激昂的电音嘶吼之中，\n曾经万众瞩目的莱茵，已经悄然失声。\n而在由火箭与热气球汇成的哥伦比亚开拓狂潮之中，\n一位格格不入的女妖，将直面梦的起点。",
+        "backgroundId": "storybg_unrealized_realities",
+        "tags": [
+          "tag_12",
+          "tag_16",
+          "tag_15"
+        ],
+        "reopenActivityId": null,
+        "retroActivityId": null,
         "isRecommended": false,
         "recommendHideStageId": null,
         "overrideStageList": null

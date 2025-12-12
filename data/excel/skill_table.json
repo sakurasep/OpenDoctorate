@@ -335413,6 +335413,42 @@
       }
     ]
   },
+  "sktok_supctl_1": {
+    "skillId": "sktok_supctl_1",
+    "iconId": "sktok_supctl",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "冷控处理",
+        "rangeId": "3-13",
+        "description": "技能开启时自身流失5%的生命，朝一名敌人发射一颗寒冰弹，对半径2以内的敌人造成持续5秒的寒冷效果",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_supctl_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "cold",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "hp_ratio",
+            "value": 0.05,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
   "sktok_dhtl_1": {
     "skillId": "sktok_dhtl_1",
     "iconId": "sktok_dhtl",

@@ -14719,6 +14719,96 @@
           ]
         }
       ]
+    },
+    "char_4056_titi": {
+      "charId": "char_4056_titi",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_probability[118]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            },
+            {
+              "buffId": "workshop_formula_probability[128]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost3[600]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_1022_flwr2": {
+      "charId": "char_1022_flwr2",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_all[029]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_all&tired[100]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4166_varkis": {
+      "charId": "char_4166_varkis",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_meeting&mp_cost[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            },
+            {
+              "buffId": "control_meeting&mp_cost[100]",
+              "cond": {
+                "phase": "PHASE_1",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
     }
   },
   "buffs": {
@@ -15063,6 +15153,36 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "进驻控制中枢时，当<@cc.kw>伊内丝</>入驻会客室时，会客室线索搜集速度<@cc.vup>+5%</>；当<@cc.kw>赫德雷</>入驻贸易站时，赫德雷所在贸易站订单上限<@cc.vup>+2</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_meeting&mp_cost[000]": {
+      "buffId": "control_meeting&mp_cost[000]",
+      "buffName": "英雄的骄傲·α",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_c_minos",
+      "sortId": 1405,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "进驻控制中枢时，基建内（不包含副手及活动室使用者）每有1名<$cc.g.minos><@cc.kw>米诺斯</></>干员，会客室线索搜集速度<@cc.vup>+4%</>（最多<@cc.vup>+20%</>，同种效果取最高）；当与<$cc.g.sargon><@cc.kw>萨尔贡</></>干员进驻控制中枢一起工作时，自身心情每小时消耗<@cc.vdown>+0.02</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_meeting&mp_cost[100]": {
+      "buffId": "control_meeting&mp_cost[100]",
+      "buffName": "英雄的骄傲·β",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_c_minos2",
+      "sortId": 1405,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "进驻控制中枢时，基建内（不包含副手及活动室使用者）每有1名<$cc.g.minos><@cc.kw>米诺斯</></>干员，会客室线索搜集速度<@cc.vup>+5%</>（最多<@cc.vup>+25%</>，同种效果取最高）；当与<$cc.g.sargon><@cc.kw>萨尔贡</></>干员进驻控制中枢一起工作时，自身心情每小时消耗<@cc.vdown>+0.02</>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -20304,6 +20424,23 @@
         "F_EVOLVE"
       ]
     },
+    "workshop_formula_cost3[600]": {
+      "buffId": "workshop_formula_cost3[600]",
+      "buffName": "与历史对话",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve_cost3",
+      "sortId": 7530,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "进驻加工站加工<@cc.kw>精英材料</>时，心情消耗为<@cc.kw>8</>的配方全部<@cc.vup>-4</>心情消耗",
+      "efficiency": 0,
+      "targetGroupSortId": 2,
+      "targets": [
+        "F_EVOLVE"
+      ]
+    },
     "workshop_formula_cost3[220]": {
       "buffId": "workshop_formula_cost3[220]",
       "buffName": "选矿学",
@@ -20996,6 +21133,40 @@
       "roomType": "WORKSHOP",
       "description": "进驻加工站加工<@cc.kw>精英材料</>时，副产品的产出概率提升<@cc.vup>75%</>",
       "efficiency": 75,
+      "targetGroupSortId": 2,
+      "targets": [
+        "F_EVOLVE"
+      ]
+    },
+    "workshop_formula_probability[118]": {
+      "buffId": "workshop_formula_probability[118]",
+      "buffName": "修旧如旧·α",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve2",
+      "sortId": 7526,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "进驻加工站加工<@cc.kw>精英材料</>时，副产品的产出概率提升<@cc.vup>75%</>",
+      "efficiency": 75,
+      "targetGroupSortId": 2,
+      "targets": [
+        "F_EVOLVE"
+      ]
+    },
+    "workshop_formula_probability[128]": {
+      "buffId": "workshop_formula_probability[128]",
+      "buffName": "修旧如旧·β",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve3",
+      "sortId": 7536,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "进驻加工站加工<@cc.kw>精英材料</>时，副产品的产出概率提升<@cc.vup>80%</>",
+      "efficiency": 80,
       "targetGroupSortId": 2,
       "targets": [
         "F_EVOLVE"
@@ -24333,6 +24504,21 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "dorm_rec_all[029]": {
+      "buffId": "dorm_rec_all[029]",
+      "buffName": "沉静心灵",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_all2",
+      "sortId": 5426,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "进驻宿舍时，该宿舍内所有干员的心情每小时恢复<@cc.vup>+0.15</>（同种效果取最高）",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "dorm_bd_num[000]": {
       "buffId": "dorm_bd_num[000]",
       "buffName": "无声共鸣",
@@ -24374,6 +24560,21 @@
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复<@cc.vup>+0.15</>，同时该宿舍内心情<@cc.vup>18</>以下的干员恢复效果额外<@cc.vup>+0.1</>（同种效果取最高）",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "dorm_rec_all&tired[100]": {
+      "buffId": "dorm_rec_all&tired[100]",
+      "buffName": "净化呼吸",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_all_tired2",
+      "sortId": 5337,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "进驻宿舍时，该宿舍内心情<@cc.vup>20</>以下的干员恢复效果额外<@cc.vup>+0.1</>（同种效果取最高）",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -94668,6 +94869,550 @@
         "enableRoomType": 4112,
         "quantity": 1
       },
+      "furni_minosMed_column_01": {
+        "id": "furni_minosMed_column_01",
+        "sortId": 2149,
+        "name": "石柱隔断",
+        "iconId": "furni_minosMed_column_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "PARTITION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 8,
+        "depth": 2,
+        "height": 10,
+        "comfort": 390,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "坚实的大理石隔断墙，采用了米诺斯神殿的经典设计风格。\n莱娜还记得许多年前，里底娅从花园外墙后露出半张脸看向自己的样子，那种神情，现在再也无处寻得了。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_ceilingLight_01": {
+        "id": "furni_minosMed_ceilingLight_01",
+        "sortId": 2150,
+        "name": "“绽放之光”",
+        "iconId": "furni_minosMed_ceilingLight_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILINGLAMP",
+        "subType": "LIGHT",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 3,
+        "depth": 1,
+        "height": 5,
+        "comfort": 65,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "以米诺斯常见的白色花朵为主题的小型吊顶灯具。\n时常有来接受治疗的孩子好奇地问花儿的名称，莱娜会温柔地告诉他们答案。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_ceilingBell_01": {
+        "id": "furni_minosMed_ceilingBell_01",
+        "sortId": 2151,
+        "name": "颂礼之钟",
+        "iconId": "furni_minosMed_ceilingBell_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILING",
+        "subType": "DEVICE_C",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 7,
+        "depth": 3,
+        "height": 5,
+        "comfort": 175,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "天花板中央的装饰用铜钟，连接钟舌的长绳上挂有星形坠饰。\n曾经为鼓舞人心的传说而鸣响的摆钟，如今静静守望着雅赛努斯的晨曦。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_desk_01": {
+        "id": "furni_minosMed_desk_01",
+        "sortId": 2152,
+        "name": "崇敬之台",
+        "iconId": "furni_minosMed_desk_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ORTHER_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 140,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "放置着英雄颂诗的石台，可以说是米诺斯人的生活必备品。\n有人曾以过去的名号称呼她，得到的却是“我是罗德岛的莱娜”这个回答。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_sculpture_01": {
+        "id": "furni_minosMed_sculpture_01",
+        "sortId": 2153,
+        "name": "水中兽雕花圃",
+        "iconId": "furni_minosMed_sculpture_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ART_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 6,
+        "depth": 5,
+        "height": 7,
+        "comfort": 425,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "带有水池的小型花圃，出水口设置在原木兽雕内部。\n传说英雄芙罗拉在水边的花园里种下万千花草，可以愈合所有伤口，安抚每个米诺斯人的心灵。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_shelf_01": {
+        "id": "furni_minosMed_shelf_01",
+        "sortId": 2154,
+        "name": "“纯洁智慧”书架",
+        "iconId": "furni_minosMed_shelf_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CABINET",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 5,
+        "depth": 7,
+        "height": 8,
+        "comfort": 515,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "大理石雕刻而成的书架，自带便于使用者存取高处物品的阶梯。\n自办事处建立以来，这上面已经增添了许多新的植物研究资料和诊疗记录。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_plant_01": {
+        "id": "furni_minosMed_plant_01",
+        "sortId": 2155,
+        "name": "“荣誉纪录”花坛",
+        "iconId": "furni_minosMed_plant_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "PLANT",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 7,
+        "depth": 2,
+        "height": 2,
+        "comfort": 185,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "参照米诺斯竞技领奖台的形状制作的花坛，花盆特意设计成了传统陶器的模样。\n英雄芙罗拉用保存在陶罐里的种子，让灾难后所有荒芜的河谷都得以复苏。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_carpet_01": {
+        "id": "furni_minosMed_carpet_01",
+        "sortId": 2156,
+        "name": "“史诗留痕”地毯",
+        "iconId": "furni_minosMed_carpet_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CARPET",
+        "subType": "NONE",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 19,
+        "depth": 7,
+        "height": 1,
+        "comfort": 160,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "一块仿石面长地毯，其上印有侵蚀纹路般的花纹。\n被侵略的痕迹依然清晰可见，不过雅赛努斯有新的故事等待人们见证。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_table_01": {
+        "id": "furni_minosMed_table_01",
+        "sortId": 2157,
+        "name": "石制诊疗桌",
+        "iconId": "furni_minosMed_table_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 9,
+        "depth": 3,
+        "height": 5,
+        "comfort": 85,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "由素色石材组合而成的长桌，简洁实用。\n办事处建立时间不长，莱娜总有做不完的任务，但她不会止步不前。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_tree_01": {
+        "id": "furni_minosMed_tree_01",
+        "sortId": 2158,
+        "name": "“信念与生机”",
+        "iconId": "furni_minosMed_tree_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "DEVICE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 5,
+        "depth": 3,
+        "height": 10,
+        "comfort": 340,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "可以产出具有治愈效果树汁的树木，被精心种植在园圃之中。\n芙罗拉用一瓶树汁拯救了无数濒死的战士，那场战役至今仍被米诺斯人交口传颂。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_ceilingLight_02": {
+        "id": "furni_minosMed_ceilingLight_02",
+        "sortId": 2159,
+        "name": "纱帘纸灯",
+        "iconId": "furni_minosMed_ceilingLight_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILINGLAMP",
+        "subType": "NONE",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 6,
+        "depth": 3,
+        "height": 6,
+        "comfort": 195,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "装有纸质灯罩的吊灯，透过薄纱照在房间里的光线非常柔和。\n“别紧张，闭上眼睛好好休息，明天你一定会恢复得更好。”",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_bed_01": {
+        "id": "furni_minosMed_bed_01",
+        "sortId": 2160,
+        "name": "静养床",
+        "iconId": "furni_minosMed_bed_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "BEDDING",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 7,
+        "depth": 3,
+        "height": 4,
+        "comfort": 265,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "为前来接受诊治的患者准备的简易疗养床，床垫柔软舒适。\n疾病会让人失去对未来的期待，而莱娜所做的一切正是为了让人们重拾面对生活的勇气。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_stool_01": {
+        "id": "furni_minosMed_stool_01",
+        "sortId": 2161,
+        "name": "“生息时刻”小凳",
+        "iconId": "furni_minosMed_stool_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 3,
+        "depth": 2,
+        "height": 2,
+        "comfort": 135,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "沙漏型小凳，没有装配坐垫，只在凳面上铺设素色布料。\n终有一天冰雪会消融成河，树木会抽出新芽，人们也会寻得属于自己的希冀。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_chair_01": {
+        "id": "furni_minosMed_chair_01",
+        "sortId": 2162,
+        "name": "疗愈轮椅",
+        "iconId": "furni_minosMed_chair_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 4,
+        "depth": 3,
+        "height": 5,
+        "comfort": 215,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "供行动不便的患者使用的木制轮椅，附带配套的输液架。\n老人们还会滔滔不绝地讲述过往，但渐渐地，故事里出现了更多关于未来的话语。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_sculpture_02": {
+        "id": "furni_minosMed_sculpture_02",
+        "sortId": 2163,
+        "name": "石柱流水池",
+        "iconId": "furni_minosMed_sculpture_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ART_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 4,
+        "depth": 3,
+        "height": 8,
+        "comfort": 275,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "以大理石柱为主体的水池装饰，水流通过精巧的内部结构在水池和石柱间循环。\n莱娜永远不会忘记，在花园里第一次教里底娅认识花草的那个早晨，还有那条灰色尾巴上带着的味道。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_wallpaper_01": {
+        "id": "furni_minosMed_wallpaper_01",
+        "sortId": 2164,
+        "name": "“新生景象”",
+        "iconId": "furni_minosMed_wallpaper_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLPAPER",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "WALL",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "展现雅赛努斯景观的全景显示屏，环绕城市的山峦景色似乎触手可及。\n她站在窗边，望向神殿，风带着暖意拂过绿意盎然的山谷。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_floor_01": {
+        "id": "furni_minosMed_floor_01",
+        "sortId": 2165,
+        "name": "米诺斯石地板",
+        "iconId": "furni_minosMed_floor_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "FLOOR",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "FLOOR",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "使用阿苏斯山主峰的石材制成的地板，能给人带来平静。\n阿苏普欧洛家也曾用过类似的设计，如今，莱娜怀抱崭新的理想站在这样的地板上。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
       "furni_oct1st_deckChair_01": {
         "id": "furni_oct1st_deckChair_01",
         "sortId": 9998,
@@ -102082,6 +102827,38 @@
         "comfort": 75,
         "usage": "能够用来装扮宿舍、活动室与会客室，可提高前两者的氛围",
         "description": "除了脑子以外，它什么也没有。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4144,
+        "quantity": 0
+      },
+      "furni_hardNoggin_01": {
+        "id": "furni_hardNoggin_01",
+        "sortId": 11107,
+        "name": "饰牌《坚顶》",
+        "iconId": "furni_hardNoggin_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLDECO",
+        "subType": "PLAQUE",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "能够用来装扮宿舍、活动室与会客室，可提高前两者的氛围",
+        "description": "保护大脑，从物理层面的防护做起。",
         "obtainApproach": "活动获得",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -125726,6 +126503,143 @@
           "furni_cloudRestaurant_floor_01"
         ]
       },
+      "furni_set_minosMed": {
+        "id": "furni_set_minosMed",
+        "enableRoomType": 4112,
+        "sortId": 122,
+        "name": "雅赛努斯的新生诗篇",
+        "themeType": "EVENT",
+        "desc": "根据调香师在雅赛努斯建立的罗德岛办事处复现的房间。在这座被青翠山峦环绕的城市中，莱娜将驱散过往的迷惘，踏上写下复苏与新生的旅程。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_minosMed_column_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_ceilingLight_01",
+            "pos0": 12,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_ceilingBell_01",
+            "pos0": 14,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_desk_01",
+            "pos0": 3,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_sculpture_01",
+            "pos0": 2,
+            "pos1": 2,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_shelf_01",
+            "pos0": 8,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_plant_01",
+            "pos0": 11,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_carpet_01",
+            "pos0": 8,
+            "pos1": 1,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_table_01",
+            "pos0": 13,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_tree_01",
+            "pos0": 22,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_ceilingLight_02",
+            "pos0": 28,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_bed_01",
+            "pos0": 27,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_stool_01",
+            "pos0": 18,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_chair_01",
+            "pos0": 23,
+            "pos1": 6,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_sculpture_02",
+            "pos0": 30,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_floor_01",
+            "pos0": 0,
+            "pos1": 10,
+            "dir": 0
+          }
+        ],
+        "groups": [
+          "furni_set_minosMed_1",
+          "furni_set_minosMed_2",
+          "furni_set_minosMed_3",
+          "furni_set_minosMed_4"
+        ],
+        "furnitures": [
+          "furni_minosMed_column_01",
+          "furni_minosMed_ceilingLight_01",
+          "furni_minosMed_ceilingBell_01",
+          "furni_minosMed_desk_01",
+          "furni_minosMed_sculpture_01",
+          "furni_minosMed_shelf_01",
+          "furni_minosMed_plant_01",
+          "furni_minosMed_carpet_01",
+          "furni_minosMed_table_01",
+          "furni_minosMed_tree_01",
+          "furni_minosMed_ceilingLight_02",
+          "furni_minosMed_bed_01",
+          "furni_minosMed_stool_01",
+          "furni_minosMed_chair_01",
+          "furni_minosMed_sculpture_02",
+          "furni_minosMed_wallpaper_01",
+          "furni_minosMed_floor_01"
+        ]
+      },
       "furniM_set_basicRoom": {
         "id": "furniM_set_basicRoom",
         "enableRoomType": 32,
@@ -133350,6 +134264,63 @@
           "furniM_amiya_stoneChair_01",
           "furniM_amiya_giftTable_01",
           "furniM_amiya_carpet_02"
+        ]
+      },
+      "furni_set_minosMed_1": {
+        "id": "furni_set_minosMed_1",
+        "sortId": 1,
+        "name": "“重拾的信念”",
+        "themeId": "furni_set_minosMed",
+        "comfort": 375,
+        "count": 4,
+        "furniture": [
+          "furni_minosMed_column_01",
+          "furni_minosMed_desk_01",
+          "furni_minosMed_sculpture_01",
+          "furni_minosMed_shelf_01"
+        ]
+      },
+      "furni_set_minosMed_2": {
+        "id": "furni_set_minosMed_2",
+        "sortId": 2,
+        "name": "“追忆的史诗”",
+        "themeId": "furni_set_minosMed",
+        "comfort": 130,
+        "count": 5,
+        "furniture": [
+          "furni_minosMed_ceilingLight_01",
+          "furni_minosMed_ceilingBell_01",
+          "furni_minosMed_table_01",
+          "furni_minosMed_stool_01",
+          "furni_minosMed_carpet_01"
+        ]
+      },
+      "furni_set_minosMed_3": {
+        "id": "furni_set_minosMed_3",
+        "sortId": 3,
+        "name": "“复苏的歌谣”",
+        "themeId": "furni_set_minosMed",
+        "comfort": 230,
+        "count": 4,
+        "furniture": [
+          "furni_minosMed_tree_01",
+          "furni_minosMed_chair_01",
+          "furni_minosMed_plant_01",
+          "furni_minosMed_floor_01"
+        ]
+      },
+      "furni_set_minosMed_4": {
+        "id": "furni_set_minosMed_4",
+        "sortId": 4,
+        "name": "“再生的愿景”",
+        "themeId": "furni_set_minosMed",
+        "comfort": 220,
+        "count": 4,
+        "furniture": [
+          "furni_minosMed_ceilingLight_02",
+          "furni_minosMed_bed_01",
+          "furni_minosMed_sculpture_02",
+          "furni_minosMed_wallpaper_01"
         ]
       }
     },

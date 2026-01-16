@@ -93111,6 +93111,1534 @@
       "advancedRuneIdList2": [],
       "useSpecialSizeMapPreview": false
     },
+    "act48side_ex01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act48side_st03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act48side_ex01",
+      "levelId": "Activities/act48side/level_act48side_ex01",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-1",
+      "name": "进场歌",
+      "description": "演员入场就位。克瑞斯拉握紧了她的竖琴。\\n<@lv.item><拘谨></>干员施放技能所需技力提升\\n<@lv.item><喷泉水池></>可被治疗，相连的所有喷泉水池满后使相邻地块“花香弥散”，使干员和敌人“入戏”\\n<@lv.item><入戏></>干员会快速回复技力并周期性召唤“英雄的呼唤”，敌人会降低命中率和移动速度",
+      "hardStagedId": "act48side_ex01#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "精英1 LV.50",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act48side_ex01",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act48side_ex01#f#",
+      "levelId": "Activities/act48side/level_act48side_ex01",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-1",
+      "name": "进场歌",
+      "description": "<@lv.fs>附加条件：</>\\n出现额外的见习祭司学徒",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act48side_ex01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act48side_ex02",
+      "levelId": "Activities/act48side/level_act48side_ex02",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-2",
+      "name": "背景",
+      "description": "我们已在山间建造了神殿，如今便能用神谕与英雄的故事将族人集结，共同抵御异邦人的进犯。\\n<@lv.item><拘谨></>干员施放技能所需技力提升\\n<@lv.item><喷泉水池></>可被治疗，相连的所有喷泉水池满后使相邻地块“花香弥散”，使干员和敌人“入戏”\\n<@lv.item><入戏></>干员会快速回复技力并周期性召唤“英雄的呼唤”，敌人会降低命中率和移动速度",
+      "hardStagedId": "act48side_ex02#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "精英1 LV.60",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act48side_ex02",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act48side_ex02#f#",
+      "levelId": "Activities/act48side/level_act48side_ex02",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-2",
+      "name": "背景",
+      "description": "<@lv.fs>附加条件：</>\\n提供的障碍物数量大幅减少",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act48side_ex02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act48side_ex03",
+      "levelId": "Activities/act48side/level_act48side_ex03",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-3",
+      "name": "主题",
+      "description": "何为米诺斯？那些在山岩缝隙中不断讲述的、我们所不知道的地方发生的英雄故事，又是如何塑造了我们，使我们成为整体？\\n<@lv.item><拘谨></>干员施放技能所需技力提升\\n<@lv.item><喷泉水池></>可被治疗，相连的所有喷泉水池满后使相邻地块“花香弥散”，使干员和敌人“入戏”\\n<@lv.item><入戏></>干员会快速回复技力并周期性召唤“英雄的呼唤”，敌人会降低命中率和移动速度",
+      "hardStagedId": "act48side_ex03#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "精英2 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act48side_ex03",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act48side_ex03#f#",
+      "levelId": "Activities/act48side/level_act48side_ex03",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-3",
+      "name": "主题",
+      "description": "<@lv.fs>附加条件：</>\\n失望的雕像攻击范围大幅提升",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act48side_ex03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act48side_ex04",
+      "levelId": "Activities/act48side/level_act48side_ex04",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-4",
+      "name": "转折",
+      "description": "我们没法让所有人相信语言表述的信念，总有人会有别的想法。队伍的人数增多，我们前进的速度便会因此而减慢。\\n<@lv.item><拘谨></>干员施放技能所需技力提升\\n<@lv.item><喷泉水池></>可被治疗，相连的所有喷泉水池满后使相邻地块“花香弥散”，使干员和敌人“入戏”\\n<@lv.item><入戏></>干员会快速回复技力并周期性召唤“英雄的呼唤”，敌人会降低命中率和移动速度",
+      "hardStagedId": "act48side_ex04#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "精英2 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act48side_ex04",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act48side_ex04#f#",
+      "levelId": "Activities/act48side/level_act48side_ex04",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-4",
+      "name": "转折",
+      "description": "<@lv.fs>附加条件：</>\\n伊利昂的铁驮兽生命值上升",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act48side_ex04",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act48side_ex05",
+      "levelId": "Activities/act48side/level_act48side_ex05",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-5",
+      "name": "铺陈",
+      "description": "在难以抉择的时刻，作出艰难的选择。\\n<@lv.item><拘谨></>干员施放技能所需技力提升\\n<@lv.item><喷泉水池></>可被治疗，相连的所有喷泉水池满后使相邻地块“花香弥散”，使干员和敌人“入戏”\\n<@lv.item><入戏></>干员会快速回复技力并周期性召唤“英雄的呼唤”，敌人会降低命中率和移动速度",
+      "hardStagedId": "act48side_ex05#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "精英2 LV.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex05#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act48side_ex05",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act48side_ex05#f#",
+      "levelId": "Activities/act48side/level_act48side_ex05",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-5",
+      "name": "铺陈",
+      "description": "<@lv.fs>附加条件：</>\\n出现额外的敌人",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act48side_ex05",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act48side_ex06",
+      "levelId": "Activities/act48side/level_act48side_ex06",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-6",
+      "name": "对驳",
+      "description": "讲故事就能抵御敌人？听传说能够填饱肚子？我们还能倚仗什么？我们所信的胜利与未来又在哪里？那一刻，就连她自己，心中也产生了怀疑。\\n<@lv.item><拘谨></>干员施放技能所需技力提升\\n<@lv.item><喷泉水池></>可被治疗，相连的所有喷泉水池满后使相邻地块“花香弥散”，使干员和敌人“入戏”\\n<@lv.item><入戏></>干员会快速回复技力并周期性召唤“英雄的呼唤”，敌人会降低命中率和移动速度",
+      "hardStagedId": "act48side_ex06#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "精英2 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex06#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act48side_ex06",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act48side_ex06#f#",
+      "levelId": "Activities/act48side/level_act48side_ex06",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-6",
+      "name": "对驳",
+      "description": "<@lv.fs>附加条件：</>\\n狙击与术师干员部署费用提升至3倍",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act48side_ex06",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act48side_ex07",
+      "levelId": "Activities/act48side/level_act48side_ex07",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-7",
+      "name": "高潮",
+      "description": "异邦人自远处涌来，我们用血肉之躯抵挡。同胞们的鲜血正在流淌，但我们别无选择。至少我们还有骄傲，米诺斯人绝不会接受奴役。\\n<@lv.item><拘谨></>干员施放技能所需技力提升\\n<@lv.item><喷泉水池></>可被治疗，相连的所有喷泉水池满后使相邻地块“花香弥散”，使干员和敌人“入戏”\\n<@lv.item><入戏></>干员会快速回复技力并周期性召唤“英雄的呼唤”，敌人会降低命中率和移动速度",
+      "hardStagedId": "act48side_ex07#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "精英2 LV.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex07#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act48side_ex07",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act48side_ex07#f#",
+      "levelId": "Activities/act48side/level_act48side_ex07",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-7",
+      "name": "高潮",
+      "description": "<@lv.fs>附加条件：</>\\n初始出现额外的失望的雕像",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act48side_ex07",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act48side_ex08",
+      "levelId": "Activities/act48side/level_act48side_ex08",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-8",
+      "name": "合唱歌",
+      "description": "只有战斗才能慰藉死亡带来的苦痛，只有异邦人的血才能让愤怒平息。\\n<@lv.item><拘谨></>干员施放技能所需技力提升\\n<@lv.item><喷泉水池></>可被治疗，相连的所有喷泉水池满后使相邻地块“花香弥散”，使干员和敌人“入戏”\\n<@lv.item><入戏></>干员会快速回复技力并周期性召唤“英雄的呼唤”，敌人会降低命中率和移动速度",
+      "hardStagedId": "act48side_ex08#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "精英2 LV.40",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "ACTIVITY_ITEM",
+            "id": "act48side_token_ostracon",
+            "dropType": "COMPLETE"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act48side_ex08#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act48side_ex08",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act48side_ex08#f#",
+      "levelId": "Activities/act48side/level_act48side_ex08",
+      "zoneId": "act48side_zone2",
+      "code": "ME-EX-8",
+      "name": "合唱歌",
+      "description": "<@lv.fs>附加条件：</>\\n赞索斯，复仇者与“无数的伊萨科斯”路线改变，部分敌人有所不同",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_ME_Street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act48side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
     "act6bossrush_01": {
       "stageType": "ACTIVITY",
       "difficulty": "NORMAL",
@@ -561207,6 +562735,70 @@
     },
     "act48side_st03": {
       "startTs": 1767913200,
+      "endTs": 1769111999
+    },
+    "act48side_ex01": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex01#f#": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex02": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex02#f#": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex03": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex03#f#": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex04": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex04#f#": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex05": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex05#f#": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex06": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex06#f#": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex07": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex07#f#": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex08": {
+      "startTs": 1768550400,
+      "endTs": 1769111999
+    },
+    "act48side_ex08#f#": {
+      "startTs": 1768550400,
       "endTs": 1769111999
     },
     "act6bossrush_01": {

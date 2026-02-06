@@ -1,5 +1,27 @@
 {
   "basicInfo": {
+    "act3unique": {
+      "id": "act3unique",
+      "type": "UNIQUE_ONLY",
+      "displayType": "NONE",
+      "name": "鸣羽颂新签到活动",
+      "startTime": 1770382800,
+      "endTime": 1773086399,
+      "rewardEndTime": 1773086399,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act40sre": {
       "id": "act40sre",
       "type": "TYPE_ACT9D0",
@@ -6361,6 +6383,13 @@
     }
   },
   "homeActConfig": {
+    "act3unique": {
+      "actId": "act3unique",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "2241e8",
+      "actTopBarText": "鸣羽颂新签到活动"
+    },
     "act7collection": {
       "actId": "act7collection",
       "isPopupAfterCheckin": false,
@@ -321271,6 +321300,30 @@
       "showPrizeId": [
         "prize_16",
         "prize_15"
+      ]
+    },
+    "act3unique": {
+      "itemList": [
+        {
+          "itemNameIconId": null,
+          "needStorageCheck": false,
+          "rewardItem": {
+            "count": 1,
+            "id": "7003",
+            "type": "TKT_GACHA"
+          },
+          "useItemNameIcon": false
+        },
+        {
+          "itemNameIconId": null,
+          "needStorageCheck": false,
+          "rewardItem": {
+            "count": 1,
+            "id": "avatar_activity_pcAct",
+            "type": "PLAYER_AVATAR"
+          },
+          "useItemNameIcon": false
+        }
       ]
     },
     "act2unique": {

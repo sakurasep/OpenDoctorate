@@ -2405,7 +2405,7 @@
       "char_4148_philae": {
         "charId": "char_4148_philae",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_philae",
         "recruitType": "FREE"
       },
       "char_1038_whitw2": {
@@ -2471,7 +2471,7 @@
       "char_2026_yu": {
         "charId": "char_2026_yu",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_yu",
         "recruitType": "FREE"
       },
       "char_4010_etlchi": {
@@ -2699,7 +2699,7 @@
       "char_4214_cairn": {
         "charId": "char_4214_cairn",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_cairn",
         "recruitType": "FREE"
       },
       "char_4212_nasti": {
@@ -2724,6 +2724,30 @@
         "charId": "char_4056_titi",
         "canBeFree": true,
         "uniEquipId": "uniequip_002_titi",
+        "recruitType": "FREE"
+      },
+      "char_4222_taraxa": {
+        "charId": "char_4222_taraxa",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4221_ju": {
+        "charId": "char_4221_ju",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_ju",
+        "recruitType": "FREE"
+      },
+      "char_2027_wang": {
+        "charId": "char_2027_wang",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_wang",
+        "recruitType": "FREE"
+      },
+      "char_1050_chen3": {
+        "charId": "char_1050_chen3",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_chen3",
         "recruitType": "FREE"
       }
     }
@@ -4688,7 +4712,11 @@
           "displayName": "残垣",
           "displayDiscription": "它已完成历史赋予的使命。\n而剧团将之从遗忘中取出。\n又一次，又一次，它将成为舞台。\n历史不会铭记，艺术将其永存。",
           "bpLevelId": "bp_level_140",
-          "itemBundle": null,
+          "itemBundle": {
+            "id": "bg_rogue_1",
+            "count": 1,
+            "type": "HOME_BACKGROUND"
+          },
           "detailAnnounceTime": "2022/7/1 4:00:00",
           "picIdAftrerUnlock": "grand_9_2"
         }
@@ -36798,7 +36826,11 @@
           "displayName": "彼端",
           "displayDiscription": "在过往与未来中，或许有着一片不属于现在的海岸。\n第四维度由此展开，仍未知晓的景色悉数排列。\n在海的另一头，晨曦与午夜对立相望。\n而星辰缀满天际，在彼端等待我们的抉择。",
           "bpLevelId": "bp_level_155",
-          "itemBundle": null,
+          "itemBundle": {
+            "id": "bg_rogue_2",
+            "count": 1,
+            "type": "HOME_BACKGROUND"
+          },
           "detailAnnounceTime": "2023/4/1 4:00:00",
           "picIdAftrerUnlock": "grand_9_2"
         }
@@ -77084,7 +77116,11 @@
           "displayName": "始发",
           "displayDiscription": "银凇之下，命运的种子早已深埋。\n沉默的圆环已除去冰霜，等待重新望向遥远的彼岸。\n总有未知，总有可能性，总有一颗星辰的回响。\n人类的求索永无止境。",
           "bpLevelId": "bp_level_155",
-          "itemBundle": null,
+          "itemBundle": {
+            "id": "bg_rogue_3",
+            "count": 1,
+            "type": "HOME_BACKGROUND"
+          },
           "detailAnnounceTime": "2024/2/1 4:00:00",
           "picIdAftrerUnlock": "grand_11_2"
         }
@@ -145181,7 +145217,11 @@
           "displayName": "意塑",
           "displayDiscription": "属于直觉、愿望、本能与臆想的无尽求索。",
           "bpLevelId": "bp_level_140",
-          "itemBundle": null,
+          "itemBundle": {
+            "id": "bg_rogue_4",
+            "count": 1,
+            "type": "HOME_BACKGROUND"
+          },
           "detailAnnounceTime": "2025/1/1 4:00:00",
           "picIdAftrerUnlock": "grand_10_2"
         },
@@ -201200,7 +201240,7 @@
           "displayUnlockMonth": 9,
           "acquireTitle": "可获取界面主题",
           "purchaseTitle": "界面主题",
-          "displayName": "界面主题",
+          "displayName": "悬想",
           "displayDiscription": "心中一点烟霞在，染去天地俱是红。",
           "bpLevelId": "bp_level_80",
           "itemBundle": {
@@ -201299,7 +201339,11 @@
           "displayName": "游园",
           "displayDiscription": "池平树古，不见描碑之人。桐间露落，方觉两别之怀。",
           "bpLevelId": "bp_level_140",
-          "itemBundle": null,
+          "itemBundle": {
+            "id": "bg_rogue_5",
+            "count": 1,
+            "type": "HOME_BACKGROUND"
+          },
           "detailAnnounceTime": "2026/1/1 4:00:00",
           "picIdAftrerUnlock": "grand_10_2"
         },
@@ -235348,6 +235392,11 @@
                 {
                   "key": "per_b",
                   "value": 1.0,
+                  "valueStr": null
+                },
+                {
+                  "key": "limit_cost",
+                  "value": 999.0,
                   "valueStr": null
                 }
               ]
@@ -326788,7 +326837,7 @@
         "rogue_5_wrath_11_d": {
           "id": "rogue_5_wrath_11_d",
           "name": "辰■",
-          "description": "敬刻三授道解惑 岁时醒觉 承名为■",
+          "description": "敬刻五授道解惑 岁时醒觉 承名为■",
           "usage": "机制物品",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_wrath_11_d",
@@ -331770,7 +331819,7 @@
           "id": "rogue_5_copper_E_24_a",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_copper_E_24_a",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -331781,13 +331830,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝"
         },
         "rogue_5_copper_E_24_b": {
           "id": "rogue_5_copper_E_24_b",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n锈色：投出时，每经过一个节点，获得源石锭+1</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n锈色：投出时，每经过一个节点，获得源石锭+1</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_copper_E_24_b",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -331798,13 +331847,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：锈色></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_copper_E_24_c": {
           "id": "rogue_5_copper_E_24_c",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_copper_E_24_c",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -331815,13 +331864,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：存护></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_copper_E_24_d": {
           "id": "rogue_5_copper_E_24_d",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n入幻：加入钱盒时，获得希望+1</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n入幻：加入钱盒时，获得希望+1</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_copper_E_24_d",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -331832,13 +331881,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：入幻></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_copper_E_24_e": {
           "id": "rogue_5_copper_E_24_e",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n引光：加入钱盒时，获得烛火+1</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n引光：加入钱盒时，获得烛火+1</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_copper_E_24_e",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -331849,13 +331898,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：引光></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：引光></color>"
         },
         "rogue_5_copper_E_24_f": {
           "id": "rogue_5_copper_E_24_f",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n巡游：投出后，每完成一场战斗，获得票券+1</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n巡游：投出后，每完成一场战斗，获得票券+1</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_copper_E_24_f",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -331866,13 +331915,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：巡游></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：巡游></color>"
         },
         "rogue_5_copper_E_24_g": {
           "id": "rogue_5_copper_E_24_g",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n相合：同时被视为花钱、厉钱、衡钱</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n相合：同时被视为花钱、厉钱、衡钱</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_copper_E_24_g",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -331883,13 +331932,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：相合></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：相合></color>"
         },
         "rogue_5_copper_E_24_h": {
           "id": "rogue_5_copper_E_24_h",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易变：投出后回到钱盒时，变化为随机通宝</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易变：投出后回到钱盒时，变化为随机通宝</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_copper_E_24_h",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -331900,13 +331949,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：易变></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：易变></color>"
         },
         "rogue_5_copper_E_24_i": {
           "id": "rogue_5_copper_E_24_i",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易花：投出后回到钱盒时，变化为随机花钱</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易花：投出后回到钱盒时，变化为随机花钱</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_copper_E_24_i",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -331917,13 +331966,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：易花></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：易花></color>"
         },
         "rogue_5_copper_E_24_j": {
           "id": "rogue_5_copper_E_24_j",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易厉：投出后回到钱盒时，变化为随机厉钱</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易厉：投出后回到钱盒时，变化为随机厉钱</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_copper_E_24_j",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -331934,13 +331983,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：易厉></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：易厉></color>"
         },
         "rogue_5_copper_E_24_k": {
           "id": "rogue_5_copper_E_24_k",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n受引：有概率作为额外一枚通宝被投出</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n受引：有概率作为额外一枚通宝被投出</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_copper_E_24_k",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -331951,7 +332000,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：受引></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：受引></color>"
         },
         "rogue_5_copper_E_25_a": {
           "id": "rogue_5_copper_E_25_a",
@@ -357338,7 +357387,7 @@
           "id": "rogue_5_change_copper_E_24_a",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_change_copper_E_24_a",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -357349,13 +357398,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝"
         },
         "rogue_5_change_copper_E_24_b": {
           "id": "rogue_5_change_copper_E_24_b",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n锈色：投出时，每经过一个节点，获得源石锭+1</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n锈色：投出时，每经过一个节点，获得源石锭+1</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_change_copper_E_24_b",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -357366,13 +357415,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：锈色></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：锈色></color>"
         },
         "rogue_5_change_copper_E_24_c": {
           "id": "rogue_5_change_copper_E_24_c",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_change_copper_E_24_c",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -357383,13 +357432,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：存护></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：存护></color>"
         },
         "rogue_5_change_copper_E_24_d": {
           "id": "rogue_5_change_copper_E_24_d",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n入幻：加入钱盒时，获得希望+1</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n入幻：加入钱盒时，获得希望+1</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_change_copper_E_24_d",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -357400,13 +357449,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：入幻></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：入幻></color>"
         },
         "rogue_5_change_copper_E_24_e": {
           "id": "rogue_5_change_copper_E_24_e",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n引光：加入钱盒时，获得烛火+1</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n引光：加入钱盒时，获得烛火+1</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_change_copper_E_24_e",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -357417,13 +357466,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：引光></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：引光></color>"
         },
         "rogue_5_change_copper_E_24_f": {
           "id": "rogue_5_change_copper_E_24_f",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n巡游：投出后，每完成一场战斗，获得票券+1</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n巡游：投出后，每完成一场战斗，获得票券+1</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_change_copper_E_24_f",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -357434,13 +357483,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：巡游></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：巡游></color>"
         },
         "rogue_5_change_copper_E_24_g": {
           "id": "rogue_5_change_copper_E_24_g",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n相合：同时被视为花钱、厉钱、衡钱</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n相合：同时被视为花钱、厉钱、衡钱</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_change_copper_E_24_g",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -357451,13 +357500,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：相合></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：相合></color>"
         },
         "rogue_5_change_copper_E_24_h": {
           "id": "rogue_5_change_copper_E_24_h",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易变：投出后回到钱盒时，变化为随机通宝</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易变：投出后回到钱盒时，变化为随机通宝</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_change_copper_E_24_h",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -357468,13 +357517,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：易变></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：易变></color>"
         },
         "rogue_5_change_copper_E_24_i": {
           "id": "rogue_5_change_copper_E_24_i",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易花：投出后回到钱盒时，变化为随机花钱</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易花：投出后回到钱盒时，变化为随机花钱</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_change_copper_E_24_i",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -357485,13 +357534,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：易花></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：易花></color>"
         },
         "rogue_5_change_copper_E_24_j": {
           "id": "rogue_5_change_copper_E_24_j",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易厉：投出后回到钱盒时，变化为随机厉钱</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n易厉：投出后回到钱盒时，变化为随机厉钱</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_change_copper_E_24_j",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -357502,13 +357551,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：易厉></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：易厉></color>"
         },
         "rogue_5_change_copper_E_24_k": {
           "id": "rogue_5_change_copper_E_24_k",
           "name": "花-锦囊秒购",
           "description": "易与之便，自在其中。抛之即成，钱货两清。",
-          "usage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n受引：有概率作为额外一枚通宝被投出</color>",
+          "usage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78>\\n受引：有概率作为额外一枚通宝被投出</color>",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_5_change_copper_E_24_k",
           "itemIconGroupId": "rogue_5_copper_E_24",
@@ -357519,7 +357568,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "投出时，目标生命值降至1。每失去2目标生命值，获得一个随机收藏品。回到钱盒变为大炎通宝<color=#2fac78><品相：受引></color>"
+          "shortUsage": "投出时，至多消耗999生命值。每失去2目标生命值，获得一个随机收藏品。回到钱盒时变为大炎通宝<color=#2fac78><品相：受引></color>"
         },
         "rogue_5_change_copper_E_25_a": {
           "id": "rogue_5_change_copper_E_25_a",

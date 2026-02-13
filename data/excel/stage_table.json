@@ -587667,20 +587667,6 @@
       "relatedStoryId": "activities/act49side/level_act49side_02_beg",
       "relatedStageId": "act49side_02"
     },
-    "cgId_ssLine_act49side_2": {
-      "displayId": "cgId_ssLine_act49side_2",
-      "cgList": [
-        "70_i02_1",
-        "70_i02_2"
-      ],
-      "cgSource": "IMAGE",
-      "displayName": "残棋语",
-      "displayDesc": "一场手谈戏，千载生死局。",
-      "storySetId": "setId_ssLine_act49side",
-      "sortId": 2,
-      "relatedStoryId": "activities/act49side/level_act49side_02_end",
-      "relatedStageId": "act49side_02"
-    },
     "cgId_ssLine_act49side_3": {
       "displayId": "cgId_ssLine_act49side_3",
       "cgList": [
@@ -587690,7 +587676,7 @@
       "displayName": "镇场者",
       "displayDesc": "似是惊堂木落，又似冬雷顿地。\n这分明是一方饭桌，此时此刻，气氛却如公堂之上。",
       "storySetId": "setId_ssLine_act49side",
-      "sortId": 3,
+      "sortId": 2,
       "relatedStoryId": "activities/act49side/level_act49side_03_beg",
       "relatedStageId": "act49side_03"
     },
@@ -587703,9 +587689,23 @@
       "displayName": "族人相会",
       "displayDesc": "像是对着一面模糊的镜子，二人相顾无言。",
       "storySetId": "setId_ssLine_act49side",
-      "sortId": 4,
+      "sortId": 3,
       "relatedStoryId": "activities/act49side/level_act49side_03_beg",
       "relatedStageId": "act49side_03"
+    },
+    "cgId_ssLine_act49side_2": {
+      "displayId": "cgId_ssLine_act49side_2",
+      "cgList": [
+        "70_i02_1",
+        "70_i02_2"
+      ],
+      "cgSource": "IMAGE",
+      "displayName": "残棋语",
+      "displayDesc": "一场手谈戏，千载生死局。",
+      "storySetId": "setId_ssLine_act49side",
+      "sortId": 4,
+      "relatedStoryId": "activities/act49side/level_act49side_04_beg",
+      "relatedStageId": "act49side_04"
     },
     "cgId_ssLine_act49side_5": {
       "displayId": "cgId_ssLine_act49side_5",
@@ -593042,9 +593042,9 @@
       "locationId": "ssLine_act49side",
       "displays": [
         "cgId_ssLine_act49side_1",
-        "cgId_ssLine_act49side_2",
         "cgId_ssLine_act49side_3",
         "cgId_ssLine_act49side_4",
+        "cgId_ssLine_act49side_2",
         "cgId_ssLine_act49side_5",
         "cgId_ssLine_act49side_6",
         "cgId_ssLine_act49side_7",
@@ -598465,20 +598465,6 @@
       "compositeList": null,
       "storySetId": "setId_ssLine_act49side"
     },
-    "70_i02_1": {
-      "cgId": "70_i02_1",
-      "sortId": 0,
-      "compositeType": "NONE",
-      "compositeList": null,
-      "storySetId": "setId_ssLine_act49side"
-    },
-    "70_i02_2": {
-      "cgId": "70_i02_2",
-      "sortId": 1,
-      "compositeType": "NONE",
-      "compositeList": null,
-      "storySetId": "setId_ssLine_act49side"
-    },
     "70_i10": {
       "cgId": "70_i10",
       "sortId": 0,
@@ -598489,6 +598475,20 @@
     "70_i21": {
       "cgId": "70_i21",
       "sortId": 0,
+      "compositeType": "NONE",
+      "compositeList": null,
+      "storySetId": "setId_ssLine_act49side"
+    },
+    "70_i02_1": {
+      "cgId": "70_i02_1",
+      "sortId": 0,
+      "compositeType": "NONE",
+      "compositeList": null,
+      "storySetId": "setId_ssLine_act49side"
+    },
+    "70_i02_2": {
+      "cgId": "70_i02_2",
+      "sortId": 1,
       "compositeType": "NONE",
       "compositeList": null,
       "storySetId": "setId_ssLine_act49side"

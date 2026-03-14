@@ -358296,5 +358296,655 @@
         ]
       }
     ]
+  },
+  "sktok_acarm113_1": {
+    "skillId": "sktok_acarm113_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "精打细算玩偶",
+        "rangeId": null,
+        "description": "装备时销毁，之后每回合开始时额外获得<@ba.vup>1</>资金",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm113_2": {
+    "skillId": "sktok_acarm113_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "精打细算玩偶",
+        "rangeId": null,
+        "description": "装备时销毁，之后每回合开始时额外获得<@ba.vup>2</>资金",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm114_1": {
+    "skillId": "sktok_acarm114_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "简易通讯机",
+        "rangeId": null,
+        "description": "装备时销毁，随机获得<@ba.vup>1</>名与该干员有相同盟约的干员",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm114_2": {
+    "skillId": "sktok_acarm114_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "简易通讯机",
+        "rangeId": null,
+        "description": "装备时销毁，随机获得<@ba.vup>2</>名与该干员有相同盟约的干员",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm115_1": {
+    "skillId": "sktok_acarm115_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "紧急调度券",
+        "rangeId": null,
+        "description": "装备时销毁，随机获取当前调度中心内的<@ba.vup>1</>名干员 （调度中心中对应干员消失）",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm115_2": {
+    "skillId": "sktok_acarm115_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "紧急调度券",
+        "rangeId": null,
+        "description": "装备时销毁，随机获取当前调度中心内的<@ba.vup>2</>名干员 （调度中心中对应干员消失）",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm116_1": {
+    "skillId": "sktok_acarm116_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "见钱眼开玩偶",
+        "rangeId": null,
+        "description": "装备时销毁，下回合额外获得<@ba.vup>2</>资金",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm116_2": {
+    "skillId": "sktok_acarm116_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "见钱眼开玩偶",
+        "rangeId": null,
+        "description": "装备时销毁，下回合额外获得<@ba.vup>4</>资金",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm117_1": {
+    "skillId": "sktok_acarm117_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天马之枪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+40%</>，若与“天马之盔”一起装备，造成伤害时额外造成<@ba.vup>30%</>的真实伤害",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm117_2": {
+    "skillId": "sktok_acarm117_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天马之枪",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+60%</>，若与“天马之盔”一起装备，造成伤害时额外造成<@ba.vup>30%</>的真实伤害",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm118_1": {
+    "skillId": "sktok_acarm118_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天马之盔",
+        "rangeId": null,
+        "description": "生命值<@ba.vup>+50%</>，若与“天马之枪”一起装备，每秒回复<@ba.vup>8%</>最大生命值。",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm118_2": {
+    "skillId": "sktok_acarm118_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "天马之盔",
+        "rangeId": null,
+        "description": "生命值<@ba.vup>+75%</>，若与“天马之枪”一起装备，每秒回复<@ba.vup>8%</>最大生命值。",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm119_1": {
+    "skillId": "sktok_acarm119_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "卡西米尔竞技旗",
+        "rangeId": null,
+        "description": "部署后<@ba.vup>15</>秒内造成的伤害提升至<@ba.vup>135%</>，随后逐渐衰减",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm119_2": {
+    "skillId": "sktok_acarm119_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "卡西米尔竞技旗",
+        "rangeId": null,
+        "description": "部署后<@ba.vup>15</>秒内造成的伤害提升至<@ba.vup>160%</>，随后逐渐衰减",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm120_1": {
+    "skillId": "sktok_acarm120_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "骑士戒律",
+        "rangeId": null,
+        "description": "再部署时间<@ba.vup>-40%</>；若携带者为【卡西米尔】盟约干员，开启技能后20s内，使攻击范围内敌人攻击速度<@ba.vup>-35%</>，移动速度<@ba.vup>-35%</>\\n<@ba.acrem>若该【卡西米尔】盟约干员同时装备“卡西米尔竞技旗”，该卡西米尔干员技能持续期间，攻击力<@ba.vup>+100%</>，且受到致命伤害时不撤退，技能结束后退场</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm120_2": {
+    "skillId": "sktok_acarm120_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "骑士戒律",
+        "rangeId": null,
+        "description": "再部署时间<@ba.vup>-60%</>；若携带者为【卡西米尔】盟约干员，开启技能后20s内，使攻击范围内敌人攻击速度<@ba.vup>-35%</>，移动速度<@ba.vup>-35%</>\\n<@ba.acrem>若该【卡西米尔】盟约干员同时装备“卡西米尔竞技旗”，该卡西米尔干员技能持续期间，攻击力<@ba.vup>+100%</>，且受到致命伤害时不撤退，技能结束后退场</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm121_1": {
+    "skillId": "sktok_acarm121_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "叙拉古正装",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+15</>，携带者部署方向左右两侧的我方干员攻击速度<@ba.vup>+10</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm121_2": {
+    "skillId": "sktok_acarm121_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "叙拉古正装",
+        "rangeId": null,
+        "description": "攻击速度<@ba.vup>+25</>，携带者部署方向左右两侧的我方干员攻击速度<@ba.vup>+15</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm122_1": {
+    "skillId": "sktok_acarm122_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "家族徽章",
+        "rangeId": null,
+        "description": "技力自然回复速度<@ba.vup>+0.2</>/秒；若携带者为【叙拉古】盟约干员，该干员处于隐匿状态时，攻击力逐渐提升至<@ba.vup>200%</>，持续至隐匿结束后首次造成伤害或干员离场\\n<@ba.acrem>若该【叙拉古】盟约干员同时装备“叙拉古正装”，该叙拉古干员失去隐匿后首次造成伤害时额外造成<@ba.vup>800%</>攻击力的真实伤害</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm122_2": {
+    "skillId": "sktok_acarm122_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "家族徽章",
+        "rangeId": null,
+        "description": "技力自然回复速度<@ba.vup>+0.35</>/秒；若携带者为【叙拉古】盟约干员，该干员处于隐匿状态时，攻击力逐渐提升至<@ba.vup>200%</>，持续至隐匿结束后首次造成伤害或干员离场\\n<@ba.acrem>若该【叙拉古】盟约干员同时装备“叙拉古正装”，该叙拉古干员失去隐匿后首次造成伤害时额外造成<@ba.vup>800%</>攻击力的真实伤害</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm123_1": {
+    "skillId": "sktok_acarm123_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "骑士储蓄罐",
+        "rangeId": null,
+        "description": "装备时销毁，并随机获得<@ba.vup>1~6</>资金",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm123_2": {
+    "skillId": "sktok_acarm123_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "骑士储蓄罐",
+        "rangeId": null,
+        "description": "装备时销毁，并随机获得<@ba.vup>2~12</>资金",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm124_1": {
+    "skillId": "sktok_acarm124_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "随身身份牌",
+        "rangeId": null,
+        "description": "装备时销毁，并使携带者所属盟约层数<@ba.vup>+3</>（无需激活盟约）",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm124_2": {
+    "skillId": "sktok_acarm124_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "随身身份牌",
+        "rangeId": null,
+        "description": "装备时销毁，并使携带者所属盟约层数<@ba.vup>+6</>（无需激活盟约）",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm125_1": {
+    "skillId": "sktok_acarm125_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "源石溶剂",
+        "rangeId": null,
+        "description": "携带者每秒流失<@ba.vdown>60</>点生命值，攻击力<@ba.vup>+40%</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_acarm125_2": {
+    "skillId": "sktok_acarm125_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "源石溶剂",
+        "rangeId": null,
+        "description": "携带者每秒流失<@ba.vdown>60</>点生命值，攻击力<@ba.vup>+60%</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_common_acarm",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
   }
 }

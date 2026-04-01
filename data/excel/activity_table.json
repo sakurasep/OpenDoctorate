@@ -22,6 +22,28 @@
       "picGroup": [],
       "usePicGroup": false
     },
+    "act7fun": {
+      "id": "act7fun",
+      "type": "APRIL_FOOL",
+      "displayType": "NONE",
+      "name": "Rhodes Island Epic 黑色博士坠落",
+      "startTime": 1775016000,
+      "endTime": 1775591999,
+      "rewardEndTime": 1775591999,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act2autochess": {
       "id": "act2autochess",
       "type": "AUTOCHESS_SEASON",
@@ -6568,6 +6590,13 @@
     }
   },
   "homeActConfig": {
+    "act7fun": {
+      "actId": "act7fun",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": null,
+      "actTopBarText": null
+    },
     "act3blessing": {
       "actId": "act3blessing",
       "isPopupAfterCheckin": false,
@@ -7622,6 +7651,7 @@
   "zoneToActivity": {
     "act41sre_zone1": "act41sre",
     "act41sre_zone2": "act41sre",
+    "act7fun_zone1": "act7fun",
     "act2autochess_zone1": "act2autochess",
     "act20mini_zone1": "act20mini",
     "act2break_zone1": "act2break",
@@ -7855,7 +7885,7 @@
     "act18d3_zone2": "act18d3",
     "act18d0_zone1": "act18d0",
     "act18d0_zone2": "act18d0",
-    "act17d7_zone1": "act6fun",
+    "act17d7_zone1": "act7fun",
     "act17d5_zone1": "act17d5",
     "act17d5_zone2": "act17d5",
     "act17d5_zone3": "act17d5",
@@ -377497,6 +377527,96 @@
         "difficulty": "NORMAL",
         "unlockCondition": null,
         "stageDropInfo": []
+      },
+      "act7fun_01": {
+        "stageId": "act7fun_01",
+        "levelId": "Activities/act7fun/level_act7fun_01",
+        "code": "RE-1",
+        "name": "活动手指",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_LM_day",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": [
+          {
+            "id": "emoticon_foolsday_doctor",
+            "count": 1,
+            "type": "EMOTICON_SET"
+          }
+        ]
+      },
+      "act7fun_02": {
+        "stageId": "act7fun_02",
+        "levelId": "Activities/act7fun/level_act7fun_02",
+        "code": "RE-2",
+        "name": "正式开打",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_LM_day",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": [
+          {
+            "id": "furni_foolsDay_photowall_01",
+            "count": 1,
+            "type": "FURN"
+          }
+        ]
+      },
+      "act7fun_03": {
+        "stageId": "act7fun_03",
+        "levelId": "Activities/act7fun/level_act7fun_03",
+        "code": "RE-3",
+        "name": "狂轰乱炸",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_LM_day",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
+      },
+      "act7fun_04": {
+        "stageId": "act7fun_04",
+        "levelId": "Activities/act7fun/level_act7fun_04",
+        "code": "RE-4",
+        "name": "兵力压制",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_RS_lake",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": [
+          {
+            "id": "4002",
+            "count": 1,
+            "type": "DIAMOND"
+          }
+        ]
+      },
+      "act7fun_05": {
+        "stageId": "act7fun_05",
+        "levelId": "Activities/act7fun/level_act7fun_05",
+        "code": "RE-5",
+        "name": "渐入佳境",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_RS_lake",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": [
+          {
+            "id": "avatar_activity_RE",
+            "count": 1,
+            "type": "PLAYER_AVATAR"
+          }
+        ]
+      },
+      "act7fun_06": {
+        "stageId": "act7fun_06",
+        "levelId": "Activities/act7fun/level_act7fun_06",
+        "code": "RE-6",
+        "name": "最终考核",
+        "appearanceStyle": "MAIN_NORMAL",
+        "loadingPicId": "loading_RS_lake",
+        "difficulty": "NORMAL",
+        "unlockCondition": null,
+        "stageDropInfo": []
       }
     },
     "scoreDict": {
@@ -384846,14 +384966,547 @@
       }
     },
     "act7FunData": {
-      "stageAdditionMap": {},
-      "easterEggData": {},
-      "spineGroupData": {},
-      "charAnimData": {},
-      "stageRewardList": [],
+      "stageAdditionMap": {
+        "act7fun_01": {
+          "homepageSpineGroupId": "group_homepage_01",
+          "battleSpineGroupId": "group_battle_01",
+          "settleWinSpineGroupId": "group_win_01",
+          "settleLoseSpineGroupId": "group_lose_01",
+          "trapMaxNum": 2,
+          "trapTargetNum": 1
+        },
+        "act7fun_02": {
+          "homepageSpineGroupId": "group_homepage_02",
+          "battleSpineGroupId": "group_battle_02",
+          "settleWinSpineGroupId": "group_win_02",
+          "settleLoseSpineGroupId": "group_lose_02",
+          "trapMaxNum": 3,
+          "trapTargetNum": 1
+        },
+        "act7fun_03": {
+          "homepageSpineGroupId": "group_homepage_03",
+          "battleSpineGroupId": "group_battle_03",
+          "settleWinSpineGroupId": "group_win_03",
+          "settleLoseSpineGroupId": "group_lose_01",
+          "trapMaxNum": 4,
+          "trapTargetNum": 2
+        },
+        "act7fun_04": {
+          "homepageSpineGroupId": "group_homepage_04",
+          "battleSpineGroupId": "group_battle_01",
+          "settleWinSpineGroupId": "group_win_04",
+          "settleLoseSpineGroupId": "group_lose_02",
+          "trapMaxNum": 4,
+          "trapTargetNum": 2
+        },
+        "act7fun_05": {
+          "homepageSpineGroupId": "group_homepage_05",
+          "battleSpineGroupId": "group_battle_02",
+          "settleWinSpineGroupId": "group_win_05",
+          "settleLoseSpineGroupId": "group_lose_01",
+          "trapMaxNum": 5,
+          "trapTargetNum": 3
+        },
+        "act7fun_06": {
+          "homepageSpineGroupId": "group_homepage_06",
+          "battleSpineGroupId": "group_battle_03",
+          "settleWinSpineGroupId": "group_win_06",
+          "settleLoseSpineGroupId": "group_lose_02",
+          "trapMaxNum": 5,
+          "trapTargetNum": 3
+        }
+      },
+      "easterEggData": {
+        "egg_01_a": {
+          "eastereggId": "egg_01_a",
+          "charId": "char_doctor",
+          "newsDesc": "由博士来击破阿米娅，很有想法的规划。"
+        },
+        "egg_01_b": {
+          "eastereggId": "egg_01_b",
+          "charId": "char_003_kalts",
+          "newsDesc": "你竟然真的把所有的目标都摧毁了！超额完成了任务！"
+        },
+        "egg_02_a": {
+          "eastereggId": "egg_02_a",
+          "charId": "char_1035_wisdel",
+          "newsDesc": "只用了这点人就能干完活，真有你的。"
+        },
+        "egg_02_b": {
+          "eastereggId": "egg_02_b",
+          "charId": "char_102_texas",
+          "newsDesc": "太好了，我们几乎没有减员就完成了任务！"
+        },
+        "egg_03_a": {
+          "eastereggId": "egg_03_a",
+          "charId": "char_103_angel",
+          "newsDesc": "由维什戴尔来击破远山，很有想法的规划。"
+        },
+        "egg_03_b": {
+          "eastereggId": "egg_03_b",
+          "charId": "char_doctor",
+          "newsDesc": "你把这些干员全都揍了一顿，你肯定很不满他们。"
+        },
+        "egg_04_a": {
+          "eastereggId": "egg_04_a",
+          "charId": "char_172_svrash",
+          "newsDesc": "只用了这点人就能干完活，真有你的。"
+        },
+        "egg_04_b": {
+          "eastereggId": "egg_04_b",
+          "charId": "char_002_amiya",
+          "newsDesc": "你把这些干员全都揍了一顿，你肯定很不满他们。"
+        },
+        "egg_05_a": {
+          "eastereggId": "egg_05_a",
+          "charId": "char_003_kalts",
+          "newsDesc": "竟然在这里安排了如此多的兵力，这么谨慎？"
+        },
+        "egg_05_b": {
+          "eastereggId": "egg_05_b",
+          "charId": "char_1035_wisdel",
+          "newsDesc": "你竟然真的把所有的目标都摧毁了！超额完成了任务！"
+        },
+        "egg_06_a": {
+          "eastereggId": "egg_06_a",
+          "charId": "char_102_texas",
+          "newsDesc": "你把这些干员全都揍了一顿，你肯定很不满他们。"
+        },
+        "egg_06_b": {
+          "eastereggId": "egg_06_b",
+          "charId": "char_103_angel",
+          "newsDesc": "只用了这点人就能干完活，真有你的。"
+        }
+      },
+      "spineGroupData": {
+        "group_homepage_01": {
+          "spineGroupId": "group_homepage_01",
+          "holderData": [
+            {
+              "holderId": 1,
+              "charId": "char_002_amiya",
+              "direction": false
+            },
+            {
+              "holderId": 2,
+              "charId": "char_doctor",
+              "direction": false
+            }
+          ]
+        },
+        "group_homepage_02": {
+          "spineGroupId": "group_homepage_02",
+          "holderData": [
+            {
+              "holderId": 0,
+              "charId": "char_doctor",
+              "direction": true
+            },
+            {
+              "holderId": 2,
+              "charId": "char_103_angel",
+              "direction": false
+            }
+          ]
+        },
+        "group_homepage_03": {
+          "spineGroupId": "group_homepage_03",
+          "holderData": [
+            {
+              "holderId": 1,
+              "charId": "char_102_texas",
+              "direction": false
+            },
+            {
+              "holderId": 3,
+              "charId": "char_1035_wisdel",
+              "direction": true
+            }
+          ]
+        },
+        "group_homepage_04": {
+          "spineGroupId": "group_homepage_04",
+          "holderData": [
+            {
+              "holderId": 0,
+              "charId": "char_doctor",
+              "direction": false
+            },
+            {
+              "holderId": 3,
+              "charId": "char_003_kalts",
+              "direction": true
+            }
+          ]
+        },
+        "group_homepage_05": {
+          "spineGroupId": "group_homepage_05",
+          "holderData": [
+            {
+              "holderId": 1,
+              "charId": "char_172_svrash",
+              "direction": false
+            },
+            {
+              "holderId": 3,
+              "charId": "char_102_texas",
+              "direction": true
+            }
+          ]
+        },
+        "group_homepage_06": {
+          "spineGroupId": "group_homepage_06",
+          "holderData": [
+            {
+              "holderId": 0,
+              "charId": "char_doctor",
+              "direction": false
+            },
+            {
+              "holderId": 3,
+              "charId": "char_002_amiya",
+              "direction": true
+            }
+          ]
+        },
+        "group_battle_01": {
+          "spineGroupId": "group_battle_01",
+          "holderData": [
+            {
+              "holderId": 0,
+              "charId": "char_002_amiya",
+              "direction": false
+            },
+            {
+              "holderId": 4,
+              "charId": "char_doctor",
+              "direction": false
+            }
+          ]
+        },
+        "group_battle_02": {
+          "spineGroupId": "group_battle_02",
+          "holderData": [
+            {
+              "holderId": 1,
+              "charId": "char_003_kalts",
+              "direction": true
+            },
+            {
+              "holderId": 5,
+              "charId": "char_002_amiya",
+              "direction": false
+            }
+          ]
+        },
+        "group_battle_03": {
+          "spineGroupId": "group_battle_03",
+          "holderData": [
+            {
+              "holderId": 2,
+              "charId": "char_doctor",
+              "direction": false
+            },
+            {
+              "holderId": 3,
+              "charId": "char_1035_wisdel",
+              "direction": true
+            }
+          ]
+        },
+        "group_win_01": {
+          "spineGroupId": "group_win_01",
+          "holderData": [
+            {
+              "holderId": 0,
+              "charId": "char_003_kalts",
+              "direction": true
+            },
+            {
+              "holderId": 2,
+              "charId": "char_doctor",
+              "direction": false
+            },
+            {
+              "holderId": 5,
+              "charId": "char_172_svrash",
+              "direction": true
+            },
+            {
+              "holderId": 7,
+              "charId": "char_102_texas",
+              "direction": true
+            }
+          ]
+        },
+        "group_win_02": {
+          "spineGroupId": "group_win_02",
+          "holderData": [
+            {
+              "holderId": 0,
+              "charId": "char_doctor",
+              "direction": false
+            },
+            {
+              "holderId": 3,
+              "charId": "char_172_svrash",
+              "direction": true
+            },
+            {
+              "holderId": 4,
+              "charId": "char_103_angel",
+              "direction": true
+            },
+            {
+              "holderId": 7,
+              "charId": "char_102_texas",
+              "direction": false
+            }
+          ]
+        },
+        "group_win_03": {
+          "spineGroupId": "group_win_03",
+          "holderData": [
+            {
+              "holderId": 0,
+              "charId": "char_doctor",
+              "direction": true
+            },
+            {
+              "holderId": 2,
+              "charId": "char_002_amiya",
+              "direction": false
+            },
+            {
+              "holderId": 4,
+              "charId": "char_102_texas",
+              "direction": false
+            },
+            {
+              "holderId": 6,
+              "charId": "char_172_svrash",
+              "direction": true
+            }
+          ]
+        },
+        "group_win_04": {
+          "spineGroupId": "group_win_04",
+          "holderData": [
+            {
+              "holderId": 0,
+              "charId": "char_1035_wisdel",
+              "direction": false
+            },
+            {
+              "holderId": 3,
+              "charId": "char_003_kalts",
+              "direction": false
+            },
+            {
+              "holderId": 5,
+              "charId": "char_172_svrash",
+              "direction": true
+            },
+            {
+              "holderId": 6,
+              "charId": "char_103_angel",
+              "direction": false
+            }
+          ]
+        },
+        "group_win_05": {
+          "spineGroupId": "group_win_05",
+          "holderData": [
+            {
+              "holderId": 1,
+              "charId": "char_1035_wisdel",
+              "direction": false
+            },
+            {
+              "holderId": 2,
+              "charId": "char_doctor",
+              "direction": true
+            },
+            {
+              "holderId": 4,
+              "charId": "char_102_texas",
+              "direction": false
+            },
+            {
+              "holderId": 7,
+              "charId": "char_103_angel",
+              "direction": true
+            }
+          ]
+        },
+        "group_win_06": {
+          "spineGroupId": "group_win_06",
+          "holderData": [
+            {
+              "holderId": 1,
+              "charId": "char_002_amiya",
+              "direction": true
+            },
+            {
+              "holderId": 2,
+              "charId": "char_003_kalts",
+              "direction": false
+            },
+            {
+              "holderId": 5,
+              "charId": "char_1035_wisdel",
+              "direction": false
+            },
+            {
+              "holderId": 6,
+              "charId": "char_172_svrash",
+              "direction": false
+            }
+          ]
+        },
+        "group_lose_01": {
+          "spineGroupId": "group_lose_01",
+          "holderData": [
+            {
+              "holderId": 0,
+              "charId": "char_1035_wisdel",
+              "direction": false
+            },
+            {
+              "holderId": 2,
+              "charId": "char_103_angel",
+              "direction": true
+            },
+            {
+              "holderId": 4,
+              "charId": "char_doctor",
+              "direction": false
+            },
+            {
+              "holderId": 7,
+              "charId": "char_003_kalts",
+              "direction": true
+            }
+          ]
+        },
+        "group_lose_02": {
+          "spineGroupId": "group_lose_02",
+          "holderData": [
+            {
+              "holderId": 0,
+              "charId": "char_002_amiya",
+              "direction": true
+            },
+            {
+              "holderId": 3,
+              "charId": "char_doctor",
+              "direction": false
+            },
+            {
+              "holderId": 5,
+              "charId": "char_172_svrash",
+              "direction": true
+            },
+            {
+              "holderId": 7,
+              "charId": "char_102_texas",
+              "direction": false
+            }
+          ]
+        }
+      },
+      "charAnimData": {
+        "char_002_amiya": {
+          "charId": "char_002_amiya",
+          "failAnimId": "failed_01",
+          "normalAnimIds": [
+            "normal_01",
+            "normal_02",
+            "normal_03",
+            "normal_04",
+            "normal_05",
+            "normal_06"
+          ]
+        },
+        "char_003_kalts": {
+          "charId": "char_003_kalts",
+          "failAnimId": "failed_01",
+          "normalAnimIds": [
+            "normal_01",
+            "normal_02"
+          ]
+        },
+        "char_1035_wisdel": {
+          "charId": "char_1035_wisdel",
+          "failAnimId": "failed_01",
+          "normalAnimIds": [
+            "normal_01",
+            "normal_02",
+            "normal_03",
+            "normal_04",
+            "normal_05",
+            "normal_06",
+            "normal_07"
+          ]
+        },
+        "char_102_texas": {
+          "charId": "char_102_texas",
+          "failAnimId": "failed_01",
+          "normalAnimIds": [
+            "normal_01",
+            "normal_02",
+            "normal_03",
+            "normal_04",
+            "normal_05"
+          ]
+        },
+        "char_103_angel": {
+          "charId": "char_103_angel",
+          "failAnimId": "failed_01",
+          "normalAnimIds": [
+            "normal_01",
+            "normal_02",
+            "normal_03",
+            "normal_04",
+            "normal_05"
+          ]
+        },
+        "char_doctor": {
+          "charId": "char_doctor",
+          "failAnimId": "failed_01",
+          "normalAnimIds": [
+            "normal_01",
+            "normal_02",
+            "normal_03",
+            "normal_04",
+            "normal_05",
+            "normal_06",
+            "normal_07",
+            "normal_08"
+          ]
+        },
+        "char_172_svrash": {
+          "charId": "char_172_svrash",
+          "failAnimId": "failed_01",
+          "normalAnimIds": [
+            "normal_01",
+            "normal_02",
+            "normal_03",
+            "normal_04",
+            "normal_05",
+            "normal_06"
+          ]
+        }
+      },
+      "stageRewardList": [
+        "act7fun_01",
+        "act7fun_02",
+        "act7fun_04",
+        "act7fun_05"
+      ],
       "constData": {
-        "defaultStage": null,
-        "homepageSwitchStageId": null
+        "defaultStage": "act7fun_01",
+        "homepageSwitchStageId": "act7fun_02"
       }
     }
   },
@@ -409272,7 +409925,10 @@
     "enabledEmoticonThemeIdList": [
       "emoticon_autochess_basic",
       "emoticon_originium_slug",
-      "emoticon_autochess_basic_2"
+      "emoticon_autochess_basic_2",
+      "emoticon_foolsday_doctor",
+      "emoticon_foolsday_amiya",
+      "emoticon_foolsday_wisdel"
     ],
     "gameTipsList": [
       {

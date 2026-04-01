@@ -358946,5 +358946,71 @@
         "blackboard": []
       }
     ]
+  },
+  "sktok_izwsdl": {
+    "skillId": "sktok_izwsdl",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "爆裂一大清早",
+        "rangeId": null,
+        "description": "瞄准大范围内阻挡数最高的干员，对该干员和其周围四格不分敌我的所有单位造成三次超高额伤害\\n技能释放完成后自身退场",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_izwsdl",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "ability_range_radius",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "projectile_range",
+            "value": 1.1,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_1_main",
+            "value": 6.16,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_2_main",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_3_main",
+            "value": 5.1,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_1_splash",
+            "value": 4.9,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_2_splash",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk_scale_3_splash",
+            "value": 4.1,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
   }
 }

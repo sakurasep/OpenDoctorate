@@ -310539,7 +310539,7 @@
           "egirShip": {
             "bondId": "egirShip",
             "name": "阿戈尔",
-            "desc": "【阿戈尔】干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n战斗开始时，【阿戈尔】干员会<@ba.vup>吞噬</>身前一格干员对其造成<@ba.vdown>5000</>点物理伤害并获得其<@ba.vup>基础攻击力</>和<@ba.vup>阻挡数</>，使【阿戈尔】叠加等于被吞噬者等阶的<@ba.vup>盟约层数</><@autochess.gray>（【阿戈尔】之间优先更靠下和靠左的干员发起吞噬）</>\n<在场<@autochess.dgreen>5</>名不同【阿戈尔】干员>前3名【阿戈尔】干员首次被击倒时<@ba.vup>立刻复活</>",
+            "desc": "【阿戈尔】干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n战斗开始时，【阿戈尔】干员会<@ba.vup>吞噬</>身前一格干员对其造成<@ba.vdown>5000</>点物理伤害并获得其<@ba.vup>基础攻击力</>和<@ba.vup>阻挡数</>，使【阿戈尔】叠加等于被吞噬者等阶的<@ba.vup>盟约层数</><@autochess.gray>（【阿戈尔】之间优先更靠左和靠上的干员发起吞噬）</>\n<在场<@autochess.dgreen>5</>名不同【阿戈尔】干员>前3名【阿戈尔】干员首次被击倒时<@ba.vup>立刻复活</>",
             "iconId": "icon_egirShip",
             "activeCount": 3,
             "activeCondition": "BOARD",
@@ -315186,7 +315186,7 @@
             "description": "<部署时>使已激活的【卡西米尔】层数<@ba.vup>+5</>"
           },
           "garrison_125_a": {
-            "garrisonDesc": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>睡眠</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+1</>（每场战斗至多24层）",
+            "garrisonDesc": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>沉睡</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+1</>（每场战斗至多24层）",
             "eventType": "IN_BATTLE",
             "eventTypeDesc": "持续叠加",
             "eventTypeIcon": "icon_bond",
@@ -315231,7 +315231,7 @@
                 "valueStr": "garrison_125_a"
               }
             ],
-            "description": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>睡眠</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+1</>（每场战斗至多24层）"
+            "description": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>沉睡</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+1</>（每场战斗至多24层）"
           },
           "garrison_126_a": {
             "garrisonDesc": "<战斗开始时>使身前一格【谢拉格】干员获得特质“范围内1名敌人进入冻结时，有60%概率使已激活的【谢拉格】层数<@ba.vup>+1</>”",
@@ -320145,7 +320145,7 @@
             "description": "<部署时>使已激活的【卡西米尔】层数<@ba.vup>+10</>"
           },
           "garrison_125_b": {
-            "garrisonDesc": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>睡眠</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+2</>（每场战斗至多48层）",
+            "garrisonDesc": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>沉睡</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+2</>（每场战斗至多48层）",
             "eventType": "IN_BATTLE",
             "eventTypeDesc": "持续叠加",
             "eventTypeIcon": "icon_bond",
@@ -320190,7 +320190,7 @@
                 "valueStr": "garrison_125_b"
               }
             ],
-            "description": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>睡眠</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+2</>（每场战斗至多48层）"
+            "description": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>沉睡</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+2</>（每场战斗至多48层）"
           },
           "garrison_126_b": {
             "garrisonDesc": "<战斗开始时>使身前一格【谢拉格】干员获得特质“范围内1名敌人进入冻结时，有60%概率使已激活的【谢拉格】层数<@ba.vup>+2</>”",
@@ -321790,7 +321790,7 @@
             "effectCounterType": "NONE",
             "continuedRound": -1,
             "effectName": "阿戈尔",
-            "effectDesc": "【阿戈尔】干员生命值<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>\n战斗开始时【阿戈尔】干员依次吞噬身前一格干员造成<@ba.vdown>5000</>点物理伤害并获得其<@ba.vup>基础攻击力</>和<@ba.vup>阻挡数</>，并叠加等于被吞噬者等阶的盟约层数<@ba.acrem>（【阿戈尔】之间优先更靠下和靠左的干员发起吞噬）</>\n<在场<@ba.vup>5</>名不同【阿戈尔】干员>前3名【阿戈尔】干员首次被击倒时<@ba.vup>立刻复活</>",
+            "effectDesc": "【阿戈尔】干员生命值<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>\n战斗开始时【阿戈尔】干员依次吞噬身前一格干员造成<@ba.vdown>5000</>点物理伤害并获得其<@ba.vup>基础攻击力</>和<@ba.vup>阻挡数</>，并叠加等于被吞噬者等阶的盟约层数<@ba.acrem>（【阿戈尔】之间优先更靠左和靠上的干员发起吞噬）</>\n<在场<@ba.vup>5</>名不同【阿戈尔】干员>前3名【阿戈尔】干员首次被击倒时<@ba.vup>立刻复活</>",
             "effectDecoIconId": null,
             "enemyPrice": 0
           },
@@ -324630,7 +324630,7 @@
             "effectCounterType": "NONE",
             "continuedRound": -1,
             "effectName": "悬赏·折射II",
-            "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只深池重甲卫队队长，将其击倒者获得<@ba.vup>2</>资金",
+            "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只深池重甲卫士队长，将其击倒者获得<@ba.vup>2</>资金",
             "effectDecoIconId": null,
             "enemyPrice": 2
           },

@@ -1,5 +1,132 @@
 {
   "basicInfo": {
+    "act59sign": {
+      "id": "act59sign",
+      "type": "CHECKIN_ONLY",
+      "displayType": "NONE",
+      "name": "七周年庆典签到活动",
+      "startTime": 1777590000,
+      "endTime": 1778788799,
+      "rewardEndTime": 1778788799,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act15pray": {
+      "id": "act15pray",
+      "type": "PRAY_ONLY",
+      "displayType": "NONE",
+      "name": "幸运墙登录活动",
+      "startTime": 1777590000,
+      "endTime": 1778788799,
+      "rewardEndTime": 1778788799,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CANNOT_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act4mainss": {
+      "id": "act4mainss",
+      "type": "TYPE_MAINSS",
+      "displayType": "NONE",
+      "name": "相变临界",
+      "startTime": 1777590000,
+      "endTime": 1778788799,
+      "rewardEndTime": 1779393599,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act4mainss",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_stage_normal_27",
+        "medal_stage_normal_28",
+        "medal_stage_sixstar_03",
+        "medal_stage_hard_13",
+        "medal_stage_sixstarpoint_03"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [
+        {
+          "sortIndex": 1,
+          "picId": "act4mainss_1",
+          "availCheck": {
+            "startTs": 1777590000,
+            "endTs": 1779393599,
+            "type": "NONE",
+            "rate": -1.0,
+            "stageUnlockParam": null,
+            "charUnlockParam": null
+          }
+        },
+        {
+          "sortIndex": 2,
+          "picId": "act4mainss_2",
+          "availCheck": {
+            "startTs": 1777590000,
+            "endTs": 1779393599,
+            "type": "STAGECLEAR",
+            "rate": -1.0,
+            "stageUnlockParam": {
+              "stageId": "main_17-08"
+            },
+            "charUnlockParam": null
+          }
+        },
+        {
+          "sortIndex": 3,
+          "picId": "act4mainss_3",
+          "availCheck": {
+            "startTs": 1777590000,
+            "endTs": 1779393599,
+            "type": "STAGECLEAR",
+            "rate": -1.0,
+            "stageUnlockParam": {
+              "stageId": "main_17-15"
+            },
+            "charUnlockParam": null
+          }
+        },
+        {
+          "sortIndex": 4,
+          "picId": "act4mainss_4",
+          "availCheck": {
+            "startTs": 1777590000,
+            "endTs": 1779393599,
+            "type": "STAGECLEAR",
+            "rate": -1.0,
+            "stageUnlockParam": {
+              "stageId": "main_17-17"
+            },
+            "charUnlockParam": null
+          }
+        }
+      ],
+      "usePicGroup": true
+    },
     "act3video": {
       "id": "act3video",
       "type": "CHECKIN_VIDEO",
@@ -6681,6 +6808,20 @@
     }
   },
   "homeActConfig": {
+    "act59sign": {
+      "actId": "act59sign",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "91bd20",
+      "actTopBarText": "周年庆典签到活动"
+    },
+    "act15pray": {
+      "actId": "act15pray",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "94be2f",
+      "actTopBarText": "泽尔格勒告示板"
+    },
     "act3video": {
       "actId": "act3video",
       "isPopupAfterCheckin": false,
@@ -7754,6 +7895,7 @@
     }
   },
   "zoneToActivity": {
+    "act4mainss_zone1": "act4mainss",
     "act3enemyduel_zone1": "act3enemyduel",
     "act51side_zone1": "act51side",
     "act51side_zone2": "act51side",
@@ -8036,6 +8178,316 @@
     "act2access": 1745674200
   },
   "missionData": [
+    {
+      "id": "act4mainssActivity_1",
+      "sortId": 1,
+      "description": "通关17-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_17-01^main_17-01#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act4mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act4mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1778788799
+    },
+    {
+      "id": "act4mainssActivity_2",
+      "sortId": 2,
+      "description": "通关17-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_17-02^main_17-02#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act4mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act4mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1778788799
+    },
+    {
+      "id": "act4mainssActivity_3",
+      "sortId": 3,
+      "description": "通关17-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_17-04^main_17-04#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act4mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act4mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1778788799
+    },
+    {
+      "id": "act4mainssActivity_4",
+      "sortId": 4,
+      "description": "通关17-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_17-06^main_17-06#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act4mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act4mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1778788799
+    },
+    {
+      "id": "act4mainssActivity_5",
+      "sortId": 5,
+      "description": "通关17-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_17-07^main_17-07#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act4mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act4mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1778788799
+    },
+    {
+      "id": "act4mainssActivity_6",
+      "sortId": 6,
+      "description": "通关17-10",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_17-09^main_17-09#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act4mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act4mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1778788799
+    },
+    {
+      "id": "act4mainssActivity_7",
+      "sortId": 7,
+      "description": "通关17-11",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_17-10^main_17-10#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act4mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act4mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1778788799
+    },
+    {
+      "id": "act4mainssActivity_8",
+      "sortId": 8,
+      "description": "通关17-14",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_17-13",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act4mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act4mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1778788799
+    },
+    {
+      "id": "act4mainssActivity_9",
+      "sortId": 9,
+      "description": "通关17-16",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_17-15",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act4mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act4mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1778788799
+    },
+    {
+      "id": "act4mainssActivity_10",
+      "sortId": 10,
+      "description": "通关17-17",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_17-16^main_17-16#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act4mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act4mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1778788799
+    },
     {
       "id": "51sideActivity_1",
       "sortId": 1,
@@ -117703,6 +118155,28 @@
   ],
   "missionGroup": [
     {
+      "id": "act4mainss",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "act4mainssActivity_1",
+        "act4mainssActivity_2",
+        "act4mainssActivity_3",
+        "act4mainssActivity_4",
+        "act4mainssActivity_5",
+        "act4mainssActivity_6",
+        "act4mainssActivity_7",
+        "act4mainssActivity_8",
+        "act4mainssActivity_9",
+        "act4mainssActivity_10"
+      ],
+      "startTs": 1777590000,
+      "endTs": 1779393599
+    },
+    {
       "id": "act51side",
       "title": null,
       "type": "ACTIVITY",
@@ -122584,6 +123058,205 @@
       }
     },
     "CHECKIN_ONLY": {
+      "act59sign": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "LIMITED_TKT_GACHA_10_7301",
+                "count": 1,
+                "type": "LIMITED_TKT_GACHA_10"
+              },
+              {
+                "id": "ap_supply_lt_120",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "order": 1,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "char_4227_gallus",
+                "count": 1,
+                "type": "CHAR"
+              },
+              {
+                "id": "7001",
+                "count": 5,
+                "type": "TKT_RECRUIT"
+              }
+            ],
+            "order": 2,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "2": {
+            "itemList": [
+              {
+                "id": "mod_unlock_token",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 3,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "furniM_act73d0_messageboard_01",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 4,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "7002",
+                "count": 5,
+                "type": "TKT_INST_FIN"
+              }
+            ],
+            "order": 5,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "5": {
+            "itemList": [
+              {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3302",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 6,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "6": {
+            "itemList": [
+              {
+                "id": "char_446_aroma@epoque#54",
+                "count": 1,
+                "type": "CHAR_SKIN"
+              },
+              {
+                "id": "3003",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 7,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "7": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "mod_update_token_1",
+                "count": 10,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 8,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "8": {
+            "itemList": [
+              {
+                "id": "3401",
+                "count": 300,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 9,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "9": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "mod_update_token_2",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 10,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          }
+        },
+        "apSupplyOutOfDateDict": {
+          "ap_supply_lt_120": 1779652799
+        },
+        "dynCheckInData": null,
+        "extraCheckinList": null
+      },
       "act57sign": {
         "checkInList": {
           "0": {
@@ -245681,6 +246354,14 @@
       }
     },
     "TYPE_MAINSS": {
+      "act4mainss": {
+        "zoneAdditionDataMap": {
+          "act4mainss_zone1": {
+            "unlockTip": "推进至<color=#d51c47>3-8</color>后可继续游玩",
+            "unlockTipAfterRetro": "推进至<color=#d51c47>16-19</color>后可继续游玩"
+          }
+        }
+      },
       "act3mainss": {
         "zoneAdditionDataMap": {
           "act3mainss_zone1": {
@@ -246259,7 +246940,8 @@
             "isRoom": false,
             "modeType": "OPERATION",
             "stageIds": [
-              "act3enemyduel_01a"
+              "act3enemyduel_01a",
+              "act3enemyduel_01b"
             ],
             "pageId": 1,
             "innerSortId": 3,
@@ -246291,7 +246973,8 @@
             "isRoom": false,
             "modeType": "OPERATION",
             "stageIds": [
-              "act3enemyduel_01a"
+              "act3enemyduel_01a",
+              "act3enemyduel_01b"
             ],
             "pageId": 1,
             "innerSortId": 2,
@@ -246323,7 +247006,8 @@
             "isRoom": false,
             "modeType": "STAND",
             "stageIds": [
-              "act3enemyduel_01a"
+              "act3enemyduel_01a",
+              "act3enemyduel_01b"
             ],
             "pageId": 1,
             "innerSortId": 1,
@@ -246355,7 +247039,8 @@
             "isRoom": true,
             "modeType": "OPERATION",
             "stageIds": [
-              "act3enemyduel_01a"
+              "act3enemyduel_01a",
+              "act3enemyduel_01b"
             ],
             "pageId": 2,
             "innerSortId": 2,
@@ -246387,7 +247072,8 @@
             "isRoom": true,
             "modeType": "STAND",
             "stageIds": [
-              "act3enemyduel_01a"
+              "act3enemyduel_01a",
+              "act3enemyduel_01b"
             ],
             "pageId": 2,
             "innerSortId": 1,
@@ -248837,6 +249523,10 @@
                 "score": 15.0
               },
               {
+                "enemyId": "enemy_15092_dqudg",
+                "score": 50.0
+              },
+              {
                 "enemyId": "enemy_15093_dqzfkl",
                 "score": 125.0
               },
@@ -248874,6 +249564,14 @@
               },
               {
                 "enemyId": "enemy_15074_dqdght",
+                "score": 125.0
+              },
+              {
+                "enemyId": "enemy_15075_dqzklz",
+                "score": 125.0
+              },
+              {
+                "enemyId": "enemy_15076_dqzmst",
                 "score": 125.0
               }
             ]
@@ -249274,6 +249972,10 @@
                 "score": -1.0
               },
               {
+                "enemyId": "enemy_15092_dqudg",
+                "score": 12.0
+              },
+              {
                 "enemyId": "enemy_15093_dqzfkl",
                 "score": 25.0
               },
@@ -249311,6 +250013,14 @@
               },
               {
                 "enemyId": "enemy_15074_dqdght",
+                "score": 3.0
+              },
+              {
+                "enemyId": "enemy_15075_dqzklz",
+                "score": 25.0
+              },
+              {
+                "enemyId": "enemy_15076_dqzmst",
                 "score": 3.0
               }
             ]
@@ -249577,6 +250287,10 @@
               {
                 "enemyId": "enemy_15073_dqkght",
                 "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15075_dqzklz",
+                "score": 100.0
               }
             ]
           },
@@ -249721,6 +250435,10 @@
               },
               {
                 "enemyId": "enemy_15090_dqacpa",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15092_dqudg",
                 "score": 100.0
               },
               {
@@ -250174,6 +250892,10 @@
               {
                 "enemyId": "enemy_15073_dqkght",
                 "score": 300.0
+              },
+              {
+                "enemyId": "enemy_15075_dqzklz",
+                "score": 200.0
               }
             ]
           },
@@ -250254,6 +250976,10 @@
               },
               {
                 "enemyId": "enemy_15090_dqacpa",
+                "score": 300.0
+              },
+              {
+                "enemyId": "enemy_15092_dqudg",
                 "score": 300.0
               },
               {
@@ -250756,6 +251482,10 @@
                 "score": 200.0
               },
               {
+                "enemyId": "enemy_15092_dqudg",
+                "score": 0.0
+              },
+              {
                 "enemyId": "enemy_15093_dqzfkl",
                 "score": 0.0
               },
@@ -250793,6 +251523,14 @@
               },
               {
                 "enemyId": "enemy_15074_dqdght",
+                "score": 0.0
+              },
+              {
+                "enemyId": "enemy_15075_dqzklz",
+                "score": 0.0
+              },
+              {
+                "enemyId": "enemy_15076_dqzmst",
                 "score": 0.0
               }
             ]
@@ -250999,6 +251737,10 @@
               {
                 "enemyId": "enemy_15072_dqlbgg",
                 "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15075_dqzklz",
+                "score": 100.0
               }
             ]
           },
@@ -251077,6 +251819,10 @@
               },
               {
                 "enemyId": "enemy_15073_dqkght",
+                "score": 300.0
+              },
+              {
+                "enemyId": "enemy_15075_dqzklz",
                 "score": 300.0
               },
               {
@@ -251534,6 +252280,10 @@
                 "score": 15000.0
               },
               {
+                "enemyId": "enemy_15092_dqudg",
+                "score": 38000.0
+              },
+              {
                 "enemyId": "enemy_15093_dqzfkl",
                 "score": 300000.0
               },
@@ -251572,6 +252322,14 @@
               {
                 "enemyId": "enemy_15074_dqdght",
                 "score": 70000.0
+              },
+              {
+                "enemyId": "enemy_15075_dqzklz",
+                "score": 60000.0
+              },
+              {
+                "enemyId": "enemy_15076_dqzmst",
+                "score": 120000.0
               }
             ]
           }
@@ -252077,6 +252835,11 @@
             "originalEnemyId": "enemy_1263_durbus",
             "tagType": "tag_single"
           },
+          "enemy_15092_dqudg": {
+            "enemyId": "enemy_15092_dqudg",
+            "originalEnemyId": "enemy_2026_syudg",
+            "tagType": "tag_single"
+          },
           "enemy_15093_dqzfkl": {
             "enemyId": "enemy_15093_dqzfkl",
             "originalEnemyId": "enemy_2099_skzfkl",
@@ -252125,6 +252888,16 @@
           "enemy_15074_dqdght": {
             "enemyId": "enemy_15074_dqdght",
             "originalEnemyId": "enemy_1513_dekght_2",
+            "tagType": "tag_single"
+          },
+          "enemy_15075_dqzklz": {
+            "enemyId": "enemy_15075_dqzklz",
+            "originalEnemyId": "enemy_2076_skzklz",
+            "tagType": "tag_multi"
+          },
+          "enemy_15076_dqzmst": {
+            "enemyId": "enemy_15076_dqzmst",
+            "originalEnemyId": "enemy_2078_skzmst",
             "tagType": "tag_single"
           }
         },
@@ -376321,6 +377094,9 @@
     }
   },
   "activityItems": {
+    "act4mainss": [
+      "act4mainss_token"
+    ],
     "act3enemyduel": [
       "act3enemyduel_milestone_point"
     ],
@@ -377176,6 +377952,11 @@
     ]
   },
   "dynActs": {
+    "act15pray": {
+      "rule1": "用尽当日次数选取的所有许愿签中，合成玉数量最多的1张许愿签为当日最终奖励。",
+      "rule2": "当日许愿签合成玉奖励不足400时，次日可选择3张许愿签。",
+      "slotCount": 12
+    },
     "act14pray": {
       "rule1": "用尽当日次数选取的所有幸运笺中，合成玉数量最多的1张幸运笺为当日最终奖励。",
       "rule2": "当日幸运笺合成玉奖励不足400时，次日可选择3张幸运笺。",
@@ -385403,6 +386184,81 @@
       ],
       "picGroups": [],
       "startTs": 1777123800
+    },
+    {
+      "id": "dis_main4ss",
+      "type": "ACTIVITY_COMP",
+      "funcId": "act4mainss",
+      "endTs": 1779393599,
+      "sortId": 148,
+      "itemId": "act4mainss_token",
+      "timeNodes": [
+        {
+          "title": "<相变临界>活动已开放",
+          "ts": 1777590000
+        },
+        {
+          "title": "追加绝境关卡",
+          "ts": 1778227200
+        }
+      ],
+      "picGroups": [
+        {
+          "sortIndex": 1,
+          "picId": "act4mainss_1",
+          "availCheck": {
+            "startTs": 1777590000,
+            "endTs": 1779393599,
+            "type": "NONE",
+            "rate": -1.0,
+            "stageUnlockParam": null,
+            "charUnlockParam": null
+          }
+        },
+        {
+          "sortIndex": 2,
+          "picId": "act4mainss_2",
+          "availCheck": {
+            "startTs": 1777590000,
+            "endTs": 1779393599,
+            "type": "STAGECLEAR",
+            "rate": -1.0,
+            "stageUnlockParam": {
+              "stageId": "main_17-08"
+            },
+            "charUnlockParam": null
+          }
+        },
+        {
+          "sortIndex": 3,
+          "picId": "act4mainss_3",
+          "availCheck": {
+            "startTs": 1777590000,
+            "endTs": 1779393599,
+            "type": "STAGECLEAR",
+            "rate": -1.0,
+            "stageUnlockParam": {
+              "stageId": "main_17-15"
+            },
+            "charUnlockParam": null
+          }
+        },
+        {
+          "sortIndex": 4,
+          "picId": "act4mainss_4",
+          "availCheck": {
+            "startTs": 1777590000,
+            "endTs": 1779393599,
+            "type": "STAGECLEAR",
+            "rate": -1.0,
+            "stageUnlockParam": {
+              "stageId": "main_17-17"
+            },
+            "charUnlockParam": null
+          }
+        }
+      ],
+      "startTs": 1777590000
     }
   ],
   "actFunData": {
@@ -411112,6 +411968,35 @@
     }
   },
   "dynEntrySwitchData": {
+    "act4mainss": {
+      "entrySwitchInfo": {
+        "act4mainss_entry_01": {
+          "entryId": "act4mainss_entry_01",
+          "sortId": 1,
+          "stageId": null,
+          "signalId": "act4mainss"
+        },
+        "act4mainss_entry_02": {
+          "entryId": "act4mainss_entry_02",
+          "sortId": 2,
+          "stageId": "main_17-08",
+          "signalId": "act4mainss"
+        },
+        "act4mainss_entry_03": {
+          "entryId": "act4mainss_entry_03",
+          "sortId": 3,
+          "stageId": "main_17-15",
+          "signalId": "act4mainss"
+        },
+        "act4mainss_entry_04": {
+          "entryId": "act4mainss_entry_04",
+          "sortId": 4,
+          "stageId": "main_17-17",
+          "signalId": "act4mainss"
+        }
+      },
+      "randomEntrySwitchInfo": {}
+    },
     "act3mainss": {
       "entrySwitchInfo": {
         "act3mainss_entry_01": {
@@ -414171,6 +415056,862 @@
         "haveSubMissionToUnlock": false,
         "countEndTs": -1
       }
+    }
+  },
+  "anniv7thData": {
+    "clueGroupData": {
+      "clueSet_1": {
+        "clueGroupId": "clueSet_1",
+        "sortId": 1,
+        "clueGroupName": "前序",
+        "clueGroupSubName": "Preparations",
+        "clueGroupBg": "clueSet_1"
+      },
+      "clueSet_2": {
+        "clueGroupId": "clueSet_2",
+        "sortId": 2,
+        "clueGroupName": "记忆",
+        "clueGroupSubName": "Memories",
+        "clueGroupBg": "clueSet_2"
+      },
+      "clueSet_3": {
+        "clueGroupId": "clueSet_3",
+        "sortId": 3,
+        "clueGroupName": "别处",
+        "clueGroupSubName": "Elsewhere",
+        "clueGroupBg": "clueSet_3"
+      },
+      "clueSet_4": {
+        "clueGroupId": "clueSet_4",
+        "sortId": 4,
+        "clueGroupName": "留存",
+        "clueGroupSubName": "Remains",
+        "clueGroupBg": "clueSet_4"
+      }
+    },
+    "clueData": {
+      "clue_1_1": {
+        "clueId": "clue_1_1",
+        "clueGroupId": "clueSet_1",
+        "sortId": 1,
+        "clueLink": [
+          "clue_1_5"
+        ],
+        "clueName": "奥卡性质分析报告",
+        "clueOwner": "Pith的线索",
+        "clueDesc": "致阿米娅、可露希尔及其他所有需要知晓以下内容的人：\n在罗德岛实验室环境下对奥卡样本进行的测试已经全部结束，实验结果与在远北矿区内观测确认的结果基本一致。奥卡在不同外部条件下，与不同材料结合所发生的特性转变具备高度可复现性。具体的图示说明我放在了附件内。\n我需要向你们强调以下几点：\n一，我们至此可以完全确认奥卡与源石之间的关系，正如我们先前的推测，奥卡是源石被剥去能量和信息后剩下的单纯“载体”。\n二，奥卡可以被我们利用，具体用途见附件描述。我提出了几种设想，之后会继续跟进实验，如果可行，相信会对你们此次的行动有所帮助。\n三，根据我与Logos在远北探测到的奥卡规模，结合单位样本的奥卡所失去的能量推算，科罗萨主矿脉被剥离的能量总和已达到堪称恐怖的量级。我必须再次强调这一点，是的，恐怖，对我们所有人而言。\n祝你们行动顺利。\n",
+        "unlockDesc": "以完美作战通关17-4",
+        "clueOwnerPic": "clue_pith",
+        "pageRes": "clue_0"
+      },
+      "clue_1_2": {
+        "clueId": "clue_1_2",
+        "clueGroupId": "clueSet_1",
+        "sortId": 2,
+        "clueLink": [
+          "clue_1_5"
+        ],
+        "clueName": "布列洁诺伊事件报告",
+        "clueOwner": "Mantra的线索",
+        "clueDesc": "《报告附录C-3》\n这将是我最后一次在这份报告上增补内容，但这并不意味着布列洁诺伊事件的完全终结。\n根据线索，我们已经得知石棺不在圣骏堡，它于1100年初被移送乌萨斯中南部某大型移动城市进行保存和研究。并且线人认为，出于保密需要，石棺有极大可能并不在这座大型移动城市之中，而位于某个处于该移动城市辐射范围内的中小型城市，即“卫星城”中。\n对此，罗德岛驻乌萨斯南部的流动医疗队已经依照线索进行了排查，但由于时间有限，未能走访所有相关城市。我从情报中分析和筛选出一份符合条件的大型移动城市名单，希望能对行动有所帮助。\n \n图利斯卡亚，乌萨斯最大的工业城市，相关卫星城数量：1\n新彼得罗夫斯克，中部新兴工业城市，相关卫星城数量：2\n塔曼格勒德，第二集团军南部驻防圈中心城市，相关卫星城数量：4\n维亚特诺，第一集团军驻地，相关卫星城数量：7\n \n祝愿此次行动一切顺利。\n我等你们的好消息。\n",
+        "unlockDesc": "以完美作战通关17-12",
+        "clueOwnerPic": "clue_mantra",
+        "pageRes": "clue_2"
+      },
+      "clue_1_3": {
+        "clueId": "clue_1_3",
+        "clueGroupId": "clueSet_1",
+        "sortId": 3,
+        "clueLink": [
+          "clue_1_5"
+        ],
+        "clueName": "可携带奥卡样本",
+        "clueOwner": "Logos的线索",
+        "clueDesc": "“休止，界限永固。”\n“驻留，孤鸣不绝。”\n“静止，据此划定......此内为永恒的生，此外为绝对的止。”\n博士，该奥卡样本的特性已设法维持，其与外界的联系也已被切断，可以放心携带。希望它能给此次的行动带来一些帮助，我的咒言也会一直陪伴在你们左右。\n",
+        "unlockDesc": "以完美作战通关17-7",
+        "clueOwnerPic": "clue_logos",
+        "pageRes": "clue_1"
+      },
+      "clue_1_4": {
+        "clueId": "clue_1_4",
+        "clueGroupId": "clueSet_1",
+        "sortId": 4,
+        "clueLink": [
+          "clue_1_5"
+        ],
+        "clueName": "矿区情报综述",
+        "clueOwner": "Raidian的线索",
+        "clueDesc": "......请允许我在这份情报综述内另起一段，正式讲一讲我刚到远北矿区时发生的事情。\n弑君者提供的情报指向石棺事件的幸存者，而我追着这条线索来到远北矿区，找到了科谢尼娅。在当时，我能创造出的任何与她交流的机会都暴露在研究所的视野中，而她本人的状态也并不适宜开诚布公地谈论和石棺相关的一切。流动医疗队的身份是个很好的掩护，有时她会来看我为感染者提供治疗，在那些时刻，她的神经和情绪都是最为放松的。终于，她在某一次返回研究所前叫住了我，说有些事想和我聊聊。我立刻意识到，这是我向她询问石棺情报最好的机会。但是——难以避免的但是——远北矿区情况恶化的速度远超所有人的想象，我们的谈话被迫变成了关于紧急撤离的讨论。\n而最终，科谢尼娅没能来得及撤离，我也失去了弄清她与石棺之间联系的机会。\n\n补充说明：\n......所幸现在，我们从其他途径得知了石棺的去向，在矿区发生的事情或许能作为一份提醒保存于下次行动的事前情报之中。\n博士，我很少这样笃定，但这次，我有种奇妙的预感......\n我们一定能与她再见。\n",
+        "unlockDesc": "以完美作战通关17-15",
+        "clueOwnerPic": "clue_raidian",
+        "pageRes": "clue_3"
+      },
+      "clue_1_5": {
+        "clueId": "clue_1_5",
+        "clueGroupId": "clueSet_1",
+        "sortId": 5,
+        "clueLink": [
+          "clue_1_1",
+          "clue_1_2",
+          "clue_1_3",
+          "clue_1_4"
+        ],
+        "clueName": "行动人员名单",
+        "clueOwner": "阿米娅的线索",
+        "clueDesc": "此次前往泽尔格勒，我们即将执行的任务与预期达成的目标，对罗德岛，对彼此联系着的大家都意味着许多许多。\n我们经历、失去，并终于看到了一丝希望。我们不能辜负这份绝无仅有的希望。\n以下，是行动人员名单：\n阿米娅\n博士\nMon3tr\n可露希尔\nRaidian\n弑君者\n......\n以及，凯尔希。\n",
+        "unlockDesc": "以完美作战通关17-18",
+        "clueOwnerPic": "clue_amiya",
+        "pageRes": "clue_4"
+      },
+      "clue_2_1": {
+        "clueId": "clue_2_1",
+        "clueGroupId": "clueSet_2",
+        "sortId": 1,
+        "clueLink": [
+          "clue_2_4",
+          "clue_2_3"
+        ],
+        "clueName": "模糊的过往",
+        "clueOwner": "冬时的线索",
+        "clueDesc": "亲爱的科谢尼娅：\n如果你实在不愿意回来，那至少也请接受我的好意，去这些地方看看吧。\n没有一个渴望做出足以推动文明发展的成果的研究所，会拒绝你这样拥有成熟经验与年轻眼光的研究者。至少暂时离开你被迫躲藏着的地方吧，孩子。研究所的地址和推荐信我都放在信封里面了，请一定打开看看，你不会失望的。\n阿尔乔姆·恰达耶夫\n\n亲爱的科谢尼娅：\n我在圣骏堡听说了你的选择。那是一个很好的研究院，资源雄厚，气候稳定，人员也大都是你这样的青年人，只是他们也许多少有些世家的气性，你可能一开始会不习惯。但如果只是想要长久地留下，应该不成问题。\n写信的时候，我儿子让我邀请你回圣骏堡参加春季舞会，想见一见你，我拒绝了。不是不想让他见到你，而是知道他恐怕只是为了拿你取乐。他已经完全被惯坏了，像这里所有同他嬉闹的孩子那样。我会好好管教他，等日后你重归这里，见到的应当是另一个更有教养的年轻人。\n阿尔乔姆·恰达耶夫\n\n亲爱的科谢尼娅：\n久疏问候，不知你在远北过得如何？\n我得到了一些关于（模糊的水渍）的新消息，迫不及待要与你分享，因为你是如今还活着的、唯一知晓（模糊的水渍）的人。\n（大片模糊的水渍）......如果你想回到圣骏堡，或者说回到祖国最富庶和繁华的地方，那么现在就是时候了。\n你只需要回信让我知道。\n阿尔乔姆·恰达耶夫\n\n科谢尼娅：\n（被撕扯过的痕迹）\n......请让我弥补那些夜来入梦使我不得安睡的一切吧。我请求（模糊的水渍）请务必......\n（一大片模糊的水渍）\n阿尔乔姆\n",
+        "unlockDesc": "消除3个泄漏源",
+        "clueOwnerPic": "clue_wintim",
+        "pageRes": "clue_5"
+      },
+      "clue_2_2": {
+        "clueId": "clue_2_2",
+        "clueGroupId": "clueSet_2",
+        "sortId": 2,
+        "clueLink": [
+          "clue_2_4"
+        ],
+        "clueName": "数字的真相",
+        "clueOwner": "弑君者的线索",
+        "clueDesc": "扎莫列斯，三日内\n生活物资运输车辆进出247次\n覆盖伪装的车辆（疑似军用车辆）进出262次\n带医疗标识的运载车进出48次\n民用运载车进出162次\n\n图利斯卡亚，三日内\n生活物资运输车辆进出101次\n覆盖伪装的车辆（疑似军用车辆）进出149次\n带医疗标识的运载车进出35次\n民用运载车进出86次\n\n彼得达诺尔，三日内\n生活物资运输车辆进出54次\n覆盖伪装的车辆（疑似军用车辆）进出25次\n带医疗标识的运载车进出16次\n民用运载车进出133次\n\n......\n\n泽尔格勒，三日内\n生活物资运输车辆进出25次\n覆盖伪装的车辆（疑似军用车辆）进出168次\n带医疗标识的运载车进出0次！\n民用运载车进出0次！\n\n需要想办法查阅泽尔格勒具体的货物进出口登记名录——\n军工类货品占进出口货物总数的80%，生活类货品占20%，医疗用品进出口数量为0！\n如此明显，不必再继续蹲守了......\n我已经锁定了目标。\n",
+        "unlockDesc": "消除10个泄漏源",
+        "clueOwnerPic": "clue_crosly",
+        "pageRes": "clue_6"
+      },
+      "clue_2_3": {
+        "clueId": "clue_2_3",
+        "clueGroupId": "clueSet_2",
+        "sortId": 3,
+        "clueLink": [
+          "clue_2_1",
+          "clue_2_4"
+        ],
+        "clueName": "未发生的对话",
+        "clueOwner": "亚叶的线索",
+        "clueDesc": "“阿斯特罗夫长眠于切尔诺伯格的冻土之下，莉莉娅走向了风雪的深处。莉莉娅的死亡，应当是复仇的余烬熄灭的信号。路易莎很安全，她会成为一名拯救生命的医生，不必再做扑向烈火的盲蛾。”\n“在合适的时机，我会将这最后的消息告诉她。”\n\n您撒谎了，老师。\n我会继续完成您的研究。我会成为一名出色的医生。\n即使这片大地的病灶只能用刀子剜去，我依然愿意走向烈火，因为我已经不再畏惧它。\n风雪，会吹向每一个人，妈妈和老师选择了直面风雪，我不能......也不愿意躲藏。\n请您......休息吧，您终于可以休息了。\n我会替您继续走下去。\n",
+        "unlockDesc": "消除7个泄漏源",
+        "clueOwnerPic": "clue_folnic",
+        "pageRes": "clue_7"
+      },
+      "clue_2_4": {
+        "clueId": "clue_2_4",
+        "clueGroupId": "clueSet_2",
+        "sortId": 4,
+        "clueLink": [
+          "clue_2_1",
+          "clue_2_2",
+          "clue_2_3",
+          "clue_2_5"
+        ],
+        "clueName": "渗血的铅字",
+        "clueOwner": "海蒂的线索",
+        "clueDesc": "“感染者专项就业补贴现已推出，泽尔格勒重点建设项目持续招工......”\n“重大利好！响应帝国政令，即日起感染者可凭此剪报前往泽尔格勒报到，领取免费生活用品。”\n“......男女不限，经验不限，健康状况不限！只要你来，就包食宿！”\n“劳动换取报酬！感染者同样享有劳动的权利，就在泽尔格勒！”\n\n我曾经在维多利亚的许多工业城市见过类似的地下标语，但看见有地方将对普通人而言再普通不过的待遇当作对感染者的至高尊重大肆宣扬，还是第一次。\n这里是乌萨斯。这值得相信吗？\n",
+        "unlockDesc": "消除5个泄漏源",
+        "clueOwnerPic": "clue_heidi",
+        "pageRes": "clue_8"
+      },
+      "clue_2_5": {
+        "clueId": "clue_2_5",
+        "clueGroupId": "clueSet_2",
+        "sortId": 5,
+        "clueLink": [
+          "clue_2_4"
+        ],
+        "clueName": "写有提示的演算纸",
+        "clueOwner": "异客的线索",
+        "clueDesc": "可露希尔睡着了。从演算纸上的那几处笔痕来看，她已经发现了算错的地方，但想必她是太疲惫了。\n所以我帮了一个小忙。有些部分的计算竟然还有些熟悉，我的记忆看来比我以为的还要牢固，即使是对于这些东西。\n我不能使用可露希尔的终端，相变模型的数学验证在我自己的终端上跑，她醒来之后应该就能看到结果。密码博士知道。\n又一个结束。可露希尔也该放松些了，和我一样。\n",
+        "unlockDesc": "消除1个泄漏源",
+        "clueOwnerPic": "clue_pasngr",
+        "pageRes": "clue_9"
+      },
+      "clue_3_1": {
+        "clueId": "clue_3_1",
+        "clueGroupId": "clueSet_3",
+        "sortId": 1,
+        "clueLink": [
+          "clue_3_2",
+          "clue_3_3",
+          "clue_3_4",
+          "clue_3_5"
+        ],
+        "clueName": "古米的密码表",
+        "clueOwner": "古米的线索",
+        "clueDesc": "白夜10\n冰女皇29\n幻想家37\n土地05\n怪物62\n金切尔文77\n小驳船48\n幼羽64\n雪姑娘93\n巨鳞35\n石棺......卫星城\n10293705627748649335SS？\n妈妈，爸爸，你们想告诉拉达什么？\n",
+        "unlockDesc": "累计击败20个受到泄漏源影响的敌人",
+        "clueOwnerPic": "clue_sunbr",
+        "pageRes": "clue_10"
+      },
+      "clue_3_2": {
+        "clueId": "clue_3_2",
+        "clueGroupId": "clueSet_3",
+        "sortId": 2,
+        "clueLink": [
+          "clue_3_1"
+        ],
+        "clueName": "议长的行程通知",
+        "clueOwner": "赫拉格的线索",
+        "clueDesc": "乌萨斯帝国议会之议长\n伊斯拉姆·维特\n近日行程安排如下，各部门须倾力配合！\n圣骏堡：主持议会关于（字迹模糊）的讨论\n图利斯卡亚：检查（字迹模糊）储备情况\n扎莫列斯：接见第一集团军（字迹模糊）及随行人员\n奥涅加矿区：出席并主持当地会议\n泽尔格勒：暂不公开\n签收确认（请于此处签名）：瓦西里·戈尔奇科夫\n",
+        "unlockDesc": "累计击败30个受到泄漏源影响的敌人",
+        "clueOwnerPic": "clue_helage",
+        "pageRes": "clue_11"
+      },
+      "clue_3_3": {
+        "clueId": "clue_3_3",
+        "clueGroupId": "clueSet_3",
+        "sortId": 3,
+        "clueLink": [
+          "clue_3_1"
+        ],
+        "clueName": "独自在外的行迹",
+        "clueOwner": "陈的线索",
+        "clueDesc": "我改地址了，也不必记下这个新地址，我不知道我会在这里停留多久。\n替我跟那帮家伙问好。算了，等我靠近龙门航道的时候通讯器应该能收到点信号，我自己来吧。\n......\n我听说罗德岛正在疏散所有干员，这是什么意思？\n需要我帮忙吗？尽快联系我！\n......\n打听到罗德岛的最新动向了，我会想办法追上你们。\n......\n之前接连几封信件被退回，我就已经有了不好的预感，现在我终于知道发生了什么。我不清楚为什么罗德岛会遭遇这一切，更想不明白发生在凯尔希医生身上的......但你们有一句话说得对——\n我们从未失去罗德岛。无论是那艘舰船还是并肩作战的同伴，我们都会亲手夺回来。\n我仍在乌萨斯境内，有需要，联系我。\n",
+        "unlockDesc": "累计击败10个受到泄漏源影响的敌人",
+        "clueOwnerPic": "clue_chen",
+        "pageRes": "clue_12"
+      },
+      "clue_3_4": {
+        "clueId": "clue_3_4",
+        "clueGroupId": "clueSet_3",
+        "sortId": 4,
+        "clueLink": [
+          "clue_3_1"
+        ],
+        "clueName": "被转交的申请单",
+        "clueOwner": "维娜的线索",
+        "clueDesc": "物资转运申请函（附清单）\n申请方：罗德岛\n受理方：维多利亚布查特市进出口管理司（文字被划去）\n受理方：议长办公室\n物资清单：\n（管控物资）晶体光学分析装置10套\n（管控物资）高纯度工业用源石活性拮抗剂7箱\n未经版权审查的影视光盘1箱\n（管控物资）高密度工业用能源模块及功率转换装置3组\n优质机油19桶\n......\n审批意见：同意转运。有意见的直接把意见函投到信箱。\n",
+        "unlockDesc": "累计击败5个受到泄漏源影响的敌人",
+        "clueOwnerPic": "clue_siege",
+        "pageRes": "clue_13"
+      },
+      "clue_3_5": {
+        "clueId": "clue_3_5",
+        "clueGroupId": "clueSet_3",
+        "sortId": 5,
+        "clueLink": [
+          "clue_3_1"
+        ],
+        "clueName": "来自卡兹戴尔的问候",
+        "clueOwner": "维什戴尔的线索",
+        "clueDesc": "（一长段写得歪歪扭扭的俚语，经干员Logos辨认，不是脏话，只是抱怨。）\n没人告诉我凯尔希死了，我是在她死了都三个月的时候才从回卡兹戴尔办事的有些人那里听说的。\n你们觉得我反正不会在乎，是不是？\n但我偏要在乎。罗德岛本舰炸了，你们现在肯定一团糟。如果你们不提，那我就自己过去。\n我会找到你们现在都在哪儿藏着掉眼泪的。\n\n（另一封皱巴巴的信）\n哦，错怪你们了，原来小兔子寄了信，是我自己烧了个洞，忘了打开看。但我之前说的那些都算数，如果你们不找我，那就等我来找你们。\n赫德雷让我把萨卡兹巫术里关于死者复生的研究也贴在后面，他自己抄的，我贴了。但你们收不收得到，就看信使路上会不会被抢了。\n",
+        "unlockDesc": "累计击败50个受到泄漏源影响的敌人",
+        "clueOwnerPic": "clue_wisdel",
+        "pageRes": "clue_14"
+      },
+      "clue_4_1": {
+        "clueId": "clue_4_1",
+        "clueGroupId": "clueSet_4",
+        "sortId": 1,
+        "clueLink": [
+          "clue_4_3",
+          "clue_4_4"
+        ],
+        "clueName": "一包血样",
+        "clueOwner": "华法琳的线索",
+        "clueDesc": "我把这些字写在了采样管的标签上，以确保你在用这份血样做任何事之前都能看见，并且理解它的意义。\n医疗部的样本库里并不包含凯尔希的血样，原因你也知道，她从不让人给她做体检，谁拿她都没办法。\n至于这支采样管里的血样——它是从Mon3tr身上抽取的，按她的说法，她们体内的血液成分是一模一样的，除了和矿石病相关的部分。所以将这份样本当作凯尔希的血样来研究也完全没有问题。Mon3tr还执意在标签上代为签名。\n我们研究过了，各方面指数没有什么稀奇的，仅从这份血样来看，她只是一个普通的泰拉菲林。真不知道凯尔希之前到底在躲什么，她和普通人又能有多大区别呢。\n最后，别搞砸了。经过处理成功封存的血样就只有这些了，除非你再从凯尔希身上抽一管......不多说了，我等着你们的好消息。\n",
+        "unlockDesc": "通关H17-1",
+        "clueOwnerPic": "clue_bldsk",
+        "pageRes": "clue_15"
+      },
+      "clue_4_2": {
+        "clueId": "clue_4_2",
+        "clueGroupId": "clueSet_4",
+        "sortId": 2,
+        "clueLink": [
+          "clue_4_1",
+          "clue_4_4"
+        ],
+        "clueName": "一枚方解石",
+        "clueOwner": "Mon3tr的线索",
+        "clueDesc": "可露希尔，我把它借给你了。虽然我并不认为仅凭它或它所承载的信息就能将凯尔希带回我们身边，但我们已经不能错过任何可能性了。\n此前，我已经向你、向博士、向许多关心凯尔希的人解释过“双生循环”的含义，至于凯尔希为什么一定要切断循环系统，你们有各自的猜测和观点。\n但对我而言，在她做出决定的那一刻前，不，直到现在也是一样，我始终与她站在一起。我见过她见过的每一粒沙尘和每一滴雨，也记得她记得的每一个画面和每一个音调。这枚方解石，承载了属于凯尔希的所有记忆和信息，所以，不严谨地说，是的，我把凯尔希的“灵魂”借给了你。\n但是——你一定要清楚：那些编码过的信息或是未经编码的原始数据，无论你用什么样的程序或是什么样的设备来读取、来复原，它们终究都是静止的信息，是已经停滞的生命的副本，那并不是凯尔希，不是你我熟悉的那个拥有情绪、动作和呼吸的凯尔希。\n你是推崇理性的研究者，你明白这目前在理论上无法成立，即便我们这样渴望，它也无法将凯尔希带回来......\n至少，仅凭它还不够。但无论如何，我们都还是会继续寻找一切可能的办法，带她回来。\n",
+        "unlockDesc": "通关H17-2",
+        "clueOwnerPic": "clue_monstr",
+        "pageRes": "clue_16"
+      },
+      "clue_4_3": {
+        "clueId": "clue_4_3",
+        "clueGroupId": "clueSet_4",
+        "sortId": 3,
+        "clueLink": [
+          "clue_4_4"
+        ],
+        "clueName": "一次机会",
+        "clueOwner": "阿米娅&魔王的线索",
+        "clueDesc": "阿米娅，这是你请求调取的与特蕾西娅的“花圃”相关的全部可查信息。\n我仍然需要提醒你们这样做的风险，正因为我是这里最了解这类逆行相变工程的......信息系统。这件事的确存在理论可行性，“花圃”就是这类工程在可控熵范围内最接近成功的一次试验。\n但我们现在谈论的是凯尔希。尽管她的存在形式集合了如此之多的特异性，仍然没有人能够保证，这些特异性必定以有利于我们目标的形式发挥作用。即使是博士也不能。\n你们付出全部的努力，失败的概率仍将远高于成功的概率。如果博士在有意地回避这一点，那么，阿米娅，也许你应该对此有所准备。\n但如果......你们终究完成了这件事，那么，她也许会获得一次于她而言亦是绝无仅有的机会：真正的、有朽的生命。也许你会有......和她一起老去的机会。阿米娅。\n",
+        "unlockDesc": "通关H17-3",
+        "clueOwnerPic": "clue_cetsyr",
+        "pageRes": "clue_17"
+      },
+      "clue_4_4": {
+        "clueId": "clue_4_4",
+        "clueGroupId": "clueSet_4",
+        "sortId": 4,
+        "clueLink": [
+          "clue_4_1",
+          "clue_4_2",
+          "clue_4_3"
+        ],
+        "clueName": "一份希望",
+        "clueOwner": "可露希尔的线索",
+        "clueDesc": "这是一份不完整的说明书，或者原理解析，或者商业计划书......\n得益于Mon3tr提供的关于石棺的资料，我花费了一小段时间，终于制作出了这批原型机，具体的名字还没想好，目前它的代号是“便携创生舱”。\n简单来说，我根据凯尔希留下的资料，对石棺模型进行了一些简单的逆向工程。其实也没有那么简单，整个过程还是很费脑筋的，尤其是利用能量将物质结构（字迹被涂抹）这方面，远远超出了我们目前掌握的技术水平。但至少在生理结构修复和生命维持的功能上，我已经搞懂了个七七八八，并且将大部分研究成果都应用到了这批“便携创生舱”上。\n只要在受伤时将它装备在身上，它就可以像石棺那样对使用者的机体组织进行持续修复。尽管受限于体积和能源功率，它的治疗效果也已经远远超出现在市面上可以找到的任何便携医疗设备！\n虽然暂时还没找到几样关键的稀缺材料的替代品，但小批量投放已经完全可以提上日程了。而且它并不是一次性的，使用寿命也相当可观！试想一下，在不久后的罗德岛，外勤干员们只需要花费一小笔购物凭证就能将它兑换到手——其实只要能找到稳定的材料供应商，免费发放给大家也是可以做到的......吧？总之，我会怀着这样的希望继续优化它的！\n说到这里，我突然觉得，到时候它正式的产品名，叫“一份希望”，好像也不错？\n",
+        "unlockDesc": "通关H17-4",
+        "clueOwnerPic": "clue_closur",
+        "pageRes": "clue_18"
+      }
+    },
+    "clueRewardData": [
+      {
+        "clueRecordId": "clueActivity_1",
+        "clueRecord": 1,
+        "clueRecordDesc": "在线索收集中解锁1条线索",
+        "rewards": [
+          {
+            "id": "31024",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31103",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 20000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_2",
+        "clueRecord": 2,
+        "clueRecordDesc": "在线索收集中解锁2条线索",
+        "rewards": [
+          {
+            "id": "31054",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31013",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2003",
+            "count": 20,
+            "type": "CARD_EXP"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_3",
+        "clueRecord": 3,
+        "clueRecordDesc": "在线索收集中解锁3条线索",
+        "rewards": [
+          {
+            "id": "31044",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31063",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3302",
+            "count": 16,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_4",
+        "clueRecord": 4,
+        "clueRecordDesc": "在线索收集中解锁4条线索",
+        "rewards": [
+          {
+            "id": "mod_unlock_token",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31073",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 20000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_5",
+        "clueRecord": 5,
+        "clueRecordDesc": "在线索收集中解锁5条线索",
+        "rewards": [
+          {
+            "id": "31104",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31103",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2004",
+            "count": 10,
+            "type": "CARD_EXP"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_6",
+        "clueRecord": 6,
+        "clueRecordDesc": "在线索收集中解锁6条线索",
+        "rewards": [
+          {
+            "id": "31114",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31053",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3303",
+            "count": 8,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_7",
+        "clueRecord": 7,
+        "clueRecordDesc": "在线索收集中解锁7条线索",
+        "rewards": [
+          {
+            "id": "30145",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30063",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 20000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_8",
+        "clueRecord": 8,
+        "clueRecordDesc": "在线索收集中解锁8条线索",
+        "rewards": [
+          {
+            "id": "p_char_4226_veen",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30053",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2003",
+            "count": 20,
+            "type": "CARD_EXP"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_9",
+        "clueRecord": 9,
+        "clueRecordDesc": "在线索收集中解锁9条线索",
+        "rewards": [
+          {
+            "id": "30165",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31093",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3302",
+            "count": 16,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_10",
+        "clueRecord": 10,
+        "clueRecordDesc": "在线索收集中解锁10条线索",
+        "rewards": [
+          {
+            "id": "p_char_4226_veen",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31023",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 20000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_11",
+        "clueRecord": 11,
+        "clueRecordDesc": "在线索收集中解锁11条线索",
+        "rewards": [
+          {
+            "id": "30145",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31033",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2004",
+            "count": 10,
+            "type": "CARD_EXP"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_12",
+        "clueRecord": 12,
+        "clueRecordDesc": "在线索收集中解锁12条线索",
+        "rewards": [
+          {
+            "id": "p_char_4226_veen",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30013",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3303",
+            "count": 8,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_13",
+        "clueRecord": 13,
+        "clueRecordDesc": "在线索收集中解锁13条线索",
+        "rewards": [
+          {
+            "id": "30165",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30033",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 20000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_14",
+        "clueRecord": 14,
+        "clueRecordDesc": "在线索收集中解锁14条线索",
+        "rewards": [
+          {
+            "id": "p_char_4226_veen",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30043",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2003",
+            "count": 20,
+            "type": "CARD_EXP"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_15",
+        "clueRecord": 15,
+        "clueRecordDesc": "在线索收集中解锁15条线索",
+        "rewards": [
+          {
+            "id": "30145",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31043",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3302",
+            "count": 16,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_16",
+        "clueRecord": 16,
+        "clueRecordDesc": "在线索收集中解锁16条线索",
+        "rewards": [
+          {
+            "id": "p_char_4226_veen",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31113",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 20000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_17",
+        "clueRecord": 17,
+        "clueRecordDesc": "在线索收集中解锁17条线索",
+        "rewards": [
+          {
+            "id": "30165",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30023",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2004",
+            "count": 10,
+            "type": "CARD_EXP"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_18",
+        "clueRecord": 18,
+        "clueRecordDesc": "在线索收集中解锁18条线索",
+        "rewards": [
+          {
+            "id": "31014",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31113",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3303",
+            "count": 8,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "clueRecordId": "clueActivity_19",
+        "clueRecord": 19,
+        "clueRecordDesc": "在线索收集中解锁19条线索",
+        "rewards": [
+          {
+            "id": "30054",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31083",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "4001",
+            "count": 20000,
+            "type": "GOLD"
+          }
+        ]
+      }
+    ],
+    "displayNodeData": [
+      {
+        "nodeType": "LETTER",
+        "displayData": [
+          {
+            "sortId": 1,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_101"
+          },
+          {
+            "sortId": 2,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_102"
+          },
+          {
+            "sortId": 3,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_103"
+          },
+          {
+            "sortId": 4,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_104"
+          },
+          {
+            "sortId": 5,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_105"
+          },
+          {
+            "sortId": 6,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_106"
+          },
+          {
+            "sortId": 7,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_107"
+          }
+        ]
+      },
+      {
+        "nodeType": "TYPE_WRITER",
+        "displayData": [
+          {
+            "sortId": 8,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_201"
+          },
+          {
+            "sortId": 9,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_202"
+          },
+          {
+            "sortId": 10,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_203"
+          },
+          {
+            "sortId": 11,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_204"
+          },
+          {
+            "sortId": 12,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_205"
+          },
+          {
+            "sortId": 13,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_206"
+          }
+        ]
+      },
+      {
+        "nodeType": "RECORD",
+        "displayData": [
+          {
+            "sortId": 14,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_301"
+          },
+          {
+            "sortId": 15,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_302"
+          },
+          {
+            "sortId": 16,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_303"
+          },
+          {
+            "sortId": 17,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_304"
+          },
+          {
+            "sortId": 18,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_305"
+          },
+          {
+            "sortId": 19,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_306"
+          },
+          {
+            "sortId": 20,
+            "charId": "char_1052_kalts2",
+            "voiceId": "EX_CN_307"
+          }
+        ]
+      }
+    ],
+    "constData": {
+      "unlockStageId": "main_17-03",
+      "unlockToast": "<color=#43deae>共享终端</color>已解锁"
     }
   },
   "autoChessData": {
@@ -419671,6 +421412,27 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act4mainss": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4226_veen",
+        "通关17-13后可获取干员",
+        "ae3d27",
+        "-10,-120"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": "28929c",
+      "isMissionItemCompleteUseMainColor": true,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": "28929c",
+      "claimAllBtnTips": "当前有已完成待领取的任务",
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "ed5335"
+    },
     "act51side": {
       "bigRewardType": "ILLUST_CHAR_REWARD",
       "bigRewardParamList": [
@@ -420413,6 +422175,27 @@
       "titleType": "COMMON",
       "coinType": "COMMON",
       "coinBackColor": "28929c"
+    },
+    "permanent_main_3_One_Day_More": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4226_veen",
+        "通关17-13后可获取干员",
+        "ae3d27",
+        "-10,-120"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": "28929c",
+      "isMissionItemCompleteUseMainColor": true,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": "28929c",
+      "claimAllBtnTips": "当前有已完成待领取的任务",
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "ed5335"
     }
   },
   "activityCrossDayTrackTypeDataDict": {

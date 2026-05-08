@@ -98525,7 +98525,7 @@
       "zoneId": "act4mainss_zone1",
       "code": "17-18",
       "name": "灵魂悄然",
-      "description": "你听见喑哑的呼唤，遍寻那个模糊的身影。\\n<@lv.sp>不要错过</>任何一丝希望，紧紧抓住她。\\n<@lv.item><泄漏标记></>每过一段时间，随机选取场上一个可部署的地面位置召唤一个泄漏源",
+      "description": "你听见喑哑的呼唤，却遍寻不得那个模糊的身影。\\n<@lv.sp>不要错过</>任何一丝希望，紧紧抓住她。\\n<@lv.item><泄漏标记></>每过一段时间，随机选取场上一个可部署的地面位置召唤一个泄漏源",
       "hardStagedId": null,
       "sixStarStageId": null,
       "dangerLevel": "-",
@@ -98974,6 +98974,358 @@
           "unlockDesc": "获得“AMa-10”以解锁本关卡"
         }
       ],
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "hard_17-01": {
+      "stageType": "SUB",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "st_17-04",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "hard_17-01",
+      "levelId": "Obt/Hard/level_hard_17-01",
+      "zoneId": "act4mainss_zone1",
+      "code": "H17-1",
+      "name": "急变预案-1",
+      "description": "“我宣传的并非完全严肃的道德。”\\n<@lv.item><泄漏标记></>每过一段时间，随机选取场上一个可部署的地面位置召唤一个泄漏源\\n<@lv.rem>本次行动中远程干员可部署于近战位</>",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_StoneCoffin",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "HIGH_DIFFICULTY",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": "HIGH_DIFFICULTY",
+      "isStagePatch": false,
+      "mainStageId": "st_17-04",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "hard_17-02": {
+      "stageType": "SUB",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "hard_17-01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "hard_17-02",
+      "levelId": "Obt/Hard/level_hard_17-02",
+      "zoneId": "act4mainss_zone1",
+      "code": "H17-2",
+      "name": "急变预案-2",
+      "description": "“也并非痴迷一般的幻想。”\\n<@lv.item><泄漏标记></>每过一段时间，随机选取场上一个可部署的地面位置召唤一个泄漏源",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_StoneCoffin",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "HIGH_DIFFICULTY",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": "HIGH_DIFFICULTY",
+      "isStagePatch": false,
+      "mainStageId": "st_17-04",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "hard_17-03": {
+      "stageType": "SUB",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "hard_17-02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "hard_17-03",
+      "levelId": "Obt/Hard/level_hard_17-03",
+      "zoneId": "act4mainss_zone1",
+      "code": "H17-3",
+      "name": "急变预案-3",
+      "description": "“只是唯有它能给我的心灵以安宁。”\\n<@lv.item><泄漏标记></>每过一段时间，随机选取场上一个可部署的地面位置召唤一个泄漏源",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_StoneCoffin",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "HIGH_DIFFICULTY",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": "HIGH_DIFFICULTY",
+      "isStagePatch": false,
+      "mainStageId": "st_17-04",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "hard_17-04": {
+      "stageType": "SUB",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "hard_17-03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "hard_17-04",
+      "levelId": "Obt/Hard/level_hard_17-04",
+      "zoneId": "act4mainss_zone1",
+      "code": "H17-4",
+      "name": "急变预案-4",
+      "description": "“那就是，生活。”\\n<@lv.item><泄漏标记></>每过一段时间，随机选取场上一个可部署的地面位置召唤一个泄漏源",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_AMa-10",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": true,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "HIGH_DIFFICULTY",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": true,
+      "startButtonOverrideId": "HIGH_DIFFICULTY",
+      "isStagePatch": false,
+      "mainStageId": "st_17-04",
+      "extraCondition": null,
+      "extraInfo": null,
       "sixStarBaseDesc": null,
       "sixStarDisplayRewardList": null,
       "advancedRuneIdList1": [],
@@ -601607,6 +601959,22 @@
     },
     "spst_17-01": {
       "startTs": 1777590000,
+      "endTs": 1778788799
+    },
+    "hard_17-01": {
+      "startTs": 1778227200,
+      "endTs": 1778788799
+    },
+    "hard_17-02": {
+      "startTs": 1778227200,
+      "endTs": 1778788799
+    },
+    "hard_17-03": {
+      "startTs": 1778227200,
+      "endTs": 1778788799
+    },
+    "hard_17-04": {
+      "startTs": 1778227200,
       "endTs": 1778788799
     },
     "act3enemyduel_01a": {

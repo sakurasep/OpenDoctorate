@@ -367821,5 +367821,7215 @@
         ]
       }
     ]
+  },
+  "sktok_xb2bas_1": {
+    "skillId": "sktok_xb2bas_1",
+    "iconId": "sktok_xb2bas",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "采集",
+        "rangeId": "x-4",
+        "description": "生产<采集专员>来采集<杂木林>、<巨大岩石>、<奇异矿脉>等资源；最多生产{max_cnt}台",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 35,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2bas_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "res_max_count",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "gather_transfer_priority",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "res_damage.wood",
+            "value": 0.04,
+            "valueStr": null
+          },
+          {
+            "key": "res_damage.stone",
+            "value": 0.02,
+            "valueStr": null
+          },
+          {
+            "key": "res_damage.iron",
+            "value": 0.01,
+            "valueStr": null
+          },
+          {
+            "key": "res_damage.paddy",
+            "value": 0.05,
+            "valueStr": null
+          },
+          {
+            "key": "res_damage.flax",
+            "value": 0.05,
+            "valueStr": null
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_7086_xb2wrk"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2brh_1": {
+    "skillId": "sktok_xb2brh_1",
+    "iconId": "sktok_xb2brh",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "采集",
+        "rangeId": "3-3",
+        "description": "生产<采集专员>来采集<杂木林>、<巨大岩石>、<奇异矿脉>等资源；最多生产{max_cnt}台",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2brh_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_cnt",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "res_max_count",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "gather_transfer_priority",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "res_damage.wood",
+            "value": 0.04,
+            "valueStr": null
+          },
+          {
+            "key": "res_damage.stone",
+            "value": 0.02,
+            "valueStr": null
+          },
+          {
+            "key": "res_damage.iron",
+            "value": 0.01,
+            "valueStr": null
+          },
+          {
+            "key": "res_damage.paddy",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "res_damage.flax",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_7086_xb2wrk"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2wdo": {
+    "skillId": "sktok_xb2wdo",
+    "iconId": "sktok_xb2wdo",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "变化",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2wdo",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "action_index",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "default"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2cve": {
+    "skillId": "sktok_xb2cve",
+    "iconId": "sktok_xb2cve",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "生成",
+        "rangeId": "x-4",
+        "description": "每隔一段时间，在攻击范围内随机生成一只野生动物；同时存在的数量上限为4",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2cve",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "default"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2cmp": {
+    "skillId": "sktok_xb2cmp",
+    "iconId": "sktok_npc",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "触发对话",
+        "rangeId": null,
+        "description": "每隔一段时间，生成敌人朝着基地位置移动；每次生成敌人后扣除一定比例的生命值，死亡后不再生成敌人",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2cmp",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "default"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2cmp_2": {
+    "skillId": "sktok_xb2cmp_2",
+    "iconId": "sktok_npc",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "触发对话",
+        "rangeId": null,
+        "description": "已经废弃的装置，总会将一些游荡在荒地上的东西运来此处，似乎摧毁后就能中止这一切。",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2cmp_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "dialogue_config_signal_key",
+            "value": 0.0,
+            "valueStr": "aaa"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2dor_1": {
+    "skillId": "sktok_xb2dor_1",
+    "iconId": "sktok_npc",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "触发对话",
+        "rangeId": null,
+        "description": "触发对话",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2dor_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "room_offset_x",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "room_offset_y",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "dialogue_config_signal_key",
+            "value": 0.0,
+            "valueStr": "Obt/SandboxPerm/sandbox_2/BattleAVG/dialog_sandbox_2_open_room"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2onf_1": {
+    "skillId": "sktok_xb2onf_1",
+    "iconId": "sktok_npc",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "触发对话",
+        "rangeId": null,
+        "description": "外勤部干员之前安置在此处的资源前哨站，不知遇到了什么问题变成了现在这样。需要快点将它修好！",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2onf_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "dialogue_config_signal_key",
+            "value": 0.0,
+            "valueStr": "aaa"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2onf_2": {
+    "skillId": "sktok_xb2onf_2",
+    "iconId": "sktok_npc",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "强化",
+        "rangeId": null,
+        "description": "我方单位每秒恢复50点生命",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2onf_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "value",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2onf_3": {
+    "skillId": "sktok_xb2onf_3",
+    "iconId": "sktok_npc",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "强化",
+        "rangeId": null,
+        "description": "我方单位的技力自然恢复速度<@ba.vup>+{sp_recovery_per_sec}</>/秒",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2onf_3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sp_recovery_per_sec",
+            "value": 0.1,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2onf_4": {
+    "skillId": "sktok_xb2onf_4",
+    "iconId": "sktok_npc",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "强化",
+        "rangeId": null,
+        "description": "我方单位攻击速度<@ba.vup>+{attack_speed}</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2onf_4",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "interval",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 15.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2sta_1": {
+    "skillId": "sktok_xb2sta_1",
+    "iconId": "sktok_xb2sta",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "发车",
+        "rangeId": "x-2",
+        "description": "与补给车终点站台通过轨道相连时回复技力；技能释放时生成一个综合维护补给车，沿补给车轨道前往补给车终点站台",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2sta_1",
+        "duration": -1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_xb2sit_1": {
+    "skillId": "sktok_xb2sit_1",
+    "iconId": "sktok_xb2sit",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "路过",
+        "rangeId": "x-2",
+        "description": "维护补给车经过时，使范围内建筑获得技力:维护补给车每前进过{every_grid_cnt}格回复<@ba.vup>1</>点技力",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2sit_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "ability_range_radius",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "every_grid_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2tml_1": {
+    "skillId": "sktok_xb2tml_1",
+    "iconId": "sktok_xb2tml",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "路过",
+        "rangeId": "x-2",
+        "description": "维护补给车经过时，使范围内建筑获得技力:维护补给车每前进过{every_grid_cnt}格回复<@ba.vup>1</>点技力",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2tml_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "ability_range_radius",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "every_grid_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2fbw_1": {
+    "skillId": "sktok_xb2fbw_1",
+    "iconId": "sktok_xb2fbw",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "累计受击次数；可加工：\n[lv1]木材→木板\n[lv1]石材→石板\n[lv1]铁矿石→金属板",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2fbw_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_plank_wood_1"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_brick_stone_1"
+          },
+          {
+            "key": "recipe.id3",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_steel_iron_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2fbw2_1": {
+    "skillId": "sktok_xb2fbw2_1",
+    "iconId": "sktok_xb2fbw",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "处于干员或召唤物攻击范围内时恢复技力，不可叠加；可加工：\n[lv2]毛线→工业纤维\n[lv1]毛线→布匹",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2fbw2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_fiber_wool_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_fabric_wool_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2fbs_1": {
+    "skillId": "sktok_xb2fbs_1",
+    "iconId": "sktok_xb2fbw",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "累计受到的伤害，每次清空累计槽获得1点技力；可加工：\n[lv2]干亚麻→布匹\n[lv1]干亚麻→营养浓缩液",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2fbs_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_fabric_flax_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_protein_flax_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2fbs2_1": {
+    "skillId": "sktok_xb2fbs2_1",
+    "iconId": "sktok_xb2fbw",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "可加工：\n[lv2]稻谷→大米\n[lv1]稻谷→粘合剂",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2fbs2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_rice_wheat_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_binder_wheat_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2fbi_1": {
+    "skillId": "sktok_xb2fbi_1",
+    "iconId": "sktok_xb2fbw",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "受到法术伤害时额外回复<@ba.vup>{sp_magical}点</>技力；可加工：\n[lv2]羽兽蛋→营养浓缩液\n[lv1]羽兽蛋→粘合剂",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2fbi_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sp_magical",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_protein_egg_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_binder_egg_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2fbi2_1": {
+    "skillId": "sktok_xb2fbi2_1",
+    "iconId": "sktok_xb2fbw",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "累计受到的伤害，每次清空累计槽获得{sp}点技力；可加工：\n[lv2]皮毛→防水革\n[lv1]皮毛→工业纤维",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2fbi2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sp",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_leather_fur_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_fiber_fur_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2mil_1": {
+    "skillId": "sktok_xb2mil_1",
+    "iconId": "sktok_xb2fbw",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "累计受到的伤害，每次清空累计槽获得{sp}点技力；可加工：\n[lv2]蟹壳碎片→粘合剂\n[lv1]蟹壳碎片→防水革",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2mil_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sp",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_binder_shell_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_leather_shell_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2rgw_1": {
+    "skillId": "sktok_xb2rgw_1",
+    "iconId": "sktok_xb2rgw",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "再生",
+        "rangeId": "2-2",
+        "description": "技能释放时，攻击范围内的每个地块有{prob:0%}概率生成1棵<杂木林>，至少生成1棵<杂木林>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 40,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2rgw_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "prob",
+            "value": 0.2,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2rgs_1": {
+    "skillId": "sktok_xb2rgs_1",
+    "iconId": "sktok_xb2rgs",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "再生",
+        "rangeId": "2-2",
+        "description": "技能释放时，攻击范围内的每个地块有{prob:0%}概率生成1块<巨大岩石>，至少生成1块<巨大岩石>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 40,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2rgs_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "prob",
+            "value": 0.2,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2rgi_1": {
+    "skillId": "sktok_xb2rgi_1",
+    "iconId": "sktok_xb2rgi",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "再生",
+        "rangeId": "2-2",
+        "description": "技能释放时，攻击范围内的每个地块有{prob:0%}概率生成1块<奇异矿脉>，至少生成1块<奇异矿脉>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 40,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2rgi_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "prob",
+            "value": 0.2,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2pwr_1": {
+    "skillId": "sktok_xb2pwr_1",
+    "iconId": "sktok_xb2pwr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "供能",
+        "rangeId": "x-1",
+        "description": "技能释放时，使攻击范围内的加工类建筑获得<@ba.vup>{sp}</>点技力，被放入的野生动物攻击时自身获得1点技力",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2pwr_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "sp",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2wfty_1": {
+    "skillId": "sktok_xb2wfty_1",
+    "iconId": "sktok_xb2wfty",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "采水",
+        "rangeId": null,
+        "description": "技能释放时，获取{item_count}份清水",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2wfty_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "item_count",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "item_id",
+            "value": 0.0,
+            "valueStr": "sandbox_2_water"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2cbp_1": {
+    "skillId": "sktok_xb2cbp_1",
+    "iconId": "sktok_xb2cbp",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "产蟹",
+        "rangeId": null,
+        "description": "技能释放时，在自身所在位置生成一只随机岩壳蟹",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2cbp_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "weight@enemy_7006_xbcrab",
+            "value": 500.0,
+            "valueStr": null
+          },
+          {
+            "key": "weight@enemy_7006_xbcrab_2",
+            "value": 200.0,
+            "valueStr": null
+          },
+          {
+            "key": "weight@enemy_7015_xbcrab2",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "max_cnt",
+            "value": 3.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2brd": {
+    "skillId": "sktok_xb2brd",
+    "iconId": "sktok_npc",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "供奉",
+        "rangeId": "x-5",
+        "description": "攻击范围内存在我方单位时开始恢复技力（不叠加），技能可以开启对话",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2brd",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "dialogue_config_signal_key",
+            "value": 0.0,
+            "valueStr": "aaa"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2fnt_1": {
+    "skillId": "sktok_xb2fnt_1",
+    "iconId": "sktok_xb2fnt",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "喷涌",
+        "rangeId": null,
+        "description": "技能释放时，产出{item_count}份赤金",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2fnt_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "item_count",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "item_id",
+            "value": 0.0,
+            "valueStr": "sandbox_2_gold"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ppt_1": {
+    "skillId": "sktok_xb2ppt_1",
+    "iconId": "sktok_xb2ppt",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "摇摆",
+        "rangeId": null,
+        "description": "技能释放时，产出{item_count_min}～12份粗制赤金",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2ppt_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "item_count_min",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "item_count_max",
+            "value": 13.0,
+            "valueStr": null
+          },
+          {
+            "key": "item_id",
+            "value": 0.0,
+            "valueStr": "sandbox_2_gold"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2bch_1": {
+    "skillId": "sktok_xb2bch_1",
+    "iconId": "sktok_xb2bch",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "矗立",
+        "rangeId": null,
+        "description": "技能释放时，产出{item_count}份粗制赤金",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2bch_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "item_count",
+            "value": 3.0,
+            "valueStr": null
+          },
+          {
+            "key": "item_id",
+            "value": 0.0,
+            "valueStr": "sandbox_2_gold"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2sqr_1": {
+    "skillId": "sktok_xb2sqr_1",
+    "iconId": "sktok_xb2sqr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "飘扬",
+        "rangeId": null,
+        "description": "技能释放时，产出{item_count}份粗制赤金",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 70,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2sqr_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "item_count",
+            "value": 24.0,
+            "valueStr": null
+          },
+          {
+            "key": "item_id",
+            "value": 0.0,
+            "valueStr": "sandbox_2_gold"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2bbq_1": {
+    "skillId": "sktok_xb2bbq_1",
+    "iconId": "sktok_xb2bbq",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "可加工：\n[lv2]大米+木板→整箱的口粮\n[lv1]稻谷+水→整箱的饮料\n[lv1]羽兽蛋→营养浓缩液",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2bbq_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_rations_rice_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_wine_wheat_1"
+          },
+          {
+            "key": "recipe.id3",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_protein_egg_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2bbq2_1": {
+    "skillId": "sktok_xb2bbq2_1",
+    "iconId": "sktok_xb2bbq",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "可加工：\n[lv2]木板+布匹→整箱的医疗用品\n[lv1]皮毛→工业纤维\n[lv1]营养浓缩液+水→整箱的能量剂",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2bbq2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sp",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_medkit_fabric_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_fiber_fur_1"
+          },
+          {
+            "key": "recipe.id3",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_energy_protein_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2txtl_1": {
+    "skillId": "sktok_xb2txtl_1",
+    "iconId": "sktok_xb2txtl",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "累计受击次数，受到元素伤害时额外回复<@ba.vup>{sp}点</>技力；可加工：\n[lv2]工业纤维+金属板→整箱的武器\n[lv1]粘合剂+金属板→整箱的器械\n[lv1]铁矿石→金属板",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2txtl_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sp",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_weapon_steel_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_exoskeleton_binder_1"
+          },
+          {
+            "key": "recipe.id3",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_steel_iron_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2chm_1": {
+    "skillId": "sktok_xb2chm_1",
+    "iconId": "sktok_xb2chm",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "可加工：\n[lv2]石板+防水革→整箱的装备\n[lv1]石板+金属板→整箱的工具\n[lv1]石材→石板",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2chm_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_equipment_leather_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_tool_brick_1"
+          },
+          {
+            "key": "recipe.id3",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_brick_stone_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2chm2_1": {
+    "skillId": "sktok_xb2chm2_1",
+    "iconId": "sktok_xb2chm2",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "可加工：\n[lv1]干亚麻+木板→整箱的外勤用品\n[lv1]木板+布匹→整箱的医疗用品\n[lv1]大米+木板→整箱的口粮\n[lv1]木材→木板",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2chm2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_plank_wood_1"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_tent_flax_1"
+          },
+          {
+            "key": "recipe.id3",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_medkit_fabric_1"
+          },
+          {
+            "key": "recipe.id4",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_rations_rice_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2wclr_1": {
+    "skillId": "sktok_xb2wclr_1",
+    "iconId": "sktok_xb2txtl",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "累计受到的伤害，每次清空累计槽获得{sp}点技力；可加工：\n[lv3]粘合剂+金属板→整箱的器械\n[lv1]工业纤维+金属板→整箱的武器",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2wclr_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sp",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_exoskeleton_binder_3"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_weapon_steel_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2wclr2_1": {
+    "skillId": "sktok_xb2wclr2_1",
+    "iconId": "sktok_xb2bbq",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "累计受击次数，受到来自近战干员的攻击时额外回复<@ba.vup>{sp}点</>技力；可加工：\n[lv2]石板+金属板→整箱的工具\n[lv1]稻谷→大米\n[lv1]蟹壳碎片→防水革",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2wclr2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "sp",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_tool_brick_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_rice_wheat_1"
+          },
+          {
+            "key": "recipe.id3",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_leather_shell_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2kln_1": {
+    "skillId": "sktok_xb2kln_1",
+    "iconId": "sktok_xb2kln",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "可加工：\n[lv3]干亚麻+木板→整箱的外勤用品\n[lv1]防水革+粘合剂→整箱的防护器具",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2kln_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_tent_flax_3"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_raincoat_leather_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2mdk2_1": {
+    "skillId": "sktok_xb2mdk2_1",
+    "iconId": "sktok_xb2kln",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "可加工：\n[lv2]防水革+粘合剂→整箱的防护器具\n[lv1]石板+防水革→整箱的装备\n[lv1]毛线→布匹",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2mdk2_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_raincoat_leather_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_equipment_leather_1"
+          },
+          {
+            "key": "recipe.id3",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_fabric_wool_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2dik_1": {
+    "skillId": "sktok_xb2dik_1",
+    "iconId": "sktok_xb2bbq",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "加工",
+        "rangeId": null,
+        "description": "累计受击次数，可加工：\n[lv2]营养浓缩液+水→整箱的能量剂\n[lv2]稻谷+水→整箱的饮料",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2dik_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_energy_protein_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_p_wine_wheat_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2dstr_1": {
+    "skillId": "sktok_xb2dstr_1",
+    "iconId": "sktok_xb2dstr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "供给",
+        "rangeId": null,
+        "description": "技能持续期间远程干员攻速<@ba.vup>+{attack_speed}</>，且持续消耗整箱的能量剂或整箱的饮料维持繁荣度，库存不足时停止技能。\n<@ba.rem>持续时间无限，可主动关闭技能（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2dstr_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "attack_speed",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "prosperity",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "hp_recovery_per_sec",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_prosperity_wine_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_prosperity_energy_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2fstr_1": {
+    "skillId": "sktok_xb2fstr_1",
+    "iconId": "sktok_xb2fstr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "供给",
+        "rangeId": null,
+        "description": "技能持续期间近战干员攻击力<@ba.vup>+{atk:0%}</>，且持续消耗整箱的饮料或整箱的能量剂或整箱的口粮维持高额繁荣度，库存不足时自动关闭技能。\n<@ba.rem>持续时间无限，可主动关闭技能（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2fstr_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "hp_recovery_per_sec",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 0.2,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_prosperity_wine_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_prosperity_energy_2"
+          },
+          {
+            "key": "recipe.id3",
+            "value": 0.0,
+            "valueStr": "sandbox_2_prosperity_rations_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2mkstr_1": {
+    "skillId": "sktok_xb2mkstr_1",
+    "iconId": "sktok_xb2mkstr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "供给",
+        "rangeId": null,
+        "description": "技能持续期间场上我方单位受到的治疗效果提升至<@ba.vup>{heal_scale:0%}</>，且持续消耗整箱的医疗用品或整箱的能量剂维持高额繁荣度，库存不足时自动关闭技能。\n<@ba.rem>持续时间无限，可主动关闭技能（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2mkstr_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "hp_recovery_per_sec",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "heal_scale",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_prosperity_medkit_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_prosperity_energy_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2hwstr_1": {
+    "skillId": "sktok_xb2hwstr_1",
+    "iconId": "sktok_xb2hwstr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "供给",
+        "rangeId": null,
+        "description": "技能持续期间场上我方单位受到的物理与法术伤害<@ba.vup>-{def_penetrate:0%}</>，且持续消耗整箱的武器或整箱的工具维持高额繁荣度，库存不足时自动关闭技能。\n<@ba.rem>持续时间无限，可主动关闭技能（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2hwstr_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "hp_recovery_per_sec",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "def_penetrate",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "magic_resist_penetrate",
+            "value": 0.3,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_prosperity_weapon_2"
+          },
+          {
+            "key": "recipe.id3",
+            "value": 0.0,
+            "valueStr": "sandbox_2_prosperity_tool_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2eqstr_1": {
+    "skillId": "sktok_xb2eqstr_1",
+    "iconId": "sktok_xb2eqstr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "供给",
+        "rangeId": null,
+        "description": "技能持续期间场上所有干员阻挡数<@ba.vup>+{block_cnt}</>且持续消耗整箱的武器或整箱的装备维持高额繁荣度，库存不足时自动关闭技能。\n<@ba.rem>持续时间无限，可主动关闭技能（期间可随时停止技能）</>",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2eqstr_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_recipe_idx",
+            "value": -1.0,
+            "valueStr": null
+          },
+          {
+            "key": "hp_recovery_per_sec",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "block_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "recipe.id1",
+            "value": 0.0,
+            "valueStr": "sandbox_2_prosperity_weapon_2"
+          },
+          {
+            "key": "recipe.id2",
+            "value": 0.0,
+            "valueStr": "sandbox_2_prosperity_equipment_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ord": {
+    "skillId": "sktok_xb2ord",
+    "iconId": "sktok_xb2ord",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<通路>类建筑\n道路相邻部署时会进行拼接\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：使相邻的<道路>、<生活>建筑额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ord",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 5.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ocnl": {
+    "skillId": "sktok_xb2ocnl",
+    "iconId": "sktok_xb2ocnl",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<通路>类建筑\n渠道相邻部署时会进行拼接\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：使相邻的<渠道>、<生活>建筑额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ocnl",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2oflr": {
+    "skillId": "sktok_xb2oflr",
+    "iconId": "sktok_xb2oflr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oflr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 160.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>部署后增加建造评分<@ba.delc>{score}</>\n基地效果：和其他任意类型的建筑相邻时额外获得建造得分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oflr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2oflr2": {
+    "skillId": "sktok_xb2oflr2",
+    "iconId": "sktok_xb2oflr2",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oflr2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 160.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>部署后增加建造评分<@ba.delc>{score}</>\n基地效果：和其他任意类型的建筑相邻时额外获得建造得分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oflr2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2oflr3": {
+    "skillId": "sktok_xb2oflr3",
+    "iconId": "sktok_xb2oflr3",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oflr3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 160.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>部署后增加建造评分<@ba.delc>{score}</>\n基地效果：和其他任意类型的建筑相邻时额外获得建造得分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oflr3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2orm": {
+    "skillId": "sktok_xb2orm",
+    "iconId": "sktok_xb2orm",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n和<基地建筑>或<基地设施>同一行或同一列的3格内时生成<基地通道>，<基地通道>重叠时生成<基地通道中转枢纽>\n<@ba.dgrey>当前等级部署后增加建造评分<@ba.delc>{score}</>（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和<道路>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2orm",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 40.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 80.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n和<基地建筑>或<基地设施>同一行或同一列的3格内时生成<基地通道>，<基地通道>重叠时生成<基地通道中转枢纽>\n<@ba.dgrey>部署后增加建造评分<@ba.delc>{score}</>\n基地效果：和<道路>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2orm",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2orm2": {
+    "skillId": "sktok_xb2orm2",
+    "iconId": "sktok_xb2orm2",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n和<基地建筑>或<基地设施>同一行或同一列的3格内时生成<基地通道>，<基地通道>重叠时生成<基地通道中转枢纽>\n<@ba.dgrey>当前等级部署后增加建造评分<@ba.delc>{score}</>（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和<道路>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2orm2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 160.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n和<基地建筑>或<基地设施>同一行或同一列的3格内时生成<基地通道>，<基地通道>重叠时生成<基地通道中转枢纽>\n<@ba.dgrey>部署后增加建造评分<@ba.delc>{score}</>\n基地效果：和<道路>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2orm2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2otph": {
+    "skillId": "sktok_xb2otph",
+    "iconId": "sktok_xb2otph",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑，完成成就获得\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2otph",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 300.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 600.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑，完成成就获得\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2otph",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 600.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2otph2": {
+    "skillId": "sktok_xb2otph2",
+    "iconId": "sktok_xb2otph2",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑，完成成就获得\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2otph2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 300.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 600.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑，完成成就获得\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2otph2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 600.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2otph3": {
+    "skillId": "sktok_xb2otph3",
+    "iconId": "sktok_xb2otph3",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑，完成成就获得\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2otph3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 300.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 600.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑，完成成就获得\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2otph3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 600.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2cage_1": {
+    "skillId": "sktok_xb2cage_1",
+    "iconId": "sktok_xb2cage",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "捕获",
+        "rangeId": "1-1",
+        "description": "捕获攻击范围内任意一只生命值低于50％的常见狩猎物",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2cage_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "max_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "hp_ratio",
+            "value": 0.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "捕获",
+        "rangeId": "1-1",
+        "description": "捕获攻击范围内一只常见狩猎物",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 5,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2cage_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "max_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "hp_ratio",
+            "value": 1.01,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ofmf": {
+    "skillId": "sktok_xb2ofmf",
+    "iconId": "sktok_xb2ofmf",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<农牧>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<渠道>相邻时额外增加建造评分。\n关卡增益：基地内每部署1个<亚麻幼苗>，关卡内所有<亚麻幼苗>每秒额外回复<@ba.vup>5</>点生命值，最多<@ba.vup>25</>点/秒</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofmf",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ofmf2": {
+    "skillId": "sktok_xb2ofmf2",
+    "iconId": "sktok_xb2ofmf2",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<农牧>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<渠道>相邻时额外增加建造评分。\n关卡增益：基地内每部署1个<稻谷种植槽>，关卡内所有<稻谷幼苗>每秒额外回复<@ba.vup>5</>点生命值，最多<@ba.vup>25</>点/秒</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofmf2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ofmr": {
+    "skillId": "sktok_xb2ofmr",
+    "iconId": "sktok_xb2ofmr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<农牧>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<渠道>相邻时额外增加建造评分。\n关卡增益：基地内每部署1个<稻谷幼苗>，关卡内所有<稻谷幼苗>每秒额外回复<@ba.vup>5</>点生命值，最多<@ba.vup>25</>点/秒</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofmr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ofmr2": {
+    "skillId": "sktok_xb2ofmr2",
+    "iconId": "sktok_xb2ofmr2",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<农牧>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<渠道>相邻时额外增加建造评分。\n关卡增益：基地内每部署1个<亚麻种植槽>，关卡内所有<亚麻幼苗>每秒额外回复<@ba.vup>5</>点生命值，最多<@ba.vup>25</>点/秒</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofmr2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ofnc": {
+    "skillId": "sktok_xb2ofnc",
+    "iconId": "sktok_xb2ofnc",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<农牧>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<渠道>相邻时额外增加建造评分\n关卡增益：基地内每部署9个<小型兽栏>，关卡内获得<@ba.vup>1</>个<高级捕猎笼>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofnc",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ofnc2": {
+    "skillId": "sktok_xb2ofnc2",
+    "iconId": "sktok_xb2ofnc2",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<农牧>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<渠道>相邻时额外增加建造评分\n关卡增益：基地内每部署1个<大型兽栏>，关卡内获得<@ba.vup>1</>个<高级捕猎笼>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofnc2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 240.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ofb2": {
+    "skillId": "sktok_xb2ofb2",
+    "iconId": "sktok_xb2ofb2",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV2，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 15.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 18.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 25.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV3，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 18.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 21.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 25.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 35.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV4，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 21.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 24.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 55.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV5，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 24.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 55.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 80.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 80.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ofb3": {
+    "skillId": "sktok_xb2ofb3",
+    "iconId": "sktok_xb2ofb3",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<石材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV2，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 22.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 27.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 25.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<石材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV3，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 27.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 25.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 35.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<石材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV4，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 38.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 55.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<石材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV5，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 38.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 45.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 55.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 80.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<石材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 45.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 45.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 80.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ofb4": {
+    "skillId": "sktok_xb2ofb4",
+    "iconId": "sktok_xb2ofb4",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV2，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb4",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 30.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 36.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 20.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 25.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV3，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb4",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 36.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 42.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 25.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 35.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV4，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb4",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 42.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 48.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 55.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV5，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb4",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 48.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 55.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 80.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofb4",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 80.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2org2": {
+    "skillId": "sktok_xb2org2",
+    "iconId": "sktok_xb2org2",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>和<石材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV2，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2org2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 38.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 45.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>和<石材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV3，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2org2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 45.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 54.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 65.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>和<石材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV4，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2org2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 54.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 68.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 65.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 95.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>和<石材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV5，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2org2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 68.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 85.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 95.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 165.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>和<石材处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2org2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 85.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 85.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 165.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 165.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2org3": {
+    "skillId": "sktok_xb2org3",
+    "iconId": "sktok_xb2org3",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<石材处理中心>和<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV2，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2org3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 68.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 65.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 95.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<石材处理中心>和<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV3，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2org3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 68.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 82.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 95.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 130.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<石材处理中心>和<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV4，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2org3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 82.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 98.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 130.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 190.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<石材处理中心>和<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV5，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2org3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 98.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 120.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 190.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 325.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<石材处理中心>和<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2org3",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 120.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 120.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 325.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 325.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ohfct": {
+    "skillId": "sktok_xb2ohfct",
+    "iconId": "sktok_xb2ohfct",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>，<石材处理中心>和<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV2，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ohfct",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 75.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 90.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 120.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 175.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>，<石材处理中心>和<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV3，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ohfct",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 90.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 105.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 175.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 240.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>，<石材处理中心>和<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV4，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ohfct",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 105.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 120.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 240.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 360.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>，<石材处理中心>和<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值（升级至LV5，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_value}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ohfct",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 120.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 150.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 360.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 600.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n范围内存在<木材处理中心>，<石材处理中心>和<铁矿石处理中心>时，可以激活并生产能源\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，激活后产出<@ba.velc>{electric_value}</>能源值\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ohfct",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "wood_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "stone_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "iron_worker_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 150.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 150.0,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 600.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 600.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ospk": {
+    "skillId": "sktok_xb2ospk",
+    "iconId": "sktok_xb2ospk",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<农牧>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<渠道>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ospk",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 40.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2opwr": {
+    "skillId": "sktok_xb2opwr",
+    "iconId": "sktok_xb2opwr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": "x-1",
+        "description": "<产线>类建筑\n使范围内已激活的能源转化装置转化效率提升\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，提升倍率为<@ba.velc>{electric_amplify}</>（升级至LV2，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_amplify}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2opwr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "electric_amplify",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_amplify",
+            "value": 1.25,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-1",
+        "description": "<产线>类建筑\n使范围内已激活的能源转化装置转化效率提升\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，提升倍率为<@ba.velc>{electric_amplify}</>（升级至LV3，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_amplify}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2opwr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "electric_amplify",
+            "value": 1.25,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 50.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 65.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_amplify",
+            "value": 1.3,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-1",
+        "description": "<产线>类建筑\n使范围内已激活的能源转化装置转化效率提升\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，提升倍率为<@ba.velc>{electric_amplify}</>（升级至LV4，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_amplify}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2opwr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "electric_amplify",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 65.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 95.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_amplify",
+            "value": 1.4,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-1",
+        "description": "<产线>类建筑\n使范围内已激活的能源转化装置转化效率提升\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，提升倍率为<@ba.velc>{electric_amplify}</>（升级至LV5，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_amplify}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2opwr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "electric_amplify",
+            "value": 1.4,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 95.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 165.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_amplify",
+            "value": 1.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-1",
+        "description": "<产线>类建筑\n使范围内已激活的能源转化装置转化效率提升\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，提升倍率为<@ba.velc>{electric_amplify}</>\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2opwr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "electric_amplify",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 165.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 165.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_amplify",
+            "value": 1.5,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2opwr2": {
+    "skillId": "sktok_xb2opwr2",
+    "iconId": "sktok_xb2opwr2",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": "x-3",
+        "description": "<产线>类建筑\n使范围内已激活的能源转化装置转化效率大幅提升\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，提升倍率为<@ba.velc>{electric_amplify}</>（升级至LV2，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_amplify}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2opwr2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "electric_amplify",
+            "value": 1.2,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 65.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 95.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_amplify",
+            "value": 1.25,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-3",
+        "description": "<产线>类建筑\n使范围内已激活的能源转化装置转化效率大幅提升\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，提升倍率为<@ba.velc>{electric_amplify}</>（升级至LV3，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_amplify}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2opwr2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "electric_amplify",
+            "value": 1.25,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 95.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 130.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_amplify",
+            "value": 1.3,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-3",
+        "description": "<产线>类建筑\n使范围内已激活的能源转化装置转化效率大幅提升\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，提升倍率为<@ba.velc>{electric_amplify}</>（升级至LV4，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_amplify}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2opwr2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "electric_amplify",
+            "value": 1.3,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 130.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 190.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_amplify",
+            "value": 1.4,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-3",
+        "description": "<产线>类建筑\n使范围内已激活的能源转化装置转化效率大幅提升\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，提升倍率为<@ba.velc>{electric_amplify}</>（升级至LV5，分别增加到<@ba.delc>{next_score}</>和<@ba.velc>{next_electric_amplify}</>）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2opwr2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "electric_amplify",
+            "value": 1.4,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 190.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 325.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_amplify",
+            "value": 1.5,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "x-3",
+        "description": "<产线>类建筑\n使范围内已激活的能源转化装置转化效率大幅提升\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，提升倍率为<@ba.velc>{electric_amplify}</>\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2opwr2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "electric_amplify",
+            "value": 1.5,
+            "valueStr": null
+          },
+          {
+            "key": "score",
+            "value": 325.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 325.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_amplify",
+            "value": 1.5,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ofnt": {
+    "skillId": "sktok_xb2ofnt",
+    "iconId": "sktok_xb2ofnt",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofnt",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 320.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ofnt",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 320.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2oppt": {
+    "skillId": "sktok_xb2oppt",
+    "iconId": "sktok_xb2oppt",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oppt",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 320.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oppt",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 320.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2obch": {
+    "skillId": "sktok_xb2obch",
+    "iconId": "sktok_xb2obch",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2obch",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 160.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2obch",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2osqr": {
+    "skillId": "sktok_xb2osqr",
+    "iconId": "sktok_xb2osqr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2osqr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 160.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<装饰>类建筑\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和其他任意类型的建筑相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2osqr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2oltr": {
+    "skillId": "sktok_xb2oltr",
+    "iconId": "sktok_xb2oltr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": "x-3",
+        "description": "<生活>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n和<道路>相邻时自身额外获得建造得分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oltr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          },
+          {
+            "key": "range_id2",
+            "value": 0.0,
+            "valueStr": "x-3"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2obdg": {
+    "skillId": "sktok_xb2obdg",
+    "iconId": "sktok_xb2obdg",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n部署后建造得分{score}\n和<道路>相邻时自身额外获得建造得分",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2obdg",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 35.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2obds": {
+    "skillId": "sktok_xb2obds",
+    "iconId": "sktok_xb2obds",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n部署后建造得分{score}\n和<道路>相邻时自身额外获得建造得分",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2obds",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 70.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ostr": {
+    "skillId": "sktok_xb2ostr",
+    "iconId": "sktok_xb2ostr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和<道路>相邻时额外增加建造评分\n关卡增益：基地内每部署1个<饮品供给站>，关卡内获得<@ba.vup>1</>个<特制水上平台>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ostr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 160.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<道路>相邻时额外增加建造评分\n关卡增益：基地内每部署1个<饮品供给站>，关卡内获得<@ba.vup>1</>个<特制水上平台>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ostr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2fostr": {
+    "skillId": "sktok_xb2fostr",
+    "iconId": "sktok_xb2fostr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和<道路>相邻时额外增加建造评分\n关卡增益：基地内每部署1个<食品供给站>，关卡内获得<@ba.vup>1</>个<安眠迷香>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2fostr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 160.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<道路>相邻时额外增加建造评分\n关卡增益：基地内每部署1个<食品供给站>，关卡内获得<@ba.vup>1</>个<安眠迷香>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2fostr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2omkstr": {
+    "skillId": "sktok_xb2omkstr",
+    "iconId": "sktok_xb2omkstr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": "0-1",
+        "description": "<生活>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和<道路>相邻时额外增加建造评分\n关卡增益：基地内每部署1个<药品供给站>，关卡内获得<@ba.vup>1</>个<激励剂>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2omkstr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 320.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": "0-1",
+        "description": "<生活>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<道路>相邻时额外增加建造评分\n关卡增益：基地内每部署1个<药品供给站>，关卡内获得<@ba.vup>1</>个<激励剂>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2omkstr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 320.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ohwstr": {
+    "skillId": "sktok_xb2ohwstr",
+    "iconId": "sktok_xb2ohwstr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和<道路>相邻时额外增加建造评分\n关卡增益：基地内每部署1个<工具供给站>，关卡内获得<@ba.vup>1</>个<高台工事>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ohwstr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 320.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<道路>相邻时额外增加建造评分\n关卡增益：基地内每部署1个<工具供给站>，关卡内获得<@ba.vup>1</>个<高台工事>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ohwstr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 320.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2oeqstr": {
+    "skillId": "sktok_xb2oeqstr",
+    "iconId": "sktok_xb2oeqstr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分（升级至LV2，增加到<@ba.delc>{next_score}</>）\n基地效果：和<道路>相邻时额外增加建造评分\n关卡增益：基地内每部署1个<装备供给站>，关卡内获得<@ba.vup>1</>个<支援起重机>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oeqstr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 160.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 320.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<生活>类建筑\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：和<道路>相邻时额外增加建造评分\n关卡增益：基地内每部署1个<装备供给站>，关卡内获得<@ba.vup>1</>个<支援起重机>，最多<@ba.vup>2</>个</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oeqstr",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 320.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2osta_1": {
+    "skillId": "sktok_xb2osta_1",
+    "iconId": "sktok_xb2sta",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "发车",
+        "rangeId": null,
+        "description": "<通路>类建筑\n通过任何<补给车轨道>与<补给车终点站台>相连时发出<补给车>\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：使相邻的<产线>类建筑额外增加建造评分，<补给车>运转时额外增加建造评分</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2osta_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2osit": {
+    "skillId": "sktok_xb2osit",
+    "iconId": "sktok_xb2sit",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<通路>类建筑\n可与任何<补给车轨道>相连\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：使相邻的<产线>类建筑额外增加建造评分，<补给车>运转时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2osit",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2otml": {
+    "skillId": "sktok_xb2otml",
+    "iconId": "sktok_xb2tml",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<通路>类建筑\n通过任何<补给车轨道>与<补给车出发站台>相连时，<补给车出发站台>发出<补给车>\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：使相邻的<产线>类建筑额外增加建造评分，<补给车>运转时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2otml",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2fke": {
+    "skillId": "sktok_xb2fke",
+    "iconId": "sktok_xb2fke",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "偷袭",
+        "rangeId": null,
+        "description": null,
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2fke",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "default"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2als_1": {
+    "skillId": "sktok_xb2als_1",
+    "iconId": "sktok_xb2als",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "射箭",
+        "rangeId": "5-1",
+        "description": "向前方射出一支弩箭，对碰到的第一名我方干员造成物理伤害",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_xb2als_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2otrk": {
+    "skillId": "sktok_xb2otrk",
+    "iconId": "sktok_xb2otrk",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<通路>类建筑\n可连接<补给车出发站台>、<补给车中转站台>和<补给车终点站台>\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：使相邻的<产线>类建筑额外增加建造评分，<补给车>运转时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2otrk",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ocrv": {
+    "skillId": "sktok_xb2ocrv",
+    "iconId": "sktok_xb2ocrv",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<通路>类建筑\n可连接<补给车出发站台>、<补给车中转站台>和<补给车终点站台>\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分\n基地效果：使相邻的<产线>类建筑额外增加建造评分，<补给车>运转时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ocrv",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2owdp": {
+    "skillId": "sktok_xb2owdp",
+    "iconId": "sktok_xb2owdp",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<产线>类建筑\n可用于激活<木材能源转化装置>、<木石能源转化装置>、<高效能源转化装置>\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2owdp",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2ostnp": {
+    "skillId": "sktok_xb2ostnp",
+    "iconId": "sktok_xb2ostnp",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<产线>类建筑\n可用于激活<石材能源转化装置>、<木石能源转化装置>、<高效能源转化装置>\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2ostnp",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2oirnp": {
+    "skillId": "sktok_xb2oirnp",
+    "iconId": "sktok_xb2oirnp",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": "x-5",
+        "description": "<产线>类建筑\n可用于激活<铁矿石能源转化装置>、<石铁能源转化装置>、<高效能源转化装置>\n<@ba.dgrey>部署后增加<@ba.delc>{score}</>建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oirnp",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 10.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2oafkp": {
+    "skillId": "sktok_xb2oafkp",
+    "iconId": "sktok_xb2oafkp",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<产线>类建筑\n基地部署有<核心能源基站>时，才能将能源转化为建设元件；升级后可额外转化为建设装置\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，产出<@ba.velc>{electric_value}</>能源，并以<@ba.velc>{efficiency:0%}</>的效率产出建设元件（升级至LV2可以提高转化效率与建造评分）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oafkp",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 40.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 1000.0,
+            "valueStr": null
+          },
+          {
+            "key": "efficiency",
+            "value": 0.1,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 1000.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<产线>类建筑\n基地部署有<核心能源基站>时，才能将能源转化为建设元件；升级后可额外转化为建设装置\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，产出<@ba.velc>{electric_value}</>能源，并以<@ba.velc>{efficiency:0%}</>的效率产出建设元件（升级至LV3可以提高转化效率与建造评分，并能够转化建设装置）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oafkp",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 60.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 1000.0,
+            "valueStr": null
+          },
+          {
+            "key": "efficiency",
+            "value": 0.12,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 1000.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<产线>类建筑\n基地部署有<核心能源基站>时，才能将能源转化为建设元件；升级后可额外转化为建设装置\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，产出<@ba.velc>{electric_value}</>能源，并以<@ba.velc>{efficiency:0%}</>的效率产出建设元件，以<@ba.velc>{efficiency_ex:0%}</>的效率产出建设装置（升级至LV4可以提高转化效率与建造评分）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oafkp",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 80.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 120.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 1000.0,
+            "valueStr": null
+          },
+          {
+            "key": "efficiency",
+            "value": 0.14,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 1000.0,
+            "valueStr": null
+          },
+          {
+            "key": "efficiency_ex",
+            "value": 0.01,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<产线>类建筑\n基地部署有<核心能源基站>时，才能将能源转化为建设元件；升级后可额外转化为建设装置\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，产出<@ba.velc>{electric_value}</>能源，并以<@ba.velc>{efficiency:0%}</>的效率产出建设元件，以<@ba.velc>{efficiency_ex:0%}</>的效率产出建设装置（升级至LV5可以提高转化效率与建造评分）\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oafkp",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 120.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 200.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 1000.0,
+            "valueStr": null
+          },
+          {
+            "key": "efficiency",
+            "value": 0.15,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 1000.0,
+            "valueStr": null
+          },
+          {
+            "key": "efficiency_ex",
+            "value": 0.02,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "建设",
+        "rangeId": null,
+        "description": "<产线>类建筑\n基地部署有<核心能源基站>时，才能将能源转化为建设元件；升级后可额外转化为建设装置\n<@ba.dgrey>当前等级部署后增加<@ba.delc>{score}</>建造评分，产出<@ba.velc>{electric_value}</>能源，并以<@ba.velc>{efficiency:0%}</>的效率产出建设元件，以<@ba.velc>{efficiency_ex:0%}</>的效率产出建设装置\n基地效果：和任何<补给车轨道>或<补给车站台>相邻时额外增加建造评分</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2oafkp",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 200.0,
+            "valueStr": null
+          },
+          {
+            "key": "next_score",
+            "value": 200.0,
+            "valueStr": null
+          },
+          {
+            "key": "electric_value",
+            "value": 1000.0,
+            "valueStr": null
+          },
+          {
+            "key": "efficiency",
+            "value": 0.18,
+            "valueStr": null
+          },
+          {
+            "key": "next_electric_value",
+            "value": 1000.0,
+            "valueStr": null
+          },
+          {
+            "key": "efficiency_ex",
+            "value": 0.03,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_xb2clr": {
+    "skillId": "sktok_xb2clr",
+    "iconId": "sktok_xb2clr",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "清理",
+        "rangeId": null,
+        "description": "部署在<待清理地块>上将其清理",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xb2clr",
+        "duration": -1.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_xbcbag2": {
+    "skillId": "sktok_xbcbag2",
+    "iconId": "sktok_xbcbag",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "小角跳兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 10.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "大角跳兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 20.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "苔生兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 30.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "茂密苔生兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "岩壳蟹",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 20.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "结晶岩壳蟹",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 30.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "“钳钳生风”",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 75.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "荧羽兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 20.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "绒绒兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "啄奔羽兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 30.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "小角跳兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 30.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "大角跳兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "苔生兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 85.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "茂密苔生兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 145.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "岩壳蟹",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "结晶岩壳蟹",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 85.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "“钳钳生风”",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 225.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "荧羽兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "绒绒兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 145.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "啄奔羽兽",
+        "rangeId": null,
+        "description": "圈养在兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 85.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "啄奔羽兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "啄奔羽兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "啄奔羽兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "啄奔羽兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "啄奔羽兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "落沙晶蹄兽",
+        "rangeId": null,
+        "description": "圈养在大型兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 290.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "落沙晶蹄兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "灵绒兽",
+        "rangeId": null,
+        "description": "圈养在大型兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 600.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "灵绒兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "灵绒兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "灵绒兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "灵绒兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "灵绒兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "灵绒兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "灵绒兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "落沙晶蹄兽",
+        "rangeId": null,
+        "description": "圈养在大型兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 865.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "落沙晶蹄兽",
+        "rangeId": null,
+        "description": "未来扩展占位",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 0.0,
+            "valueStr": null
+          }
+        ]
+      },
+      {
+        "name": "灵绒兽",
+        "rangeId": null,
+        "description": "圈养在大型兽栏时提供{score}建造评分",
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_xbcbag2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "score",
+            "value": 1800.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
   }
 }

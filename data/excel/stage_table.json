@@ -374939,6 +374939,12 @@
       "name": "字格",
       "description": "间隔一定时间会被拓印，若其上有字，根据字产生效果",
       "isFunctional": true
+    },
+    "tile_richfd": {
+      "tileKey": "tile_richfd",
+      "name": "太阳谷预开发地块",
+      "description": "每天可以生长<杂木林>或<巨大岩石>或<奇异矿脉>或<澄亮矿脉>",
+      "isFunctional": true
     }
   },
   "forceOpenTable": {
@@ -613442,10 +613448,20 @@
           "relevantStorySetId": "setId_mainline_3_2",
           "mainlineSplitData": null
         },
+        "mainline_3_3_before1": {
+          "locationId": "mainline_3_3_before1",
+          "locationType": "BEFORE",
+          "sortId": 312,
+          "startTime": 1778832000,
+          "presentStageId": "main_03-08",
+          "unlockStageId": "main_01-10",
+          "relevantStorySetId": "setId_ssLine_act51side",
+          "mainlineSplitData": null
+        },
         "mainline_3_3": {
           "locationId": "mainline_3_3",
           "locationType": "STORY_SET",
-          "sortId": 312,
+          "sortId": 313,
           "startTime": 1777590000,
           "presentStageId": "main_03-08",
           "unlockStageId": "st_16-02",

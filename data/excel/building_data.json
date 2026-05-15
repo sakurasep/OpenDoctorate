@@ -113233,6 +113233,38 @@
         "isOnly": 1,
         "enableRoomType": 4144,
         "quantity": 0
+      },
+      "furni_act73d4_projectionModel_01": {
+        "id": "furni_act73d4_projectionModel_01",
+        "sortId": 20016,
+        "name": "“再起蓝图”",
+        "iconId": "furni_act73d4_projectionModel_01",
+        "interactType": "ANIMATOR",
+        "musicId": "",
+        "type": "INTERACT",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 6,
+        "depth": 5,
+        "height": 6,
+        "comfort": 300,
+        "usage": "能够用来装扮宿舍、活动室与会客室，可提高前两者的氛围",
+        "description": "一台小型投影仪，能投影出罗德岛重建工程的三维图像。\n阻碍依旧存在，困难仍然重重，但至少我们携手度过了最灰暗的时刻，一切都会有新的开始。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4144,
+        "quantity": 0
       }
     },
     "themes": {
@@ -149523,6 +149555,19 @@
         "unlockType": "MainBG",
         "unlockParams": [
           "bg_elitelounge_1"
+        ]
+      },
+      "bgm_bg_sandboxv3_1": {
+        "bgmId": "bgm_bg_sandboxv3_1",
+        "bgmSortId": 31,
+        "bgmStartTime": 1778832000,
+        "bgmName": "再启-荒原黎明",
+        "gameMusicId": "music_sandboxv3_1",
+        "obtainApproach": "[生息演算]重启锚点奖励",
+        "bgmDescUnlocked": "背景附赠音乐",
+        "unlockType": "MainBG",
+        "unlockParams": [
+          "bg_sandboxv3_1"
         ]
       }
     }

@@ -1,5 +1,27 @@
 {
   "basicInfo": {
+    "act42sre": {
+      "id": "act42sre",
+      "type": "TYPE_ACT42SIDE",
+      "displayType": "NONE",
+      "name": "众生行记·复刻",
+      "startTime": 1779436800,
+      "endTime": 1780257599,
+      "rewardEndTime": 1780603199,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act42sre",
+      "medalGroupId": "medalGroupActivity42side",
+      "ungroupedMedalIds": null,
+      "isReplicate": true,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act59sign": {
       "id": "act59sign",
       "type": "CHECKIN_ONLY",
@@ -7895,6 +7917,9 @@
     }
   },
   "zoneToActivity": {
+    "act42sre_zone1": "act42sre",
+    "act42sre_zone2": "act42sre",
+    "act42sre_zone3": "act42sre",
     "act4mainss_zone1": "act4mainss",
     "act3enemyduel_zone1": "act3enemyduel",
     "act51side_zone1": "act51side",
@@ -8178,6 +8203,1067 @@
     "act2access": 1745674200
   },
   "missionData": [
+    {
+      "id": "42sreActivity_1",
+      "sortId": 1,
+      "description": "通关MT-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_2",
+      "sortId": 2,
+      "description": "通关MT-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_3",
+      "sortId": 3,
+      "description": "通关MT-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 50
+        },
+        {
+          "type": "FURN",
+          "id": "furni_gunworkshop_partition_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_4",
+      "sortId": 4,
+      "description": "通关MT-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_gunworkshop_chandelier_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_5",
+      "sortId": 5,
+      "description": "通关MT-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 60
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4194_rmixer",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_6",
+      "sortId": 6,
+      "description": "通关MT-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_gunworkshop_carpet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_7",
+      "sortId": 7,
+      "description": "以3星评价完成MT-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_06",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_8",
+      "sortId": 8,
+      "description": "通关MT-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_gunworkshop_statues_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_9",
+      "sortId": 9,
+      "description": "以3星评价完成MT-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_07",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_gunworkshop_ceilinglight_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_10",
+      "sortId": 10,
+      "description": "通关MT-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_gunworkshop_storage_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_11",
+      "sortId": 11,
+      "description": "以3星评价完成MT-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_08",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_gunworkshop_carpet_02",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_12",
+      "sortId": 12,
+      "description": "通关MT-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_09",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_gunworkshop_bench_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_13",
+      "sortId": 13,
+      "description": "以3星评价完成MT-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_09",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_gunworkshop_recordplayer_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_14",
+      "sortId": 14,
+      "description": "通关MT-10",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_10",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 120
+        },
+        {
+          "type": "FURN",
+          "id": "furni_gunworkshop_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_15",
+      "sortId": 15,
+      "description": "以3星评价完成MT-10",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_10",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_16",
+      "sortId": 16,
+      "description": "通关MT-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_ex01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_17",
+      "sortId": 17,
+      "description": "通关MT-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_ex02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_18",
+      "sortId": 18,
+      "description": "通关MT-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_ex03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_19",
+      "sortId": 19,
+      "description": "通关MT-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_ex04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_20",
+      "sortId": 20,
+      "description": "通关MT-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_ex05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_21",
+      "sortId": 21,
+      "description": "通关MT-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_ex06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_22",
+      "sortId": 22,
+      "description": "通关MT-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_ex07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_23",
+      "sortId": 23,
+      "description": "通关MT-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_ex08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_24",
+      "sortId": 24,
+      "description": "通关MT-EX-8突袭模式",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_ex08#f#",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terratimes_Laterano_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_25",
+      "sortId": 25,
+      "description": "以3星评价完成MT-S-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_s01",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_26",
+      "sortId": 26,
+      "description": "以3星评价完成MT-S-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_s02",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_27",
+      "sortId": 27,
+      "description": "以3星评价完成MT-S-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_s03",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_28",
+      "sortId": 28,
+      "description": "以3星评价完成MT-S-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_s04",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_29",
+      "sortId": 29,
+      "description": "以3星评价完成MT-S-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act42side_s05",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_30",
+      "sortId": 30,
+      "description": "通关活动关卡10次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act42side_01^act42side_02^act42side_03^act42side_04^act42side_05^act42side_06^act42side_07^act42side_08^act42side_09^act42side_10^act42side_ex01^act42side_ex01#f#^act42side_ex02^act42side_ex02#f#^act42side_ex03^act42side_ex03#f#^act42side_ex04^act42side_ex04#f#^act42side_ex05^act42side_ex05#f#^act42side_ex06^act42side_ex06#f#^act42side_ex07^act42side_ex07#f#^act42side_ex08^act42side_ex08#f#^act42side_s01^act42side_s01#f#^act42side_s02^act42side_s02#f#^act42side_s03^act42side_s03#f#^act42side_s04^act42side_s04#f#^^act42side_s05^act42side_s05#f#",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_31",
+      "sortId": 31,
+      "description": "通关活动关卡25次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act42side_01^act42side_02^act42side_03^act42side_04^act42side_05^act42side_06^act42side_07^act42side_08^act42side_09^act42side_10^act42side_ex01^act42side_ex01#f#^act42side_ex02^act42side_ex02#f#^act42side_ex03^act42side_ex03#f#^act42side_ex04^act42side_ex04#f#^act42side_ex05^act42side_ex05#f#^act42side_ex06^act42side_ex06#f#^act42side_ex07^act42side_ex07#f#^act42side_ex08^act42side_ex08#f#^act42side_s01^act42side_s01#f#^act42side_s02^act42side_s02#f#^act42side_s03^act42side_s03#f#^act42side_s04^act42side_s04#f#^^act42side_s05^act42side_s05#f#",
+        "25"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "42sreActivity_32",
+      "sortId": 32,
+      "description": "通关活动关卡40次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act42side_01^act42side_02^act42side_03^act42side_04^act42side_05^act42side_06^act42side_07^act42side_08^act42side_09^act42side_10^act42side_ex01^act42side_ex01#f#^act42side_ex02^act42side_ex02#f#^act42side_ex03^act42side_ex03#f#^act42side_ex04^act42side_ex04#f#^act42side_ex05^act42side_ex05#f#^act42side_ex06^act42side_ex06#f#^act42side_ex07^act42side_ex07#f#^act42side_ex08^act42side_ex08#f#^act42side_s01^act42side_s01#f#^act42side_s02^act42side_s02#f#^act42side_s03^act42side_s03#f#^act42side_s04^act42side_s04#f#^^act42side_s05^act42side_s05#f#",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act42sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act42side_token_pacifier_rep_1",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
     {
       "id": "act4mainssActivity_1",
       "sortId": 1,
@@ -118154,6 +119240,50 @@
     }
   ],
   "missionGroup": [
+    {
+      "id": "act42sre",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "42sreActivity_1",
+        "42sreActivity_2",
+        "42sreActivity_3",
+        "42sreActivity_4",
+        "42sreActivity_5",
+        "42sreActivity_6",
+        "42sreActivity_7",
+        "42sreActivity_8",
+        "42sreActivity_9",
+        "42sreActivity_10",
+        "42sreActivity_11",
+        "42sreActivity_12",
+        "42sreActivity_13",
+        "42sreActivity_14",
+        "42sreActivity_15",
+        "42sreActivity_16",
+        "42sreActivity_17",
+        "42sreActivity_18",
+        "42sreActivity_19",
+        "42sreActivity_20",
+        "42sreActivity_21",
+        "42sreActivity_22",
+        "42sreActivity_23",
+        "42sreActivity_24",
+        "42sreActivity_25",
+        "42sreActivity_26",
+        "42sreActivity_27",
+        "42sreActivity_28",
+        "42sreActivity_29",
+        "42sreActivity_30",
+        "42sreActivity_31",
+        "42sreActivity_32"
+      ],
+      "startTs": 1779436800,
+      "endTs": 1780603199
+    },
     {
       "id": "act4mainss",
       "title": null,
@@ -264141,6 +265271,516 @@
       }
     },
     "TYPE_ACT42SIDE": {
+      "act42sre": {
+        "trustorData": {
+          "char_61n3": {
+            "trustorId": "char_61n3",
+            "sortId": 1,
+            "trustorName": "梵里妮",
+            "trustorIconSmall": "61n3_small",
+            "trustorIconLarge": "61n3_large",
+            "gunId": "personItem_61n3",
+            "taskList": [
+              "mission_1_1",
+              "mission_1_2",
+              "mission_1_3"
+            ]
+          },
+          "char_pandm": {
+            "trustorId": "char_pandm",
+            "sortId": 2,
+            "trustorName": "莫斯提马和菲亚梅塔",
+            "trustorIconSmall": "pandm_small",
+            "trustorIconLarge": "pandm_large",
+            "gunId": "personItem_pandm",
+            "taskList": [
+              "mission_2_1",
+              "mission_2_2",
+              "mission_2_3"
+            ]
+          },
+          "char_patrizion": {
+            "trustorId": "char_patrizion",
+            "sortId": 3,
+            "trustorName": "帕特里奇昂",
+            "trustorIconSmall": "patrizion_small",
+            "trustorIconLarge": "patrizion_large",
+            "gunId": "personItem_patrizion",
+            "taskList": [
+              "mission_3_1",
+              "mission_3_2",
+              "mission_3_3"
+            ]
+          },
+          "char_61n16": {
+            "trustorId": "char_61n16",
+            "sortId": 4,
+            "trustorName": "伊蒂达",
+            "trustorIconSmall": "61n16_small",
+            "trustorIconLarge": "61n16_large",
+            "gunId": "personItem_61n16",
+            "taskList": [
+              "mission_4_1",
+              "mission_4_2",
+              "mission_4_3"
+            ]
+          }
+        },
+        "taskData": {
+          "mission_1_1": {
+            "taskId": "mission_1_1",
+            "preposedTaskId": null,
+            "trustorId": "char_61n3",
+            "trustorName": "梵里妮",
+            "sortId": 1,
+            "taskName": "铳械清洗溶剂",
+            "taskContent": "【231号订单】\n客户：梵里妮\n为了应对明年将至的制铳师资质考试，需要指导她做一支属于自己的铳械。\n\n客户留言：老师，希望我不会辜负这么多年来您花在我身上的心血。",
+            "afterTaskContent": "傍晚，你在桌子下摸到了一瓶铳械清洗溶剂，里面的液体早已干涸，但依稀还能闻到淡淡的香草甜味，你回想起从前......\n\n梵里妮那时还是个孩子，才来工坊不久。公证所将她母亲的守护铳寄来，她捧着那支脏兮兮的铳，上面还有血迹......你不愿细想那是从何而来。\n于是你带她来到工作间，为她讲解如何清理铳械。你问她是否还需要帮助，她什么话也不说，你想留下陪陪她，却又看到她低下了头。\n你手足无措，猜想她或许只想一个人待着。叹了一口气，你转身回到楼上。等到你因玻璃碎裂声匆匆赶到楼下，工作台的台面已经被溶剂覆盖，而梵里妮只是发着抖，呆呆地站在“事故”现场。\n你想说些什么安慰她，但又很清楚，你所有的话她都只会以沉默作答。她失去亲人、被痛苦包围，你清楚这一点，并无数次尝试走进她的内心，却始终无法找到正确的路。\n\n你重新体味到了当时的疲惫，于是忽略了瓶子早已碎裂的事实。",
+            "beforeTaskItemIcon": "bottle_blank",
+            "afterTaskItemIcon": "bottle",
+            "stageId": "act42side_02",
+            "taskDesc": "以三星评价通关1次MT-2",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "4001",
+                "count": 5000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          "mission_1_2": {
+            "taskId": "mission_1_2",
+            "preposedTaskId": "mission_1_1",
+            "trustorId": "char_61n3",
+            "trustorName": "梵里妮",
+            "sortId": 2,
+            "taskName": "儿童心理学丛书",
+            "taskContent": "【231号订单】\n客户：梵里妮\n经过讨论，我们决定参照梵里妮母亲的守护铳制造铳械。但该制式已被证实有巨大缺陷，需要进一步改造。\n\n客户留言：老师，谢谢您为我保管母亲的守护铳。",
+            "afterTaskContent": "午夜，几本旧书被你从书架碰落，你捡起它们翻开，一张报告映入眼帘，你想起带着梵里妮四处求医的日子。\n\n【检查报告】\n法柏尔区中心医院，光环外科\n患者存在语言障碍，说话费力，有严重的漏字现象，同时伴随轻度的阅读与书写困难。故而临床诊断为心因性失语症。\n除药物治疗外，鉴于其家庭的特殊情况，建议每周来本院进行额外的共感接触......\n\n你无法依靠共感判断女孩的心理状况，于是在医生的建议下，购入了《小小光环，小小心思》——一套专门研究萨科塔孩童的心理学丛书。书中的每个段落你都熟记在心，但看到她在你面前结巴着，你才焦头烂额地意识到，这套破书中的每一句都基于一个共识写就——你和你的孩子都有一个璀璨迷人的大光环。\n但你没有，很可惜，这套书对你来说毫无用处。\n\n你重新体味到了当时的焦急与愤怒，忽略了那套书早已被你在怒火中撕得粉碎。",
+            "beforeTaskItemIcon": "book_blank",
+            "afterTaskItemIcon": "book",
+            "stageId": "act42side_05",
+            "taskDesc": "以三星评价通关1次MT-5",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "2003",
+                "count": 5,
+                "type": "CARD_EXP"
+              }
+            ]
+          },
+          "mission_1_3": {
+            "taskId": "mission_1_3",
+            "preposedTaskId": "mission_1_2",
+            "trustorId": "char_61n3",
+            "trustorName": "梵里妮",
+            "sortId": 3,
+            "taskName": "披肩",
+            "taskContent": "【231号订单】\n客户：梵里妮\n铳械制作接近尾声，击发缓慢的问题已有改善，只差外部涂装。\n\n客户留言：老师，这支铳的涂装我希望能由您来完成......从小到大，您每次送给我的礼物，我都觉得很美。",
+            "afterTaskContent": "深夜，你在沙发上发现了一件羽毛披肩，拎起它，找到标签，你回想起几年前的冬天......\n\n成分：100%潘格尼尼的羽毛\n只可干洗\n洗涤温度不超过30度\n悬挂晾干\n低温熨烫\n不可漂白\n——洗护标签\n\n梵里妮觉得冷的时候，她就会埋进你厚厚的羽毛里，直到呼吸不畅才把脸露出来。\n于是每到换毛季，你都会收集满满一大袋羽毛，从中精挑细选那些色泽格外漂亮的，打算制成一件披肩。这陆陆续续花了你好几年，毕竟你的羽毛总是因为缺乏休息而显得黯淡。收到披肩时，梵里妮花了好半天才表达出自己的感激，那真的是很长的一段话，你觉得没有比这更好的回报了。\n你忍住眼泪，长久地凝视着她，没有说话。她也没再说话，只是在那里紧张地搓着手指。\n\n你重新体味到了当时的幸福与快乐，甚至忘记了你曾将自己满是油彩的工作服丢进那个名为“只可干洗”的脏衣篮。那件披肩早已沾满五颜六色的油彩。",
+            "beforeTaskItemIcon": "cape_blank",
+            "afterTaskItemIcon": "cape",
+            "stageId": "act42side_07",
+            "taskDesc": "以三星评价通关1次MT-7，且至少使5名入梦砖上的圣堂射手扮演者苏醒",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 2,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "3302",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          "mission_2_1": {
+            "taskId": "mission_2_1",
+            "preposedTaskId": null,
+            "trustorId": "char_pandm",
+            "trustorName": "莫斯提马和菲亚梅塔",
+            "sortId": 1,
+            "taskName": "靶子",
+            "taskContent": "【172号订单】\n客户：菲亚梅塔\n小型铳械，方便外勤携带，需要一整套配件，利手为右手。\n\n客户留言：潘格尼尼先生，这把铳是给朋友的生日礼物，花费不是问题，只是希望在十二月之前完成。",
+            "afterTaskContent": "傍晚，你在档案柜中找到一沓文件，封存多年，纸页早已泛黄。你回想起数年前，你初次受圣席奥多尔综合学校的邀请，为学生们制作守护铳。\n\n■■■年第一学期综合射击课排名\n第一名 菲亚梅塔\n第二名 蕾缪安\n第三名 莫斯提马\n第四名 希拉\n......\n■■■年第二学期综合射击课排名\n第一名 蕾缪安\n第二名 菲亚梅塔\n第三名 莫斯提马\n第四名 希拉\n......\n■■■年第一学期综合射击课排名\n第一名 菲亚梅塔\n第二名 蕾缪安\n第三名 莫斯提马\n第四名 希拉\n......\n\n■■■届毕业生守护铳制作名单\n1.蕾缪安\n2.莫斯提马\n3.希拉\n......\n你翻过一页页档案，忍不住提醒老师那个叫菲亚梅塔的孩子不在制作名单上，但却被告知，那个孩子是黎博利。老师眼中浓浓的遗憾让你觉得有些不知所措。\n\n你为此感到无奈，忽略了你当年看过档案后并未将名单带回工坊。",
+            "beforeTaskItemIcon": "target_blank",
+            "afterTaskItemIcon": "target",
+            "stageId": "act42side_04",
+            "taskDesc": "以三星评价通关1次MT-4，且部署狙击干员至少1次",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "2003",
+                "count": 5,
+                "type": "CARD_EXP"
+              }
+            ]
+          },
+          "mission_2_2": {
+            "taskId": "mission_2_2",
+            "preposedTaskId": "mission_2_1",
+            "trustorId": "char_pandm",
+            "trustorName": "莫斯提马和菲亚梅塔",
+            "sortId": 2,
+            "taskName": "葡萄干蛋糕",
+            "taskContent": "【172号订单】\n客户：菲亚梅塔\n客户的朋友看过构想后觉得很满意，剩下的制作细节可交由制铳师自行发挥。\n\n客户留言：潘格尼尼先生，这真是天才的想法。",
+            "afterTaskContent": "晚上，你在冰箱里找到一块蛋糕，饥饿得以缓解，你回想起初次品尝时的惊艳。\n\n每次任务结束，那支小队都会来到工坊养护武器，还会带一块你爱吃的蛋糕。\n萨科塔们总是对自己的守护铳充满感情，希望你清洁的动作无限轻柔，而那个黎博利孩子却常常面无表情地询问：\n“榴弹发射器的射击距离能更远吗？\n“膛线的性能还可以提升吗？\n“配件更换不够便利......有解决办法吗？”\n直到你告诉她，都可以解决，但前提是她需要更换一把发射器，现在这坨破烂铁块已经修不好了。\n而她依然面无表情地说道：\n“那就换一把呗。”\n你叹了口气，感慨幸亏这不是守护铳，一般来说，损坏成这样主人肯定要疯了。\n她回头看了看队友，其中一位正因为不得不更换瞄具而泣不成声。随后，她抽抽嘴角，赞同道：\n“幸亏我没有守护铳。”\n\n你沉醉在美味中，忘记了这种葡萄干蛋糕其实并没有那么好吃，因为总有人喜欢恶作剧，在里面加入一些怪味道的糖果。",
+            "beforeTaskItemIcon": "cake_blank",
+            "afterTaskItemIcon": "cake",
+            "stageId": "act42side_06",
+            "taskDesc": "以三星评价通关1次MT-6",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "4001",
+                "count": 5000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          "mission_2_3": {
+            "taskId": "mission_2_3",
+            "preposedTaskId": "mission_2_2",
+            "trustorId": "char_pandm",
+            "trustorName": "莫斯提马和菲亚梅塔",
+            "sortId": 3,
+            "taskName": "旧怀表",
+            "taskContent": "【172号订单】\n客户：菲亚梅塔\n无\n\n客户留言：很抱歉，潘格尼尼先生，最近发生了一些事，我的朋友她......不再需要铳了，剩下的钱我还是会付给您，至于铳，可否暂且寄存在您那里。",
+            "afterTaskContent": "深夜，你从工作中抬头，看了看时间，临近十二点。你想起，菲亚梅塔小姐最后一次来到工坊，同样是在一个深夜。\n\n她被阴郁笼罩，告知你那把“年度铳械”的主人已经远离拉特兰，临走前只丢给她一块怀表，要她保管。\n她揉着额头抱怨道：\n“他们想通了的，我想不通......我永远都慢他们一拍，行了吧！\n“就像这块表......那家伙甚至丢给我一块走不准的表。”\n你为她添上一杯酒，接过那块怀表，重新调好时间，时针与分针再次走动起来。那一刻，你突然理解了为什么莫斯提马要把自己的怀表留给她。\n“我想......”你组织语言，尝试着安慰她。\n“看这块表，菲亚梅塔小姐。秒针和分针的确走得很快，时针虽然落后于它们，但每到零点，三根指针总会相遇，新的一天仍会到来。\n“毕竟，这些指针，它们共同组成了这块表。”\n她叹了口气，扯出一个笑容，然后离开。\n\n你继续手中的工作，忙碌让你忘记，那天菲亚梅塔并没有来。",
+            "beforeTaskItemIcon": "watch_blank",
+            "afterTaskItemIcon": "watch",
+            "stageId": "act42side_08",
+            "taskDesc": "以三星评价通关1次MT-8，且在入梦砖上部署干员至少2次",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 2,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "3302",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          "mission_3_1": {
+            "taskId": "mission_3_1",
+            "preposedTaskId": null,
+            "trustorId": "char_patrizion",
+            "trustorName": "帕特里奇昂",
+            "sortId": 1,
+            "taskName": "荣誉勋章",
+            "taskContent": "【0号订单】\n客户：帕特里奇昂\n铳骑用的巨型铳械，老工匠们留下的东西还有很多可以改进。打起精神来，我可要让帕特里奇昂带着全拉特兰火力最强的巨铳上任铳骑。\n\n客户留言：非常荣幸成为你的客户，朋友。\n",
+            "afterTaskContent": "傍晚，你收到一位老朋友的问候，回想起你们相识的点滴，你感到心烦意乱。\n\n银制教宗铳骑勋章，于1029年2月14日由当时的教宗卢多维科四世创立，以表彰实习骑士中表现特别突出，跳过最终考核阶段提前录用为正式铳骑的成员......其中最为年轻的获得者帕特里奇昂，时年二十六岁......\n\n授勋仪式上，你就在人群中，看教宗亲自为帕特里奇昂佩戴勋章。身旁，表妹吉雅握紧你的手，将她的兴奋与紧张传递过来。\n他向教宗致礼后，便焦急地在人群中寻找，你和吉雅赶紧高举手臂，不住呼喊。看到你们后，他的脸上立即出现了笑意。\n你与他对望，心中满是骄傲。你们曾约定好，如果他能拿到这枚勋章，那你最近制作的那把巨铳就归他。你嘴上说不看好，但心里却想，除了眼前这个笑得一脸灿烂的家伙，还有谁配得上你亲手制造的“杰作”。\n\n你没有回复短讯，烦躁地将通讯器关机丢在一旁，全然忘记当时与他对望的人并不是你，而是吉雅。",
+            "beforeTaskItemIcon": "medal_blank",
+            "afterTaskItemIcon": "medal",
+            "stageId": "act42side_03",
+            "taskDesc": "以三星评价通关1次MT-3",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "3302",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          "mission_3_2": {
+            "taskId": "mission_3_2",
+            "preposedTaskId": "mission_3_1",
+            "trustorId": "char_patrizion",
+            "trustorName": "帕特里奇昂",
+            "sortId": 2,
+            "taskName": "祖母的项链",
+            "taskContent": "【0号订单】\n客户：帕特里奇昂\n或许......原设计可被拆卸为独立的两个部分使用。\n\n客户留言：我把你的设计拿给长官看了，你可得谢谢我，说不定你马上就能接到新工作。\n",
+            "afterTaskContent": "晚上，你收到一串从哥伦比亚寄来的项链，觉得异常眼熟，不由得开始思考自己到底在哪里见过。\n\n......帕提，祖母将这串项链留给你。若有一天，你遇上了对的人，便让她戴上项链，同你一起来我墓前看看......七月正好，茉莉花会开。\n——摘自帕特里奇昂祖母的遗嘱\n\n那天，你看到帕特里奇昂将项链戴在吉雅的脖子上，而她娇羞地垂下头。\n婚期定在七月，你身为伴郎，早早便替那对只顾腻在一起的情侣打点好婚礼的一切。当吉雅与他向你坦白时，你起初也气恼他们的隐瞒，但很快，狂喜代替了愤怒。你很早就希望他成为你家庭的一员，毕竟，祖母去世后，他家中便只剩他一人。\n\n与项链一同到来的，还有吉雅的死讯。你忍住悲痛，忘记那天你其实没那么快乐，因为吉雅偷偷告诉你，最近自己的膝盖总是隐隐作痛。",
+            "beforeTaskItemIcon": "bracelet_blank",
+            "afterTaskItemIcon": "bracelet",
+            "stageId": "act42side_07",
+            "taskDesc": "以三星评价通关1次MT-7，且部署特种干员至少1次",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "2003",
+                "count": 5,
+                "type": "CARD_EXP"
+              }
+            ]
+          },
+          "mission_3_3": {
+            "taskId": "mission_3_3",
+            "preposedTaskId": "mission_3_2",
+            "trustorId": "char_patrizion",
+            "trustorName": "帕特里奇昂",
+            "sortId": 3,
+            "taskName": "来信",
+            "taskContent": "【0号订单】\n客户：帕特里奇昂\n给它上一层亮闪闪的喷漆，得配得上铳骑的盔甲才行。\n\n客户留言：朋友，这可真是杰作，拿着它我已经迫不及待想去执行我的下一个任务了。\n",
+            "afterTaskContent": "深夜，你从保险柜中拿出一封信，那是吉雅托你转交给帕特里奇昂的信，但你一直不曾给出，思绪回到过去。\n\n【任务通知】\n任务时间：7月21日\n任务内容：将矿石病人遣离圣城\n执行人：帕特里奇昂\n\n从六月到七月，你无数次找到帕特里奇昂，希望事情能有转圜的余地，哪怕让吉雅留在圣城外的修道院也好，但他只是沉默，半天才吐出一句话：\n“律法......不能违背。”\n你和吉雅拥抱过后，将她送至圣城外等候的车队前。七月份，天气很热，但她的双手却是冰凉的。队伍旁边，帕特里奇昂背着铳，一言不发，不停瞥向你和吉雅，却始终不敢和你们对视。\n\n你将信连同项链一起放回保险柜，同时彻底删去了帕特里奇昂的号码，悲哀使你忘记，其实你从未留存他的号码。",
+            "beforeTaskItemIcon": "letter_blank",
+            "afterTaskItemIcon": "letter",
+            "stageId": "act42side_09",
+            "taskDesc": "以三星评价通关1次MT-9，且部署重装干员至少1次",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 2,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "4001",
+                "count": 5000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          "mission_4_1": {
+            "taskId": "mission_4_1",
+            "preposedTaskId": null,
+            "trustorId": "char_61n16",
+            "trustorName": "伊蒂达",
+            "sortId": 1,
+            "taskName": "口腔镜",
+            "taskContent": "【208号订单】\n客户：伊蒂达\n随便什么样都行。\n\n客户留言：潘格尼尼先生，我们对守护铳没有太多要求，毕竟我们的小伊蒂达已经有了自己的守护牙刷，这就够了，不是吗？",
+            "afterTaskContent": "在冰箱最深处永远藏着你罪恶的享受——冰淇淋。清晨，你挖了一大勺，刚送到嘴边，敲门声却突然响起。\n\n打开门，伊蒂达，你邻居的小女儿，拿着厚厚一沓传单出现在门口。\n你无奈地说：“孩子，你知道现在还不到五点吗？”\n女孩只是眨眨眼，狡黠地笑笑：“但你是昼伏夜出的黎博利，不是吗？”叹了一口气，你接过传单，巨大的警示标语映入眼帘，提醒你远离有害的糖分。\n想起塞爆邮箱的社区传单，每周邀请你参加社区会议，商议如何将甜品店彻底从这个社区，甚至拉特兰驱逐出去，你恍然大悟，终于明白这里的房子为何这么便宜。这一片生活的全是信奉含氟牙膏的疯狂牙医，没有哪个传统的拉特兰人能受得了他们。\n“要吃点东西再走吗，伊蒂达？”\n“谢谢，别想诱惑我！我不会接受你冰箱里邪恶甜品的毒害。”\n“不，伊蒂达，我只是单纯地觉得你还不够了解自己的敌人。”\n你眨眨眼，将一盒冰淇淋塞到她手中。",
+            "beforeTaskItemIcon": "mouthmirror_blank",
+            "afterTaskItemIcon": "mouthmirror",
+            "stageId": "act42side_04",
+            "taskDesc": "以三星评价通关1次MT-4，且在入梦砖上部署干员至少2次",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "4001",
+                "count": 5000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          "mission_4_2": {
+            "taskId": "mission_4_2",
+            "preposedTaskId": "mission_4_1",
+            "trustorId": "char_61n16",
+            "trustorName": "伊蒂达",
+            "sortId": 2,
+            "taskName": "儿童牙刷",
+            "taskContent": "【208号订单】\n客户：伊蒂达\n需要薄荷色的外观，令人联想到强效牙膏。\n\n客户留言：潘格尼尼先生，您已经多次缺席社区会议，希望您能按时出席，履行社区成员的职责，因为您拆除了自己的邮箱，我们只能用这种方式联系您了。",
+            "afterTaskContent": "直到午夜，你仍在毫无负担地享受着罪恶的冰淇淋，突然，重重的敲门声响起，你打开门。\n\n你看到伊蒂达满脸泪水，因为哭嚎而张大了嘴巴，门牙处只剩下两个空。\n“都怪你邪恶的冰淇淋，现在我受到惩罚了！我的牙掉了！”\n叹了一口气，你递上纸巾，试图安慰她。\n“不，你只是到了换牙的时候，伊蒂达。”\n“牙齿掉了就是惩罚！喜爱甜品就是萨科塔的原罪！”\n无论你怎么劝说，她都不肯停止哭泣。她的眼泪怎么也止不住，就像坏掉的水龙头一样。很快，纸巾堆满纸篓。\n“我要怎样才能让你停止哭泣呢？”\n“呜，我也不知道......现在只是掉牙齿，以后要是连光环都蛀掉呢？没什么能安慰我，放弃吧。”\n“我冰箱里有新口味的冰淇淋。”\n“......”\n“要吗？”\n“......要。”\n“吃完别哭了？”\n女孩抽噎着打开冰淇淋盒，而你在内心暗哼，哪个萨科塔能够抵抗甜蜜冰淇淋的诱惑？没有。\n“迟早你的牙齿都会掉光的。”\n“无所谓，我没有牙齿，我磨碎食物用的是胃石。”",
+            "beforeTaskItemIcon": "razor_blank",
+            "afterTaskItemIcon": "razor",
+            "stageId": "act42side_08",
+            "taskDesc": "以三星评价通关1次MT-8，且部署近卫干员至少1次",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 1,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "3302",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          "mission_4_3": {
+            "taskId": "mission_4_3",
+            "preposedTaskId": "mission_4_2",
+            "trustorId": "char_61n16",
+            "trustorName": "伊蒂达",
+            "sortId": 3,
+            "taskName": "“甜蜜的代价”",
+            "taskContent": "【802号订单】\n客户：潘格尼尼\n十二盒无糖冰淇淋，混合口味，尽快送达。\n\n客户留言：来的时候记得避开梵里妮，最近我体重没控制好，她盯得很紧。",
+            "afterTaskContent": "深夜，你打开床底的小冰箱，发现自己的冰淇淋已经吃完，只剩一盒孤独的沙拉。你叹息着打开沙拉，一阵熟悉的敲门声又响起。\n\n打开门，出乎你的意料，门口站着的是你的邻居，手里拿着一沓厚厚的传单，邀请你参加下周的社区会议。\n你接过传单，看到会议的主题不再是堵截甜品流入社区，而是共同商议如何帮助伊蒂达将无糖冰淇淋推广至整个拉特兰。\n你的邻居自豪地跟你聊起传单上的女孩。\n“嘿，多亏我女儿发明了无糖冰淇淋，拉特兰终于有救了。\n“不论是谁启发她发明了这玩意儿，含氟牙膏保佑他！”\n而你尴尬地笑笑，表示如果有时间一定出席。\n送走邻居，你回到桌边，准备吃自己的晚餐，但敲门声再次不合时宜地响起。\n打开门，伊蒂达露出缺牙的笑容。\n“作为启发我发明无糖冰淇淋的人，要不要来投资啊？”\n“我拒绝，小姑娘。”\n“那要尝尝我的无糖冰淇淋吗？”\n你看看盒子里没有配酱的菜叶。\n“......要。”",
+            "beforeTaskItemIcon": "tooth_blank",
+            "afterTaskItemIcon": "tooth",
+            "stageId": "act42side_09",
+            "taskDesc": "以三星评价通关1次MT-9，且至少使1名入梦砖上的圣堂保育员扮演者苏醒",
+            "rewards": [
+              {
+                "id": "randomMaterial_act42side",
+                "count": 2,
+                "type": "VOUCHER_MGACHA"
+              },
+              {
+                "id": "2003",
+                "count": 5,
+                "type": "CARD_EXP"
+              }
+            ]
+          }
+        },
+        "gunData": {
+          "personItem_61n3": {
+            "gunId": "personItem_61n3",
+            "gunName": "第一支守护铳",
+            "trustorName": "梵里妮",
+            "gunContent": "学徒梵里妮的第一件铳械作品，在其老师潘格尼尼的指导下完成，铳械制作手法尚显稚嫩，但种种巧思足以证明她在制铳方面的天赋。",
+            "gunSmallIcon": "personItem_61n3",
+            "gunWhiteIcon": "gun_61n3_white",
+            "gunColorIcon": "gun_61n3"
+          },
+          "personItem_pandm": {
+            "gunId": "personItem_pandm",
+            "gunName": "无人来取的铳械订单（礼物盒）",
+            "trustorName": "莫斯提马和菲亚梅塔",
+            "gunContent": "莫斯提马的第二把铳，好友菲亚梅塔所赠的生日礼物，价格不菲，制作精良，获得了博尔戈街制铳师们的一致好评，荣膺当年的“年度铳械”。",
+            "gunSmallIcon": "personItem_pandm",
+            "gunWhiteIcon": "gun_pandm_white",
+            "gunColorIcon": "gun_pandm"
+          },
+          "personItem_patrizion": {
+            "gunId": "personItem_patrizion",
+            "gunName": "铳骑的巨铳",
+            "trustorName": "帕特里奇昂",
+            "gunContent": "铳械大师潘格尼尼的成名之作，亦是帕特里奇昂成为铳骑后的第一支巨型铳械，手工制作与军工制式相融合的杰作。",
+            "gunSmallIcon": "personItem_patrizion",
+            "gunWhiteIcon": "gun_patrizion_white",
+            "gunColorIcon": "gun_patrizion"
+          },
+          "personItem_61n16": {
+            "gunId": "personItem_61n16",
+            "gunName": "无糖冰激凌",
+            "trustorName": "伊蒂达",
+            "gunContent": "伊蒂达制作的第一款无糖冰淇淋，固定客户只有铳械工坊的潘格尼尼，即便经人挨家挨户上门推广，大多数拉特兰居民仍将其视为异端。",
+            "gunSmallIcon": "personItem_61n16",
+            "gunWhiteIcon": "gun_61n16_white",
+            "gunColorIcon": "gun_61n16"
+          }
+        },
+        "fileData": {
+          "act42side_file_1": {
+            "contentId": "act42side_file_1",
+            "sortId": 1
+          },
+          "act42side_file_2": {
+            "contentId": "act42side_file_2",
+            "sortId": 2
+          },
+          "act42side_file_3": {
+            "contentId": "act42side_file_3",
+            "sortId": 3
+          },
+          "act42side_file_4": {
+            "contentId": "act42side_file_4",
+            "sortId": 4
+          },
+          "act42side_file_5": {
+            "contentId": "act42side_file_5",
+            "sortId": 5
+          }
+        },
+        "dailyRewardList": [
+          {
+            "completedCnt": 0,
+            "reward": {
+              "id": "randomMaterial_act42side",
+              "count": 1,
+              "type": "VOUCHER_MGACHA"
+            }
+          },
+          {
+            "completedCnt": 1,
+            "reward": {
+              "id": "randomMaterial_act42side",
+              "count": 2,
+              "type": "VOUCHER_MGACHA"
+            }
+          },
+          {
+            "completedCnt": 3,
+            "reward": {
+              "id": "randomMaterial_act42side",
+              "count": 3,
+              "type": "VOUCHER_MGACHA"
+            }
+          },
+          {
+            "completedCnt": 6,
+            "reward": {
+              "id": "randomMaterial_act42side",
+              "count": 4,
+              "type": "VOUCHER_MGACHA"
+            }
+          },
+          {
+            "completedCnt": 9,
+            "reward": {
+              "id": "randomMaterial_act42side",
+              "count": 5,
+              "type": "VOUCHER_MGACHA"
+            }
+          },
+          {
+            "completedCnt": 12,
+            "reward": {
+              "id": "randomMaterial_act42side",
+              "count": 6,
+              "type": "VOUCHER_MGACHA"
+            }
+          }
+        ],
+        "constData": {
+          "coffeeName": "特浓咖啡",
+          "dailyCoffee": 6,
+          "coffeeLimit": 12,
+          "coffeeContent": "来到工坊后，每日04:00咖啡壶可调制6杯特浓咖啡。接取订单需要饮用1杯特浓咖啡。 工坊解锁后可立即获得6杯特浓咖啡。 在所有订单都完成后，咖啡壶也会停止工作。",
+          "minGunTaskDisplay": "<1",
+          "unlockStageId": "act42side_01",
+          "toastGunTaskCompleted": "“{0}”进度已更新",
+          "toastGunTaskLocked": "好像漏了前面的订单",
+          "toastStageBlock": "关卡尚未解锁",
+          "toastEntryLocked": "完成MT-1后解锁",
+          "toastFileLocked": "铳械制作仍在进行中，暂未记录工坊日志",
+          "toastGunLocked": "订单尚未完成",
+          "toastNoCoffee": "咖啡壶里一滴也不剩了\n有什么工作明天再说",
+          "toastOuterUnlock": "制铳师之夜已解锁"
+        },
+        "zoneAdditionDataMap": {
+          "act42sre_zone1": {
+            "zoneId": "act42sre_zone1",
+            "unlockText": "尚未解锁"
+          },
+          "act42sre_zone2": {
+            "zoneId": "act42sre_zone2",
+            "unlockText": "完成「瞻望圣堂」后解锁"
+          },
+          "act42sre_zone3": {
+            "zoneId": "act42sre_zone3",
+            "unlockText": "完成「瞻望圣堂」后解锁"
+          }
+        }
+      },
       "act42side": {
         "trustorData": {
           "char_61n3": {
@@ -377094,6 +378734,9 @@
     }
   },
   "activityItems": {
+    "act42sre": [
+      "act42side_token_pacifier_rep_1"
+    ],
     "act4mainss": [
       "act4mainss_token"
     ],
@@ -386275,6 +387918,22 @@
       ],
       "picGroups": [],
       "startTs": 1778832000
+    },
+    {
+      "id": "dis_side_42_sre",
+      "type": "ACTIVITY",
+      "funcId": "act42sre",
+      "endTs": 1780257599,
+      "sortId": 150,
+      "itemId": "act42side_token_pacifier_rep_1",
+      "timeNodes": [
+        {
+          "title": "<众生行记>活动已开放",
+          "ts": 1779436800
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1779436800
     }
   ],
   "actFunData": {
@@ -421428,6 +423087,27 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act42sre": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4194_rmixer",
+        "通关MT-5后可招募此干员",
+        "009bd5",
+        "20,-60"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "009bd5"
+    },
     "act4mainss": {
       "bigRewardType": "ILLUST_CHAR_REWARD",
       "bigRewardParamList": [

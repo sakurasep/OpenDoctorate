@@ -99439,7 +99439,7 @@
         },
         "baseShopGoodExtraData": {
           "sandbox_2_good_base_path_1_1": {
-            "unlockDesc": "通关RA-1"
+            "unlockDesc": "通关RA-2"
           },
           "sandbox_2_good_base_path_2_1": {
             "unlockDesc": "通关RA-2"
@@ -99565,7 +99565,7 @@
             "unlockDesc": "通关RA-11"
           },
           "sandbox_2_good_base_cleaner_1": {
-            "unlockDesc": "通关RA-1"
+            "unlockDesc": "通关RA-2"
           },
           "sandbox_2_good_animal_base_1_1": {
             "unlockDesc": "通关RA-5"
@@ -129520,8 +129520,8 @@
           },
           "quest_stage07_1": {
             "taskId": "quest_stage07_1",
-            "taskBaseDesc": "拥有至少1个亚麻种植槽",
-            "taskDesc": "拥有亚麻种植槽（<color=#ffa200>{0}</color>/{1}）",
+            "taskBaseDesc": "拥有至少1个亚麻幼苗或亚麻种植槽",
+            "taskDesc": "拥有亚麻幼苗或亚麻种植槽（<color=#ffa200>{0}</color>/{1}）",
             "taskLevel": 1,
             "difficulty": "EASY",
             "taskType": "OWN_TRAP_BY_GROUP",
@@ -129672,8 +129672,8 @@
           },
           "quest_stage09_2": {
             "taskId": "quest_stage09_2",
-            "taskBaseDesc": "拥有至少3个亚麻种植槽，并交付25份<color=#{0}>干亚麻</color>",
-            "taskDesc": "拥有亚麻种植槽（<color=#ffa200>{0}</color>/{1}）\\n交付干亚麻（<color=#ffa200>{2}</color>/{3}）",
+            "taskBaseDesc": "拥有至少3个亚麻幼苗或亚麻种植槽，并交付25份<color=#{0}>干亚麻</color>",
+            "taskDesc": "拥有亚麻幼苗或亚麻种植槽（<color=#ffa200>{0}</color>/{1}）\\n交付干亚麻（<color=#ffa200>{2}</color>/{3}）",
             "taskLevel": 1,
             "difficulty": "NORMAL",
             "taskType": "OWN_TRAP_AND_DELIVER",
@@ -130266,8 +130266,8 @@
           },
           "quest_stage14_1": {
             "taskId": "quest_stage14_1",
-            "taskBaseDesc": "拥有至少2个亚麻种植槽，并交付5份干亚麻",
-            "taskDesc": "拥有亚麻种植槽（<color=#ffa200>{0}</color>/{1}）\\n交付干亚麻（<color=#ffa200>{2}</color>/{3}）",
+            "taskBaseDesc": "拥有至少2个亚麻幼苗或亚麻种植槽，并交付5份干亚麻",
+            "taskDesc": "拥有亚麻幼苗或亚麻种植槽（<color=#ffa200>{0}</color>/{1}）\\n交付干亚麻（<color=#ffa200>{2}</color>/{3}）",
             "taskLevel": 1,
             "difficulty": "EASY",
             "taskType": "OWN_TRAP_AND_DELIVER",
@@ -137440,7 +137440,7 @@
           },
           "story_6": {
             "id": "story_6",
-            "sortId": 2,
+            "sortId": 3,
             "questType": "SIDE",
             "name": "新建的花园",
             "desc": "阿米娅和Mon3tr在为第一批来罗德岛新基地的病人们忙碌奔波，努力让他们尽快适应新环境。而病人们也悄悄准备了送给她们的温暖礼物。",
@@ -137461,6 +137461,25 @@
               "zoneName": "废弃地块",
               "zoneBgPicId": "zone_pic_4",
               "zoneNameIdEn": "Abandoned Plate"
+            }
+          },
+          "story_7": {
+            "id": "story_7",
+            "sortId": 2,
+            "questType": "SIDE",
+            "name": "热情熊熊燃烧！",
+            "desc": "Thermal-EX想要为新基地的建设出一份力，但频繁的过热让他难以完成任务。究竟怎样才能让自己的热情稍微冷却下来呢？",
+            "avgDataList": [],
+            "cgDataList": [],
+            "npcPicIdList": [
+              "img_npc_376_therex",
+              "img_npc_349_chiave"
+            ],
+            "zoneData": {
+              "zoneId": "zone_3",
+              "zoneName": "待采矿区",
+              "zoneBgPicId": "zone_pic_3",
+              "zoneNameIdEn": "Unexploited Mine"
             }
           }
         },

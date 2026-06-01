@@ -15226,6 +15226,97 @@
           ]
         }
       ]
+    },
+    "char_1048_orchd2": {
+      "charId": "char_1048_orchd2",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_hire_spd_all[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "trade_ord_spd&limit_tag[000]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_1049_catap2": {
+      "charId": "char_1049_catap2",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd_doubleProf3[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            },
+            {
+              "buffId": "train_spd_doubleProf3[100]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "trade_ord_spd[022]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4215_buddy": {
+      "charId": "char_4215_buddy",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_single&tag[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "meet_spd_notOwned_P[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 30
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -15510,6 +15601,21 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "进驻控制中枢时，人力办公室联络速度小于<@cc.vup>30%</>时（其中包含基础联络速度5%），则联络速度额外<@cc.vup>+20%</>（该加成全局效果唯一，不受其它加成影响）",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_hire_spd_all[000]": {
+      "buffId": "control_hire_spd_all[000]",
+      "buffName": "办公室年度人物",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_orchd2",
+      "sortId": 1399,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "进驻控制中枢时，人力办公室联络速度<@cc.vup>+10%</>（同种效果取最高）",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -19213,6 +19319,21 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "trade_ord_spd[022]": {
+      "buffId": "trade_ord_spd[022]",
+      "buffName": "气氛组",
+      "buffIcon": "trading",
+      "skillIcon": "bskill_tra_spd3&catap2",
+      "sortId": 4903,
+      "buffColor": "#0075a9",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "TRADING",
+      "description": "进驻贸易站时，订单获取效率<@cc.vup>+35%</>",
+      "efficiency": 35,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "trade_ord_vodfox[000]": {
       "buffId": "trade_ord_vodfox[000]",
       "buffName": "低语",
@@ -20050,6 +20171,21 @@
       "roomType": "TRADING",
       "description": "进驻贸易站时，订单获取效率<@cc.vup>+5%</>，且订单上限<@cc.vup>+2</>，同时每有1个<$cc.bd_felyne><@cc.rem>木天蓼</></>，则订单获取效率<@cc.vup>+3%</>",
       "efficiency": 5,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "trade_ord_spd&limit_tag[000]": {
+      "buffId": "trade_ord_spd&limit_tag[000]",
+      "buffName": "队长的自觉",
+      "buffIcon": "trading",
+      "skillIcon": "bskill_tra_orchd2",
+      "sortId": 4150,
+      "buffColor": "#0075a9",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "TRADING",
+      "description": "进驻贸易站时，订单上限<@cc.vup>+3</>，且每有一个<$cc.tag.mh2><@cc.kw>泡影国狩猎小队</></>干员进驻贸易站，订单获取效率<@cc.vup>+20%</>",
+      "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
     },
@@ -22814,6 +22950,42 @@
         "PIONEER"
       ]
     },
+    "train_spd_doubleProf3[000]": {
+      "buffId": "train_spd_doubleProf3[000]",
+      "buffName": "兴之所至·α",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train_mh2_guard&sniper1",
+      "sortId": 9901,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "进驻训练室协助位时，<@cc.kw>近卫</>与<@cc.kw>狙击</>干员的专精技能训练速度<@cc.vup>+30%</>",
+      "efficiency": 30,
+      "targetGroupSortId": 2,
+      "targets": [
+        "WARRIOR",
+        "SNIPER"
+      ]
+    },
+    "train_spd_doubleProf3[100]": {
+      "buffId": "train_spd_doubleProf3[100]",
+      "buffName": "兴之所至·β",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train_mh2_guard&sniper2",
+      "sortId": 9901,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "进驻训练室协助位时，<@cc.kw>近卫</>与<@cc.kw>狙击</>干员的专精技能训练速度<@cc.vup>+50%</>，心情每小时消耗<@cc.vdown>+1</>",
+      "efficiency": 50,
+      "targetGroupSortId": 2,
+      "targets": [
+        "WARRIOR",
+        "SNIPER"
+      ]
+    },
     "train_spd_reduceTime[000]": {
       "buffId": "train_spd_reduceTime[000]",
       "buffName": "精神锻炼",
@@ -24510,6 +24682,21 @@
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "进驻宿舍时，使该宿舍内心情未满的某个干员每小时恢复<@cc.vup>+0.55</>（同种效果取最高），如果目标是<@cc.kw>蓝毒</>，则恢复效果额外<@cc.vup>+0.45</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "dorm_rec_single&tag[000]": {
+      "buffId": "dorm_rec_single&tag[000]",
+      "buffName": "狩猎好帮手",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_buddy",
+      "sortId": 5214,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<@cc.vup>+0.55</>（同种效果取最高），如果目标是<$cc.tag.mh><@cc.kw>怪物猎人小队</></>成员和<$cc.tag.mh2><@cc.kw>泡影国狩猎小队</></>，则恢复效果额外<@cc.vup>+0.45</>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -26910,6 +27097,21 @@
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
       "description": "进驻会客室时，更容易获得线索板上尚未拥有的线索",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "meet_spd_notOwned_P[000]": {
+      "buffId": "meet_spd_notOwned_P[000]",
+      "buffName": "隐秘专家",
+      "buffIcon": "meeting",
+      "skillIcon": "bskill_meet_buddy",
+      "sortId": 6815,
+      "buffColor": "#dd653f",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "MEETING",
+      "description": "进驻会客室时，更容易获得线索板上尚未拥有的线索，若<@cc.kw>焰狐龙梓兰</>进驻控制中枢，则线索搜集速度提升<@cc.vup>10%</>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -100050,6 +100252,550 @@
         "enableRoomType": 4112,
         "quantity": 1
       },
+      "furni_Azuredream_hanger_01": {
+        "id": "furni_Azuredream_hanger_01",
+        "sortId": 2282,
+        "name": "“烈竹”熏烤架",
+        "iconId": "furni_Azuredream_hanger_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILING",
+        "subType": "DECORATION_C",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_1",
+        "width": 3,
+        "depth": 3,
+        "height": 7,
+        "comfort": 155,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "由经过熔岩高温定型的竹子搭成的稳固吊架，挂钩上有时会悬着风干的草药与肉干。\n猎人们享用美食的聚集点。出发前，猎人们总要围坐于此，分享片刻的温存。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_brazier_01": {
+        "id": "furni_Azuredream_brazier_01",
+        "sortId": 2283,
+        "name": "粗铁火盆",
+        "iconId": "furni_Azuredream_brazier_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "COOKING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_1",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 140,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "房间中少有的铁器，经过特殊的设计，保证其中燃烧的火不会轻易熄灭。\n即使是最熟练的猎人，也不敢轻视野外的长夜。这盆火是漫漫长夜中唯一令人心安的光亮。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_shelf_01": {
+        "id": "furni_Azuredream_shelf_01",
+        "sortId": 2284,
+        "name": "匠人的悬空架",
+        "iconId": "furni_Azuredream_shelf_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLDECO",
+        "subType": "SHELF",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_2",
+        "width": 5,
+        "depth": 2,
+        "height": 3,
+        "comfort": 125,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "简单的木板架，借助木桩和粗麻绳固定于墙面，上面可以摆放各种东西。\n斑弥罗常随手将自己的发明扔在这里。为了能让这个架子承载更多的东西，他不得不一次又一次地加固它。某种程度上，这个架子变成了他灵感的结晶。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_cabinet_01": {
+        "id": "furni_Azuredream_cabinet_01",
+        "sortId": 2285,
+        "name": "狩猎祭备餐台",
+        "iconId": "furni_Azuredream_cabinet_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "STORAGE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_2",
+        "width": 7,
+        "depth": 2,
+        "height": 5,
+        "comfort": 275,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "厚实的木柜，台下摆放着一些锅具，台面的绳架上则挂着铲和勺。\n人们在这里烹调出一顿又一顿美食，将一个又一个猎人送上了征途。它见证了最朴素的祈愿：吃饱，然后活着回来。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_ceilingLight_01": {
+        "id": "furni_Azuredream_ceilingLight_01",
+        "sortId": 2286,
+        "name": "“栖萤”木条巢笼",
+        "iconId": "furni_Azuredream_ceilingLight_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILINGLAMP",
+        "subType": "NONE",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_2",
+        "width": 11,
+        "depth": 4,
+        "height": 3,
+        "comfort": 235,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "由细小木条搭建而成的灯，透过缝隙散发出呼吸般起伏着的柔和光芒。\n实际上是萤虫的巢穴。人们在里面涂上特制的树脂吸引萤虫住在其中，入夜之后，萤虫的光芒就会成为光源。它们是泡影国与自然相处的最好注脚。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_table_01": {
+        "id": "furni_Azuredream_table_01",
+        "sortId": 2287,
+        "name": "团聚之桌",
+        "iconId": "furni_Azuredream_table_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_1",
+        "width": 6,
+        "depth": 5,
+        "height": 3,
+        "comfort": 340,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "宽大的六角形木桌，经久耐用，上面可以摆放各种小物件。\n无论是制定战术、研究狩猎目标，还是庆祝狩猎归来的宴席，都是在这张桌子上进行的。它是猎人们一天的起点，也是他们一天的归宿。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_carpet_01": {
+        "id": "furni_Azuredream_carpet_01",
+        "sortId": 2288,
+        "name": "图腾织毯",
+        "iconId": "furni_Azuredream_carpet_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CARPET",
+        "subType": "NONE",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_2",
+        "width": 11,
+        "depth": 7,
+        "height": 1,
+        "comfort": 145,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "分别编有暗红色和天蓝色波浪纹样的地毯，仿佛模仿了熔岩流动的轨迹和冰晶的形状，触感粗糙而温暖。\n泡影国的织工们习惯将对自然的敬畏编入织物。这红色与蓝色的纹路既是雪山下奔涌的地脉和山上的冰雪，也是流淌在猎人血脉中的激情与冷静。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_pillar_01": {
+        "id": "furni_Azuredream_pillar_01",
+        "sortId": 2289,
+        "name": "“幽径”隔断",
+        "iconId": "furni_Azuredream_pillar_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "PARTITION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_4",
+        "width": 3,
+        "depth": 4,
+        "height": 9,
+        "comfort": 315,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "用来隔断房间的摆件。树枝上挂着各种各样的装饰品，为房间增添了几分雅致。\n既不完全隔绝视线，又能划分空间的巧妙设计。就像那个遥远的国度一样，梦与真实之间，往往也只有这一线之隔。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_leafWall_01": {
+        "id": "furni_Azuredream_leafWall_01",
+        "sortId": 2290,
+        "name": "祈风竹编挂饰",
+        "iconId": "furni_Azuredream_leafWall_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLDECO",
+        "subType": "ORTHER_WD",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_3",
+        "width": 3,
+        "depth": 1,
+        "height": 3,
+        "comfort": 85,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "以嫩竹和宽大树叶编织而成的花形墙饰，中间的图案据说家家户户都不一样。\n泡影国平民悬挂于家中的“护身符”。人们相信这种挂饰能抵御“诅咒”，保佑家中的猎人在狩猎中平安无事。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_bed_01": {
+        "id": "furni_Azuredream_bed_01",
+        "sortId": 2291,
+        "name": "隐士的卧榻",
+        "iconId": "furni_Azuredream_bed_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "BEDDING",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_3",
+        "width": 9,
+        "depth": 4,
+        "height": 6,
+        "comfort": 530,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "带有遮阳顶的木制架子床，铺着一条洗得泛白的兽皮毯，看起来厚实而温暖，透着股好闻的日晒味。\n在那漫长的十年里，年幼的国主曾无数次在这样的床上醒来。只有在梦中，她才能卸下巫女的重担，做一个普通的女孩。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_chair_01": {
+        "id": "furni_Azuredream_chair_01",
+        "sortId": 2292,
+        "name": "沉默的木椅",
+        "iconId": "furni_Azuredream_chair_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_1",
+        "width": 3,
+        "depth": 3,
+        "height": 4,
+        "comfort": 190,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "一把用料扎实的椅子，椅背上有一块兽皮，但并不可靠，偶尔会有猎人因为情绪激动后仰摔倒。\n月见夜将军时常会坐在这里，透过窗户凝视远处的竹林与雪山，他在理智与情感的撕扯中，默默守护那个秘密。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_crate_01": {
+        "id": "furni_Azuredream_crate_01",
+        "sortId": 2293,
+        "name": "猎人的百宝箱",
+        "iconId": "furni_Azuredream_crate_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CABINET",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_3",
+        "width": 3,
+        "depth": 2,
+        "height": 4,
+        "comfort": 155,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "一个塞满了杂物的木箱，从各种工具到不知名的矿石样本应有尽有，甚至还塞了一些用旧的武器。\n不知为何，它的容量比看起来要大得多，还能通过改造变得更大。斑弥罗对此洋洋自得，但政宗私下透露，这是他教给斑弥罗的。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_column_01": {
+        "id": "furni_Azuredream_column_01",
+        "sortId": 2294,
+        "name": "栖羽弯木柱",
+        "iconId": "furni_Azuredream_column_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "COLUMN",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_4",
+        "width": 6,
+        "depth": 3,
+        "height": 10,
+        "comfort": 445,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "一根自然弯曲的粗壮原木，侧面安置着一个小巧的羽兽巢，用来供负责传递军情的信使落脚。\n在通讯落后的泡影国，小小的信使成了连接防线与都城的命脉。这根木柱见证了无数“急讯”与“捷报”的起落。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_furStand_01": {
+        "id": "furni_Azuredream_furStand_01",
+        "sortId": 2295,
+        "name": "兽皮风干架",
+        "iconId": "furni_Azuredream_furStand_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ORTHER_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_3",
+        "width": 2,
+        "depth": 4,
+        "height": 8,
+        "comfort": 260,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "张挂着整张野兽毛皮的木架，经过特殊工艺处理，毛皮呈现出坚韧的质感，散发着淡淡的油脂香气。\n每一张完整的毛皮都代表着一次成功的狩猎。而这些毛皮都将化作新装备的一部分，庇护着猎人，生生不息。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_basket_01": {
+        "id": "furni_Azuredream_basket_01",
+        "sortId": 2296,
+        "name": "幽光灯架",
+        "iconId": "furni_Azuredream_basket_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "FLOORLAMP",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_4",
+        "width": 2,
+        "depth": 2,
+        "height": 5,
+        "comfort": 175,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "编织精巧的竹筐中立着一根竹枝，上面挂着从地下河采集来的、透过玻璃罩散发微光的萤虫。\n这种在黑暗中顽强生长的微小生命，正如一度陷入绝境的猎人们，在绽放着希望的光芒。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_wallpaper_01": {
+        "id": "furni_Azuredream_wallpaper_01",
+        "sortId": 2297,
+        "name": "“听涛”",
+        "iconId": "furni_Azuredream_wallpaper_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLPAPER",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "WALL",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_4",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "展现泡影国竹林景象的全景显示屏。透过窗口能看到摇曳的竹林，听到风吹竹叶发出的声响。\n在那如潮水般的涛声中，休憩的人或许会有些恍惚，感觉自己踏入了一个遥远的国度。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_Azuredream_floor_01": {
+        "id": "furni_Azuredream_floor_01",
+        "sortId": 2298,
+        "name": "“集会”",
+        "iconId": "furni_Azuredream_floor_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "FLOOR",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "FLOOR",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_Azuredream",
+        "groupId": "furni_set_Azuredream_4",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "由巨大的灰色石板铺设而成的地面，踩上去会有沉闷的回响。\n它见证过满载而归的欢笑，也承受过担架落地的沉重。这片坚硬的地面，始终沉默地支撑着每一位过客，无论去留。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
       "furni_oct1st_deckChair_01": {
         "id": "furni_oct1st_deckChair_01",
         "sortId": 9998,
@@ -102318,7 +103064,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -102350,7 +103096,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -104264,6 +105010,38 @@
         "comfort": 120,
         "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
         "description": "全球人气连锁比萨餐厅达美乐为罗德岛特别赠送的纪念地毯，印有店铺热卖的招牌款式比萨图案。\n美味速达，乐享更多。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 0
+      },
+      "furni_act71d0_grill_01": {
+        "id": "furni_act71d0_grill_01",
+        "sortId": 10261,
+        "name": "烤肉组合",
+        "iconId": "furni_act71d0_grill_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "CATERING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 6,
+        "depth": 4,
+        "height": 4,
+        "comfort": 120,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "朴素的烤肉配置。普通的篝火，简易的木制烤肉架，随处可见的刀具，最好吃的烤肉。\n“你烤得非常好！”",
         "obtainApproach": "活动获得",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -132809,6 +133587,143 @@
           "furni_rabbitCinema_floor_01"
         ]
       },
+      "furni_set_Azuredream": {
+        "id": "furni_set_Azuredream",
+        "enableRoomType": 4112,
+        "sortId": 129,
+        "name": "泡影国起居室",
+        "themeType": "LINKAGE",
+        "desc": "根据梓兰的回忆复现的泡影国民居。在那个国家，人们行天之谕，狩地之兽，而他们的国主，完成了一次又一次的“试炼”，狩猎了一头又一头的“异兽”，将国家传承了下来。在那里，狩猎不只是一种生活方式，更是一种信仰。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_Azuredream_hanger_01",
+            "pos0": 1,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_brazier_01",
+            "pos0": 2,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_shelf_01",
+            "pos0": 0,
+            "pos1": 6,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_cabinet_01",
+            "pos0": 1,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_ceilingLight_01",
+            "pos0": 6,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_table_01",
+            "pos0": 7,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_carpet_01",
+            "pos0": 5,
+            "pos1": 2,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_pillar_01",
+            "pos0": 16,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_leafWall_01",
+            "pos0": 19,
+            "pos1": 6,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_bed_01",
+            "pos0": 19,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_chair_01",
+            "pos0": 13,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_crate_01",
+            "pos0": 29,
+            "pos1": 1,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_column_01",
+            "pos0": 22,
+            "pos1": 6,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_furStand_01",
+            "pos0": 32,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_basket_01",
+            "pos0": 32,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_Azuredream_floor_01",
+            "pos0": 0,
+            "pos1": 10,
+            "dir": 0
+          }
+        ],
+        "groups": [
+          "furni_set_Azuredream_1",
+          "furni_set_Azuredream_2",
+          "furni_set_Azuredream_3",
+          "furni_set_Azuredream_4"
+        ],
+        "furnitures": [
+          "furni_Azuredream_hanger_01",
+          "furni_Azuredream_brazier_01",
+          "furni_Azuredream_shelf_01",
+          "furni_Azuredream_cabinet_01",
+          "furni_Azuredream_ceilingLight_01",
+          "furni_Azuredream_table_01",
+          "furni_Azuredream_carpet_01",
+          "furni_Azuredream_pillar_01",
+          "furni_Azuredream_leafWall_01",
+          "furni_Azuredream_bed_01",
+          "furni_Azuredream_chair_01",
+          "furni_Azuredream_crate_01",
+          "furni_Azuredream_column_01",
+          "furni_Azuredream_furStand_01",
+          "furni_Azuredream_basket_01",
+          "furni_Azuredream_wallpaper_01",
+          "furni_Azuredream_floor_01"
+        ]
+      },
       "furniM_set_basicRoom": {
         "id": "furniM_set_basicRoom",
         "enableRoomType": 32,
@@ -140846,6 +141761,63 @@
           "furni_rabbitCinema_ceilinglamp_02",
           "furni_rabbitCinema_plant_01",
           "furni_rabbitCinema_ceilinglamp_03"
+        ]
+      },
+      "furni_set_Azuredream_1": {
+        "id": "furni_set_Azuredream_1",
+        "sortId": 1,
+        "name": "集会祝捷",
+        "themeId": "furni_set_Azuredream",
+        "comfort": 190,
+        "count": 4,
+        "furniture": [
+          "furni_Azuredream_hanger_01",
+          "furni_Azuredream_brazier_01",
+          "furni_Azuredream_table_01",
+          "furni_Azuredream_chair_01"
+        ]
+      },
+      "furni_set_Azuredream_2": {
+        "id": "furni_set_Azuredream_2",
+        "sortId": 2,
+        "name": "山林温存",
+        "themeId": "furni_set_Azuredream",
+        "comfort": 180,
+        "count": 4,
+        "furniture": [
+          "furni_Azuredream_shelf_01",
+          "furni_Azuredream_cabinet_01",
+          "furni_Azuredream_ceilingLight_01",
+          "furni_Azuredream_carpet_01"
+        ]
+      },
+      "furni_set_Azuredream_3": {
+        "id": "furni_set_Azuredream_3",
+        "sortId": 3,
+        "name": "翠竹梦乡",
+        "themeId": "furni_set_Azuredream",
+        "comfort": 250,
+        "count": 4,
+        "furniture": [
+          "furni_Azuredream_leafWall_01",
+          "furni_Azuredream_bed_01",
+          "furni_Azuredream_crate_01",
+          "furni_Azuredream_furStand_01"
+        ]
+      },
+      "furni_set_Azuredream_4": {
+        "id": "furni_set_Azuredream_4",
+        "sortId": 4,
+        "name": "泡影营造",
+        "themeId": "furni_set_Azuredream",
+        "comfort": 330,
+        "count": 5,
+        "furniture": [
+          "furni_Azuredream_pillar_01",
+          "furni_Azuredream_column_01",
+          "furni_Azuredream_basket_01",
+          "furni_Azuredream_wallpaper_01",
+          "furni_Azuredream_floor_01"
         ]
       }
     },
@@ -149568,6 +150540,19 @@
         "unlockType": "MainBG",
         "unlockParams": [
           "bg_sandboxv3_1"
+        ]
+      },
+      "bgm_bg_hunter": {
+        "bgmId": "bgm_bg_hunter",
+        "bgmSortId": 32,
+        "bgmStartTime": 1780268400,
+        "bgmName": "结营-云卷之日",
+        "gameMusicId": "music_bg_hunter",
+        "obtainApproach": "[采购中心]中购买结营出猎组合包获得",
+        "bgmDescUnlocked": "背景附赠音乐",
+        "unlockType": "MainBG",
+        "unlockParams": [
+          "bg_hunter_1"
         ]
       }
     }

@@ -1,5 +1,52 @@
 {
   "basicInfo": {
+    "act4signvs": {
+      "id": "act4signvs",
+      "type": "CHECKIN_VS",
+      "displayType": "NONE",
+      "name": "端阳正午签到活动",
+      "startTime": 1781640000,
+      "endTime": 1782503999,
+      "rewardEndTime": 1782503999,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act24sre": {
+      "id": "act24sre",
+      "type": "TYPE_ACT24SIDE",
+      "displayType": "SIDESTORY",
+      "name": "落叶逐火·复刻",
+      "startTime": 1781510400,
+      "endTime": 1782331199,
+      "rewardEndTime": 1782676799,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_hidden_24side_01",
+        "medal_hidden_24side_02"
+      ],
+      "isReplicate": true,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act1football": {
       "id": "act1football",
       "type": "ACT_FOOTBALL",
@@ -6905,6 +6952,13 @@
     }
   },
   "homeActConfig": {
+    "act4signvs": {
+      "actId": "act4signvs",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "6a8029",
+      "actTopBarText": "端阳正午签到活动"
+    },
     "act58sign": {
       "actId": "act58sign",
       "isPopupAfterCheckin": false,
@@ -7999,6 +8053,8 @@
     }
   },
   "zoneToActivity": {
+    "act24sre_zone1": "act24sre",
+    "act24sre_zone2": "act24sre",
     "act1football_zone1": "act1football",
     "act1football_zone2": "act1football",
     "act1football_zone3": "act1football",
@@ -8290,6 +8346,803 @@
     "act2access": 1745674200
   },
   "missionData": [
+    {
+      "id": "24sreActivity_1",
+      "sortId": 1,
+      "description": "通关CF-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act24side_01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_1_rep_1",
+          "count": 20
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_2",
+      "sortId": 2,
+      "description": "通关CF-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act24side_02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_1_rep_1",
+          "count": 20
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_3",
+      "sortId": 3,
+      "description": "通关CF-3，且至少击败角兽1次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act24side_03",
+        "enemy_1303_mhshep",
+        "killed",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_1_rep_1",
+          "count": 20
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_4",
+      "sortId": 4,
+      "description": "通关CF-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act24side_04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "CHAR",
+          "id": "char_4077_palico",
+          "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "p_char_4077_palico",
+          "count": 5
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_5",
+      "sortId": 5,
+      "description": "通关CF-5，且打断凶豕兽的冲撞至少2次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act24side_05",
+        "enemy_1309_mhboar",
+        "stoprush",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_2_rep_1",
+          "count": 40
+        },
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_6",
+      "sortId": 6,
+      "description": "通关CF-6，且用眩光手雷击落至少2只锋羽兽",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act24side_06",
+        "enemy_1308_mheagl",
+        "flashstun",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_2_rep_1",
+          "count": 20
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_7",
+      "sortId": 7,
+      "description": "通关CF-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act24side_07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_3_rep_1",
+          "count": 20
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_8",
+      "sortId": 8,
+      "description": "通关CF-8，且至少击败狡兽1次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act24side_08",
+        "enemy_1311_mhkryk",
+        "killed",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_3_rep_1",
+          "count": 20
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_9",
+      "sortId": 9,
+      "description": "以3星评价通关CF-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act24side_09",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_3_rep_1",
+          "count": 20
+        },
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_10",
+      "sortId": 10,
+      "description": "收集120个炼金素材破碎的骨片",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActivityCoinGain",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act24sre",
+        "120",
+        "act24side_melding_1_rep_1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_1_rep_1",
+          "count": 10
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_11",
+      "sortId": 11,
+      "description": "收集120个炼金素材源石虫的硬壳",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActivityCoinGain",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act24sre",
+        "120",
+        "act24side_melding_2_rep_1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_2_rep_1",
+          "count": 10
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_12",
+      "sortId": 12,
+      "description": "收集120个炼金素材鬣犄兽的尖锐齿",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActivityCoinGain",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act24sre",
+        "120",
+        "act24side_melding_3_rep_1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_3_rep_1",
+          "count": 10
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_13",
+      "sortId": 13,
+      "description": "收集60个炼金素材凶豕兽的厚实皮",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActivityCoinGain",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act24sre",
+        "60",
+        "act24side_melding_4_rep_1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_4_rep_1",
+          "count": 10
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_14",
+      "sortId": 14,
+      "description": "收集40个炼金素材“兽之泪”",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActivityCoinGain",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act24sre",
+        "40",
+        "act24side_melding_5_rep_1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_5_rep_1",
+          "count": 10
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_15",
+      "sortId": 15,
+      "description": "在活动关卡中，累计使用眩光手雷击落空中敌人10次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "StageWithCondition",
+      "templateType": "4",
+      "param": [
+        "4",
+        "act24side_01^act24side_02^act24side_03^act24side_04^act24side_05^act24side_06^act24side_07^act24side_08^act24side_09^act24side_ex01^act24side_ex01#f#^act24side_ex02^act24side_ex02#f#^act24side_ex03^act24side_ex03#f#^act24side_ex04^act24side_ex04#f#^act24side_ex05^act24side_ex05#f#^act24side_ex06^act24side_ex06#f#^act24side_ex07^act24side_ex07#f#^act24side_ex08^act24side_ex08#f#^act24side_s01",
+        "flashstun",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_1_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_16",
+      "sortId": 16,
+      "description": "在活动关卡中，累计对敌人的弱点部位造成200000点伤害",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "StageWithCondition",
+      "templateType": "4",
+      "param": [
+        "4",
+        "act24side_01^act24side_02^act24side_03^act24side_04^act24side_05^act24side_06^act24side_07^act24side_08^act24side_09^act24side_ex01^act24side_ex01#f#^act24side_ex02^act24side_ex02#f#^act24side_ex03^act24side_ex03#f#^act24side_ex04^act24side_ex04#f#^act24side_ex05^act24side_ex05#f#^act24side_ex06^act24side_ex06#f#^act24side_ex07^act24side_ex07#f#^act24side_ex08^act24side_ex08#f#^act24side_s01",
+        "criticaldamage",
+        "200000"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_1_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_17",
+      "sortId": 17,
+      "description": "通关“山地的震颤”",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act24side_ex01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_1_rep_1",
+          "count": 20
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_18",
+      "sortId": 18,
+      "description": "通关“深林大大大暴乱”，且至少击败炽焰源石虫30次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act24side_ex02",
+        "enemy_1305_mhslim_2",
+        "killed",
+        "30"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_1_rep_1",
+          "count": 20
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_19",
+      "sortId": 19,
+      "description": "通关“对对碰，硬邦邦”",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act24side_ex03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_1_rep_1",
+          "count": 30
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_20",
+      "sortId": 20,
+      "description": "通关“当心坠落”",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act24side_ex04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_1_rep_1",
+          "count": 30
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_21",
+      "sortId": 21,
+      "description": "通关“此路不通”，且至少击败坚岩冠兽4次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act24side_ex05",
+        "enemy_1307_mhrhcr_2",
+        "killed",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_2_rep_1",
+          "count": 20
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_22",
+      "sortId": 22,
+      "description": "通关“登高必经险途”",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act24side_ex06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_2_rep_1",
+          "count": 20
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_23",
+      "sortId": 23,
+      "description": "通关“英雄的诞生”，且至少击败箭棘兽1次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act24side_ex07",
+        "enemy_1310_mhprpn_2",
+        "killed",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_2_rep_1",
+          "count": 30
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "24sreActivity_24",
+      "sortId": 24,
+      "description": "以3星评价通关“炬火燎原”",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act24side_ex08",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act24sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act24side_melding_2_rep_1",
+          "count": 30
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
     {
       "id": "50sideActivity_1",
       "sortId": 1,
@@ -120179,6 +121032,42 @@
   ],
   "missionGroup": [
     {
+      "id": "act24sre",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "24sreActivity_1",
+        "24sreActivity_2",
+        "24sreActivity_3",
+        "24sreActivity_4",
+        "24sreActivity_5",
+        "24sreActivity_6",
+        "24sreActivity_7",
+        "24sreActivity_8",
+        "24sreActivity_9",
+        "24sreActivity_10",
+        "24sreActivity_11",
+        "24sreActivity_12",
+        "24sreActivity_13",
+        "24sreActivity_14",
+        "24sreActivity_15",
+        "24sreActivity_16",
+        "24sreActivity_17",
+        "24sreActivity_18",
+        "24sreActivity_19",
+        "24sreActivity_20",
+        "24sreActivity_21",
+        "24sreActivity_22",
+        "24sreActivity_23",
+        "24sreActivity_24"
+      ],
+      "startTs": 1781510400,
+      "endTs": 1782676799
+    },
+    {
       "id": "act50side",
       "title": null,
       "type": "ACTIVITY",
@@ -136736,6 +137625,267 @@
       }
     },
     "CHECKIN_VS": {
+      "act4signvs": {
+        "checkInDict": {
+          "1": {
+            "rewardList": [
+              {
+                "id": "ap_supply_lt_120",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 1
+          },
+          "2": {
+            "rewardList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "7001",
+                "count": 5,
+                "type": "TKT_RECRUIT"
+              }
+            ],
+            "order": 2
+          },
+          "3": {
+            "rewardList": [
+              {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 3
+          },
+          "4": {
+            "rewardList": [
+              {
+                "id": "mod_update_token_1",
+                "count": 10,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "ap_supply_lt_120",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "order": 4
+          },
+          "5": {
+            "rewardList": [
+              {
+                "id": "3301",
+                "count": 30,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "7002",
+                "count": 5,
+                "type": "TKT_INST_FIN"
+              }
+            ],
+            "order": 5
+          },
+          "6": {
+            "rewardList": [
+              {
+                "id": "3401",
+                "count": 300,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3003",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 6
+          },
+          "7": {
+            "rewardList": [
+              {
+                "id": "mod_unlock_token",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3302",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 7
+          }
+        },
+        "voteTasteList": [
+          {
+            "plSweetNum": 5,
+            "plSaltyNum": 0,
+            "plTaste": 1
+          },
+          {
+            "plSweetNum": 4,
+            "plSaltyNum": 0,
+            "plTaste": 1
+          },
+          {
+            "plSweetNum": 3,
+            "plSaltyNum": 0,
+            "plTaste": 1
+          },
+          {
+            "plSweetNum": 2,
+            "plSaltyNum": 0,
+            "plTaste": 1
+          },
+          {
+            "plSweetNum": 1,
+            "plSaltyNum": 0,
+            "plTaste": 1
+          },
+          {
+            "plSweetNum": 4,
+            "plSaltyNum": 1,
+            "plTaste": 2
+          },
+          {
+            "plSweetNum": 3,
+            "plSaltyNum": 1,
+            "plTaste": 2
+          },
+          {
+            "plSweetNum": 3,
+            "plSaltyNum": 2,
+            "plTaste": 2
+          },
+          {
+            "plSweetNum": 2,
+            "plSaltyNum": 1,
+            "plTaste": 2
+          },
+          {
+            "plSweetNum": 0,
+            "plSaltyNum": 5,
+            "plTaste": 3
+          },
+          {
+            "plSweetNum": 0,
+            "plSaltyNum": 4,
+            "plTaste": 3
+          },
+          {
+            "plSweetNum": 0,
+            "plSaltyNum": 3,
+            "plTaste": 3
+          },
+          {
+            "plSweetNum": 0,
+            "plSaltyNum": 2,
+            "plTaste": 3
+          },
+          {
+            "plSweetNum": 0,
+            "plSaltyNum": 1,
+            "plTaste": 3
+          },
+          {
+            "plSweetNum": 1,
+            "plSaltyNum": 4,
+            "plTaste": 4
+          },
+          {
+            "plSweetNum": 1,
+            "plSaltyNum": 3,
+            "plTaste": 4
+          },
+          {
+            "plSweetNum": 2,
+            "plSaltyNum": 3,
+            "plTaste": 4
+          },
+          {
+            "plSweetNum": 1,
+            "plSaltyNum": 2,
+            "plTaste": 4
+          },
+          {
+            "plSweetNum": 1,
+            "plSaltyNum": 1,
+            "plTaste": 5
+          },
+          {
+            "plSweetNum": 2,
+            "plSaltyNum": 2,
+            "plTaste": 5
+          }
+        ],
+        "tasteInfoDict": {
+          "1": {
+            "plTaste": 1,
+            "tasteType": "SWEET",
+            "tasteText": "甜蜜捍卫者"
+          },
+          "2": {
+            "plTaste": 2,
+            "tasteType": "SWEET",
+            "tasteText": "甜粽爱好者"
+          },
+          "3": {
+            "plTaste": 3,
+            "tasteType": "SALT",
+            "tasteText": "咸香拥护者"
+          },
+          "4": {
+            "plTaste": 4,
+            "tasteType": "SALT",
+            "tasteText": "咸粽爱好者"
+          },
+          "5": {
+            "plTaste": 5,
+            "tasteType": "DRAW",
+            "tasteText": "甜咸自由派"
+          }
+        },
+        "tasteRewardDict": {
+          "SWEET": {
+            "tasteType": "SWEET",
+            "rewardItem": {
+              "id": "furni_duanwu2026_sweet_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          },
+          "SALT": {
+            "tasteType": "SALT",
+            "rewardItem": {
+              "id": "furni_duanwu2026_salted_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          }
+        },
+        "apSupplyOutOfDateDict": {
+          "ap_supply_lt_120": 1783281599
+        },
+        "versusTotalDays": 5,
+        "ruleText": "06月17日~06月21日开放助威比拼。在此期间，博士每日可以选择粽子口味为龙舟助威。比拼结束后，参与过助威的博士首次签到将获得家具奖励“装饰台”。家具款式根据助威时口味倾向决定（甜咸自由派的博士将获得获胜方奖励）"
+      },
       "act3signvs": {
         "checkInDict": {
           "1": {
@@ -208352,6 +209502,1977 @@
       }
     },
     "TYPE_ACT24SIDE": {
+      "act24sre": {
+        "toolDataList": {
+          "tool_trap": {
+            "toolId": "tool_trap",
+            "sortId": 1,
+            "toolName": "高压脉冲诡雷",
+            "toolDesc": "部署后需要一定时间展开，被敌人踩到时对附近造成晕眩",
+            "toolIcon1": "tool_trap_icon1",
+            "toolIcon2": "tool_trap_icon2",
+            "toolUnlockDesc": "通关CF-2解锁",
+            "toolBuffId": "rune_act24side_mhshok",
+            "runeData": {
+              "id": "rune_act24side_mhshok",
+              "points": 1.0,
+              "mutexGroupKey": null,
+              "description": "解锁关卡的高压脉冲诡雷",
+              "runes": [
+                {
+                  "key": "level_predefines_cards_enable",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "trap_101_mhshok#1",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "toolStageId": null
+          },
+          "tool_wirebug": {
+            "toolId": "tool_wirebug",
+            "sortId": 2,
+            "toolName": "滞空牵引无人机",
+            "toolDesc": "可部署至我方干员所在位置，之后可再次指定另一位置，使该干员快速移动至此处",
+            "toolIcon1": "tool_wirebug_icon1",
+            "toolIcon2": "tool_wirebug_icon2",
+            "toolUnlockDesc": "通关CF-3解锁",
+            "toolBuffId": "rune_act24side_mhwrbg",
+            "runeData": {
+              "id": "rune_act24side_mhwrbg",
+              "points": 1.0,
+              "mutexGroupKey": null,
+              "description": "解锁关卡的滞空牵引无人机",
+              "runes": [
+                {
+                  "key": "level_predefines_cards_enable",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "trap_102_mhwrbg#1",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "toolStageId": null
+          },
+          "tool_flashbomb": {
+            "toolId": "tool_flashbomb",
+            "sortId": 3,
+            "toolName": "眩光手雷",
+            "toolDesc": "向前投掷后爆炸，使未背对爆炸中心的敌方晕眩，并击落部分空中单位",
+            "toolIcon1": "tool_flashbomb_icon1",
+            "toolIcon2": "tool_flashbomb_icon2",
+            "toolUnlockDesc": "通关CF-5解锁",
+            "toolBuffId": "rune_act24side_mhflsb",
+            "runeData": {
+              "id": "rune_act24side_mhflsb",
+              "points": 1.0,
+              "mutexGroupKey": null,
+              "description": "解锁关卡的眩光手雷",
+              "runes": [
+                {
+                  "key": "level_predefines_cards_enable",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "trap_099_mhflsb#1",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "toolStageId": null
+          },
+          "tool_bomb": {
+            "toolId": "tool_bomb",
+            "sortId": 4,
+            "toolName": "高能源石爆桶",
+            "toolDesc": "部署后可手动开启，对周围造成法术伤害并引爆其他<高能源石爆桶>",
+            "toolIcon1": "tool_bomb_icon1",
+            "toolIcon2": "tool_bomb_icon2",
+            "toolUnlockDesc": "通关CF-7解锁",
+            "toolBuffId": "rune_act24side_mhlbmb",
+            "runeData": {
+              "id": "rune_act24side_mhlbmb",
+              "points": 1.0,
+              "mutexGroupKey": null,
+              "description": "解锁关卡的高能源石爆桶",
+              "runes": [
+                {
+                  "key": "level_predefines_cards_enable",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "trap_100_mhlbmb#1",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "toolStageId": null
+          }
+        },
+        "mealDataList": {
+          "meal_1": {
+            "mealId": "meal_1",
+            "sortId": 1,
+            "mealName": "暖乎乎村庄菜套餐",
+            "mealEffectDesc": "用餐后<color=#FD5A16>首次</color>通关活动关卡可额外获得<color=#CCEB50>30</color>个<color=#F1AD56>破碎的骨片</color>",
+            "mealDesc": "招牌赤鳞中腹手卷鮨，配上大碗蘑菇豆腐汤，刺身、炸物和烧物也必不可少。如此丰盛的东国料理，在高级餐厅中可见不到。",
+            "mealIcon": "meal_1",
+            "mealCost": 200,
+            "mealRewardAP": 20,
+            "mealRewardItemInfo": {
+              "id": "act24side_melding_1_rep_1",
+              "count": 30,
+              "type": "ACTIVITY_ITEM"
+            }
+          },
+          "meal_2": {
+            "mealId": "meal_2",
+            "sortId": 2,
+            "mealName": "噼里啪啦炙烤套餐",
+            "mealEffectDesc": "用餐后<color=#FD5A16>首次</color>通关活动关卡可额外获得<color=#CCEB50>20</color>个<color=#F1AD56>源石虫的硬壳</color>",
+            "mealDesc": "热烘烘的香肠土豆饼、秘制蔬菜冻汤、红香肠与燕麦面包通通管够。食物的份量同样具有乌萨斯的特色。",
+            "mealIcon": "meal_2",
+            "mealCost": 200,
+            "mealRewardAP": 20,
+            "mealRewardItemInfo": {
+              "id": "act24side_melding_2_rep_1",
+              "count": 20,
+              "type": "ACTIVITY_ITEM"
+            }
+          },
+          "meal_3": {
+            "mealId": "meal_3",
+            "sortId": 3,
+            "mealName": "好味道的强健套餐",
+            "mealEffectDesc": "用餐后<color=#FD5A16>首次</color>通关活动关卡可额外获得<color=#CCEB50>12</color>个<color=#F1AD56>鬣犄兽的尖锐齿</color>",
+            "mealDesc": "香煎羽兽大胸软嫩多汁，杂粮饭配沙拉正是营养均衡。大口饮下甘蓝果蔬汁吧，健康餐当然越吃越健康。",
+            "mealIcon": "meal_3",
+            "mealCost": 200,
+            "mealRewardAP": 20,
+            "mealRewardItemInfo": {
+              "id": "act24side_melding_3_rep_1",
+              "count": 12,
+              "type": "ACTIVITY_ITEM"
+            }
+          },
+          "meal_4": {
+            "mealId": "meal_4",
+            "sortId": 4,
+            "mealName": "超精致的惊人套餐",
+            "mealEffectDesc": "用餐后<color=#FD5A16>首次</color>通关活动关卡可额外获得<color=#CCEB50>6</color>个<color=#F1AD56>凶豕兽的厚实皮</color>",
+            "mealDesc": "清汤烩鳞肚、干炒兽肉河粉、盐焗羽兽、水晶壳饺......精选上乘食材，以五星级品质演绎龙门家常菜式，敬请品尝。",
+            "mealIcon": "meal_4",
+            "mealCost": 200,
+            "mealRewardAP": 20,
+            "mealRewardItemInfo": {
+              "id": "act24side_melding_4_rep_1",
+              "count": 6,
+              "type": "ACTIVITY_ITEM"
+            }
+          },
+          "meal_5": {
+            "mealId": "meal_5",
+            "sortId": 5,
+            "mealName": "幸运招来奇怪套餐",
+            "mealEffectDesc": "用餐后<color=#FD5A16>首次</color>通关活动关卡可额外获得<color=#CCEB50>3</color>个<color=#F1AD56>“兽之泪”</color>",
+            "mealDesc": "特大份的烤蜜饼弥漫着焦糊味，深棕色饮品咕嘟冒泡，搭配的小食是炭烤沙虫腿。这份食谱的作者没有留下姓名。",
+            "mealIcon": "meal_5",
+            "mealCost": 200,
+            "mealRewardAP": 20,
+            "mealRewardItemInfo": {
+              "id": "act24side_melding_5_rep_1",
+              "count": 3,
+              "type": "ACTIVITY_ITEM"
+            }
+          }
+        },
+        "meldingDict": {
+          "act24side_melding_1_rep_1": {
+            "meldingId": "act24side_melding_1_rep_1",
+            "bgId": "act24side_melding_1_rep_1_bg",
+            "sortId": 1,
+            "meldingPrice": 2,
+            "rarity": "RARITY_1"
+          },
+          "act24side_melding_2_rep_1": {
+            "meldingId": "act24side_melding_2_rep_1",
+            "bgId": "act24side_melding_2_rep_1_bg",
+            "sortId": 2,
+            "meldingPrice": 3,
+            "rarity": "RARITY_2"
+          },
+          "act24side_melding_3_rep_1": {
+            "meldingId": "act24side_melding_3_rep_1",
+            "bgId": "act24side_melding_3_rep_1_bg",
+            "sortId": 3,
+            "meldingPrice": 5,
+            "rarity": "RARITY_3"
+          },
+          "act24side_melding_4_rep_1": {
+            "meldingId": "act24side_melding_4_rep_1",
+            "bgId": "act24side_melding_4_rep_1_bg",
+            "sortId": 4,
+            "meldingPrice": 10,
+            "rarity": "RARITY_4"
+          },
+          "act24side_melding_5_rep_1": {
+            "meldingId": "act24side_melding_5_rep_1",
+            "bgId": "act24side_melding_5_rep_1_bg",
+            "sortId": 5,
+            "meldingPrice": 20,
+            "rarity": "RARITY_5"
+          },
+          "act24side_melding_6_rep_1": {
+            "meldingId": "act24side_melding_6_rep_1",
+            "bgId": "act24side_melding_6_rep_1_bg",
+            "sortId": 6,
+            "meldingPrice": 200,
+            "rarity": "RARITY_6"
+          }
+        },
+        "meldingGachaBoxDataList": {
+          "gachabox1": {
+            "gachaBoxId": "gachabox1",
+            "gachaSortId": 1,
+            "gachaIcon": "gachabox1",
+            "gachaBoxName": "炼金术 · 重构",
+            "gachaCost": 100,
+            "gachaTimesLimit": 10,
+            "themeColor": "#314065",
+            "remainItemBgColor": "#3d4559"
+          },
+          "gachabox2": {
+            "gachaBoxId": "gachabox2",
+            "gachaSortId": 2,
+            "gachaIcon": "gachabox2",
+            "gachaBoxName": "炼金术 · 转换",
+            "gachaCost": 40,
+            "gachaTimesLimit": 10,
+            "themeColor": "#2f484c",
+            "remainItemBgColor": "#4b6367"
+          }
+        },
+        "meldingGachaBoxGoodDataMap": {
+          "gachabox1": [
+            {
+              "goodId": "gachabox1_3",
+              "gachaBoxId": "gachabox1",
+              "orderId": 3,
+              "itemId": "furni_eastern_cabinet_01",
+              "itemType": "FURN",
+              "displayType": "RARE_2",
+              "perCount": 1,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_4",
+              "gachaBoxId": "gachabox1",
+              "orderId": 4,
+              "itemId": "furni_eastern_tatami_01",
+              "itemType": "FURN",
+              "displayType": "RARE_2",
+              "perCount": 1,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_5",
+              "gachaBoxId": "gachabox1",
+              "orderId": 5,
+              "itemId": "furni_eastern_plant_01",
+              "itemType": "FURN",
+              "displayType": "RARE_2",
+              "perCount": 1,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_6",
+              "gachaBoxId": "gachabox1",
+              "orderId": 6,
+              "itemId": "furni_eastern_pipeline_01",
+              "itemType": "FURN",
+              "displayType": "RARE_2",
+              "perCount": 1,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_7",
+              "gachaBoxId": "gachabox1",
+              "orderId": 7,
+              "itemId": "furni_eastern_airCleaner_01",
+              "itemType": "FURN",
+              "displayType": "RARE_2",
+              "perCount": 1,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_8",
+              "gachaBoxId": "gachabox1",
+              "orderId": 8,
+              "itemId": "furni_eastern_steps_01",
+              "itemType": "FURN",
+              "displayType": "RARE_2",
+              "perCount": 1,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_9",
+              "gachaBoxId": "gachabox1",
+              "orderId": 9,
+              "itemId": "furni_eastern_sling_01",
+              "itemType": "FURN",
+              "displayType": "RARE_2",
+              "perCount": 1,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_10",
+              "gachaBoxId": "gachabox1",
+              "orderId": 10,
+              "itemId": "furni_eastern_case_01",
+              "itemType": "FURN",
+              "displayType": "RARE_2",
+              "perCount": 1,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_11",
+              "gachaBoxId": "gachabox1",
+              "orderId": 11,
+              "itemId": "furni_eastern_lamp_01",
+              "itemType": "FURN",
+              "displayType": "RARE_2",
+              "perCount": 1,
+              "totalCount": 4,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_12",
+              "gachaBoxId": "gachabox1",
+              "orderId": 12,
+              "itemId": "furni_eastern_wallpaper_01",
+              "itemType": "FURN",
+              "displayType": "RARE_2",
+              "perCount": 1,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_13",
+              "gachaBoxId": "gachabox1",
+              "orderId": 13,
+              "itemId": "furni_eastern_floor_01",
+              "itemType": "FURN",
+              "displayType": "RARE_2",
+              "perCount": 1,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_1",
+              "gachaBoxId": "gachabox1",
+              "orderId": 1,
+              "itemId": "7003",
+              "itemType": "TKT_GACHA",
+              "displayType": "RARE_3",
+              "perCount": 1,
+              "totalCount": 3,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox1_2",
+              "gachaBoxId": "gachabox1",
+              "orderId": 2,
+              "itemId": "30135",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_3",
+              "perCount": 1,
+              "totalCount": 3,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            }
+          ],
+          "gachabox2": [
+            {
+              "goodId": "gachabox2_17",
+              "gachaBoxId": "gachabox2",
+              "orderId": 17,
+              "itemId": "31063",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_1",
+              "perCount": 1,
+              "totalCount": 0,
+              "gachaType": "UNLIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_18",
+              "gachaBoxId": "gachabox2",
+              "orderId": 18,
+              "itemId": "30063",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_1",
+              "perCount": 1,
+              "totalCount": 0,
+              "gachaType": "UNLIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_19",
+              "gachaBoxId": "gachabox2",
+              "orderId": 19,
+              "itemId": "30033",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_1",
+              "perCount": 1,
+              "totalCount": 0,
+              "gachaType": "UNLIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_20",
+              "gachaBoxId": "gachabox2",
+              "orderId": 20,
+              "itemId": "4001",
+              "itemType": "GOLD",
+              "displayType": "RARE_1",
+              "perCount": 2000,
+              "totalCount": 0,
+              "gachaType": "UNLIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_4",
+              "gachaBoxId": "gachabox2",
+              "orderId": 4,
+              "itemId": "31063",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_2",
+              "perCount": 2,
+              "totalCount": 5,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_5",
+              "gachaBoxId": "gachabox2",
+              "orderId": 5,
+              "itemId": "30063",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_2",
+              "perCount": 2,
+              "totalCount": 5,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_6",
+              "gachaBoxId": "gachabox2",
+              "orderId": 6,
+              "itemId": "30033",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_2",
+              "perCount": 2,
+              "totalCount": 5,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_7",
+              "gachaBoxId": "gachabox2",
+              "orderId": 7,
+              "itemId": "4001",
+              "itemType": "GOLD",
+              "displayType": "RARE_2",
+              "perCount": 20000,
+              "totalCount": 5,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_8",
+              "gachaBoxId": "gachabox2",
+              "orderId": 8,
+              "itemId": "2004",
+              "itemType": "CARD_EXP",
+              "displayType": "RARE_2",
+              "perCount": 10,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_9",
+              "gachaBoxId": "gachabox2",
+              "orderId": 9,
+              "itemId": "2003",
+              "itemType": "CARD_EXP",
+              "displayType": "RARE_2",
+              "perCount": 20,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_10",
+              "gachaBoxId": "gachabox2",
+              "orderId": 10,
+              "itemId": "2002",
+              "itemType": "CARD_EXP",
+              "displayType": "RARE_2",
+              "perCount": 30,
+              "totalCount": 2,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_11",
+              "gachaBoxId": "gachabox2",
+              "orderId": 11,
+              "itemId": "3303",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_2",
+              "perCount": 5,
+              "totalCount": 2,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_12",
+              "gachaBoxId": "gachabox2",
+              "orderId": 12,
+              "itemId": "3302",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_2",
+              "perCount": 10,
+              "totalCount": 2,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_13",
+              "gachaBoxId": "gachabox2",
+              "orderId": 13,
+              "itemId": "30012",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_2",
+              "perCount": 10,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_14",
+              "gachaBoxId": "gachabox2",
+              "orderId": 14,
+              "itemId": "30042",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_2",
+              "perCount": 10,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_15",
+              "gachaBoxId": "gachabox2",
+              "orderId": 15,
+              "itemId": "30062",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_2",
+              "perCount": 10,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_16",
+              "gachaBoxId": "gachabox2",
+              "orderId": 16,
+              "itemId": "3231",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_2",
+              "perCount": 5,
+              "totalCount": 1,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_1",
+              "gachaBoxId": "gachabox2",
+              "orderId": 1,
+              "itemId": "30054",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_3",
+              "perCount": 1,
+              "totalCount": 3,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_2",
+              "gachaBoxId": "gachabox2",
+              "orderId": 2,
+              "itemId": "31024",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_3",
+              "perCount": 1,
+              "totalCount": 3,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            },
+            {
+              "goodId": "gachabox2_3",
+              "gachaBoxId": "gachabox2",
+              "orderId": 3,
+              "itemId": "31054",
+              "itemType": "MATERIAL",
+              "displayType": "RARE_3",
+              "perCount": 1,
+              "totalCount": 3,
+              "gachaType": "LIMITED",
+              "weight": 0,
+              "gachaOrderId": 0,
+              "gachaNum": 0
+            }
+          ]
+        },
+        "mealWelcomeTxtDataMap": {
+          "text_1": "多吃点，长身体喵！",
+          "text_2": "努力工作了这么久，快来吃一顿犒劳自己喵！",
+          "text_3": "品尝美食的时光，十分惬意喵！",
+          "text_4": "咱们这里的餐点，都是超！大！份！喵！"
+        },
+        "zoneAdditionDataMap": {
+          "act24sre_zone1": {
+            "zoneId": "act24sre_zone1",
+            "zoneIcon": "act24side_1",
+            "unlockText": "尚未解锁",
+            "displayTime": "2026-06-15 16:00:00"
+          },
+          "act24sre_zone2": {
+            "zoneId": "act24sre_zone2",
+            "zoneIcon": "act24side_2",
+            "unlockText": "完成「苍暮山地」后解锁",
+            "displayTime": "2026-06-15 16:00:00"
+          }
+        },
+        "questStageList": [
+          {
+            "stageId": "act24side_ex01",
+            "stageRank": 1,
+            "sortId": 1,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex01#f#",
+            "stageRank": 1,
+            "sortId": 2,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex02",
+            "stageRank": 1,
+            "sortId": 3,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex02#f#",
+            "stageRank": 1,
+            "sortId": 4,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex03",
+            "stageRank": 1,
+            "sortId": 5,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex03#f#",
+            "stageRank": 1,
+            "sortId": 6,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex04",
+            "stageRank": 2,
+            "sortId": 7,
+            "isUrgentStage": true,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex04#f#",
+            "stageRank": 2,
+            "sortId": 8,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex05",
+            "stageRank": 2,
+            "sortId": 9,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex05#f#",
+            "stageRank": 2,
+            "sortId": 10,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex06",
+            "stageRank": 2,
+            "sortId": 11,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex06#f#",
+            "stageRank": 2,
+            "sortId": 12,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex07",
+            "stageRank": 3,
+            "sortId": 13,
+            "isUrgentStage": true,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex07#f#",
+            "stageRank": 3,
+            "sortId": 14,
+            "isUrgentStage": false,
+            "isDragonStage": false
+          },
+          {
+            "stageId": "act24side_ex08",
+            "stageRank": 3,
+            "sortId": 15,
+            "isUrgentStage": false,
+            "isDragonStage": true
+          },
+          {
+            "stageId": "act24side_ex08#f#",
+            "stageRank": 3,
+            "sortId": 16,
+            "isUrgentStage": false,
+            "isDragonStage": true
+          },
+          {
+            "stageId": "act24side_s01",
+            "stageRank": 3,
+            "sortId": 17,
+            "isUrgentStage": false,
+            "isDragonStage": true
+          }
+        ],
+        "missionDataList": {
+          "24sreActivity_1": {
+            "taskTypeName": "开拓委托",
+            "taskTypeIcon": "explorationTask",
+            "taskType": "EXPLORATION_TASK",
+            "taskTitle": "森林大扫除\n",
+            "taskClient": "爱打扫的老爷子",
+            "taskClientDesc": "现在的野兽真是不像话。\n昨天刚打扫干净，早上又到处是落叶了。\n年轻人啊，你就把那些家伙都收拾掉吧。"
+          },
+          "24sreActivity_2": {
+            "taskTypeName": "开拓委托",
+            "taskTypeIcon": "explorationTask",
+            "taskType": "EXPLORATION_TASK",
+            "taskTitle": "噪音治理",
+            "taskClient": "有黑眼圈的作家",
+            "taskClientDesc": "实在是太吵啦！\n我家周围的岩冠兽，每天半夜都在撞树。\n为了我能及时交稿，快把它们打发走吧！"
+          },
+          "24sreActivity_3": {
+            "taskTypeName": "狩猎委托",
+            "taskTypeIcon": "huntingTask",
+            "taskType": "HUNTING_TASK",
+            "taskTitle": "热乎乎的炸角兽排",
+            "taskClient": "下班的矿工",
+            "taskClientDesc": "啊，好想吃。\n热乎乎，外酥里嫩，香浓多汁的炸角兽排。\n拜托你了！让我再次尝到那个味道吧！"
+          },
+          "24sreActivity_4": {
+            "taskTypeName": "开拓委托",
+            "taskTypeIcon": "explorationTask",
+            "taskType": "EXPLORATION_TASK",
+            "taskTitle": "气球的梦想\n",
+            "taskClient": "焦急的手工爱好者",
+            "taskClientDesc": "气球又被锋羽兽扎破了......\n气球带我飞上天的梦想绝不能被毁掉！\n你！明白该做什么了吗？"
+          },
+          "24sreActivity_5": {
+            "taskTypeName": "狩猎委托",
+            "taskTypeIcon": "huntingTask",
+            "taskType": "HUNTING_TASK",
+            "taskTitle": "生命在于冲撞",
+            "taskClient": "强壮的力士",
+            "taskClientDesc": "噢，强健的肌肉彼此碰撞，生命无法停下。\n听说凶豕兽是森林中最会冲撞的家伙。\n快，替我领教一下它热烈的撞击吧！"
+          },
+          "24sreActivity_6": {
+            "taskTypeName": "狩猎委托",
+            "taskTypeIcon": "huntingTask",
+            "taskType": "HUNTING_TASK",
+            "taskTitle": "不眨眼挑战",
+            "taskClient": "兴奋的直播达人",
+            "taskClientDesc": "作为我的粉丝，你一定知道我的最新系列——\n不眨眼挑战！挑战对象是——锋羽兽！\n直视那耀眼的光芒，我会是最后的赢家！"
+          },
+          "24sreActivity_7": {
+            "taskTypeName": "开拓委托",
+            "taskTypeIcon": "explorationTask",
+            "taskType": "EXPLORATION_TASK",
+            "taskTitle": "衣衫褴褛",
+            "taskClient": "气愤的时装模特",
+            "taskClientDesc": "你听我说！我就是在那里试新衣服。\n忽然闯出来的棘兽，把我的衣服全刺破了！\n把这些讨厌的野兽通通赶走，你做得到吧？"
+          },
+          "24sreActivity_8": {
+            "taskTypeName": "狩猎委托",
+            "taskTypeIcon": "huntingTask",
+            "taskType": "HUNTING_TASK",
+            "taskTitle": "战场狡计\n",
+            "taskClient": "热爱电玩的年轻人\n",
+            "taskClientDesc": "狡兽总能挡下激烈的攻势，它是怎么做到的？\n学会的话，定能大大提升我的塔防游戏技术。\n你好好观摩一下，回来教给我。"
+          },
+          "24sreActivity_9": {
+            "taskTypeName": "开拓委托",
+            "taskTypeIcon": "explorationTask",
+            "taskType": "EXPLORATION_TASK",
+            "taskTitle": "蹈火的勇者",
+            "taskClient": "村长泷居应",
+            "taskClientDesc": "明知前路炙热，却依旧挺身而出。\n拥有这份勇气的你，定能战胜一切强敌。\n我们等待着你的凯旋。"
+          },
+          "24sreActivity_10": {
+            "taskTypeName": "采集委托",
+            "taskTypeIcon": "collectionTask",
+            "taskType": "COLLECTION_TASK",
+            "taskTitle": "骨骼诉说成长",
+            "taskClient": "匿名收藏家",
+            "taskClientDesc": "请收集这么多破碎的骨片吧。\n只有我明白，这些素材中所蕴藏的生命意义。\n当然，我也会让你知晓。"
+          },
+          "24sreActivity_11": {
+            "taskTypeName": "采集委托",
+            "taskTypeIcon": "collectionTask",
+            "taskType": "COLLECTION_TASK",
+            "taskTitle": "甲壳捍卫生机",
+            "taskClient": "匿名收藏家",
+            "taskClientDesc": "请收集这么多源石虫的硬壳吧。\n只有我明白，这些素材中所蕴藏的生命意义。\n当然，我也会让你知晓。"
+          },
+          "24sreActivity_12": {
+            "taskTypeName": "采集委托",
+            "taskTypeIcon": "collectionTask",
+            "taskType": "COLLECTION_TASK",
+            "taskTitle": "利齿用于捕食",
+            "taskClient": "匿名收藏家",
+            "taskClientDesc": "请收集这么多鬣犄兽的尖锐齿吧。\n只有我明白，这些素材中所蕴藏的生命意义。\n当然，我也会让你知晓。"
+          },
+          "24sreActivity_13": {
+            "taskTypeName": "采集委托",
+            "taskTypeIcon": "collectionTask",
+            "taskType": "COLLECTION_TASK",
+            "taskTitle": "皮毛适应环境",
+            "taskClient": "匿名收藏家",
+            "taskClientDesc": "请收集这么多凶豕兽的厚实皮吧。\n只有我明白，这些素材中所蕴藏的生命意义。\n当然，我也会让你知晓。"
+          },
+          "24sreActivity_14": {
+            "taskTypeName": "采集委托",
+            "taskTypeIcon": "collectionTask",
+            "taskType": "COLLECTION_TASK",
+            "taskTitle": "泪水铭记生命",
+            "taskClient": "匿名收藏家",
+            "taskClientDesc": "请收集这么多“兽之泪”吧。\n只有我明白，这些素材中所蕴藏的生命意义。\n当然，我也会让你知晓。"
+          },
+          "24sreActivity_15": {
+            "taskTypeName": "狩猎委托",
+            "taskTypeIcon": "huntingTask",
+            "taskType": "HUNTING_TASK",
+            "taskTitle": "极限高度",
+            "taskClient": "业余跳高爱好者",
+            "taskClientDesc": "我刻苦练习才能达到的极限高度......\n竟然被那些会飞的野兽轻易地超过了！\n这是对我赤裸裸的嘲讽！你必须要帮我复仇！"
+          },
+          "24sreActivity_16": {
+            "taskTypeName": "狩猎委托",
+            "taskTypeIcon": "huntingTask",
+            "taskType": "HUNTING_TASK",
+            "taskTitle": "弱点研究",
+            "taskClient": "细致的生物学学生",
+            "taskClientDesc": "我所做的，正是有关野兽弱点的研究。\n给我足够的数据，我会在论文中向你致谢的。\n可恶，我一定要比那个搞地质的先毕业！"
+          },
+          "24sreActivity_17": {
+            "taskTypeName": "开拓委托",
+            "taskTypeIcon": "explorationTask",
+            "taskType": "EXPLORATION_TASK",
+            "taskTitle": "数据扰动\n",
+            "taskClient": "沮丧的地质学学生",
+            "taskClientDesc": "森林里的震颤又干扰了地震数据监测。\n再这样下去，论文绝对完不成了......\n帮帮我！我真的想要毕业啊！"
+          },
+          "24sreActivity_18": {
+            "taskTypeName": "狩猎委托",
+            "taskTypeIcon": "huntingTask",
+            "taskType": "HUNTING_TASK",
+            "taskTitle": "火热交响曲",
+            "taskClient": "热情的指挥家",
+            "taskClientDesc": "四面八方跃动的音符，美妙又火热的乐章啊。\n这是......独属于炽焰源石虫的旋律。\n再一次地，让我侧耳聆听吧。"
+          },
+          "24sreActivity_19": {
+            "taskTypeName": "开拓委托",
+            "taskTypeIcon": "explorationTask",
+            "taskType": "EXPLORATION_TASK",
+            "taskTitle": "受击测试\n",
+            "taskClient": "科技公司的代表",
+            "taskClientDesc": "您好，这是指名给您的委托。\n希望您穿戴我司的最新装备，在碰撞中存活。\n请放心，我们为您身上的装备购买了保险。"
+          },
+          "24sreActivity_20": {
+            "taskTypeName": "开拓委托",
+            "taskTypeIcon": "explorationTask",
+            "taskType": "EXPLORATION_TASK",
+            "taskTitle": "恐高症",
+            "taskClient": "担惊受怕的妇人",
+            "taskClientDesc": "你看看，那些迅猛锋羽兽飞那么高......\n我生怕它们掉下来，或许这就是恐高症吧。\n你要有同情心的话，就不要让它们飞了。"
+          },
+          "24sreActivity_21": {
+            "taskTypeName": "狩猎委托",
+            "taskTypeIcon": "huntingTask",
+            "taskType": "HUNTING_TASK",
+            "taskTitle": "比比谁更硬！",
+            "taskClient": "脑袋很硬的村民",
+            "taskClientDesc": "喂，你一定听说过我，天下第一硬脑袋。\n可有人说坚岩冠兽的脑袋更硬，我绝不承认！\n你有办法让我和它一决高下吗？"
+          },
+          "24sreActivity_22": {
+            "taskTypeName": "开拓委托",
+            "taskTypeIcon": "explorationTask",
+            "taskType": "EXPLORATION_TASK",
+            "taskTitle": "何为强者？",
+            "taskClient": "重操旧业的猎人\n",
+            "taskClientDesc": "我承认，你的确有点本事。\n但要想成为强者，必须战胜更艰难的挑战。\n去完成这份委托吧，你将得到我的认可。"
+          },
+          "24sreActivity_23": {
+            "taskTypeName": "狩猎委托",
+            "taskTypeIcon": "huntingTask",
+            "taskType": "HUNTING_TASK",
+            "taskTitle": "军事仿生学",
+            "taskClient": "沉默的武器设计师",
+            "taskClientDesc": "箭棘兽的刺结构独特，杀伤力极强。\n若能以此设计武器，一定能收到很多订单。\n帮我找点来，我会付你报酬的。"
+          },
+          "24sreActivity_24": {
+            "taskTypeName": "开拓委托",
+            "taskTypeIcon": "explorationTask",
+            "taskType": "EXPLORATION_TASK",
+            "taskTitle": "授课请求",
+            "taskClient": "和也",
+            "taskClientDesc": "猎人的战斗技巧实在太难了......\n可要成为猎人，我还不能在这里放弃！\n可以再为我展现一次真正猎人的战斗吗？"
+          }
+        },
+        "meldingDropDict": {
+          "act24side_01": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "OFTEN",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "SOMETIMES",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              }
+            ]
+          },
+          "act24side_02": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "OFTEN",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "SOMETIMES",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              }
+            ]
+          },
+          "act24side_03": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "OFTEN",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "SOMETIMES",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              }
+            ]
+          },
+          "act24side_04": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "NORMAL"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "OFTEN",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "ALMOST",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "SOMETIMES",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "NORMAL"
+              }
+            ]
+          },
+          "act24side_05": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "NORMAL"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "OFTEN",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "ALMOST",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "SOMETIMES",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "NORMAL"
+              }
+            ]
+          },
+          "act24side_06": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "NORMAL"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "ALMOST",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "OFTEN",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "ALMOST",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "NORMAL"
+              }
+            ]
+          },
+          "act24side_07": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "NORMAL"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "ALMOST",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "OFTEN",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "ALMOST",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "NORMAL"
+              }
+            ]
+          },
+          "act24side_08": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "NORMAL"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_1_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "ALMOST",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_2_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "USUAL",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "OFTEN",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "NORMAL"
+              },
+              {
+                "occPercent": "ALMOST",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "NORMAL"
+              }
+            ]
+          },
+          "act24side_09": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_6_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_6_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ]
+          },
+          "act24side_ex01": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ]
+          },
+          "act24side_ex02": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_3_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ]
+          },
+          "act24side_ex03": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ]
+          },
+          "act24side_ex04": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ]
+          },
+          "act24side_ex05": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ]
+          },
+          "act24side_ex06": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_4_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ]
+          },
+          "act24side_ex07": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_5_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ]
+          },
+          "act24side_ex08": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_6_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_6_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ]
+          },
+          "act24side_s01": {
+            "firstPassRewards": null,
+            "firstCompleteRewards": null,
+            "passRewards": null,
+            "completeRewards": null,
+            "displayRewards": [
+              {
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_6_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ],
+            "displayDetailRewards": [
+              {
+                "occPercent": "ALWAYS",
+                "type": "ACTIVITY_ITEM",
+                "id": "act24side_melding_6_rep_1",
+                "dropType": "COMPLETE"
+              }
+            ]
+          }
+        },
+        "stageMapPreviewDict": {
+          "act24side_09": [
+            "act24side_09_1",
+            "act24side_09_2"
+          ],
+          "act24side_ex08": [
+            "act24side_ex08_1",
+            "act24side_ex08_2"
+          ],
+          "act24side_ex08#f#": [
+            "act24side_ex08_1",
+            "act24side_ex08_2"
+          ],
+          "act24side_s01": [
+            "act24side_s01_1",
+            "act24side_s01_2"
+          ]
+        },
+        "huntDatabaseDict": null,
+        "stageIdToUnlockItemIdDict": {},
+        "constData": {
+          "stageUnlockToolDesc": "解锁道具",
+          "mealLackMoney": "龙门币需求数量不足",
+          "mealDayTimesLimit": 1,
+          "toolMaximum": 2,
+          "stageCanNotUseToTool": [
+            "act24side_tr01"
+          ],
+          "hunterGuideRewardItemId": "",
+          "hunterGuideRewardItemType": "NONE",
+          "hunterGuideRewardItemCount": 0,
+          "hunterGuideDetailTabPosition": 0,
+          "taskRewardItemNoIconDisplayId": "",
+          "specialLevelUnlockTaskId": "",
+          "missionProgressFormat": "(<color=#cb4d27>{0}</color>/{1})",
+          "gachaDefaultProb": 0.0,
+          "gachaExtraProb": -1.0
+        }
+      },
       "act50side": {
         "toolDataList": {
           "skill_turn": {
@@ -382166,6 +385287,58 @@
             "firstCompletePoint": 150,
             "completePoint": 50
           },
+          "act1football_ex01": {
+            "stageId": "act1football_ex01",
+            "selfTeamIcon": "act1football_teamicon_1",
+            "selfTeamName": "罗德岛队",
+            "enemyTeamIcon": "act1football_teamicon_7",
+            "enemyTeamName": "门神会",
+            "unlockBuffId": null,
+            "unlockBuffIcon": null,
+            "unlockBuffName": null,
+            "unlockBuffDesc": null,
+            "firstCompletePoint": 120,
+            "completePoint": 40
+          },
+          "act1football_ex02": {
+            "stageId": "act1football_ex02",
+            "selfTeamIcon": "act1football_teamicon_1",
+            "selfTeamName": "罗德岛队",
+            "enemyTeamIcon": "act1football_teamicon_8",
+            "enemyTeamName": "爱球会",
+            "unlockBuffId": null,
+            "unlockBuffIcon": null,
+            "unlockBuffName": null,
+            "unlockBuffDesc": null,
+            "firstCompletePoint": 120,
+            "completePoint": 40
+          },
+          "act1football_ex03": {
+            "stageId": "act1football_ex03",
+            "selfTeamIcon": "act1football_teamicon_1",
+            "selfTeamName": "罗德岛队",
+            "enemyTeamIcon": "act1football_teamicon_9",
+            "enemyTeamName": "球德联",
+            "unlockBuffId": null,
+            "unlockBuffIcon": null,
+            "unlockBuffName": null,
+            "unlockBuffDesc": null,
+            "firstCompletePoint": 150,
+            "completePoint": 50
+          },
+          "act1football_ex04": {
+            "stageId": "act1football_ex04",
+            "selfTeamIcon": "act1football_teamicon_1",
+            "selfTeamName": "罗德岛队",
+            "enemyTeamIcon": "act1football_teamicon_10",
+            "enemyTeamName": "魔球帮",
+            "unlockBuffId": null,
+            "unlockBuffIcon": null,
+            "unlockBuffName": null,
+            "unlockBuffDesc": null,
+            "firstCompletePoint": 180,
+            "completePoint": 60
+          },
           "act1football_s01": {
             "stageId": "act1football_s01",
             "selfTeamIcon": "act1football_teamicon_1",
@@ -382178,6 +385351,19 @@
             "unlockBuffDesc": "所有干员的再部署时间-30%",
             "firstCompletePoint": 150,
             "completePoint": 100
+          },
+          "act1football_s02": {
+            "stageId": "act1football_s02",
+            "selfTeamIcon": "act1football_teamicon_1",
+            "selfTeamName": "罗德岛队",
+            "enemyTeamIcon": "act1football_teamicon_2",
+            "enemyTeamName": "敌方",
+            "unlockBuffId": "act1football_buff_2",
+            "unlockBuffIcon": "act1football_buff_2_icon_1",
+            "unlockBuffName": "技艺精湛",
+            "unlockBuffDesc": "所有干员的初始技力+10",
+            "firstCompletePoint": 180,
+            "completePoint": 120
           }
         },
         "milestoneList": [
@@ -382887,6 +386073,14 @@
     }
   },
   "activityItems": {
+    "act24sre": [
+      "act24side_melding_1_rep_1",
+      "act24side_melding_2_rep_1",
+      "act24side_melding_3_rep_1",
+      "act24side_melding_4_rep_1",
+      "act24side_melding_5_rep_1",
+      "act24side_melding_6_rep_1"
+    ],
     "act1football": [
       "act1football_milestone_point"
     ],
@@ -392149,6 +395343,22 @@
       ],
       "picGroups": [],
       "startTs": 1780905600
+    },
+    {
+      "id": "dis_side_24_sre",
+      "type": "ACTIVITY",
+      "funcId": "act24sre",
+      "endTs": 1782331199,
+      "sortId": 153,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "<落叶逐火>活动已开放",
+          "ts": 1781510400
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1781510400
     }
   ],
   "actFunData": {

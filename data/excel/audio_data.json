@@ -4780,6 +4780,24 @@
       "name": "sys.ON_ACTIVITY_LOADED.act1football"
     },
     {
+      "intro": "Audio/Sound_Beta_2/Music/act1crisisv2_5/m_sys_ccs_v2_5_intro",
+      "loop": "Audio/Sound_Beta_2/Music/act1crisisv2_5/m_sys_ccs_v2_5_loop",
+      "volume": 1.0,
+      "crossfade": 1.0,
+      "delay": 0.0,
+      "fadeStyleId": null,
+      "name": "sys.ON_CRISIS_V2_SEASON_LOADED.crisis_v2_season_5_1"
+    },
+    {
+      "intro": "Audio/Sound_Beta_2/Music/act1crisisv2_5/m_bat_ccs_v2_5_intro",
+      "loop": "Audio/Sound_Beta_2/Music/act1crisisv2_5/m_bat_ccs_v2_5_loop",
+      "volume": 1.0,
+      "crossfade": 1.0,
+      "delay": 0.0,
+      "fadeStyleId": null,
+      "name": "battle.ON_GAME_READY.crisis_v2_season_5_1_main"
+    },
+    {
       "intro": "Audio/Sound_Beta_2/Music/obt/empty",
       "loop": null,
       "volume": 1.0,
@@ -279607,6 +279625,7 @@
     "battle.ON_GAME_READY.sandbox_2_homebuildmode": "sys.ON_SANDBOX_CONSTRUCT.sandbox_2_homebuildmode",
     "battle.ON_GAME_READY.sandbox_2_greenvalley": "battle.ON_GAME_READY.m_bat_walkinthedust",
     "battle.ON_GAME_READY.sandbox_2_unexploitedmine": "battle.ON_GAME_READY.act28side1",
-    "sys.ON_ACTIVITY_LOADED.act42sre": "sys.ON_ACTIVITY_LOADED.act42side"
+    "sys.ON_ACTIVITY_LOADED.act42sre": "sys.ON_ACTIVITY_LOADED.act42side",
+    "battle.ON_GAME_READY.crisis_v2_season_5_1_main_challenge": "battle.ON_GAME_READY.crisis_v2_season_5_1_main"
   }
 }

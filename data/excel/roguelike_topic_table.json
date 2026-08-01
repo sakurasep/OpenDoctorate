@@ -2882,6 +2882,30 @@
         "canBeFree": true,
         "uniEquipId": null,
         "recruitType": "FREE"
+      },
+      "char_1015_aglna2": {
+        "charId": "char_1015_aglna2",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4235_thumpy": {
+        "charId": "char_4235_thumpy",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_thumpy",
+        "recruitType": "FREE"
+      },
+      "char_4236_tmslot": {
+        "charId": "char_4236_tmslot",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_tmslot",
+        "recruitType": "FREE"
+      },
+      "char_4237_jcinta": {
+        "charId": "char_4237_jcinta",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_jcinta",
+        "recruitType": "FREE"
       }
     }
   },
@@ -375973,10 +375997,14 @@
           "displayUnlockMonth": 9,
           "acquireTitle": "可获取界面主题",
           "purchaseTitle": "界面主题",
-          "displayName": "界面主题",
+          "displayName": "幽脉",
           "displayDiscription": "襁褓溯游而上，于藤蔓与骸骨的分叉处，仰望未知的生命奇景。",
           "bpLevelId": "bp_level_80",
-          "itemBundle": null,
+          "itemBundle": {
+            "id": "tm_rogue_6",
+            "count": 1,
+            "type": "HOME_THEME"
+          },
           "detailAnnounceTime": "2026/9/1 4:00:00",
           "picIdAftrerUnlock": null
         },
@@ -388432,7 +388460,7 @@
           "id": "rogue_6_feature_light",
           "buffs": [
             {
-              "key": "node_into_reward",
+              "key": "node_finish_reward",
               "blackboard": [
                 {
                   "key": "node",
@@ -388446,6 +388474,11 @@
                 },
                 {
                   "key": "count",
+                  "value": 1.0,
+                  "valueStr": null
+                },
+                {
+                  "key": "per_node",
                   "value": 1.0,
                   "valueStr": null
                 }
@@ -392577,7 +392610,7 @@
                 {
                   "key": "key",
                   "value": 0.0,
-                  "valueStr": "enemy_take_element_damage_up"
+                  "valueStr": "enemy_take_element_damage_up[fix]"
                 },
                 {
                   "key": "damage_scale",
@@ -393952,6 +393985,11 @@
                   "key": "id",
                   "value": 0.0,
                   "valueStr": "rogue_6_bubble_07"
+                },
+                {
+                  "key": "node",
+                  "value": 0.0,
+                  "valueStr": "BATTLE_NORMAL,BATTLE_ELITE,BATTLE_BOSS,BATTLE_SHOP,REST,INCIDENT,WISH,SACRIFICE,EXPEDITION,PORTAL,DUEL,STORY,STORY_HIDDEN,SCRAP_SHOP,FINAL,EVACUATE,EMPLOY,LIGHT,BATTLE_SAVAGE,EMPTY"
                 }
               ]
             }
@@ -394836,7 +394874,7 @@
                 {
                   "key": "key",
                   "value": 0.0,
-                  "valueStr": "enemy_take_element_damage_up"
+                  "valueStr": "enemy_take_element_damage_up[fix]"
                 },
                 {
                   "key": "damage_scale",
@@ -396156,7 +396194,7 @@
                 {
                   "key": "stage_ids",
                   "value": 0.0,
-                  "valueStr": "ro6_c_1,ro6_c_1_b,ro6_c_1_c,ro6_c_2,ro6_c_3,ro6_c_4,ro6_c_5,ro6_c_6,ro6_c_7,ro6_b_1_b,ro6_b_2_b,ro6_b_3_b"
+                  "valueStr": "ro6_c_1,ro6_c_1_b,ro6_c_1_c,ro6_c_2,ro6_c_3,ro6_c_4,ro6_c_5,ro6_c_6,ro6_c_7,ro6_b_1_b,ro6_b_2_b,ro6_b_3_b,ro6_b_4_b"
                 },
                 {
                   "key": "max",
@@ -425020,6 +425058,40 @@
           "usage": null,
           "obtainApproach": null,
           "iconId": "char_4229_aphris",
+          "itemIconGroupId": null,
+          "type": "CHARACTER",
+          "subType": "NONE",
+          "rarity": "SUPER_RARE",
+          "sortId": 999,
+          "canSacrifice": false,
+          "tinyIconColor": null,
+          "unlockCondDesc": null,
+          "shortUsage": null
+        },
+        "char_1015_aglna2": {
+          "id": "char_1015_aglna2",
+          "name": "予愿安洁莉娜",
+          "description": "<$ba.liftoff>起飞</>后能够阻挡2个飞行敌人",
+          "usage": null,
+          "obtainApproach": null,
+          "iconId": "char_1015_aglna2",
+          "itemIconGroupId": null,
+          "type": "CHARACTER",
+          "subType": "NONE",
+          "rarity": "SUPER_RARE",
+          "sortId": 999,
+          "canSacrifice": false,
+          "tinyIconColor": null,
+          "unlockCondDesc": null,
+          "shortUsage": null
+        },
+        "char_4235_thumpy": {
+          "id": "char_4235_thumpy",
+          "name": "珊比",
+          "description": "能够阻挡三个敌人，可以造成元素损伤",
+          "usage": null,
+          "obtainApproach": null,
+          "iconId": "char_4235_thumpy",
           "itemIconGroupId": null,
           "type": "CHARACTER",
           "subType": "NONE",
